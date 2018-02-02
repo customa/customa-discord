@@ -1,5 +1,5 @@
 #app-mount{
-    background: var(--mainBackground) no-repeat!important;
+    background: var(--Color__MainBackground) no-repeat!important;
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover!important;
@@ -8,46 +8,88 @@
 }
 
 :root{
+    /* Test */
     /* --mainBackground: url('https://cdn.discordapp.com/attachments/369474384701947905/407837849799360513/oneshotdesktop4.png');
     --accentColor: rgba(0,0,0,0.3);
     --mainColor1: rgba(0,0,0,0.2);
     --mainColor2: rgba(0,0,0,0);*/
-    --mainBackground: #161616;
-    --selectionColor: rgba(0,0,0,0.3);
-    
-    --mainColor1: #161616!important;
-    --mainColor2: #212121;
+    --Color__MainBackground: #161616;
+    --Color__SelectionColor: rgba(0,0,0,0.2);
+    --Color__AccentColor: #F44336;
+    --Color__MainColor1: #161616!important;
+    --Color__True: #8BC34A;
+    --Color__False: #F44336;
+    --Color__MainColor2: #212121;
+    --Display__EmbedPill: none;
 }
-.app .layer-kosS71, .layers-20RVFW, .container-2OU7Cz, .guilds-wrapper,.channels-3g2vYe, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .channel-members, .channelTextAreaEnabled-c05Zpy .inner-3if5cm{
+.app .layer-kosS71, .layers-20RVFW, .container-2OU7Cz, .guilds-wrapper,.channels-3g2vYe, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .channel-members, .channelTextAreaEnabled-c05Zpy .inner-3if5cm, .friend-table-add-header, [class*='quickswitcher'], [class*='content'], [class*='content']:hover, .modal-3HOjGZ{
     background-color: transparent!important;
     background: none!important;
 }
-.friends-row:hover, .channel.selected, .channel:hover, .tab-bar-item.selected, .tab-bar-item:hover{
-    background: var(--selectionColor)!important;
-    background-color: var(--selectionColor)!important;
+.friends-row:hover, .channel.selected, .channel:hover, .tab-bar-item.selected, .tab-bar-item:hover, .resultFocused-2geRUA, [class*='wrapperSelectedText'], [class*='containerDefault'] [class*='wrapper']:hover{
+    background: var(--Color__SelectionColor)!important;
+    background-color: var(--Color__SelectionColor)!important;
 }
 
-.message-group .comment .markup code{
-    background-color: rgba(0,0,0,0.3)!important;
+.tab-bar-item-primary, .btn, button[type='submit'], [class*='radioGroup'] [style*='background-color: rgb']{
+    background: var(--Color__AccentColor)!important;
+    background-color: var(--Color__AccentColor)!important;
 }
 
-.container-3NvGrL, .chat form{
-    background: var(--mainColor1)!important;
-    background-color: var(--mainColor1)!important;
+[class*='switch'][class*='valueUnchecked']{
+    background-color: var(--Color__False)!important;
+    background: var(--Color__False)!important;
 }
 
-.chat .content .messages-wrapper, .container-RYiLUQ, .ui-standard-sidebar-view .content-region, .private-channels .scroller-fzNley, .friends-table{
-    background: var(--mainColor2)!important;
-    background-color: var(--mainColor2)!important;
+[class*='switch'][class*='valueChecked']{
+    background-color: var(--Color__True)!important;
+    background: var(--Color__True)!important;
 }
 
-.message-group .comment .markup pre, .chat form{
+.container-3NvGrL, .chat form, [class*='quickswitcher'] .input-MwQhcX, [class*='modal'] [class*='footer'], .wrapper-FOHcde, [class*='accountList']{
+    background: var(--Color__MainColor1)!important;
+    background-color: var(--Color__MainColor1)!important;
+}
+
+.chat .content .messages-wrapper, .container-RYiLUQ, .ui-standard-sidebar-view .content-region, .private-channels .scroller-fzNley, .friends-table, [class*='quickswitcher'], .content [class*='flex'][class*='horizontal'][class*='directionRow'][class*='justifyCenter'][class*='alignStretch'][class*='noWrap'], .inner-1_1f7b, [class*='radioGroup'] [style*='background-color: rgb'] [class*='checkbox']{
+    background: var(--Color__MainColor2)!important;
+    background-color: var(--Color__MainColor2)!important;
+}
+
+.message-group .comment .markup code, .search .search-bar{
+    background-color: rgba(0,0,0,0.2)!important;
+    background: rgba(0,0,0,0.2)!important;
+}
+
+[class*='accountBtnInner']{
+    background-color: transparent!important;
+}
+
+[class*='accountBtnInner']{
+    border-color: transparent!important;
+}
+
+[class*='accountBtnInner']:hover{
+    border-color: var(--Color__AccentColor)!important;
+}
+
+.message-group .comment .markup pre, .chat form, .friend-table-add-header, [class*='radioGroup'] [style*='background-color: rgb'], .wrapper-FOHcde, [class*='switch'][class*='value'], [class*='accountList']{
     border: none!important;
     box-shadow: none!important;
 }
 
+[class*='radioGroup'] [class*='checkbox']{
+    border-radius: 0;
+    border-color: var(--Color__AccentColor)!important;
+    outline: none;
+}
+
 .tab-bar-item.selected, .tab-bar-item:hover{
     color: white!important;
+}
+
+[class*='quickswitcher'] a{
+    color: var(--Color__AccentColor)!important;
 }
 
 .attachButtonDivider-3tknGJ{
@@ -56,6 +98,14 @@
 
 .messages-wrapper ~ form [class*='channelTextArea'], .messages-wrapper ~ form, .friends-table{
     margin: 0!important;
+}
+
+[class*='radioGroup'] [style*='background-color: rgb'] [class*='checkbox'] svg g polyline{
+    stroke: var(--Color__AccentColor)!important;
+}
+
+.tab-bar-item{
+    transition: background-color 200ms;
 }
 
 /* Channel Text Area - START */
