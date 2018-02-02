@@ -1,0 +1,39 @@
+#app-mount{
+    background: url('https://cdn.discordapp.com/attachments/369474384701947905/407837849799360513/oneshotdesktop4.png') no-repeat!important;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover!important;
+    width: 100%;
+    height: 100%;
+}
+
+.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW, .container-2OU7Cz, .guilds-wrapper, .channels-3g2vYe, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .chat form, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .friends-table{
+    background-color: transparent!important;
+    background: none!important;
+}
+
+.message-group .comment .markup code{
+    background-color: rgba(0,0,0,0.3)!important;
+}
+
+.message-group .comment .markup pre{
+    border: none;
+}
+
+::-webkit-scrollbar-track-piece{
+    background-color: rgba(0,0,0,0)!important;
+    border: none!important;
+    box-shadow: none!important;
+}
+
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track{
+    border-radius: 0!important;
+    background-color: rgba(0,0,0,0)!important;
+}
+
+::-webkit-scrollbar{
+    width: 5px!important;
+    height: 5px!important;
+    border-radius: 0!important;
+    display: block;
+}
