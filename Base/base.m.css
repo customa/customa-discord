@@ -22,7 +22,7 @@
     --Color__MainColor2: #212121;
     --Display__EmbedPill: none;
 }
-.app .layer-kosS71, .layers-20RVFW, .container-2OU7Cz, .guilds-wrapper,.channels-3g2vYe, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .channel-members, .channelTextAreaEnabled-c05Zpy .inner-3if5cm, .friend-table-add-header, [class*='quickswitcher'], [class*='content'], [class*='content']:hover, .modal-3HOjGZ{
+.app .layer-kosS71, .layers-20RVFW, .container-2OU7Cz, .guilds-wrapper,.channels-3g2vYe, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .channel-members, .channelTextAreaEnabled-c05Zpy .inner-3if5cm, .friend-table-add-header, [class*='quickswitcher'], [class*='content'], [class*='content']:hover, .modal-3HOjGZ, .guilds-add{
     background-color: transparent!important;
     background: none!important;
 }
@@ -31,7 +31,7 @@
     background-color: var(--Color__SelectionColor)!important;
 }
 
-.tab-bar-item-primary, .btn, button[type='submit'], [class*='radioGroup'] [style*='background-color: rgb']{
+.tab-bar-item-primary, .btn, button[type='submit'], [class*='radioGroup'] [style*='background-color: rgb'], .channel.btn-friends.selected{
     background: var(--Color__AccentColor)!important;
     background-color: var(--Color__AccentColor)!important;
 }
@@ -46,12 +46,12 @@
     background: var(--Color__True)!important;
 }
 
-.container-3NvGrL, .chat form, [class*='quickswitcher'] .input-MwQhcX, [class*='modal'] [class*='footer'], .wrapper-FOHcde, [class*='accountList']{
+.container-3NvGrL, .chat form, [class*='quickswitcher'] .input-MwQhcX, [class*='modal'] [class*='footer'], .wrapper-FOHcde, [class*='accountList'], [class*='textAreaEdit']{
     background: var(--Color__MainColor1)!important;
     background-color: var(--Color__MainColor1)!important;
 }
 
-.chat .content .messages-wrapper, .container-RYiLUQ, .ui-standard-sidebar-view .content-region, .private-channels .scroller-fzNley, .friends-table, [class*='quickswitcher'], .content [class*='flex'][class*='horizontal'][class*='directionRow'][class*='justifyCenter'][class*='alignStretch'][class*='noWrap'], .inner-1_1f7b, [class*='radioGroup'] [style*='background-color: rgb'] [class*='checkbox']{
+.chat .content .messages-wrapper, .container-RYiLUQ, .ui-standard-sidebar-view .content-region, .private-channels .scroller-fzNley, .friends-table, [class*='quickswitcher'], .content [class*='flex'][class*='horizontal'][class*='directionRow'][class*='justifyCenter'][class*='alignStretch'][class*='noWrap'], [class*='radioGroup'] [style*='background-color: rgb'] [class*='checkbox'], .modal-3HOjGZ{
     background: var(--Color__MainColor2)!important;
     background-color: var(--Color__MainColor2)!important;
 }
@@ -69,11 +69,11 @@
     border-color: transparent!important;
 }
 
-[class*='accountBtnInner']:hover{
+[class*='accountBtnInner']:hover, .guilds-add{
     border-color: var(--Color__AccentColor)!important;
 }
 
-.message-group .comment .markup pre, .chat form, .friend-table-add-header, [class*='radioGroup'] [style*='background-color: rgb'], .wrapper-FOHcde, [class*='switch'][class*='value'], [class*='accountList']{
+.message-group .comment .markup pre, .chat form, .friend-table-add-header, [class*='radioGroup'] [style*='background-color: rgb'], .wrapper-FOHcde, [class*='switch'][class*='value'], [class*='accountList'], .friend-table-suggestions-header, .title-qAcLxz, .header-1tSljs{
     border: none!important;
     box-shadow: none!important;
 }
@@ -88,7 +88,7 @@
     color: white!important;
 }
 
-[class*='quickswitcher'] a{
+[class*='quickswitcher'] a, .guilds-add-inner, .edit-operation a{
     color: var(--Color__AccentColor)!important;
 }
 
@@ -100,6 +100,10 @@
     margin: 0!important;
 }
 
+.scroller-wrap{
+    margin-bottom: 1%;
+}
+
 [class*='radioGroup'] [style*='background-color: rgb'] [class*='checkbox'] svg g polyline{
     stroke: var(--Color__AccentColor)!important;
 }
@@ -108,41 +112,64 @@
     transition: background-color 200ms;
 }
 
-/* Channel Text Area - START */
-.channelTextAreaEnabled-c05Zpy .inner-3if5cm{
-    margin-bottom: -2px!important;
+.autocomplete-1TnWNR.autocomplete-1LLKUa{
+    z-index: 6;
 }
-.channelTextAreaEnabled-c05Zpy .inner-3if5cm textarea{
+
+.guilds-wrapper{
+    margin-top: -4px!important;
+}
+
+.typing-3eiiL_{
+    background: var(--Color__MainColor1)!important;
+    bottom: 100%;
+    padding-left: 20px;
+    width: auto;
+    padding-right: 20px;
+    padding-top: 0;
+    border-radius: 0 5px 0 0;
+    overflow-y: visible!important;
+	z-index: 5;
+}
+
+/* Channel Text Area - START */
+[class*='channelTextArea'] [class*='inner']{
+    margin-bottom: -2px!important;
+    background-color: transparent;
+}
+[class*='channelTextArea'] [class*='inner'] textarea{
     padding-top: 16px!important;
     padding-bottom: 16px!important;
-    transition: padding-left 200ms!important;
     margin-top: 1px;
 }
-.channelTextAreaEnabled-c05Zpy .inner-3if5cm:hover textarea{
+[class*='channelTextArea']:not([class*='channelTextAreaEnabledNoAttach']):not([class*='channelTextAreaDisabled']):not([class*='channelTextAreaUpload']) [class*='inner'] textarea:not([class*='textAreaEdit']){
+    transition: padding-left 200ms!important;
+}
+[class*='channelTextArea']:not([class*='channelTextAreaEnabledNoAttach']):not([class*='channelTextAreaDisabled']):not([class*='channelTextAreaUpload']) [class*='inner']:hover textarea:not([class*='textAreaEdit']){
     padding-left: 10px!important;
 }
-.channelTextAreaEnabled-c05Zpy .inner-3if5cm .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO{
+[class*='channelTextArea'] [class*='inner'] .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO{
     width: 15px!important;
     margin-top: -2px!important;
     transition: width 200ms, opacity 200ms!important;
     opacity: 0;
 }
-.channelTextAreaEnabled-c05Zpy .inner-3if5cm:hover .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO{
+[class*='channelTextArea'] [class*='inner']:hover .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO{
     width: 40px!important;
     opacity: 1!important;
 }
-.channelTextAreaEnabled-c05Zpy .inner-3if5cm .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO svg{
+[class*='channelTextArea'] [class*='inner'] .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO svg{
     margin: 17px 0 0 12px!important;
 }
-.channelTextAreaEnabled-c05Zpy .emojiButton-38mF6t{
+[class*='channelTextArea'] .emojiButton-38mF6t{
     margin-top: 5px;
 }
-.channelTextAreaEnabled-c05Zpy .inner-3if5cm .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO svg{
+[class*='channelTextArea'] [class*='inner'] .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO svg{
     fill: transparent!important;
     padding: 0;
     background: url('https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/file_upload.svg') 50% no-repeat;
 }
-.channelTextAreaEnabled-c05Zpy .inner-3if5cm .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO svg *{
+[class*='channelTextArea'] [class*='inner'] .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO svg *{
     fill: transparent!important;
 }
 /* Channel Text Area - END -> Scrollbar Fallback Fix - START */
