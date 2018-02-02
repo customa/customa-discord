@@ -1,0 +1,11 @@
+#bd-settingspane-container .content-column::before{
+    white-space: pre;
+    display: block;
+    background-color: var(--accentColor);
+    content: 'Latest Updates:\A\A *Add new variables, because I noticed that people might want to see\A the friends indicator as well\A *Add Update and Variables Module';
+    margin-bottom: 2%;
+    padding: 3%;
+    text-align: center;
+    line-height: 1.1;
+    color: white;
+}
