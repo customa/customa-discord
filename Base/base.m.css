@@ -16,11 +16,17 @@
     --Color__MainBackground: #161616;
     --Color__SelectionColor: rgba(0,0,0,0.2);
     --Color__AccentColor: #F44336;
-    --Color__MainColor1: #161616!important;
+    --Color__MainColor1: #161616;
+    --Color__MainColor2: #212121;
     --Color__True: #8BC34A;
     --Color__False: #F44336;
-    --Color__MainColor2: #212121;
+    --Content__Module__Base: '\A \2022  Base (Base \2192  base.m.css)';
+    --Content__Module__Update: '';
+    --Content__Module__Variables: '';
+    --Content__Variables__Base: 'Base: \A \2022  --Color__MainBackground \2192  Allowed Values: Image/Color\A \2022  --Color__SelectionColor \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3))\A \2022  --Color__AccentColor \2192  Allowed Values: Color\A \2022  --Color__MainColor1 \2192  Allowed Values: Color\A \2022  --Color__MainColor2 \2192  Allowed Values: Color\A \2022  --Color__True \2192  Allowed Values: Color (pref. Green)\A \2022  --Color__False \2192  Allowed Values: Color (pref. Red)\A';
     --Display__EmbedPill: none;
+    --Font__FontFamily: 'Open Sans', sans-serif;
+    --Font__Monospace__FontFamily: 'Fira Code', 'Fira Mono', monospace;
 }
 .app .layer-kosS71, .layers-20RVFW, .container-2OU7Cz, .guilds-wrapper,.channels-3g2vYe, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .channel-members, .channelTextAreaEnabled-c05Zpy .inner-3if5cm, .friend-table-add-header, [class*='quickswitcher'], [class*='content'], [class*='content']:hover, .modal-3HOjGZ, .guilds-add{
     background-color: transparent!important;
@@ -69,7 +75,7 @@
     border-color: transparent!important;
 }
 
-[class*='accountBtnInner']:hover, .guilds-add{
+[class*='accountBtnInner']:hover, .guilds-add, input:focus{
     border-color: var(--Color__AccentColor)!important;
 }
 
@@ -187,3 +193,86 @@
 	z-index: 5;
 }
 /* Typing - END */
+
+
+/* Update Module START */
+:root{
+    --Content__Module__Update: '\A \2022  Update (Base \2192  update.m.css)';
+    --Content__Update: 'The long awaited 2018 rewrite!\A Finally got myself to rewrite the entire theme \\o/ woooo\A Last Update per module: \A \2022  Base Module \2192  Add Basic Functionality\A \2022  Updates Module \2192  Add Module\A \2022  Variables Module \2192  Add Module\A \2022  Settings Module \2192  Add Module w. Auto-Module Detection';
+}
+
+#bd-settingspane-container .content-column::before{
+    white-space: pre;
+    display: block;
+    background-color: var(--Color__AccentColor);
+    border-radius: 8px;
+    content: var(--Content__Update);
+    margin-bottom: 2%;
+    padding: 3%;
+    text-align: center;
+    line-height: 1.1;
+    color: white;
+}
+/* Update Module END */
+
+/* Variables Module START */
+:root{
+    --Content__Module__Variables: '\A \2022  Variables (Base \2192  variables.m.css)';
+}
+
+#bd-customcss-attach-controls::after{
+    white-space: pre;
+    display: block;
+    background-color: var(--Color__SelectionColor);
+    content: 'Variables:\A\A' var(--Content__Variables__Base);
+    margin: 2% -0.8%;
+    border-radius: 0 0 15px 15px;
+    padding: 3%;
+    text-align: center;
+    line-height: 1.1;
+    color: white;
+}
+/* Variables Module END */
+
+/* Settings Module START */
+.userSettingsAccount-2WOnTW::after{
+    margin-top: 2%;
+    white-space: pre;
+    display: block;
+    background-color: var(--Color__AccentColor);
+    border-radius: 8px;
+    content: 'Turtle-Theme - Settings\A\A Installed Modules:' var(--Content__Module__Base) '\A \2022  Settings (Base \2192  settings.m.css)' var(--Content__Module__Update) var(--Content__Module__Variables);
+    margin-bottom: 2%;
+    padding: 3%;
+    text-align: center;
+    line-height: 1.1;
+    color: white;
+}
+/* Settings Module END */
+
+/* Font Module START */
+*{
+    font-family: var(--Font__FontFamily)!important;
+    font-variant: normal!important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.filename{
+    font-size: 15px!important;
+}
+
+.CodeMirror-code *,code,code *,code li *{
+    font-family: var(-var(--Monospace__FontFamily))!important;
+}
+
+.CodeMirror-code span{
+    font-size: 13px!important;
+}
+
+.chat form .typing strong{
+    font-weight:400;
+}
+
+::selection{
+    background: var(--accentMarkColor);
+}
