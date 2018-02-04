@@ -36,7 +36,7 @@
     --Font__FontFamily: 'Comma','Raleway', sans-serif;
     --Font__Monospace__FontFamily: 'Fira Code', 'Fira Mono', monospace;
 }
-.app .layer-kosS71, .layers-20RVFW, .container-2OU7Cz, .guilds-wrapper,.channels-3g2vYe, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .channel-members, .channelTextAreaEnabled-c05Zpy .inner-3if5cm, .friend-table-add-header, [class*='quickswitcher'], [class*='content'], [class*='content']:hover, .modal-3HOjGZ, .guilds-add, .themed-popout, .themed-popout .header, .popout .message-group .action-buttons, .popout .message-group .jump-button, [class*='contextMenu'] [class*='item']:hover, [class*='uploadModal'] [class*='inner'], .channel-members-loading{
+.app .layer-kosS71, .layers-20RVFW, .container-2OU7Cz, .guilds-wrapper,.channels-3g2vYe, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .channel-members, .channelTextAreaEnabled-c05Zpy .inner-3if5cm, .friend-table-add-header, [class*='quickswitcher'], [class*='content'], [class*='content']:hover, .modal-3HOjGZ, .guilds-add, .themed-popout, .themed-popout .header, .popout .message-group .action-buttons, .popout .message-group .jump-button, [class*='contextMenu'] [class*='item']:hover, [class*='uploadModal'] [class*='inner']{
     background-color: transparent!important;
     background: none!important;
 }
@@ -140,6 +140,10 @@
 
 .messages-wrapper .scroller-wrap{
     margin-bottom: 20px;
+}
+
+.channel-members-loading{
+    opacity: 0!important;
 }
 
 [class*='radioGroup'] [style*='background-color: rgb'] [class*='checkbox'] svg g polyline{
@@ -285,189 +289,9 @@
 /* Settings Module END */
 
 /* Font Module START */
-
+@import url('https://rawcdn.githack.com/GhostLordGabi/Discord-Theme/master/Base/font.m.css');
 /* Font Module END */
 
 /* Guilds Wrapper START */
 
-:root{
-    --Content__Module__NewGuilds: '\A \2022  Guilds Wrapper 2.0 ~ Turtle-Theme Devs (Chat \2192  guildsWrapper.m.css)';
-}
-
-.guilds-wrapper{
-    transition: 200ms all!important;
-    width: 20px;
-}
-.guilds-wrapper:hover{
-    transition: 200ms all!important;
-    width: 80px;
-}
-.guilds-wrapper:hover .new-messages-indicator.new-messages-indicator-mention{
-    top: 0;
-    bottom: initial;
-    width: 90%;
-    left: 5%;
-    color: #fff;
-    height: 20px;
-    border-radius: 0 0 4px 4px;
-}
-.guilds-wrapper:hover .new-messages-indicator.new-messages-indicator-mention.bottom{
-    border-radius: 4px 4px 0 0;
-    top: initial;
-    bottom: 0;
-}
-.guilds-wrapper .guild-separator:after{
-    left: 30%;
-}
-.guilds-wrapper .guilds{
-    padding: 18px 0 18px 15px;
-}
-.guilds-wrapper .guilds span.dms .guild{
-    height: 50px;
-}
-.guilds-wrapper .guilds button.guild{
-    width: 50px!important;
-    margin-left: 5px!important;
-}
-.guilds-wrapper .guilds .guild{
-    width: 55px;
-}
-.guilds-wrapper .guilds .guild .badge{
-    left: -13px;
-    width: 5px;
-    background: 0 0;
-    color: var(--Color__AccentColor)!important;
-    font-weight: 300;
-    border: 0;
-    box-shadow: none;
-}
-.guilds-wrapper .guilds .guild.selected:before{
-    height: 20px!important;
-    margin: 0;
-    top: 16px!important;
-    background: var(--Color__AccentColor)!important;
-    left: -7px;
-    width: 5px;
-}
-.guilds-wrapper .guilds .guild.selected.unread:before{
-    height: 20px!important;
-    top: 16px!important;
-}
-.guilds-wrapper .guilds .guild.selected .guild-inner{
-    border-radius: 25px!important;
-}
-.guilds-wrapper .guilds>.guild:first-child{
-    height: 25px;
-}
-.guilds-wrapper .guilds>.guild:first-child:after{
-    content: "DMs";
-    font-size: 12px;
-    font-weight: 600;
-    color: #fff;
-    margin-top: 5px;
-    word-wrap: normal;
-    white-space: normal;
-    width: 100%;
-    line-height: 130%;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.guilds-wrapper .guilds>.guild:first-child .guild-inner{
-    height: 20px!important;
-    background-color: transparent!important;
-}
-.guilds-wrapper .guilds>.guild:first-child .guild-inner a{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 999999;
-    height: 20px;
-}
-.guilds-wrapper .guilds .guild>div:first-child{
-    margin-left: 5px;
-}
-.guilds-wrapper .guilds .guild.unread:before{
-    margin: 0;
-    background: var(--Color__AccentColor)!important;
-    left: -7px;
-    height: 5px;
-    width: 5px;
-    top: 21px;
-}
-.guilds-wrapper .guilds .friends-online{
-    opacity: 0;
-    transition: opacity 200ms;
-}
-.guilds-wrapper:hover .guilds .friends-online{
-    opacity: 1;
-}
-.guilds-wrapper .scroller-wrap{
-    width: 100px!important;
-}
-.guilds-wrapper a:hover{
-    color: var(--Color__AccentColor)!important;
-}
-.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before{
-    height: 9px!important;
-    margin: 0;
-    width: 5px;
-    top: 13px!important;
-    background: #fff;
-    left: 7px;
-}
-.guild-header header{
-    height: 45px;
-    padding: 10px 10px 10px 20px;
-    box-shadow: 0 1px 0 #2d3135,inset 0 -1px 0 rgba(0,0,0,.1)!important;
-}
-.platform-osx .guilds-wrapper{
-    padding-top: 10px;
-}
-.guilds-wrapper .guilds .friends-icon,.osx-buttons,.popout-menu-separator{
-    display: none;
-}
-.new-messages-indicator.new-messages-indicator-mention{
-    color: var(--Color__AccentColor)!important;
-    overflow: hidden;
-    width: 25px;
-    height: 10px;
-    border-radius: 25px;
-    left: -1px;
-    top: 5px;
-    transition: 200ms all!important;
-}
-.new-messages-indicator.new-messages-indicator-mention.bottom{
-    bottom: 5px;
-    top: initial;
-}
-#voice-connection{
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.account{
-    height: 45px;
-}
-.chat>.title-wrap{
-    min-height: 45px;
-}
-.message-group{
-    padding: 15px 0;
-}
-.guild-inner{
-    background-color: rgba(0,0,0,0)!important;
-    border-radius: 0!important;
-}
-.guild-inner a{
-    transition: 200ms color!important;
-    border-radius: 50%!important;
-}
-/*Unsorted*/
-.guild a[style*='background-image:']{
-    filter: grayscale(100%)!important;
-    transition: filter 400ms!important;
-}
-.guild.selected a[style*='background-image:'], .guild:hover a[style*='background-image:']{
-    filter: grayscale(0%)!important;
-}
+/* Guilds Wrapper END */
