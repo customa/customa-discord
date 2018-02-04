@@ -1,0 +1,16 @@
+:root{
+    --Content__Module__Variables: '\A \2022  Variables ~ Turtle-Theme Devs (Base \2192  variables.m.css)';
+}
+
+#bd-customcss-attach-controls::after{
+    white-space: pre;
+    display: block;
+    background-color: var(--Color__SelectionColor);
+    content: 'Variables:\A\A' var(--Content__Variables__Base);
+    margin: 2% -0.8%;
+    border-radius: 0 0 15px 15px;
+    padding: 3%;
+    text-align: center;
+    line-height: 1.1;
+    color: white;
+}

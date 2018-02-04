@@ -99,7 +99,6 @@
 }
 .guilds-wrapper .guilds .guild.unread:before{
     margin: 0;
-    background: var(--Color__AccentColor)!important;
     left: -7px;
     height: 5px;
     width: 5px;

@@ -45,7 +45,7 @@
     background-color: var(--Color__SelectionColor)!important;
 }
 
-.tab-bar-item-primary, .btn, button[type='submit'], [class*='radioGroup'] [style*='background-color: rgb'], .channel.btn-friends.selected, .divider-red div, .new-messages-bar, .checkbox .checkbox-inner input[type=checkbox]:checked+span, .need-help-modal.deprecated .header, .unread-mentions-bar, button[class*='buttonFilled'], [class*='itemSelected'], .guild:first-child.active .guild-inner, [class*='channels'] [class*='wrapper'] [class*='unread'], #bd-settings-sidebar .selected, .bd-pfbtn, .bda-settings-button{
+.tab-bar-item-primary, .btn, button[type='submit'], [class*='radioGroup'] [style*='background-color: rgb'], .channel.btn-friends.selected, .divider-red div, .new-messages-bar, .checkbox .checkbox-inner input[type=checkbox]:checked+span, .need-help-modal.deprecated .header, .unread-mentions-bar, button[class*='buttonFilled'], [class*='itemSelected'], .guild:first-child.active .guild-inner, [class*='channels'] [class*='wrapper'] [class*='unread'], #bd-settings-sidebar .selected, .bd-pfbtn, .bda-settings-button, .guilds-wrapper .guilds .guild.unread:before{
     background: var(--Color__AccentColor)!important;
     background-color: var(--Color__AccentColor)!important;
 }
@@ -95,7 +95,7 @@
     border-color: var(--Color__MainColor1)!important;
 }
 
-.message-group .comment .markup pre, .chat form, .friend-table-add-header, [class*='radioGroup'] [style*='background-color: rgb'], .wrapper-FOHcde, [class*='switch'][class*='value'], [class*='accountList'], .friend-table-suggestions-header, .title-qAcLxz, .header-1tSljs, [class*='embedInner'], .has-more button, .themed-popout .header, .popout .message-group, .popout .message-group .action-buttons, .need-help-modal.deprecated .footer, .need-help-modal.deprecated .header input[type=text], .accessory [class*='wrapper'][class*='userSelectNone'], .tools .btn-close{
+.message-group .comment .markup pre, .chat form, .friend-table-add-header, [class*='radioGroup'] [style*='background-color: rgb'], .wrapper-FOHcde, [class*='switch'][class*='value'], [class*='accountList'], .friend-table-suggestions-header, .title-qAcLxz, .header-1tSljs, [class*='embedInner'], .has-more button, .themed-popout .header, .popout .message-group, .popout .message-group .action-buttons, .need-help-modal.deprecated .footer, .need-help-modal.deprecated .header input[type=text], .accessory [class*='wrapper'][class*='userSelectNone'], .tools .btn-close, #bd-customcss-detach-controls-button .btn{
     border: none!important;
     box-shadow: none!important;
 }
@@ -266,22 +266,7 @@
 /* Update Module END */
 
 /* Variables Module START */
-:root{
-    --Content__Module__Variables: '\A \2022  Variables ~ Turtle-Theme Devs (Base \2192  variables.m.css)';
-}
 
-#bd-customcss-attach-controls::after{
-    white-space: pre;
-    display: block;
-    background-color: var(--Color__SelectionColor);
-    content: 'Variables:\A\A' var(--Content__Variables__Base);
-    margin: 2% -0.8%;
-    border-radius: 0 0 15px 15px;
-    padding: 3%;
-    text-align: center;
-    line-height: 1.1;
-    color: white;
-}
 /* Variables Module END */
 
 /* Settings Module START */
@@ -293,5 +278,5 @@
 /* Font Module END */
 
 /* Guilds Wrapper START */
-
+@import url('https://rawcdn.githack.com/GhostLordGabi/Discord-Theme/master/Chat/guildsWrapper.m.css');
 /* Guilds Wrapper END */
