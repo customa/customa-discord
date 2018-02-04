@@ -36,26 +36,26 @@
     --Font__FontFamily: 'Comma','Raleway', sans-serif;
     --Font__Monospace__FontFamily: 'Fira Code', 'Fira Mono', monospace;
 }
-.app .layer-kosS71, .layers-20RVFW, .container-2OU7Cz, .guilds-wrapper,.channels-3g2vYe, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .channel-members, .channelTextAreaEnabled-c05Zpy .inner-3if5cm, .friend-table-add-header, [class*='quickswitcher'], [class*='content'], [class*='content']:hover, .modal-3HOjGZ, .guilds-add, .themed-popout, .themed-popout .header, .popout .message-group .action-buttons, .popout .message-group .jump-button, [class*='contextMenu'] [class*='item']:hover{
+.app .layer-kosS71, .layers-20RVFW, .container-2OU7Cz, .guilds-wrapper,.channels-3g2vYe, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .channel-members, .channelTextAreaEnabled-c05Zpy .inner-3if5cm, .friend-table-add-header, [class*='quickswitcher'], [class*='content'], [class*='content']:hover, .modal-3HOjGZ, .guilds-add, .themed-popout, .themed-popout .header, .popout .message-group .action-buttons, .popout .message-group .jump-button, [class*='contextMenu'] [class*='item']:hover, [class*='uploadModal'] [class*='inner'], .channel-members-loading{
     background-color: transparent!important;
     background: none!important;
 }
-.friends-row:hover, .channel.selected, .channel:hover, #friends .tab-bar-item.selected, #friends .tab-bar-item:hover, .resultFocused-2geRUA, [class*='wrapperSelectedText'], [class*='containerDefault'] [class*='wrapper']:hover, .member:hover, .member.popout-open, [class*='itemDefault']:hover{
+.friends-row:hover, .channel.selected, .channel:hover, #friends .tab-bar-item.selected, #friends .tab-bar-item:hover, .resultFocused-2geRUA, [class*='wrapperSelectedText'], [class*='containerDefault'] [class*='wrapper']:hover, .member:hover, .member.popout-open, [class*='itemDefault']:hover, #bd-settings-sidebar .ui-tab-bar-item:not(.selected):hover{
     background: var(--Color__SelectionColor)!important;
     background-color: var(--Color__SelectionColor)!important;
 }
 
-.tab-bar-item-primary, .btn, button[type='submit'], [class*='radioGroup'] [style*='background-color: rgb'], .channel.btn-friends.selected, .divider-red div, .new-messages-bar, .checkbox .checkbox-inner input[type=checkbox]:checked+span, .need-help-modal.deprecated .header, .unread-mentions-bar, button[class*='buttonFilled'], [class*='itemSelected'], .guild:first-child.active .guild-inner, [class*='channels'] [class*='wrapper'] [class*='unread']{
+.tab-bar-item-primary, .btn, button[type='submit'], [class*='radioGroup'] [style*='background-color: rgb'], .channel.btn-friends.selected, .divider-red div, .new-messages-bar, .checkbox .checkbox-inner input[type=checkbox]:checked+span, .need-help-modal.deprecated .header, .unread-mentions-bar, button[class*='buttonFilled'], [class*='itemSelected'], .guild:first-child.active .guild-inner, [class*='channels'] [class*='wrapper'] [class*='unread'], #bd-settings-sidebar .selected, .bd-pfbtn, .bda-settings-button{
     background: var(--Color__AccentColor)!important;
     background-color: var(--Color__AccentColor)!important;
 }
 
-[class*='switch'][class*='valueUnchecked'], [class*='denySelected']{
+[class*='switch'][class*='valueUnchecked'], [class*='denySelected'], #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch{
     background-color: var(--Color__False)!important;
     background: var(--Color__False)!important;
 }
 
-[class*='switch'][class*='valueChecked'], [class*='allowSelected']{
+[class*='switch'][class*='valueChecked'], [class*='allowSelected'], #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked{
     background-color: var(--Color__True)!important;
     background: var(--Color__True)!important;
 }
@@ -110,7 +110,7 @@
     color: white!important;
 }
 
-[class*='quickswitcher'] a, .guilds-add-inner, .edit-operation a, .has-more button, .divider-red span, .popout .message-group .jump-button .text, .tab-bar.TOP .tab-bar-item.selected, [class*='contextMenu'] [class*='item']:hover, .need-help-modal a, [class*='contextMenu'] [class*='item'] [class*='danger'], .ui-standard-sidebar-view a{
+[class*='quickswitcher'] a, .guilds-add-inner, .edit-operation a, .has-more button, .divider-red span, .popout .message-group .jump-button .text, .tab-bar.TOP .tab-bar-item.selected, [class*='contextMenu'] [class*='item']:hover, .need-help-modal a, [class*='contextMenu'] [class*='item'] [class*='danger'], .ui-standard-sidebar-view a, [class*='modal'] [class*='inner'] a{
     color: var(--Color__AccentColor)!important;
 }
 
@@ -236,7 +236,7 @@
     padding-top: 0;
     border-radius: 5px 5px 0 0;
     overflow-y: visible!important;
-	z-index: 5;
+    z-index: 5;
 }
 /* Typing - END */
 
@@ -281,35 +281,11 @@
 /* Variables Module END */
 
 /* Settings Module START */
-
+@import url('https://rawcdn.githack.com/GhostLordGabi/Discord-Theme/master/Base/settings.m.css');
 /* Settings Module END */
 
 /* Font Module START */
-*{
-    font-family: var(--Font__FontFamily)!important;
-    font-variant: normal!important;
-    -webkit-font-smoothing: antialiased;
-}
 
-.filename{
-    font-size: 15px!important;
-}
-
-.CodeMirror-code *,code,code *,code li *, code.inline{
-    font-family: var(--Font__Monospace__FontFamily)!important;
-}
-
-.CodeMirror-code span{
-    font-size: 13px!important;
-}
-
-.chat form .typing strong{
-    font-weight:400;
-}
-
-::selection{
-    background: var(--Color__SelectionColor);
-}
 /* Font Module END */
 
 /* Guilds Wrapper START */

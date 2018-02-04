@@ -1,0 +1,25 @@
+*{
+    font-family: var(--Font__FontFamily)!important;
+    font-variant: normal!important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.filename{
+    font-size: 15px!important;
+}
+
+.CodeMirror-code *,code,code *,code li *, code.inline{
+    font-family: var(--Font__Monospace__FontFamily)!important;
+}
+
+.CodeMirror-code span{
+    font-size: 13px!important;
+}
+
+.chat form .typing strong{
+    font-weight:400;
+}
+
+::selection{
+    background: var(--Color__SelectionColor);
+}
