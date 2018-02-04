@@ -1,3 +1,8 @@
+:root{
+    --Content__Module__Font: '\A \2022  Fonts ~ Turtle-Theme Devs (Base \2192  font.m.css)';
+    --Content__Variables__Font: 'Font: \A \2022  --Font__FontFamily \2192  Allowed Values: Installed Fonts/Webfonts (pref. Sans-Serif)\A \2022  --Font__Monospace__FontFamily \2192  Allowed Values: Installed Fonts/Webfonts (pref. Monospace)';
+}
+
 *{
     font-family: var(--Font__FontFamily)!important;
     font-variant: normal!important;
