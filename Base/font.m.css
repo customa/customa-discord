@@ -1,6 +1,8 @@
 :root{
     --Content__Module__Font: '\A \2022  Fonts ~ Turtle-Theme Devs (Base \2192  font.m.css)';
     --Content__Variables__Font: 'Font: \A \2022  --Font__FontFamily \2192  Allowed Values: Installed Fonts/Webfonts (pref. Sans-Serif)\A \2022  --Font__Monospace__FontFamily \2192  Allowed Values: \A Installed Fonts/Webfonts (pref. Monospace)';
+    --Font__FontFamily: 'Comma','Raleway', sans-serif;
+    --Font__Monospace__FontFamily: 'Fira Code', 'Fira Mono', monospace;
 }
 
 *{
@@ -27,4 +29,11 @@
 
 ::selection{
     background: var(--Color__SelectionColor);
+}
+
+@font-face{
+    font-family: 'Comma';
+    src: local('Open Sans'), url('https://fonts.googleapis.com/css?family=Open+Sans');
+    unicode-range: U+2A, U+2C, U+2E, U+3A, U+3B, U+5F, U+60, U+B0, U+B4;
+    font-weight: 100;
 }
