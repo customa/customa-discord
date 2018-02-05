@@ -1,0 +1,7 @@
+.contentDefaultText-2elG3R svg, .contentHoveredText-2HYGIY svg, .contentMutedText-Lcl-Wj svg, .contentSelectedText-3j5CXt svg, .contentUnreadText-3oxASB svg{
+    display: var(--displayTextChannelIcon)!important;
+}
+
+[class*='wrapperDefaultVoice'] svg{
+    display: var(--displayVoiceChannelIcon)!important;
+}

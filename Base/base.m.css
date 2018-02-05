@@ -1,11 +1,3 @@
-@font-face{
-    font-family: 'Comma';
-    src: local('Open Sans'), url('https://fonts.googleapis.com/css?family=Open+Sans');
-    unicode-range: U+2A, U+2C, U+2E, U+3A, U+3B, U+5F, U+60, U+B0, U+B4;
-    font-weight: 100;
-}
-
-
 #app-mount{
     background: var(--Color__MainBackground) no-repeat!important;
     background-repeat: no-repeat;
@@ -13,37 +5,6 @@
     background-size: cover!important;
     width: 100%;
     height: 100%;
-}
-
-:root{
-    /* Test */
-    /* --mainBackground: url('https://cdn.discordapp.com/attachments/369474384701947905/407837849799360513/oneshotdesktop4.png');
-    --accentColor: rgba(0,0,0,0.3);
-    --mainColor1: rgba(0,0,0,0.2);
-    --mainColor2: rgba(0,0,0,0);*/
-    --Color__MainBackground: #161616;
-    --Color__SelectionColor: rgba(0,0,0,0.2);
-    --Color__AccentColor: #F44336;
-    --Color__MainColor1: #161616;
-    --Color__MainColor2: #212121;
-    --Color__True: #8BC34A;
-    --Color__False: #F44336;
-
-    --Content__Module__Base: '\A \2022  Base ~ Turtle-Theme Devs (Base \2192  base.m.css)';
-    --Content__Module__BaseSupportedPlugs: '\A\A Support for BD-Plugins: \A \21B3  Date Viewer ~ hammy (share some luv plox <3)';
-    --Content__Module__Font: '';
-    --Content__Module__Update: '';
-    --Content__Module__Variables: '';
-    --Content__Module__NewGuilds: '';
-    --Content__Module__ChannelDivider: '';
-    
-    --Content__Variables__Base: 'Base: \A \2022  --Color__MainBackground \2192  Allowed Values: Image/Color\A \2022  --Color__SelectionColor \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3))\A \2022  --Color__AccentColor \2192  Allowed Values: Color\A \2022  --Color__MainColor1 \2192  Allowed Values: Color\A \2022  --Color__MainColor2 \2192  Allowed Values: Color\A \2022  --Color__True \2192  Allowed Values: Color (pref. Green)\A \2022  --Color__False \2192  Allowed Values: Color (pref. Red)\A';
-    --Content__Variables__Font: '';
-    
-    --Display__EmbedPill: none;
-    
-    --Font__FontFamily: 'Comma','Raleway', sans-serif;
-    --Font__Monospace__FontFamily: 'Fira Code', 'Fira Mono', monospace;
 }
 
 .app .layer-kosS71, .layers-20RVFW, .container-2OU7Cz, .guilds-wrapper,.channels-3g2vYe, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .channel-members, .channelTextAreaEnabled-c05Zpy .inner-3if5cm, .friend-table-add-header, [class*='quickswitcher'], [class*='content'], [class*='content']:hover, .modal-3HOjGZ, .guilds-add, .themed-popout, .themed-popout .header, .message-group .action-buttons, .message-group .jump-button, [class*='contextMenu'] [class*='item']:hover, [class*='uploadModal'] button:not(.button-primary), .search-popout .option:after, .search-popout .option.selected, [class*='searchAnswer'], .search-results-wrap .search-header, .search-results-wrap .search-result:before, .search-results-wrap .search-result:after, .popout [class*='menu'] [class*='item'], [class*='autocompleteRowVertical'] [class*='selectorSelected'], [class*='instantInviteModal'] [class*='form'], [class*='clipboardInputInner'] button:before, [class*='instantInviteModal'] .btn-default, [class*='emojiPicker'] .search-bar{
@@ -280,5 +241,11 @@
 
 
 /* New Channel Divider START */
+.contentDefaultText-2elG3R svg, .contentHoveredText-2HYGIY svg, .contentMutedText-Lcl-Wj svg, .contentSelectedText-3j5CXt svg, .contentUnreadText-3oxASB svg{
+    display: var(--Display__TextChannelIcon)!important;
+}
 
+[class*='wrapperDefaultVoice'] svg{
+    display: var(--Display__VoiceChannelIcon)!important;
+}
 /* New Channel Divider END */
