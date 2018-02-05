@@ -1,0 +1,32 @@
+:root{
+    --Content__Module__ChannelDivider: '\A \2022  Channel Divider ~ Turtle-Theme Devs (Chat \2192  channelDivider.m.css)';
+}
+
+[class*=channels] [class*=scroller] [class*=container] [class*=containerDefault] [class*=justifyStart][class*=alignStart][class*=noWrap][class*=wrapper] *{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: #fff!important;
+  opacity: 0.3;
+  transition: .2s opacity ease-in-out!important;
+}
+
+[class*=channels] [class*=scroller] [class*=container] [class*=containerDefault] [class*=justifyStart][class*=alignStart][class*=noWrap][class*=wrapper]:hover *{
+  opacity: 0.8;
+}
+
+[class*=channels] [class*=scroller] [class*=container] [class*=containerDefault] [class*=justifyStart][class*=alignStart][class*=noWrap][class*=wrapper] [class*=name]::before, [class*=channels] [class*=scroller] [class*=container] [class*=containerDefault] [class*=justifyStart][class*=alignStart][class*=noWrap][class*=wrapper] [class*=name]::after{
+  content: "";
+  width: 100%;
+  vertical-align: middle;
+  height: 1px;
+  background: #eee;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+[class*=channels] [class*=scroller] [class*=container-] [class*=containerDefault]:first-child{
+    padding: 2%;
+}

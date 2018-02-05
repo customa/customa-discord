@@ -4,7 +4,7 @@
     display: block;
     background-color: var(--Color__AccentColor);
     border-radius: 8px;
-    content: 'Turtle-Theme - Settings\A\A Installed Modules:' var(--Content__Module__Base) '\A \2022  Settings ~ Turtle-Theme Devs (Base \2192  settings.m.css)' var(--Content__Module__Update) var(--Content__Module__Variables) var(--Content__Module__NewGuilds) var(--Content__Module__Font);
+    content: 'Turtle-Theme - Settings\A\A Installed Modules:' var(--Content__Module__Base) '\A \2022  Settings ~ Turtle-Theme Devs (Base \2192  settings.m.css)' var(--Content__Module__Update) var(--Content__Module__Variables) var(--Content__Module__NewGuilds) var(--Content__Module__Font) var(--Content__Module__BaseSupportedPlugs);
     margin-bottom: 2%;
     padding: 3%;
     text-align: center;
