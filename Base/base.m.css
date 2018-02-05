@@ -270,18 +270,3 @@
     z-index: 5;
 }
 /* Typing - END */
-
-:root{
-    --Display__TextChannelIcon: none;
-    --Display__VoiceChannelIcon: none;
-}
-
-/* New Channel Divider START */
-[class*='channels'] svg[class*='Text']{
-    display: var(--Display__TextChannelIcon)!important;
-}
-
-[class*='channels'] svg[class*='Voice']{
-    display: var(--Display__VoiceChannelIcon)!important;
-}
-/* New Channel Divider END */

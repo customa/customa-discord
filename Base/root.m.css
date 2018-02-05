@@ -15,13 +15,15 @@
     --Content__Module__Base: '\A \2022  Base ~ Turtle-Theme Devs (Base \2192  base.m.css)';
     --Content__Module__BaseSupportedPlugs: '\A\A Support for BD-Plugins: \A \21B3  Date Viewer ~ hammy (share some luv plox <3)';
     --Content__Module__ChannelDivider: '';
+    --Content__Module__DisplayChannelIcon: '';
     --Content__Module__Font: '';
     --Content__Module__NewGuilds: '';
     --Content__Module__Update: '';
     --Content__Module__Variables: '';
     
-    --Content__Variables__Base: 'Base: \A \2022  --Color__MainBackground \2192  Allowed Values: Image/Color\A \2022  --Color__SelectionColor \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3))\A \2022  --Color__AccentColor \2192  Allowed Values: Color\A \2022  --Color__MainColor1 \2192  Allowed Values: Color\A \2022  --Color__MainColor2 \2192  Allowed Values: Color\A \2022  --Color__True \2192  Allowed Values: Color (pref. Green)\A \2022  --Color__False \2192  Allowed Values: Color (pref. Red)\A';
+    --Content__Variables__Base: 'Base: \A \2022  --Color__MainBackground \2192  Allowed Values: Image/Color\A \2022  --Color__SelectionColor \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3))\A \2022  --Color__AccentColor \2192  Allowed Values: Color\A \2022  --Color__MainColor1 \2192  Allowed Values: Color\A \2022  --Color__MainColor2 \2192  Allowed Values: Color\A \2022  --Color__True \2192  Allowed Values: Color (pref. Green)\A \2022  --Color__False \2192  Allowed Values: Color (pref. Red)';
     --Content__Variables__Font: '';
+    --Content__Variables__DisplayChannelIcon: '';
     
     --Display__EmbedPill: none;
 }

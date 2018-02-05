@@ -6,7 +6,7 @@
     white-space: pre;
     display: block;
     background-color: var(--Color__SelectionColor);
-    content: 'Variables:\A\A' var(--Content__Variables__Base) var(--Content__Variables__Font);
+    content: 'Variables:\A\A' var(--Content__Variables__Base) var(--Content__Variables__Font) var(--Content__Variables__DisplayChannelIcon);
     margin: 2% -0.8%;
     border-radius: 0 0 15px 15px;
     padding: 3%;

@@ -1,7 +1,16 @@
-.contentDefaultText-2elG3R svg, .contentHoveredText-2HYGIY svg, .contentMutedText-Lcl-Wj svg, .contentSelectedText-3j5CXt svg, .contentUnreadText-3oxASB svg{
-    display: var(--displayTextChannelIcon)!important;
+:root{
+    --Content__Module__DisplayChannelIcon: '\A \2022  Channel Icon ~ Turtle-Theme Devs (Chat \2192  displayChannelIcon.m.css)';
+    --Content__Variables__DisplayChannelIcon: '\A Display Channel Icon: \A \2022  --Display__TextChannelIcon \2192  Allowed Values: none/block\A \2022  --Display__VoiceChannelIcon \2192  Allowed Values: none/block';
+    --Display__TextChannelIcon: none;
+    --Display__VoiceChannelIcon: none;
 }
 
-[class*='wrapperDefaultVoice'] svg{
-    display: var(--displayVoiceChannelIcon)!important;
+/* New Channel Divider START */
+[class*='channels'] svg[class*='Text']{
+    display: var(--Display__TextChannelIcon)!important;
 }
+
+[class*='channels'] svg[class*='Voice']{
+    display: var(--Display__VoiceChannelIcon)!important;
+}
+/* New Channel Divider END */
