@@ -1,0 +1,13 @@
+:root{
+    --Content__Module__SidebarMods: '\A \2022  SidebarMods ~ Turtle-Theme Devs (Sidebar \2192  sidebarModifier.m.css)';
+}
+
+.channel-members-wrap{
+    width: 20px!important;
+    min-width: 20px;
+    transition: width 400ms;
+}
+
+.channel-members-wrap:hover{
+    width: 240px!important;
+}
