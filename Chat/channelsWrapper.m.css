@@ -1,0 +1,74 @@
+:root{
+    --Content__Module__ChannelsWrapper: '\A \2022  Channels Wrapper 2.0 ~ Turtle-Theme Devs (Chat \2192  channelsWrapper.m.css)';
+}
+
+.private-channels .channel, .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault']{
+    min-width: 60px;
+}
+
+.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='name']{
+    margin-left: 8px;
+}
+
+.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='content']{
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.private-channels [class*='scrollerWrap'] [class*='scroller'], [class*='channels'] [class*='scrollerWrap'] [class*='scroller']{
+    overflow: visible;
+}
+
+.private-channels .channel, .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='wrapper']{
+    padding-left: 2px;
+}
+
+.channel.btn-friends svg{
+    min-width: 24px;
+    margin-left: 4px;
+}
+
+.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe{
+    width: 60px;
+    transition: width 400ms;
+    border-right: 2px solid var(--Color__MainColor1);
+}
+
+.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='container'] .avatar-small{
+    margin-left: 8px;
+}
+
+[class*='container'] [class*='Voice'] ~ [class*='list']{
+    margin-left: -11px;
+}
+
+[class*='container'] [class*='Voice'] ~ [class*='list'] [class*='name']{
+    margin-left: 14px!important;
+}
+
+.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='header'] [class*='button']{
+    margin: 0 20% 0 0;
+    transition: margin 400ms, transform .2s ease, -webkit-transform .2s ease;
+}
+
+.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe:hover [class*='header'] [class*='button']{
+    margin: 0 0 0 4px;
+}
+
+.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe .search-bar, .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='header'] [class*='name'], .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe header:not([class*='header']), .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='cursorPointer']{
+    opacity: 0;
+    transition: 200ms all;
+}
+
+.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe:hover .search-bar, 
+.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe:hover [class*='header'] [class*='name'], .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe:hover header, .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe:hover [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='cursorPointer']{
+    opacity: 1;
+}
+
+.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='container'] [class*='content'] svg{
+    width: 30px;
+}
+
+.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe:hover{
+    width: 240px;
+}
