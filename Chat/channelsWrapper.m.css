@@ -16,7 +16,9 @@
 }
 
 .private-channels [class*='scrollerWrap'] [class*='scroller'], [class*='channels'] [class*='scrollerWrap'] [class*='scroller']{
-    overflow: visible;
+    overflow-y: visible!important;
+    overflow-x: scroll!important;
+
 }
 
 .private-channels .channel, .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='wrapper']{
