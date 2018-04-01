@@ -1,0 +1,9 @@
+:root{
+    --Content__Module__JumboMoji: '\A \2022  Jumbo Emojis ~ Customa Devs (Emoji \2192  jumboMoji.m.css)';
+    --Size__EmoteSize: 50px;
+}
+
+.emoji.jumboable{
+    width: var(--Size__EmoteSize)!important;
+    height: var(--Size__EmoteSize)!important;
+}
