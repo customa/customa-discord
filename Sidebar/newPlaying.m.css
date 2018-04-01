@@ -1,0 +1,18 @@
+:root{
+    --Content__Module__NewPlaying: '\A \2022  New Playing Messages ~ Customa Devs (Sidebar \2192  newPlaying.m.css)';
+}
+
+[class*='activityText'], .friend-activity-text{
+    visibility:hidden;
+    letter-spacing:-10px;
+}
+
+[class*='activityText'] strong, .friend-activity-text strong{
+    visibility:visible;
+    letter-spacing:0;
+}
+
+[class*='activityText'] strong:before, .friend-activity-text strong:before{
+    content:"\1F3AE  ";
+    -webkit-filter:brightness(700%);
+}
