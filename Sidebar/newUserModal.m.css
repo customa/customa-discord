@@ -1,0 +1,40 @@
+:root{
+    --Content__Module__NewUserModal: '\A \2022  New User Modal ~ Customa Devs (Sidebar \2192  newUserModal.m.css)';
+}
+
+[class*='topSection'] [class*='avatar'] [class*='status'] {
+    border: none!important;
+    box-shadow: none!important;
+    border-radius: 0;
+    width: 600px;
+    height: 340px;
+    visibility: visible!important;
+    -webkit-filter: brightness(90%)!important;
+    right: -490px;
+    bottom: -230px;
+    z-index: -2;
+}
+
+[class*='topSection'] [class*='avatar'] a:hover [class*='image']::before {
+    background-color: rgba(0, 0, 0, .5);
+    content: 'view profile\A picture';
+    text-transform: uppercase;
+    white-space: pre;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 100%;
+    width: 91px;
+    padding: 40.5% 0;
+    text-align: center;
+    display: block;
+}
+
+[class*='topSection'], [class*='topSection'] [class*='activity'] [class*='body']{
+    background: none!important;
+}
+
+[class*='topSection'] button, [class*='topSection'] [class*='botTag']{
+    background-color: rgba(0, 0, 0, .2)!important;
+    color: white!important;
+}
