@@ -37,3 +37,21 @@
 [class*='userPopout'] {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .5)!important;
 }
+
+[class*='userPopout'] [class*='headerText'] [class*='botTag'] {
+    background-color: rgba(0, 0, 0, .2)!important;
+    color: white!important;
+}
+
+[class*='userPopout'] [class*='headerText'] * {
+    color: #fff!important;
+}
+
+[class*='userPopout'] [class*='headerText'] [class*='headerName'] {
+    font-size: 20px!important;
+    line-height: 27px!important;
+}
+
+[class*='userPopout'] [class*='body'], [class*='userPopout'] [class*='footer']{
+    background-color: var(--Color__MainColor1)!important;
+}
