@@ -1,0 +1,70 @@
+:root{
+    --Content__Module__StatusCircles: '\A \2022  Status Circles ~ Customa Devs (Sidebar \2192  statusCircles.m.css)';
+}
+
+[class*='avatar'] [class*='status']{
+    width: calc(100% + 4px) !important;
+    height: calc(100% + 4px) !important;
+    background: transparent !important;
+    border-radius: 50% !important;
+    top: -4px !important;
+    left: -4px !important;
+    border: 2px solid transparent !important;
+}
+
+[class*='avatar'] [class*='Online'], [class*='avatar'] [class*='online']{
+    border-left-color: #43b581 !important;
+}
+
+[class*='avatar'] [class*='Idle'], [class*='avatar'] [class*='idle']{
+    border-left-color: #faa61a !important;
+}
+
+[class*='avatar'] [class*='Dnd'], [class*='avatar'] [class*='dnd']{
+    border-left-color: #F44336 !important;
+}
+
+[class*='avatar'] [class*='Streaming'] {
+    border-left-color: #643da7 !important;
+}
+
+[class*='avatar'] [class*='Offline'], [class*='avatar'] [class*='offline'],
+[class*='avatar'] [class*='Invisible'], [class*='avatar'] [class*='invisible']{
+    border-left-color: #747f8d !important;
+}
+
+[class*='membersWrap'] [class*='avatar'] [class*='image'], [class*='listRow'] [class*='mask']{
+    mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskmemWrap.svg')!important;
+    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskmemWrap.svg')!important;
+}
+
+[class*='userPopout'] [class*='mask'], [class*='maskProfile']{
+    mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskUserPop.svg')!important;
+    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskUserPop.svg')!important;
+}
+
+[class*='avatar'] [class*='Typing'] [class*='spinner'], [class*='avatar'] [class*='typing'] [class*='spinner']{
+    animation-name: typing-animation!important;
+    animation-duration: 1s!important;
+    animation-iteration-count: infinite!important; 
+    animation-direction: alternate!important;
+    margin-top: 1px !important;
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50% !important;
+}
+
+@-webkit-keyframes typing-animation {
+    from{
+        background-color: rgba(0,0,0,0);
+    }to{
+        background-color: rgba(0,0,0,0.7);
+    }
+}
+@keyframes typing-animation {
+    from{
+        background-color: rgba(0,0,0,0);
+    }to{
+        background-color: rgba(0,0,0,0.7);
+    }
+}
