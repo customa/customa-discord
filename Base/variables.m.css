@@ -5,7 +5,7 @@
 #bd-customcss-attach-controls::after{
     white-space: pre;
     display: block;
-    content: 'Variables:\A\A' var(--Content__Variables__Base) var(--Content__Variables__Font) var(--Content__Variables__DisplayChannelIcon) var(--Content__Variables__LoginBGChanger) var(--Content__Variables__JumboMoji);
+    content: 'Variables:\A\A' var(--Content__Variables__Base) var(--Content__Variables__Font) var(--Content__Variables__DisplayChannelIcon) var(--Content__Variables__JumboMoji) var(--Content__Variables__LoginBGChanger);
     margin: 2% -0.8%;
     border-radius: 0 0 15px 15px;
     padding: 3%;
