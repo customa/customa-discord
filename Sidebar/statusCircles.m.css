@@ -33,16 +33,6 @@
     border-left-color: #747f8d !important;
 }
 
-[class*='membersWrap'] [class*='avatar'] [class*='image'], [class*='listRow'] [class*='mask']{
-    mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskmemWrap.svg')!important;
-    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskmemWrap.svg')!important;
-}
-
-[class*='userPopout'] [class*='mask'], [class*='maskProfile']{
-    mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskUserPop.svg')!important;
-    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskUserPop.svg')!important;
-}
-
 [class*='avatar'] [class*='Typing'] [class*='spinner'], [class*='avatar'] [class*='typing'] [class*='spinner']{
     animation-name: typing-animation!important;
     animation-duration: 1s!important;
