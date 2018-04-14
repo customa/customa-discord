@@ -2,7 +2,7 @@
     --Color__TextSelectionColor: rgba(255,255,255,0.2);    
     --Content__Module__Font: '\A \2022  Fonts ~ Customa Devs (Base \2192  font.m.css)';
     --Content__Variables__Font: '\A\A Font: \A \2022  --Color__TextSelection \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3)) \A \2022  --Font__FontFamily \2192  Allowed Values: Installed Fonts/Webfonts\A (pref. Sans-Serif)\A \2022  --Font__Monospace__FontFamily \2192  Allowed Values: \A Installed Fonts/Webfonts (pref. Monospace)';
-    --Font__FontFamily: 'Comma', 'Noto Blobs', 'Noto Bug Fix', 'Raleway', sans-serif;
+    --Font__FontFamily: 'Raleway', sans-serif;
     --Font__Monospace__FontFamily: 'Fira Code', 'Fira Mono', monospace;
 }
 
@@ -30,23 +30,4 @@
 
 ::selection{
     background: var(--Color__TextSelectionColor);
-}
-
-@font-face{
-    font-family: 'Comma';
-    src: local('Open Sans'), url('https://fonts.googleapis.com/css?family=Open+Sans');
-    unicode-range: U+2A, U+2C, U+2E, U+3A, U+3B, U+5F, U+60, U+B0, U+B4;
-    font-weight: 100;
-}
-
-@font-face{
-    font-family: 'Noto Blobs';
-    src: local('Noto Color Emoji');
-    unicode-range: U+A9-1F9E6;
-}
-
-@font-face{
-    font-family: 'Noto Bug Fix';
-    src: local('Raleway');
-    unicode-range: U+30-39, U+A9, U+AE, U+2122;
 }
