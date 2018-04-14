@@ -1,0 +1,17 @@
+:root{
+    --Content__Module__NewLogin: '\A \2022  New Login ~ Customa Devs (Canary \2192  newLogin.m.css)';
+}
+
+[class*='splashBackground'] [class*='authBox']{
+    background-color: var(--Color__MainColor2)!important;
+}
+
+[class*='splashBackground'] [class*='authBox'] input{
+    background-color: rgba(0,0,0,0.2)!important;
+    background: rgba(0,0,0,0.2)!important;
+}
+
+[class*='splashBackground'] [class*='authBox'] [class*='linkButton'], [class*='subText'] a{
+    color: var(--Color__AccentColor)!important;
+    background-color: transparent!important;
+}
