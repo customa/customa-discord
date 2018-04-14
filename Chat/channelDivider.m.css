@@ -1,5 +1,5 @@
 :root{
-    --Content__Module__ChannelDivider: '\A \2022  Channel Divider ~ Turtle-Theme Devs (Chat \2192  channelDivider.m.css)';
+    --Content__Module__ChannelDivider: '\A \2022  Channel Divider ~ Customa Devs (Chat \2192  channelDivider.m.css)';
 }
 
 [class*=channels] [class*=scroller] [class*=container] [class*=containerDefault] [class*=justifyStart][class*=alignStart][class*=noWrap][class*=wrapper] *{
