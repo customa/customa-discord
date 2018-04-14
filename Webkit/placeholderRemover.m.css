@@ -1,0 +1,11 @@
+:root{
+    --Content__Module__Variables: '\A \2022  Placeholder Remover ~ Customa Devs (Webkit \2192  placeholderRemover.m.css)';
+}
+
+::-webkit-input-placeholder {
+    color: transparent!important;
+}
+
+textarea::-webkit-input-placeholder {
+    color: transparent!important;
+}
