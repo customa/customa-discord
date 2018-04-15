@@ -357,17 +357,3 @@
 /* TODO .edited{
 
 } */
-
-:root{
-    --Content__Module__NewDividerRed: '\A \2022  New Divider Red ~ Customa Devs (Chat \2192  newDividerRed.m.css)';
-}
-
-.divider-red span{
-    border: 1px solid var(--Color__AccentColor)!important;
-    color: var(--Color__AccentColor)!important;
-}
-
-.divider-red div{
-    background-color: var(--Color__AccentColor)!important;
-    height: 2px!important;
-}
