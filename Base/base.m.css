@@ -342,7 +342,7 @@
 
 /* Typing - END -> Mask Fixes - START */
 
-[class*='membersWrap'] [class*='avatar'] [class*='image'], [class*='listRow'] [class*='mask']{
+[class*='membersWrap'] [class*='avatar'] [class*='image'], [class*='listRow'] [class*='mask'], [class*='autocompleteRowVertical'] [class*='mask']{
     mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskmemWrap.svg')!important;
     -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskmemWrap.svg')!important;
 }
