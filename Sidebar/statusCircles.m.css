@@ -2,7 +2,7 @@
     --Content__Module__StatusCircles: '\A \2022  Status Circles ~ Customa Devs (Sidebar \2192  statusCircles.m.css)';
 }
 
-[class*='avatar'] [class*='status']{
+[class*='avatar'] [class*='status']:not([class*='statusProfile']){
     width: calc(100% + 4px) !important;
     height: calc(100% + 4px) !important;
     background: transparent !important;
@@ -12,28 +12,28 @@
     border: 2px solid transparent !important;
 }
 
-[class*='avatar'] [class*='Online'], [class*='avatar'] [class*='online']{
+[class*='avatar']:not([class*='statusProfile']) [class*='Online'], [class*='avatar']:not([class*='statusProfile']) [class*='online']{
     border-left-color: #43b581 !important;
 }
 
-[class*='avatar'] [class*='Idle'], [class*='avatar'] [class*='idle']{
+[class*='avatar']:not([class*='statusProfile']) [class*='Idle'], [class*='avatar']:not([class*='statusProfile']) [class*='idle']{
     border-left-color: #faa61a !important;
 }
 
-[class*='avatar'] [class*='Dnd'], [class*='avatar'] [class*='dnd']{
+[class*='avatar']:not([class*='statusProfile']) [class*='Dnd'], [class*='avatar']:not([class*='statusProfile']) [class*='dnd']{
     border-left-color: #F44336 !important;
 }
 
-[class*='avatar'] [class*='Streaming'] {
+[class*='avatar']:not([class*='statusProfile']) [class*='Streaming'] {
     border-left-color: #643da7 !important;
 }
 
-[class*='avatar'] [class*='Offline'], [class*='avatar'] [class*='offline'],
-[class*='avatar'] [class*='Invisible'], [class*='avatar'] [class*='invisible']{
+[class*='avatar']:not([class*='statusProfile']) [class*='Offline'], [class*='avatar']:not([class*='statusProfile']) [class*='offline'],
+[class*='avatar']:not([class*='statusProfile']) [class*='Invisible'], [class*='avatar']:not([class*='statusProfile']) [class*='invisible']{
     border-left-color: #747f8d !important;
 }
 
-[class*='avatar'] [class*='Typing'] [class*='spinner'], [class*='avatar'] [class*='typing'] [class*='spinner']{
+[class*='avatar']:not([class*='statusProfile']) [class*='Typing'] [class*='spinner'], [class*='avatar']:not([class*='statusProfile']) [class*='typing'] [class*='spinner']{
     animation-name: typing-animation!important;
     animation-duration: 1s!important;
     animation-iteration-count: infinite!important; 
