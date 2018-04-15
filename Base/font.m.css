@@ -28,6 +28,6 @@
     font-weight:400;
 }
 
-::selection{
+::selection, .timestamp::selection{
     background: var(--Color__TextSelectionColor);
 }
