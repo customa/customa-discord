@@ -38,3 +38,8 @@
     background-color: rgba(0, 0, 0, .2)!important;
     color: white!important;
 }
+
+[class*='topSection'] [class*='tabBarContainer']{
+    background-color: rgba(255,255,255,.2);
+    border: none;
+}
