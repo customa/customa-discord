@@ -21,7 +21,7 @@
     background-color: var(--Color__SelectionColor)!important;
 }
 
-.tab-bar-item-primary, .btn, button[type='submit'], [class*='radioGroup'] [style*='background-color: rgb'], .channel.btn-friends.selected,  .new-messages-bar, .checkbox .checkbox-inner input[type=checkbox]:checked+span, .need-help-modal.deprecated .header, .unread-mentions-bar, button[class*='buttonFilled'], [class*='itemSelected'], .guild:first-child.active .guild-inner, [class*='channels'] [class*='wrapper'] [class*='unread'], #bd-settings-sidebar .selected, .bd-pfbtn, .bda-settings-button, .guilds-wrapper .guilds .guild:before, [class*='clipboardInputInner'] button, .spinner-wandering-cubes .spinner-item, [class*='premiumPaymentActions'] button:nth-child(2), [class*='checkbox'][class*='round'][class*='checked'], [class*='guildSettingsAuditLogsUserFilterPopout'] [class*='selected'], .guild-settings-members-filter-popout [class*='selected'],[class*='regionSelect']:hover button, .popout header, [class*='checkboxWrapper'] [class*='checked'], .media-engine-video ~ div button, .selected .betterfriendcount-badge, [class*='activityFeed'] button:hover, [class*='carousel'] [class*='article'] button, [class*='userSettingsVoice'] [class*='sliderBar'][class*='speaking'],.pluginrepo-modal .pluginEntry.downloadable .btn-download, button[class*='colorBrand'], [class*='questionMark'], .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='name'] ~ [class*='flex'] [class*='iconSpacing'] [class*='wrapper'], .bd-modal-wrapper .footer button, .channel .badge, .bd-server-card.bd-server-card-pinned:after, button[class*='lookFilled'], [class*='datePickerHint'] [class*='hintValue'], .react-datepicker__day:hover, .react-datepicker__day--today::after, [class*='imageWrapperInner'] [class*='wanderingCubesItem'], [class*='progressContainer'] [class*='progressBar']{
+.tab-bar-item-primary, .btn, button[type='submit'], [class*='radioGroup'] [style*='background-color: rgb'], .channel.btn-friends.selected,  .new-messages-bar, .checkbox .checkbox-inner input[type=checkbox]:checked+span, .need-help-modal.deprecated .header, .unread-mentions-bar, button[class*='buttonFilled'], [class*='itemSelected'], .guild:first-child.active .guild-inner, [class*='channels'] [class*='wrapper'] [class*='unread'], #bd-settings-sidebar .selected, .bd-pfbtn, .bda-settings-button, .guilds-wrapper .guilds .guild:before, [class*='clipboardInputInner'] button, .spinner-wandering-cubes .spinner-item, [class*='premiumPaymentActions'] button:nth-child(2), [class*='checkbox'][class*='round'][class*='checked'], [class*='guildSettingsAuditLogsUserFilterPopout'] [class*='selected'], .guild-settings-members-filter-popout [class*='selected'],[class*='regionSelect']:hover button, .popout header, [class*='checkboxWrapper'] [class*='checked'], .media-engine-video ~ div button, .selected .betterfriendcount-badge, [class*='activityFeed'] button:hover, [class*='carousel'] [class*='article'] button, [class*='userSettingsVoice'] [class*='sliderBar'][class*='speaking'],.pluginrepo-modal .pluginEntry.downloadable .btn-download, button[class*='colorBrand'], [class*='questionMark'], .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='name'] ~ [class*='flex'] [class*='iconSpacing'] [class*='wrapper'], .bd-modal-wrapper .footer button, .channel .badge, .bd-server-card.bd-server-card-pinned:after, button[class*='lookFilled'], [class*='datePickerHint'] [class*='hintValue'], .react-datepicker__day:hover, .react-datepicker__day--today::after, [class*='imageWrapperInner'] [class*='wanderingCubesItem'], [class*='progressContainer'] [class*='progressBar'], .private-channel-recipients-invite button{
     background: var(--Color__AccentColor)!important;
     background-color: var(--Color__AccentColor)!important;
 }
@@ -50,7 +50,7 @@
     background-color: var(--Color__MainColor2)!important;
 }
 
-.message-group .comment .markup code, .search .search-bar, [class*='emojiPicker'] .search-bar-inner, [class*='quickMessage'], [class*='userPopout'] textarea:focus, #autocomplete-popout header, [class*='auditLog'] [class*='headerExpanded'], .emoji-row input, .guild-settings-members-header [class*='searchBar']:not([class*='searchBarIcon']), [class*='guildSettingsAuditLogsUserFilterPopout'] [class*='searchBar'], .guild-settings-members-filter-popout [class*='searchBar'], .create-guild-container .action, .create-guild-container input, .search-bar, .pluginrepo-modal [class*='searchBar'], .message-group-blocked-btn, .is-local-bot-message, [class*='botTag'], .custom-header [class*='searchBar'], [class*='members'] [class*='memberOnline']:hover, [class*='countryButton'], [class*='phoneFieldPopout'] [class*='searchBar'], [class*='phoneVerificationModal'] input, .react-datepicker, .react-datepicker__day--outside-month, .react-datepicker__day--disabled, #bfredux::before, #bfredux .format:hover{
+.message-group .comment .markup code, .search .search-bar, [class*='emojiPicker'] .search-bar-inner, [class*='quickMessage'], [class*='userPopout'] textarea:focus, #autocomplete-popout header, [class*='auditLog'] [class*='headerExpanded'], .emoji-row input, .guild-settings-members-header [class*='searchBar']:not([class*='searchBarIcon']), [class*='guildSettingsAuditLogsUserFilterPopout'] [class*='searchBar'], .guild-settings-members-filter-popout [class*='searchBar'], .create-guild-container .action, .create-guild-container input, .search-bar, .pluginrepo-modal [class*='searchBar'], .message-group-blocked-btn, .is-local-bot-message, [class*='botTag'], .custom-header [class*='searchBar'], [class*='members'] [class*='memberOnline']:hover, [class*='countryButton'], [class*='phoneFieldPopout'] [class*='searchBar'], [class*='phoneVerificationModal'] input, .react-datepicker, .react-datepicker__day--outside-month, .react-datepicker__day--disabled, #bfredux::before, #bfredux .format:hover, .private-channel-recipients-invite .search-bar-tag{
     background-color: rgba(0,0,0,0.2)!important;
     background: rgba(0,0,0,0.2)!important;
 }
@@ -59,8 +59,14 @@
     background-color: rgba(0,0,0,0.2)!important;
 }
 
-[class*='accountBtnInner'], [class*='guildIconExpired'], [class*='contextMenu'] [class*='itemSubMenu'], [class*='removeKeybind'], .remove-game, .emoji-remove, [class*='webhookRow']:hover [class*='removeWebhook'], .avatar-uploader-inner, [class*='removeOverride'], .private-channels .search-bar, .private-channel-call .minimum, .citar-btn, .revoke-invite, .friends-column-guilds .avatar-small{
+[class*='accountBtnInner'], [class*='guildIconExpired'], [class*='contextMenu'] [class*='itemSubMenu'], [class*='removeKeybind'], .remove-game, .emoji-remove, [class*='webhookRow']:hover [class*='removeWebhook'], .avatar-uploader-inner, [class*='removeOverride'], .private-channels .search-bar, .private-channel-call .minimum, .citar-btn, .revoke-invite, .friends-column-guilds .avatar-small, [class*='quickswitcher'] [class*='emptyState']{
     background-color: transparent!important;
+}
+
+[class*='emptyState'] {
+    background-image: url(/assets/0b298968e0a756e25677771fd6b58b34.svg)!important;
+    background-repeat: no-repeat!important;
+    background-position: center 30px!important;
 }
 
 [class*='diversitySelector'] [class*='popout'] [class*='item']:hover, [class*='emojiItem'][class*='selected']{
@@ -183,7 +189,7 @@
 }
 
 [class*='downloadButton'] g .fill{
-    fill: var(--Color__MainColor2)!important;
+    fill: var(--Color__AccentColor)!important;
 }
 
 [class*='checkboxWrapper'] [class*='checked'] svg g polyline{
@@ -343,17 +349,13 @@
 /* Typing - END -> Mask Fixes - START */
 
 [class*='membersWrap'] [class*='avatar'] [class*='image'], [class*='listRow'] [class*='mask'], [class*='autocompleteRowVertical'] [class*='mask']{
-    mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskmemWrap.svg')!important;
-    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskmemWrap.svg')!important;
+    mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
+    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
 }
 
 [class*='userPopout'] [class*='mask'], [class*='maskProfile']{
-    mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskUserPop.svg')!important;
-    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/maskUserPop.svg')!important;
+    mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Masks/maskUserPop.svg')!important;
+    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Masks/maskUserPop.svg')!important;
 }
 
 /* Mask Fixes - END */
-
-/* TODO .edited{
-
-} */
