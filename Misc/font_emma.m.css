@@ -5,7 +5,7 @@
     --Content__Module__Font: '\A \2022  Fonts (Emma Config) ~ Customa Devs (Misc \2192  font_emma.m.css)';
     --Content__Variables__Font: '\A\A Font: \A \2022  --Color__TextSelection \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3)) \A \2022  --Font__FontFamily \2192  Allowed Values: Installed Fonts/Webfonts\A (pref. Sans-Serif)\A \2022  --Font__Monospace__FontFamily \2192  Allowed Values: \A Installed Fonts/Webfonts (pref. Monospace)';
     --Font__FontFamily: 'Comma', 'Noto Bug Fix', 'Noto Blobs', 'Raleway', sans-serif;
-    --Font__Monospace__FontFamily: 'Fira Code', 'Fira Mono', monospace;
+    --Font__Monospace__FontFamily: 'Noto Bug Fix Monospace', 'Noto Blobs', 'Fira Code', 'Fira Mono', monospace;
 }
 
 *{
@@ -50,5 +50,11 @@
 @font-face{
     font-family: 'Noto Bug Fix';
     src: local('Raleway');
+    unicode-range: U+30-39, U+A9, U+AE, U+2122;
+}
+
+@font-face{
+    font-family: 'Noto Bug Fix Monospace';
+    src: local('Fira Code');
     unicode-range: U+30-39, U+A9, U+AE, U+2122;
 }
