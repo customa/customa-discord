@@ -1,0 +1,136 @@
+:root{
+    --Content__Module__BetterFileTypes: '\A \2022  Better File Types ~ Customa Devs (Chat \2192  betterFileTypes.m.css)';
+}
+
+/* General */
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon']{
+    background-size: 90%;
+}
+
+/* Video */
+
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='video']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/video.png');
+}
+
+/* PDF */
+
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='acrobat']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/pdf.png');
+}
+
+[src='/assets/f167b4196f02faf2dc2e7eb266a24275.svg']{
+    content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/pdf.png');
+}
+
+/* After Effects */
+
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='ae']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/ae.png');
+}
+
+[src='/assets/982bd8aedd89b0607f492d1175b3b3a5.svg']{
+    content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/ae.png');
+}
+
+/* Sketch */
+
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='sketch']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/sketch.png');
+}
+
+[src='/assets/f812168e543235a62b9f6deb2b094948.svg']{
+    content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/sketch.png');
+}
+
+/* Illustrator */
+
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='ai']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/ai.png');
+}
+
+[src='/assets/03ad68e1f4d47f2671d629cfeac048ef.svg']{
+    content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/ai.png')
+}
+
+/* Archive */
+
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='archive']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/archive.png');
+}
+
+[src='/assets/73d212e3701483c36a4660b28ac15b62.svg']{
+    content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/archive.png');
+}
+
+/* Code */
+
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='code']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/code.png');
+}
+
+[src='/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg']{
+    content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/code.png');
+}
+
+/* Document */
+
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='document']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/word');
+}
+
+[src='/assets/9f358f466473586417baee7bacfba5ca.svg']{
+    content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/word.png');
+}
+
+/* Photoshop */
+
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='photoshop'], [class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='ps']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/photoshop');
+}
+
+/* Spreadsheet */
+
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='spreadsheet']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/excel');
+}
+
+[src='/assets/85f7a4063578f6e0e2c73f60bca0fcce.svg']{
+    content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/excel.png');
+}
+
+/* Webcode */
+
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='webcode']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/html.png');
+}
+
+[src='/assets/a11e895b46cde503a094dd31641060a6.svg']{
+    content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/html.png');
+}
+
+/* Unknown */
+
+[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='unknown']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/unknown.png');
+}
+
+[src='/assets/985ea67d2edab4424c62009886f12e44.svg']{
+    content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/unknown.png');
+}
+
+[class*='uploadModal'] [class*='inner'] [class*='icon'] [class*='wrap'] [class*='icon']{
+    background-size: 100%!important;
+}
+
+[class*='uploadModal'] [class*='inner'] [class*='icon'] [class*='one']{
+    background: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/Modal/htmlModal.png')!important;
+}
+
+[class*='uploadModal'] [class*='inner'] [class*='icon'] [class*='two']{
+    background: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/Modal/codeModal.png')!important;
+}
+
+[class*='uploadModal'] [class*='inner'] [class*='icon'] [class*='three']{
+    background: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/Modal/sketchModal.png')!important;
+}
