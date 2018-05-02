@@ -1,3 +1,17 @@
+/* Happy birthday Eldoggo :3 */
+
+[class*='membersWrap']::after{
+    content: 'Happy Birthday Eldoggo!';
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    color: white;
+}
+
+[class*='membersWrap']{
+    height: 97%;
+}
+
 /* BUG!! */
 .popout.popout-top-right section:before, .popout.popout-top section:before{
     border-top-color: #161616!important;
@@ -12,7 +26,7 @@
     height: 100%;
 }
 
-.layer-3QrUeG, .layers-3iHuyZ, .layers-3iHuyZ .flex-1xMQg5, .container-2OU7Cz, .guilds-wrapper, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .friend-table-add-header, [class*='quickswitcher'], [class*='content'], [class*='content']:hover, .guilds-add, .themed-popout, .themed-popout .header, .message-group .action-buttons, .message-group .jump-button, [class*='contextMenu'] [class*='item']:hover, [class*='uploadModal'] button:not(.button-primary), [class*='searchPopout'] [class*='option']:after, [class*='searchPopout'] [class*='option'][class*='selected'], [class*='searchAnswer'], .search-results-wrap .search-header, .search-results-wrap .search-result:before, .search-results-wrap .search-result:after, [class*='popout'] [class*='menu'] [class*='item'], [class*='autocompleteRowVertical'] [class*='selectorSelected'], [class*='clipboardInputInner'] button:before, .btn-default, [class*='emojiPicker'] .search-bar, [class*='radioGroup'] [class*='item'], [class*='userSettingsVoice'] [class*='previewOverlay'], [class*='userInfo'], [class*='userPopout'] [class*='body'], [class*='userPopout'] [class*='footer'], #autocomplete-popout section, [class*='webhookRow'], .create-guild-container .form-actions .btn-default, .container-1WaXoH section, [class*='noticePremium'], [class*='activityFeed'], [class*='carousel'], [class*='carousel'] [class*='article'], [class*='activityFeed'] [class*='card'], [class*='activityFeed'] button, [class*='gamePreview'], [class*='gamePreview'] [class*='body'], [class*='gamePreview'] [class*='info'], .ace_gutter-active-line, .ace_active-line, [class*='modal'] [class*='message'], .themed-popout .friend, .bda-slist .ui-switch-item, [class*='membersWrap'] [class*='scroll'] [class*='scroller'], [class*='phoneField'] input, .react-datepicker__header, .channels-Ie2l6A /* Change if sidebar is bork again */, [class*='channel'] [class*='vertical']~[class*='container'] /* User Container next to input bar */, [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='actionButtons'], [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='jumpButton'], [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='header'], [class*='channels'] [class*='container-']{
+.layer-3QrUeG, .layers-3iHuyZ, .layers-3iHuyZ .flex-1xMQg5, .container-2OU7Cz, .guilds-wrapper, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .friend-table-add-header, [class*='quickswitcher'], [class*='content'], [class*='content']:hover, .guilds-add, .themed-popout, .themed-popout .header, .message-group .action-buttons, .message-group .jump-button, [class*='contextMenu'] [class*='item']:hover, [class*='uploadModal'] button:not(.button-primary), [class*='searchPopout'] [class*='option']:after, [class*='searchPopout'] [class*='option'][class*='selected'], [class*='searchAnswer'], .search-results-wrap .search-header, .search-results-wrap .search-result:before, .search-results-wrap .search-result:after, [class*='popout'] [class*='menu'] [class*='item'], [class*='autocompleteRowVertical'] [class*='selectorSelected'], [class*='clipboardInputInner'] button:before, .btn-default, [class*='emojiPicker'] .search-bar, [class*='radioGroup'] [class*='item'], [class*='userSettingsVoice'] [class*='previewOverlay'], [class*='userInfo'], [class*='userPopout'] [class*='body'], [class*='userPopout'] [class*='footer'], #autocomplete-popout section, [class*='webhookRow'], .create-guild-container .form-actions .btn-default, .container-1WaXoH section, [class*='noticePremium'], [class*='activityFeed'], [class*='carousel'], [class*='carousel'] [class*='article'], [class*='activityFeed'] [class*='card'], [class*='activityFeed'] button, [class*='gamePreview'], [class*='gamePreview'] [class*='body'], [class*='gamePreview'] [class*='info'], .ace_gutter-active-line, .ace_active-line, [class*='modal'] [class*='message'], .themed-popout .friend, .bda-slist .ui-switch-item, [class*='membersWrap'] [class*='scroll'] [class*='scroller'], [class*='phoneField'] input, .react-datepicker__header, .channels-Ie2l6A /* Change if sidebar is bork again */, [class*='channel'] [class*='vertical']~[class*='container'] /* User Container next to input bar */, [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='actionButtons'], [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='jumpButton'], [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='header'], [class*='channels'] [class*='container-'], #bd-customcss-detach-container, #bd-customcss-editor-detached{
     background-color: transparent!important;
     background: none!important;
 }
@@ -45,7 +59,7 @@
     background: var(--Color__True)!important;
 }
 
-.chat .content .messages-wrapper, .container-RYiLUQ, .ui-standard-sidebar-view .content-region, .private-channels .scroller-fzNley, .friends-table, [class*='quickswitcher'], .content [class*='flex'][class*='horizontal'][class*='directionRow'][class*='justifyCenter'][class*='alignStretch'][class*='noWrap'], [class*='radioGroup'] [style*='background-color: rgb'] [class*='checkbox'], .popout, [class*='uploadModal'], #dv-mount, [class*='searchFilter'],.search-results-wrap .search-result .search-result-message.hit, [class*='modal'] [class*='inner'] [class*='wrapper']:not(.Select-multi-value-wrapper), [class*='modal'] [class*='inner'] [class*='body']:not([class*='topSection']):not(.action-body):not([class*='alignCenter']):not([class*='bodyLink']):not([class*='bodyNormal']), .Select-menu-outer .Select-option, [class*='userPopout'], .create-guild-container .form-actions, [class*='feed'], [class*='lfg'], .private-channel-call, .ace_gutter, .add-game-popout, .bd-modal-wrapper .header,.divider-red span, .modal-3HD5ck /* change if modals are screwed */, [class*='channels'] [class*='scrollerWrap'], .private-channel-recipients-invite, [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */{
+.chat .content .messages-wrapper, .container-RYiLUQ, .ui-standard-sidebar-view .content-region, .private-channels .scroller-fzNley, .friends-table, [class*='quickswitcher'], .content [class*='flex'][class*='horizontal'][class*='directionRow'][class*='justifyCenter'][class*='alignStretch'][class*='noWrap'], [class*='radioGroup'] [style*='background-color: rgb'] [class*='checkbox'], .popout, [class*='uploadModal'], #dv-mount, [class*='searchFilter'],.search-results-wrap .search-result .search-result-message.hit, [class*='modal'] [class*='inner'] [class*='wrapper']:not(.Select-multi-value-wrapper), [class*='modal'] [class*='inner'] [class*='body']:not([class*='topSection']):not(.action-body):not([class*='alignCenter']):not([class*='bodyLink']):not([class*='bodyNormal']), .Select-menu-outer .Select-option, [class*='userPopout'], .create-guild-container .form-actions, [class*='feed'], [class*='lfg'], .private-channel-call, .add-game-popout, .bd-modal-wrapper .header,.divider-red span, .modal-3HD5ck /* change if modals are screwed */, [class*='channels'] [class*='scrollerWrap'], .private-channel-recipients-invite, [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */, .ace_gutter{
     background: var(--Color__MainColor2)!important;
     background-color: var(--Color__MainColor2)!important;
 }
@@ -59,7 +73,7 @@
     background-color: rgba(0,0,0,0.2)!important;
 }
 
-[class*='accountBtnInner'], [class*='guildIconExpired'], [class*='contextMenu'] [class*='itemSubMenu'], [class*='removeKeybind'], .remove-game, .emoji-remove, [class*='webhookRow']:hover [class*='removeWebhook'], .avatar-uploader-inner, [class*='removeOverride'], .private-channels .search-bar, .private-channel-call .minimum, .citar-btn, .revoke-invite, .friends-column-guilds .avatar-small, [class*='quickswitcher'] [class*='emptyState']{
+[class*='accountBtnInner'], [class*='guildIconExpired'], [class*='contextMenu'] [class*='itemSubMenu'], [class*='removeKeybind'], .remove-game, .emoji-remove, [class*='webhookRow']:hover [class*='removeWebhook'], .avatar-uploader-inner, [class*='removeOverride'], .private-channels .search-bar, .private-channel-call .minimum, .citar-btn, .revoke-invite, .friends-column-guilds .avatar-small, [class*='quickswitcher'] [class*='emptyState'], #bd-customcss-editor-detached .ace_gutter{
     background-color: transparent!important;
 }
 
@@ -349,7 +363,7 @@
 
 /* Typing - END -> Mask Fixes - START */
 
-[class*='membersWrap'] [class*='avatar'] [class*='image'], [class*='listRow'] [class*='mask'], [class*='autocompleteRowVertical'] [class*='mask']{
+[class*='membersWrap'] [class*='avatar'] [class*='image'], [class*='listRow'] [class*='mask'], [class*='autocompleteRowVertical'] [class*='mask'], [class*='activityFeed'] [class*='mask']{
     mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
     -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
 }
