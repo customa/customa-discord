@@ -1,0 +1,18 @@
+:root{
+    --Content__Module__NewEditText: '\A \2022  New Edit Text ~ Customa Devs (Chat \2192  newEditText.m.css)';
+    --Content__Variables__NewEditText: '\A\A New Edit Text: \A \2022  --Content__EditText \2192  Allowed Values: Text';
+    --Content__EditText: 'OwO, what was that';
+}
+
+.message-group .comment .edited {
+    visibility: hidden;
+    font-size: 0;
+}
+
+.message-group .comment .edited::after{
+    visibility: visible!important;
+    color: white;
+    font-size: 0.625rem;
+    width: fit-content!important;
+    content: var(--Content__EditText)!important;
+}
