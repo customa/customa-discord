@@ -24,7 +24,7 @@
     border-left-color: #F44336 !important;
 }
 
-[class*='avatar']:not([class*='statusProfile']) [class*='Streaming'] {
+[class*='avatar']:not([class*='statusProfile']) [class*='Streaming'], [class*='avatar']:not([class*='statusProfile']) [class*='streaming'] {
     border-left-color: #643da7 !important;
 }
 
