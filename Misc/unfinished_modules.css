@@ -33,6 +33,34 @@ h5{
     color: var(--Color__FontColorBright)!important;
 }
 
+:root{
+    --Color__Tooltip: #E0E0E0;
+    --Color__FontTooltip: #212121;
+
+    --Display__WhiteThemeBlocker: block;
+}
+
+.tooltip:not(.tooltip-red){
+    background: var(--Color__Tooltip)!important;
+    background-color: var(--Color__Tooltip)!important;
+}
+
+.tooltip-right:not(.tooltip-red)::after{
+    border-right-color: var(--Color__Tooltip)!important;
+}
+
+.tooltip-top:not(.tooltip-red)::after{
+    border-top-color: var(--Color__Tooltip)!important;
+}
+
+.tooltip-bottom:not(.tooltip-red)::after{
+    border-bottom-color: var(--Color__Tooltip)!important;
+}
+
+.tooltip:not(.tooltip-red){
+    color: var(--Color__FontTooltip);
+}
+
 /* TitleWrapper New */
 
 [class*='titleWrapper'] [class*='titleText'] [class*='status']{
