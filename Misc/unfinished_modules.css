@@ -13,29 +13,6 @@
     --Content__EditIcon: url('http://aperiodic.net/phil/tmp/place-mode3.png');
 }
 
-:root{
-    --Content__Module__NewEditText: '';
-    --Content__EditText: '';
-}
-
-.message-group .comment .edited {
-    font-size: 0;
-    height: 13px!important;
-    width: 13px!important;
-    display: inline-block;
-    background-image: var(--Content__EditIcon);
-    background-size: 100%;
-    opacity: .3;
-    line-height: 23px;
-}
-
-/* .message-group .comment .edited::after{
-    /* color: white;
-    font-size: 0.625rem;
-    width: fit-content!important;
-    content: var(--Content__EditIcon)!important; */
-/*} */
-
 /* WHITE THEME SUPPORT */
 
 :root{
