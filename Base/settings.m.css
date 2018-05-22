@@ -1,4 +1,4 @@
-.userSettingsAccount-2WOnTW::after{
+[class*='userSettingsAccount']::after{
     margin-top: 2%;
     white-space: pre;
     display: block;
