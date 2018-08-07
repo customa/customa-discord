@@ -1,448 +1,166 @@
-/* BUG!! */
-.popout.popout-top-right section:before, .popout.popout-top section:before{
-    border-top-color: #161616!important;
-}
-
+/* App Mount - Base Element: Used for background image or color */
 #app-mount{
-    background: var(--Color__MainBackground) no-repeat!important;
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: cover!important;
-    width: 100%;
-    height: 100%;
+    background: #161616;
 }
 
-.app.theme-light .content-transition-wrap .content-column [class*='preview-']::after{
-    white-space: pre-line;
-    z-index: 20;
-    color: white!important;
-    display: var(--Display__WhiteThemeBlocker);
-    content: 'I see you are trying out the white mode support of this theme! \A I am not quite done with that though, because this involves a ridiculous amount of font-work.\A If you can live with the buggy font colors, head to the Custom CSS section and add the following to it: \A --Display__WhiteThemeBlocker: none; \A to get rid of this box.\A Colors that are working well together are not added either, but can be found as a config in the Github repo at some point.';
-    padding: 2%;
-    top: 0;
-    width: 96%;
-    height: 87%;
-    position: absolute;
-    background-color: var(--Color__MainColor1);
+/* Pretty much only all the elements adding additional background colors, all disabled, to make the shared background work */
+.layers-3iHuyZ, .layer-3QrUeG, .layer-3QrUeG .flex-1xMQg5, .chat-3bRxxu, .content-yTz4x3, .chat-3bRxxu form /* Main Form Element in the main chat window */, .channelTextArea-1LDbYG .inner-zqa7da, .members-1998pB /* Server Member Bar */, .menu-Sp6bN1, .messagesPopoutWrap-1MQ1bW, .searchPopout-1vUlP3, .emojiPicker-3m1S-j, .container-3cGP6G, .popout-3sVMXz .contextMenu-HLZMGh /* Inner Popout Selectors to unify colors */ , .emojiPicker-3m1S-j .category-2U57w6 /* Categories of Emoji Picker */, .dimmer-3iH-5D.visible-3k45bQ /* Emoji Selector Dimmer - When opening diversity selector */, .userPopout-3XzG_A .body-3iLsc4, .userPopout-3XzG_A .header-2BwW8b /* User Popout Header & Body */, .searchBar-2_Yu-C /* Reset Searchbar */, .hasMore-3e72_v button /* Button when top of chat is reached */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .searchAnswer-3Dz2-q /* What the filter searches for */, .search-results-wrap /* Main Wrapper for search */, .channel-separator span /* Channel seperator Search */{
+    background: transparent!important;
 }
 
-.layer-3QrUeG, .layers-3iHuyZ, .layers-3iHuyZ .flex-1xMQg5, .container-2OU7Cz, .guilds-wrapper, .chat, .title-qAcLxz, .chat>.content, .messages-wrapper, .ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region, .message-group .comment .markup pre, #friends, .headerBar-cxbhPD, .channel a, .container-iksrDt, .friend-table-add-header, [class*='quickswitcher'], [class*='content'], [class*='content']:hover, .guilds-add, .themed-popout, .themed-popout .header, .message-group .action-buttons, .message-group .jump-button, [class*='contextMenu'] [class*='item']:hover, [class*='uploadModal'] button:not(.button-primary), [class*='searchPopout'] [class*='option']:after, [class*='searchPopout'] [class*='option'][class*='selected'], [class*='searchAnswer'], .search-results-wrap .search-header, .search-results-wrap .search-result:before, .search-results-wrap .search-result:after, [class*='popout'] [class*='menu'] [class*='item'], [class*='autocompleteRowVertical'] [class*='selectorSelected'], [class*='clipboardInputInner'] button:before, .btn-default, [class*='emojiPicker'] .search-bar, [class*='radioGroup'] [class*='item'], [class*='userSettingsVoice'] [class*='previewOverlay'], [class*='userInfo'], [class*='userPopout'] [class*='body'], [class*='userPopout'] [class*='footer'], #autocomplete-popout section, [class*='webhookRow'], .create-guild-container .form-actions .btn-default, .container-1WaXoH section, [class*='noticePremium'], [class*='activityFeed'], [class*='carousel'], [class*='carousel'] [class*='article'], [class*='activityFeed'] [class*='card'], [class*='activityFeed'] button, [class*='gamePreview'], [class*='gamePreview'] [class*='body'], [class*='gamePreview'] [class*='info'], .ace_gutter-active-line, .ace_active-line, [class*='modal'] [class*='message'], .themed-popout .friend, .bda-slist .ui-switch-item, [class*='membersWrap'] [class*='scroll'] [class*='scroller'], [class*='phoneField'] input, .react-datepicker__header, .channels-Ie2l6A /* Change if sidebar is bork again */, [class*='channel'] [class*='vertical']~[class*='container'] /* User Container next to input bar */, [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='actionButtons'], [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='jumpButton'], [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='header'], [class*='channels'] [class*='container-'], #bd-customcss-detach-container, #bd-customcss-editor-detached, .guild .guilds-error, [class*='channelNotice-'] button{
-    background-color: transparent!important;
-    background: none!important;
-}
-.friends-row:hover, .channel.selected, .channel:hover, #friends .tab-bar-item.selected, #friends .tab-bar-item:hover, .resultFocused-2geRUA, [class*='wrapperSelectedText'], [class*='containerDefault'] [class*='wrapper']:hover, .member:hover, .member.popout-open, [class*='itemDefault']:hover, #bd-settings-sidebar .ui-tab-bar-item:not(.selected):hover, #autocomplete-popout .row.selected, [class*='inviteRow']:not([class*='inviteRowInfo']):hover, [class*='overrideList'] [class*='override']:hover, .guild-settings-members-member:before, .invite-settings-invite-row:before, .guild-settings-banned-user:before{
-    background: var(--Color__SelectionColor)!important;
-    background-color: var(--Color__SelectionColor)!important;
+
+.guildsWrapper-5TJh6A /* Guilds Wrapper */, .private-channels .searchBar-2_Yu-C, .container-2Rl01u /* Search bar(s) for DM + Container in Servers for Server name */, .container-2Thooq /* User Container Channel Bar */, .popout-3sVMXz, .popout-2nUePc, .modal-3HD5ck /* Main Popout & Modal Class(es) */, .emojiPicker-3m1S-j .stickyHeader-1SS0JU /* Emoji Selector Sticky Selector */, .typing-2GQL18 /* Typing Indicator */, .jumpToPresentBar-9P20AM /* Jump To Present Bar */ {
+    background-color: #161616!important;
+    background: #161616!important;
 }
 
-.tab-bar-item-primary, .btn, button[type='submit'], [class*='radioGroup'] [style*='background-color: rgb'], .channel.btn-friends.selected,  .new-messages-bar, .checkbox .checkbox-inner input[type=checkbox]:checked+span, .need-help-modal.deprecated .header, .unread-mentions-bar, button[class*='buttonFilled'], [class*='itemSelected'], .guild:first-child.active .guild-inner, [class*='channels'] [class*='wrapper'] [class*='unread'], #bd-settings-sidebar .selected, .bd-pfbtn, .bda-settings-button, .guilds-wrapper .guilds .guild:before, [class*='clipboardInputInner'] button, .spinner-wandering-cubes .spinner-item, [class*='premiumPaymentActions'] button:nth-child(2), [class*='checkbox'][class*='round'][class*='checked'], [class*='guildSettingsAuditLogsUserFilterPopout'] [class*='selected'], .guild-settings-members-filter-popout [class*='selected'],[class*='regionSelect']:hover button, .popout header, [class*='checkboxWrapper'] [class*='checked'], .media-engine-video ~ div button, .selected .betterfriendcount-badge, [class*='activityFeed'] button:hover, [class*='carousel'] [class*='article'] button, [class*='userSettingsVoice'] [class*='sliderBar'][class*='speaking'],.pluginrepo-modal .pluginEntry.downloadable .btn-download, button[class*='colorBrand'], [class*='questionMark'], .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-Ie2l6A [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='name'] ~ [class*='flex'] [class*='iconSpacing'] [class*='wrapper'] /* Change this selector if sidebar gets bork again*/, .bd-modal-wrapper .footer button, .channel .badge, .bd-server-card.bd-server-card-pinned:after, button[class*='lookFilled'], [class*='datePickerHint'] [class*='hintValue'], .react-datepicker__day:hover, .react-datepicker__day--today::after, [class*='imageWrapperInner'] [class*='wanderingCubesItem'], [class*='progressContainer'] [class*='progressBar'], .private-channel-recipients-invite button, .premium-settings [class*='wanderingCubes'], [class*='embedVideo'] [class*='mediaBarProgress'], [class*='embedVideo'] [class*='mediaBarProgress']::before, [class*='embedVideo'] [class*='mediaBarProgress']::after, .tooltip-red, .guild:first-child:hover a{
-    background: var(--Color__AccentColor)!important;
-    background-color: var(--Color__AccentColor)!important;
+.channels-Ie2l6A /* Channels scroller for both DMs and Servers */, .private-channels /* Channels scroller container for both DMs and Servers */, .messagesWrapper-3lZDfY /* The main chat window */ {
+    background-color: #212121!important;
+    background: #212121!important;
 }
 
-.reaction-me, .mention{
-    background-color: var(--Color__SecondAccentColor)!important;
+.newMessagesBar-mujexs /* Bar that appears in the chat div when you have a new message in the channel */ {
+    background-color: #D81B60!important;
+
 }
 
-.container-2Rl01u /* Selector for ServerName */, .chat form, [class*='quickswitcher'] [class*='input'], [class*='modal'] [class*='footer']:not(.bda-footer):not([class*='footerText']), .wrapper-FOHcde, [class*='accountList'], [class*='textAreaEdit'], [class*='embedInner'], .has-more button, .divider span, .divider:not(.divider-red) div, .popout .message-group, .themed-popout .footer, .form.deprecated .form-inner, .accessory [class*='wrapper'][class*='userSelectNone'], [class*='unreadBar'], [class*='contextMenu'], [class*='passthroughSelected'], [class*='uploadModal'] textarea, [class*='searchPopout'], .search-results-wrap, .search-results-wrap .channel-separator .channel-name, .small-popout-box, [class*='autocomplete-'][class*='autocomplete-'], [class*='clipboardInputInner'] input, [class*='emojiPicker'], [class*='diversitySelector'] [class*='popout'], [class*='emojiPicker'] [class*='stickyHeader'], .fancy-credit-input, .container-2YgzWd, .ui-standard-sidebar-view .Select-control, [class*='keybindGroup']:before, .game[class*='card']:before, #autocomplete-popout, .autocomplete-arrow, [class*='auditLog'], [class*='colorPickerCustom'], .emoji-row:before, [class*='webhookRow']:hover, [class*='regionSelectModal'], [class*='guildSettingsAuditLogsUserFilterPopout'], .guild-settings-members-filter-popout, .container-3lnMWU, .container-1WaXoH, [class*='gamePreview'] button[class*='disabled'], [class*='emptyState'], .ace-monokai, #bd-customcss-attach-controls, [class*='multiInput'], [class*='userSettingsAccount'] input, [class*='slider'] [class*='bar'], .add-game-popout .Select-placeholder, .user-settings-games .not-detected, input.game-name:hover, input.game-name:focus, .message-group-blocked, .accessory [class*='attachment-'], [class*='phoneField'], [class*='uploadDropModal'] [class*='bgScale'], .game-invite-embed, .private-channels .search-bar, [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='footer'], [class*='popout'] [class*='menu'] /* Server Options + Online status changer*/, [class*='channelNotice-'] button:hover{
-    background: var(--Color__MainColor1)!important;
-    background-color: var(--Color__MainColor1)!important;
-}
-
-[class*='switch'][class*='valueUnchecked'], [class*='denySelected'], #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch{
-    background-color: var(--Color__False)!important;
-    background: var(--Color__False)!important;
-}
-
-[class*='switch'][class*='valueChecked'], [class*='allowSelected'], #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, [class*='slider'] [class*='barFill'], .now-playing, .create-guild-container .action:hover .btn, .create-guild-container.deprecated .action:hover.join .btn{
-    background-color: var(--Color__True)!important;
-    background: var(--Color__True)!important;
-}
-
-.chat .content .messages-wrapper, .container-RYiLUQ, .ui-standard-sidebar-view .content-region, .private-channels .scroller-fzNley, .friends-table, [class*='quickswitcher'], .content [class*='flex'][class*='horizontal'][class*='directionRow'][class*='justifyCenter'][class*='alignStretch'][class*='noWrap'], [class*='radioGroup'] [style*='background-color: rgb'] [class*='checkbox'], .popout, [class*='uploadModal'], #dv-mount, [class*='searchFilter'],.search-results-wrap .search-result .search-result-message.hit, [class*='modal'] [class*='inner'] [class*='wrapper']:not(.Select-multi-value-wrapper), [class*='modal'] [class*='inner'] [class*='body']:not([class*='topSection']):not(.action-body):not([class*='alignCenter']):not([class*='bodyLink']):not([class*='bodyNormal']), .Select-menu-outer .Select-option, [class*='userPopout'], .create-guild-container .form-actions, [class*='feed'], [class*='lfg'], .private-channel-call, .add-game-popout, .bd-modal-wrapper .header,.divider-red span, .modal-3HD5ck /* change if modals are screwed */, [class*='channels'] [class*='scrollerWrap'], .private-channel-recipients-invite, [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */, .ace_gutter, [class*='channelNotices-'], .guild:first-child a{
-    background: var(--Color__MainColor2)!important;
-    background-color: var(--Color__MainColor2)!important;
-}
-
-.message-group .comment .markup code, .search .search-bar, [class*='emojiPicker'] .search-bar-inner, [class*='quickMessage'], [class*='userPopout'] textarea:focus, #autocomplete-popout header, [class*='auditLog'] [class*='headerExpanded'], .emoji-row input, .guild-settings-members-header [class*='searchBar']:not([class*='searchBarIcon']), [class*='guildSettingsAuditLogsUserFilterPopout'] [class*='searchBar'], .guild-settings-members-filter-popout [class*='searchBar'], .create-guild-container .action, .create-guild-container input, .search-bar, .pluginrepo-modal [class*='searchBar'], .message-group-blocked-btn, .is-local-bot-message, [class*='botTag'], .custom-header [class*='searchBar'], [class*='members'] [class*='memberOnline']:hover, [class*='countryButton'], [class*='phoneFieldPopout'] [class*='searchBar'], [class*='phoneVerificationModal'] input, .react-datepicker, .react-datepicker__day--outside-month, .react-datepicker__day--disabled, #bfredux::before, #bfredux .format:hover, .private-channel-recipients-invite .search-bar-tag, [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ .message-group, [class*='autocompleteInner-'] [class*='autocompleteRowHorizontal-'] [class*='selectorSelected'], [class*='quickswitcher-'] [class*='resultFocused'], [class*='contentDefaultVoice-'] [class*='wrapper-']{
-    background-color: rgba(0,0,0,0.2)!important;
-    background: rgba(0,0,0,0.2)!important;
-}
-
-.friends-action{
+.messagesPopoutWrap-1MQ1bW .header-ykumBX, .messagesPopoutWrap-1MQ1bW .footer-1kmXd4, .emojiPicker-3m1S-j .header-1nkwgG /* Inner Popout Selector Header and Footer */, .contentSelectedText-3wUhMi, .contentHoveredText-2D9B-x, .private-channels .channel.selected a, .private-channels .channel:hover a /* Selected & Hovered Channel */, .popout-2nUePc .item-16cXuq:hover /* Diversity Selector on Hover */, .member-3W1lQa:hover .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4 /* Member Selector Hover and Selected */, .userPopout-3XzG_A .footer-1fjuF6 /* User Popout Footer */, .quickMessage-2XpSaN /* Quickmessage box in the user popout */, .search-l1Wz-Q /* Searchbar for Channel Search */, .messageGroupWrapper-o-Zw7G /* Pinned Messages and mentions popout message group */, .actionButtons-1sUUug .jumpButton-3DTcS_, .action-buttons .jump-button /* Jump Button to jump to the selected message group */, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- /* Search Selection */, .searchFilter-2ESiM3 /* Search Filter - Search */, .search-header /* Header of the search bar */, .search-result-message.hit /* The exact message that was searched for */, .emojiPicker-3m1S-j .searchBarInner-1_Tg2R /* Searchbar of Emoji Picker */{
     background-color: rgba(0,0,0,0.2)!important;
 }
 
-[class*='accountBtnInner'], [class*='guildIconExpired'], [class*='contextMenu'] [class*='itemSubMenu'], [class*='removeKeybind'], .remove-game, .emoji-remove, [class*='webhookRow']:hover [class*='removeWebhook'], .avatar-uploader-inner, [class*='removeOverride'], .private-channels .search-bar, .private-channel-call .minimum, .citar-btn, .revoke-invite, .friends-column-guilds .avatar-small, [class*='quickswitcher'] [class*='emptyState'], #bd-customcss-editor-detached .ace_gutter, [class*='channelNotice-']{
-    background-color: transparent!important;
-}
-
-[class*='emptyState'] {
-    background-image: url(/assets/0b298968e0a756e25677771fd6b58b34.svg)!important;
-    background-repeat: no-repeat!important;
-    background-position: center 30px!important;
-}
-
-[class*='diversitySelector'] [class*='popout'] [class*='item']:hover, [class*='emojiItem'][class*='selected']{
-    background-color: var(--Color__SelectionColor)!important;
-}
-
-.app [class*='uploadArea']{
-    background-color: rgba(0,0,0,0.8)!important;
-}
-
-#guild-name{
-    border: 1px solid transparent!important;
-}
-
-.ace_active-line{
-    border: 1px solid rgba(255,255,255,0.2);
-}
-
-[class*='accountBtnInner'], [class*='allowSelected'], [class*='denySelected'], .small-popout-box, [class*='instantInviteModal'] .form-actions, [class*='diversitySelector'] [class*='popout'], .Select-control, .container-2YgzWd, [class*='quickMessage'], input, .ui-standard-sidebar-view textarea, [class*='regionSelectModalOption'], [class*='multiInput']{
-    border-color: transparent!important;
-}
-
-[class*='accountBtnInner']:hover, .guilds-add, input:focus, textarea:focus, .tab-bar.TOP .tab-bar-item.selected, .tab-bar.TOP .tab-bar-item:hover, .checkbox .checkbox-inner input[type=checkbox]+span, [class*='uploadModal'] [class*='inner'], [class*='uploadModal'] [class*='icon'], .search-header .tab:hover, .search-header .tab.selected, .search-result.expanded, [class*='emojiPicker'] [class*='categories'] [class*='selected'], .Select-control:hover, [class*='checkbox'][class*='round'][class*='checked'], [class*='regionSelectModalOption']:hover, [class*='regionSelect']:hover [class*='regionSelectInner'],[class*='regionSelect']:hover button, .avatar-uploader-inner, #guild-name:focus, [class*='checkboxWrapper'] [class*='checked'], [class*='multiInput'][class*='focused'], [class*='input'][class*='focused'], .private-channel-call-actions .icons-wrapper, .guild .guilds-error{
-    border-color: var(--Color__AccentColor)!important;
-}
-
-.tooltip-red.tooltip-right::after{
-    border-right-color: var(--Color__AccentColor)!important;
-}
-
-.themed-popout{
-    border-color: var(--Color__MainColor1)!important;
-}
-
-[class*='popout'] [class*='menu'] [class*='separator']{
-    border-color: var(--Color__MainColor2)!important;
-}
-
-[class*='copyInputSuccess']{
-    border-color: var(--Color__True)!important;
-}
-
-.private-channel-call-actions .icons-wrapper .button-exit{
-    border-radius: 0;
-}
-
-.message-group .comment .markup pre, .chat form, .friend-table-add-header, [class*='radioGroup'] [style*='background-color: rgb'], .wrapper-FOHcde, [class*='switch'][class*='value'], [class*='accountList'], .friend-table-suggestions-header, .title-qAcLxz, .header-1tSljs, [class*='embedInner'], .has-more button, .themed-popout .header, .popout .message-group, .message-group .action-buttons, .need-help-modal.deprecated .footer, .need-help-modal.deprecated .header input[type=text], .accessory [class*='wrapper'][class*='userSelectNone'], .tools .btn-close, #bd-customcss-detach-controls-button .btn,.search-results-wrap .search-result .search-result-message.hit, [class*='clipboardInputInner'], [class*='clipboardInputInner'] button, [class*='instantInviteModal'] .btn-default, [class*='emojiPicker'], .Select-menu-outer, [class*='radioGroup'] [class*='item'], [class*='userSettingsVoice'] [class*='previewOverlay'], [class*='userInfo'], [class*='keybindGroup']:before, .game[class*='card']:before, [class*='auditLog'], .emoji-row:before, [class*='webhookRow'], .create-guild-container .form-actions, .create-guild-container .form-actions .btn-default, .container-3lnMWU, [class*='notice'], [class*='emptyState'], #bd-customcss-attach-controls, [class*='multiInputLast']::before, .guild-settings-members-member:before, .invite-settings-invite-row:before, .guild-settings-banned-user:before, .message-group-blocked, .is-local-bot-message, .bd-modal-wrapper .header, .bd-modal-wrapper, .accessory [class*='attachment'], .revoke-invite, .game-invite-embed, [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ .message-group, [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='actionButtons'], [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='header'], .container-1UB9sr /* Box that appears when a call was started */, [class*='channelNotice-'], [class*='channelNotice-'] button{
+.channelTextArea-1LDbYG /* Main Channel Text Area - Main Chat Window */, .messagesPopoutWrap-1MQ1bW /* Inner Popout Selectors to unify colors */, .popout-2nUePc, .emojiPicker-3m1S-j /* Diversity & Emoji Selector Popout */, .quickMessage-2XpSaN /* Quickmessage box in the user popout */, .userPopout-3XzG_A .footer-1fjuF6 /* User Popout Footer */, .hasMore-3e72_v button /* Button when top of chat is reached */, .messageGroupWrapper-o-Zw7G /* Pinned Messages and mentions popout message group */, .search-result-message.hit /* The exact message that was searched for */{
     border: none!important;
+}
+
+.searchBar-2_Yu-C, .header-2o-2hj /* Search bar(s) for DM + Container in Servers for Server name */, .title-3qD0b- /* Channel Name Title */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .search-result-message.hit /* The exact message that was searched for */{
     box-shadow: none!important;
 }
 
-.is-local-bot-message{
-    padding-left: 1%!important;
+.hasMore-3e72_v button /* Button when top of chat is reached */, .searchAnswer-3Dz2-q /* What the filter searches for */ /* What the filter searches for */{
+    color: #D81B60;
 }
 
-[class*='radioGroup'] [class*='checkbox'], [class*='clipboardInputInner'], [class*='instantInviteModal'] .Select-control, .create-guild-container, .create-guild-container .form-inner, .create-guild-container .form-actions{
-    border-radius: 0!important;
-    border-color: var(--Color__AccentColor)!important;
-    outline: none;
-}
-
-[class*='speaking']{
-    box-shadow: inset 0 0 0 3px var(--Color__AccentColor)!important;
-}
-
-.search-header .tab{
-    color: hsla(0,0%,100%,.6)!important;
-}
-
-.tab-bar-item:hover, .divider:not(.divider-red) div, [class*='uploadModal'] .button-primary, .search-header .tab:hover, .small-popout-box .btn-item, [class*='instantInviteModal'] .form-header div, [class*='instantInviteModal'] .form-inner [class*='expireText'], [class*='instantInviteModal'] .checkbox, #friends .tab-bar .tab-bar-item.selected, .Select-menu-outer .Select-option, .Select-value .Select-value-label, .fancy-credit-input input, [class*='premiumPaymentActions'] button:nth-child(2), .create-guild-container input, .create-guild-container .form-actions .btn-default, [class*='regionSelect']:hover button, a[class*='bodyLink'], [class*='lookLink'], [class*='searchPopout'] [class*='option'][class*='selected'] [class*='keybind'] span, [class*='uploadModal'] [class*='selector'] [class*='marginLeft']{
-    color: white!important;
-}
-
-[class*='quickswitcher'] a, .guilds-add-inner, .edit-operation a, .has-more button, .message-group .jump-button .text, .message-group .jump-button, .tab-bar.TOP .tab-bar-item.selected, [class*='contextMenu'] [class*='item']:hover, .need-help-modal a, [class*='contextMenu'] [class*='item'] [class*='danger'], .ui-standard-sidebar-view a, [class*='modal'] [class*='inner'] a:not([class*='bodyLink']), [class*='searchPopout'] [class*='option'][class*='selected'] span, [class*='searchAnswer'] *, .search-header .tab.selected, .small-popout-box .btn-item:hover, [class*='autocompleteRowVertical'] [class*='selectorSelected'] div, [class*='instantInviteModal'] .form-header header, [class*='clipboardInputInner'] input, [class*='instantInviteModal'] .btn-default, .Select-menu-outer .Select-option:hover, [class*='regionSelectModalHeader'], .create-guild-container header, .create-guild-container .or, .sample-link, [class*='regionSelect'] button, [class*='welcomeMessage'] h1, [class*='welcomeMessage'] a, .image-details-link, [class*='lfg'] a, .message a, [class*='embedInner'] [class*='embedTitleLink'], .now-playing-add button, .themed-popout .friend:hover, .themed-popout .friend.selected, .is-local-bot-message a, .create-guild-container.deprecated h5, [class*='filenameLinkWrapper'], [class*='phoneNumber'] ~ button, [class*='searchPopout'] [class*='option'][class*='selected'] strong, .reaction-me .reaction-count, .mention, .auth-form a, [class*='messagesPopoutWrap'] /* Pin and recent mentions popout */ [class*='jumpButton'], [class*='popout'] [class*='menu'] /* Server Options + Online status changer*/ [class*='item']:hover, [class*='uploadModal'] [class*='selectorSelected'] [class*='marginLeft']{
-    color: var(--Color__AccentColor)!important;
-}
-
-.react-datepicker__day--disabled{
-    color: var(--Color__False)!important;
-}
-
-[class*='contextMenu'] [class*='item'] [class*='danger']:hover, [class*='popout'] [class*='menu'] /* Server Options + Online status changer*/ [class*='item'][class*='leave']:hover{
-    color: var(--Color__True)!important;
-}
-
-.Select-control{
-    cursor: pointer;
-}
-
-[class*='embedPill']{
-    display: var(--Display__EmbedPill);
-}
-
-[class*='attachButtonDivider-'], .new-messages-bar button:nth-child(2), .jump-to-present-bar button:nth-child(2), .results-group:before, [class*='emojiPicker'] [class*='dimmer'], [class*='auditLog'] [class*='divider'], .container-1WaXoH hr, #bd-customcss-detach-controls-button span, .autocomplete-arrow-wrapper{
+.clickOverride-1J40_l /* makes pinned objects interactable */, .jumpToPresentBar-9P20AM button:nth-child(2) /* Second Button of the Jump To Present Bar */, .newMessagesBar-mujexs button:nth-child(2), .search-result::before, .search-result::after, .search-result-message.hit::after /* Removing the weirdest ever box shadows, all from the search results*/{
     display: none;
 }
 
-.messages-wrapper ~ form [class*='channelTextArea'], .messages-wrapper ~ form, .friends-table, .emoji{
-    margin: 0!important;
-}
-
-.guilds-wrapper{
-    margin-top: -4px!important;
-}
-
-.messages-wrapper .scroller-wrap{
-    margin-bottom: 20px;
-}
-
-.guild .guilds-error{
-    margin-left: 5px;
-}
-
-.search-results-wrap .search-header .tab{
-    opacity: 1;
-}
-
-[class*='keybindGroup'] button{
+.channelTextArea-1LDbYG /* Main Channel Text Area - Main Chat Window */, .chat-3bRxxu form /* Main Form Element in the main chat window */{
+    margin: 0;
     padding: 0;
 }
 
-#guild-name{
-    padding: 1%!important;
-}
-
-[class*='addRoleIcon']{
-    position: fixed!important;
-    margin-left: 150px;
-    z-index: 999!important;
-}
-
-[class*='downloadButton'] g .fill{
-    fill: var(--Color__AccentColor)!important;
-}
-
-[class*='checkboxWrapper'] [class*='checked'] svg g polyline{
-    stroke: white;
-}
-
-[class*='radioGroup'] [style*='background-color: rgb'] [class*='checkbox'] svg g polyline{
-    stroke: var(--Color__AccentColor)!important;
-}
-
-.form-deprecated .Select-control .Select-arrow{
-    top: 0;
-}
-
-.tab-bar-item, .betterfriendcount-number{
-    transition: background-color 200ms;
-}
-
-.tab-bar.TOP .tab-bar-item, .Select-control, [class*='regionSelectModalOption']{
-    transition: border-color 400ms;
-}
-
-.tab-bar.TOP .tab-bar-item, [class*='contextMenu'] [class*='item'], .search-header .tab, .small-popout-box .btn-item, .Select-menu-outer .Select-option, .reaction-me .reaction-count, [class*='popout'] [class*='menu'] /* Server Options + Online status changer*/ [class*='item']:hover{
-    transition: color 400ms;
-}
-
-[class*='autocompleteRowVertical'] [class*='selector'] div, .themed-popout .friend, [class*='searchPopout'] [class*='option'] span, [class*='searchPopout'] [class*='option'] strong{
-    transition: color 100ms;
-}
-
-.new-messages-bar{
-    width: fit-content!important;
-    border-radius: 20px!important;
-    top: 15px!important;
-}
-
-.jump-to-present-bar{
-    width: fit-content!important;
-    position: absolute!important;
-    border-radius:20px!important;
-    right: 50px!important;
-    left: auto!important;
-    bottom: 15px!important;
-
-}
-
-#bd-customcss-attach-controls{
-    margin-left: 50px!important;
-    text-align: center;
-}
-
-.message:not(.first) .user-name{
-    opacity: 0;
-}
-
-/* Channel Text Area - START */
-
-[class*='channelTextArea'] [class*='inner']{
-    margin-bottom: -2px!important;
-    background-color: transparent;
-}
-[class*='channelTextArea'] [class*='inner'] textarea{
-    padding-top: 16px!important;
-    padding-bottom: 16px!important;
-    margin-top: 1px;
-}
-[class*='channelTextArea']:not([class*='channelTextAreaEnabledNoAttach']):not([class*='channelTextAreaDisabled']):not([class*='channelTextAreaUpload']) [class*='inner'] textarea:not([class*='textAreaEdit']){
-    transition: padding-left 200ms!important;
-}
-[class*='channelTextArea']:not([class*='channelTextAreaEnabledNoAttach']):not([class*='channelTextAreaDisabled']):not([class*='channelTextAreaUpload']) [class*='inner']:hover textarea:not([class*='textAreaEdit']){
-    padding-left: 10px!important;
-}
-[class*='channelTextArea'] [class*='inner'] [class*='flex']{
-    width: 15px!important;
-    margin-top: -2px!important;
-    transition: width 200ms, opacity 200ms!important;
-    opacity: 0;
-}
-
-[class*='channelTextArea'] [class*='inner']:hover [class*='flex']{
-    width: 40px!important;
-    opacity: 1!important;
-}
-
-[class*='channelTextArea'] [class*='inner'] [class*='autocomplete-'] [class*='flex']{
-    opacity: 1!important;
-    width: 100%!important;
-}
-
-[class*='membersWrap']{
-    min-width: 200px!important;
-    width: 220px!important;
-}
-
-[class*='membersWrap'] [class*='memberOnline'], [class*='membersWrap'] [class*='memberOnline'] *:not([class*='avatar']){
-    overflow: hidden!important;
-    max-width: 212px!important;
-}
-
-[class*='membersWrap'] [class*='memberOnline'] [class*='content']{
-    padding-left: 14px;
-}
-
-[class*='membersWrap'] [class*='memberOnline']{
-    margin: 3px 0 3px 8px;
-}
 
 
-[class*='channelTextArea'] [class*='inner'] [class*='autocomplete-'] [class*='flex'] [class*='flexChild'], [class*='channelTextArea'] [class*='inner'] [class*='autocomplete-'] [class*='flex'] [class*='description']{
-    width: fit-content!important;
+.channelTextArea-1LDbYG /* Main Channel Text Area - Main Chat Window */, .chat-3bRxxu form .inner-zqa7da /* Inner Box Main Chat Window */{
+    height: 52px;
 }
 
-[class*='channelTextArea'] [class*='inner'] svg:not([class*='icon']):not([class*='circular']){
-    margin: 17px 0 0 12px!important;
-    fill: transparent!important;
-    padding: 0;
-    background: url('https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/file_upload.svg') 50% no-repeat;
+.chat-3bRxxu form .inner-zqa7da .textArea-2Spzkt /* Main Textarea - Main Chat Window */{
+    padding: 14px 38px 10px 10px;
 }
 
-[class*='channelTextArea'] [class*='inner'] svg[class*='circular'] circle{
-    stroke: var(--Color__AccentColor)!important;
+.emojiButton-3uL3Aw /* Emoji Button */{
+    margin-top: 4px;
 }
 
-[class*='channelTextArea'] [class*='emojiButton']{
-    margin-top: 5px;
+.container-2Thooq /* User Container Channel Bar */ {
+    height: 51px!important;
 }
 
-[class*='channelTextArea'] [class*='inner'] svg:not([class*='icon']) *{
-    fill: transparent!important;
+.typing-2GQL18 /* Typing Indicator */{
+    width: 240px;
 }
 
-/* Channel Text Area - END -> Scrollbar Fallback Fix - START */
-
-::-webkit-scrollbar-track-piece{
-    background-color: rgba(0,0,0,0)!important;
-    border: none!important;
-    box-shadow: none!important;
-}
-::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track{
-    border-radius: 0!important;
-}
-::-webkit-scrollbar{
-    width: 5px!important;
-    height: 5px!important;
-    border-radius: 0!important;
-    display: block;
-}
-
-/* Scrollbar Fallback Fix - END -> Typing - START */
-
-[class*='typing-']{
-    background: var(--Color__MainColor1)!important;
+.typing-2GQL18 /* Typing Indicator */{
     bottom: 100%;
+    right: 0;
     left: auto;
     padding-left: 20px;
     width: auto;
     padding-right: 20px;
     padding-top: 0;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px 0 0 0;
     overflow-y: visible!important;
     z-index: 2;
 }
 
-/* Typing - END -> Mask Fixes - START */
-
-[class*='membersWrap'] [class*='avatar'] [class*='image'], [class*='listRow'] [class*='mask'], [class*='autocompleteRowVertical'] [class*='mask'], [class*='activityFeed'] [class*='mask']{
-    mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
-    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
+.jumpToPresentBar-9P20AM{
+    width: fit-content!important;
+    position: absolute!important;
+    border-radius:20px!important;
+    right: 10px!important;
+    left: auto!important;
+    top: 10px!important;
+    bottom: auto;
 }
 
-[class*='userPopout'] [class*='mask'], [class*='maskProfile']{
-    mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Masks/maskUserPop.svg')!important;
-    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Masks/maskUserPop.svg')!important;
+.newMessagesBar-mujexs{
+    width: fit-content!important;
+    border-radius: 20px!important;
+    top: 10px!important;
 }
 
-/* Mask Fixes - END -> Messages Popout Wrap Fixes - START */
 
-[class*='messagesPopoutWrap'] .message-group .comment{
-    z-index: 10;
+/* User Container Channel Bar */
+/* .container-2Thooq .accountDetails-3k9g4n, .container-2Thooq .flex-1xMQg5 {
+    margin-top: 20px;
+} */
+
+/* .accountDetails-3k9g4n .username, .accountDetails-3k9g4n .discriminator{
+    display: inline;
 }
 
-[class*='messagesPopoutWrap'] .message-group [class*='actionButtons']{
-    z-index: 11;
+.container-2Thooq .wrapper-2F3Zv8, .container-2Thooq .wrapper-2F3Zv8 .avatar-3JE4B3{
+    width: 20px;
+    height: 20px;
 }
 
-[class*='messagesPopoutWrap']{
-    width: 600px;
+.container-2Thooq .wrapper-2F3Zv8 .status-oxiHuE{
+    width: 8px!important;
+    height: 8px!important;
 }
 
-/* Messages Popout Wrap Fixes - START -> Upload Modal Changes START */
-
-[class*='uploadModal'] [class*='file'] [class*='image']{
-    width: 200px!important;
-    background-size:contain;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    overflow:hidden;
-    background-color:transparent;
-    z-index:1;
-    position: relative;
+.container-2Thooq .wrapper-2F3Zv8{
+    margin-top: 28px;
+    margin-bottom: 8px;
 }
 
-[class*='uploadModal'] [class*='file'] [class*='image']::before{
-    content:"";
-    background-image:inherit;
+.container-2Thooq .flex-1xMQg5{
+    opacity: 0;
+    width: 210px;
+    left: 110px;
+    height: 51px;
     position: absolute;
-    width: 200px;
-    height: 100px;
-    top:2px;
-    left:2px;
-    border-radius: 8px;
-    background-size:cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    z-index:0;
-    filter:blur(5px) brightness(50%);
-    transform: scale(1.2);
-}
-[class*='uploadModal'] [class*='file'] [class*='image']::after{
-    content:"";
-    background-image:inherit;
-    position: absolute;
-    width: 200px;
-    height: 100px;
-    border-radius: 6px;
-    z-index:5;
-    background-size:contain;
-    background-position: 50%;
-    background-repeat: no-repeat;
+    bottom: 0;
+    margin-top: 0;
+    background-color: #161616!important;
+    z-index: 120;
+    transition: opacity 200ms;
 }
 
-/* TODO: Fix screencap options! */
+.container-2Thooq .flex-1xMQg5 div button, .container-2Thooq .flex-1xMQg5 button{
+    margin-top: 5px;
+    width: 60px;
+    height: 40px;
+    background-size: 25px 25px!important;
+}
+
+.container-2Thooq .flex-1xMQg5 button div svg{
+    width: 25px!important;
+    height: 25px!important;
+    margin: 6.5px 0 15px 0;
+}
+
+.container-2Thooq:hover .flex-1xMQg5{
+    opacity: 1;
+} */
+
+/* Channels scroller container for both DMs and Servers */
+/* .channels-Ie2l6A .container-PNkimc, .private-channels {
+    margin-bottom: 26px;
+} */
+
+
+::-webkit-scrollbar{
+    display: none;
+}
