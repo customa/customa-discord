@@ -1,4 +1,4 @@
-/* BUG!! */
+    /* BUG!! */
 .popout.popout-top-right section:before, .popout.popout-top section:before{
     border-top-color: #161616!important;
 }
@@ -187,7 +187,8 @@
 }
 
 .messages-wrapper .scroller-wrap{
-    margin-bottom: 20px;
+    padding-bottom: 20px!important;
+    margin-bottom: 0!important;
 }
 
 .guild .guilds-error{
