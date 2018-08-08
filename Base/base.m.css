@@ -43,7 +43,7 @@ Backgrounds & SVG Fills
     background: var(--ColBackground2)!important;
 }
 
-.newMessagesBar-mujexs /* Bar that appears in the chat div when you have a new message in the channel */, .checkbox .checkbox-inner input[type=checkbox]:checked+span /* Checkbox Selectors */, .dividerRed-MKoLlr div /* Divider Red Fixes */, .unread-1Dp-OI, .guild-1EfMGQ.unread-qLkInr::before, .guild-1EfMGQ.selected-ML3OIq::before /* Dots and Lines for Server Select and Unread Notifs */, .button-38aScr:not(.colorRed-1TFJan):not(.lookLink-9FtZy-):not(.button-2b6hmh):not(.attachButton-1UjEWA):not(.emojiButton-3uL3Aw):not(.lookBlank-3eh9lL), .questionMark-CWEQZn /* Buttons */, .slider-1PF9SW .barFill-23-gu- /* Slider Settings Bar Fill */, .notificationSettings-1NQKPR .option-n0icdO.selected-mKYnfr /* Selected Option Overlay Notif Settings */, .bd-pfbtn, .bda-settings-button /* Buttons for Better Discord */, .now-playing /*  Game Activity*/, .paginationItem-3-MBTL.selectedPage-2JQS2s::before /* Activity Feed Page Page Bubble */, #friends .tab-bar-item-primary /* Add Friend Button Friends Menu */{
+.newMessagesBar-mujexs /* Bar that appears in the chat div when you have a new message in the channel */, .checkbox .checkbox-inner input[type=checkbox]:checked+span /* Checkbox Selectors */, .dividerRed-MKoLlr div /* Divider Red Fixes */, .unread-1Dp-OI, .guild-1EfMGQ.unread-qLkInr::before, .guild-1EfMGQ.selected-ML3OIq::before /* Dots and Lines for Server Select and Unread Notifs */, .button-38aScr:not(.colorRed-1TFJan):not(.lookLink-9FtZy-):not(.button-2b6hmh):not(.attachButton-1UjEWA):not(.emojiButton-3uL3Aw):not(.lookBlank-3eh9lL), .questionMark-CWEQZn /* Buttons */, .slider-1PF9SW .barFill-23-gu- /* Slider Settings Bar Fill */, .notificationSettings-1NQKPR .option-n0icdO.selected-mKYnfr /* Selected Option Overlay Notif Settings */, .bd-pfbtn, .bda-settings-button /* Buttons for Better Discord */, .now-playing /*  Game Activity*/, .paginationItem-3-MBTL.selectedPage-2JQS2s::before /* Activity Feed Page Page Bubble */, #friends .tab-bar-item-primary /* Add Friend Button Friends Menu */, .btn-friends.selected /* Friends/Game Menu Selected */{
     background-color: var(--ColAccent)!important;
 }
 
@@ -51,11 +51,15 @@ Backgrounds & SVG Fills
     background-color: #F44336!important;
 }
 
-.messagesPopoutWrap-1MQ1bW .header-ykumBX, .messagesPopoutWrap-1MQ1bW .footer-1kmXd4, .emojiPicker-3m1S-j .header-1nkwgG, .modal-3HD5ck .footer-2yfCgX /* Inner Popout & Modal Selector Header and Footer */, .contentSelectedText-3wUhMi, .contentHoveredText-2D9B-x, .private-channels .channel.selected a, .private-channels .channel:hover a /* Selected & Hovered Channel */, .popout-2nUePc .item-16cXuq:hover /* Diversity Selector on Hover */, .member-3W1lQa:hover .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4 /* Member Selector Hover and Selected */, .userPopout-3XzG_A .footer-1fjuF6 /* User Popout Footer */, .quickMessage-2XpSaN /* Quickmessage box in the user popout */, .search-l1Wz-Q /* Searchbar for Channel Search */, .messageGroupWrapper-o-Zw7G /* Pinned Messages and mentions popout message group */, .actionButtons-1sUUug .jumpButton-3DTcS_, .action-buttons .jump-button /* Jump Button to jump to the selected message group */, .searchFilter-2ESiM3 /* Search Filter - Search */, .search-header /* Header of the search bar */, .search-result-message.hit /* The exact message that was searched for */, .emojiPicker-3m1S-j .search-bar-inner /* Searchbar of Emoji Picker */, .channelNotice-1-XFjC, .channelNotice-1-XFjC .btn-11C5_u /* Notices that come up at  the top of the channel list (invite people) + Button in it*/, .emojiItem-109bjA.selected-39BZ4S /* Hover Effect Emoji Item Emoji Picker */, .connectedAccount-36nQx7 /* Connected Account User Modal */, .modal-1UGdnR .inner-1JeGVc .tabBarContainer-1s1u-z /* Border of the Tab Bar Container in the User Modal */, pre, code.inline /* Code Boxes */, .card-3Qj_Yx /* Card Element, used for the user Component in my account for example */, .actionButton-3W1xZa, .side-8zPYf6 .item-PXvHYJ:hover, #bd-settings-sidebar .ui-tab-bar-item:hover /* Settings Sidebar */, .fancy-credit-input, .friends-table-add .wrapper-1cBijl /* Credit Card Input & Find Friend Input */, .slider-1PF9SW .bar-2Qqk5Z /* Slider Settings Empty Bar Fill */, .checkbox-1ix_J3 /* Settings Checkboxes */, .accountBtnInner-sj5jLs /* Account Button (Connections Menu) */, .notificationSettings-1NQKPR .wrapper-3jrx9n /* Wrapper for the Notification Settings of the Overlay */, .notificationSettings-1NQKPR .option-n0icdO /* Option Overlay Notif Settings */, .message-2qRu38 /* Delete and Pin Notif Pin Layer */, .card-FDVird:before /* Keybinds & Games Card Hover effect */, .not-detected /* Game Activity */, .select-2TCrqx /* Multiselect */, .select-2TCrqx .Select-option.is-selected, .select-2TCrqx .Select-option:hover /* Selection and Hover Multiselect */, .personalizationNotice-2HTAH2, .card-7JP0BX /* Activity Feed Boxes */, .article-FleDq5 /* Article Activity Feed */, #friends .tab-bar-item.selected /* Top bar Action Button Select */{
+.messagesPopoutWrap-1MQ1bW .header-ykumBX, .messagesPopoutWrap-1MQ1bW .footer-1kmXd4, .emojiPicker-3m1S-j .header-1nkwgG, .modal-3HD5ck .footer-2yfCgX /* Inner Popout & Modal Selector Header and Footer */, .contentSelectedText-3wUhMi, .contentHoveredText-2D9B-x, .private-channels .channel.selected a, .private-channels .channel:hover a /* Selected & Hovered Channel */, .popout-2nUePc .item-16cXuq:hover /* Diversity Selector on Hover */, .member-3W1lQa:hover .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4 /* Member Selector Hover and Selected */, .userPopout-3XzG_A .footer-1fjuF6 /* User Popout Footer */, .quickMessage-2XpSaN /* Quickmessage box in the user popout */, .search-l1Wz-Q /* Searchbar for Channel Search */, .messageGroupWrapper-o-Zw7G /* Pinned Messages and mentions popout message group */, .actionButtons-1sUUug .jumpButton-3DTcS_, .action-buttons .jump-button /* Jump Button to jump to the selected message group */, .searchFilter-2ESiM3 /* Search Filter - Search */, .search-header /* Header of the search bar */, .search-result-message.hit /* The exact message that was searched for */, .emojiPicker-3m1S-j .search-bar-inner /* Searchbar of Emoji Picker */, .channelNotice-1-XFjC, .channelNotice-1-XFjC .btn-11C5_u /* Notices that come up at  the top of the channel list (invite people) + Button in it*/, .emojiItem-109bjA.selected-39BZ4S /* Hover Effect Emoji Item Emoji Picker */, .connectedAccount-36nQx7 /* Connected Account User Modal */, .modal-1UGdnR .inner-1JeGVc .tabBarContainer-1s1u-z /* Border of the Tab Bar Container in the User Modal */, pre, code.inline /* Code Boxes */, .card-3Qj_Yx /* Card Element, used for the user Component in my account for example */, .actionButton-3W1xZa, .side-8zPYf6 .item-PXvHYJ:not([style*='back']):hover, #bd-settings-sidebar .ui-tab-bar-item:hover /* Settings Sidebar */, .fancy-credit-input, .friends-table-add .wrapper-1cBijl /* Credit Card Input & Find Friend Input */, .slider-1PF9SW .bar-2Qqk5Z /* Slider Settings Empty Bar Fill */, .checkbox-1ix_J3 /* Settings Checkboxes */, .accountBtnInner-sj5jLs /* Account Button (Connections Menu) */, .notificationSettings-1NQKPR .wrapper-3jrx9n /* Wrapper for the Notification Settings of the Overlay */, .notificationSettings-1NQKPR .option-n0icdO /* Option Overlay Notif Settings */, .message-2qRu38 /* Delete and Pin Notif Pin Layer */, .card-FDVird:before /* Keybinds & Games Card Hover effect */, .not-detected /* Game Activity */, .select-2TCrqx /* Multiselect */, .select-2TCrqx .Select-option.is-selected, .select-2TCrqx .Select-option:hover /* Selection and Hover Multiselect */, .personalizationNotice-2HTAH2, .card-7JP0BX /* Activity Feed Boxes */, .article-FleDq5 /* Article Activity Feed */, #friends .tab-bar-item.selected, #friends .tab-bar-item:hover /* Top bar Action Button Select */, .avatar-uploader-inner /* Avatar Uploader Inner */{
     background-color: rgba(0,0,0,0.2)!important;
 }
 
-.side-8zPYf6 .itemSelected-1qLhcL.item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item.selected /* Settings Sidebar Override Hover */, .slider-1PF9SW .bar-2Qqk5Z.speaking-2bFhO4 /* Speaking Slider Settings */{
+.channel.btn-friends.selected a /* Friends/Game Menu Selected */{
+    background: transparent!important;
+}
+
+.side-8zPYf6 .itemSelected-1qLhcL.item-PXvHYJ:not([style*='back']), #bd-settings-sidebar .ui-tab-bar-item.selected /* Settings Sidebar Override Hover */, .slider-1PF9SW .bar-2Qqk5Z.speaking-2bFhO4 /* Speaking Slider Settings */{
     background-color: var(--ColAccent)!important;
 }
 
@@ -85,7 +89,7 @@ Backgrounds & SVG Fills
 
 /*
 
-Borders and Box Shadows
+Borders, Box Shadows and Strokes
 
 */
 
@@ -101,7 +105,7 @@ Borders and Box Shadows
     border-top-color: var(--ColBackground1)!important;
 }
 
-.tab-bar .tab-bar-item.selected, .tab-bar .tab-bar-item:hover, .search-header .tab.selected, .search-header .tab:hover /* Tab bar (used in search for example) to change between states, hover effect thereof */, .checkbox .checkbox-inner input[type=checkbox]:checked+span /* Checkbox Selectors */, .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus /* Input Focus Changes */, .accountBtnInner-sj5jLs:hover /* Account Button (Connections Menu) */, .notificationSettings-1NQKPR .wrapper-3jrx9n /* Wrapper for the Notification Settings of the Overlay */, .card-3Qj_Yx[style*='border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);'] .checkbox-1ix_J3 /* Main Checkbox in the Settings */, .checkbox-1ix_J3.round-2jCFai.checked-3_4uQ9 /* Language Select */, .select-2TCrqx:hover .Select-control/* Multiselect */{
+.tab-bar .tab-bar-item.selected, .tab-bar .tab-bar-item:hover, .search-header .tab.selected, .search-header .tab:hover /* Tab bar (used in search for example) to change between states, hover effect thereof */, .checkbox .checkbox-inner input[type=checkbox]:checked+span /* Checkbox Selectors */, .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus /* Input Focus Changes */, .accountBtnInner-sj5jLs:hover /* Account Button (Connections Menu) */, .notificationSettings-1NQKPR .wrapper-3jrx9n /* Wrapper for the Notification Settings of the Overlay */, .card-3Qj_Yx[style*='border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);'] .checkbox-1ix_J3 /* Main Checkbox in the Settings */, .checkbox-1ix_J3.round-2jCFai.checked-3_4uQ9 /* Language Select */, .select-2TCrqx:hover .Select-control/* Multiselect */, .emojiPicker-3m1S-j .item-16cXuq.selected-39BZ4S{
     border-color: var(--ColAccent)!important;
 }
 
@@ -119,7 +123,7 @@ Color
 
 */
 
-.hasMore-3e72_v button /* Button when top of chat is reached */, .searchAnswer-3Dz2-q /* What the filter searches for */, .menu-Sp6bN1 .item-1GzJrl:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- span:nth-of-type(2), .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc:hover /* Menu hover effects */, .tab-bar .tab-bar-item.selected, .search-header .tab.selected /* Tab bar (used in search for example) to change between states, hover effect thereof */, .dividerRed-MKoLlr span /* Divider "Red" Fixes */, .select-2TCrqx .Select-option.is-selected /* Multiselect Selected Value */{
+.hasMore-3e72_v button /* Button when top of chat is reached */, .searchAnswer-3Dz2-q /* What the filter searches for */, .menu-Sp6bN1 .item-1GzJrl:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- span:nth-of-type(2), .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc:hover /* Menu hover effects */, .tab-bar .tab-bar-item.selected, .search-header .tab.selected /* Tab bar (used in search for example) to change between states, hover effect thereof */, .dividerRed-MKoLlr span /* Divider "Red" Fixes */, .select-2TCrqx .Select-option.is-selected /* Multiselect Selected Value */, #friends .tab-bar-item.selected /* Top bar Action Button Select */{
     color: var(--ColAccent)!important;
 }
 
@@ -131,7 +135,7 @@ Color
     color: #dcddde!important;
 }
 
-.button-38aScr /* Buttons */, #friends .tab-bar-item.selected /* Top bar Action Button Select */{
+.button-38aScr /* Buttons */, #friends .tab-bar-item-primary.selected /* Top bar Action Button Select */{
     color: white!important;
 }
 
@@ -181,8 +185,6 @@ Width & Height
     margin: 0 20px 20px;
 }
 
-
-
 .container-1YxwTf:last-of-type{
     margin-bottom: 25px;
 }
@@ -210,6 +212,17 @@ Width & Height
 .messagesPopoutWrap-1MQ1bW{
     width: 550px;
 }
+
+/*
+
+Cursor
+
+*/
+
+/* .channelName-3stJzi{
+    cursor: pointer;
+} */
+
 
 /*
 
