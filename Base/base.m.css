@@ -63,7 +63,7 @@ Backgrounds & SVG Fills
     background-color: var(--ColBackground2)!important;
 }
 
-.newMessagesBar-mujexs /* Bar that appears in the chat div when you have a new message in the channel */, .checkbox .checkbox-inner input[type=checkbox]:checked+span /* Checkbox Selectors */, .dividerRed-MKoLlr div /* Divider Red Fixes */, .unread-1Dp-OI, .guild-1EfMGQ.unread-qLkInr::before, .guild-1EfMGQ.selected-ML3OIq::before /* Dots and Lines for Server Select and Unread Notifs */, .button-38aScr:not(.colorRed-1TFJan):not(.lookLink-9FtZy-):not(.button-2b6hmh):not(.attachButton-1UjEWA):not(.emojiButton-3uL3Aw):not(.lookBlank-3eh9lL), .questionMark-CWEQZn /* Buttons */, .slider-1PF9SW .barFill-23-gu- /* Slider Settings Bar Fill */, .notificationSettings-1NQKPR .option-n0icdO.selected-mKYnfr /* Selected Option Overlay Notif Settings */, .bd-pfbtn, .bda-settings-button /* Buttons for Better Discord */, .now-playing /*  Game Activity*/, .paginationItem-3-MBTL.selectedPage-2JQS2s::before /* Activity Feed Page Page Bubble */, #friends .tab-bar-item-primary /* Add Friend Button Friends Menu */, .need-help-modal .header /* Header of F1 Menu */, .autocomplete-header-background /* Add Role Popout Header */, .container-2x5lvQ header /* RTC Connection Header */, .selectorButtonSelected-1j4DmC /* Stream Quality and Frame Rate */, .guildIcon-lQ0uiM:not(.guildIconExpired-2Qcq05) /* Fallback Guild Icon Color INVITE */, .containerDragBefore-31UGCO::before, .containerDragAfter-1F4fgZ::after, .containerDragBefore-3Dzc5x::before, .containerDragAfter-3TEhpe::before /* Small Box that appears when dragging channels and categs */, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl.fakeEdges-27pgtp::before, .mediaBarProgress-1xaPtl.fakeEdges-27pgtp::after, .mediaBarGrabber-1FqnbN /* All Kinds of Media Controls */, .create-guild-container .create .btn /* Buttons Create Guild */, .create-guild-container .form-actions .btn-default, .create-guild-container .create-guild .btn-primary /* Create Guild Container Bottom Buttons */, .regionSelect-3lf4eE:hover button /* Regional Select Button Fixes */, .uploadModal-2ifh8j .button-primary /* Upload Modal Button Upload */, .guild-1EfMGQ:first-child.selected-ML3OIq .guildInner-3DSoA4 /* Guild Fixes */, .progressContainer-3ao-eu .progressBar-3u8FBM /* Progress of Upload */, .spinner-2enMB9 .wanderingCubesItem-WPXqao, .spinner .spinner-item /* Spinner Element */, .badge-1GsMF2 /* Unread Badge */{
+.newMessagesBar-mujexs /* Bar that appears in the chat div when you have a new message in the channel */, .checkbox .checkbox-inner input[type=checkbox]:checked+span /* Checkbox Selectors */, .dividerRed-MKoLlr div /* Divider Red Fixes */, .unread-1Dp-OI, .guild-1EfMGQ.unread-qLkInr::before, .guild-1EfMGQ.selected-ML3OIq::before /* Dots and Lines for Server Select and Unread Notifs */, .button-38aScr:not(.colorRed-1TFJan):not(.lookLink-9FtZy-):not(.button-2b6hmh):not(.attachButton-1UjEWA):not(.emojiButton-3uL3Aw):not(.lookBlank-3eh9lL), .questionMark-CWEQZn /* Buttons */, .slider-1PF9SW .barFill-23-gu- /* Slider Settings Bar Fill */, .notificationSettings-1NQKPR .option-n0icdO.selected-mKYnfr /* Selected Option Overlay Notif Settings */, .bd-pfbtn, .bda-settings-button /* Buttons for Better Discord */, .now-playing /*  Game Activity*/, .paginationItem-3-MBTL.selectedPage-2JQS2s::before /* Activity Feed Page Page Bubble */, #friends .tab-bar-item-primary /* Add Friend Button Friends Menu */, .need-help-modal .header /* Header of F1 Menu */, .autocomplete-header-background /* Add Role Popout Header */, .container-2x5lvQ header /* RTC Connection Header */, .selectorButtonSelected-1j4DmC /* Stream Quality and Frame Rate */, .guildIcon-lQ0uiM:not(.guildIconExpired-2Qcq05) /* Fallback Guild Icon Color INVITE */, .containerDragBefore-31UGCO::before, .containerDragAfter-1F4fgZ::after, .containerDragBefore-3Dzc5x::before, .containerDragAfter-3TEhpe::before /* Small Box that appears when dragging channels and categs */, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl.fakeEdges-27pgtp::before, .mediaBarProgress-1xaPtl.fakeEdges-27pgtp::after, .mediaBarGrabber-1FqnbN /* All Kinds of Media Controls */, .create-guild-container .create .btn /* Buttons Create Guild */, .create-guild-container .form-actions .btn-default, .create-guild-container .create-guild .btn-primary /* Create Guild Container Bottom Buttons */, .regionSelect-3lf4eE:hover button /* Regional Select Button Fixes */, .uploadModal-2ifh8j .button-primary /* Upload Modal Button Upload */, .guild-1EfMGQ:first-child.selected-ML3OIq .guildInner-3DSoA4 /* Guild Fixes */, .progressContainer-3ao-eu .progressBar-3u8FBM /* Progress of Upload */, .spinner-2enMB9 .wanderingCubesItem-WPXqao, .spinner .spinner-item /* Spinner Element */, .badge-1GsMF2, .mention-1f5kbO /* Unread Badge */{
     background-color: var(--ColAccent)!important;
 }
 
@@ -121,8 +121,13 @@ Backgrounds & SVG Fills
     fill: var(--ColAnchor);
 }
 
-.btn-close path.fill, .bda-slist .settings-open div[style*='float'] svg path.fill/* Button to close Menues */{
+.btn-close path.fill, .bda-slist .settings-open div[style*='float'] svg path.fill /* Button to close Menues */{
     fill: #F44336;
+}
+
+.channelNotices-41mJbj .close-relY5R /* Button to close Menues */{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/SVGs/Close.svg')!important;
+    opacity: 1!important;
 }
 
 /*
@@ -155,6 +160,10 @@ Borders, Box Shadows and Strokes
     border-color: #F44336!important;
 }
 
+.guild-1EfMGQ .guildInner-3DSoA4 /* Server Hover */{
+    border-radius: 100%!important;
+}
+
 .searchBar-2_Yu-C, .header-2o-2hj /* Search bar(s) for DM + Container in Servers for Server name */, .title-3qD0b- /* Channel Name Title */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .search-result-message.hit /* The exact message that was searched for */, .isLocalBot-38G0P0 /* Clyde Message / Local Bot */, .message-2qRu38 /* Delete and Pin Notif Pin Layer */, #help-query /* Input of F1 Menu */, .inner-1JeGVc .modal-3HD5ck .tiles-2aXG_k /* Screensharing All Boxes */{
     box-shadow: none!important;
 }
@@ -173,7 +182,7 @@ Color
 
 */
 
-.hasMore-3e72_v button /* Button when top of chat is reached */, .searchAnswer-3Dz2-q /* What the filter searches for */, .menu-Sp6bN1 .item-1GzJrl:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- span:nth-of-type(2), .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc:hover /* Menu hover effects */, .tab-bar .tab-bar-item.selected, .search-header .tab.selected, .item-1TLUig:hover, .item-1TLUig.selected-P8xTeN /* Tab bar (used in search for example) to change between states, hover effect thereof */, .dividerRed-MKoLlr span /* Divider "Red" Fixes */, .select-2TCrqx .Select-option.is-selected /* Multiselect Selected Value */, #friends .tab-bar-item.selected /* Top bar Action Button Select */, .welcomeMessage-3_Mcht h1 /* Welcome Message */, .reaction-me .reaction-count /* tfw you react */, .mention:not([style*='color']), .wrapper-3WhCwL:not([style*='color']) /* Mentioned when not some role color is defined */, .create-guild-container .create .action-header, .create-guild-container header, .create-guild-container .sample-link, .create-guild-container .create-guild h5 /* Text Create Guild */, .regionSelect-3lf4eE button /* Regional Select Button Fixes */, .regionSelectModalHeader-21khC1 /* Header for Regional Select Modal */, .regionSelectModalOption-2DSIZ3 .regionSelectName-2-2FWh /* Option on Regional Select Modal Text */{
+.hasMore-3e72_v button /* Button when top of chat is reached */, .searchAnswer-3Dz2-q /* What the filter searches for */, .menu-Sp6bN1 .item-1GzJrl:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- span:nth-of-type(2), .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc:hover /* Menu hover effects */, .tab-bar .tab-bar-item.selected, .search-header .tab.selected, .item-1TLUig:hover, .item-1TLUig.selected-P8xTeN /* Tab bar (used in search for example) to change between states, hover effect thereof */, .dividerRed-MKoLlr span /* Divider "Red" Fixes */, .select-2TCrqx .Select-option.is-selected /* Multiselect Selected Value */, #friends .tab-bar-item.selected /* Top bar Action Button Select */, .welcomeMessage-3_Mcht h1 /* Welcome Message */, .reaction-me .reaction-count /* tfw you react */, .mention:not([style*='color']), .wrapper-3WhCwL:not([style*='color']) /* Mentioned when not some role color is defined */, .create-guild-container .create .action-header, .create-guild-container header, .create-guild-container .sample-link, .create-guild-container .create-guild h5 /* Text Create Guild */, .regionSelect-3lf4eE button /* Regional Select Button Fixes */, .regionSelectModalHeader-21khC1 /* Header for Regional Select Modal */, .regionSelectModalOption-2DSIZ3 .regionSelectName-2-2FWh /* Option on Regional Select Modal Text */, .guild-1EfMGQ:hover .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Hover */{
     color: var(--ColAccent)!important;
 }
 
@@ -296,7 +305,7 @@ Transitions
 
 */
 
-.tab-bar .tab-bar-item.selected, .item-1TLUig /* Tab bar (used in search for example) to change between states, hover effect thereof */, .menu-Sp6bN1 .item-1GzJrl:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- span:nth-of-type(2), .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc /* Menu hover effects */{
+.tab-bar .tab-bar-item.selected, .item-1TLUig /* Tab bar (used in search for example) to change between states, hover effect thereof */, .menu-Sp6bN1 .item-1GzJrl:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- span:nth-of-type(2), .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc /* Menu hover effects */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Hover */{
     transition: color 400ms;
 }
 
@@ -318,6 +327,10 @@ Transitions
 
 .channelTextArea-1LDbYG .inner-zqa7da:hover > .flex-1xMQg5 /* Container of Upload Button - Reverse Transition */{
     transition: width 200ms;
+}
+
+.btn-close,  .bda-slist .settings-open div[style*='float'], .channelNotices-41mJbj .close-relY5R, .guild-1EfMGQ .guildInner-3DSoA4 /* Server Hover */{
+    transition: transform 200ms;
 }
 
 /*
@@ -403,12 +416,12 @@ Close Button Animation
     transform: scale(2);
 }
 
-.bda-slist .settings-open div[style*='float']:hover{
+.bda-slist .settings-open div[style*='float']:hover, .channelNotices-41mJbj .close-relY5R:hover{
     transform: scale(1.4);
 }
 
-.btn-close,  .bda-slist .settings-open div[style*='float']{
-    transition: transform 200ms;
+.guild-1EfMGQ:hover .guildInner-3DSoA4 /* Server Hover */{
+    transform: scale(1.15);
 }
 
 /*
