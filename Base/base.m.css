@@ -1,12 +1,22 @@
 :root{
 
-    --ColBackground1: #161616;
-    --ColBackground2: #212121;
+    --ColAppBG: url('https://cdn.discordapp.com/attachments/261950094096596992/477207573758607371/oneshotdesktop4.png');
+    --ColBackground1: rgba(0,0,0,0.2);
+    --ColBackground2: rgba(0,0,0,0);
     --ColAccent: #D81B60;
     --ColAccentAlpha: rgba(216, 27, 96, 0.1);
     --ColAnchor: #0096cf;
     --ColLastMessage: transparent;
     --DisplayEmbedPill: none;
+
+    --ColAppBG: #161616; /* Color or url('link to image')*/
+    --ColBackground1: var(--ColAppBG); /* Color */
+    --ColBackground2: #212121; /* Color */
+    --ColAccent: #D81B60; /* Color */
+    --ColAccentAlpha: rgba(216, 27, 96, 0.1); /* Color in RGBA Format, best when hex code of --ColAccent is converted to rgba and get's an opacity of 0.1 */
+    --ColAnchor: #0096cf;  /* Color */
+    --ColLastMessage: transparent; /* Transparent or Color - pref. RGBA color */
+    --DisplayEmbedPill: none; /* Block or none */
 
 }
 
@@ -18,10 +28,15 @@ Backgrounds & SVG Fills
 
 /* App Mount - Base Element: Used for background image or color */
 #app-mount{
-    background: var(--ColBackground1);
+    background: var(--ColAppBG) no-repeat!important;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover!important;
+    width: 100%;
+    height: 100%;
 }
 
-.layers-3iHuyZ, .layer-3QrUeG, .layer-3QrUeG .flex-1xMQg5, .chat-3bRxxu, .content-yTz4x3, .ui-standard-sidebar-view, .sidebar-region, .popoutList-T9CKZQ, .create-guild-container .form-inner /* Pretty much only all the elements adding additional background colors, all disabled, to make the shared background work */, .chat-3bRxxu form /* Main Form Element in the main chat window */, .channelTextArea-1LDbYG .inner-zqa7da, .members-1998pB /* Server Member Bar */, .menu-Sp6bN1, .messagesPopoutWrap-1MQ1bW, .searchPopout-1vUlP3, .emojiPicker-3m1S-j, .container-3cGP6G, .popout-3sVMXz .contextMenu-HLZMGh /* Inner Popout Selectors to unify colors */ , .emojiPicker-3m1S-j .category-2U57w6 /* Categories of Emoji Picker */, .dimmer-3iH-5D.visible-3k45bQ /* Emoji Selector Dimmer - When opening diversity selector */, .userPopout-3XzG_A .body-3iLsc4, .userPopout-3XzG_A .header-2BwW8b /* User Popout Header & Body */, .search-bar /* Reset Searchbar */, .hasMore-3e72_v button /* Button when top of chat is reached */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .searchAnswer-3Dz2-q /* What the filter searches for */, .search-results-wrap /* Main Wrapper for search */, .channel-separator span /* Channel seperator Search */, .menu-Sp6bN1 .item-1GzJrl:hover, .container-3cGP6G .item-2J1YMK:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL-, .item-1Yvehc:hover /* Menu hover effects */, .topSectionPlaying-1J5E4n, .topSectionNormal-2-vo2m, .topSectionSpotify-1lI0-P, .topSectionStreaming-1Tpf5X /* Header of User Modal */, pre code /* Multiline Code Box Color Fix */, .media-engine-video, .previewContainer-37c2Si /* Transparent Layer for the Webcam Preview */, .modal-3HD5ck .message-2qRu38 .container-1YxwTf:last-of-type /* Transparent Message Delete and Pin Notif */, .carousel-JbsNzL /* Article Carousel Activity Tab */, .card-7JP0BX .body-SKIE6r, .newsLink-38Naqi /* Now Playing Friend Card Body & News Body */, .need-help-modal .form-inner /* F1 Menu Inner */, #autocomplete-popout section /* Section Member Roles Add Popout */, .container-1UB9sr /* In Voice Container */, .container-2x5lvQ section /* RTC Connection Body */, .btn-close:hover /* Button to close Menues */, .guild-1EfMGQ .guildInner-3DSoA4, .guild-1EfMGQ /* Guild Real Transparency */{
+.layers-3iHuyZ, .layer-3QrUeG, .layer-3QrUeG .flex-1xMQg5, .chat-3bRxxu, .content-yTz4x3, .ui-standard-sidebar-view, .sidebar-region, .popoutList-T9CKZQ, .create-guild-container .form-inner /* Pretty much only all the elements adding additional background colors, all disabled, to make the shared background work */, .chat-3bRxxu form /* Main Form Element in the main chat window */, .menu-Sp6bN1, .messagesPopoutWrap-1MQ1bW, .searchPopout-1vUlP3, .emojiPicker-3m1S-j, .container-3cGP6G, .popout-3sVMXz .contextMenu-HLZMGh /* Inner Popout Selectors to unify colors */ , .emojiPicker-3m1S-j .category-2U57w6 /* Categories of Emoji Picker */, .dimmer-3iH-5D.visible-3k45bQ /* Emoji Selector Dimmer - When opening diversity selector */, .userPopout-3XzG_A .body-3iLsc4, .userPopout-3XzG_A .header-2BwW8b /* User Popout Header & Body */, .search-bar /* Reset Searchbar */, .hasMore-3e72_v button /* Button when top of chat is reached */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .searchAnswer-3Dz2-q /* What the filter searches for */, .search-results-wrap /* Main Wrapper for search */, .channel-separator span /* Channel seperator Search */, .menu-Sp6bN1 .item-1GzJrl:hover, .container-3cGP6G .item-2J1YMK:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL-, .item-1Yvehc:hover /* Menu hover effects */, .topSectionPlaying-1J5E4n, .topSectionNormal-2-vo2m, .topSectionSpotify-1lI0-P, .topSectionStreaming-1Tpf5X /* Header of User Modal */, pre code /* Multiline Code Box Color Fix */, .media-engine-video, .previewContainer-37c2Si /* Transparent Layer for the Webcam Preview */, .modal-3HD5ck .message-2qRu38 .container-1YxwTf:last-of-type /* Transparent Message Delete and Pin Notif */, .carousel-JbsNzL /* Article Carousel Activity Tab */, .card-7JP0BX .body-SKIE6r, .newsLink-38Naqi /* Now Playing Friend Card Body & News Body */, .need-help-modal .form-inner /* F1 Menu Inner */, #autocomplete-popout section /* Section Member Roles Add Popout */, .container-1UB9sr /* In Voice Container */, .container-2x5lvQ section /* RTC Connection Body */, .btn-close:hover /* Button to close Menues */, .guild-1EfMGQ .guildInner-3DSoA4, .guild-1EfMGQ /* Guild Real Transparency */{
     background-color: transparent!important;
 }
 
@@ -30,7 +45,7 @@ Backgrounds & SVG Fills
     background-color: rgba(0,0,0,0)!important;
 }
 
-.guildsWrapper-5TJh6A /* Guilds Wrapper */, .private-channels .search-bar, .container-2Rl01u /* Search bar(s) for DM + Container in Servers for Server name */, .container-2Thooq /* User Container Channel Bar */, .popout-3sVMXz, .popout-2nUePc, .modal-3HD5ck, .modal-1UGdnR .inner-1JeGVc .root-SR8cQa, .premiumPaymentModal-3SpIbo, .add-game-popout, .select-2TCrqx .Select-control /* Main Popout & Modal Class(es) */, .emojiPicker-3m1S-j .stickyHeader-1SS0JU /* Emoji Selector Sticky Selector */, .typing-2GQL18 /* Typing Indicator */, .jumpToPresentBar-9P20AM /* Jump To Present Bar */, .contextMenu-HLZMGh /* Single popout for profiles and deletion of messages */, .divider-3gKybi:not(.dividerRed-MKoLlr) span, .divider-3gKybi:not(.dividerRed-MKoLlr) div /* Divider Fixes */, .embedInner-1-fpTo, .attachment-33OFj0, .wrapper-35wsBm, .wrapperAudio-1jDe0Q /* Element which holds the embed & attachment contents */, .grabber-3mFHz2 .bubble-3we2di /* Grabber - Shows Value of Sliders */, .select-2TCrqx .Select-menu-outer /* Multiselect Select Menu - Background */, #friends .headerBar-UHpsPw /* Header Bar Friends List */, .quickswitcher-3JagVE /* Quick Switcher */, .autocomplete-1vrmpx /* Autocomplete */, .keyboardShortcutsModal-3piNz7, .overflowRolesPopout-140n9i, .need-help-modal /* Modals that can't be colored normally - Keyboard Menu, Menu for Overflowing Roles Members Menu, F1 Menu */, .messageGroupBlocked-3wrQQX /* Message sent from a person that blocked you */, .create-guild-container /* Create Guild Container */{
+.guildsWrapper-5TJh6A /* Guilds Wrapper */, .private-channels .search-bar, .container-2Rl01u /* Search bar(s) for DM + Container in Servers for Server name */, .container-2Thooq /* User Container Channel Bar */, .popout-3sVMXz, .popout-2nUePc, .modal-3HD5ck, .modal-1UGdnR .inner-1JeGVc .root-SR8cQa, .premiumPaymentModal-3SpIbo, .add-game-popout, .select-2TCrqx .Select-control /* Main Popout & Modal Class(es) */, .emojiPicker-3m1S-j .stickyHeader-1SS0JU /* Emoji Selector Sticky Selector */, .typing-2GQL18 /* Typing Indicator */, .jumpToPresentBar-9P20AM /* Jump To Present Bar */, .contextMenu-HLZMGh /* Single popout for profiles and deletion of messages */, .divider-3gKybi:not(.dividerRed-MKoLlr) span, .divider-3gKybi:not(.dividerRed-MKoLlr) div /* Divider Fixes */, .embedInner-1-fpTo, .attachment-33OFj0, .wrapper-35wsBm, .wrapperAudio-1jDe0Q /* Element which holds the embed & attachment contents */, .grabber-3mFHz2 .bubble-3we2di /* Grabber - Shows Value of Sliders */, .select-2TCrqx .Select-menu-outer /* Multiselect Select Menu - Background */, #friends .headerBar-UHpsPw /* Header Bar Friends List */, .quickswitcher-3JagVE /* Quick Switcher */, .autocomplete-1vrmpx /* Autocomplete */, .keyboardShortcutsModal-3piNz7, .overflowRolesPopout-140n9i, .need-help-modal /* Modals that can't be colored normally - Keyboard Menu, Menu for Overflowing Roles Members Menu, F1 Menu */, .messageGroupBlocked-3wrQQX /* Message sent from a person that blocked you */, .create-guild-container /* Create Guild Container */, .channelTextArea-1LDbYG .inner-zqa7da /* Autocomplete Fix for Transparent Themes */, .members-1998pB /* Server Member Bar */, .titleWrapper-1l0xT9 /* Transparent Theme fix */{
     background-color: var(--ColBackground1)!important;
     background: var(--ColBackground1)!important;
 }
