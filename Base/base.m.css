@@ -160,10 +160,6 @@ Borders, Box Shadows and Strokes
     border-color: #F44336!important;
 }
 
-.guild-1EfMGQ .guildInner-3DSoA4 /* Server Hover */{
-    border-radius: 100%!important;
-}
-
 .searchBar-2_Yu-C, .header-2o-2hj /* Search bar(s) for DM + Container in Servers for Server name */, .title-3qD0b- /* Channel Name Title */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .search-result-message.hit /* The exact message that was searched for */, .isLocalBot-38G0P0 /* Clyde Message / Local Bot */, .message-2qRu38 /* Delete and Pin Notif Pin Layer */, #help-query /* Input of F1 Menu */, .inner-1JeGVc .modal-3HD5ck .tiles-2aXG_k /* Screensharing All Boxes */{
     box-shadow: none!important;
 }
@@ -329,7 +325,7 @@ Transitions
     transition: width 200ms;
 }
 
-.btn-close,  .bda-slist .settings-open div[style*='float'], .channelNotices-41mJbj .close-relY5R, .guild-1EfMGQ .guildInner-3DSoA4 /* Server Hover */{
+.btn-close,  .bda-slist .settings-open div[style*='float'], .channelNotices-41mJbj .close-relY5R /* Server Hover */{
     transition: transform 200ms;
 }
 
@@ -418,10 +414,6 @@ Close Button Animation
 
 .bda-slist .settings-open div[style*='float']:hover, .channelNotices-41mJbj .close-relY5R:hover{
     transform: scale(1.4);
-}
-
-.guild-1EfMGQ:hover .guildInner-3DSoA4 /* Server Hover */{
-    transform: scale(1.15);
 }
 
 /*
