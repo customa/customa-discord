@@ -1,33 +1,27 @@
+
 :root{
-    --Color__TextSelectionColor: rgba(255,255,255,0.2);    
-    --Content__Module__Font: '\A \2022  Fonts ~ Customa Devs (Base \2192  font.m.css)';
-    --Content__Variables__Font: '\A\A Font: \A \2022  --Color__TextSelection \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3)) \A \2022  --Font__FontFamily \2192  Allowed Values: Installed Fonts/Webfonts\A (pref. Sans-Serif)\A \2022  --Font__Monospace__FontFamily \2192  Allowed Values: \A Installed Fonts/Webfonts (pref. Monospace)';
-    --Font__FontFamily: 'Raleway', sans-serif;
-    --Font__Monospace__FontFamily: 'Fira Code', 'Fira Mono', monospace;
+    --ColTextSelection: rgba(255,255,255,0.2);    
+    --INTModFont: '\A \2022  Fonts ~ Customa Devs (Base \2192  font.m.css)';
+    --INTVarFont: '\A\A Font: \A \2022  --Color__TextSelection \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3)) \A \2022  --Font__FontFamily \2192  Allowed Values: Installed Fonts/Webfonts\A (pref. Sans-Serif)\A \2022  --Font__Monospace__FontFamily \2192  Allowed Values: \A Installed Fonts/Webfonts (pref. Monospace)';
+    --FontFamily: 'Raleway', sans-serif;
+    --FontMonoFamily: 'Fira Code', 'Fira Mono', monospace;
 }
 
+/* Set all Fonts to the defined one */
 *{
-    font-family: var(--Font__FontFamily)!important;
+    font-family: var(--FontFamily)!important;
     font-variant: normal!important;
     -webkit-font-smoothing: antialiased;
 }
 
-.filename{
+.fileNameLink-9GuxCo /* File name for File Uploads */{
     font-size: 15px!important;
 }
 
-.CodeMirror-code *,code,code *,code li *, code.inline, .ace_editor *, .message-group textarea[class*='textAreaEnabled']{
-    font-family: var(--Font__Monospace__FontFamily)!important;
+code /* All Code Blocks */,code * /* All Elements in a Code Block */,code li * /* All List Elements in a Code Block */, code.inline /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .message-1PNnaP textarea.textAreaEdit-bNLDk3 /* Edit Text Area */{
+    font-family: var(--FontMonoFamily)!important;
 }
 
-.CodeMirror-code span{
-    font-size: 13px!important;
-}
-
-.chat form .typing strong{
-    font-weight:400;
-}
-
-::selection, .timestamp::selection, .edited::selection{
-    background: var(--Color__TextSelectionColor);
+*::selection{
+    background: var(--ColTextSelection)!important;
 }
