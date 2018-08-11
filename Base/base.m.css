@@ -561,3 +561,14 @@ Upload Modal Image Upgrade
 ::-webkit-scrollbar{
     display: none;
 }
+
+/*
+
+Remove Discord Logo shadow
+
+*/
+
+.theme-dark .unreadMentionsBar-1VrBNe {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
