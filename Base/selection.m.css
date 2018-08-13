@@ -1,0 +1,9 @@
+:root{
+    --ColTextSelection: rgba(255,255,255,0.2) /* Color, should be rgba */;    
+    --INTModFont: '\A \2022  Selection ~ Customa Devs (Base \2192  selection.m.css)';
+    --INTVarFont: '\A\A Font: \A \2022  --ColTextSelection \2192  Allowed Values: Color (pref. rgba(x,x,x,0.2))';
+}
+
+*::selection{
+    background: var(--ColTextSelection)!important;
+}
