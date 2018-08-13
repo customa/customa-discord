@@ -1,5 +1,5 @@
 :root{
-
+    /* emma's shit pls ignore lol */
     --ColAppBG: url('https://cdn.discordapp.com/attachments/261950094096596992/477207573758607371/oneshotdesktop4.png');
     --ColBackground1: rgba(0,0,0,0.2);
     --ColBackground2: rgba(0,0,0,0);
@@ -8,6 +8,7 @@
     --ColAnchor: #0096cf;
     --ColLastMessage: transparent;
     --DisplayEmbedPill: none;
+    /* emma's shit pls ignore lol */
 
     --ColAppBG: #161616; /* Color or url('link to image')*/
     --ColBackground1: var(--ColAppBG); /* Color */
@@ -17,7 +18,6 @@
     --ColAnchor: #0096cf;  /* Color */
     --ColLastMessage: transparent; /* Transparent or Color - pref. RGBA color */
     --DisplayEmbedPill: none; /* Block or none */
-
 }
 
 /*
@@ -363,7 +363,7 @@ Custom Bars
 
 /*
 
-Upload Button Tweeks
+Upload Button Tweaks
 
 */
 
@@ -393,9 +393,35 @@ Self-Promotion
 #bd-settings-sidebar span div[style*='font']:last-of-type::after{
     margin-top: 3px;
     display: block;
-    white-space: pre;
-    content: 'Customa Theme made\A with 💚 by Emma';
+    content: 'Customa with 💚 by Emma';
     line-height: 14px;
+}
+
+/*
+
+Light Theme Warning
+
+*/
+
+.app.theme-light .container-2Rl01u {
+    border-bottom: 1px solid #F44336;
+}
+
+.app.theme-light .container-2Rl01u::after {
+    width: calc(100% - 2em);
+    height: 34.667px;
+    padding: 1em;
+    background: #161616;
+    color: #ddd;
+    overflow: hidden;
+    content: "TYL that Customa doesn't support light theme uwu";
+    transition: height 0.4s, padding-top 0.4s;
+    display: block;
+}
+
+.app.theme-light .container-2Rl01u:hover::after, .app.theme-light .container-2Rl01u.popout-open::after {
+    height: 0;
+    padding: 0 1em;
 }
 
 /*
