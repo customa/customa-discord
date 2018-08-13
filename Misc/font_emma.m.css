@@ -1,11 +1,11 @@
 /* Current Font Config as of 14th of April 2018 */
 
 :root{
-    --ColTextSelection: rgba(255,255,255,0.2);    
+    --ColTextSelection: rgba(255,255,255,0.2) /* Color, should be rgba */;    
     --INTModFont: '\A \2022  Fonts (Emma Config) ~ Customa Devs (Misc \2192  font_emma.m.css)';
     --INTVarFont: '\A\A Font: \A \2022  --Color__TextSelection \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3)) \A \2022  --Font__FontFamily \2192  Allowed Values: Installed Fonts/Webfonts\A (pref. Sans-Serif)\A \2022  --Font__Monospace__FontFamily \2192  Allowed Values: \A Installed Fonts/Webfonts (pref. Monospace)';
-    --FontFamily: 'Comma', 'Noto Bug Fix', 'Noto Blobs', 'Raleway', sans-serif;
-    --FontMonoFamily: 'Noto Bug Fix Monospace', 'Noto Blobs', 'Fira Code', 'Fira Mono', monospace;
+    --FontFamily: 'Comma', 'Noto Bug Fix', 'Noto Blobs', 'Raleway', sans-serif /* Normal Font */;
+    --FontMonoFamily: 'Noto Bug Fix Monospace', 'Noto Blobs', 'Fira Code', 'Fira Mono', monospace /* Monospace Font */;
 }
 
 /* Set all Fonts to the defined one */
