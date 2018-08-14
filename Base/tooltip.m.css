@@ -1,0 +1,23 @@
+:root {
+    --ColTooltip: #d81b60;
+}
+
+.tooltip.tooltip-black{
+    background-color: var(--ColTooltip)!important;
+}
+
+.tooltip.tooltip-black.tooltip-top:after{
+    border-top-color: var(--ColTooltip)!important;
+}
+
+.tooltip.tooltip-black.tooltip-right:after{
+    border-right-color: var(--ColTooltip)!important;
+}
+
+.tooltip.tooltip-black.tooltip-bottom:after{
+    border-bottom-color: var(--ColTooltip)!important;
+}
+
+.tooltip.tooltip-black.tooltip-left:after{
+    border-left-color: var(--ColTooltip)!important;
+}
