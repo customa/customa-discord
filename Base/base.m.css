@@ -1,5 +1,5 @@
 :root{
-    /* emma's shit pls ignore lol */
+
     --ColAppBG: url('https://cdn.discordapp.com/attachments/261950094096596992/477207573758607371/oneshotdesktop4.png');
     --ColBackground1: rgba(0,0,0,0.2);
     --ColBackground2: rgba(0,0,0,0);
@@ -8,7 +8,6 @@
     --ColAnchor: #0096cf;
     --ColLastMessage: transparent;
     --DisplayEmbedPill: none;
-    /* emma's shit pls ignore lol */
 
     --ColAppBG: #161616; /* Color or url('link to image')*/
     --ColBackground1: var(--ColAppBG); /* Color */
@@ -18,6 +17,7 @@
     --ColAnchor: #0096cf;  /* Color */
     --ColLastMessage: transparent; /* Transparent or Color - pref. RGBA color */
     --DisplayEmbedPill: none; /* Block or none */
+
 }
 
 /*
@@ -363,7 +363,7 @@ Custom Bars
 
 /*
 
-Upload Button Tweaks
+Upload Button Tweeks
 
 */
 
@@ -395,33 +395,6 @@ Self-Promotion
     display: block;
     content: 'Customa with 💚 by Emma';
     line-height: 14px;
-}
-
-/*
-
-Light Theme Warning
-
-*/
-
-.app.theme-light .container-2Rl01u {
-    border-bottom: 1px solid #F44336;
-}
-
-.app.theme-light .container-2Rl01u::after {
-    width: calc(100% - 2em);
-    height: 34.667px;
-    padding: 1em;
-    background: #161616;
-    color: #ddd;
-    overflow: hidden;
-    content: "TYL that Customa doesn't support light theme uwu";
-    transition: height 0.4s, padding-top 0.4s;
-    display: block;
-}
-
-.app.theme-light .container-2Rl01u:hover::after, .app.theme-light .container-2Rl01u.popout-open::after {
-    height: 0;
-    padding: 0 1em;
 }
 
 /*
@@ -518,6 +491,52 @@ Upload Modal Image Upgrade
     background-size:contain;
     background-position: 50%;
     background-repeat: no-repeat;
+}
+
+/*
+
+Light Theme Warning
+
+*/
+
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .checkboxWrapper-SkhIWG, .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12 {
+    visibility: hidden;
+}
+
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child{
+    background-color: #F44336!important;
+    pointer-events: none!important;
+    
+}
+
+ .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12::before{
+    visibility: visible!important;
+    content: "White Theme is currently not supported by the Customa Theme";
+    position: absolute!important;
+    top: 15px;
+    left: 12px;
+}
+
+/* Close Button Fix BD */
+
+#bd-settingspane-container .tools{
+    position: absolute!important;
+    right: 95px;
+    top: 70px;
+}
+
+#bd-settingspane-container .tools .esc-text{
+    color: #72767d;
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    top: 30px;
+    right: -3px;
+
+}
+
+#bd-settingspane-container .content-column{
+    max-width: calc(100%-40px)!important;
 }
 
 /* User Container Channel Bar */
