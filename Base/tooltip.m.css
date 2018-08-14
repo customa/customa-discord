@@ -1,5 +1,7 @@
 :root {
-    --ColTooltip: #d81b60;
+    --ColTooltip: #d81b60; /* Color */
+    --INTModTooltip: '\A \2022  Tooltip ~ Customa Devs (Base \2192  tooltip.m.css)';
+    --INTVarTooltip: '\A\A Font: \A \2022  --ColTooltip \2192  Allowed Values: Color (pref. #xxxxxx)';
 }
 
 .tooltip.tooltip-black{
