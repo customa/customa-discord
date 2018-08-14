@@ -1,21 +1,21 @@
 :root{
-    --Content__Module__BetterFileTypes: '\A \2022  Better File Types ~ Customa Devs (Chat \2192  betterFileTypes.m.css)';
+    --INTModBetterFileTypes: '\A \2022  Better File Types ~ Customa Devs (Chat \2192  betterFileTypes.m.css)';
 }
 
 /* General */
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon']{
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr{
     background-size: 90%;
 }
 
 /* Video */
 
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='video']{
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.video-27RLEH{
     background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/video.png');
 }
 
 /* PDF */
 
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='acrobat']{
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.acrobat-3K1PC6{
     background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/pdf.png');
 }
 
@@ -25,7 +25,7 @@
 
 /* After Effects */
 
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='ae']{
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.ae-1Y5Jq3{
     background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/ae.png');
 }
 
@@ -35,7 +35,7 @@
 
 /* Sketch */
 
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='sketch']{
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.sketch-ZMuo7D{
     background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/sketch.png');
 }
 
@@ -45,7 +45,7 @@
 
 /* Illustrator */
 
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='ai']{
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.ai-11KAaB{
     background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/ai.png');
 }
 
@@ -55,7 +55,7 @@
 
 /* Archive */
 
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='archive']{
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.archive-2hqXug{
     background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/archive.png');
 }
 
@@ -65,7 +65,7 @@
 
 /* Code */
 
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='code']{
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.code-aoB-kL{
     background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/code.png');
 }
 
@@ -75,24 +75,18 @@
 
 /* Document */
 
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='document']{
-    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/word');
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/word.png');
 }
 
 [src='/assets/9f358f466473586417baee7bacfba5ca.svg']{
     content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/word.png');
 }
 
-/* Photoshop */
-
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='photoshop'], [class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='ps']{
-    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/photoshop');
-}
-
 /* Spreadsheet */
 
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='spreadsheet']{
-    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/excel');
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.spreadsheet-1QuSej{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/excel.png');
 }
 
 [src='/assets/85f7a4063578f6e0e2c73f60bca0fcce.svg']{
@@ -101,7 +95,7 @@
 
 /* Webcode */
 
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='webcode']{
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX{
     background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/html.png');
 }
 
@@ -111,7 +105,7 @@
 
 /* Unknown */
 
-[class*='uploadModal'] [class*='inner'] [class*='file'] [class*='icon'][class*='unknown']{
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr{
     background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/unknown.png');
 }
 
@@ -119,18 +113,22 @@
     content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/unknown.png');
 }
 
-[class*='uploadModal'] [class*='inner'] [class*='icon'] [class*='wrap'] [class*='icon']{
-    background-size: 100%!important;
+.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .icon-kyxXVr{
+    background-size: 80%!important; 
 }
 
-[class*='uploadModal'] [class*='inner'] [class*='icon'] [class*='one']{
+.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapOne-14G98n .icon-kyxXVr{
     background: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/Modal/htmlModal.png')!important;
 }
 
-[class*='uploadModal'] [class*='inner'] [class*='icon'] [class*='two']{
+.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapTwo-mQGI3R .icon-kyxXVr{
     background: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/Modal/codeModal.png')!important;
 }
 
-[class*='uploadModal'] [class*='inner'] [class*='icon'] [class*='three']{
+.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapThree-1CNQ42 .icon-kyxXVr{
     background: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/Files/Modal/sketchModal.png')!important;
+}
+
+.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapOne-14G98n .icon-kyxXVr, .uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapThree-1CNQ42 .icon-kyxXVr, .uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapTwo-mQGI3R .icon-kyxXVr{
+    background-size: 100%!important;
 }
