@@ -87,7 +87,7 @@ Backgrounds & SVG Fills
     background-color: var(--ColAccentAlpha)!important;
 }
 
-.channel.btn-friends.selected a /* Friends/Game Menu Selected */, .messageGroupBlocked-3wrQQX .container-1YxwTf /* Blocked Messages Transparency */, .channel.btn-friends:hover a/* Friends/Game Menu Selected */, .instructions-2Du9gG pre{
+.channel.btn-friends.selected a /* Friends/Game Menu Selected */, .messageGroupBlocked-3wrQQX .container-1YxwTf /* Blocked Messages Transparency */, .channel.btn-friends:hover a/* Friends/Game Menu Selected */, .instructions-2Du9gG pre, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 /* Serverlist Home Button */{
     background: transparent!important;
 }
 
@@ -111,14 +111,14 @@ Backgrounds & SVG Fills
     background-color: #8BC34A!important;
 }
 
-.updateIconForeground-2jeItf /* Changes fill of the update Icon */, .connectedAccountVerifiedIcon-3aZz_K g path:not([fill='#ffffff']) /* Change the Color of the Verified Tick */, .selectorButton-21mL5E svg path /* Nitro Icon Screenshare Option */{
+.updateIconForeground-2jeItf /* Changes fill of the update Icon */, .connectedAccountVerifiedIcon-3aZz_K g path:not([fill='#ffffff']) /* Change the Color of the Verified Tick */, .selectorButton-21mL5E svg path /* Nitro Icon Screenshare Option */, .guilds-1q_RqH > .selected-ML3OIq:nth-child(1) > .guildInner-3DSoA4 path, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1):hover > .guildInner-3DSoA4 path /* Serverlist Home Button when Selected/Hovered */{
     fill: var(--ColAccent);
 }
 
 /* .audioControls-2HsaU6 svg polygon, .audioControls-2HsaU6 svg path Colored Media Icons */
 
-.anchor-3Z-8Bb svg g path.fill /* Download Icon Embed */{
-    fill: var(--ColAnchor);
+.guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Serverlist Home Button */, .anchor-3Z-8Bb svg g path.fill /* Download Icon Embed */{
+    fill: #fff;
 }
 
 .closeButton-1tv5uR path.fill, .btn-close path.fill, .bda-slist .settings-open div[style*='float'] svg path.fill /* Button to close Menues */{
@@ -297,7 +297,7 @@ Transitions
 
 */
 
-.tab-bar .tab-bar-item.selected, .item-1TLUig /* Tab bar (used in search for example) to change between states, hover effect thereof */, .menu-Sp6bN1 .item-1GzJrl:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- span:nth-of-type(2), .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc /* Menu hover effects */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Hover */{
+.tab-bar .tab-bar-item.selected, .item-1TLUig /* Tab bar (used in search for example) to change between states, hover effect thereof */, .menu-Sp6bN1 .item-1GzJrl:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- span:nth-of-type(2), .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc /* Menu hover effects */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Hover */, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Serverlist Home Button */{
     transition: color 400ms;
 }
 
@@ -343,7 +343,7 @@ Custom Bars
     z-index: 2;
 }
 
-.jumpToPresentBar-9P20AM /* 'You have gone too far up' Indicator */ {
+.jumpToPresentBar-9P20AM /* 'You are viewing old messages' Indicator */ {
     width: fit-content!important;
     position: absolute!important;
     border-radius:20px!important;
