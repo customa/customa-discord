@@ -4,11 +4,11 @@
     --INTVarTooltip: '\A\A Color: \A \2022  --ColTooltip \2192  Allowed Values: Color (pref. #xxxxxx)';
 }
 
-.tooltip.tooltip-black{
+.tooltip.tooltip-black /* Tooltips */, .mediaBarWrapper-3D7r67 .bubble-3qRl2J /* Media Time Bubbles */{
     background-color: var(--ColTooltip)!important;
 }
 
-.tooltip.tooltip-black.tooltip-top:after{
+.tooltip.tooltip-black.tooltip-top:after, .mediaBarWrapper-3D7r67 .bubble-3qRl2J::before{
     border-top-color: var(--ColTooltip)!important;
 }
 
