@@ -111,7 +111,7 @@ Backgrounds & SVG Fills
     background-color: #8BC34A!important;
 }
 
-.updateIconForeground-2jeItf /* Changes fill of the update Icon */, .connectedAccountVerifiedIcon-3aZz_K g path:not([fill='#ffffff']) /* Change the Color of the Verified Tick */, .selectorButton-21mL5E svg path /* Nitro Icon Screenshare Option */, .guilds-1q_RqH > .selected-ML3OIq:nth-child(1) > .guildInner-3DSoA4 path, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1):hover > .guildInner-3DSoA4 path /* Serverlist Home Button when Selected/Hovered */{
+.updateIconForeground-2jeItf /* Changes fill of the update Icon */, .connectedAccountVerifiedIcon-3aZz_K g path:not([fill='#ffffff']) /* Change the Color of the Verified Tick */, .selectorButton-21mL5E svg path /* Nitro Icon Screenshare Option */, .guilds-1q_RqH > .guild-1EfMGQ.selected-ML3OIq:nth-child(1) > .guildInner-3DSoA4 path, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1):hover > .guildInner-3DSoA4 path /* Serverlist Home Button when Selected/Hovered */{
     fill: var(--ColAccent);
 }
 
@@ -182,7 +182,7 @@ Color
     color: var(--ColAccent)!important;
 }
 
-.anchor-3Z-8Bb, .anchor-3Z-8Bb.embedTitleLink-1Zla9e /* <a> fixes */ {
+.anchor-3Z-8Bb, .anchor-3Z-8Bb.embedTitleLink-1Zla9e, #bd-settings-sidebar a /* <a> fixes */ {
     color: var(--ColAnchor)!important;
 }
 
@@ -323,6 +323,10 @@ Transitions
 
 .closeButton-1tv5uR, .btn-close,  .bda-slist .settings-open div[style*='float'], .channelNotices-41mJbj .close-relY5R /* Server Hover */{
     transition: transform 200ms;
+}
+
+.guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path{
+    transition: fill 200ms;
 }
 
 /*
@@ -537,6 +541,16 @@ Light Theme Warning
 
 #bd-settingspane-container .content-column{
     max-width: calc(100%-40px)!important;
+}
+
+/*
+
+Emoji Combiner
+
+*/
+
+.emoji{
+    margin: 0!important;
 }
 
 /* User Container Channel Bar */
