@@ -539,6 +539,16 @@ Light Theme Warning
     max-width: calc(100%-40px)!important;
 }
 
+/*
+
+Emoji Combiner
+
+*/
+
+.emoji{
+    margin: 0!important;
+}
+
 /* User Container Channel Bar */
 /* .container-2Thooq .accountDetails-3k9g4n, .container-2Thooq .flex-1xMQg5 {
     margin-top: 20px;
