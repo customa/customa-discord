@@ -1,0 +1,25 @@
+:root {
+    --ColTooltip: #d81b60; /* Color */
+    --INTModTooltip: '\A \2022  Tooltip ~ Customa Devs (Base \2192  tooltip.m.css)';
+    --INTVarTooltip: '\A\A Color: \A \2022  --ColTooltip \2192  Allowed Values: Color (pref. #xxxxxx)';
+}
+
+.tooltip.tooltip-black /* Tooltips */, .mediaBarWrapper-3D7r67 .bubble-3qRl2J /* Media Time Bubbles */{
+    background-color: var(--ColTooltip)!important;
+}
+
+.tooltip.tooltip-black.tooltip-top:after, .mediaBarWrapper-3D7r67 .bubble-3qRl2J::before{
+    border-top-color: var(--ColTooltip)!important;
+}
+
+.tooltip.tooltip-black.tooltip-right:after{
+    border-right-color: var(--ColTooltip)!important;
+}
+
+.tooltip.tooltip-black.tooltip-bottom:after{
+    border-bottom-color: var(--ColTooltip)!important;
+}
+
+.tooltip.tooltip-black.tooltip-left:after{
+    border-left-color: var(--ColTooltip)!important;
+}
