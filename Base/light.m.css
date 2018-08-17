@@ -1,0 +1,35 @@
+:root {
+    --ColAppBG: #ffffff; /* Color or url('link to image')*/
+    --ColBackground1: var(--ColAppBG); /* Color */
+    --ColBackground2: #ffffff; /* Color */
+    --ColAccent: #D81B60; /* Color */
+    --ColAccentAlpha: rgba(216, 27, 96, 0.1); /* Color in RGBA Format, best when hex code of --ColAccent is converted to rgba and get's an opacity of 0.1 */
+    --ColAnchor: #0096cf;  /* Color */
+    --ColLastMessage: transparent; /* Transparent or Color - pref. RGBA color */
+	--DisplayEmbedPill: none; /* Block or none */
+}
+
+.theme-light .markup-2BOw-j, .friendsOnline-_wi_fM, .private-channels .channel:not(.selected) a .channel-name, .privateChannels-1nO12o .channel-2fhmY8 .selectedLink-3dsNZ6 .linkButtonIcon-2QfxeG{
+    color: #000000 !important;
+}
+
+.guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path, .anchor-3Z-8Bb svg g path.fill{
+    fill: #000;
+}
+
+.messagesPopoutWrap-1MQ1bW .header-ykumBX, .messagesPopoutWrap-1MQ1bW .footer-1kmXd4, .emojiPicker-3m1S-j .header-1nkwgG, .modal-3HD5ck .footer-2yfCgX, .contentSelectedText-3wUhMi, .contentHoveredText-2D9B-x, .private-channels .channel.selected a, .private-channels .channel:hover a, .popout-2nUePc .item-16cXuq:hover, .member-3W1lQa:hover .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4, .userPopout-3XzG_A .footer-1fjuF6, .quickMessage-2XpSaN, .search-l1Wz-Q, .messageGroupWrapper-o-Zw7G, .actionButtons-1sUUug .jumpButton-3DTcS_, .action-buttons .jump-button, .searchFilter-2ESiM3, .search-header, .search-result-message.hit, .emojiPicker-3m1S-j .search-bar-inner, .channelNotice-1-XFjC, .channelNotice-1-XFjC .btn-11C5_u, .emojiItem-109bjA.selected-39BZ4S, .connectedAccount-36nQx7, .modal-1UGdnR .inner-1JeGVc .tabBarContainer-1s1u-z, pre, code.inline, .card-3Qj_Yx, .actionButton-3W1xZa, .side-8zPYf6 .item-PXvHYJ:not([style*='back']):hover, #bd-settings-sidebar .ui-tab-bar-item:hover, .fancy-credit-input, .friends-table-add .wrapper-1cBijl, .slider-1PF9SW .bar-2Qqk5Z, .checkbox-1ix_J3, .accountBtnInner-sj5jLs, .notificationSettings-1NQKPR .wrapper-3jrx9n, .notificationSettings-1NQKPR .option-n0icdO, .message-2qRu38, .card-FDVird:before, .not-detected, .select-2TCrqx, .select-2TCrqx .Select-option.is-selected, .select-2TCrqx .Select-option:hover, .personalizationNotice-2HTAH2, .card-7JP0BX, .article-FleDq5, #friends .tab-bar-item.selected, #friends .tab-bar-item:hover, .avatar-uploader-inner, .friends-row:hover, .friends-row .friends-action, .friend-2PO6ke.friendSelected--wQP3f, .search-bar-inner .anchor-3Z-8Bb, .quickswitcher-3JagVE .input-2VB9rf, .quickswitcher-3JagVE .resultFocused-3aIoYe, .autocompleteRow-2OthDa .selectorSelected-1_M1WV, #help-query, .need-help-modal .footer, .messageEditorCompact-2PSR3v, .popoutList-T9CKZQ .selectableItem-1MP3MQ:hover, .popoutListInput-1l9TUI, .flex-1xMQg5.searchBar-1MOL6S, .emoji-row .inputMini-2xQV9P, .buttonInfo-3nkbOt:hover, .actions-2vadYq .iconsWrapper-1RelE3, .inner-1JeGVc .modal-3HD5ck .tiles-2aXG_k, .inviteRow-2L02ae:hover, .guildIconExpired-2Qcq05, .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-, .bda-slist li, .mediaBarPreview-1jfyFs, .mediaBarPreview-1jfyFs.fakeEdges-27pgtp::before, .mediaBarPreview-1jfyFs.fakeEdges-27pgtp::after, .channel.btn-friends:not(.selected):hover, .create-guild-container .form-inner .actions .action, .create-guild-container .form-actions, .create-guild-container input, .regionSelectModalOption-2DSIZ3, .uploadModal-2ifh8j .channelTextArea-1LDbYG .inner-zqa7da, .guild-1EfMGQ:first-child .guildInner-3DSoA4, .progressContainer-3ao-eu .progress-3Rbvu0, .placeholderAvatar-uzH8f6, .memberGroupsPlaceholder-3mwPub, .containerDefault-1ZnADq:active .content-20Aix8, .botTagInvert-18-95s, .membersWrap-2h-GB4 .botTagRegular-2HEhHi{
+    background-color: rgba(0, 0, 0, 0.05)!important;
+}
+
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .checkboxWrapper-SkhIWG, .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12 {
+    visibility: visible!important;
+}
+
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child{
+    background-color: rgba(0, 0, 0, 0.1)!important;
+    pointer-events: auto!important;
+}
+
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12::before {
+    content: none!important; 
+}
