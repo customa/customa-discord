@@ -1,14 +1,14 @@
 :root{
-    --Content__Module__DisplayChannelIcon: '\A \2022  Channel Icon ~ Customa Devs (Chat \2192  displayChannelIcon.m.css)';
-    --Content__Variables__DisplayChannelIcon: '\A\A Display Channel Icon: \A \2022  --Display__TextChannelIcon \2192  Allowed Values: none/block\A \2022  --Display__VoiceChannelIcon \2192  Allowed Values: none/block';
-    --Display__TextChannelIcon: none;
-    --Display__VoiceChannelIcon: none;
+    --INTModDisplayChannelIcon: '\A \2022  Channel Icon ~ Customa Devs (Chat \2192  displayChannelIcon.m.css)';
+    --INTVarDisplayChannelIcon: '\A\A Display Channel Icon: \A \2022  --DisplayTextChannelIcon \2192  Allowed Values: none/block\A \2022  --DisplayVoiceChannelIcon \2192  Allowed Values: none/block';
+    --DisplayTextChannelIcon: none;
+    --DisplayVoiceChannelIcon: block;
 }
 
-[class*='channels'] svg[class*='Text']{
-    display: var(--Display__TextChannelIcon)!important;
+.channels-Ie2l6A svg[class*='Text']{
+    display: var(--DisplayTextChannelIcon)!important;
 }
 
-[class*='channels'] svg[class*='Voice']{
-    display: var(--Display__VoiceChannelIcon)!important;
+.channels-Ie2l6A svg[class*='Voice']{
+    display: var(--DisplayVoiceChannelIcon)!important;
 }
