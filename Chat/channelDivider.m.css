@@ -1,8 +1,8 @@
 :root{
-    --Content__Module__ChannelDivider: '\A \2022  Channel Divider ~ Customa Devs (Chat \2192  channelDivider.m.css)';
+    --INTModChannelDivider: '\A \2022  Channel Divider ~ Customa Devs (Chat \2192  channelDivider.m.css)';
 }
 
-[class*=channels] [class*=scroller] [class*=container] [class*=containerDefault] [class*=justifyStart][class*=alignStart][class*=noWrap][class*=wrapper] *{
+.channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6 *{
   text-align: center;
   display: flex;
   justify-content: center;
@@ -13,11 +13,11 @@
   transition: .2s opacity ease-in-out!important;
 }
 
-[class*=channels] [class*=scroller] [class*=container] [class*=containerDefault] [class*=justifyStart][class*=alignStart][class*=noWrap][class*=wrapper]:hover *{
+.channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6:hover *{
   opacity: 0.8;
 }
 
-[class*=channels] [class*=scroller] [class*=container] [class*=containerDefault] [class*=justifyStart][class*=alignStart][class*=noWrap][class*=wrapper] [class*=name]::before, [class*=channels] [class*=scroller] [class*=container] [class*=containerDefault] [class*=justifyStart][class*=alignStart][class*=noWrap][class*=wrapper] [class*=name]::after{
+.channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6 [class*=name]::before, .channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6 [class*=name]::after{
   content: "";
   width: 100%;
   vertical-align: middle;
@@ -27,6 +27,6 @@
   margin: 0 5px;
 }
 
-[class*=channels] [class*=scroller] [class*=container-] [class*=containerDefault]:first-child{
+.channels-Ie2l6A .scroller-2FKFPG [class*=container-] .containerDefault-3GGEv_:first-child{
     padding: 2%;
 }
