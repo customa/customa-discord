@@ -2,12 +2,12 @@
     --INTModNewDividerRed: '\A \2022  New Divider Red ~ Customa Devs (Chat \2192  newDividerRed.m.css)';
 }
 
-.divider-red span{
+.dividerRed-MKoLlr span{
     border: 1px solid var(--ColAccent)!important;
     color: var(--ColAccent)!important;
 }
 
-.divider-red div{
+.dividerRed-MKoLlr div{
     background-color: var(--ColAccent)!important;
     height: 2px!important;
 }
