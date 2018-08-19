@@ -28,6 +28,11 @@
 
 }
 
+/* Flicker Fix */
+html, span:not(.spinner-item) {
+    backface-visibility: hidden;
+}
+
 /*
 
 Backgrounds & SVG Fills
@@ -71,7 +76,7 @@ Backgrounds & SVG Fills
     background-color: var(--ColBackground2)!important;
 }
 
-.newMessagesBar-mujexs /* Bar that appears in the chat div when you have a new message in the channel */, .checkbox .checkbox-inner input[type=checkbox]:checked+span /* Checkbox Selectors */, .dividerRed-MKoLlr div /* Divider Red Fixes */, .unread-1Dp-OI, .guild-1EfMGQ.unread-qLkInr::before, .guild-1EfMGQ.selected-ML3OIq::before /* Dots and Lines for Server Select and Unread Notifs */, .button-38aScr:not(.colorRed-1TFJan):not(.lookLink-9FtZy-):not(.button-2b6hmh):not(.attachButton-1UjEWA):not(.emojiButton-3uL3Aw):not(.lookBlank-3eh9lL), .questionMark-CWEQZn /* Buttons */, .slider-1PF9SW .barFill-23-gu- /* Slider Settings Bar Fill */, .notificationSettings-1NQKPR .option-n0icdO.selected-mKYnfr /* Selected Option Overlay Notif Settings */, .bd-pfbtn, .bda-settings-button /* Buttons for Better Discord */, .now-playing /*  Game Activity*/, .paginationItem-3-MBTL.selectedPage-2JQS2s::before /* Activity Feed Page Page Bubble */, #friends .tab-bar-item-primary /* Add Friend Button Friends Menu */, .need-help-modal .header /* Header of F1 Menu */, .autocomplete-header-background /* Add Role Popout Header */, .container-2x5lvQ header /* RTC Connection Header */, .selectorButtonSelected-1j4DmC /* Stream Quality and Frame Rate */, .guildIcon-lQ0uiM:not(.guildIconExpired-2Qcq05) /* Fallback Guild Icon Color INVITE */, .containerDragBefore-31UGCO::before, .containerDragAfter-1F4fgZ::after, .containerDragBefore-3Dzc5x::before, .containerDragAfter-3TEhpe::before /* Small Box that appears when dragging channels and categs */, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl.fakeEdges-27pgtp::before, .mediaBarProgress-1xaPtl.fakeEdges-27pgtp::after, .mediaBarGrabber-1FqnbN /* All Kinds of Media Controls */, .create-guild-container .create .btn /* Buttons Create Guild */, .create-guild-container .form-actions .btn-default, .create-guild-container .create-guild .btn-primary /* Create Guild Container Bottom Buttons */, .regionSelect-3lf4eE:hover button /* Regional Select Button Fixes */, .uploadModal-2ifh8j .button-primary /* Upload Modal Button Upload */, .guild-1EfMGQ:first-child.selected-ML3OIq .guildInner-3DSoA4 /* Guild Fixes */, .progressContainer-3ao-eu .progressBar-3u8FBM /* Progress of Upload */, .spinner-2enMB9 .wanderingCubesItem-WPXqao, .spinner .spinner-item /* Spinner Element */, .badge-1GsMF2, .mention-1f5kbO /* Unread Badge */, .hue-13HAGb > div > div > div > div /* Role Color Picker Handle */, .botTagRegular-2HEhHi /* Bot Tag */{
+.newMessagesBar-mujexs /* Bar that appears in the chat div when you have a new message in the channel */, .checkbox .checkbox-inner input[type=checkbox]:checked+span /* Checkbox Selectors */, .dividerRed-MKoLlr div /* Divider Red Fixes */, .unread-1Dp-OI, .guild-1EfMGQ.unread-qLkInr::before, .guild-1EfMGQ.selected-ML3OIq::before /* Dots and Lines for Server Select and Unread Notifs */, .button-38aScr:not(.colorRed-1TFJan):not(.lookLink-9FtZy-):not(.button-2b6hmh):not(.attachButton-1UjEWA):not(.emojiButton-3uL3Aw):not(.lookBlank-3eh9lL), .questionMark-CWEQZn /* Buttons */, .slider-1PF9SW .barFill-23-gu- /* Slider Settings Bar Fill */, .notificationSettings-1NQKPR .option-n0icdO.selected-mKYnfr /* Selected Option Overlay Notif Settings */, .bd-pfbtn, .bda-settings-button /* Buttons for Better Discord */, .now-playing /*  Game Activity*/, .paginationItem-3-MBTL.selectedPage-2JQS2s::before /* Activity Feed Page Page Bubble */, #friends .tab-bar-item-primary /* Add Friend Button Friends Menu */, .need-help-modal .header /* Header of F1 Menu */, .autocomplete-header-background /* Add Role Popout Header */, .container-2x5lvQ header /* RTC Connection Header */, .selectorButtonSelected-1j4DmC /* Stream Quality and Frame Rate */, .guildIcon-lQ0uiM:not(.guildIconExpired-2Qcq05) /* Fallback Guild Icon Color INVITE */, .containerDragBefore-31UGCO::before, .containerDragAfter-1F4fgZ::after, .containerDragBefore-3Dzc5x::before, .containerDragAfter-3TEhpe::before /* Small Box that appears when dragging channels and categs */, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl.fakeEdges-27pgtp::before, .mediaBarProgress-1xaPtl.fakeEdges-27pgtp::after, .mediaBarGrabber-1FqnbN /* All Kinds of Media Controls */, .create-guild-container .create .btn /* Buttons Create Guild */, .create-guild-container .form-actions .btn-default, .create-guild-container .create-guild .btn-primary /* Create Guild Container Bottom Buttons */, .regionSelect-3lf4eE:hover button /* Regional Select Button Fixes */, .uploadModal-2ifh8j .button-primary /* Upload Modal Button Upload */, .guild-1EfMGQ:first-child.selected-ML3OIq .guildInner-3DSoA4 /* Guild Fixes */, .progressContainer-3ao-eu .progressBar-3u8FBM /* Progress of Upload */, .spinner-2enMB9 .wanderingCubesItem-WPXqao, .spinner .spinner-item /* Spinner Element */, .badge-1GsMF2, .mention-1f5kbO /* Unread Badge */, .hue-13HAGb > div > div > div > div /* Role Color Picker Handle */, .botTagRegular-2HEhHi /* Bot Tag */, .wrapper-232cHJ /* Friend Request Block */{
     background-color: var(--ColAccent)!important;
 }
 
@@ -561,65 +566,11 @@ Emoji Combiner
     margin: 0!important;
 }
 
-/* User Container Channel Bar */
-/* .container-2Thooq .accountDetails-3k9g4n, .container-2Thooq .flex-1xMQg5 {
-    margin-top: 20px;
-} */
+/*
 
-/* .accountDetails-3k9g4n .username, .accountDetails-3k9g4n .discriminator{
-    display: inline;
-}
+Temporary Scrollbar - Fix
 
-.container-2Thooq .wrapper-2F3Zv8, .container-2Thooq .wrapper-2F3Zv8 .avatar-3JE4B3{
-    width: 20px;
-    height: 20px;
-}
-
-.container-2Thooq .wrapper-2F3Zv8 .status-oxiHuE{
-    width: 8px!important;
-    height: 8px!important;
-}
-
-.container-2Thooq .wrapper-2F3Zv8{
-    margin-top: 28px;
-    margin-bottom: 8px;
-}
-
-.container-2Thooq .flex-1xMQg5{
-    opacity: 0;
-    width: 210px;
-    left: 110px;
-    height: 51px;
-    position: absolute;
-    bottom: 0;
-    margin-top: 0;
-    background-color: var(--ColBackground1)!important;
-    z-index: 120;
-    transition: opacity 200ms;
-}
-
-.container-2Thooq .flex-1xMQg5 div button, .container-2Thooq .flex-1xMQg5 button{
-    margin-top: 5px;
-    width: 60px;
-    height: 40px;
-    background-size: 25px 25px!important;
-}
-
-.container-2Thooq .flex-1xMQg5 button div svg{
-    width: 25px!important;
-    height: 25px!important;
-    margin: 6.5px 0 15px 0;
-}
-
-.container-2Thooq:hover .flex-1xMQg5{
-    opacity: 1;
-} */
-
-/* Channels scroller container for both DMs and Servers */
-/* .channels-Ie2l6A .container-PNkimc, .private-channels {
-    margin-bottom: 26px;
-} */
-
+*/
 
 ::-webkit-scrollbar{
     display: none;
