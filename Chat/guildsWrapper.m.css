@@ -1,5 +1,7 @@
 :root{
     --INTModNewGuilds: '\A \2022  Guilds Wrapper 2.0 ~ Customa Devs (Chat \2192  guildsWrapper.m.css)';
+    --INTVarNewGuilds: '\A\A New Guilds: \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%);';
+    --FilterNoHover: grayscale(100%);
 }
 
 .guildsWrapper-5TJh6A /* GuildsWrapper */{
@@ -78,7 +80,7 @@
 }
 
 .guild-1EfMGQ a div[style*='background-image:'], .guild-1EfMGQ a[style*='background-image:'] {
-    filter: grayscale(100%)!important;
+    filter: var(--FilterNoHover)!important;
     transition: filter 200ms!important;
 }
 
