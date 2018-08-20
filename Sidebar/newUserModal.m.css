@@ -2,7 +2,7 @@
     --INTModNewUserModal: '\2022  New User Modal ~ Customa Devs (Sidebar \2192  newUserModal.m.css)\A';
 }
 
-[class*='topSection'] [class*='avatar'] [class*='status'] {
+[class*='topSection'] .avatar-3EQepX .statusProfile-3ynqtt {
     border: none!important;
     box-shadow: none!important;
     border-radius: 0;
@@ -12,10 +12,10 @@
     -webkit-filter: brightness(90%)!important;
     right: -490px;
     bottom: -230px;
-    z-index: -2;
+    z-index: -1;
 }
 
-[class*='topSection'] [class*='avatar'] a:hover [class*='image']::before {
+[class*='topSection'] .avatar-3EQepX a:hover .image-33JSyf::before {
     background-color: rgba(0, 0, 0, .5);
     content: 'view profile\A picture';
     text-transform: uppercase;
@@ -30,16 +30,19 @@
     display: block;
 }
 
-[class*='topSection'], [class*='topSection'] [class*='activity'] [class*='body']{
-    background: none!important;
+[class*='topSection']{
+    z-index: -2!important;
 }
 
-[class*='topSection'] button, [class*='topSection'] [class*='botTag']{
-    background-color: rgba(0, 0, 0, .2)!important;
-    color: white!important;
+.modal-1UGdnR .inner-1JeGVc .root-SR8cQa, .modal-1UGdnR .inner-1JeGVc{
+    z-index: -3;
 }
 
-[class*='topSection'] [class*='tabBarContainer']{
-    background-color: rgba(255,255,255,.2);
+.modal-1UGdnR .inner-1JeGVc .root-SR8cQa .tabBarContainer-1s1u-z{
+    background-color: var(--ColBackground2)!important;
     border: none;
+}
+
+.modal-1UGdnR .inner-1JeGVc .root-SR8cQa header .actionButton-3W1xZa.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN{
+    background-color: rgba(0,0,0,0.2)!important;
 }
