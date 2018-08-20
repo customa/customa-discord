@@ -543,28 +543,6 @@ Light Theme Warning
     left: 12px;
 }
 
-/* Close Button Fix BD */
-
-#bd-settingspane-container .tools{
-    position: absolute!important;
-    right: 95px;
-    top: 70px;
-}
-
-#bd-settingspane-container .tools .esc-text{
-    color: #72767d;
-    font-size: 13px;
-    font-weight: 600;
-    position: absolute;
-    top: 30px;
-    right: -3px;
-
-}
-
-#bd-settingspane-container .content-column{
-    max-width: calc(100%-40px)!important;
-}
-
 /*
 
 Emoji Combiner
