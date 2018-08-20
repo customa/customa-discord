@@ -1,5 +1,5 @@
 :root{
-    --Content__Module__NewUserPopout: '\A \2022  New User Popout ~ Customa Devs (Sidebar \2192  newUserPopout.m.css)';
+    --INTModNewUserPopout: '\2022  New User Popout ~ Customa Devs (Sidebar \2192  newUserPopout.m.css)\A';
 }
 
 [class*='userPopout'] [class*='avatarWrapper'] [class*='avatarStatus'] {

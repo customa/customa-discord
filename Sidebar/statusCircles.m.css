@@ -1,5 +1,5 @@
 :root{
-    --Content__Module__StatusCircles: '\A \2022  Status Circles ~ Customa Devs (Sidebar \2192  statusCircles.m.css)';
+    --INTModStatusCircles: '\2022  Status Circles ~ Customa Devs (Sidebar \2192  statusCircles.m.css)\A';
 }
 
 [class*='avatar'] [class*='status']:not([class*='statusProfile']){

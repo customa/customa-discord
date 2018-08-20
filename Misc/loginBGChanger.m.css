@@ -1,11 +1,11 @@
 :root{
-    --Content__Module__LoginBGChanger: '\A \2022  Login Background Changer ~ Customa Devs (Misc \2192  loginBGChanger.m.css)';
-    --Content__Variables__LoginBGChanger: '\A\A Login Background Changer: \A \2022  --Color__AuthBackground \2192  Allowed Values: Image/Color/Empty (Default Canvas)';
-    --Color__AuthBackground: url('https://cdn.discordapp.com/attachments/295497570569027584/394908772163649539/BOIS.png');
+    --INTModLoginBGChanger: '\2022  Login Background Changer ~ Customa Devs (Misc \2192  loginBGChanger.m.css)\A';
+    --INTVarLoginBGChanger: '\A\A Login Background Changer: \A \2022  --Color__AuthBackground \2192  Allowed Values: Image/Color/Empty (Default Canvas)';
+    --ColAuthBackground: url('https://cdn.discordapp.com/attachments/295497570569027584/394908772163649539/BOIS.png');
 }
 
 .auth-background{
-    background: var(--Color__AuthBackground)!important;
+    background: var(--ColAuthBackground)!important;
     background-size: cover!important;
     height: 100%;
     left: 0;
@@ -15,5 +15,5 @@
 }
 
 [class*='splashBackground'] canvas{
-    background: var(--Color__AuthBackground)!important;
+    background: var(--ColAuthBackground)!important;
 }

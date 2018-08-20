@@ -1,11 +1,11 @@
 :root{
-    --Content__Module__Update: '\A \2022  Update ~ Customa Devs (Base \2192  update.m.css)';
+    --INTModUpdate: '\2022  Update ~ Customa Devs (Base \2192  update.m.css)\A';
 }
 
 #bd-settingspane-container .content-column::before{
     white-space: pre;
     display: block;
-    background-color: var(--Color__AccentColor);
+    background-color: var(--ColAccent);
     border-radius: 8px;
     content: 'The long awaited 2018 rewrite!\A Finally got myself to rewrite the entire theme \\o/ woooo';
     margin-bottom: 2%;

@@ -1,5 +1,5 @@
 :root{
-    --INTModNewGuilds: '\A \2022  Guilds Wrapper 2.0 ~ Customa Devs (Chat \2192  guildsWrapper.m.css)';
+    --INTModGuildsWrapper: '\2022  Guilds Wrapper 2.0 ~ Customa Devs (Chat \2192  guildsWrapper.m.css)\A';
     --INTVarNewGuilds: '\A\A New Guilds: \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%);';
     --FilterNoHover: grayscale(100%);
 }

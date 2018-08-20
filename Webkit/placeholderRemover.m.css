@@ -1,5 +1,5 @@
 :root{
-    --Content__Module__PlaceholderRemover: '\A \2022  Placeholder Remover ~ Customa Devs (Webkit \2192  placeholderRemover.m.css)';
+    --INTModPlaceholderRemover: '\2022  Placeholder Remover ~ Customa Devs (Webkit \2192  placeholderRemover.m.css)\A';
 }
 
 ::-webkit-input-placeholder {

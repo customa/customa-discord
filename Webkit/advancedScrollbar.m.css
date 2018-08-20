@@ -1,5 +1,5 @@
 :root{
-    --Content__Module__AdvancedScrollbar: '\A \2022  Advanced Scrollbar ~ Customa Devs (Webkit \2192  advancedScrollbar.m.css)';
+    --INTModAdvancedScrollbar: '\2022  Advanced Scrollbar ~ Customa Devs (Webkit \2192  advancedScrollbar.m.css)\A';
 }
 
 ::-webkit-scrollbar{
