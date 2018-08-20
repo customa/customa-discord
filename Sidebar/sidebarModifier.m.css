@@ -2,12 +2,12 @@
     --INTModSidebarMods: '\2022  SidebarMods ~ Customa Devs (Sidebar \2192  sidebarModifier.m.css)\A';
 }
 
-.channel-members-wrap{
+.membersWrap-2h-GB4{
     width: 20px!important;
     min-width: 20px;
-    transition: width 400ms;
+    transition: width 200ms;
 }
 
-.channel-members-wrap:hover{
+.membersWrap-2h-GB4:hover{
     width: 240px!important;
 }
