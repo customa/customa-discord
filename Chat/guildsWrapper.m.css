@@ -44,12 +44,12 @@
     color: var(--ColAccent)!important;
 }
 
-.guildsWrapper-5TJh6A .friendsOnline-_wi_fM /* How many friends are online */{
+.guildsWrapper-5TJh6A .friendsOnline-_wi_fM /* How many friends are online */, .guildsWrapper-5TJh6A .unreadMentionsIndicatorBottom-BXS58x, .guildsWrapper-5TJh6A .unreadMentionsIndicatorTop-gA6RCh /* Unread Mentions Indicator */{
     opacity: 0;
     transition: opacity 200ms;
 }
 
-.guildsWrapper-5TJh6A:hover .friendsOnline-_wi_fM /* Hover Effect of above */{
+.guildsWrapper-5TJh6A:hover .friendsOnline-_wi_fM /* Hover Effect of above */, .guildsWrapper-5TJh6A:hover .unreadMentionsIndicatorBottom-BXS58x, .guildsWrapper-5TJh6A:hover .unreadMentionsIndicatorTop-gA6RCh /* Unread Mentions Indicator */{
     opacity: 1;
 }
 
