@@ -182,7 +182,7 @@ Borders, Box Shadows and Strokes
     border-color: var(--ColFalse)!important;
 }
 
-.searchBar-2_Yu-C, .header-2o-2hj /* Search bar(s) for DM + Container in Servers for Server name */, .title-3qD0b- /* Channel Name Title */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .search-result-message.hit /* The exact message that was searched for */, .isLocalBot-38G0P0 /* Clyde Message / Local Bot */, .message-2qRu38 /* Delete and Pin Notif Pin Layer */, #help-query /* Input of F1 Menu */, .inner-1JeGVc .modal-3HD5ck .tiles-2aXG_k /* Screensharing All Boxes */, .unreadMentionsBar-1VrBNe /* Removes shadow below Discord logo */{
+.searchBar-2_Yu-C, .header-2o-2hj /* Search bar(s) for DM + Container in Servers for Server name */, .title-3qD0b- /* Channel Name Title */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .search-result-message.hit /* The exact message that was searched for */, .isLocalBot-38G0P0 /* Clyde Message / Local Bot */, .message-2qRu38 /* Delete and Pin Notif Pin Layer */, #help-query /* Input of F1 Menu */, .inner-1JeGVc .modal-3HD5ck .tiles-2aXG_k /* Screensharing All Boxes */, .unreadMentionsBar-1VrBNe /* Removes shadow below Discord logo */, .private-channels .search-bar{
     box-shadow: none!important;
 }
 
@@ -300,6 +300,20 @@ Width & Height
 
 .messagesPopoutWrap-1MQ1bW /* Mentions and Pin Popout */{
     width: 550px;
+}
+
+/* 
+
+Masks
+
+*/
+
+.maskProfile-1ObLFT{
+    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/Masks/maskUserModal.svg')!important;
+}
+
+.mask-3OgeRz{
+    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/Masks/maskmemWrap.svg')!important;
 }
 
 /*
