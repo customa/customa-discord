@@ -1,6 +1,6 @@
 :root {
     --ColTooltip: #d81b60; /* Color */
-    --INTModTooltip: '\A \2022  Tooltip ~ Customa Devs (Base \2192  tooltip.m.css)';
+    --INTModTooltip: '\2022  Tooltip ~ zvava (Base \2192  tooltip.m.css)\A';
     --INTVarTooltip: '\A\A Color: \A \2022  --ColTooltip \2192  Allowed Values: Color (pref. #xxxxxx)';
 }
 

@@ -1,5 +1,5 @@
 :root{
-    --INTModJumboMoji: '\A \2022  Jumbo Emojis ~ Customa Devs (Emoji \2192  jumboMoji.m.css)';
+    --INTModJumboMoji: '\2022  Jumbo Emojis ~ Customa Devs (Emoji \2192  jumboMoji.m.css)\A';
     --INTVarJumboMoji: '\A\A Jumbo Emoji: \A \2022  --SizeEmoteSize \2192  Allowed Values: XYpx (pref. 50px)';
     --SizeEmoteSize: 50px;
 }

@@ -1,13 +1,88 @@
-[class*='userSettingsAccount']::after{
+:root{
+
+    /* DO NOT EDIT */
+    
+    /* Base */
+    --INTModBase: '';
+    --INTModFont: '';
+    --INTModRoot: '';
+    --INTModSelection: '';
+    --INTModSettings: '\2022  Settings - Customa Devs (Base \2192  settings.m.css)\A';
+    --INTModTooltip: '';
+    --INTModUpdate: '';
+    --INTModVariables: '';
+
+    /* Chat */
+    --INTModBetterFileTypes: '';
+    --INTModChannelDivider: '';
+    --INTModChannelsWrapper: '';
+    --INTModCodeBlockLanguages: '';
+    --INTModDisplayChannelIcon: '';
+    --INTModGuildsWrapper: '';
+    --INTModNewDividerRed: '';
+    --INTModNewEditText: '';
+    
+    /* Emoji */
+    --INTModJumboMoji: '';
+    
+    /* Misc */
+    --INTModLoginBGChanger: '';
+
+    /* Sidebar */
+    --INTModNewPlaying: '';
+    --INTModNewUserModal: '';
+    --INTModNewUserPopout: '';
+    --INTModSidebarMods: '';
+    --INTModStatusCircles: '';
+
+    /* Webkit */
+    --INTModAdvancedScrollbar: '';
+    --INTModPlaceholderRemover: '';
+}
+
+
+.userSettingsAccount-2eMFVR::after{
+    content: 'Customa - Settings\A\A' 
+    'Installed Modules:\A\A'
+    'Base\A ' 
+    var(--INTModBase)
+    var(--INTModFont)
+    var(--INTModRoot)
+    var(--INTModSelection)
+    var(--INTModSettings)
+    var(--INTModTooltip)
+    var(--INTModUpdate)
+    var(--INTModVariables) '\A'
+    'Chat\A'
+    var(--INTModBetterFileTypes)
+    var(--INTModChannelDivider)
+    var(--INTModChannelsWrapper)
+    var(--INTModCodeBlockLanguages)
+    var(--INTModDisplayChannelIcon)
+    var(--INTModGuildsWrapper)
+    var(--INTModNewDividerRed)
+    var(--INTModNewEditText) '\A'
+    'Emoji\A'
+    var(--INTModJumboMoji) '\A'
+    'Misc\A'
+    var(--INTModLoginBGChanger) '\A'
+    'Sidebar\A'
+    var(--INTModNewPlaying)
+    var(--INTModNewUserModal)
+    var(--INTModNewUserPopout)
+    var(--INTModSidebarMods)
+    var(--INTModStatusCircles) '\A'
+    'Webkit\A'
+    var(--INTModAdvancedScrollbar)
+    var(--INTModPlaceholderRemover);
     margin-top: 2%;
     white-space: pre;
     display: block;
-    background-color: var(--Color__AccentColor);
-    border-radius: 8px;
-    content: 'Customa - Settings\A\A Installed Modules:\A\A Base:' var(--Content__Module__Base) var(--Content__Module__Font) var(--Content__Module__Root) '\A \2022  Settings ~ Customa Devs (Base \2192  settings.m.css)' var(--Content__Module__Update) var(--Content__Module__Variables) '\A\A Canary:' var(--Content__Module__NewLogin) '\A\A Chat:' var(--Content__Module__BetterFileTypes) var(--Content__Module__ChannelDivider) var(--Content__Module__CodeBlockLanguages) var(--Content__Module__ChannelsWrapper) var(--Content__Module__DisplayChannelIcon) var(--Content__Module__NewGuilds) var(--Content__Module__NewDividerRed) var(--Content__Module__NewEditText) '\A\A Emoji:' var(--Content__Module__JumboMoji) '\A\A Misc:' var(--Content__Module__LoginBGChanger) '\A\A Sidebar:' var(--Content__Module__NewPlaying) var(--Content__Module__NewUserModal) var(--Content__Module__NewUserPopout) var(--Content__Module__SidebarMods) var(--Content__Module__StatusCircles)  '\A\A Webkit:' var(--Content__Module__PlaceholderRemover) var(--Content__Module__AdvancedScrollbar) var(--Content__Module__BaseSupportedPlugs);
+    background-color: var(--ColAccent);
     margin-bottom: 2%;
     padding: 3%;
     text-align: center;
     line-height: 1.1;
     color: white;
+    border-radius: 5px;
 }

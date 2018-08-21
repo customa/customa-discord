@@ -1,76 +1,80 @@
 :root{
-    --Content__Module__ChannelsWrapper: '\A \2022  Channels Wrapper 2.0 ~ Customa Devs (Chat \2192  channelsWrapper.m.css)';
+    --INTModChannelsWrapper: '\2022  Channels Wrapper 2.0 ~ Customa Devs (Chat \2192  channelsWrapper.m.css)\A';
 }
 
-.private-channels .channel, .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault']{
-    min-width: 60px;
+.channels-Ie2l6A{
+    width: 40px;
+    transition: 200ms width;
 }
 
-.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='name']{
+.channels-Ie2l6A:hover{
+    width: 240px;
+}
+
+.channels-Ie2l6A .header-2o-2hj svg{
+    width: 0;
+}
+
+.channels-Ie2l6A:hover .header-2o-2hj svg{
+    width: 18px;
+}
+
+.channels-Ie2l6A .content-20Aix8{
+    width: 40px!important;
+    margin-left: 0;
+    padding: 0 13px;
+    border-radius: 0;
+    transition: all 200ms;
+}
+
+.channels-Ie2l6A .channel-2fhmY8 a{
+    width: 100px!important;
+    margin-left: 0;
+    padding: 0 6px;
+    border-radius: 0;
+    transition: all 200ms;
+}
+
+.channels-Ie2l6A:hover .content-20Aix8{
+    width: 240px!important;
     margin-left: 8px;
+    padding: 0 8px;
+    border-radius: 3px;
 }
 
-.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='content']{
-    padding-right: 0;
-    padding-left: 10px;
-}
-
-.private-channels [class*='scrollerWrap'] [class*='scroller'], [class*='channels'] [class*='scrollerWrap'] [class*='scroller']{
-    overflow-y: visible!important;
-    overflow-x: scroll!important;
-
-}
-
-.private-channels .channel, .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='wrapper']{
-    padding-left: 2px;
-}
-
-.channel.btn-friends svg{
-    min-width: 24px;
-    margin-left: 4px;
-}
-
-.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe{
-    width: 60px;
-    transition: width 400ms;
-    border-right: 2px solid var(--Color__MainColor1);
-}
-
-.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='container'] .avatar-small{
+.channels-Ie2l6A:hover .channel-2fhmY8 a{
+    width: 240px!important;
     margin-left: 8px;
+    padding: 0 8px;
+    border-radius: 3px;
 }
 
-[class*='container'] [class*='Voice'] ~ [class*='list']{
-    margin-left: -11px;
+.channels-Ie2l6A .privateChannels-1nO12o .btn-friends svg{
+    margin-right: 10px;
+    margin-left: 2px;
 }
 
-[class*='container'] [class*='Voice'] ~ [class*='list'] [class*='name']{
-    margin-left: 14px!important;
+.channels-Ie2l6A .content-20Aix8.contentSelectedText-3wUhMi, .channels-Ie2l6A .private-channels .channel-2fhmY8.private.selected a{
+    background-color: #D81B60!important;
 }
 
-.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='header'] [class*='button']{
-    margin: 0 20% 0 0;
-    transition: margin 400ms, transform .2s ease, -webkit-transform .2s ease;
+.channels-Ie2l6A:hover .content-20Aix8.contentSelectedText-3wUhMi, .channels-Ie2l6A:hover .private-channels .channel-2fhmY8.private.selected a{
+    background-color: rgba(0,0,0,0.2)!important;
 }
 
-.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe:hover [class*='header'] [class*='button']{
-    margin: 0 0 0 4px;
-}
-
-.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe .search-bar, .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='header'] [class*='name'], .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe header:not([class*='header']), .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='cursorPointer']{
+.channels-Ie2l6A .content-20Aix8 .name-3M0b8v, .channels-Ie2l6A .content-20Aix8 .flex-1xMQg5, .channels-Ie2l6A .containerDefault-3GGEv_, .channels-Ie2l6A .header-2o-2hj .name-3YKhmS, .channels-Ie2l6A .privateChannels-1nO12o .search-bar-inner, .channels-Ie2l6A .private-channels header{
     opacity: 0;
-    transition: 200ms all;
+    transition: opacity 200ms;
 }
 
-.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe:hover .search-bar, 
-.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe:hover [class*='header'] [class*='name'], .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe:hover header, .guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe:hover [class*='scroller'] [class*='container'] [class*='containerDefault'] [class*='cursorPointer']{
+.channels-Ie2l6A:hover .content-20Aix8 .name-3M0b8v, .channels-Ie2l6A:hover .content-20Aix8 .flex-1xMQg5, .channels-Ie2l6A:hover .containerDefault-3GGEv_, .channels-Ie2l6A:hover .header-2o-2hj .name-3YKhmS, .channels-Ie2l6A:hover .privateChannels-1nO12o .search-bar-inner, .channels-Ie2l6A:hover .private-channels header{
     opacity: 1;
 }
 
-.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe [class*='scroller'] [class*='container'] [class*='container'] [class*='content'] svg{
-    width: 30px;
+.channels-Ie2l6A .container-2Thooq{
+    padding-left: 6px;
 }
 
-.guilds-wrapper ~ [class*='base'] [class*='spacer'] .channels-3g2vYe:hover{
-    width: 240px;
+#friends, .activityFeed-28jde9{
+    z-index: 10;
 }

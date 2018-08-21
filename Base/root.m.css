@@ -1,47 +1,25 @@
 :root{
-    --Color__MainBackground: #161616;
-    --Color__SelectionColor: rgba(0,0,0,0.2);
-    --Color__AccentColor: #F44336;
-    --Color__SecondAccentColor: rgba(244, 67, 54, 0.7);
-    --Color__MainColor1: #161616;
-    --Color__MainColor2: #212121;
-    --Color__True: #8BC34A;
-    --Color__False: #F44336;
 
-    --Content__Module__AdvancedScrollbar: '';
-    --Content__Module__Base: '\A \2022  Base ~ Customa Devs (Base \2192  base.m.css)';
-    --Content__Module__BaseSupportedPlugs: '\A\A Support for BD-Plugins: \A \21B3  Date Viewer ~ hammy (share some luv plox <3)\A \21B3  ShowImageDetails ~ DevilBro\A \21B3  Citador ~ Nirewen';
-    --Content__Module__BetterFileTypes: '';
-    --Content__Module__ChannelDivider: '';
-    --Content__Module__ChannelsWrapper: '';
-    --Content__Module__CodeBlockLanguages: '';
-    --Content__Module__DisplayChannelIcon: '';
-    --Content__Module__Font: '';
-    --Content__Module__JumboMoji: '';
-    --Content__Module__LoginBGChanger: '';
-    --Content__Module__NewDividerRed: '';
-    --Content__Module__NewEditText: '';
-    --Content__Module__NewGuilds: '';
-    --Content__Module__NewLogin: '';
-    --Content__Module__NewPlaying: '';
-    --Content__Module__NewUserModal: '';
-    --Content__Module__NewUserPopout: '';
-    --Content__Module__PlaceholderRemover: '';
-    --Content__Module__Root: '\A \2022  Root ~ Customa Devs (Base \2192  root.m.css)';
-    --Content__Module__SidebarMods: '';
-    --Content__Module__StatusCircles: '';
-    --Content__Module__Update: '';
-    --Content__Module__Variables: '';
+    --INTModRoot: '\2022  Root ~ Customa Devs (Base \2192  root.m.css)\A';
 
-    
-    
-    
-    --Content__Variables__Base: 'Base: \A \2022  --Color__MainBackground \2192  Allowed Values: Image/Color\A \2022  --Color__SelectionColor \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3))\A \2022  --Color__AccentColor \2192  Allowed Values: Color\A \2022  --Color__SecondAccentColor \2192  Allowed Values: Color (pref. rgba(x,x,x,0.1))\A \2022  --Color__MainColor1 \2192  Allowed Values: Color\A \2022  --Color__MainColor2 \2192  Allowed Values: Color\A \2022  --Color__True \2192  Allowed Values: Color (pref. Green)\A \2022  --Color__False \2192  Allowed Values: Color (pref. Red)';
-    --Content__Variables__DisplayChannelIcon: '';
-    --Content__Variables__Font: '';
-    --Content__Variables__JumboMoji: '';
-    --Content__Variables__LoginBGChanger: '';
-    --Content__Variables__NewEditText: '';
+    /* EDIT STARTS HERE */
 
-    --Display__EmbedPill: none;
+    --ColAppBG: #161616; /* Color or url('link to image')*/
+    --ColBackground1: var(--ColAppBG); /* Color */
+    --ColBackground2: #212121; /* Color */
+    --ColAccent: #D81B60; /* Color */
+    --ColAccentAlpha: rgba(216, 27, 96, 0.1); /* Color in RGBA Format, best when hex code of --ColAccent is converted to rgba and get's an opacity of 0.1 */
+    --ColAnchor: #0096cf;  /* Color */
+    --ColLastMessage: transparent; /* Transparent or Color - pref. RGBA color */
+    --DisplayEmbedPill: none; /* Block or none */
+
+    /* EDIT ENDS HERE */
+
+    --INTVarBase: 'Base: \A \2022  --Color__MainBackground \2192  Allowed Values: Image/Color\A \2022  --Color__SelectionColor \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3))\A \2022  --Color__AccentColor \2192  Allowed Values: Color\A \2022  --Color__SecondAccentColor \2192  Allowed Values: Color (pref. rgba(x,x,x,0.1))\A \2022  --Color__MainColor1 \2192  Allowed Values: Color\A \2022  --Color__MainColor2 \2192  Allowed Values: Color\A \2022  --Color__True \2192  Allowed Values: Color (pref. Green)\A \2022  --Color__False \2192  Allowed Values: Color (pref. Red)';
+    --INTVarDisplayChannelIcon: '';
+    --INTVarFont: '';
+    --INTVarJumboMoji: '';
+    --INTVarLoginBGChanger: '';
+    --INTVarNewEditText: '';
+
 }

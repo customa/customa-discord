@@ -1,5 +1,5 @@
 :root{
-    --Content__Module__Variables: '\A \2022  Variables ~ Customa Devs (Base \2192  variables.m.css)';
+    --INTModVariables: '\2022  Variables ~ Customa Devs (Base \2192  variables.m.css)\A';
 }
 
 #bd-customcss-attach-controls::after{
