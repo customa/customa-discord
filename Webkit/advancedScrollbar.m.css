@@ -22,6 +22,6 @@
 } 
 
 ::-webkit-scrollbar-thumb{
-    background-color: var(--Color__AccentColor)!important;
+    background-color: var(--ColAccent)!important;
     border-radius: 0!important;
 }
