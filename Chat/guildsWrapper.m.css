@@ -1,7 +1,8 @@
 :root{
     --INTModGuildsWrapper: '\2022  Guilds Wrapper 2.0 ~ Customa Devs (Chat \2192  guildsWrapper.m.css)\A';
-    --INTVarNewGuilds: '\A\A New Guilds: \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%);';
+    --INTVarNewGuilds: '\A\A New Guilds: \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%);\A \2022 --WidthMax \2192  Allowed Values: 123px (pref. 80px)';
     --FilterNoHover: grayscale(100%);
+    --WidthGuildMax: 80px;
 }
 
 .guildsWrapper-5TJh6A /* GuildsWrapper */{
@@ -10,7 +11,7 @@
 }
 
 .guildsWrapper-5TJh6A:hover /* GuildsWrapper Hover Effect */{
-    width: 80px;
+    width: var(--WidthGuildMax);
 }
 
 .guilds-1q_RqH /* Scroller for GuildsWrapper */{
