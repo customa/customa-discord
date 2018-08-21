@@ -2,7 +2,7 @@
     --INTModStatusCircles: '\2022  Status Circles ~ Customa Devs (Sidebar \2192  statusCircles.m.css)\A';
 }
 
-[class*='avatar'] [class*='status']:not([class*='statusProfile']){
+.wrapper-2F3Zv8 .status-oxiHuE, .avatarOffline-3GF27z::after{
     width: calc(100% + 4px) !important;
     height: calc(100% + 4px) !important;
     background: transparent !important;
@@ -10,30 +10,43 @@
     top: -4px !important;
     left: -4px !important;
     border: 2px solid transparent !important;
+    box-shadow: none!important;
+    z-index: 0;
+    content: ' ';
 }
 
-[class*='avatar']:not([class*='statusProfile']) [class*='Online'], [class*='avatar']:not([class*='statusProfile']) [class*='online']{
+.avatarOffline-3GF27z::after{
+    width: 34px!important;
+    height: 34px!important;
+    display: block;
+    position: absolute;
+}
+
+.wrapper-2F3Zv8 .avatar-3JE4B3{
+    z-index: 1;
+}
+
+.wrapper-2F3Zv8 .status-oxiHuE.online-2S838R{
     border-left-color: #43b581 !important;
 }
 
-[class*='avatar']:not([class*='statusProfile']) [class*='Idle'], [class*='avatar']:not([class*='statusProfile']) [class*='idle']{
+.wrapper-2F3Zv8 .status-oxiHuE.idle-3DEnRT{
     border-left-color: #faa61a !important;
 }
 
-[class*='avatar']:not([class*='statusProfile']) [class*='Dnd'], [class*='avatar']:not([class*='statusProfile']) [class*='dnd']{
+.wrapper-2F3Zv8 .status-oxiHuE.dnd-1_xrcq{
     border-left-color: #F44336 !important;
 }
 
-[class*='avatar']:not([class*='statusProfile']) [class*='Streaming'], [class*='avatar']:not([class*='statusProfile']) [class*='streaming'] {
+.wrapper-2F3Zv8 .status-oxiHuE.streaming-2_dnHe, .headerStreaming-2FjmGz .wrapper-2F3Zv8 .status-oxiHuE {
     border-left-color: #643da7 !important;
 }
 
-[class*='avatar']:not([class*='statusProfile']) [class*='Offline'], [class*='avatar']:not([class*='statusProfile']) [class*='offline'],
-[class*='avatar']:not([class*='statusProfile']) [class*='Invisible'], [class*='avatar']:not([class*='statusProfile']) [class*='invisible']{
+.wrapper-2F3Zv8 .status-oxiHuE.offline-3qoTek, .avatarOffline-3GF27z::after{
     border-left-color: #747f8d !important;
 }
 
-[class*='avatar']:not([class*='statusProfile']) [class*='Typing'] [class*='spinner'], [class*='avatar']:not([class*='statusProfile']) [class*='typing'] [class*='spinner']{
+.wrapper-2F3Zv8 .typing-1KJk_j .spinner-2enMB9{
     animation-name: typing-animation!important;
     animation-duration: 1s!important;
     animation-iteration-count: infinite!important; 
@@ -42,6 +55,10 @@
     width: 32px !important;
     height: 32px !important;
     border-radius: 50% !important;
+}
+
+.wrapper-2F3Zv8 .typing-1KJk_j .inner-1gJC7_{
+    margin-left: 4px!important;
 }
 
 @-webkit-keyframes typing-animation {
