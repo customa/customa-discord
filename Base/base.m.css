@@ -573,10 +573,25 @@ Emoji Combiner
 
 /*
 
-Temporary Scrollbar - Fix
+Scrollbars
 
 */
 
 ::-webkit-scrollbar{
-    display: none;
+    width: 5px!important;
+    height: 3px!important;
+    display: block;
+}
+
+::-webkit-scrollbar-track-piece{
+    background-color: rgba(0,0,0,0)!important;
+    border: none!important;
+}
+
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track{
+    border: none!important;
+} 
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0,0.6)!important;
 }
