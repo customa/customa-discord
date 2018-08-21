@@ -1,0 +1,33 @@
+:root {
+    --INTModDualGuilds: '\2022  Dual Width Server Finder ~ zvava (Chat \2192  dualGuilds.m.css)\A';
+    --INTVarNewGuilds: '\A\A New Guilds: \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%);\A \2022 --WidthMax \2192  Allowed Values: 123px (pref. 80px)';
+    --WidthGuildMax: 136px;
+}
+
+.guilds-1q_RqH{
+    padding-left: 2px;
+}
+
+.scrollerWrap-1IAIlv{
+    width: 136px;
+}
+
+.guildSeparator-1X4GQ1{
+    width: 80%;
+    margin: 0 10% 10px 10%;
+}
+
+.guild-1EfMGQ:first-child, .guild-1EfMGQ:first-child a::after{
+    margin: 0;
+    width: 95%;
+    text-align: center;
+}
+
+.friendsOnline-_wi_fM{
+    width: 100%;
+}
+
+.guild-1EfMGQ{
+    display: inline-block;
+    margin-left: 10px;
+}
