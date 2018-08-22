@@ -557,7 +557,7 @@ Light Theme Warning
 
  .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12::before /* New Info for White Theme Button */{
     visibility: visible!important;
-    content: "White Theme is currently not supported by the Customa Theme";
+    content: "Import the White Theme Module for Support";
     position: absolute!important;
     top: 15px;
     left: 12px;
