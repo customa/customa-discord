@@ -1,10 +1,14 @@
 :root {
     --INTModDualGuilds: '\2022  Dual Width Server Finder ~ zvava (Chat \2192  dualGuilds.m.css)\A';
-    --INTVarNewGuilds: '\A\A New Guilds: \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%);\A \2022 --WidthMax \2192  Allowed Values: 123px (pref. 80px)';
+    --INTVarDualGuilds: '\A\A New Guilds: \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%);\A \2022 --WidthMax \2192  Allowed Values: 123px (pref. 80px)';
     --WidthGuildMax: 136px;
 }
 
-.guilds-1q_RqH{
+.guildsWrapper-5TJh6A .guilds-1q_RqH{
+    transition: padding-left 400ms;
+}
+
+.guildsWrapper-5TJh6A:hover .guilds-1q_RqH{
     padding-left: 2px;
 }
 
@@ -12,12 +16,21 @@
     width: 136px;
 }
 
+.dms-rcsEnV .avatar-small{
+    background-position: center!important;
+    background-size: cover!important;
+}
+
+.badge-1GsMF2{
+    display: none;
+}
+
 .guildSeparator-1X4GQ1{
     width: 80%;
     margin: 0 10% 10px 10%;
 }
 
-.guild-1EfMGQ:first-child, .guild-1EfMGQ:first-child a::after{
+.guilds-1q_RqH > .guild-1EfMGQ:first-child, .guilds-1q_RqH > .guild-1EfMGQ:first-child a::after{
     margin: 0;
     width: 95%;
     text-align: center;
@@ -29,5 +42,33 @@
 
 .guild-1EfMGQ{
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 10px!important;
+}
+
+.guild-1EfMGQ *{
+    background-color: var(--ColBackground1)!important;
+}
+
+.unread-qLkInr::before, .selected-ML3OIq::before{
+    width: 100%!important;
+    height: 100%!important;
+    transition: none!important;
+    top: calc(40% - 0.15em)!important;
+    left: calc(0% - 0.15em)!important;
+    border-radius: 50%!important;
+    border: 0.2em solid var(--ColAccent);
+}
+
+.unread-qLkInr::before {
+    margin-top: -20px!important;
+    animation: blink 1s infinite linear;
+}
+
+.selected-ML3OIq::before {
+    animation: none;
+}
+
+@keyframes blink{
+    from{opacity: 1;}
+    to{opacity: 0;}
 }
