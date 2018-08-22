@@ -1,0 +1,100 @@
+:root{
+    --INTModGuildsWrapper: '\2022  White Theme Support ~ Customa Devs (Chat \2192  whiteThemeSupport.m.css)\A';
+    --INTVarNewGuilds: '\A\A White Theme Support: \A \2022  --ColFont \2192  Allowed Values: Color (pref. #4f545c) \A \2022 --ColFontBright \2192  Allowed Values: Color (pref. #eeeeee)';
+    --ColFont: #4f545c;
+    --ColFontBright: #EEEEEE;
+    --ColAppBG: #EEEEEE;
+    --ColBackground1: #EEEEEE;
+    --ColBackground2: #E0E0E0;
+}
+
+.card-3Qj_Yx .info-3LOr12 .desc-2Dttbk /* Selection Boxes Text On select */, .container-2Rl01u .name-3YKhmS /* Server Name */, .friendsOnline-_wi_fM /* Friends Online Indicator */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* Empty Guild Icon */, .container-2Thooq /* Username Container Text */, .nameUnreadText-DfkrI4, .nameHoveredText-1uO31y /* Text in Channel Selection */, .channel-activity-text /* Channel Activity Text */, .channel-2fhmY8:not(.selected) .channel-name /* DM Channels */, .privateChannels-1nO12o header /* Header Text of Private Channels */, .messagesPopoutWrap-1MQ1bW .tab-bar .tab-bar-item:not(.selected), .mentionFilter-1PQ6ey /* Message Wraper Header Text Fixes */, .keybind-KpFkfr /* ESC-Text when closing menu */, .markup-2BOw-j /* Normal typy text */, .headerText-2sdzFM div /* Userpopout Text */, .activityUserPopout-2yItg2 div /* Text for Current Game UserPopout */, ::-webkit-input-placeholder /* Placeholder Text Textboxes */, .nameTag-2IFDfL span, .headerFill-adLl4x .activityProfile-2bJRaP div /* Color Fixes User Modal */, textarea /* Textareas */, .uploadModal-2ifh8j .description-2ug5H_, .uploadModal-2ifh8j .comment-4IWttf, .uploadModal-2ifh8j .footer-3mqk7D button:not(.button-primary) /* Upload-Modal Text */{
+    color: var(--ColFont)!important;
+}
+
+.actionButtons-1sUUug .text-3ewTZb, .search-results-wrap .action-buttons .jump-button /* Jump Button in Pins and Mentions + Search */{
+    color: #EEEEEE!important;
+}
+
+.channel-name /* Channel Name Private DMs */{
+   font-weight: 500!important;
+}
+
+.wordmark-2iDDfm path /* Discord Logo */, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Home Guild */, .close-18n9bP svg path.fill /* Close Buttons */, .btn-friends.channel-2fhmY8:not(.selected) svg path:first-child /* Icons for Activity and Friends Channel */{
+    fill: var(--ColFont);
+}
+
+.button-1w5pas path[stroke='#FFF'] /* Button to open Server Menu */{
+    stroke: var(--ColFont);
+}
+
+.container-2Thooq svg path /* Icons in Username Container */{
+    fill: #4f545c;
+}
+
+
+.wordmark-2iDDfm /* Discord Logo */, .search-header div /* Elements in Search Header */{
+    opacity: 1!important;
+}
+
+.connection-1fbD7X .titleDefault-a8-ZSr /* Connection Button 'display on profile' */{
+    background-color: rgba(0,0,0,0.2);
+    padding: 1%;
+    border-radius: 3px;
+    color: var(--ColFontBright);
+    font-weight: 400;
+}
+
+.theme-light .option-96V44q:after, .theme-light .autocompleteInner-zh20B_ /* Background Color Fixes for Option in Search and the Autocomplete Box */{
+    background: none!important;
+}
+
+.theme-light .channelTextArea-1LDbYG .attachButtonInner-1iyZ9F svg /* Upload Button */{
+    padding: 0;
+    background: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/SVGs/WhiteMode/uploadWhiteMode.svg') 50% no-repeat;
+}
+
+/* Empty Game Icon (User Modal and User Popout) */
+
+.gameIcon-gg34Dz[style='background-image: url("/assets/a5eba102f5b5e413df2b65c73f288afa.svg");']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/SVGs/WhiteMode/gameIconUserPop.svg')!important;
+}
+
+/* Buttons User Container */
+
+button[style='background-image: url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg");']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/SVGs/WhiteMode/mic.svg')!important;
+}
+
+button[style='background-image: url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg");']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/SVGs/WhiteMode/micMute.svg')!important;
+}
+
+button[style='background-image: url("/assets/c7c47afdf35d5a3e06233319d3aa7674.svg");']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/SVGs/WhiteMode/speaker.svg')!important;
+}
+
+button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.svg");']{
+    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/SVGs/WhiteMode/speakerMute.svg')!important;
+}
+
+/* Remove Dark Mode */
+
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child .checkboxWrapper-SkhIWG, .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child .info-3LOr12 /* Remove Checkbox and Text from white-theme button */{
+    visibility: hidden;
+}
+
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child /* White Theme Button */{
+    background-color: var(--ColFalse)!important;
+    pointer-events: none!important;
+    
+}
+
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child .info-3LOr12::before /* New Info for White Theme Button */{
+    visibility: visible!important;
+    content: "Disable the White Theme Module for Dark Theme to work";
+    position: absolute!important;
+    top: 15px;
+    left: 12px;
+    color: var(--ColFontBright);
+}
