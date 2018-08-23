@@ -1,6 +1,5 @@
 :root {
-    --INTModDualGuilds: '\2022  Dual Width Server Finder ~ zvava (Chat \2192  dualGuilds.m.css)\A';
-    --INTVarDualGuilds: '\A\A New Guilds: \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%);\A \2022 --WidthMax \2192  Allowed Values: 123px (pref. 80px)';
+    --INTModDualGuilds: '\2022  Dual Width Server Finder ~ zvava (Chat \2192  dualGuilds.m.css)\A'!important;
     --WidthGuildMax: 136px;
 }
 

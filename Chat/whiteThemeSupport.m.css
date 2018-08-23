@@ -1,6 +1,6 @@
 :root{
-    --INTModGuildsWrapper: '\2022  White Theme Support ~ Customa Devs (Chat \2192  whiteThemeSupport.m.css)\A';
-    --INTVarNewGuilds: '\A\A White Theme Support: \A \2022  --ColFont \2192  Allowed Values: Color (pref. #4f545c) \A \2022 --ColFontBright \2192  Allowed Values: Color (pref. #eeeeee)';
+    --INTModWhiteThemeSupport: '\2022  White Theme Support ~ Customa Devs (Chat \2192  whiteThemeSupport.m.css)\A'!important;
+    --INTVarWhiteThemeSupport: '\A\A White Theme Support - Module \A \2022  --ColFont \2192  Allowed Values: Color (pref. #4f545c) \A \2022 --ColFontBright \2192  Allowed Values: Color (pref. #eeeeee)'!important;
     --ColFont: #4f545c;
     --ColFontBright: #EEEEEE;
     --ColAppBG: #EEEEEE;

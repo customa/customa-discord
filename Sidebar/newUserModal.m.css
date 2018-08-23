@@ -1,5 +1,5 @@
 :root{
-    --INTModNewUserModal: '\2022  New User Modal ~ Customa Devs (Sidebar \2192  newUserModal.m.css)\A';
+    --INTModNewUserModal: '\2022  New User Modal ~ Customa Devs (Sidebar \2192  newUserModal.m.css)\A'!important;
 }
 
 [class*='topSection'] .avatar-3EQepX .statusProfile-3ynqtt {
