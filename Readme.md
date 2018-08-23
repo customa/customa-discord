@@ -45,19 +45,14 @@ Despite a strict requirement for the Base and Root Module on my website, the the
 
 * The theme can be created by hand as well. For this just use one of the follow templates:
 
-Current Branch: **Redo**
+Current Branch: **Master**
 ```CSS
-@import url('https://raw.githack.com/GhostlyDilemma/Customa/redo/');
-```
-
-Normal Branch: **Master**
-```CSS
-@import url('https://raw.githack.com/GhostlyDilemma/Customa/master/');
+@import url('https://raw.githack.com/Customa/Customa/master/');
 ```
 
 Long Term Support/Legacy Branch: **Legacy**
 ```CSS
-@import url('https://raw.githack.com/GhostlyDilemma/Customa/legacy/');
+@import url('https://raw.githack.com/Customa/Customa/legacy/');
 ```
 
 After that just add the desidered folder name (Base/Canary/Chat/Emoji/Misc/Sidebar/Webkit).
@@ -67,7 +62,7 @@ Search in the folder for your desired module and add the following to the statem
 
 In the end your link should look something like this:
 ```CSS
-@import url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Base/base.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Base/base.m.css');
 ```
 
 #### Which variables do exist?
@@ -87,3 +82,50 @@ All of this theme wouldn't have been possible without the help of all following 
     * Eldog
 * BetterDiscord
 * Beard's Material     
+
+### 5. Current Progress
+
+I created a point system for myself in order to keep track of which modules need more care or need some redo all together. An old, buggy module gets a 0 (also modules which I haven't looked at yet, but might actually work), a module which I started working on but is not quite ready yet gets a 0.5, a finished module gets a 1.
+
+Currently the project has **22.5 points**
+
+Possible are **27 points**
+
+Detailed listing of the project status (eg.: where it falls short at the moment):
+#### Base Package
+* The Base Module is fully implemented (**1 point**)
+* The Font Module is fully implemented (**1 point**)
+* The Selection Module is fully implemented (**1 point**)
+* The Settings Module is fully implemented (**1 point**)
+* The Tooltip Module is fully implemented (**1 point**)
+* The Updates Module is not yet implemented (**0 points**)
+* The Variables Module is fully implemented (**1 point**)<br/>
+= 6/7
+#### Chat Package
+* The Better Filetypes Module is fully implemented (**1 point**)
+* The Channel Divider Module is fully implemented (**1 point**)
+* The Channels Wrapper Module is fully implemented (**1 point**)
+* The Code Block Languages Module is not yet implemented (**0 points**)
+* The Display Channel Icons Module is fully implemented (**1 point**)
+* The Dual Guilds Module is not yet fully implemented (**0.5 points**)
+* The Guilds Wrapper Module is fully implemented (**1 point**)
+* The New Divider Red Module is fully implemented (**1 point**)
+* The New Edit Text Module is fully implemented (**1 point**)
+* The New Edit Icon Module is not yet implemented (**0 points**)
+* The White Theme Support Module is fully implemented (**1 point**)<br/>
+= 8.5/11
+#### Emoji Package
+* The Jumbo Moji Module is fully implemented (**1 point**)
+* The Blobs Replacement Module is not yet implemented (**0 points**)<br/>
+= 1/2
+#### Sidebar Package
+* The New Playing MEssages Module is fully implemented (**1 point**)
+* The New User Modal Module is fully implemented (**1 point**)
+* The New User Popout Module is fully implemented (**1 point**)
+* The Sidebar Modifier Module is fully implemented (**1 point**)
+* The Status Circles Module is fully implemented (**1 point**)<br/>
+= 5/5
+#### Webkit Package
+* The Advanced Scrollbar Module is fully implemented (**1 point**)
+* The Placeholdler Remover Module is fully implemented (**1 point**)<br/>
+= 2/2
