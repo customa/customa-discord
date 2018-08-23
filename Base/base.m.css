@@ -150,7 +150,7 @@ Backgrounds & SVG Fills
 }
 
 .channelNotices-41mJbj .close-relY5R /* Button to close Menues */{
-    background-image: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/SVGs/Close.svg')!important;
+    background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Close.svg')!important;
     opacity: 1!important;
 }
 
@@ -315,11 +315,11 @@ Masks
 */
 
 .maskProfile-1ObLFT{
-    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/Masks/maskUserModal.svg')!important;
+    -webkit-mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskUserModal.svg')!important;
 }
 
 .mask-3OgeRz{
-    -webkit-mask: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/Masks/maskmemWrap.svg')!important;
+    -webkit-mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
 }
 
 /*
@@ -423,7 +423,7 @@ Upload Button Tweeks
 
 .channelTextArea-1LDbYG .attachButtonInner-1iyZ9F svg /* Upload Button */{
     padding: 0;
-    background: url('https://raw.githack.com/GhostlyDilemma/Customa/redo/Misc/SVGs/upload.svg') 50% no-repeat;
+    background: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/upload.svg') 50% no-repeat;
 }
 
 .channelTextArea-1LDbYG .attachButtonInner-1iyZ9F svg path /* Reset old Upload Button */{
