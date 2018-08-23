@@ -1,10 +1,10 @@
 :root{
     --INTModJumboMoji: '\2022  Jumbo Emojis ~ Customa Devs (Emoji \2192  jumboMoji.m.css)\A'!important;
-    --INTVarJumboMoji: '\A\A Jumbo Emoji - Module \A \2022  --SizeEmoteSize \2192  Allowed Values: XYpx (pref. 50px)'!important;
-    --SizeEmoteSize: 50px;
+    --INTVarJumboMoji: '\A\A Jumbo Emoji - Module \A \2022  --SizeEmote \2192  Allowed Values: XYpx (pref. 50px)'!important;
+    --SizeEmote: 50px;
 }
 
 .emoji.jumboable{
-    width: var(--SizeEmoteSize)!important;
-    height: var(--SizeEmoteSize)!important;
+    width: var(--SizeEmote)!important;
+    height: var(--SizeEmote)!important;
 }
