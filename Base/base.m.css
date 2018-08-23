@@ -3,11 +3,12 @@
     /* DO NOT EDIT */
 
     --INTModBase: '\2022  Base ~ Customa Devs (Base \2192  base.m.css)\A'!important;
-    --INTVarBase: '\A\A Base - Module\A \2022  --Color__MainBackground \2192  Allowed Values: Image/Color\A \2022  --Color__SelectionColor \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3))\A \2022  --Color__AccentColor \2192  Allowed Values: Color\A \2022  --Color__SecondAccentColor \2192  Allowed Values: Color (pref. rgba(x,x,x,0.1))\A \2022  --Color__MainColor1 \2192  Allowed Values: Color\A \2022  --Color__MainColor2 \2192  Allowed Values: Color\A \2022  --Color__True \2192  Allowed Values: Color (pref. Green)\A \2022  --Color__False \2192  Allowed Values: Color (pref. Red)'!important;
+    --INTVarBase: '\A\A Base - Module\A \2022  --ColAppBG \2192  Allowed Values: Image/Color\A \2022  --ColAuthBG \2192  Allowed Values: Image/Color\A \2022  --ColBackground1 \2192  Allowed Values: Color\A \2022  --ColBackground2 \2192  Allowed Values: Color\A \2022  --ColAccent \2192  Allowed Values: Color\A \2022  --ColAccentAlpha \2192  Allowed Values: Color (pref. rgba(x,x,x,0.1)\A \2022  --ColAnchor \2912   Allowed Values: Color\A \2022  --ColLastMessage \2192  Allowed Values: Transparent/Color (pref. rgba(0,0,0,0.1))\A \2022  --ColTrue \2192  Allowed Values: Color (pref. Green)\A \2022  --ColFalse \2192  Allowed Values: Color (pref. Red)\A \2022  --DisplayEmbedPill \2192  Allowed Values: None/Block\A \2022  --DisplayNoConnectionBackdraw \2192  Allowed Values: None/Flex'!important;
 
     /* SECONDARY LAYOUT */
     
     --ColAppBG: url('https://cdn.discordapp.com/attachments/261950094096596992/477207573758607371/oneshotdesktop4.png');
+    --ColAuthBG: url('/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg');
     --ColBackground1: rgba(0,0,0,0.2);
     --ColBackground2: rgba(0,0,0,0);
     --ColAccent: #D81B60;
@@ -28,10 +29,10 @@
     --ColAccentAlpha: rgba(216, 27, 96, 0.1); /* Color in RGBA Format, best when hex code of --ColAccent is converted to rgba and get's an opacity of 0.1 */
     --ColAnchor: #0096cf;  /* Color */
     --ColLastMessage: transparent; /* Transparent or Color - pref. RGBA color */
-    --ColFalse: #F44336;
-    --ColTrue: #8BC34A;
+    --ColFalse: #F44336; /* Color */
+    --ColTrue: #8BC34A; /* COlor */
     --DisplayEmbedPill: none; /* Block or none */
-    --DisplayNoConnectionBackdraw: flex;
+    --DisplayNoConnectionBackdraw: flex; /* Flex or none */
 
 }
 
@@ -59,6 +60,13 @@ Backgrounds & SVG Fills
     background-size: cover!important;
     width: 100%;
     height: 100%;
+}
+
+.splashBackground-1FRCko canvas{
+    background: var(--ColAuthBG);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover!important;
 }
 
 .layers-3iHuyZ, .layer-3QrUeG, .layer-3QrUeG .flex-1xMQg5:not(.headerBar-UHpsPw), .chat-3bRxxu, .content-yTz4x3, .ui-standard-sidebar-view, .sidebar-region, .popoutList-T9CKZQ, .create-guild-container .form-inner /* Pretty much only all the elements adding additional background colors, all disabled, to make the shared background work */, .chat-3bRxxu form /* Main Form Element in the main chat window */, .menu-Sp6bN1, .messagesPopoutWrap-1MQ1bW, .searchPopout-1vUlP3, .emojiPicker-3m1S-j, .container-3cGP6G, .popout-3sVMXz .contextMenu-HLZMGh /* Inner Popout Selectors to unify colors */ , .emojiPicker-3m1S-j .category-2U57w6 /* Categories of Emoji Picker */, .dimmer-3iH-5D.visible-3k45bQ /* Emoji Selector Dimmer - When opening diversity selector */, .userPopout-3XzG_A .body-3iLsc4, .userPopout-3XzG_A .header-2BwW8b /* User Popout Header & Body */, .search-bar /* Reset Searchbar */, .hasMore-3e72_v button /* Button when top of chat is reached */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .searchAnswer-3Dz2-q /* What the filter searches for */, .search-results-wrap /* Main Wrapper for search */, .channel-separator span /* Channel seperator Search */, .menu-Sp6bN1 .item-1GzJrl:hover, .container-3cGP6G .item-2J1YMK:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL-, .item-1Yvehc:hover /* Menu hover effects */, .topSectionPlaying-1J5E4n, .topSectionNormal-2-vo2m, .topSectionSpotify-1lI0-P, .topSectionStreaming-1Tpf5X /* Header of User Modal */, pre code /* Multiline Code Box Color Fix */, .media-engine-video, .previewContainer-37c2Si /* Transparent Layer for the Webcam Preview */, .modal-3HD5ck .message-2qRu38 .container-1YxwTf:last-of-type /* Transparent Message Delete and Pin Notif */, .carousel-JbsNzL /* Article Carousel Activity Tab */, .card-7JP0BX .body-SKIE6r, .newsLink-38Naqi /* Now Playing Friend Card Body & News Body */, .need-help-modal .form-inner /* F1 Menu Inner */, #autocomplete-popout section /* Section Member Roles Add Popout */, .container-1UB9sr /* In Voice Container */, .container-2x5lvQ section /* RTC Connection Body */, .closeButton-1tv5uR:hover /* Button to close Menues */, .guild-1EfMGQ .guildInner-3DSoA4, .guild-1EfMGQ /* Guild Real Transparency */, .uploadModal-2ifh8j .footer-3mqk7D /* Upload Modal Footer */, .uploadModal-2ifh8j .button:not(.button-primary) /* Upload Modal Button Cancel */, .colorPickerCustom-2CWBn2 /* Role Color Picker */, .guild-1EfMGQ .guildsError-3cFMtY /* Guild with outage */, .ace_gutter /* BetterDiscord Custom CSS Editor */{
@@ -112,7 +120,7 @@ Backgrounds & SVG Fills
     background-color: var(--ColAccentAlpha)!important;
 }
 
-.channel.btn-friends.selected a /* Friends/Game Menu Selected */, .messageGroupBlocked-3wrQQX .container-1YxwTf /* Blocked Messages Transparency */, .channel.btn-friends:hover a/* Friends/Game Menu Selected */, .instructions-2Du9gG pre, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 /* Serverlist Home Button */, .search-result-message .container-1YxwTf:last-of-type /* Fix of buggy last message in search */, .videoTop-eOkSPq /* Remove Uneeded Linear Gradient in Video Calls */{
+.channel.btn-friends.selected a /* Friends/Game Menu Selected */, .messageGroupBlocked-3wrQQX .container-1YxwTf /* Blocked Messages Transparency */, .channel.btn-friends:hover a/* Friends/Game Menu Selected */, .instructions-2Du9gG pre, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 /* Serverlist Home Button */, .search-result-message .container-1YxwTf:last-of-type /* Fix of buggy last message in search */, .videoTop-eOkSPq /* Remove Uneeded Linear Gradient in Video Calls */, .lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp /* Link Button */{
     background: transparent!important;
 }
 
@@ -225,7 +233,7 @@ Color & Text - Align
 
 */
 
-.hasMore-3e72_v button /* Button when top of chat is reached */, .searchAnswer-3Dz2-q /* What the filter searches for */, .menu-Sp6bN1 .item-1GzJrl:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- span:nth-of-type(2), .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc:not(.disabled-2xniQf):hover /* Menu hover effects */, .tab-bar .tab-bar-item.selected, .search-header .tab.selected, .item-1TLUig:hover, .item-1TLUig.selected-P8xTeN /* Tab bar (used in search for example) to change between states, hover effect thereof */, .dividerRed-MKoLlr span /* Divider "Red" Fixes */, .select-2TCrqx .Select-option.is-selected /* Multiselect Selected Value */, #friends .tab-bar-item.selected /* Top bar Action Button Select */, .welcomeMessage-3_Mcht h1 /* Welcome Message */, .reactionMe-23mbRf .reactionCount-2ddRoS /* tfw you react */, .mention:not([style*='color']), .wrapper-3WhCwL:not([style*='color']) /* Mentioned when not some role color is defined */, .create-guild-container .create .action-header, .create-guild-container header, .create-guild-container .sample-link, .create-guild-container .create-guild h5 /* Text Create Guild */, .regionSelect-3lf4eE button /* Regional Select Button Fixes */, .regionSelectModalHeader-21khC1 /* Header for Regional Select Modal */, .regionSelectModalOption-2DSIZ3 .regionSelectName-2-2FWh /* Option on Regional Select Modal Text */, .guild-1EfMGQ:hover .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Hover */, .selected-ML3OIq .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Selected */{
+.hasMore-3e72_v button /* Button when top of chat is reached */, .searchAnswer-3Dz2-q /* What the filter searches for */, .menu-Sp6bN1 .item-1GzJrl:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- span:nth-of-type(2), .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc:not(.disabled-2xniQf):hover /* Menu hover effects */, .tab-bar .tab-bar-item.selected, .search-header .tab.selected, .item-1TLUig:hover, .item-1TLUig.selected-P8xTeN /* Tab bar (used in search for example) to change between states, hover effect thereof */, .dividerRed-MKoLlr span /* Divider "Red" Fixes */, .select-2TCrqx .Select-option.is-selected /* Multiselect Selected Value */, #friends .tab-bar-item.selected /* Top bar Action Button Select */, .welcomeMessage-3_Mcht h1 /* Welcome Message */, .reactionMe-23mbRf .reactionCount-2ddRoS /* tfw you react */, .mention:not([style*='color']), .wrapper-3WhCwL:not([style*='color']) /* Mentioned when not some role color is defined */, .create-guild-container .create .action-header, .create-guild-container header, .create-guild-container .sample-link, .create-guild-container .create-guild h5 /* Text Create Guild */, .regionSelect-3lf4eE button /* Regional Select Button Fixes */, .regionSelectModalHeader-21khC1 /* Header for Regional Select Modal */, .regionSelectModalOption-2DSIZ3 .regionSelectName-2-2FWh /* Option on Regional Select Modal Text */, .guild-1EfMGQ:hover .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Hover */, .selected-ML3OIq .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Selected */, .lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp /* Link Button */{
     color: var(--ColAccent)!important;
 }
 
@@ -370,7 +378,7 @@ Transitions
 
 */
 
-.tab-bar .tab-bar-item.selected, .item-1TLUig /* Tab bar (used in search for example) to change between states, hover effect thereof */, .menu-Sp6bN1 .item-1GzJrl:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- span:nth-of-type(2), .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc /* Menu hover effects */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Hover */, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Serverlist Home Button */{
+.tab-bar .tab-bar-item.selected, .item-1TLUig /* Tab bar (used in search for example) to change between states, hover effect thereof */, .menu-Sp6bN1 .item-1GzJrl:hover, .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- span:nth-of-type(2), .searchPopout-1vUlP3 .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc /* Menu hover effects */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Hover */, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Serverlist Home Button */, .lookLink-9FtZy-.colorBrand-3pXr91 .contents-18-Yxp /* Link Button */{
     transition: color 400ms;
 }
 
