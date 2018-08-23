@@ -8,7 +8,7 @@
     --ColBackground2: #E0E0E0;
 }
 
-.card-3Qj_Yx .info-3LOr12 .desc-2Dttbk /* Selection Boxes Text On select */, .container-2Rl01u .name-3YKhmS /* Server Name */, .friendsOnline-_wi_fM /* Friends Online Indicator */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* Empty Guild Icon */, .container-2Thooq /* Username Container Text */, .nameUnreadText-DfkrI4, .nameHoveredText-1uO31y /* Text in Channel Selection */, .channel-activity-text /* Channel Activity Text */, .channel-2fhmY8:not(.selected) .channel-name /* DM Channels */, .privateChannels-1nO12o header /* Header Text of Private Channels */, .messagesPopoutWrap-1MQ1bW .tab-bar .tab-bar-item:not(.selected), .mentionFilter-1PQ6ey /* Message Wraper Header Text Fixes */, .keybind-KpFkfr /* ESC-Text when closing menu */, .markup-2BOw-j /* Normal typy text */, .headerText-2sdzFM div /* Userpopout Text */, .activityUserPopout-2yItg2 div /* Text for Current Game UserPopout */, ::-webkit-input-placeholder /* Placeholder Text Textboxes */, .nameTag-2IFDfL span, .headerFill-adLl4x .activityProfile-2bJRaP div /* Color Fixes User Modal */, textarea /* Textareas */, .uploadModal-2ifh8j .description-2ug5H_, .uploadModal-2ifh8j .comment-4IWttf, .uploadModal-2ifh8j .footer-3mqk7D button:not(.button-primary) /* Upload-Modal Text */{
+.card-3Qj_Yx .info-3LOr12 .desc-2Dttbk /* Selection Boxes Text On select */, .container-2Rl01u .name-3YKhmS /* Server Name */, .friendsOnline-_wi_fM /* Friends Online Indicator */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* Empty Guild Icon */, .container-2Thooq /* Username Container Text */, .nameUnreadText-DfkrI4, .nameHoveredText-1uO31y /* Text in Channel Selection */, .channel-activity-text /* Channel Activity Text */, .channel-2fhmY8:not(.selected) .channel-name /* DM Channels */, .privateChannels-1nO12o header /* Header Text of Private Channels */, .messagesPopoutWrap-1MQ1bW .tab-bar .tab-bar-item:not(.selected), .mentionFilter-1PQ6ey /* Message Wraper Header Text Fixes */, .keybind-KpFkfr /* ESC-Text when closing menu */, .markup-2BOw-j /* Normal typy text */, .headerText-2sdzFM div /* Userpopout Text */, .activityUserPopout-2yItg2 div /* Text for Current Game UserPopout */, ::-webkit-input-placeholder /* Placeholder Text Textboxes */, .nameTag-2IFDfL span, .headerFill-adLl4x .activityProfile-2bJRaP div /* Color Fixes User Modal */, textarea /* Textareas */, .uploadModal-2ifh8j .description-2ug5H_, .uploadModal-2ifh8j .comment-4IWttf, .uploadModal-2ifh8j .footer-3mqk7D button:not(.button-primary) /* Upload-Modal Text */, .nameConnectedVoice-MHUX5F /* Name of Voice Channel when hovered and connected */, .divider-3gKybi:not(.dividerRed-MKoLlr) span /* Divider Color */, .container-1UB9sr .inner-btChU7 a /* Voice Connection Channel Name */, .uploadModal-2ifh8j .autocompleteInner-zh20B_ .selector-2IcQBU .content-Qb0rXO > div:not([style*='color']) /* Autocomplete Upload Modal Inner Colors */, .titleText-3X-zRE .channelName-3stJzi /* Channel Name Voice Call */{
     color: var(--ColFont)!important;
 }
 
@@ -32,8 +32,7 @@
     fill: #4f545c;
 }
 
-
-.wordmark-2iDDfm /* Discord Logo */, .search-header div /* Elements in Search Header */{
+.wordmark-2iDDfm /* Discord Logo */, .search-header div /* Elements in Search Header */, .channel-name /* Channel Name Private DMs */{
     opacity: 1!important;
 }
 
@@ -62,11 +61,11 @@
 
 /* Buttons User Container */
 
-button[style='background-image: url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg");']{
+button[style='background-image: url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg");']:not(.iconButton-3V4WS5){
     background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/WhiteMode/mic.svg')!important;
 }
 
-button[style='background-image: url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg");']{
+button[style='background-image: url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg");']:not(.iconButton-3V4WS5){
     background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/WhiteMode/micMute.svg')!important;
 }
 
@@ -76,6 +75,14 @@ button[style='background-image: url("/assets/c7c47afdf35d5a3e06233319d3aa7674.sv
 
 button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.svg");']{
     background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/WhiteMode/speakerMute.svg')!important;
+}
+
+.buttonScreenShare-3zPiSA{
+    background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/WhiteMode/screenshare.svg')!important;
+}
+
+.buttonDisconnect-3W_SJc:not(:hover){
+    background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/WhiteMode/hangup.svg')!important;
 }
 
 /* Remove Dark Mode */
@@ -97,4 +104,25 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
     top: 15px;
     left: 12px;
     color: var(--ColFontBright);
+}
+
+/* Restore White Mode Button */
+
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .checkboxWrapper-SkhIWG, .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12 /* Remove Checkbox and Text from white-theme button */{
+    visibility: visible;
+}
+
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child /* White Theme Button */{
+    background-color: rgba(0,0,0,0.2)!important;
+    pointer-events: all!important; 
+}
+
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12::before /* New Info for White Theme Button */{
+    visibility: hidden!important;
+}
+
+/* Better Discord Custom CSS Fix */
+
+#bd-customcss-attach-controls, #bd-customcss-attach-controls::after{
+    color: var(--ColFont)!important;
 }
