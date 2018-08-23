@@ -5,9 +5,8 @@
     /* Base */
     --INTModBase: '';
     --INTModFont: '';
-    --INTModRoot: '';
     --INTModSelection: '';
-    --INTModSettings: '\2022  Settings - Customa Devs (Base \2192  settings.m.css)\A';
+    --INTModSettings: '\2022  Settings - Customa Devs (Base \2192  settings.m.css)\A'!important;
     --INTModTooltip: '';
     --INTModUpdate: '';
     --INTModVariables: '';
@@ -18,9 +17,11 @@
     --INTModChannelsWrapper: '';
     --INTModCodeBlockLanguages: '';
     --INTModDisplayChannelIcon: '';
+    --INTModDualGuilds: '';
     --INTModGuildsWrapper: '';
     --INTModNewDividerRed: '';
     --INTModNewEditText: '';
+    --INTModWhiteThemeSupport: '';
     
     /* Emoji */
     --INTModJumboMoji: '';
@@ -47,7 +48,6 @@
     'Base\A ' 
     var(--INTModBase)
     var(--INTModFont)
-    var(--INTModRoot)
     var(--INTModSelection)
     var(--INTModSettings)
     var(--INTModTooltip)
@@ -59,9 +59,11 @@
     var(--INTModChannelsWrapper)
     var(--INTModCodeBlockLanguages)
     var(--INTModDisplayChannelIcon)
+    var(--INTModDualGuilds)
     var(--INTModGuildsWrapper)
     var(--INTModNewDividerRed)
-    var(--INTModNewEditText) '\A'
+    var(--INTModNewEditText)
+    var(--INTModWhiteThemeSupport) '\A'
     'Emoji\A'
     var(--INTModJumboMoji) '\A'
     'Misc\A'
