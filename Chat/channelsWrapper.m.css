@@ -3,7 +3,7 @@
 }
 
 .channels-Ie2l6A{
-    width: 40px;
+    width: 46px;
     transition: 200ms width;
 }
 
@@ -22,7 +22,7 @@
 .channels-Ie2l6A .content-20Aix8{
     width: 40px!important;
     margin-left: 0;
-    padding: 0 13px;
+    padding: 0 12px;
     border-radius: 0;
     transition: all 200ms;
 }
@@ -36,21 +36,21 @@
 }
 
 .channels-Ie2l6A:hover .content-20Aix8{
-    width: 240px!important;
+    width: 225px!important;
     margin-left: 8px;
     padding: 0 8px;
     border-radius: 3px;
 }
 
 .channels-Ie2l6A:hover .channel-2fhmY8 a{
-    width: 240px!important;
+    width: 225px!important;
     margin-left: 8px;
     padding: 0 8px;
     border-radius: 3px;
 }
 
 .channels-Ie2l6A .privateChannels-1nO12o .btn-friends svg{
-    margin-right: 10px;
+    margin-right: 11px;
     margin-left: 2px;
 }
 
@@ -75,6 +75,6 @@
     padding-left: 6px;
 }
 
-#friends, .activityFeed-28jde9{
+#friends, .activityFeed-28jde9, .gameLibrary-TTDw4Y{
     z-index: 10;
 }
