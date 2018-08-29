@@ -8,8 +8,12 @@
     --ColBackground2: #E0E0E0;
 }
 
-.card-3Qj_Yx .info-3LOr12 .desc-2Dttbk /* Selection Boxes Text On select */, .container-2Rl01u .name-3YKhmS /* Server Name */, .friendsOnline-_wi_fM /* Friends Online Indicator */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* Empty Guild Icon */, .container-2Thooq /* Username Container Text */, .nameUnreadText-DfkrI4, .nameHoveredText-1uO31y /* Text in Channel Selection */, .channel-activity-text /* Channel Activity Text */, .channel-2fhmY8:not(.selected) .channel-name /* DM Channels */, .privateChannels-1nO12o header /* Header Text of Private Channels */, .messagesPopoutWrap-1MQ1bW .tab-bar .tab-bar-item:not(.selected), .mentionFilter-1PQ6ey /* Message Wraper Header Text Fixes */, .keybind-KpFkfr /* ESC-Text when closing menu */, .markup-2BOw-j /* Normal typy text */, .headerText-2sdzFM div /* Userpopout Text */, .activityUserPopout-2yItg2 div /* Text for Current Game UserPopout */, ::-webkit-input-placeholder /* Placeholder Text Textboxes */, .nameTag-2IFDfL span, .headerFill-adLl4x .activityProfile-2bJRaP div /* Color Fixes User Modal */, textarea /* Textareas */, .uploadModal-2ifh8j .description-2ug5H_, .uploadModal-2ifh8j .comment-4IWttf, .uploadModal-2ifh8j .footer-3mqk7D button:not(.button-primary) /* Upload-Modal Text */, .nameConnectedVoice-MHUX5F /* Name of Voice Channel when hovered and connected */, .divider-3gKybi:not(.dividerRed-MKoLlr) span /* Divider Color */, .container-1UB9sr .inner-btChU7 a /* Voice Connection Channel Name */, .uploadModal-2ifh8j .autocompleteInner-zh20B_ .selector-2IcQBU .content-Qb0rXO > div:not([style*='color']) /* Autocomplete Upload Modal Inner Colors */, .titleText-3X-zRE .channelName-3stJzi /* Channel Name Voice Call */{
+.card-3Qj_Yx .info-3LOr12 .desc-2Dttbk /* Selection Boxes Text On select */, .container-2Rl01u .name-3YKhmS /* Server Name */, .friendsOnline-_wi_fM /* Friends Online Indicator */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* Empty Guild Icon */, .container-2Thooq /* Username Container Text */, .nameUnreadText-DfkrI4, .nameHoveredText-1uO31y /* Text in Channel Selection */, .channel-activity-text /* Channel Activity Text */, .channel-2fhmY8:not(.selected) .channel-name /* DM Channels */, .privateChannels-1nO12o header /* Header Text of Private Channels */, .messagesPopoutWrap-1MQ1bW .tab-bar .tab-bar-item:not(.selected), .mentionFilter-1PQ6ey /* Message Wraper Header Text Fixes */, .keybind-KpFkfr /* ESC-Text when closing menu */, .markup-2BOw-j /* Normal typy text */, .headerText-2sdzFM div /* Userpopout Text */, .activityUserPopout-2yItg2 div /* Text for Current Game UserPopout */, ::-webkit-input-placeholder /* Placeholder Text Textboxes */, .nameTag-2IFDfL span, .headerFill-adLl4x .activityProfile-2bJRaP div /* Color Fixes User Modal */, textarea /* Textareas */, .uploadModal-2ifh8j .description-2ug5H_, .uploadModal-2ifh8j .comment-4IWttf, .uploadModal-2ifh8j .footer-3mqk7D button:not(.button-primary) /* Upload-Modal Text */, .nameConnectedVoice-MHUX5F /* Name of Voice Channel when hovered and connected */, .divider-3gKybi:not(.dividerRed-MKoLlr) span /* Divider Color */, .container-1UB9sr .inner-btChU7 a /* Voice Connection Channel Name */, .uploadModal-2ifh8j .autocompleteInner-zh20B_ .selector-2IcQBU .content-Qb0rXO > div:not([style*='color']) /* Autocomplete Upload Modal Inner Colors */, .titleText-3X-zRE .channelName-3stJzi /* Channel Name Voice Call */, .uploadArea-3QgLtW .inner-3nWsbo, .uploadArea-3QgLtW .inner-3nWsbo pre /* Upload Area */, .grabber-3mFHz2 .bubble-3we2di /* Audio Slider Grabber Bubble */, .jumpToPresentBar-9P20AM button /* Viewing older messages Button */, .unread-1s3J68 .bar-30k2ka /* Unread Bar, channels wrapper */, .container-3cGP6G .item-2J1YMK /* Chat Edit Menu */{
     color: var(--ColFont)!important;
+}
+
+.nameSpeaking-3UhoEZ, .nameHovered-21k1eo{
+    color: var(--ColAccent);
 }
 
 .actionButtons-1sUUug .text-3ewTZb, .search-results-wrap .action-buttons .jump-button /* Jump Button in Pins and Mentions + Search */{
@@ -20,7 +24,7 @@
    font-weight: 500!important;
 }
 
-.wordmark-2iDDfm path /* Discord Logo */, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Home Guild */, .close-18n9bP svg path.fill /* Close Buttons */, .btn-friends.channel-2fhmY8:not(.selected) svg path:first-child /* Icons for Activity and Friends Channel */{
+.wordmark-2iDDfm path /* Discord Logo */, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Home Guild */, .close-18n9bP svg path.fill /* Close Buttons */, .btn-friends.channel-2fhmY8:not(.selected) svg path:first-child /* Icons for Activity and Friends Channel */, .containerDefault-3GGEv_ svg polygon, .containerDefault-1ZnADq svg path{
     fill: var(--ColFont);
 }
 
@@ -28,7 +32,7 @@
     stroke: var(--ColFont);
 }
 
-.container-2Thooq svg path /* Icons in Username Container */{
+.container-2Thooq svg path /* Icons in Username Container */, .unread-1s3J68 .bar-30k2ka polygon /* Unread Bar SVG */{
     fill: #4f545c;
 }
 
@@ -61,11 +65,11 @@
 
 /* Buttons User Container */
 
-button[style='background-image: url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg");']:not(.iconButton-3V4WS5){
+.container-2Thooq button[style='background-image: url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg");']{
     background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/WhiteMode/mic.svg')!important;
 }
 
-button[style='background-image: url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg");']:not(.iconButton-3V4WS5){
+.container-2Thooq button[style='background-image: url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg");']{
     background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/WhiteMode/micMute.svg')!important;
 }
 
