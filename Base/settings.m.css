@@ -21,6 +21,7 @@
     --INTModGuildsWrapper: '';
     --INTModNewDividerRed: '';
     --INTModNewEditText: '';
+    --INTModTypingOnRight: '';
     --INTModWhiteThemeSupport: '';
     
     /* Emoji */
@@ -63,6 +64,7 @@
     var(--INTModGuildsWrapper)
     var(--INTModNewDividerRed)
     var(--INTModNewEditText)
+    var(--INTModTypingOnRight)
     var(--INTModWhiteThemeSupport) '\A'
     'Emoji\A'
     var(--INTModJumboMoji) '\A'
