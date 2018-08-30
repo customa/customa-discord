@@ -13,26 +13,6 @@
     --Content__EditIcon: url('http://aperiodic.net/phil/tmp/place-mode3.png');
 }
 
-/* WHITE THEME SUPPORT */
-
-:root{
-    --Color__FontColorDarker: #212121;
-    --Color__FontColorDark: #424242;
-    --Color__FontColorBright: #616161;
-}
-
-.esc-text, h2{
-    color: var(--Color__FontColorDarker)!important;
-}
-
-h5{
-    color: var(--Color__FontColorDark)!important;
-}
-
-[class*='desc']{
-    color: var(--Color__FontColorBright)!important;
-}
-
 /* User Container Channel Bar */
 /* .container-2Thooq .accountDetails-3k9g4n, .container-2Thooq .flex-1xMQg5 {
     margin-top: 20px;
