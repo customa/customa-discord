@@ -1,7 +1,7 @@
 :root {
     --ColTooltip: #d81b60; /* Color */
     --INTModTooltip: '\2022  Tooltip ~ zvava (Base \2192  tooltip.m.css)\A'!important;
-    --INTVarTooltip: '\A\A Tooltop - Module\A \2022  --ColTooltip \2192  Allowed Values: Color (pref. #xxxxxx)'!important;
+    --INTVarTooltip: '\A\A Tooltip - Module\A \2022  --ColTooltip \2192  Allowed Values: Color (pref. #xxxxxx)'!important;
 }
 
 .tooltip.tooltip-black /* Tooltips */, .mediaBarWrapper-3D7r67 .bubble-3qRl2J /* Media Time Bubbles */{
