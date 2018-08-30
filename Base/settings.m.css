@@ -29,6 +29,7 @@
     
     /* Misc */
     --INTModAll: '';
+    --INTModiOSToggles: '';
     --INTModSettingsModal: '';
 
     /* Sidebar */
@@ -71,6 +72,7 @@
     var(--INTModJumboMoji) '\A'
     'Misc\A'
     var(--INTModAll)
+    var(--INTModiOSToggles)
     var(--INTModSettingsModal) '\A'
     'Sidebar\A'
     var(--INTModNewPlaying)
