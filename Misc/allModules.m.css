@@ -1,0 +1,48 @@
+:root{
+    --INTModAll: '\2022  All Modules - Customa Devs (Misc \2192  allModules.m.css)\A'!important;
+}
+
+/* Base */
+
+@import url('https://raw.githack.com/Customa/Customa/master/Base/base.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Base/font.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Base/selection.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Base/settings.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Base/tooltips.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Base/updates.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Base/variables.m.css');
+
+/* Chat */
+
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/betterFileTypes.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/channelDivider.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/channelsWrapper.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/codeBlockLanguages.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/displayChannelIcon.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/dualGuilds.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/guildsWrapper.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/newDividerRed.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/newEditText.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/typingOnRight.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/whiteThemeSupport.m.css');
+
+/* Emoji */
+
+@import url('https://raw.githack.com/Customa/Customa/master/Emoji/jumboMoji.m.css');
+
+/* Misc */
+
+@import url('https://raw.githack.com/Customa/Customa/master/Misc/settingsModal.m.css');
+
+/* Sidebar */
+
+@import url('https://raw.githack.com/Customa/Customa/master/Sidebar/newPlaying.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Sidebar/newUserModal.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Sidebar/newUserPopout.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Sidebar/sidebarModifier.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Sidebar/statusCircles.m.css');
+
+/* Webkit */
+
+@import url('https://raw.githack.com/Customa/Customa/master/Webkit/advancedScrollbar.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Webkit/placeholderRemover.m.css');
