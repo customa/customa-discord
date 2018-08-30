@@ -5,9 +5,8 @@
     /* Base */
     --INTModBase: '';
     --INTModFont: '';
-    --INTModRoot: '';
     --INTModSelection: '';
-    --INTModSettings: '\2022  Settings - Customa Devs (Base \2192  settings.m.css)\A';
+    --INTModSettings: '\2022  Settings - Customa Devs (Base \2192  settings.m.css)\A'!important;
     --INTModTooltip: '';
     --INTModUpdate: '';
     --INTModVariables: '';
@@ -18,15 +17,19 @@
     --INTModChannelsWrapper: '';
     --INTModCodeBlockLanguages: '';
     --INTModDisplayChannelIcon: '';
+    --INTModDualGuilds: '';
     --INTModGuildsWrapper: '';
     --INTModNewDividerRed: '';
     --INTModNewEditText: '';
+    --INTModTypingOnRight: '';
+    --INTModWhiteThemeSupport: '';
     
     /* Emoji */
     --INTModJumboMoji: '';
     
     /* Misc */
-    --INTModLoginBGChanger: '';
+    --INTModAll: '';
+    --INTModSettingsModal: '';
 
     /* Sidebar */
     --INTModNewPlaying: '';
@@ -47,7 +50,6 @@
     'Base\A ' 
     var(--INTModBase)
     var(--INTModFont)
-    var(--INTModRoot)
     var(--INTModSelection)
     var(--INTModSettings)
     var(--INTModTooltip)
@@ -59,13 +61,17 @@
     var(--INTModChannelsWrapper)
     var(--INTModCodeBlockLanguages)
     var(--INTModDisplayChannelIcon)
+    var(--INTModDualGuilds)
     var(--INTModGuildsWrapper)
     var(--INTModNewDividerRed)
-    var(--INTModNewEditText) '\A'
+    var(--INTModNewEditText)
+    var(--INTModTypingOnRight)
+    var(--INTModWhiteThemeSupport) '\A'
     'Emoji\A'
     var(--INTModJumboMoji) '\A'
     'Misc\A'
-    var(--INTModLoginBGChanger) '\A'
+    var(--INTModAll)'\A'
+    var(--INTModSettingsModal) '\A'
     'Sidebar\A'
     var(--INTModNewPlaying)
     var(--INTModNewUserModal)

@@ -1,10 +1,10 @@
-/* Current Font Config as of 14th of April 2018 */
+/* Current Font Config as of 30th of August 2018 */
 
 :root{
     --ColTextSelection: rgba(255,255,255,0.2) /* Color, should be rgba */;    
-    --INTModFont: '\2022  Fonts (Emma Config) ~ Customa Devs (Misc \2192  font_emma.m.css)\A';
-    --INTVarFont: '\A\A Font: \A \2022  --Color__TextSelection \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3)) \A \2022  --Font__FontFamily \2192  Allowed Values: Installed Fonts/Webfonts\A (pref. Sans-Serif)\A \2022  --Font__Monospace__FontFamily \2192  Allowed Values: \A Installed Fonts/Webfonts (pref. Monospace)';
-    --FontFamily: 'Comma', 'Noto Bug Fix', 'Noto Blobs', 'Raleway', sans-serif /* Normal Font */;
+    --INTModFont: '\2022  Fonts (Emma Config) ~ Customa Devs (Misc \2192  font_emma.m.css)\A'!important;
+    --INTVarFont: '\A\A Font - Module\A \2022  --ColTextSelection \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3)) \A \2022  --FontFamily \2192  Allowed Values: Installed Fonts/Webfonts\A (pref. Sans-Serif)\A \2022  --FontMonoFamily \2192  Allowed Values: \A Installed Fonts/Webfonts (pref. Monospace)'!important;
+    --FontFamily: 'Noto Bug Fix', 'Noto Blobs', 'Google Sans', sans-serif /* Normal Font */;
     --FontMonoFamily: 'Noto Bug Fix Monospace', 'Noto Blobs', 'Fira Code', 'Fira Mono', monospace /* Monospace Font */;
 }
 
@@ -27,22 +27,17 @@ code /* All Code Blocks */,code * /* All Elements in a Code Block */,code li * /
     background: var(--ColTextSelection)!important;
 }
 
-@font-face{
-    font-family: 'Comma';
-    src: local('Open Sans'), url('https://fonts.googleapis.com/css?family=Open+Sans');
-    unicode-range: U+2A, U+2C, U+2E, U+3A, U+3B, U+5F, U+60, U+B0, U+B4;
-    font-weight: 100;
-}
+@import url('https://fonts.googleapis.com/css?family=Google+Sans:400,500,700,400i,500i,700i');
 
 @font-face{
     font-family: 'Noto Blobs';
-    src: local('Noto Color Emoji');
+    src: url('https://raw.githack.com/Customa/Customa/master/Misc/Noto%20Color%20Emoji.ttf') format('ttf');
     unicode-range: U+A9-1F9E6;
 }
 
 @font-face{
     font-family: 'Noto Bug Fix';
-    src: local('Raleway');
+    src: url('https://fonts.gstatic.com/s/googlesans/v6/4UaErENHsxJlGDuGo1OIlL3L8phULjtH.woff2') format('woff2');
     unicode-range: U+30-39, U+A9, U+AE, U+2122;
 }
 

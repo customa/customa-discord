@@ -1,5 +1,5 @@
 :root{
-    --INTModUpdate: '\2022  Update ~ Customa Devs (Base \2192  update.m.css)\A';
+    --INTModUpdate: '\2022  Update ~ Customa Devs (Base \2192  update.m.css)\A'!important;
 }
 
 #bd-settingspane-container .content-column::before{

@@ -1,5 +1,5 @@
 :root{
-    --INTModNewPlaying: '\2022  New Playing Messages ~ Customa Devs (Sidebar \2192  newPlaying.m.css)\A';
+    --INTModNewPlaying: '\2022  New Playing Messages ~ Customa Devs (Sidebar \2192  newPlaying.m.css)\A'!important;
 }
 
 .channel-activity-text, .friend-activity-text{
