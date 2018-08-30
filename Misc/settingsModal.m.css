@@ -74,6 +74,7 @@
 /* Set Min and Max Width for content */
 .ui-standard-sidebar-view .content-column, .ui-standard-sidebar-view .custom-column{
     min-width: 690px;
+    max-width: 690px;
 }
 .ui-standard-sidebar-view .content-transition-wrap, .ui-standard-sidebar-view .content-region{
     max-width: 740px;
