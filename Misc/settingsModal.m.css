@@ -10,6 +10,7 @@
     height: 80%;
     margin: auto;
     opacity: 0;
+    min-width: 800px!important; 
     background-color: var(--ColBackground1)!important;
 }
 
