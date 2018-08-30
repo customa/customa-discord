@@ -20,9 +20,14 @@
 }
 
 .layer-3QrUeG /* Background of Settings Menu */{
-    background: rgba(0, 0, 0, 0.85)!important;
+    background: transparent;
     opacity: 1!important;
     transform: scale(1)!important;
+    animation: closeBackdraw 400ms;
+}
+.layer-3QrUeG.stop-animations + .layer-3QrUeG /* Animate in Background of layer */{
+    background: rgba(0,0,0,0.85)!important;
+    animation: openBackdraw 400ms;
 }
 
 .ui-standard-sidebar-view .header-2RyJ0Y, .ui-tab-bar-header /* Remove Headers */, #bd-settings-sidebar > span > div:nth-child(2), #bd-settings-sidebar > span > div:nth-child(3) /* Remove Links for BD and BBD */{
@@ -78,10 +83,12 @@
 #user-settings .separator-gCa7yv, .ui-tab-bar-separator{
     width: 30px;
     margin-left: 0!important;
+    background-color: var(--ColAccent)!important;
+    height: 2px!important;
 }
 .separator-gCa7yv{
-    height: 2px!important;
     background-color: var(--ColAccent)!important;
+    height: 2px!important;
 }
 
 /* User Settings Sidebar Settings */
@@ -221,5 +228,19 @@
     }100%{
         transform: scale(0.6);
         opacity: 0;
+    }
+}
+@keyframes openBackdraw{
+    0%{
+        background: transparent;
+    }100%{
+        background: rgba(0,0,0,0.85);
+    }
+}
+@keyframes closeBackdraw{
+    0%{
+        background: rgba(0,0,0,0.85);
+    }100%{
+        background: transparent;
     }
 }
