@@ -1,7 +1,3 @@
-:root{
-    --INTModAll: '\2022  All Modules - Customa Devs (Misc \2192  allModules.m.css)\A'!important;
-}
-
 /* Base */
 
 @import url('https://raw.githack.com/Customa/Customa/master/Base/base.m.css');
@@ -46,3 +42,7 @@
 
 @import url('https://raw.githack.com/Customa/Customa/master/Webkit/advancedScrollbar.m.css');
 @import url('https://raw.githack.com/Customa/Customa/master/Webkit/placeholderRemover.m.css');
+
+:root{
+    --INTModAll: '\2022  All Modules - Customa Devs (Misc \2192  allModules.m.css)\A'!important;
+}
