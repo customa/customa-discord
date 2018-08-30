@@ -15,6 +15,9 @@
     
     /* Emoji */
     --INTVarJumboMoji: '';
+
+    /* Misc */
+    --INTVarSettingsModal: '';
 }
 
 #bd-customcss-attach-controls /* BetterDiscord Custom CSS Editor */{
@@ -37,8 +40,10 @@
     var(--INTVarNewEditText)
     var(--INTVarWhiteThemeSupport)'\A\A\A'
     'EMOJI'
-    var(--INTVarJumboMoji);
-    margin: 2% -0.8%;
+    var(--INTVarJumboMoji)'\A\A\A'
+    'MISC'
+    var(--INTVarSettingsModal);
+    margin: 1.5% -0.8%;
     border-radius: 0 0 15px 15px;
     padding: 3%;
     text-align: center;

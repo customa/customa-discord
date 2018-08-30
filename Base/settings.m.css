@@ -27,7 +27,7 @@
     --INTModJumboMoji: '';
     
     /* Misc */
-    --INTModLoginBGChanger: '';
+    --INTModSettingsModal: '';
 
     /* Sidebar */
     --INTModNewPlaying: '';
@@ -67,7 +67,7 @@
     'Emoji\A'
     var(--INTModJumboMoji) '\A'
     'Misc\A'
-    var(--INTModLoginBGChanger) '\A'
+    var(--INTModSettingsModal) '\A'
     'Sidebar\A'
     var(--INTModNewPlaying)
     var(--INTModNewUserModal)
