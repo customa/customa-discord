@@ -28,6 +28,7 @@
     --INTModJumboMoji: '';
     
     /* Misc */
+    --INTModAll: '';
     --INTModSettingsModal: '';
 
     /* Sidebar */
@@ -69,6 +70,7 @@
     'Emoji\A'
     var(--INTModJumboMoji) '\A'
     'Misc\A'
+    var(--INTModAll)'\A'
     var(--INTModSettingsModal) '\A'
     'Sidebar\A'
     var(--INTModNewPlaying)
