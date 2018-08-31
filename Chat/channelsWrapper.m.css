@@ -55,7 +55,7 @@
 }
 
 .channels-Ie2l6A .content-20Aix8.contentSelectedText-3wUhMi, .channels-Ie2l6A .private-channels .channel-2fhmY8.private.selected a{
-    background-color: #D81B60!important;
+    background-color: var(--ColAccent)!important;
 }
 
 .channels-Ie2l6A:hover .content-20Aix8.contentSelectedText-3wUhMi, .channels-Ie2l6A:hover .private-channels .channel-2fhmY8.private.selected a{
