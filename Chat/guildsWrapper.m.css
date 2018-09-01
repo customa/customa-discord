@@ -58,6 +58,7 @@
     width: 5px;
     height: 5px;
     left: -13px;
+    top: 55%;
 }
 
 .guilds-1q_RqH > .guild-1EfMGQ.selected-ML3OIq::before, .guilds-1q_RqH > .guild-1EfMGQ.selected-ML3OIq.unread-1Dp-OI::before /* Selected Guild Indicator */{
@@ -76,7 +77,7 @@
     box-shadow: none;
 }
 
-.guild-1EfMGQ a div, .guild-1EfMGQ .guildInner-3DSoA4 a /* Reset Border Radius */{
+.guild-1EfMGQ a div, .guild-1EfMGQ .guildInner-3DSoA4 a, .guild-1EfMGQ .guildInner-3DSoA4 /* Reset Border Radius */{
     border-radius: 25px!important;
 }
 
