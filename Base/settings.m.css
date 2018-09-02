@@ -83,14 +83,13 @@
     'Webkit\A'
     var(--INTModAdvancedScrollbar)
     var(--INTModPlaceholderRemover);
-    margin-top: 2%;
+    margin-top: -2px;
     white-space: pre;
     display: block;
-    background-color: var(--ColAccent);
+    background-color: var(--ColBackground1);
     margin-bottom: 2%;
     padding: 3%;
     text-align: center;
     line-height: 1.1;
     color: white;
-    border-radius: 5px;
 }
