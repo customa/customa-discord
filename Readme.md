@@ -23,22 +23,22 @@ I played with the thought of adding more variables and background support for qu
 Around that time I started writing on Discord Plugins as well, so I tried to combine both plugin and theme development into one, this was also the first version which used modules. From this version on the theme hasn't changed dramatically from either the inside or outside. The newest rewrite in fact is very close to this one, more to this later. But some poor development, little time and more obfuscation lead to me dropping the project yet again.
 
 #### The third rewrite / The [class*=]-Mess ~ January/February 2018:
-In the holiday season I rewrote the entire theme yet again, this time using [class*=] - Statements, making the theme 'Future'-proof. What I didn't know: The selector is slow...very slow. My theme sometimes needed MINUTES to start, some modules didn't load at all, random buttons got selected and in the end I couldn't read anything anymore as [class*='container'] doesn't tell you that much. The theme still works for the most part and is the last one which is still on GitHub to this day (currently in the master branch, but it will be moved to some 'legacy' branch later on). 
+In the holiday season I rewrote the entire theme yet again, this time using [class*=] - Statements, making the theme 'Future'-proof. What I didn't know: The selector is slow...very slow. My theme sometimes needed MINUTES to start, some modules didn't load at all, random buttons got selected and in the end I couldn't read anything anymore as [class*='container'] doesn't tell you that much. The theme still works for the most part and is the last one which is still on GitHub to this day (legacy branch). 
 
 #### The fourth rewrite / The current version - August 2018:
-More than a year after the original version was released I had to fix all the problems of the last version. With the release of scripts that update the obfuscation in your theme, I sat down and started writing yet another rewrite. This time with better variable names and a much, much better code layout. I finally got around creating a Discord Server where I can keep track of all the changes and I got myself to comment all of my code. Despite slowing down development drastically, it made code much more readable and futureproof, even if I personally lose interest in creating themes.
+More than a year after the original version was released I had to fix all the problems of the last version. With the release of scripts that update the obfuscation in your theme, I sat down and started writing yet another rewrite. This time with better variable names and a much, much better code layout. I finally got around creating a Discord Server where I can keep track of all the changes and I got myself to comment all of my code, despite slowing down development drastically, it made code much more readable and futureproof, even if I personally lose interest in creating themes.
 
 ### 3. Info:
 
 #### Who is working on the theme?
-Currently I am the only person working on this project but I am thinking about moving to a project account to allow for better workflow. You are free to fork the project, work on your own version but I also accept pull requests as regularly as I can. Customa is for the Community, but also with the Community.
+Customa is built by a team of 4-5 people, who all work their part on this theme!
 
 #### What do I need for it to run?
 * Some Discord-CSS injection tool
 * The Custom CSS Section of BetterDiscord or the possibility to load CSS Code in any other injector
 
 #### How does the module system work?
-Despite a strict requirement for the Base and Root Module on my website, the theme can also be used without these modules, it is heavily recommended though. Modules like the Settings and Variables Module cannot be used without the Root Module. It is also not tested if all the modules work/look properly without the Base Module or even with a completely different theme. 
+Despite a strict requirement for the Base Module on the old website, the theme can also be used without these modules, it is heavily recommended though. ~~Modules like the Settings and Variables Module cannot be used without the Root Module.~~ **Fixed with the newest rewrite**; It is also not tested if all the modules work/look properly without the Base Module or even with a completely different theme. 
 
 #### Installation: 
 * For the theme creation, I can recommend the **[Customa Theme Generator](https://ghostlydilemma.github.io/Discord-Tools/?gen=customaGenerator)**, which can be found on my website. There you find a list of all current modules.
