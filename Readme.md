@@ -76,20 +76,21 @@ You either look up the Readme Files in the seperate folders or use the variables
 All of this theme wouldn't have been possible without the help of all following people.
 
 * The entire Rainmeter Discord, especially the following people:
-    * zvava
-    * Chinakomba
-    * anf
-    * Eldog
+    * zvava - For making me laugh at your dumb pull request messages and a ton of help on the theme...4 eyes see more then 2! <3
+    * Chinakomba - Who's been helping a lot during the rewrite!
+    * anf - Who fixed the naughtiest bug ever and helped me fix the following ones myself
+    * Eldog - who's been supporting the theme since square 1 <3
 * BetterDiscord
-* Beard's Material     
+* Beard's Material   
+* Twitch Icon: Icon made by [Pixel perfect](https://icon54.com) from www.flaticon.com 
 
 ### 5. Current Progress
 
 I created a point system for myself in order to keep track of which modules need more care or need some redo all together. An old, buggy module gets a 0 (also modules which I haven't looked at yet, but might actually work), a module which I started working on but is not quite ready yet gets a 0.5, a finished module gets a 1.
 
-Currently the project has **22.5 points**
+Currently the project has **23.5 points**
 
-Possible are **27 points**
+Possible are **26 points**
 
 Detailed listing of the project status (eg.: where it falls short at the moment):
 #### Base Package
@@ -98,14 +99,13 @@ Detailed listing of the project status (eg.: where it falls short at the moment)
 * The Selection Module is fully implemented (**1 point**)
 * The Settings Module is fully implemented (**1 point**)
 * The Tooltip Module is fully implemented (**1 point**)
-* The Updates Module is not yet implemented (**0 points**)
 * The Variables Module is fully implemented (**1 point**)<br/>
-= 6/7
+= 6/6
 #### Chat Package
 * The Better Filetypes Module is fully implemented (**1 point**)
 * The Channel Divider Module is fully implemented (**1 point**)
 * The Channels Wrapper Module is fully implemented (**1 point**)
-* The Code Block Languages Module is not yet implemented (**0 points**)
+* The Code Block Languages Module is not yet implemented (**1 points**)
 * The Display Channel Icons Module is fully implemented (**1 point**)
 * The Dual Guilds Module is not yet fully implemented (**0.5 points**)
 * The Guilds Wrapper Module is fully implemented (**1 point**)
@@ -113,7 +113,7 @@ Detailed listing of the project status (eg.: where it falls short at the moment)
 * The New Edit Text Module is fully implemented (**1 point**)
 * The New Edit Icon Module is not yet implemented (**0 points**)
 * The White Theme Support Module is fully implemented (**1 point**)<br/>
-= 8.5/11
+= 9.5/11
 #### Emoji Package
 * The Jumbo Moji Module is fully implemented (**1 point**)
 * The Blobs Replacement Module is not yet implemented (**0 points**)<br/>
@@ -129,3 +129,7 @@ Detailed listing of the project status (eg.: where it falls short at the moment)
 * The Advanced Scrollbar Module is fully implemented (**1 point**)
 * The Placeholdler Remover Module is fully implemented (**1 point**)<br/>
 = 2/2
+
+### 6. Discord
+
+[Join here!](http://discord.io/Customa)
