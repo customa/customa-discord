@@ -9,7 +9,7 @@
 }
 
 .channels-Ie2l6A .container-2Thooq /* User Container */{
-    padding-left: 6px;
+    padding-left: 8px;
 }
 
 #friends, .activityFeed-28jde9, .gameLibrary-TTDw4Y /* Higher Index to Overlay the icons in the User Container */{
@@ -26,12 +26,12 @@
     transition: 200ms width;
 }
 
-.channels-Ie2l6A .content-20Aix8 .name-3M0b8v /* Channel Name */, .channels-Ie2l6A .content-20Aix8 .flex-1xMQg5 /* Channel Icons */, .channels-Ie2l6A .containerDefault-3GGEv_ /* Category Divider */, .channels-Ie2l6A .header-2o-2hj .name-3YKhmS /* Server Name */, .channels-Ie2l6A .privateChannels-1nO12o .search-bar-inner /* Search Bar Inner in Private Channel */, .channels-Ie2l6A .private-channels header /* Direct Messages "String" */, .unread-1s3J68 /* Unread Indicator for Channels */, .channels-Ie2l6A .avatarContainer-72bSfM /*  Voice Call avatar container */, .channels-Ie2l6A .header-2o-2hj svg /* Open Server Popout SVG */ {
+.channels-Ie2l6A .content-20Aix8 .name-3M0b8v /* Channel Name */, .channels-Ie2l6A .content-20Aix8 .flex-1xMQg5 /* Channel Icons */, .channels-Ie2l6A .containerDefault-3GGEv_ /* Category Divider */, .channels-Ie2l6A .header-2o-2hj .name-3YKhmS /* Server Name */, .channels-Ie2l6A .privateChannels-1nO12o .search-bar-inner /* Search Bar Inner in Private Channel */, .channels-Ie2l6A .privateChannels-1nO12o header /* Direct Messages "String" */, .unread-1s3J68 /* Unread Indicator for Channels */, .channels-Ie2l6A .avatarContainer-72bSfM /*  Voice Call avatar container */, .channels-Ie2l6A .header-2o-2hj svg /* Open Server Popout SVG */ {
     opacity: 0;
     transition: opacity 200ms;
 }
 
-.channels-Ie2l6A:hover .content-20Aix8.contentSelectedText-3wUhMi, .channels-Ie2l6A:hover .private-channels .channel-2fhmY8.private.selected a /* Channel Backgrounds */{
+.channels-Ie2l6A:hover .content-20Aix8.contentSelectedText-3wUhMi, .channels-Ie2l6A:hover .privateChannels-1nO12o .channel-2QD9_O.private.selected a /* Channel Backgrounds */{
     background-color: rgba(0,0,0,0.2)!important;
 }
 
@@ -43,7 +43,7 @@
     transition: all 200ms;
 }
 
-.channels-Ie2l6A .channel-2fhmY8 a /* Private Channel */{
+.channels-Ie2l6A .channel-2QD9_O a /* Private Channel */{
     width: 100px!important;
     margin-left: 0;
     padding: 0 6px;
@@ -56,11 +56,11 @@
     width: 240px;
 }
 
-.channels-Ie2l6A:hover .content-20Aix8 .name-3M0b8v /* Channel Name */, .channels-Ie2l6A:hover .content-20Aix8 .flex-1xMQg5 /* Channel Icons */, .channels-Ie2l6A:hover .containerDefault-3GGEv_ /* Category Divider */, .channels-Ie2l6A:hover .header-2o-2hj .name-3YKhmS /* Server Name */, .channels-Ie2l6A:hover .privateChannels-1nO12o .search-bar-inner /* Search Bar Inner in Private Channel */, .channels-Ie2l6A:hover .private-channels header /* Direct Messages "String" */, .channels-Ie2l6A:hover .unread-1s3J68 /* Unread Indicator for Channels */, .channels-Ie2l6A:hover .avatarContainer-72bSfM /*  Voice Call avatar container */, .channels-Ie2l6A:hover .header-2o-2hj svg /* Hover Effect for Server Popout Open SVG */{
+.channels-Ie2l6A:hover .content-20Aix8 .name-3M0b8v /* Channel Name */, .channels-Ie2l6A:hover .content-20Aix8 .flex-1xMQg5 /* Channel Icons */, .channels-Ie2l6A:hover .containerDefault-3GGEv_ /* Category Divider */, .channels-Ie2l6A:hover .header-2o-2hj .name-3YKhmS /* Server Name */, .channels-Ie2l6A:hover .privateChannels-1nO12o .search-bar-inner /* Search Bar Inner in Private Channel */, .channels-Ie2l6A:hover .privateChannels-1nO12o header /* Direct Messages "String" */, .channels-Ie2l6A:hover .unread-1s3J68 /* Unread Indicator for Channels */, .channels-Ie2l6A:hover .avatarContainer-72bSfM /*  Voice Call avatar container */, .channels-Ie2l6A:hover .header-2o-2hj svg /* Hover Effect for Server Popout Open SVG */{
     opacity: 1;
 }
 
-.channels-Ie2l6A .content-20Aix8.contentSelectedText-3wUhMi, .channels-Ie2l6A .private-channels .channel-2fhmY8.private.selected a /* Channel Backgrounds */{
+.channels-Ie2l6A .content-20Aix8.contentSelectedText-3wUhMi, .channels-Ie2l6A .privateChannels-1nO12o .channel-2QD9_O.private.selected a /* Channel Backgrounds */{
     background-color: var(--ColAccent)!important;
 }
 
@@ -71,7 +71,7 @@
     border-radius: 3px;
 }
 
-.channels-Ie2l6A:hover .channel-2fhmY8 a /* Private Channel */{
+.channels-Ie2l6A:hover .channel-2QD9_O a /* Private Channel */{
     width: 225px!important;
     margin-left: 8px;
     padding: 0 8px;
