@@ -1,17 +1,3 @@
-/* .edited{
-    visibility: hidden;
-    margin-left: -30px!important;
-}
-
-.edited::after{
-    content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/edit_white.svg')!important;
-    visibility: visible;
-} */
-
-:root{
-    --Content__Module__NewEditIcon: '';
-    --Content__EditIcon: url('http://aperiodic.net/phil/tmp/place-mode3.png');
-}
 
 /* User Container Channel Bar */
 /* .container-2Thooq .accountDetails-3k9g4n, .container-2Thooq .flex-1xMQg5 {
