@@ -20,6 +20,7 @@
     --INTModDualGuilds: '';
     --INTModGuildsWrapper: '';
     --INTModNewDividerRed: '';
+    --INTModNewEditIcon: '';
     --INTModNewEditText: '';
     --INTModTypingOnRight: '';
     --INTModWhiteThemeSupport: '';
@@ -65,6 +66,7 @@
     var(--INTModDualGuilds)
     var(--INTModGuildsWrapper)
     var(--INTModNewDividerRed)
+    var(--INTModNewEditIcon)
     var(--INTModNewEditText)
     var(--INTModTypingOnRight)
     var(--INTModWhiteThemeSupport) '\A'
