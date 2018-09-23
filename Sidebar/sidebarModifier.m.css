@@ -1,10 +1,12 @@
 :root{
     --INTModSidebarMods: '\2022  SidebarMods ~ Customa Devs (Sidebar \2192  sidebarModifier.m.css)\A'!important;
+    --INTVarSidebarMods: '\A\A Sidebar Mods - Module\A \2022  --WidthSidebarMin \2192  Allowed Values: XYpx (pref. 20px)'!important;
+    --WidthSidebarMin: 20px;
 }
 
 .membersWrap-2h-GB4{
     width: 20px!important;
-    min-width: 20px;
+    min-width: var(--WidthSidebarMin);
     transition: width 200ms;
 }
 
