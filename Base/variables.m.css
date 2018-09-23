@@ -10,6 +10,7 @@
     /* Chat */
     --INTVarDisplayChannelIcon: '';
     --INTVarGuildsWrapper: '';
+    --INTVarNewEditIcon: '';
     --INTVarNewEditText: '';
     --INTVarWhiteThemeSupport: '';
     
@@ -40,6 +41,7 @@
     'CHAT'
     var(--INTVarDisplayChannelIcon)
     var(--INTVarGuildsWrapper)
+    var(--INTVarNewEditIcon)
     var(--INTVarNewEditText)
     var(--INTVarWhiteThemeSupport)'\A\A\A'
     'EMOJI'
