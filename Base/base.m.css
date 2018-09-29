@@ -253,7 +253,7 @@ Color & Text - Align
     color: var(--ColAccent)!important;
 }
 
-.anchor-3Z-8Bb, .anchor-3Z-8Bb.embedTitleLink-1Zla9e, #bd-settings-sidebar a /* <a> fixes */ {
+.anchor-3Z-8Bb, .anchor-3Z-8Bb.embedTitleLink-1Zla9e, #bd-settings-sidebar a, .filenameLinkWrapper-1-14c5 /* <a> fixes */ {
     color: var(--ColAnchor)!important;
 }
 
