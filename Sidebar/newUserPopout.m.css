@@ -2,7 +2,7 @@
     --INTModNewUserPopout: '\2022  New User Popout ~ Customa Devs (Sidebar \2192  newUserPopout.m.css)\A'!important;
 }
 
-.userPopout-3XzG_A .avatarWrapper-3H_478 .avatarStatus-3Ay1VL {
+.userPopout-3XzG_A .avatarWrapper-3H_478 .avatarStatus-3Ay1VL /* "Background" Avatar Status */{
     visibility: visible!important;
     z-index: -1!important;
     border-radius: 0!important;
@@ -15,19 +15,19 @@
     -webkit-filter: brightness(90%)!important;
 }
 
-.userPopout-3XzG_A .activity-11LB_k{
+.userPopout-3XzG_A .activity-11LB_k /* Activity (Rich presence) */{
     background: none!important
 }
 
-.userPopout-3XzG_A  .headerStreaming-2FjmGz{
+.userPopout-3XzG_A  .headerStreaming-2FjmGz /* Color for streaming header */{
     background-color: #593695!important;
     box-shadow: none;
 }
 
-.userPopout-3XzG_A .headerStreaming-2FjmGz .button-1Pkqso.button-38aScr.lookOutlined-3sRXeN.colorWhite-rEQuAQ.sizeSmall-2cSMqn.grow-q77ONN{
+.userPopout-3XzG_A .headerStreaming-2FjmGz .button-1Pkqso.button-38aScr.lookOutlined-3sRXeN.colorWhite-rEQuAQ.sizeSmall-2cSMqn.grow-q77ONN /* Header Streaming Button to join stream */{
     background-color: rgba(0, 0, 0, .2)!important;
 }
 
-.userPopout-3XzG_A .body-3iLsc4{
+.userPopout-3XzG_A .body-3iLsc4, .userPopout-3XzG_A .footer-1fjuF6 /* User Popout Body and Footer Color Fix */{
     background-color: var(--ColBackground1)!important;
 }
