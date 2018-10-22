@@ -4,7 +4,7 @@
     --DisplayNoDoubleBorderRadius: block;
 }
 
-.ui-standard-sidebar-view /* Settings Menu */{
+.standardSidebarView-3F1I7i /* Settings Menu */{
     animation: closeSettings 400ms cubic-bezier(.68,-0.55,.27,1.55);
     width: 40%;
     height: 80%;
@@ -14,7 +14,7 @@
     background-color: var(--ColBackground1)!important;
 }
 
-.layer-3QrUeG.stop-animations + .layer-3QrUeG .ui-standard-sidebar-view /* Settings Menu Fix for Closing */{
+.layer-3QrUeG.stop-animations + .layer-3QrUeG .standardSidebarView-3F1I7i /* Settings Menu Fix for Closing */{
     animation: openSettings 400ms cubic-bezier(.68,-0.55,.27,1.55);
     opacity: 1;
 }
@@ -30,34 +30,34 @@
     animation: openBackdraw 400ms;
 }
 
-.ui-standard-sidebar-view .header-2RyJ0Y, .ui-tab-bar-header /* Remove Headers */, #bd-settings-sidebar > span > div:nth-child(2), #bd-settings-sidebar > span > div:nth-child(3) /* Remove Links for BD and BBD */{
+.standardSidebarView-3F1I7i .header-2RyJ0Y, .ui-tab-bar-header /* Remove Headers */, #bd-settings-sidebar > span > div:nth-child(2), #bd-settings-sidebar > span > div:nth-child(3) /* Remove Links for BD and BBD */{
     display: none;
 }
 
 /* Padding Fixes for all major regions of the Settings Menu */
-.sidebar-region .sidebar{
+.sidebarRegion-VFTUkN .sidebar-CFHs9e{
     padding-bottom: 15px!important;
     padding-top: 20px!important;
 }
-.layer-3QrUeG:not(#user-settings) .sidebar-region .sidebar{
+.layer-3QrUeG:not(#user-settings) .sidebarRegion-VFTUkN .sidebar-CFHs9e{
     padding-left: 11px;
 }
-.content-region .content-column{
+.contentRegion-3nDuYy .contentColumn-2hrIYH{
     padding-left: 15px!important;
     padding-right: 15px!important;
     padding-top: 20px!important;
 }
-.tools-container{
+.toolsContainer-1edPuj{
     padding-top: 8px!important;
 }
 
 /* Border Radius Fixes */
-.ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view, .ui-standard-sidebar-view .content-region{
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN, .standardSidebarView-3F1I7i, .standardSidebarView-3F1I7i .contentRegion-3nDuYy{
     border-radius: 15px!important;
 }
 
 /* Hide the double border Radius */
-.ui-standard-sidebar-view .content-region::before, .ui-standard-sidebar-view .content-region::after{
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy::before, .standardSidebarView-3F1I7i .contentRegion-3nDuYy::after{
     content: 'e';
     color: transparent;
     display: var(--DisplayNoDoubleBorderRadius)!important;
@@ -67,16 +67,16 @@
     left: 0;
     position: absolute;
 }
-.ui-standard-sidebar-view .content-region::after{
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy::after{
     bottom: 0;
 }
 
 /* Set Min and Max Width for content */
-.ui-standard-sidebar-view .content-column, .ui-standard-sidebar-view .custom-column{
+.standardSidebarView-3F1I7i .contentColumn-2hrIYH, .standardSidebarView-3F1I7i .custom-column{
     min-width: 690px;
     max-width: 690px;
 }
-.ui-standard-sidebar-view .content-transition-wrap, .ui-standard-sidebar-view .content-region{
+.standardSidebarView-3F1I7i .contentTransitionWrap-3hqOEW, .standardSidebarView-3F1I7i .contentRegion-3nDuYy, #bd-settingspane-container .contentRegionScrollerWrap-3YZXdm {
     max-width: 740px;
 }
 
@@ -93,10 +93,10 @@
 }
 
 /* User Settings Sidebar Settings */
-#user-settings .ui-standard-sidebar-view .sidebar-region{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN{
     max-width: 56px!important;
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div:not(.separator-gCa7yv):not(.ui-tab-bar-separator){
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div:not(.separator-gCa7yv):not(.ui-tab-bar-separator){
     color: transparent!important;
     padding-left: 3px;
     padding-right: 3px;
@@ -104,7 +104,7 @@
     padding-top: 3px;
     width: 30px;
 }
-#user-settings .side-8zPYf6, #user-settings .sidebar-region .scrollerWrap-2lJEkd{
+#user-settings .side-8zPYf6, #user-settings .sidebarRegion-VFTUkN .scrollerWrap-2lJEkd{
     max-width: 56px;
     padding-right: 63px!important;
 }
@@ -119,77 +119,77 @@
     margin-left: 0;
     margin-top: -8px!important;
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div::before{
     -webkit-filter: invert(100%)!important;
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(2):not(.ui-tab-bar-header):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(2):not(.ui-tab-bar-header):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S1Account.svg');
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(3):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(3):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S2Security.svg');
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(4):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(4):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S3Apps.svg');
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(5):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(5):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S4Connections.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(6):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(6):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S5Payment.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(8):not(.ui-tab-bar-item):not([style*='font-size']){
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(8):not(.ui-tab-bar-item):not([style*='font-size']){
     height: 30px!important;
     padding-top: 6px!important;
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(8):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(8):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S6Nitro.svg');
     display: block;
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(9):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(9):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S7Hypesquad.svg');
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(12):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(12):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S8Voice.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(13):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(13):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S9Overlay.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(14):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(14):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S10Notifications.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(15):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(15):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S11Keybinds.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(16):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(16):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S12Games.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(17):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(17):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S13TextImage.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(18):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(18):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S14Appearance.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(19):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(19):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S15Twitch.svg');
     width: 20px!important;
     height: 20px!important;
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(20):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(20):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S16Language.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(21):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(21):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S17OSSettings.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(23):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(23):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S18Changelog.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(24):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(24):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S19BDExperiments.svg');   
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div.item-PXvHYJ:nth-child(25):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(25):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S20BDDev.svg');
 }
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 > div:nth-last-child(3)::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 > div:nth-last-child(3)::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S21Logoff.svg')!important;
 }
 #bd-settings-sidebar > span > div .ui-tab-bar-item{
