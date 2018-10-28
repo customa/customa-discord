@@ -164,29 +164,32 @@
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S12Games.svg');   
 }
 #user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(17):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S13TextImage.svg');   
+    content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S12_2GamesLibrary.svg');   
 }
 #user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(18):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S14Appearance.svg');   
+    content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S13TextImage.svg');   
 }
 #user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(19):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+    content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S14Appearance.svg');   
+}
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(20):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S15Twitch.svg');
     width: 20px!important;
     height: 20px!important;
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(20):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(21):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S16Language.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(21):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(22):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S17OSSettings.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(23):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(24):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S18Changelog.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(24):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(25):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S19BDExperiments.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(25):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(26):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S20BDDev.svg');
 }
 #user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 > div:nth-last-child(3)::before{
