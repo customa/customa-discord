@@ -36,19 +36,19 @@ In about 1 year and 2 months I rewrote the entire theme 4 times.
 ## 2. Versions
 
 ### Original - June 2017:
-The original version had little to no customizability and a horrible, horrible code design. I wrote it mostly for myself but created a style a lot of people liked, the main parts of the theme still look the same, but have been tweaked to look even better. Back when I first created the theme, I overwrote every class with some color of mine, which resulted in a very poor support for background images, someone asked me to create support for images which lead to:
+The original version had little to no customizability and horrible, horrible code design. I wrote it mostly for myself but created a style a lot of people liked, the main parts of the theme still look the same, but have been tweaked to look even better. Back when I first created the theme, I overwrote every class with some color of mine, which resulted in a very poor support for background images, someone asked me to create support for images which lead to:
 
 ### The First Rewrite - August 2017:
-I played with the thought of adding more variables and background support for quite a while, but my code was a complete mess. I recreated the theme in just about a week and finally also had support for background images. I also tried to reuse certain elements in a better way and ended up with a very clean and fast theme. As the new school year started, Discord kept adding more and more obfuscated selectors, which made the theme break more and more after time. Because of the now starting school year I had no chance of spending the time in working on a fix (let alone did my messy code allow for any of that).
+I had been playing with the thought of adding more variables and background support for quite a while, but my code was a complete mess. I recreated the theme in just about a week and finally also had support for background images. I also tried to reuse certain elements in a better way and ended up with a very clean and fast theme. As the new school year started, Discord kept adding more and more obfuscated selectors, which made the theme break more and more after time. Because of the now starting school year I had no chance of spending the time in working on a fix (let alone did my messy code allow for any of that).
 
 ### The Second Rewrite ~ November 2017:
-Around that time I started writing on Discord Plugins as well, so I tried to combine both plugin and theme development into one, this was also the first version which used modules. From this version on the theme hasn't changed dramatically from either the inside or outside. The newest rewrite in fact is very close to this one, more to this later. But some poor development, little time and more obfuscation lead to me dropping the project yet again.
+Around that time I started writing Discord Plugins as well, so I tried to combine both plugin and theme development into one, this was also the first version which used modules. From this version on the theme hasn't changed dramatically from neither the inside nor outside. The newest rewrite in fact is very close to this one, more to this later. But some poor development, little time and more obfuscation lead to me dropping the project yet again.
 
 ### The Third Rewrite / The [class*=]-Mess ~ January/February 2018:
-In the holiday season I rewrote the entire theme yet again, this time using [class*=] - Statements, making the theme 'Future'-proof. What I didn't know: The selector is slow...very slow. My theme sometimes needed MINUTES to start, some modules didn't load at all, random buttons got selected and in the end I couldn't read anything anymore as [class*='container'] doesn't tell you that much. The theme still works for the most part and is the last one which is still on GitHub to this day (legacy branch). 
+In the holiday season I rewrote the entire theme yet again, this time using [class*=]-Statements, making the theme 'future'-proof. What I didn't know: The selector is slow - very slow. My theme sometimes needed minutes to start, some modules didn't load at all, random buttons got selected and in the end I couldn't read anything anymore as [class*='container'] doesn't tell you that much. The theme still works for the most part and is the last one which is still on GitHub to this day (legacy branch). 
 
 ### The Fourth Rewrite / The Current Version - August 2018:
-More than a year after the original version was released I had to fix all the problems of the last version. With the release of scripts that update the obfuscation in your theme, I sat down and started writing yet another rewrite. This time with better variable names and a much, much better code layout. I finally got around creating a Discord Server where I can keep track of all the changes and I got myself to comment all of my code, despite slowing down development drastically, it made code much more readable and futureproof, even if I personally lose interest in creating themes.
+More than a year after the original version was released I had to fix all the problems of the last version. With the release of scripts that update the obfuscated classnames in your theme according to the newest Discord update, I sat down and started yet another rewrite. This time with better variable names and a much, much better structure. I finally got around creating a Discord Server where I can keep track of all the changes and I got myself to comment all of my code, despite slowing down development drastically, it made code much more readable and futureproof, even if I personally lose interest in creating themes.
 
 ## 3. Info
 
@@ -102,16 +102,16 @@ All of this theme wouldn't have been possible without the help of all following 
     * anf - Who fixed the naughtiest bug ever and helped me fix the following ones myself
     * Eldog - Who's been supporting the theme since square 1 <3
 * BetterDiscord
-* Beard's Material   
+* Beard's Material Theme and obviously Beard Design himself [Github](https://github.com/BeardDesign1), [Website](http://www.beard-design.com/)
 * Twitch Icon: Icon made by [Pixel Perfect](https://icon54.com) from [flaticon](https://flaticon.com)
 
 ## 5. Current Progress
 
-I created a point system for myself in order to keep track of which modules need more care or need some redo all together. An old, buggy module gets a 0 (also modules which I haven't looked at yet, but might actually work), a module which I started working on but is not quite ready yet gets a 0.5, a finished module gets a 1.
+I created a scoring system for myself in order to keep track of which modules need more care or need some redo all together. An old, buggy module gets a 0 (also modules which I haven't looked at yet, but might actually work), a module which I started working on but is not quite ready yet gets a 0.5, a finished module gets a 1.
 
-Currently the project has **23.5 points**
+Currently the project has **27.5 points**
 
-Possible are **26 points**
+Possible are **29 points**
 
 Detailed listing of the project status (eg. where it falls short at the moment):
 
@@ -134,9 +134,9 @@ Detailed listing of the project status (eg. where it falls short at the moment):
 * The Guilds Wrapper Module is fully implemented (**1 point**)
 * The New Divider Red Module is fully implemented (**1 point**)
 * The New Edit Text Module is fully implemented (**1 point**)
-* The New Edit Icon Module is not yet implemented (**0 points**)
+* The New Edit Icon Module is not yet implemented (**1 points**)
 * The White Theme Support Module is fully implemented (**1 point**)<br/>
-= 9.5/11
+= 10.5/11
 
 ### Emoji Package
 * The Jumbo Moji Module is fully implemented (**1 point**)
@@ -155,6 +155,12 @@ Detailed listing of the project status (eg. where it falls short at the moment):
 * The Advanced Scrollbar Module is fully implemented (**1 point**)
 * The Placeholdler Remover Module is fully implemented (**1 point**)<br/>
 = 2/2
+
+### Misc Package (Others)
+* All Modules Module is fully implemented (**1 point**)
+* iOS Toggles Module is fully implemented (**1 point**)
+* Settings Module is fully implemented (**1 point**)<br/>
+= 3/3
 
 ## 6. Support/Community Discord
 
