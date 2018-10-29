@@ -1,5 +1,7 @@
 /* Current Font Config as of 30th of August 2018 */
 
+@import url('https://fonts.googleapis.com/css?family=Google+Sans:400,500,700,400i,500i,700i');
+
 :root{
     --ColTextSelection: rgba(255,255,255,0.2) /* Color, should be rgba */;    
     --INTModFont: '\2022  Fonts (Emma Config) ~ Customa Devs (Misc \2192  font_emma.m.css)\A'!important;
@@ -26,8 +28,6 @@ code /* All Code Blocks */,code * /* All Elements in a Code Block */,code li * /
 *::selection{
     background: var(--ColTextSelection)!important;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Google+Sans:400,500,700,400i,500i,700i');
 
 @font-face{
     font-family: 'Noto Blobs';
