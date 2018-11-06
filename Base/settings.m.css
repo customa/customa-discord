@@ -1,5 +1,5 @@
 :root{
-
+    
     /* DO NOT EDIT */
     
     /* Base */
@@ -8,7 +8,6 @@
     --INTModSelection: '';
     --INTModSettings: '\2022  Settings - Customa Devs (Base \2192  settings.m.css)\A'!important;
     --INTModTooltip: '';
-    --INTModUpdate: '';
     --INTModVariables: '';
 
     /* Chat */
@@ -17,7 +16,6 @@
     --INTModChannelsWrapper: '';
     --INTModCodeBlockLanguages: '';
     --INTModDisplayChannelIcon: '';
-    --INTModDualGuilds: '';
     --INTModEmbedsModernized: '';
     --INTModGuildsWrapper: '';
     --INTModNewDividerRed: '';
@@ -32,6 +30,7 @@
     /* Misc */
     --INTModAll: '';
     --INTModiOSToggles: '';
+    --INTModRainbow: '';
     --INTModSettingsModal: '';
 
     /* Sidebar */
@@ -44,8 +43,8 @@
     /* Webkit */
     --INTModAdvancedScrollbar: '';
     --INTModPlaceholderRemover: '';
+    
 }
-
 
 .userSettingsAccount-2eMFVR::after{
     content: 'Customa - Settings\A\A' 
@@ -56,7 +55,6 @@
     var(--INTModSelection)
     var(--INTModSettings)
     var(--INTModTooltip)
-    var(--INTModUpdate)
     var(--INTModVariables) '\A'
     'Chat\A'
     var(--INTModBetterFileTypes)
@@ -64,7 +62,7 @@
     var(--INTModChannelsWrapper)
     var(--INTModCodeBlockLanguages)
     var(--INTModDisplayChannelIcon)
-    var(--INTModDualGuilds)
+    var(--INTModEmbedsModernized)
     var(--INTModGuildsWrapper)
     var(--INTModNewDividerRed)
     var(--INTModNewEditIcon)
@@ -76,6 +74,7 @@
     'Misc\A'
     var(--INTModAll)
     var(--INTModiOSToggles)
+    var(--INTModRainbow)
     var(--INTModSettingsModal) '\A'
     'Sidebar\A'
     var(--INTModNewPlaying)
