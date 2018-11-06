@@ -2,17 +2,17 @@
     --INTModNewPlaying: '\2022  New Playing Messages ~ Customa Devs (Sidebar \2192  newPlaying.m.css)\A'!important;
 }
 
-.activityText-sLG0UL, .friend-activity-text{
+.activityText-sLG0UL, .friend-activity-text, .activityText-OW8WYb{
     visibility:hidden;
     letter-spacing:-10px;
 }
 
-.activityText-sLG0UL strong, .friend-activity-text strong{
+.activityText-sLG0UL strong, .friend-activity-text strong, .activityText-OW8WYb strong{
     visibility:visible;
     letter-spacing:0;
 }
 
-.activityText-sLG0UL strong:before, .friend-activity-text strong:before{
+.activityText-sLG0UL strong:before, .friend-activity-text strong:before, .activityText-OW8WYb strong:before{
     content:"\1F3AE  ";
     -webkit-filter:brightness(1000%);
 }
