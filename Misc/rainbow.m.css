@@ -1,5 +1,7 @@
 :root {
 	--DurRainbow: 2s;
+	--INTModRainbow: '\2022  Rainbow Background ~ Customa Devs (Misc \2192  rainbow.m.css)\A'!important;
+	--INTVarSettingsModal: '\A\A Rainbow - Module\A \2022  --DurRainbow \2192  Allowed Values: Time'!important;
 	
 	animation: rainbow var(--DurRainbow) infinite linear;
 }
