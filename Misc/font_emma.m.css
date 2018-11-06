@@ -1,9 +1,9 @@
 /* Current Font Config as of 30th of August 2018 */
 
 @import url('https://fonts.googleapis.com/css?family=Google+Sans:400,500,700,400i,500i,700i');
+@import url("https://raw.githack.com/Customa/Customa/master/Base/selection.m.css");
 
 :root{
-    --ColTextSelection: rgba(255,255,255,0.2) /* Color, should be rgba */;    
     --INTModFont: '\2022  Fonts (Emma Config) ~ Customa Devs (Misc \2192  font_emma.m.css)\A'!important;
     --INTVarFont: '\A\A Font - Module\A \2022  --ColTextSelection \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3)) \A \2022  --FontFamily \2192  Allowed Values: Installed Fonts/Webfonts\A (pref. Sans-Serif)\A \2022  --FontMonoFamily \2192  Allowed Values: \A Installed Fonts/Webfonts (pref. Monospace)'!important;
     --FontFamily: 'Noto Bug Fix', 'Noto Blobs', 'Google Sans', sans-serif /* Normal Font */;
@@ -23,10 +23,6 @@
 
 code /* All Code Blocks */,code * /* All Elements in a Code Block */,code li * /* All List Elements in a Code Block */, code.inline /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .message-1PNnaP textarea.textAreaEdit-bNLDk3 /* Edit Text Area */{
     font-family: var(--FontMonoFamily)!important;
-}
-
-*::selection{
-    background: var(--ColTextSelection)!important;
 }
 
 @font-face{
