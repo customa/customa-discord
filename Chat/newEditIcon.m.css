@@ -1,7 +1,7 @@
 :root{
     --INTModNewEditIcon: '\2022  New Edit Icon ~ Customa Devs (Chat \2192  newEditIcon.m.css)\A'!important;
     --INTVarNewEditIcon: '\A\A New Edit Icon - Module \A \2022  --ContentEditIcon \2192  Allowed Values: url(TO_ICON)'!important;
-    --ContentEditIcon: url('https://raw.githack.com/Customa/Customa/master/Misc/Icons/EditDarkTheme.svg');
+    --ContentEditIcon: url('https://raw.githack.com/Customa/Customa/master/Misc/Icons/EditIcon.svg');
 }
 
 .edited-DL9ECl{
