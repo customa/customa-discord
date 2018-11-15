@@ -534,6 +534,19 @@ Self-Promotion
 
 /*
 
+Easter Egg owo
+
+*/
+
+*[aria-label="Rainmeter"], *[aria-label="Customa"] {
+    transition: transform 0.5s;
+}
+
+*[aria-label="Rainmeter"]:hover { transform: rotate(360deg); }
+*[aria-label="Customa"]:hover { transform: rotate(-360deg); }
+
+/*
+
 Close Button Animation
 
 */
