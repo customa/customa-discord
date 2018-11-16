@@ -24,7 +24,7 @@
     font-size: 1em;
 }
 
-.headerCozyMeta-rdohGq span {
+.headerCozyMeta-rdohGq span:not(.botTagRegular-2HEhHi) {
     font-size: 1em;
 }
 
