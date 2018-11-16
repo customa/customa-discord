@@ -2,6 +2,14 @@
 	--INTModBetterCompact: '\2022  Better Compact ~ Customa Devs (Chat \2192  betterCompact.m.css)\A'!important;
 }
 
+.isMentionedCozy-3isp7y:after {
+    content: none;
+}
+
+.isMentionedCozy-3isp7y {
+    border-radius: 3px;
+}
+
 .container-3-pyIM {
     padding: 0;
 }
@@ -43,5 +51,6 @@
 }
 
 .contentCozy-3XX413 {
-    margin-left: 0.2em;
+    margin-left: 0.5em;
 }
+
