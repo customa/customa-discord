@@ -11,6 +11,7 @@
     --INTModVariables: '';
 
     /* Chat */
+    --INTModBetterCompact: '';
     --INTModBetterFileTypes: '';
     --INTModChannelDivider: '';
     --INTModChannelsWrapper: '';
@@ -57,6 +58,7 @@
     var(--INTModTooltip)
     var(--INTModVariables) '\A'
     'Chat\A'
+    var(--INTModBetterCompact)
     var(--INTModBetterFileTypes)
     var(--INTModChannelDivider)
     var(--INTModChannelsWrapper)
