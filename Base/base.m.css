@@ -206,7 +206,7 @@ Borders, Box Shadows and Strokes
     border-color: rgba(0,0,0,0.2);
 }
 
-.messageGroupBlocked-3wrQQX /* Message Group from a blocked person */, .guild-1EfMGQ .guildsError-3cFMtY /* Guild with outage */{
+.guild-1EfMGQ .guildsError-3cFMtY /* Guild with outage */{
     border-color: var(--ColFalse)!important;
 }
 
@@ -395,11 +395,13 @@ Masks
 */
 
 .maskProfile-1ObLFT{
-    -webkit-mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskUserModal.svg')!important;
+	-webkit-mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskUserModal.svg')!important;
+	mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskUserModal.svg')!important;
 }
 
 .mask-3OgeRz{
-    -webkit-mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
+	-webkit-mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
+	mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
 }
 
 /*
