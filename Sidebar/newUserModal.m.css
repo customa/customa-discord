@@ -15,6 +15,10 @@
     z-index: -1;
 }
 
+[class*='topSection'] a.anchor-3Z-8Bb{
+    color: white!important;
+}
+
 [class*='topSection'] .avatar-3EQepX a:hover .image-33JSyf::before {
     background-color: rgba(0, 0, 0, .5);
     content: 'view profile\A picture';
