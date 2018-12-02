@@ -4,7 +4,7 @@
     --FilterNoHover: grayscale(100%);
     --FilterHover: grayscale(0%);
     --WidthGuildMax: 80px;
-    --DurationGuildsWrapper: 0.2;
+    --DurationGuildsWrapper: 0.2s;
 }
 
 .guildsWrapper-5TJh6A /* GuildsWrapper */{
