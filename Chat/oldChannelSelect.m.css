@@ -4,10 +4,10 @@
 
 .content-20Aix8 {
     margin-left: 0;
-    border-radius: 0;
-    background-color: transparent !important;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.2), transparent) no-repeat;
+    background-color: transparent !important;
     background-position: -240px;
+    border-radius: 0;
     transition: background-position 0.2s;
 }
 
@@ -15,12 +15,6 @@
     background-position: 0;
 }
 
-.contentSelectedText-3wUhMi::before {
-    content: "";
-    height: 100%;
-    width: 2px;
-    background: var(--ColAccent);
-    display: block;
-    position: absolute;
-    left: 0;
+.contentSelectedText-3wUhMi {
+    border-left: 2.667px solid var(--ColAccent);
 }
