@@ -1,0 +1,26 @@
+:root {
+	--INTModOldChannelSelect: '\2022  Old Channel Select ~ Customa Devs (Chat \2192  oldChannelSelect.m.css)\A'!important;
+}
+
+.content-20Aix8 {
+    margin-left: 0;
+    border-radius: 0;
+    background-color: transparent !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), transparent) no-repeat;
+    background-position: -240px;
+    transition: background-position 0.2s;
+}
+
+.content-20Aix8:hover, .contentSelectedText-3wUhMi {
+    background-position: 0;
+}
+
+.contentSelectedText-3wUhMi::before {
+    content: "";
+    height: 100%;
+    width: 2px;
+    background: var(--ColAccent);
+    display: block;
+    position: absolute;
+    left: 0;
+}
