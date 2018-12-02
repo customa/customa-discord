@@ -151,3 +151,8 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
 #user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div::before{
     -webkit-filter: invert(100%) brightness(70%)!important;
 }
+
+/* Divider Background Color to match Background Color */
+.dividerContent-2L12VI{
+    background-color: var(--ColBackground2)!important;
+}
