@@ -2,12 +2,14 @@
     --INTModGuildsWrapper: '\2022  Guilds Wrapper 2.0 ~ Customa Devs (Chat \2192  guildsWrapper.m.css)\A'!important;
     --INTVarGuildsWrapper: '\A\A Guilds Wrapper - Module \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%) \A \2022 --WidthMax \2192  Allowed Values: XYpx (pref. 80px)'!important;
     --FilterNoHover: grayscale(100%);
+    --FilterHover: grayscale(0%);
     --WidthGuildMax: 80px;
+    --DurationGuildsWrapper: 0.2;
 }
 
 .guildsWrapper-5TJh6A /* GuildsWrapper */{
     width: 20px;
-    transition: width 200ms;
+    transition: width var(--DurationGuildsWrapper);
 }
 
 .guildsWrapper-5TJh6A:hover /* GuildsWrapper Hover Effect */{
@@ -38,7 +40,7 @@
     font-weight: 600;
     text-align: center;
     line-height: 130%;
-    transition: color 200ms;
+    transition: color var(--DurationGuildsWrapper);
 }
 
 .guilds-1q_RqH > .guild-1EfMGQ.selected-ML3OIq:first-child .guildInner-3DSoA4 a::after, .guilds-1q_RqH > .guild-1EfMGQ:hover:first-child .guildInner-3DSoA4 a::after /* Color on Home Select and Hover */{
@@ -47,7 +49,7 @@
 
 .guildsWrapper-5TJh6A .friendsOnline-_wi_fM /* How many friends are online */, .guildsWrapper-5TJh6A .unreadMentionsIndicatorBottom-BXS58x, .guildsWrapper-5TJh6A .unreadMentionsIndicatorTop-gA6RCh /* Unread Mentions Indicator */{
     opacity: 0;
-    transition: opacity 200ms;
+    transition: opacity var(--DurationGuildsWrapper);
 }
 
 .guildsWrapper-5TJh6A:hover .friendsOnline-_wi_fM /* Hover Effect of above */, .guildsWrapper-5TJh6A:hover .unreadMentionsIndicatorBottom-BXS58x, .guildsWrapper-5TJh6A:hover .unreadMentionsIndicatorTop-gA6RCh /* Unread Mentions Indicator */{
@@ -83,9 +85,9 @@
 
 .guild-1EfMGQ a div[style*='background-image:'], .guild-1EfMGQ a[style*='background-image:'] {
     filter: var(--FilterNoHover)!important;
-    transition: filter 200ms!important;
+    transition: filter var(--DurationGuildsWrapper)!important;
 }
 
 .guild-1EfMGQ.selected-ML3OIq a div[style*='background-image:'], .guild-1EfMGQ:hover a div[style*='background-image:'], .guild-1EfMGQ:hover a[style*='background-image:']{
-    filter: grayscale(0)!important;
+    filter: var(--FilterHover)!important;
 }

@@ -2,12 +2,13 @@
     --INTModSidebarMods: '\2022  SidebarMods ~ Customa Devs (Sidebar \2192  sidebarModifier.m.css)\A'!important;
     --INTVarSidebarMods: '\A\A Sidebar Mods - Module\A \2022  --WidthSidebarMin \2192  Allowed Values: XYpx (pref. 20px)'!important;
     --WidthSidebarMin: 65px;
+    --DurationSidebarMod: 0.2s;
 }
 
 .membersWrap-2h-GB4{
     width: var(--WidthSidebarMin) !important;
     min-width: var(--WidthSidebarMin);
-    transition: width 0.2s;
+    transition: width var(--DurationSidebarMod);
 }
 
 .membersWrap-2h-GB4:hover {
@@ -17,7 +18,7 @@
 /* hide elements */
 .membersGroup-v9BXpm, .username-1cB_5E, .activityText-sLG0UL {
     color: transparent !important;
-    transition: color 0.2s;
+    transition: color var(--DurationSidebarMod);
 }
 
 /* show elements */
@@ -30,7 +31,7 @@
     height: 20px;
     padding-top: 0;
     overflow: hidden;
-    transition: height 0.2s, padding-top 0.2s;
+    transition: height var(--DurationSidebarMod), padding-top var(--DurationSidebarMod);
 }
 
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
