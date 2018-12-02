@@ -1,5 +1,5 @@
 :root{
-    --INTModDisplayChannelIcon: '\2022  Channel Icon ~ Customa Devs (Chat \2192  displayChannelIcon.m.css)\A'!important;
+    --INTModDisplayChannelIcon: '    \2022  Channel Icon ~ Customa Devs (Chat \2192  displayChannelIcon.m.css)\A'!important;
     --INTVarDisplayChannelIcon: '\A\A Display Channel Icon - Module \A \2022  --DisplayTextChannelIcon \2192  Allowed Values: none/block\A \2022  --DisplayVoiceChannelIcon \2192  Allowed Values: none/block'!important;
     --DisplayTextChannelIcon: none;
     --DisplayVoiceChannelIcon: block;

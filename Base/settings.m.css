@@ -6,7 +6,7 @@
     --INTModBase: '';
     --INTModFont: '';
     --INTModSelection: '';
-    --INTModSettings: '\2022  Settings - Customa Devs (Base \2192  settings.m.css)\A'!important;
+    --INTModSettings: '    \2022  Settings - Customa Devs (Base \2192  settings.m.css)\A'!important;
     --INTModTooltip: '';
     --INTModVariables: '';
 
@@ -21,9 +21,9 @@
     --INTModGuildsWrapper: '';
     --INTModNewDividerRed: '';
     --INTModNewEditIcon: '';
-	--INTModNewEditText: '';
-	--INTModNewMessageText: '';
-	--INTModOldChannelSelect: '';
+    --INTModNewEditText: '';
+    --INTModNewMessageText: '';
+    --INTModOldChannelSelect: '';
     --INTModTypingOnRight: '';
     --INTModWhiteThemeSupport: '';
     
@@ -50,55 +50,54 @@
 }
 
 .userSettingsAccount-2eMFVR::after{
-    content: 'Customa - Settings\A\A' 
-    'Installed Modules:\A\A'
-    'Base\A ' 
-    var(--INTModBase)
-    var(--INTModFont)
-    var(--INTModSelection)
-    var(--INTModSettings)
-    var(--INTModTooltip)
-    var(--INTModVariables) '\A'
-    'Chat\A'
-    var(--INTModBetterBlock)
-    var(--INTModBetterCompact)
-    var(--INTModBetterFileTypes)
-    var(--INTModChannelDivider)
-    var(--INTModChannelsWrapper)
-    var(--INTModCodeBlockLanguages)
-    var(--INTModDisplayChannelIcon)
-    var(--INTModEmbedsModernized)
-    var(--INTModGuildsWrapper)
-    var(--INTModNewDividerRed)
-    var(--INTModNewEditIcon)
-	var(--INTModNewEditText)
-	var(--INTModNewMessageText)
-	var(--INTModOldChannelSelect)
-    var(--INTModTypingOnRight)
-    var(--INTModWhiteThemeSupport) '\A'
-    'Emoji\A'
-    var(--INTModJumboMoji) '\A'
-    'Misc\A'
-    var(--INTModAll)
-    var(--INTModiOSToggles)
-    var(--INTModRainbow)
-    var(--INTModSettingsModal) '\A'
-    'Sidebar\A'
-    var(--INTModNewPlaying)
-    var(--INTModNewUserModal)
-    var(--INTModNewUserPopout)
-    var(--INTModSidebarMods)
-    var(--INTModStatusCircles) '\A'
-    'Webkit\A'
-    var(--INTModAdvancedScrollbar)
-    var(--INTModPlaceholderRemover);
-    margin-top: -2px;
-    white-space: pre;
-    display: block;
-    background-color: var(--ColBackground1);
-    margin-bottom: 2%;
+    content: 'Base:\A ' 
+        var(--INTModBase)
+        var(--INTModTooltip)
+        var(--INTModFont)
+        var(--INTModSelection)
+        var(--INTModSettings)
+        var(--INTModVariables) '\A'
+    'Chat:\A'
+        var(--INTModBetterBlock)
+        var(--INTModBetterCompact)
+        var(--INTModBetterFileTypes)
+        var(--INTModChannelDivider)
+        var(--INTModChannelsWrapper)
+        var(--INTModCodeBlockLanguages)
+        var(--INTModDisplayChannelIcon)
+        var(--INTModEmbedsModernized)
+        var(--INTModGuildsWrapper)
+        var(--INTModNewDividerRed)
+        var(--INTModNewEditIcon)
+        var(--INTModNewEditText)
+        var(--INTModNewMessageText)
+        var(--INTModOldChannelSelect)
+        var(--INTModTypingOnRight)
+        var(--INTModWhiteThemeSupport) '\A'
+    'Emoji:\A'
+        var(--INTModJumboMoji) '\A'
+    'Misc:\A'
+        var(--INTModAll)
+        var(--INTModiOSToggles)
+        var(--INTModRainbow)
+        var(--INTModSettingsModal) '\A'
+    'Sidebar:\A'
+        var(--INTModNewPlaying)
+        var(--INTModNewUserModal)
+        var(--INTModNewUserPopout)
+        var(--INTModSidebarMods)
+        var(--INTModStatusCircles) '\A'
+    'Webkit:\A'
+        var(--INTModAdvancedScrollbar)
+        var(--INTModPlaceholderRemover);
     padding: 3%;
-    text-align: center;
+    padding-top: 0;
+    margin-top: -2px;
+    margin-bottom: 2%;
+    background-color: var(--ColBackground1);
+    color: #ddd;
+    display: block;
+    white-space: pre;
     line-height: 1.1;
-    color: white;
+    border-radius: 0 0 5px 5px;
 }

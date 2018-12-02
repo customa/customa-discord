@@ -1,5 +1,5 @@
 :root{
-    --INTModSettingsModal: '\2022  Settings Modal ~ Customa Devs (Base \2192  settingsModal.m.css)\A'!important;
+    --INTModSettingsModal: '    \2022  Settings Modal ~ Customa Devs (Base \2192  settingsModal.m.css)\A'!important;
     --INTVarSettingsModal: '\A\A Settings Modal - Module\A \2022  --DisplayNoDoubleBorderRadius \2192  Allowed Values: None/Block'!important;
     --DisplayNoDoubleBorderRadius: block;
 }

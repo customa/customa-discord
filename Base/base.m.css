@@ -2,7 +2,7 @@
 
     /* DO NOT EDIT */
 
-    --INTModBase: '\2022  Base ~ Customa Devs (Base \2192  base.m.css)\A'!important;
+    --INTModBase: '    \2022  Base ~ Customa Devs (Base \2192  base.m.css)\A'!important;
     --INTVarBase: '\A\A Base - Module\A \2022  --ColAppBG \2192  Allowed Values: Image/Color\A \2022  --ColAuthBG \2192  Allowed Values: Image/Color\A \2022  --ColBackground1 \2192  Allowed Values: Color\A \2022  --ColBackground2 \2192  Allowed Values: Color\A \2022  --ColAccent \2192  Allowed Values: Color\A \2022  --ColAccentAlpha \2192  Allowed Values: Color (pref. rgba(x,x,x,0.1)\A \2022  --ColAnchor \2192   Allowed Values: Color\A \2022  --ColLastMessage \2192  Allowed Values: Transparent/Color (pref. rgba(0,0,0,0.1))\A \2022  --ColTrue \2192  Allowed Values: Color (pref. Green)\A \2022  --ColFalse \2192  Allowed Values: Color (pref. Red)\A \2022  --DisplayEmbedPill \2192  Allowed Values: None/Block\A \2022  --DisplayNoConnectionBackdraw \2192  Allowed Values: None/Flex'!important;
 
     /* SECONDARY LAYOUT */
@@ -405,13 +405,13 @@ Masks
 */
 
 .maskProfile-1ObLFT{
-	-webkit-mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskUserModal.svg')!important;
-	mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskUserModal.svg')!important;
+    -webkit-mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskUserModal.svg')!important;
+    mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskUserModal.svg')!important;
 }
 
 .mask-3OgeRz{
-	-webkit-mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
-	mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
+    -webkit-mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
+    mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
 }
 
 /*
@@ -458,7 +458,7 @@ Transitions
 }
 
 .button-1w5pas {
-	transition: opacity 200ms;
+    transition: opacity 200ms;
 }
 
 .channelTextArea-1LDbYG .inner-zqa7da > .flex-1xMQg5 /* Container of Upload Button */{

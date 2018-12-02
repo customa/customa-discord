@@ -1,5 +1,5 @@
 :root{
-    --INTModSidebarMods: '\2022  SidebarMods ~ Customa Devs (Sidebar \2192  sidebarModifier.m.css)\A'!important;
+    --INTModSidebarMods: '    \2022  SidebarMods ~ Customa Devs (Sidebar \2192  sidebarModifier.m.css)\A'!important;
     --INTVarSidebarMods: '\A\A Sidebar Mods - Module\A \2022  --WidthSidebarMin \2192  Allowed Values: XYpx (pref. 20px)'!important;
     --WidthSidebarMin: 65px;
     --DurationSidebarMod: 0.2s;

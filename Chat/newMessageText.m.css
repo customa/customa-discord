@@ -1,5 +1,5 @@
 :root {
-    --INTModNewMessageText: '\2022  New Message Text ~ Customa Devs (Chat \2192  newMessageText.m.css)\A'!important;
+    --INTModNewMessageText: '    \2022  New Message Text ~ Customa Devs (Chat \2192  newMessageText.m.css)\A'!important;
     --TextNewMessage: "Toot!"; /* mastodon time */
 }
 

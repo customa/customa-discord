@@ -1,5 +1,5 @@
 :root{
-    --INTModNewEditText: '\2022  New Edit Text ~ Customa Devs (Chat \2192  newEditText.m.css)\A'!important;
+    --INTModNewEditText: '    \2022  New Edit Text ~ Customa Devs (Chat \2192  newEditText.m.css)\A'!important;
     --INTVarNewEditText: '\A\A New Edit Text - Module \A \2022  --ContentEditText \2192  Allowed Values: Text'!important;
     --ContentEditText: 'OwO, what was that';
 }

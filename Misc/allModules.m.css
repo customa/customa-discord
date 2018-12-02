@@ -38,5 +38,5 @@
         @import url('https://raw.githack.com/Customa/Customa/master/Chat/whiteThemeSupport.m.css'); /* Due to WhiteThemeSupport Overwriting a lot of fonts, it will be loaded at the last position */
 
 :root{
-    --INTModAll: '\2022  All Modules - Customa Devs (Misc \2192  allModules.m.css)\A'!important;
+    --INTModAll: '    \2022  All Modules - Customa Devs (Misc \2192  allModules.m.css)\A'!important;
 }

@@ -4,7 +4,7 @@
 @import url("https://raw.githack.com/Customa/Customa/master/Base/selection.m.css");
 
 :root{
-    --INTModFont: '\2022  Fonts (Emma Config) ~ Customa Devs (Misc \2192  font_emma.m.css)\A'!important;
+    --INTModFont: '    \2022  Fonts (Emma Config) ~ Customa Devs (Misc \2192  font_emma.m.css)\A'!important;
     --INTVarFont: '\A\A Font - Module\A \2022  --ColTextSelection \2192  Allowed Values: Color (pref. rgba(x,x,x,0.3)) \A \2022  --FontFamily \2192  Allowed Values: Installed Fonts/Webfonts\A (pref. Sans-Serif)\A \2022  --FontMonoFamily \2192  Allowed Values: \A Installed Fonts/Webfonts (pref. Monospace)'!important;
     --FontFamily: 'Noto Bug Fix', 'Noto Blobs', 'Google Sans', sans-serif /* Normal Font */;
     --FontMonoFamily: 'Noto Bug Fix Monospace', 'Noto Blobs', 'Fira Code', 'Fira Mono', monospace /* Monospace Font */;
