@@ -58,6 +58,7 @@
     var(--INTModTooltip)
     var(--INTModVariables) '\A'
     'Chat\A'
+    var(--INTModBetterBlock)
     var(--INTModBetterCompact)
     var(--INTModBetterFileTypes)
     var(--INTModChannelDivider)
