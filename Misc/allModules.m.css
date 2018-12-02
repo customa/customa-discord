@@ -2,11 +2,9 @@
     @import url('https://raw.githack.com/Customa/Customa/master/Base/variables.m.css'); /* Load VARIABLES - Needs all Modules to replace its presets */
 
         @import url('https://raw.githack.com/Customa/Customa/master/Base/base.m.css'); /* Load BASE - Some modules depend on this */
-            @import url('https://raw.githack.com/Customa/Customa/master/Base/tooltips.m.css'); /* Dependency - ColAccent */
+            @import url('https://raw.githack.com/Customa/Customa/master/Base/tooltip.m.css'); /* Dependency - ColAccent */
 
             @import url('https://raw.githack.com/Customa/Customa/master/Chat/channelsWrapper.m.css'); /* Dependency - ColAccent */
-            @import url('https://raw.githack.com/Customa/Customa/master/Chat/guildsWrapper.m.css'); /* No Dependency - Needs to be loaded before DUALGUILDS */
-                @import url('https://raw.githack.com/Customa/Customa/master/Chat/dualGuilds.m.css'); /* Dependency - ColAccent, ColBackground1 from BASE, WidthGuildMax from GUILDSWRAPPER */
             @import url('https://raw.githack.com/Customa/Customa/master/Chat/newDividerRed.m.css'); /* Dependency - ColAccent */
 
             @import url('https://raw.githack.com/Customa/Customa/master/Misc/settingsModal.m.css'); /* Dependency - ColAccent, ColBackground2 */
@@ -26,6 +24,7 @@
         @import url('https://raw.githack.com/Customa/Customa/master/Chat/betterFileTypes.m.css');
         @import url('https://raw.githack.com/Customa/Customa/master/Chat/channelDivider.m.css');
         @import url('https://raw.githack.com/Customa/Customa/master/Chat/displayChannelIcon.m.css');
+        @import url('https://raw.githack.com/Customa/Customa/master/Chat/guildsWrapper.m.css');
         @import url('https://raw.githack.com/Customa/Customa/master/Chat/newEditIcon.m.css');
         @import url('https://raw.githack.com/Customa/Customa/master/Chat/newEditText.m.css');
         @import url('https://raw.githack.com/Customa/Customa/master/Chat/typingOnRight.m.css');
