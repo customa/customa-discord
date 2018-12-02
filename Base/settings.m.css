@@ -21,7 +21,8 @@
     --INTModGuildsWrapper: '';
     --INTModNewDividerRed: '';
     --INTModNewEditIcon: '';
-    --INTModNewEditText: '';
+	--INTModNewEditText: '';
+	--INTModOldChannelSelect: '';
     --INTModTypingOnRight: '';
     --INTModWhiteThemeSupport: '';
     
@@ -69,7 +70,8 @@
     var(--INTModGuildsWrapper)
     var(--INTModNewDividerRed)
     var(--INTModNewEditIcon)
-    var(--INTModNewEditText)
+	var(--INTModNewEditText)
+	var(--INTModOldChannelSelect)
     var(--INTModTypingOnRight)
     var(--INTModWhiteThemeSupport) '\A'
     'Emoji\A'
