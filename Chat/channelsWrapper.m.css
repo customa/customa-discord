@@ -26,13 +26,17 @@
     transition: 200ms width;
 }
 
-.channels-Ie2l6A .content-20Aix8 .name-3M0b8v /* Channel Name */, .channels-Ie2l6A .content-20Aix8 .flex-1xMQg5 /* Channel Icons */, .channels-Ie2l6A .containerDefault-3GGEv_ /* Category Divider */, .channels-Ie2l6A .header-2o-2hj .name-3YKhmS /* Server Name */, .channels-Ie2l6A .privateChannels-1nO12o .search-bar-inner /* Search Bar Inner in Private Channel */, .channels-Ie2l6A .privateChannels-1nO12o header /* Direct Messages "String" */, .unread-1s3J68 /* Unread Indicator for Channels */, .channels-Ie2l6A .avatarContainer-72bSfM /*  Voice Call avatar container */, .channels-Ie2l6A .header-2o-2hj svg /* Open Server Popout SVG */ {
+.channels-Ie2l6A .content-20Aix8 .name-3M0b8v /* Channel Name */, .channels-Ie2l6A .content-20Aix8 .flex-1xMQg5 /* Channel Icons */, .channels-Ie2l6A .containerDefault-3GGEv_ /* Category Divider */, .channels-Ie2l6A .header-2o-2hj .name-3YKhmS /* Server Name */, .channels-Ie2l6A .privateChannels-1nO12o .search-bar-inner /* Search Bar Inner in Private Channel */, .channels-Ie2l6A .privateChannels-1nO12o header /* Direct Messages "String" */, .unread-1s3J68 /* Unread Indicator for Channels */, .channels-Ie2l6A .avatarContainer-72bSfM /*  Voice Call avatar container */, .channels-Ie2l6A .header-2o-2hj svg /* Open Server Popout SVG */, .channels-Ie2l6A:not(:hover) .accountDetails-3k9g4n + div /* Mute/Deafen/Settings Button Div non hover */{
     opacity: 0;
     transition: opacity 200ms;
 }
 
 .channels-Ie2l6A:hover .content-20Aix8.contentSelectedText-3wUhMi, .channels-Ie2l6A:hover .privateChannels-1nO12o .channel-2QD9_O.private.selected a /* Channel Backgrounds */{
     background-color: rgba(0,0,0,0.2)!important;
+}
+
+.channels-Ie2l6A:not(:hover) .contentSelectedText-3wUhMi svg /* Icon Selected Channel non hover */{
+    color: white!important;
 }
 
 .channels-Ie2l6A .content-20Aix8 /* Normal Channel */{
@@ -56,7 +60,7 @@
     width: 240px;
 }
 
-.channels-Ie2l6A:hover .content-20Aix8 .name-3M0b8v /* Channel Name */, .channels-Ie2l6A:hover .content-20Aix8 .flex-1xMQg5 /* Channel Icons */, .channels-Ie2l6A:hover .containerDefault-3GGEv_ /* Category Divider */, .channels-Ie2l6A:hover .header-2o-2hj .name-3YKhmS /* Server Name */, .channels-Ie2l6A:hover .privateChannels-1nO12o .search-bar-inner /* Search Bar Inner in Private Channel */, .channels-Ie2l6A:hover .privateChannels-1nO12o header /* Direct Messages "String" */, .channels-Ie2l6A:hover .unread-1s3J68 /* Unread Indicator for Channels */, .channels-Ie2l6A:hover .avatarContainer-72bSfM /*  Voice Call avatar container */, .channels-Ie2l6A:hover .header-2o-2hj svg /* Hover Effect for Server Popout Open SVG */{
+.channels-Ie2l6A:hover .content-20Aix8 .name-3M0b8v /* Channel Name */, .channels-Ie2l6A:hover .content-20Aix8 .flex-1xMQg5 /* Channel Icons */, .channels-Ie2l6A:hover .containerDefault-3GGEv_ /* Category Divider */, .channels-Ie2l6A:hover .header-2o-2hj .name-3YKhmS /* Server Name */, .channels-Ie2l6A:hover .privateChannels-1nO12o .search-bar-inner /* Search Bar Inner in Private Channel */, .channels-Ie2l6A:hover .privateChannels-1nO12o header /* Direct Messages "String" */, .channels-Ie2l6A:hover .unread-1s3J68 /* Unread Indicator for Channels */, .channels-Ie2l6A:hover .avatarContainer-72bSfM /*  Voice Call avatar container */, .channels-Ie2l6A:hover .header-2o-2hj svg /* Hover Effect for Server Popout Open SVG */, .channels-Ie2l6A:not(:hover) .contentSelectedText-3wUhMi svg path /* Icon Selected Channel non hover */, .channels-Ie2l6A:hover .accountDetails-3k9g4n + div /* Mute/Deafen/Settings Button Div on hover */{
     opacity: 1;
 }
 

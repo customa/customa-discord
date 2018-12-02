@@ -4,10 +4,10 @@
 
 .dividerRed-MKoLlr .dividerContent-2L12VI::before{
     border-bottom-color: var(--ColAccent)!important;
-    border-bottom-width: 2px!important;
+    border-bottom-width: 1px!important;
 }
 
 .dividerRed-MKoLlr .dividerContent-2L12VI::after{
     border-bottom-color: var(--ColAccent)!important;
-    border-bottom-width: 2px!important;
+    border-bottom-width: 1px!important;
 }
