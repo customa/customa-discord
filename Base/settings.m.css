@@ -11,6 +11,7 @@
     --INTModVariables: '';
 
     /* Chat */
+    --INTModBetterBlock: '';
     --INTModBetterCompact: '';
     --INTModBetterFileTypes: '';
     --INTModChannelDivider: '';
@@ -52,10 +53,10 @@
 .userSettingsAccount-2eMFVR::after{
     content: 'Base:\A ' 
         var(--INTModBase)
-        var(--INTModTooltip)
         var(--INTModFont)
         var(--INTModSelection)
         var(--INTModSettings)
+        var(--INTModTooltip)
         var(--INTModVariables) '\A'
     'Chat:\A'
         var(--INTModBetterBlock)
