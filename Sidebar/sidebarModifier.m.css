@@ -1,15 +1,40 @@
 :root{
     --INTModSidebarMods: '\2022  SidebarMods ~ Customa Devs (Sidebar \2192  sidebarModifier.m.css)\A'!important;
     --INTVarSidebarMods: '\A\A Sidebar Mods - Module\A \2022  --WidthSidebarMin \2192  Allowed Values: XYpx (pref. 20px)'!important;
-    --WidthSidebarMin: 20px;
+    --WidthSidebarMin: 65px;
 }
 
 .membersWrap-2h-GB4{
-    width: 20px!important;
+    width: var(--WidthSidebarMin) !important;
     min-width: var(--WidthSidebarMin);
-    transition: width 200ms;
+    transition: width 0.2s;
 }
 
-.membersWrap-2h-GB4:hover{
-    width: 240px!important;
+.membersWrap-2h-GB4:hover {
+    width: 240px !important;
+}
+
+/* hide elements */
+.membersGroup-v9BXpm, .username-1cB_5E, .activityText-sLG0UL {
+    color: transparent !important;
+    transition: color 0.2s;
+}
+
+/* show elements */
+.membersWrap-2h-GB4:hover .username-1cB_5E { color: inherit !important; }
+
+.membersWrap-2h-GB4:hover .activityText-sLG0UL { color: rgba(185,187,190,.6) !important; }
+
+/* member group fixes */
+.membersGroup-v9BXpm {
+    height: 20px;
+    padding-top: 0;
+    overflow: hidden;
+    transition: height 0.2s, padding-top 0.2s;
+}
+
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+    height: 40px;
+    padding-top: 20px;
+    color: hsla(0,0%,100%,.4) !important;
 }
