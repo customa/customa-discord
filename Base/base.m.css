@@ -63,6 +63,10 @@ Backgrounds & SVG Fills
     height: 100%;
 }
 
+#bd-customcss-detach-container {
+    background: var(--ColAppBG)!important;
+}
+
 /* Currently deprecated */
 /* .image-2jyRAK.loaded-3PtF_J, .canvas-3XuBXe, .splashBackground-1FRCko{
     background: var(--ColAuthBG)!important;
