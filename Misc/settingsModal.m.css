@@ -120,7 +120,8 @@
     margin-top: -8px!important;
 }
 #user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div::before{
-    -webkit-filter: invert(100%)!important;
+	-webkit-filter: invert(100%)!important;
+	filter: invert(100%)!important;
 }
 #user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(2):not(.ui-tab-bar-header):not([style*='font-size'])::before{
     content: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Settings/S1Account.svg');

@@ -1,42 +1,41 @@
-@import url('https://raw.githack.com/Customa/Customa/master/Base/settings.m.css'); /* Load SSETTINGS - Needs all Modules to replace its presets */
-    @import url('https://raw.githack.com/Customa/Customa/master/Base/variables.m.css'); /* Load VARIABLES - Needs all Modules to replace its presets */
+@import url('https://raw.githack.com/Customa/Customa/master/Base/settings.m.css'); /* Load SETTINGS - Needs all Modules to replace its presets */
+@import url('https://raw.githack.com/Customa/Customa/master/Base/variables.m.css'); /* Load VARIABLES - Needs all Modules to replace its presets */
 
-        @import url('https://raw.githack.com/Customa/Customa/master/Base/base.m.css'); /* Load BASE - Some modules depend on this */
-            @import url('https://raw.githack.com/Customa/Customa/master/Base/tooltip.m.css'); /* Dependency - ColAccent */
+@import url('https://raw.githack.com/Customa/Customa/master/Base/base.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Base/tooltip.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Base/selection.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Base/font.m.css');
 
-            @import url('https://raw.githack.com/Customa/Customa/master/Chat/channelsWrapper.m.css'); /* Dependency - ColAccent */
-            @import url('https://raw.githack.com/Customa/Customa/master/Chat/newDividerRed.m.css'); /* Dependency - ColAccent */
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/betterBlock.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/betterCompact.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/betterFileTypes.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/channelDivider.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/channelsWrapper.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/codeBlockLanguages.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/displayChannelIcon.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/embedsModernized.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/guildsWrapper.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/newDividerRed.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/newEditIcon.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/newEditText.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/newMessageText.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/oldChannelSelect.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Chat/typingOnRight.m.css');
 
-            @import url('https://raw.githack.com/Customa/Customa/master/Misc/settingsModal.m.css'); /* Dependency - ColAccent, ColBackground2 */
-            @import url('https://raw.githack.com/Customa/Customa/master/Misc/iOSToggles.m.css'); /* Dependency - ColTrue, ColFalse */
+@import url('https://raw.githack.com/Customa/Customa/master/Emoji/jumboMoji.m.css');
 
-            @import url('https://raw.githack.com/Customa/Customa/master/Sidebar/newUserModal.m.css'); /* Dependency - ColBackground2 */
-            @import url('https://raw.githack.com/Customa/Customa/master/Sidebar/newUserPopout.m.css'); /* Dependency - ColBackground1 */
+@import url('https://raw.githack.com/Customa/Customa/master/Misc/settingsModal.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Misc/iOSToggles.m.css');
 
-            @import url('https://raw.githack.com/Customa/Customa/master/Webkit/advancedScrollbar.m.css'); /* Dependency - ColAccent */
+@import url('https://raw.githack.com/Customa/Customa/master/Sidebar/newPlaying.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Sidebar/newUserModal.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Sidebar/newUserPopout.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Sidebar/sidebarModifier.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Sidebar/statusCircles.m.css');
 
-        @import url('https://raw.githack.com/Customa/Customa/master/Base/font.m.css'); /* Load Font - Some modules depend on this */
-            @import url('https://raw.githack.com/Customa/Customa/master/Chat/codeBlockLanguages.m.css'); /* Dependency - FontFamily */
-
-        /* Independant Modules */
-        @import url('https://raw.githack.com/Customa/Customa/master/Base/selection.m.css'); 
-
-        @import url('https://raw.githack.com/Customa/Customa/master/Chat/betterFileTypes.m.css');
-        @import url('https://raw.githack.com/Customa/Customa/master/Chat/channelDivider.m.css');
-        @import url('https://raw.githack.com/Customa/Customa/master/Chat/displayChannelIcon.m.css');
-        @import url('https://raw.githack.com/Customa/Customa/master/Chat/guildsWrapper.m.css');
-        @import url('https://raw.githack.com/Customa/Customa/master/Chat/newEditIcon.m.css');
-        @import url('https://raw.githack.com/Customa/Customa/master/Chat/newEditText.m.css');
-        @import url('https://raw.githack.com/Customa/Customa/master/Chat/typingOnRight.m.css');
-        @import url('https://raw.githack.com/Customa/Customa/master/Emoji/jumboMoji.m.css');
-
-        @import url('https://raw.githack.com/Customa/Customa/master/Sidebar/newPlaying.m.css');
-        @import url('https://raw.githack.com/Customa/Customa/master/Sidebar/sidebarModifier.m.css');
-        @import url('https://raw.githack.com/Customa/Customa/master/Sidebar/statusCircles.m.css');
-        @import url('https://raw.githack.com/Customa/Customa/master/Webkit/placeholderRemover.m.css');
-
-        @import url('https://raw.githack.com/Customa/Customa/master/Chat/whiteThemeSupport.m.css'); /* Due to WhiteThemeSupport Overwriting a lot of fonts, it will be loaded at the last position */
+@import url('https://raw.githack.com/Customa/Customa/master/Webkit/advancedScrollbar.m.css');
+@import url('https://raw.githack.com/Customa/Customa/master/Webkit/placeholderRemover.m.css');
 
 :root{
-    --INTModAll: '    \2022  All Modules - Customa Devs (Misc \2192  allModules.m.css)\A'!important;
+    --INTModAll: '\2022  All Modules - Customa Devs (Misc \2192  allModules.m.css)\A'!important;
 }
