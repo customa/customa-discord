@@ -7,12 +7,16 @@
     z-index: -1!important;
     border-radius: 0!important;
     width: 250px!important;
-    height: 430px!important;
+    height: 600px!important;
     top: -22px!important;
     border: none!important;
     box-shadow: none;
     left: -80px!important;
     -webkit-filter: brightness(90%)!important;
+}
+
+.userPopout-3XzG_A a.anchor-3Z-8Bb, .userPopout-3XzG_A .bodyTitle-Y0qMQz{
+    color: white!important;
 }
 
 .userPopout-3XzG_A .activity-11LB_k /* Activity (Rich presence) */{
