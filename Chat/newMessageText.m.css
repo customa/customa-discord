@@ -1,0 +1,40 @@
+:root {
+    --INTModNewMessageText: '\2022  New Message Text ~ Customa Devs (Chat \2192  newMessageText.m.css)\A'!important;
+    --TextNewMessage: "Toot!"; /* mastodon time */
+}
+
+/* add the "placeholder" */
+.inner-zqa7da::before {
+    content: var(--TextNewMessage);
+    color: rgba(255, 255, 255, 0.2);
+    height: 100%;
+    position: absolute;
+    left: 0.7em;
+    top: 35%;
+    transition: left 0.2s 0.4s;
+}
+
+.inner-zqa7da:hover::before {
+    left: calc(35px + 0.7em);
+}
+
+/* hide "placeholder" on type */
+.textArea-2Spzkt {
+    background: var(--ColBackground1);
+    position: relative;
+    z-index: 1;
+}
+
+.textArea-2Spzkt:empty {
+    background: transparent;
+}
+
+.textArea-2Spzkt::-webkit-input-placeholder {
+    color: transparent !important;
+}
+
+/* emoji button gets covered by textarea */
+.channelTextArea-1LDbYG .inner-zqa7da button {
+    position: absolute;
+    z-index: 2;
+}
