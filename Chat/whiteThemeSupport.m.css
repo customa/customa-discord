@@ -164,12 +164,12 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
 
 /* Fixes role name color being to bright when using Sidebar/sidebarModifier.m.css */
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm{
-    color: hsla(0,0%,0%,.4) !important;
+    color: hsla(0,0%,0%,.4)!important;
 }
 
 /* Fixes message placeholder being too bright when using Chat/newMessageText.m.css */
 .inner-zqa7da::before{
-    color: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.2)!important;
 }
 
 /* Fixes for 'Remove 2FA' 'Reset Voice Settings' and 'Change Phone Number?' buttons being to bright */
@@ -183,7 +183,7 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
 
 /* Fix for 'What Are You Playing?!' and 'Add it!' text*/
 .theme-light .user-settings-games .not-detected .last-played {
-    color: var(--ColFont);
+    color: var(--ColFont)!important;
 }
 .lookLink-9FtZy-.colorLink-35jkBc {
     color: #00b0f4!important;
