@@ -479,7 +479,7 @@ Transitions
 }
 
 .button-1w5pas {
-    transition: opacity 200ms;
+    transition: opacity 200ms, -webkit-transfrom 200ms ease;
 }
 
 .channelTextArea-1LDbYG .inner-zqa7da > .flex-1xMQg5 /* Container of Upload Button */{
