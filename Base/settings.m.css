@@ -14,6 +14,7 @@
     --INTModBetterBlock: '';
     --INTModBetterCompact: '';
     --INTModBetterFileTypes: '';
+    --INTModCakeosTitlebar: '';
     --INTModChannelDivider: '';
     --INTModChannelsWrapper: '';
     --INTModCodeBlockLanguages: '';
@@ -62,6 +63,7 @@
         var(--INTModBetterBlock)
         var(--INTModBetterCompact)
         var(--INTModBetterFileTypes)
+        var(--INTModCakeosTitlebar)
         var(--INTModChannelDivider)
         var(--INTModChannelsWrapper)
         var(--INTModCodeBlockLanguages)

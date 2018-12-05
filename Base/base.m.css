@@ -158,7 +158,7 @@ Backgrounds & SVG Fills
     background-color: var(--ColTrue)!important;
 }
 
-.updateIconForeground-2jeItf /* Changes fill of the update Icon */, .connectedAccountVerifiedIcon-3aZz_K g path:not([fill='#ffffff']) /* Change the Color of the Verified Tick */, .selectorButton-21mL5E svg path /* Nitro Icon Screenshare Option */, .guilds-1q_RqH > .guild-1EfMGQ.selected-ML3OIq:nth-child(1) > .guildInner-3DSoA4 path, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1):hover > .guildInner-3DSoA4 path /* Serverlist Home Button when Selected/Hovered */, .verified-3uJH7V path[fill="#4f545c"] /*  */{
+.updateIconForeground-2jeItf /* Changes fill of the update Icon */, .connectedAccountVerifiedIcon-3aZz_K g path:not([fill='#ffffff']) /* Change the Color of the Verified Tick */, .selectorButton-21mL5E svg path /* Nitro Icon Screenshare Option */, .guilds-1q_RqH > .guild-1EfMGQ.selected-ML3OIq:nth-child(1) > .guildInner-3DSoA4 path, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1):hover > .guildInner-3DSoA4 path /* Serverlist Home Button when Selected/Hovered */, .verified-3uJH7V path[fill="#4f545c"] /* verified server badge */{
     fill: var(--ColAccent);
 }
 
