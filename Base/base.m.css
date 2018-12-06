@@ -325,7 +325,7 @@ Display, Opacity & Visibility
     background-image: none!important;
 }
 
-.channelTextArea-1LDbYG .inner-zqa7da button /* Upload Button and Emoji Button - Main Text Area */, .button-1w5pas /* server options arrow */, .container-2Thooq button /* mute/deafen/settings buttons */{
+.channelTextArea-1LDbYG .inner-zqa7da button /* Upload Button and Emoji Button - Main Text Area */, .button-1w5pas /* server options arrow */, .container-2Thooq button /* mute/deafen/settings buttons */, .containerDefault-3GGEv_ button /* create channel in catagory button */{
     opacity: 0;
 }
 
@@ -333,7 +333,7 @@ Display, Opacity & Visibility
     opacity: 0.6;
 }
 
-.channelTextArea-1LDbYG .inner-zqa7da:hover button /* Upload Button and Emoji Button - Main Text Area Hover effect */, .header-2o-2hj:hover .button-1w5pas /* server options hover */, .button-1w5pas.open-1Te94t /* server options hover */, .container-2Thooq button:hover /* mute/deafen/settings buttons */{
+.channelTextArea-1LDbYG .inner-zqa7da:hover button /* Upload Button and Emoji Button - Main Text Area Hover effect */, .header-2o-2hj:hover .button-1w5pas /* server options hover */, .button-1w5pas.open-1Te94t /* server options hover */, .container-2Thooq button:hover /* mute/deafen/settings buttons */, .containerDefault-3GGEv_ button /* create channel in catagory button */{
     opacity: 1!important;
 }
 
@@ -485,6 +485,10 @@ Transitions
 
 .container-2Thooq button /* mute/deafen/settings buttons */{
     transition: opacity 0.2s, background-color 0.2s;
+}
+
+.containerDefault-3GGEv_ button /* create channel in catagory button */ {
+    transition: opacity 0.2s;
 }
 
 .channelTextArea-1LDbYG .inner-zqa7da button /* Upload Button and Emoji Button - Main Text Area */{
