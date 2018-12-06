@@ -329,16 +329,11 @@ Display, Opacity & Visibility
     opacity: 0;
 }
 
-/* new rule incase I fuck something up */
-.titleWrapper-1l0xT9 div > div.flex-1xMQg5 /* title buttons */{
-    opacity: 0 !important;
-}
-
 .container-2Thooq:hover button /* mute/deafen/settings buttons */{
     opacity: 0.6;
 }
 
-.channelTextArea-1LDbYG .inner-zqa7da:hover button /* Upload Button and Emoji Button - Main Text Area Hover effect */, .header-2o-2hj:hover .button-1w5pas /* server options hover */, .button-1w5pas.open-1Te94t /* server options hover */, .container-2Thooq button:hover /* mute/deafen/settings buttons */, .containerDefault-3GGEv_ button /* create channel in catagory button */, .titleWrapper-1l0xT9:hover div > div.flex-1xMQg5 /* title buttons */{
+.channelTextArea-1LDbYG .inner-zqa7da:hover button /* Upload Button and Emoji Button - Main Text Area Hover effect */, .header-2o-2hj:hover .button-1w5pas /* server options hover */, .button-1w5pas.open-1Te94t /* server options hover */, .container-2Thooq button:hover /* mute/deafen/settings buttons */, .containerDefault-3GGEv_ button /* create channel in catagory button */{
     opacity: 1!important;
 }
 
@@ -366,14 +361,6 @@ Width & Height
 #autocomplete-popout header input{
     margin: 0 30px 0 0;
     width: 170px;
-}
-
-.titleWrapper-1l0xT9 div > div.flex-1xMQg5 {
-    width: 0;
-}
-
-.titleWrapper-1l0xT9:hover div > div.flex-1xMQg5 {
-    width: 40%;
 }
 
 .container-2Thooq /* User Container Channel Bar */{
@@ -500,10 +487,6 @@ Transitions
     transition: opacity 0.2s, background-color 0.2s;
 }
 
-.titleWrapper-1l0xT9 div > div.flex-1xMQg5 {
-    transition: opacity 0.2s 0.4s, width 0.4s 0.2s;
-}
-
 .containerDefault-3GGEv_ button /* create channel in catagory button */ {
     transition: opacity 0.2s;
 }
@@ -530,17 +513,6 @@ Transitions
 
 .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Transition Fill of Path (Home-Icon) */{
     transition: fill 200ms;
-}
-
-/*
-
-misc
-
-*/
-
-.titleWrapper-1l0xT9 div > div.flex-1xMQg5 {
-    justify-content: center;
-    overflow: hidden;
 }
 
 /*
