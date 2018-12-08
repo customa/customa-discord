@@ -148,7 +148,7 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
 }
 
 /* Settings Modal Fix */
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div::before{
     -webkit-filter: invert(100%) brightness(70%)!important;
 }
 
@@ -195,6 +195,6 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
     color: var(--ColFontBright)!important;
 }
 
-span[style*='color: rgb(79, 84, 92);'] {
+span[style*='color: rgb(79, 84, 92);']{
     color: var(--ColFontBright)!important;
 }
