@@ -198,3 +198,12 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
 span[style*='color: rgb(79, 84, 92);']{
     color: var(--ColFontBright)!important;
 }
+
+/* Fixes whtie on white text and images */
+.activityName-1IaRLn, .headerTagUsernameNoNickname-2_H881 {
+  color: var(--ColFont)!important;
+}
+
+.edited-DL9ECl {
+  filter: invert(80%);
+}
