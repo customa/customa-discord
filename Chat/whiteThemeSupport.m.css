@@ -148,11 +148,53 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
 }
 
 /* Settings Modal Fix */
-#user-settings .ui-standard-sidebar-view .sidebar-region .side-8zPYf6 div::before{
+#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div::before{
     -webkit-filter: invert(100%) brightness(70%)!important;
 }
 
 /* Divider Background Color to match Background Color */
 .dividerContent-2L12VI{
     background-color: var(--ColBackground2)!important;
+}
+
+/* Fixes channel dividers from Chat/channelDivider.m.css being to bright */
+.channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6 *{
+  color: var(--ColFont)!important;
+}
+
+/* Fixes role name color being to bright when using Sidebar/sidebarModifier.m.css */
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{
+    color: var(--ColFont)!important;
+}
+
+/* Fixes message placeholder being too bright when using Chat/newMessageText.m.css */
+.inner-zqa7da::before{
+    color: var(--ColFont)!important;
+}
+
+/* Fixes for 'Remove 2FA' 'Reset Voice Settings' and 'Change Phone Number?' buttons being to bright */
+.lookOutlined-3sRXeN.colorRed-1TFJan{
+    color: var(--ColFont)!important;
+}
+
+.lookLink-9FtZy-.colorPrimary-3b3xI6{
+    color: var(--ColFont)!important;
+}
+
+/* Fix for 'What Are You Playing?!' and 'Add it!' text*/
+.user-settings-games .not-detected .last-played{
+    color: var(--ColFontBright)!important;
+}
+
+.lookLink-9FtZy-.colorLink-35jkBc{
+    color: var(--ColFont)!important;
+}
+
+/* fixes confirmation text for roles being too bright */
+.message-c9-HCF{
+    color: var(--ColFontBright)!important;
+}
+
+span[style*='color: rgb(79, 84, 92);']{
+    color: var(--ColFontBright)!important;
 }
