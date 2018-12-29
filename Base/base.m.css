@@ -3,7 +3,7 @@
     /* DO NOT EDIT */
 
     --INTModBase: '    \2022  Base ~ Customa Devs (Base \2192  base.m.css)\A'!important;
-    --INTVarBase: '\A\A Base - Module\A \2022  --ColAppBG \2192  Allowed Values: Image/Color\A \2022  --ColAuthBG \2192  Allowed Values: Image/Color\A \2022  --ColBackground1 \2192  Allowed Values: Color\A \2022  --ColBackground2 \2192  Allowed Values: Color\A \2022  --ColAccent \2192  Allowed Values: Color\A \2022  --ColAccentAlpha \2192  Allowed Values: Color (pref. rgba(x,x,x,0.1)\A \2022  --ColAnchor \2192   Allowed Values: Color\A \2022  --ColLastMessage \2192  Allowed Values: Transparent/Color (pref. rgba(0,0,0,0.1))\A \2022  --ColTrue \2192  Allowed Values: Color (pref. Green)\A \2022  --ColFalse \2192  Allowed Values: Color (pref. Red)\A \2022  --DisplayEmbedPill \2192  Allowed Values: None/Block\A \2022  --DisplayNoConnectionBackdraw \2192  Allowed Values: None/Flex'!important;
+    --INTVarBase: '\A\A Base - Module\A \2022  --ColAppBG \2192  Allowed Values: Image/Color\A \2022  --ColAuthBG \2192  Allowed Values: Image/Color\A \2022  --ColBackground1 \2192  Allowed Values: Color\A \2022  --ColBackground2 \2192  Allowed Values: Color\A \2022  --ColAccent \2192  Allowed Values: Color\A \2022  --ColAccentAlpha \2192  Allowed Values: Color (pref. rgba(x,x,x,0.1)\A \2022  --ColAnchor \2192   Allowed Values: Color\A \2022  --ColLastMessage \2192  Allowed Values: Transparent/Color (pref. rgba(0,0,0,0.1))\A \2022  --ColTrue \2192  Allowed Values: Color (pref. Green)\A \2022  --ColFalse \2192  Allowed Values: Color (pref. Red)\A \2022  --DisplayEmbedPill \2192  Allowed Values: None/Block\A \2022  --DisplayEmbedPill \2192  Allowed Values: None/Block\A \2022  --DisplayNoConnectionBackdraw \2192  Allowed Values: None/Flex'!important;
 
     /* SECONDARY LAYOUT */
 
@@ -18,6 +18,7 @@
     --ColFalse: #F44336;
     --ColTrue: #8BC34A;
     --DisplayEmbedPill: none;
+    --DisplayBlockedUserMessage: block;
     --DisplayNoConnectionBackdraw: flex;
 
     /* PRIMARY LAYOUT */
@@ -75,7 +76,7 @@ Backgrounds & SVG Fills
     background-position: left top;
     background-size: cover!important;
 } */
-.layers-3iHuyZ, .layer-3QrUeG, .layer-3QrUeG .flex-1xMQg5:not(.headerBar-UHpsPw), .chat-3bRxxu, .content-yTz4x3, .standardSidebarView-3F1I7i, .sidebarRegion-VFTUkN, .popoutList-T9CKZQ, .create-guild-container .form-inner, .sidebar-1-SQro, .popout-2sKjHu /* Pretty much only all the elements adding additional background colors, all disabled, to make the shared background work */, .chat-3bRxxu form /* Main Form Element in the main chat window */, .menu-Sp6bN1, .messagesPopoutWrap-1MQ1bW, .container-3ayLPN, .emojiPicker-3m1S-j, .container-3cGP6G, .popout-3sVMXz .contextMenu-HLZMGh /* Inner Popout Selectors to unify colors */ , .emojiPicker-3m1S-j .category-2U57w6 /* Categories of Emoji Picker */, .dimmer-3iH-5D.visible-3k45bQ /* Emoji Selector Dimmer - When opening diversity selector */, .userPopout-3XzG_A .body-3iLsc4, .userPopout-3XzG_A .header-2BwW8b /* User Popout Header & Body */, .search-bar /* Reset Searchbar */, .hasMore-3e72_v button /* Button when top of chat is reached */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .searchAnswer-3Dz2-q /* What the filter searches for */, .channel-separator span /* Channel seperator Search */, .menu-Sp6bN1 .item-1GzJrl:hover, .container-3cGP6G .item-2J1YMK:hover, .container-3ayLPN .option-96V44q.selected-rZcOL-, .item-1Yvehc:hover /* Menu hover effects */, .topSectionPlaying-1J5E4n, .topSectionNormal-2-vo2m, .topSectionSpotify-1lI0-P, .topSectionStreaming-1Tpf5X /* Header of User Modal */, pre code /* Multiline Code Box Color Fix */, .media-engine-video, .previewContainer-37c2Si /* Transparent Layer for the Webcam Preview */, .modal-3HD5ck .message-2qRu38 .container-1YxwTf:last-of-type /* Transparent Message Delete and Pin Notif */, .carousel-JbsNzL /* Article Carousel Activity Tab */, .card-7JP0BX .body-SKIE6r, .newsLink-38Naqi /* Now Playing Friend Card Body & News Body */, .need-help-modal .form-inner /* F1 Menu Inner */, #autocomplete-popout section /* Section Member Roles Add Popout */, .container-1UB9sr /* In Voice Container */, .container-2x5lvQ section /* RTC Connection Body */, .closeButton-1tv5uR:hover /* Button to close Menues */, .guild-1EfMGQ .guildInner-3DSoA4, .guild-1EfMGQ /* Guild Real Transparency */, .uploadModal-2ifh8j .footer-3mqk7D /* Upload Modal Footer */, .uploadModal-2ifh8j .button:not(.button-primary) /* Upload Modal Button Cancel */, .colorPickerCustom-2CWBn2 /* Role Color Picker */, .guild-1EfMGQ .guildsError-3cFMtY /* Guild with outage */, .ace_gutter /* BetterDiscord Custom CSS Editor */, .react-datepicker, .react-datepicker__header /* React Datepicker */, .react-datepicker__day--outside-month /* Datepicker - Out of month */, .footer-2VgWkh /* Footer of "no camera" modal */, .itemBackground-1jfD8p /* Item Background for Carusel Store Page */, .article-3kb3qm /* Selected article Actvitiy Menu */, .everyonePopout-nEbJY3 /* Popup that appears when mentioning everyone */, .quickSelectPopout-X1hvgV /* Region Select DM call */, .quickSelectPopoutOption-opKBx9:hover /* Region Select DM call hover */, .header-2o-2hj:hover /* server option button */, .container-2Thooq button /* mute/deafen/settings buttons */{
+.layers-3iHuyZ, .layer-3QrUeG, .layer-3QrUeG .flex-1xMQg5:not(.headerBar-UHpsPw), .chat-3bRxxu, .content-yTz4x3, .standardSidebarView-3F1I7i, .sidebarRegion-VFTUkN, .popoutList-T9CKZQ, .sidebar-1-SQro, .popout-2sKjHu /* Pretty much only all the elements adding additional background colors, all disabled, to make the shared background work */, .chat-3bRxxu form /* Main Form Element in the main chat window */, .menu-Sp6bN1, .messagesPopoutWrap-1MQ1bW, .container-3ayLPN, .emojiPicker-3m1S-j, .container-3cGP6G, .popout-3sVMXz .contextMenu-HLZMGh /* Inner Popout Selectors to unify colors */ , .emojiPicker-3m1S-j .category-2U57w6 /* Categories of Emoji Picker */, .dimmer-3iH-5D.visible-3k45bQ /* Emoji Selector Dimmer - When opening diversity selector */, .userPopout-3XzG_A .body-3iLsc4, .userPopout-3XzG_A .header-2BwW8b /* User Popout Header & Body */, .search-bar /* Reset Searchbar */, .hasMore-3e72_v button /* Button when top of chat is reached */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .searchAnswer-3Dz2-q /* What the filter searches for */, .channel-separator span /* Channel seperator Search */, .menu-Sp6bN1 .item-1GzJrl:hover, .container-3cGP6G .item-2J1YMK:hover, .container-3ayLPN .option-96V44q.selected-rZcOL-, .item-1Yvehc:hover /* Menu hover effects */, .topSectionPlaying-1J5E4n, .topSectionNormal-2-vo2m, .topSectionSpotify-1lI0-P, .topSectionStreaming-1Tpf5X /* Header of User Modal */, pre code /* Multiline Code Box Color Fix */, .media-engine-video, .previewContainer-37c2Si /* Transparent Layer for the Webcam Preview */, .modal-3HD5ck .message-2qRu38 .container-1YxwTf:last-of-type /* Transparent Message Delete and Pin Notif */, .carousel-JbsNzL /* Article Carousel Activity Tab */, .card-7JP0BX .body-SKIE6r, .newsLink-38Naqi /* Now Playing Friend Card Body & News Body */, .need-help-modal .form-inner /* F1 Menu Inner */, #autocomplete-popout section /* Section Member Roles Add Popout */, .container-1UB9sr /* In Voice Container */, .container-2x5lvQ section /* RTC Connection Body */, .closeButton-1tv5uR:hover /* Button to close Menues */, .guild-1EfMGQ .guildInner-3DSoA4, .guild-1EfMGQ /* Guild Real Transparency */, .uploadModal-2ifh8j .footer-3mqk7D /* Upload Modal Footer */, .uploadModal-2ifh8j .button:not(.button-primary) /* Upload Modal Button Cancel */, .colorPickerCustom-2CWBn2 /* Role Color Picker */, .guild-1EfMGQ .guildsError-3cFMtY /* Guild with outage */, .ace_gutter /* BetterDiscord Custom CSS Editor */, .react-datepicker, .react-datepicker__header /* React Datepicker */, .react-datepicker__day--outside-month /* Datepicker - Out of month */, .footer-2VgWkh /* Footer of "no camera" modal */, .itemBackground-1jfD8p /* Item Background for Carusel Store Page */, .article-3kb3qm /* Selected article Actvitiy Menu */, .everyonePopout-nEbJY3 /* Popup that appears when mentioning everyone */, .quickSelectPopout-X1hvgV /* Region Select DM call */, .quickSelectPopoutOption-opKBx9:hover /* Region Select DM call hover */, .header-2o-2hj:hover /* server option button */{
     background-color: transparent!important;
 }
 
@@ -84,7 +85,7 @@ Backgrounds & SVG Fills
     background-color: rgba(0,0,0,0)!important;
 }
 
-.guildsWrapper-5TJh6A /* Guilds Wrapper */, .privateChannels-1nO12o .searchBar-6Kv8R2, .container-2Rl01u /* Search bar(s) for DM + Container in Servers for Server name */, .container-2Thooq /* User Container Channel Bar */, .popout-3sVMXz, .popout-2nUePc, .modal-3HD5ck, .modal-1UGdnR .inner-1JeGVc .root-SR8cQa, .premiumPaymentModal-3SpIbo, .add-game-popout, .select-2TCrqx .Select-control /* Main Popout & Modal Class(es) */, .emojiPicker-3m1S-j .stickyHeader-1SS0JU /* Emoji Selector Sticky Selector */, .typing-2GQL18 /* Typing Indicator */, .jumpToPresentBar-9P20AM /* Jump To Present Bar */, .contextMenu-HLZMGh /* Single popout for profiles and deletion of messages */, .divider-3gKybi:not(.dividerRed-MKoLlr) div /* Divider Fixes */, .embedInner-1-fpTo, .attachment-33OFj0, .wrapper-35wsBm, .wrapperAudio-1jDe0Q /* Element which holds the embed & attachment contents */, .grabber-3mFHz2 .bubble-3we2di /* Grabber - Shows Value of Sliders */, .select-2TCrqx .Select-menu-outer /* Multiselect Select Menu - Background */, .headerBar-UHpsPw /* Header Bar Friends List */, .quickswitcher-3JagVE /* Quick Switcher */, .autocomplete-1vrmpx /* Autocomplete */, .keyboardShortcutsModal-3piNz7, .overflowRolesPopout-140n9i, .need-help-modal /* Modals that can't be colored normally - Keyboard Menu, Menu for Overflowing Roles Members Menu, F1 Menu */, .messageGroupBlocked-3wrQQX /* Message sent from a person that blocked you */, .create-guild-container /* Create Guild Container */, .channelTextArea-1LDbYG .inner-zqa7da /* Autocomplete Fix for Transparent Themes */, .members-1998pB /* Server Member Bar */, .regionSelectModal-12e-57 /* Regional Select Modal */, .uploadModal-2ifh8j /* Upload Modal */, .container-16j22k /* Loading Container */, .uploadDropModal-2kTwbc, .uploadArea-3QgLtW .bgScale-1otPtc /* Whole Drop Modal */, .gamePreview-9weYR2 /* Game Modal Sidebar BG */, .authBox-hW6HRx /* Login Modal */, .editor-wrapper #bd-customcss-editor, #bd-customcss-attach-controls /* BetterDiscord Custom CSS Editor */, .theme-dark .messageGroupWrapper-o-Zw7G /* Pinned Message Wrapper Color Change on Dark Theme */, .unread-1xRYoj /* Unread Indicator Channel Wrapper */, .search-results-wrap /* Main Wrapper for search */, .bd-toast /* Toast Indicator that appears when enabling or disabling themes */, .switch-3wwwcV, .ui-switch /* Switch Unticked */, .userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 /* User Settings */, .attachPopout-1n-ZKM /* Invite to ... Popup */, .filterByTitle-1b4n21 /* Filter By Title Searchbar Store Page */, .premium-39U29H .arrow-1QsYio /* Premium Box Carousel Buttons */, .carousel-2WxMes /* Remove Blue Blur - Activity */, .tileWrapper-2khh-w /* Items new Store */, .popout-2xBvMR /* Popout Game Store */, .applicationStore-1pNvnv .tileMedia-24cT6_ /* Big Media Boxes (with Video) */, .purchaseUnit-2lxci3 /* Purchase Box  Game Page */, .whyYouMightLikeIt-2zZIIj /* Why you might like it box Game Page */, .features-_IOqVv .row-1bU71H /* Feature Rows Game Page */, .tier1Banner-1B_WXY /* Tier 1 (Lightro) Banner */, .ace_editor, .ace_gutter /* bd editor */{
+.guildsWrapper-5TJh6A /* Guilds Wrapper */, .privateChannels-1nO12o .searchBar-6Kv8R2, .container-2Rl01u /* Search bar(s) for DM + Container in Servers for Server name */, .container-2Thooq /* User Container Channel Bar */, .popout-3sVMXz, .popout-2nUePc, .modal-3HD5ck, .modal-1UGdnR .inner-1JeGVc .root-SR8cQa, .premiumPaymentModal-3SpIbo, .add-game-popout, .select-2TCrqx .Select-control, .modal-1UGdnR .contentWrapper-3WC1ID /* Main Popout & Modal Class(es) */, .emojiPicker-3m1S-j .stickyHeader-1SS0JU /* Emoji Selector Sticky Selector */, .typing-2GQL18 /* Typing Indicator */, .jumpToPresentBar-9P20AM /* Jump To Present Bar */, .contextMenu-HLZMGh /* Single popout for profiles and deletion of messages */, .divider-3gKybi:not(.dividerRed-MKoLlr) div /* Divider Fixes */, .embedInner-1-fpTo, .attachment-33OFj0, .wrapper-35wsBm, .wrapperAudio-1jDe0Q /* Element which holds the embed & attachment contents */, .grabber-3mFHz2 .bubble-3we2di /* Grabber - Shows Value of Sliders */, .select-2TCrqx .Select-menu-outer /* Multiselect Select Menu - Background */, .headerBar-UHpsPw /* Header Bar Friends List */, .quickswitcher-3JagVE /* Quick Switcher */, .autocomplete-1vrmpx /* Autocomplete */, .keyboardShortcutsModal-3piNz7, .overflowRolesPopout-140n9i, .need-help-modal /* Modals that can't be colored normally - Keyboard Menu, Menu for Overflowing Roles Members Menu, F1 Menu */, .messageGroupBlocked-3wrQQX /* Message sent from a person that blocked you */, .channelTextArea-1LDbYG .inner-zqa7da /* Autocomplete Fix for Transparent Themes */, .members-1998pB /* Server Member Bar */, .regionSelectModal-12e-57 /* Regional Select Modal */, .uploadModal-2ifh8j /* Upload Modal */, .container-16j22k /* Loading Container */, .uploadDropModal-2kTwbc, .uploadArea-3QgLtW .bgScale-1otPtc /* Whole Drop Modal */, .gamePreview-9weYR2 /* Game Modal Sidebar BG */, .authBox-hW6HRx /* Login Modal */, .editor-wrapper #bd-customcss-editor, #bd-customcss-attach-controls /* BetterDiscord Custom CSS Editor */, .theme-dark .messageGroupWrapper-o-Zw7G /* Pinned Message Wrapper Color Change on Dark Theme */, .unread-1xRYoj /* Unread Indicator Channel Wrapper */, .search-results-wrap /* Main Wrapper for search */, .bd-toast /* Toast Indicator that appears when enabling or disabling themes */, .switch-3wwwcV, .ui-switch /* Switch Unticked */, .userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 /* User Settings */, .attachPopout-1n-ZKM /* Invite to ... Popup */, .filterByTitle-1b4n21 /* Filter By Title Searchbar Store Page */, .premium-39U29H .arrow-1QsYio /* Premium Box Carousel Buttons */, .carousel-2WxMes /* Remove Blue Blur - Activity */, .tileWrapper-2khh-w /* Items new Store */, .popout-2xBvMR /* Popout Game Store */, .applicationStore-1pNvnv .tileMedia-24cT6_ /* Big Media Boxes (with Video) */, .purchaseUnit-2lxci3 /* Purchase Box  Game Page */, .whyYouMightLikeIt-2zZIIj /* Why you might like it box Game Page */, .features-_IOqVv .row-1bU71H /* Feature Rows Game Page */, .tier1Banner-1B_WXY /* Tier 1 (Lightro) Banner */, .ace_editor, .ace_gutter /* bd editor */, .incomingCall-14zLcL /* Incomming Call */, .progress-1IcQ3A /* New Mic Test Discord Progress */, .animator-US5i9g /* Create or Join Server Popup Background */{
     background-color: var(--ColBackground1)!important;
     background: var(--ColBackground1)!important;
 }
@@ -93,7 +94,7 @@ Backgrounds & SVG Fills
     background-color: var(--ColBackground1)!important;
 }
 
-.channels-Ie2l6A /* Channels scroller for both DMs and Servers */, .privateChannels-1nO12o /* Channels scroller container for both DMs and Servers */, .messagesWrapper-3lZDfY /* The main chat window */, .modal-1UGdnR .inner-1JeGVc .body-3ND3kc /* Body of User Modal */, .dividerRed-MKoLlr span /* Divider "Red" Fixes */, .contentRegion-3nDuYy /* Content Region - Settings Menu */, .activityFeed-28jde9, #friends /* Activity Feed & Friends Menu*/, .keybindShortcut-1BD6Z1 span /* Keybind */, .body-1SVoBw /* Game Modal Content BG */, .gameLibrary-TTDw4Y /* Game Library */, .reactors-Blmlhw /* Reactions Right half, sidebar-1-SQro is left half */, .container-_CzRhL /* Body of "no camera" modal */, .stickyHeader-1pqx0j /* Game Library Table Header */, .noChannel-Z1DQK7 /* When channel selections break */, .applicationStore-1pNvnv /* Store */, .ace_scroller, .ace_content /* bd editor */{
+.channels-Ie2l6A /* Channels scroller for both DMs and Servers */, .privateChannels-1nO12o /* Channels scroller container for both DMs and Servers */, .messagesWrapper-3lZDfY /* The main chat window */, .modal-1UGdnR .inner-1JeGVc .body-3ND3kc /* Body of User Modal */, .dividerRed-MKoLlr span /* Divider "Red" Fixes */, .contentRegion-3nDuYy /* Content Region - Settings Menu */, .activityFeed-28jde9, #friends /* Activity Feed & Friends Menu*/, .keybindShortcut-1BD6Z1 span /* Keybind */, .body-1SVoBw /* Game Modal Content BG */, .gameLibrary-TTDw4Y /* Game Library */, .reactors-Blmlhw /* Reactions Right half, sidebar-1-SQro is left half */, .container-_CzRhL /* Body of "no camera" modal */, .stickyHeader-1pqx0j /* Game Library Table Header */, .noChannel-Z1DQK7 /* When channel selections break */, .applicationStore-1pNvnv /* Store */, .ace_scroller, .ace_content /* bd editor */, .root-26DmKJ /* Nitro Games Library */{
     background-color: var(--ColBackground2)!important;
     background: var(--ColBackground2)!important;
 }
@@ -102,15 +103,11 @@ Backgrounds & SVG Fills
     background-color: var(--ColBackground2)!important;
 }
 
-.newMessagesBar-mujexs /* Bar that appears in the chat div when you have a new message in the channel */, .checkbox .checkbox-inner input[type=checkbox]:checked+span /* Checkbox Selectors */, .dividerRed-MKoLlr div /* Divider Red Fixes */, .unread-1Dp-OI, .guild-1EfMGQ.unread-qLkInr::before, .guild-1EfMGQ.selected-ML3OIq::before /* Dots and Lines for Server Select and Unread Notifs */, .button-38aScr:not(.colorRed-1TFJan):not(.lookLink-9FtZy-):not(.button-2b6hmh):not(.attachButton-1UjEWA):not(.emojiButton-3uL3Aw):not(.lookBlank-3eh9lL), .questionMark-CWEQZn /* Buttons */, .slider-1PF9SW .barFill-23-gu- /* Slider Settings Bar Fill */, .notificationSettings-1NQKPR .option-n0icdO.selected-mKYnfr /* Selected Option Overlay Notif Settings */, .bd-pfbtn, .bda-settings-button /* Buttons for Better Discord */, .now-playing /*  Game Activity*/, .paginationItem-2lUq0s.selectedPage-3cFHgU::before /* Activity Feed Page Page Bubble */, #friends .tab-bar-item-primary /* Add Friend Button Friends Menu */, .need-help-modal .header /* Header of F1 Menu */, .autocomplete-header-background /* Add Role Popout Header */, .container-2x5lvQ header /* RTC Connection Header */, .selectorButtonSelected-1j4DmC /* Stream Quality and Frame Rate */, .guildIcon-lQ0uiM:not(.guildIconExpired-2Qcq05) /* Fallback Guild Icon Color INVITE */, .containerDragBefore-31UGCO::before, .containerDragAfter-1F4fgZ::after, .containerDragBefore-3Dzc5x::before, .containerDragAfter-3TEhpe::before /* Small Box that appears when dragging channels and categs */, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl.fakeEdges-27pgtp::before, .mediaBarProgress-1xaPtl.fakeEdges-27pgtp::after, .mediaBarGrabber-1FqnbN /* All Kinds of Media Controls */, .create-guild-container .create .btn /* Buttons Create Guild */, .create-guild-container .form-actions .btn-default, .create-guild-container .create-guild .btn-primary /* Create Guild Container Bottom Buttons */, .regionSelect-3lf4eE:hover button /* Regional Select Button Fixes */, .uploadModal-2ifh8j .button-primary /* Upload Modal Button Upload */, .guild-1EfMGQ:first-child.selected-ML3OIq .guildInner-3DSoA4 /* Guild Fixes */, .progressContainer-3ao-eu .progressBar-3u8FBM /* Progress of Upload */, .spinner-2enMB9 .wanderingCubesItem-WPXqao, .spinner .spinner-item /* Spinner Element */, .badge-1GsMF2, .mention-1f5kbO /* Unread Badge */, .hue-13HAGb > div > div > div > div /* Role Color Picker Handle */, .botTagRegular-2HEhHi /* Bot Tag */, .wrapper-232cHJ /* Friend Request Block */, .standardSidebarView-3F1I7i #editor-detached button /* Better Discord Custom CSS Editor Attach Button */, .switch-3wwwcV.valueChecked-m-4IJZ, .ui-switch.checked /* Switch Ticked */, .hintValue-29ny8Z /* Hint Value for Datepicker */, .blog-2nw4E8 /* Blog Entry from Discord */, .bd-server-card.bd-server-card-pinned:after /* Public Server, pinned server line */, #pubslayer button /* Pub Servers Reconnect Button */, .priceSalePercentage-AqGkYF /* Percentage */, .iconBadge-2dji3k /* New Pins Notifier */{
+.newMessagesBar-mujexs /* Bar that appears in the chat div when you have a new message in the channel */, .checkbox .checkbox-inner input[type=checkbox]:checked+span /* Checkbox Selectors */, .dividerRed-MKoLlr div /* Divider Red Fixes */, .unread-1Dp-OI, .guild-1EfMGQ.unread-qLkInr::before, .guild-1EfMGQ.selected-ML3OIq::before /* Dots and Lines for Server Select and Unread Notifs */, .button-38aScr:not(.colorRed-1TFJan):not(.lookLink-9FtZy-):not(.button-2b6hmh):not(.attachButton-1UjEWA):not(.emojiButton-3uL3Aw):not(.lookBlank-3eh9lL), .questionMark-CWEQZn /* Buttons */, .slider-1PF9SW .barFill-23-gu- /* Slider Settings Bar Fill */, .notificationSettings-1NQKPR .option-n0icdO.selected-mKYnfr /* Selected Option Overlay Notif Settings */, .bd-pfbtn, .bda-settings-button /* Buttons for Better Discord */, .now-playing /*  Game Activity*/, .paginationItem-2lUq0s.selectedPage-3cFHgU::before /* Activity Feed Page Page Bubble */, #friends .tab-bar-item-primary /* Add Friend Button Friends Menu */, .need-help-modal .header /* Header of F1 Menu */, .autocomplete-header-background /* Add Role Popout Header */, .container-2x5lvQ header /* RTC Connection Header */, .selectorButtonSelected-1j4DmC /* Stream Quality and Frame Rate */, .guildIcon-lQ0uiM:not(.guildIconExpired-2Qcq05) /* Fallback Guild Icon Color INVITE */, .containerDragBefore-31UGCO::before, .containerDragAfter-1F4fgZ::after, .containerDragBefore-3Dzc5x::before, .containerDragAfter-3TEhpe::before /* Small Box that appears when dragging channels and categs */, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl.fakeEdges-27pgtp::before, .mediaBarProgress-1xaPtl.fakeEdges-27pgtp::after, .mediaBarGrabber-1FqnbN /* All Kinds of Media Controls */, .animator-US5i9g .create-3jownz .actionButton-2PeQbJ /* Buttons Create Guild */, .regionSelect-3lf4eE:hover button /* Regional Select Button Fixes */, .uploadModal-2ifh8j .button-primary /* Upload Modal Button Upload */, .guild-1EfMGQ:first-child.selected-ML3OIq .guildInner-3DSoA4 /* Guild Fixes */, .progressContainer-3ao-eu .progressBar-3u8FBM /* Progress of Upload */, .spinner-2enMB9 .wanderingCubesItem-WPXqao, .spinner .spinner-item /* Spinner Element */, .badge-1GsMF2, .mention-1f5kbO /* Unread Badge */, .hue-13HAGb > div > div > div > div /* Role Color Picker Handle */, .botTagRegular-2HEhHi /* Bot Tag */, .wrapper-232cHJ /* Friend Request Block */, .standardSidebarView-3F1I7i #editor-detached button /* Better Discord Custom CSS Editor Attach Button */, .switch-3wwwcV.valueChecked-m-4IJZ, .ui-switch.checked /* Switch Ticked */, .hintValue-29ny8Z /* Hint Value for Datepicker */, .blog-2nw4E8 /* Blog Entry from Discord */, .bd-server-card.bd-server-card-pinned:after /* Public Server, pinned server line */, #pubslayer button /* Pub Servers Reconnect Button */, .priceSalePercentage-AqGkYF, .salePercentage-TXZz3H /* Percentage */, .iconBadge-2dji3k /* New Pins Notifier */, .annualDiscount-1VxngV /* Gift Nitro Menu Annual Discount Tag */, .container-3ISnnM .content-ySCtCx .results-3i9FaE div[style*='background-color'] /* Loading Animation New GIF Selector */{
     background-color: var(--ColAccent)!important;
 }
 
-.isMentionedCozy-3isp7y:after /* Mention "Handle" */{
-    border-left-color: var(--ColAccent);
-}
-
-.messagesPopoutWrap-1MQ1bW .header-ykumBX, .messagesPopoutWrap-1MQ1bW .footer-1kmXd4, .emojiPicker-3m1S-j .header-1nkwgG, .modal-3HD5ck .footer-2yfCgX /* Inner Popout & Modal Selector Header and Footer */, .contentSelectedText-3wUhMi, .contentHoveredText-2D9B-x, .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ a, .privateChannels-1nO12o .channel-2QD9_O:hover a /* Selected & Hovered Channel */, .popout-2nUePc .item-16cXuq:hover /* Diversity Selector on Hover */, .member-3W1lQa:hover .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4 /* Member Selector Hover and Selected */, .userPopout-3XzG_A .footer-1fjuF6 /* User Popout Footer */, .quickMessage-2XpSaN /* Quickmessage box in the user popout */, .search-l1Wz-Q /* Searchbar for Channel Search */, .actionButtons-1sUUug .jumpButton-3DTcS_, .action-buttons .jump-button /* Jump Button to jump to the selected message group */, .searchFilter-2ESiM3 /* Search Filter - Search */, .queryContainer-RKFJW-.focused-2bY0OD, .search-header /* Header of the search bar */, .search-result-message.hit /* The exact message that was searched for */, .emojiPicker-3m1S-j .search-bar-inner /* Searchbar of Emoji Picker */, .channelNotice-1-XFjC, .channelNotice-1-XFjC .btn-11C5_u /* Notices that come up at  the top of the channel list (invite people) + Button in it*/, .emojiItem-109bjA.selected-39BZ4S /* Hover Effect Emoji Item Emoji Picker */, .connectedAccount-36nQx7 /* Connected Account User Modal */, .modal-1UGdnR .inner-1JeGVc .tabBarContainer-1s1u-z /* Border of the Tab Bar Container in the User Modal */, pre, code.inline /* Code Boxes */, .card-3Qj_Yx /* Card Element, used for the user Component in my account for example */, .actionButton-3W1xZa, .side-8zPYf6 .item-PXvHYJ:not([style*='back']):hover, .ui-tab-bar-item:hover /* Settings Sidebar + BD Selectors Sidebar */, .fancy-credit-input, .friends-table-add .wrapper-1cBijl /* Credit Card Input & Find Friend Input */, .slider-1PF9SW .bar-2Qqk5Z /* Slider Settings Empty Bar Fill */, .checkbox-1ix_J3 /* Settings Checkboxes */, .accountBtnInner-sj5jLs /* Account Button (Connections Menu) */, .notificationSettings-1NQKPR .wrapper-3jrx9n /* Wrapper for the Notification Settings of the Overlay */, .notificationSettings-1NQKPR .option-n0icdO /* Option Overlay Notif Settings */, .message-2qRu38 /* Delete and Pin Notif Pin Layer */, .card-FDVird:before /* Keybinds & Games Card Hover effect */, .not-detected /* Game Activity */, .select-2TCrqx /* Multiselect */, .select-2TCrqx .Select-option.is-selected, .select-2TCrqx .Select-option:hover /* Selection and Hover Multiselect */, .personalizationNotice-2HTAH2, .card-7JP0BX /* Activity Feed Boxes */, .article-FleDq5 /* Article Activity Feed */, #friends .tab-bar-item.selected, #friends .tab-bar-item:hover /* Top bar Action Button Select */, .avatar-uploader-inner /* Avatar Uploader Inner */, .friends-row:hover, .friends-row .friends-action, .friend-2PO6ke.friendSelected--wQP3f, .search-bar-inner .anchor-3Z-8Bb /* Friends Row Button & Friends Row Hover & Friends Add Popout Selection Color & Add Friend Popout Tag Searchbar */, .quickswitcher-3JagVE .input-2VB9rf, .quickswitcher-3JagVE .resultFocused-3aIoYe /* Quickswitcher Input & Focus */, .autocompleteRow-2OthDa .selectorSelected-1_M1WV, #help-query /* Input of F1 Menu */, .need-help-modal .footer /* Footer F1 Menu */, .messageEditorCompact-2PSR3v /* Message Editor */, .popoutList-T9CKZQ .selectableItem-1MP3MQ:hover, .popoutListInput-1l9TUI /* Filter Member Settings Hovered Item + Searchbar */, .flex-1xMQg5.searchBar-1MOL6S /* Members Filter Input */, .emoji-row .inputMini-2xQV9P /* Input Emoji Rename */, .buttonInfo-3nkbOt:hover /* Info Button when in voice */, .actions-2vadYq .iconsWrapper-1RelE3 /* Action Box Call */, .inner-1JeGVc .modal-3HD5ck .tiles-2aXG_k /* Screensharing All Boxes */, .inviteRow-2L02ae:hover /* Invite Friends to Server Row Hover */, .guildIconExpired-2Qcq05 /* Expired Guild INVITE */, .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-  /* Message sent from a person that blocked you Button */, .bda-slist li /* Better Discord Plugins and Themes Boxes */, .mediaBarPreview-1jfyFs, .mediaBarPreview-1jfyFs.fakeEdges-27pgtp::before, .mediaBarPreview-1jfyFs.fakeEdges-27pgtp::after /* All Kinds of Media Controls - Hover Effect on Bar */, .create-guild-container .form-inner .actions .action, .create-guild-container .form-actions, .create-guild-container input /* Create Guild Container Objects */, .regionSelectModalOption-2DSIZ3 /* Option on Regional Select Modal */, .uploadModal-2ifh8j .channelTextArea-1LDbYG .inner-zqa7da /* Channel Text Area fix in Upload Modal */, .guild-1EfMGQ:first-child .guildInner-3DSoA4 /* Guild Fixes */, .progressContainer-3ao-eu .progress-3Rbvu0 /* Empty Progressbar of Upload */, .placeholderAvatar-uzH8f6, .memberGroupsPlaceholder-3mwPub /* Placeholder when loading member wrap fails */, .containerDefault-1ZnADq:active .content-20Aix8, .botTagInvert-18-95s, .membersWrap-2h-GB4 .botTagRegular-2HEhHi /* User Popout & User Modal & Members Wrap Bot Tag */, .authBox-hW6HRx input /* Input Login Modal */, .aka-1mqp34 /* aka badge, for server nicknames */, #bd-customcss-detach-controls-button button /* BetterDiscord Custom CSS Editor */, .rowWrapperActive-2L7i9f /* Game Row Library Menu */, .videoHeight-Qp_9vC:hover .video-1FfuMD:not(.minimum-1pRSEN) .videoInner-3OR9J2 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.videoBottom-2_HYXG /* Bar which holds action items in voice call */, .audioControls-2HsaU6, .mediaBarInteractionVolume-3QZqYd /* Audio Controls from MP3 + Audio Bar */, .libraryFilterInput-3JzqZD /* Library Filter Input */, .game-name-input:hover, .game-name-input:focus /* Game Name Input */, .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.auditLog-3jNbM6.marginBottom8-AtZOdT /* Audit Log entry */, .invite-18yqGF /* Spotify Invite */, .defaultIndicator-2X8Auf /* Default Indicator Game Install Location */, .wrapper-2NJDcI /* Voice chat max user indicator */, .react-datepicker__day:not(.react-datepicker__day--outside-month), .react-datepicker__day.react-datepicker__day--weekend.react-datepicker__day--outside-month /* Valid Day of Datepicker */, .reactionSelected-1pqISm, .reactionDefault-GBA58K:hover /* Selected Reaction & Hover */, .applicationStore-1pNvnv .tile-2H4MQG /* Game boxes on Store */, .browseSearchInput-Jt8kg0 /* Store Search */, .everyonePopout-nEbJY3 .footer-2aTx0s /* Popup that appears when mentioning everyone */, .recommendationReason-21q3aC .iconCircle-1dlYo0 /* Icon Circle Popout Store */, .purchaseUnit-2lxci3 .bodySection-jqkkIP /* Purchase Box Game Page Color Fix */, .input-autosize-input:focus /* Group Chat Name */, .content-35aVm0 /* Discord Server Join Store Page */, .theme-dark .attachPopoutRow-KrE-f6:hover /* Rich Presence Thing */, .container-2Thooq button:hover /* mute/deafen/settings buttons */{
+.messagesPopoutWrap-1MQ1bW .header-ykumBX, .messagesPopoutWrap-1MQ1bW .footer-1kmXd4, .emojiPicker-3m1S-j .header-1nkwgG, .modal-3HD5ck .footer-2yfCgX /* Inner Popout & Modal Selector Header and Footer */, .contentSelectedText-3wUhMi, .contentHoveredText-2D9B-x, .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ a, .privateChannels-1nO12o .channel-2QD9_O:hover a /* Selected & Hovered Channel */, .popout-2nUePc .item-16cXuq:hover /* Diversity Selector on Hover */, .member-3W1lQa:hover .content-OzHfo4, .member-3W1lQa.popout-open .content-OzHfo4 /* Member Selector Hover and Selected */, .userPopout-3XzG_A .footer-1fjuF6 /* User Popout Footer */, .quickMessage-2XpSaN /* Quickmessage box in the user popout */, .search-l1Wz-Q /* Searchbar for Channel Search */, .actionButtons-1sUUug .jumpButton-3DTcS_, .action-buttons .jump-button /* Jump Button to jump to the selected message group */, .searchFilter-2ESiM3 /* Search Filter - Search */, .queryContainer-RKFJW-.focused-2bY0OD, .search-header /* Header of the search bar */, .search-result-message.hit /* The exact message that was searched for */, .emojiPicker-3m1S-j .search-bar-inner /* Searchbar of Emoji Picker */, .channelNotice-1-XFjC, .channelNotice-1-XFjC .btn-11C5_u /* Notices that come up at  the top of the channel list (invite people) + Button in it*/, .emojiItem-109bjA.selected-39BZ4S /* Hover Effect Emoji Item Emoji Picker */, .connectedAccount-36nQx7 /* Connected Account User Modal */, .modal-1UGdnR .inner-1JeGVc .tabBarContainer-1s1u-z /* Border of the Tab Bar Container in the User Modal */, pre, code.inline /* Code Boxes */, .card-3Qj_Yx /* Card Element, used for the user Component in my account for example */, .actionButton-3W1xZa, .side-8zPYf6 .item-PXvHYJ:not([style*='back']):hover, .ui-tab-bar-item:hover /* Settings Sidebar + BD Selectors Sidebar */, .fancy-credit-input, .friends-table-add .wrapper-1cBijl /* Credit Card Input & Find Friend Input */, .slider-1PF9SW .bar-2Qqk5Z /* Slider Settings Empty Bar Fill */, .checkbox-1ix_J3 /* Settings Checkboxes */, .accountBtnInner-sj5jLs /* Account Button (Connections Menu) */, .notificationSettings-1NQKPR .wrapper-3jrx9n /* Wrapper for the Notification Settings of the Overlay */, .notificationSettings-1NQKPR .option-n0icdO /* Option Overlay Notif Settings */, .message-2qRu38 /* Delete and Pin Notif Pin Layer */, .card-FDVird:before /* Keybinds & Games Card Hover effect */, .not-detected /* Game Activity */, .select-2TCrqx /* Multiselect */, .select-2TCrqx .Select-option.is-selected, .select-2TCrqx .Select-option:hover /* Selection and Hover Multiselect */, .personalizationNotice-2HTAH2, .card-7JP0BX /* Activity Feed Boxes */, .article-FleDq5 /* Article Activity Feed */, #friends .tab-bar-item.selected, #friends .tab-bar-item:hover, .topPill-30KHOu .itemSelected-1qLhcL, .topPill-30KHOu .item-PXvHYJ:hover /* Top bar Action Button Select */, .avatar-uploader-inner /* Avatar Uploader Inner */, .friends-row:hover, .friends-row .friends-action, .friend-2PO6ke.friendSelected--wQP3f, .search-bar-inner .anchor-3Z-8Bb /* Friends Row Button & Friends Row Hover & Friends Add Popout Selection Color & Add Friend Popout Tag Searchbar */, .quickswitcher-3JagVE .input-2VB9rf, .quickswitcher-3JagVE .resultFocused-3aIoYe /* Quickswitcher Input & Focus */, .autocompleteRow-2OthDa .selectorSelected-1_M1WV, #help-query /* Input of F1 Menu */, .need-help-modal .footer /* Footer F1 Menu */, .messageEditorCompact-2PSR3v /* Message Editor */, .popoutList-T9CKZQ .selectableItem-1MP3MQ:hover, .popoutListInput-1l9TUI /* Filter Member Settings Hovered Item + Searchbar */, .flex-1xMQg5.searchBar-1MOL6S /* Members Filter Input */, .emoji-row .inputMini-2xQV9P /* Input Emoji Rename */, .buttonInfo-3nkbOt:hover /* Info Button when in voice */, .actions-2vadYq .iconsWrapper-1RelE3 /* Action Box Call */, .inner-1JeGVc .modal-3HD5ck .tiles-2aXG_k /* Screensharing All Boxes */, .inviteRow-2L02ae:hover /* Invite Friends to Server Row Hover */, .guildIconExpired-2Qcq05 /* Expired Guild INVITE */, .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-  /* Message sent from a person that blocked you Button */, .bda-slist li /* Better Discord Plugins and Themes Boxes */, .mediaBarPreview-1jfyFs, .mediaBarPreview-1jfyFs.fakeEdges-27pgtp::before, .mediaBarPreview-1jfyFs.fakeEdges-27pgtp::after /* All Kinds of Media Controls - Hover Effect on Bar */, .animator-US5i9g .actions-pBaxX6 .action-1lSjCi /* Create Guild Container Objects */, .regionSelectModalOption-2DSIZ3 /* Option on Regional Select Modal */, .uploadModal-2ifh8j .channelTextArea-1LDbYG .inner-zqa7da /* Channel Text Area fix in Upload Modal */, .guild-1EfMGQ:first-child .guildInner-3DSoA4 /* Guild Fixes */, .progressContainer-3ao-eu .progress-3Rbvu0 /* Empty Progressbar of Upload */, .placeholderAvatar-uzH8f6, .memberGroupsPlaceholder-3mwPub /* Placeholder when loading member wrap fails */, .containerDefault-1ZnADq:active .content-20Aix8, .botTagInvert-18-95s, .membersWrap-2h-GB4 .botTagRegular-2HEhHi /* User Popout & User Modal & Members Wrap Bot Tag */, .authBox-hW6HRx input /* Input Login Modal */, .aka-1mqp34 /* aka badge, for server nicknames */, #bd-customcss-detach-controls-button button /* BetterDiscord Custom CSS Editor */, .rowWrapperActive-2L7i9f /* Game Row Library Menu */, .videoHeight-Qp_9vC:hover .video-1FfuMD:not(.minimum-1pRSEN) .videoInner-3OR9J2 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.videoBottom-2_HYXG /* Bar which holds action items in voice call */, .audioControls-2HsaU6, .mediaBarInteractionVolume-3QZqYd /* Audio Controls from MP3 + Audio Bar */, .libraryFilterInput-3JzqZD /* Library Filter Input */, .game-name-input:hover, .game-name-input:focus /* Game Name Input */, .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.auditLog-3jNbM6.marginBottom8-AtZOdT /* Audit Log entry */, .invite-18yqGF /* Spotify Invite */, .defaultIndicator-2X8Auf /* Default Indicator Game Install Location */, .wrapper-2NJDcI /* Voice chat max user indicator */, .react-datepicker__day:not(.react-datepicker__day--outside-month), .react-datepicker__day.react-datepicker__day--weekend.react-datepicker__day--outside-month /* Valid Day of Datepicker */, .reactionSelected-1pqISm, .reactionDefault-GBA58K:hover /* Selected Reaction & Hover */, .applicationTile-1Goy1W, .applicationStore-1pNvnv .tile-367QuY /* Game boxes on Store */, .browseSearchInput-Jt8kg0 /* Store Search */, .everyonePopout-nEbJY3 .footer-2aTx0s /* Popup that appears when mentioning everyone */, .recommendationReason-21q3aC .iconCircle-1dlYo0 /* Icon Circle Popout Store */, .purchaseUnit-2lxci3 .bodySection-jqkkIP /* Purchase Box Game Page Color Fix */, .input-autosize-input:focus /* Group Chat Name */, .content-35aVm0 /* Discord Server Join Store Page */, .theme-dark .attachPopoutRow-KrE-f6:hover /* Rich Presence Thing */, .pill-1dHPfk /* Pills join link */, .incomingCallInner-2VmFiR /* Incomming Call Inner Color Fix */, .container-2Thooq button:hover /* mute/deafen/settings buttons */, .option-1l2vXE /* Gift Nitro Menu Options */{
     background-color: rgba(0,0,0,0.2)!important;
 }
 
@@ -154,7 +151,7 @@ Backgrounds & SVG Fills
     background-color: #F44336;
 }
 
-.create-guild-container.deprecated .action:hover.join .btn, .create-guild-container .join .btn, .create-guild-container .join-server .btn-primary /* Second Header Create Guild Container */{
+.animator-US5i9g .join-33Tr-7 .actionButton-2PeQbJ /* Second Header Create Guild Container */{
     background-color: var(--ColTrue)!important;
 }
 
@@ -181,12 +178,20 @@ Backgrounds & SVG Fills
     background: var(--ColBackground1)!important;
 }
 
-.tag-HanR-9, .tag-HanR-9::before /* First on Discord - Badge Store */, .headerFancy-1AcCLF /* Premium Header Game Page & First on Discord */{
+.tag-HanR-9, .tag-HanR-9::before /* First on Discord - Badge Store */, .headerFancy-1AcCLF /* Premium Header Game Page & First on Discord */, .revenueShareUpsell-27xExj /* We give 20% more revenue to Game Devs Shill */{
     background: var(--ColAccent)!important;
 }
 
-.tileWrapper-2khh-w .mediaDescription-31GsyQ{
+.tileWrapper-2khh-w .mediaDescription-31GsyQ /* Big Store Item */{
     background: linear-gradient(180deg,transparent,var(--ColBackground1), 45%,var(--ColBackground1));
+}
+
+.footer-3oZnEF /* Footer Store */{
+    background: url(/assets/72e1fd085e240aecf005e642e655c0f4.svg) no-repeat bottom,url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/StoreBottomBackground.svg') no-repeat bottom/100%!important;
+}
+
+.notches-1sAcEM /* Notches new Mic Test */{
+    background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/NotchesMicTest')!important;
 }
 
 /*
@@ -195,7 +200,7 @@ Borders, Box Shadows and Strokes
 
 */
 
-.channelTextArea-1LDbYG /* Main Channel Text Area - Main Chat Window */, .messagesPopoutWrap-1MQ1bW /* Inner Popout Selectors to unify colors */, .popout-2nUePc, .emojiPicker-3m1S-j /* Diversity & Emoji Selector Popout */, .quickMessage-2XpSaN /* Quickmessage box in the user popout */, .userPopout-3XzG_A .footer-1fjuF6 /* User Popout Footer */, .hasMore-3e72_v button /* Button when top of chat is reached */, .messageGroupWrapper-o-Zw7G /* Pinned Messages and mentions popout message group */, .search-result-message.hit /* The exact message that was searched for */, .connectedAccount-36nQx7 /* Connected Account User Modal */, .modal-1UGdnR .inner-1JeGVc .tabBarContainer-1s1u-z /* Border of the Tab Bar Container in the User Modal */, pre /* Multiline Code Box Border Fix */, .embedInner-1-fpTo, .attachment-33OFj0, .wrapper-35wsBm, .wrapperAudio-1jDe0Q /* Element which holds the embed & attachment contents */, .card-3Qj_Yx /* Card Element, used for the user Component in my account for example */, .button-38aScr:not(.colorRed-1TFJan):not(.lookLink-9FtZy-):not(.button-2b6hmh):not(.attachButton-1UjEWA):not(.emojiButton-3uL3Aw):not(.lookBlank-3eh9lL), .questionMark-CWEQZn /* Buttons */, .checkbox-1ix_J3:not(.checked-3_4uQ9) /* Main Settings Checkbox */, .channelNotice-1-XFjC .btn-11C5_u /* Channel Notice Button */, .card-FDVird:before /* Keybinds & Games Card Hover effect */, .personalizationNotice-2HTAH2 /* We want to spy on you Nofication */, .friends-table-add, #friends .friends-table .friend-table-add-wrapper .friend-table-add-header /* Friends Table Find new friends */, .friends-table-add .wrapper-1cBijl /* Find Friend Input */, #help-query /* Input of F1 Menu */, .need-help-modal .footer /* Footer F1 Menu */, .container-1UB9sr /* In Voice Container */, .actions-2vadYq .iconsWrapper-1RelE3 /* Action Box Call */, .closeButton-1tv5uR, .btn-close /* Button to close Menues */, .create-guild-container .form-actions .btn-default, .create-guild-container input, .create-guild-container input:focus, .create-guild-container .form-actions, .create-guild-container .action /* Create Guild Container Objects */, .colorPickerCustom-2CWBn2 /* Role Color Picker */, .search-bar .search-bar-inner /* Search Bar DMs */, #bd-customcss-detach-controls-button button /* BetterDiscord Custom CSS Editor */, .game-name-input /* Game Name Input */, .auditLog-3jNbM6 /* Audit Log entry */, .invite-18yqGF /* Spotify Invite */, .react-datepicker__navigation /* React Datepicker */, .react-datepicker__day /* Day of Datepicker */, .container-3ayLPN /* Search Popout */, .datePickerHint-3Q1Udw /* Date Picker Hint */{
+.channelTextArea-1LDbYG /* Main Channel Text Area - Main Chat Window */, .messagesPopoutWrap-1MQ1bW /* Inner Popout Selectors to unify colors */, .popout-2nUePc, .emojiPicker-3m1S-j /* Diversity & Emoji Selector Popout */, .quickMessage-2XpSaN /* Quickmessage box in the user popout */, .userPopout-3XzG_A .footer-1fjuF6 /* User Popout Footer */, .hasMore-3e72_v button /* Button when top of chat is reached */, .messageGroupWrapper-o-Zw7G /* Pinned Messages and mentions popout message group */, .search-result-message.hit /* The exact message that was searched for */, .connectedAccount-36nQx7 /* Connected Account User Modal */, .modal-1UGdnR .inner-1JeGVc .tabBarContainer-1s1u-z /* Border of the Tab Bar Container in the User Modal */, pre /* Multiline Code Box Border Fix */, .embedInner-1-fpTo, .attachment-33OFj0, .wrapper-35wsBm, .wrapperAudio-1jDe0Q /* Element which holds the embed & attachment contents */, .card-3Qj_Yx /* Card Element, used for the user Component in my account for example */, .button-38aScr:not(.colorRed-1TFJan):not(.lookLink-9FtZy-):not(.button-2b6hmh):not(.attachButton-1UjEWA):not(.emojiButton-3uL3Aw):not(.lookBlank-3eh9lL), .questionMark-CWEQZn /* Buttons */, .checkbox-1ix_J3:not(.checked-3_4uQ9) /* Main Settings Checkbox */, .channelNotice-1-XFjC .btn-11C5_u /* Channel Notice Button */, .card-FDVird:before /* Keybinds & Games Card Hover effect */, .personalizationNotice-2HTAH2 /* We want to spy on you Nofication */, .friends-table-add, #friends .friends-table .friend-table-add-wrapper .friend-table-add-header /* Friends Table Find new friends */, .friends-table-add .wrapper-1cBijl /* Find Friend Input */, #help-query /* Input of F1 Menu */, .need-help-modal .footer /* Footer F1 Menu */, .container-1UB9sr /* In Voice Container */, .actions-2vadYq .iconsWrapper-1RelE3 /* Action Box Call */, .closeButton-1tv5uR, .btn-close /* Button to close Menues */, .animator-US5i9g .actions-pBaxX6 .action-1lSjCi, .cancelButton-RGXhAE /* Create Guild Container Objects */, .colorPickerCustom-2CWBn2 /* Role Color Picker */, .search-bar .search-bar-inner /* Search Bar DMs */, #bd-customcss-detach-controls-button button /* BetterDiscord Custom CSS Editor */, .game-name-input /* Game Name Input */, .auditLog-3jNbM6 /* Audit Log entry */, .invite-18yqGF /* Spotify Invite */, .react-datepicker__navigation /* React Datepicker */, .react-datepicker__day /* Day of Datepicker */, .container-3ayLPN /* Search Popout */, .datePickerHint-3Q1Udw /* Date Picker Hint */, .incomingCallInner-2VmFiR /* Border Fix for incoming call */, .messageGroupBlocked-3wrQQX /* Blocked Message Border */{
     border: none!important;
 }
 
@@ -207,11 +212,15 @@ Borders, Box Shadows and Strokes
     border-top-color: var(--ColBackground1)!important;
 }
 
-.tab-bar .tab-bar-item.selected, .tab-bar .tab-bar-item:hover, .search-header .tab.selected, .search-header .tab:hover, .item-1TLUig:hover, .item-1TLUig.selected-P8xTeN /* Tab bar (used in search for example) to change between states, hover effect thereof */, .checkbox .checkbox-inner input[type=checkbox]:checked+span /* Checkbox Selectors */, .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus /* Input Focus Changes */, .accountBtnInner-sj5jLs:hover /* Account Button (Connections Menu) */, .notificationSettings-1NQKPR .wrapper-3jrx9n /* Wrapper for the Notification Settings of the Overlay */, .card-3Qj_Yx[style*='border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);'] .checkbox-1ix_J3 /* Main Checkbox in the Settings */, .checkbox-1ix_J3.round-2jCFai.checked-3_4uQ9 /* Language Select */, .select-2TCrqx:hover .Select-control /* Multiselect */, .emojiPicker-3m1S-j .item-16cXuq.selected-39BZ4S /* Emoji Picker Selected Tab */, .checkbox-1ix_J3.checked-3_4uQ9 /* Add Friends Popout Checkmark */, .emoji-row .inputMini-2xQV9P:hover /* Input Emoji Rename */, .imageSelected-4Kl81J /* Screenshare Selected Window */, .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce, .regionSelect-3lf4eE:hover button /* Regional Select Border Fixes */, .regionSelectModalOption-2DSIZ3:hover /* Option on Regional Select Modal */, .uploadModal-2ifh8j .inner-3nWsbo, .uploadModal-2ifh8j .icon-kyxXVr /* Modal Inner & Modal Preview */, .uploadArea-3QgLtW div /* Change Color of Drop Modal Border */, .uploadDropModal-2kTwbc.error-kKl9o2 .inner-3nWsbo /* Border Fix for a failed UploadModal */, .overlappingBorder-1ysb12 /* Selected Carusel Item (Store - Overview) */, .dividerRed-MKoLlr::before, .dividerRed-MKoLlr::after /* Divider Red */, .overlappingBorder-1-XPGl /* Selected Carusel Item (Store - Game) */{
+.isMentionedCozy-3isp7y:after /* Mention "Handle" */{
+    border-left-color: var(--ColAccent);
+}
+
+.tab-bar .tab-bar-item.selected, .tab-bar .tab-bar-item:hover, .search-header .tab.selected, .search-header .tab:hover, .item-1TLUig:hover, .item-1TLUig.selected-P8xTeN /* Tab bar (used in search for example) to change between states, hover effect thereof */, .checkbox .checkbox-inner input[type=checkbox]:checked+span /* Checkbox Selectors */, .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus /* Input Focus Changes */, .accountBtnInner-sj5jLs:hover /* Account Button (Connections Menu) */, .notificationSettings-1NQKPR .wrapper-3jrx9n /* Wrapper for the Notification Settings of the Overlay */, .card-3Qj_Yx[style*='border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);'] .checkbox-1ix_J3 /* Main Checkbox in the Settings */, .checkbox-1ix_J3.round-2jCFai.checked-3_4uQ9 /* Language Select */, .select-2TCrqx:hover .Select-control /* Multiselect */, .emojiPicker-3m1S-j .item-16cXuq.selected-39BZ4S /* Emoji Picker Selected Tab */, .checkbox-1ix_J3.checked-3_4uQ9 /* Add Friends Popout Checkmark */, .emoji-row .inputMini-2xQV9P:hover /* Input Emoji Rename */, .imageSelected-4Kl81J /* Screenshare Selected Window */, .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce, .regionSelect-3lf4eE:hover button /* Regional Select Border Fixes */, .regionSelectModalOption-2DSIZ3:hover /* Option on Regional Select Modal */, .uploadModal-2ifh8j .inner-3nWsbo, .uploadModal-2ifh8j .icon-kyxXVr /* Modal Inner & Modal Preview */, .uploadArea-3QgLtW div /* Change Color of Drop Modal Border */, .uploadDropModal-2kTwbc.error-kKl9o2 .inner-3nWsbo /* Border Fix for a failed UploadModal */, .overlappingBorder-1ysb12 /* Selected Carusel Item (Store - Overview) */, .dividerRed-MKoLlr::before, .dividerRed-MKoLlr::after /* Divider Red */, .overlappingBorder-1-XPGl /* Selected Carusel Item (Store - Game) */, .guildsAdd-21_IdK /* Add new Guild */{
     border-color: var(--ColAccent)!important;
 }
 
-.create-guild-container .avatar-uploader-inner /* Avatar Uploader Create Guild Container */, .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .regionSelect-3lf4eE button /* Regional Select Border Fixes */{
+.animator-US5i9g .avatar-uploader-inner /* Avatar Uploader Create Guild Container */, .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .regionSelect-3lf4eE button /* Regional Select Border Fixes */{
     border-color: rgba(0,0,0,0.2);
 }
 
@@ -237,6 +246,10 @@ Borders, Box Shadows and Strokes
     border-radius: 0;
 }
 
+.contextMenu-HLZMGh /* Right Click Context Menu */{
+    border-radius: 3px!important;
+}
+
 .container-2Thooq button {
     border-radius: 50%;
 }
@@ -245,7 +258,7 @@ Borders, Box Shadows and Strokes
     border-color: rgba(0,0,0,0.6);
 }
 
-.searchBar-2_Yu-C, .header-2o-2hj /* Search bar(s) for DM + Container in Servers for Server name */, .title-3qD0b- /* Channel Name Title */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .search-result-message.hit /* The exact message that was searched for */, .isLocalBot-38G0P0 /* Clyde Message / Local Bot */, .message-2qRu38 /* Delete and Pin Notif Pin Layer */, #help-query /* Input of F1 Menu */, .inner-1JeGVc .modal-3HD5ck .tiles-2aXG_k /* Screensharing All Boxes */, .unreadMentionsBar-1VrBNe /* Removes shadow below Discord logo */, .privateChannels-1nO12o .searchBar-6Kv8R2 /* Search Bar in Private Channels */, .headerBar-UHpsPw /* Title Bar Game Library */, .unread-1s3J68 .bar-30k2ka /* Remove shadow below channelswrapper box top */, .everyonePopout-nEbJY3 /* Popup that appears when mentioning everyone */, .input-autosize:hover .input-autosize-input /* Group DM Name Container */{
+.searchBar-2_Yu-C, .header-2o-2hj /* Search bar(s) for DM + Container in Servers for Server name */, .title-3qD0b- /* Channel Name Title */, .actionButtons-1sUUug, .action-buttons /* Action Buttons in the message Popouts and the search */, .search-result-message.hit /* The exact message that was searched for */, .isLocalBot-38G0P0 /* Clyde Message / Local Bot */, .message-2qRu38 /* Delete and Pin Notif Pin Layer */, #help-query /* Input of F1 Menu */, .inner-1JeGVc .modal-3HD5ck .tiles-2aXG_k /* Screensharing All Boxes */, .unreadMentionsBar-1VrBNe /* Removes shadow below Discord logo */, .privateChannels-1nO12o .searchBar-6Kv8R2 /* Search Bar in Private Channels */, .headerBar-UHpsPw /* Title Bar Game Library */, .unread-1s3J68 .bar-30k2ka /* Remove shadow below channelswrapper box top */, .everyonePopout-nEbJY3 /* Popup that appears when mentioning everyone */, .input-autosize:hover .input-autosize-input /* Group DM Name Container */, .footer-2yfCgX /* Footer Create Server */{
     box-shadow: none!important;
 }
 
@@ -259,6 +272,10 @@ Borders, Box Shadows and Strokes
 
 .callAvatarBorder-1D_KaE.speaking-oCqYMI, .avatarSpeaking-1wJCNq{
     box-shadow: inset 0 0 0 2px var(--ColAccent)!important;
+}
+
+.result-3w1ZcL:hover:after /* GIF Selector Result Hover effect */{
+    box-shadow: inset 0 0 0 2px var(--ColAccent), inset 0 0 0 3px #2f3136
 }
 
 .card-3Qj_Yx[style*='border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);'] .checkbox-1ix_J3 polyline /* Settings Checkboxes Color Override */, .checkbox-1ix_J3.round-2jCFai.checked-3_4uQ9 polyline /* Language Select */, .checkbox-1ix_J3.checked-3_4uQ9 polyline /* Add Friends Popout Checkmark */,  .spinningCircle-2NAjGW .circular-2NaZOq .path2-1q7bG_,  .spinningCircle-2NAjGW .circular-2NaZOq .path-92Hmty:last-of-type /* Spinner Element */, .filterAndSort-gLX1Ym > div .arrow-2KJjTM path /* Select Label Filter Arrow Store Page */, .wrapper-1u09nF[role="progressbar"] .foreground-2aE44H, .checkmarkIcon-2EnYwn polyline /* Checkmark Icon Store Page */, .planFeatureIcon-2IPRYs polyline /* Lightro Checkmark */{
@@ -275,11 +292,11 @@ Color & Text - Align
 
 */
 
-.hasMore-3e72_v button /* Button when top of chat is reached */, .searchAnswer-3Dz2-q /* What the filter searches for */, .menu-Sp6bN1 .item-1GzJrl:hover, .container-3ayLPN .option-96V44q.selected-rZcOL- span:nth-of-type(2), .container-3ayLPN .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc:not(.disabled-2xniQf):hover /* Menu hover effects */, .tab-bar .tab-bar-item.selected, .search-header .tab.selected, .item-1TLUig:hover, .item-1TLUig.selected-P8xTeN /* Tab bar (used in search for example) to change between states, hover effect thereof */, .dividerRed-MKoLlr span /* Divider "Red" Fixes */, .select-2TCrqx .Select-option.is-selected /* Multiselect Selected Value */, #friends .tab-bar-item.selected /* Top bar Action Button Select */, .welcomeMessage-3_Mcht h1 /* Welcome Message */, .reactionMe-23mbRf .reactionCount-2ddRoS /* tfw you react */, .mention:not([style*='color']), .wrapper-3WhCwL:not([style*='color']) /* Mentioned when not some role color is defined */, .create-guild-container .create .action-header, .create-guild-container header, .create-guild-container .sample-link, .create-guild-container .create-guild h5 /* Text Create Guild */, .regionSelect-3lf4eE button /* Regional Select Button Fixes */, .regionSelectModalHeader-21khC1 /* Header for Regional Select Modal */, .regionSelectModalOption-2DSIZ3 .regionSelectName-2-2FWh /* Option on Regional Select Modal Text */, .guild-1EfMGQ:hover .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Hover */, .selected-ML3OIq .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Selected */, .lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp /* Link Button */, .announcingNitro-3Ptg6m /* Announcing Nitro Store */, .message-15tBk4 strong /* Sync Permission Dialog - Channel Names */, .filterAndSort-gLX1Ym > div .selectLabel-2ltwlE /* Select Label Filters Store Page */, #pubslayer .ui-tab-bar-header a /* Discordservers.com Text Pub Servers */, .premiumHeaderPrice-1F1CMD /* Premium Header Pricing Game Page */, .quickSelectPopoutOption-opKBx9:hover .regionSelectName-c5qL8O /* Region Select DM call hover */, .ace_cursor /* bd editor cursor */{
+.hasMore-3e72_v button /* Button when top of chat is reached */, .searchAnswer-3Dz2-q /* What the filter searches for */, .menu-Sp6bN1 .item-1GzJrl:hover, .container-3ayLPN .option-96V44q.selected-rZcOL- span:nth-of-type(2), .container-3ayLPN .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc:not(.disabled-2xniQf):hover /* Menu hover effects */, .tab-bar .tab-bar-item.selected, .search-header .tab.selected, .item-1TLUig:hover, .item-1TLUig.selected-P8xTeN, .topPill-30KHOu .itemSelected-1qLhcL /* Tab bar (used in search for example) to change between states, hover effect thereof */, .dividerRed-MKoLlr span /* Divider "Red" Fixes */, .select-2TCrqx .Select-option.is-selected /* Multiselect Selected Value */, #friends .tab-bar-item.selected /* Top bar Action Button Select */, .welcomeMessage-3_Mcht h1 /* Welcome Message */, .reactionMe-23mbRf .reactionCount-2ddRoS /* tfw you react */, .mention:not([style*='color']), .wrapper-3WhCwL:not([style*='color']) /* Mentioned when not some role color is defined */, .animator-US5i9g .create-3jownz .actionHeader-2CT5c7, .animator-US5i9g .header-3ZP1MY, .animator-US5i9g .sampleLink-KPFu3I, .animator-US5i9g .title-2Dc-Cb /* Text Create Guild */, .regionSelect-3lf4eE button /* Regional Select Button Fixes */, .regionSelectModalHeader-21khC1 /* Header for Regional Select Modal */, .regionSelectModalOption-2DSIZ3 .regionSelectName-2-2FWh /* Option on Regional Select Modal Text */, .guild-1EfMGQ:hover .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Hover */, .selected-ML3OIq .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Selected */, .lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp /* Link Button */, .announcingNitro-3Ptg6m /* Announcing Nitro Store */, .message-15tBk4 strong /* Sync Permission Dialog - Channel Names */, .filterAndSort-gLX1Ym > div .selectLabel-2ltwlE /* Select Label Filters Store Page */, #pubslayer .ui-tab-bar-header a /* Discordservers.com Text Pub Servers */, .premiumHeaderPrice-1F1CMD /* Premium Header Pricing Game Page */, .quickSelectPopoutOption-opKBx9:hover .regionSelectName-c5qL8O /* Region Select DM call hover */, .ace_cursor /* bd editor cursor */, .guildsAddInner-1KMFy- /* Guild Add Inner */, .price-1rEl-z /* Gift Nitro Menu Price */{
     color: var(--ColAccent)!important;
 }
 
-.anchor-3Z-8Bb:not(.reviewCircle-1o-MOB), .anchor-3Z-8Bb.embedTitleLink-1Zla9e, #bd-settings-sidebar a, .filenameLinkWrapper-1-14c5, .genre-1Fi2SE /* <a> fixes */ {
+.anchor-3Z-8Bb:not(.reviewCircle-1o-MOB):not(.revenueShareUpsellButton-1Y1wut), .revenueShareUpsellButton-1Y1wut:hover, .anchor-3Z-8Bb.embedTitleLink-1Zla9e, #bd-settings-sidebar a, .filenameLinkWrapper-1-14c5, .genre-1Fi2SE /* <a> fixes */, .endText-3SrwuD a /* Go back to top - GIF Selector */ {
     color: var(--ColAnchor)!important;
 }
 
@@ -287,7 +304,7 @@ Color & Text - Align
     color: #dcddde!important;
 }
 
-.button-38aScr /* Buttons */, #friends .tab-bar-item-primary.selected /* Top bar Action Button Select */, #help-query /* Input of F1 Menu */, #autocomplete-popout h3, #autocomplete-popout input /* Add Role Popout Header */, .create-guild-container .form-actions .btn-default /* Create Guild Container Bottom Buttons */, .regionSelect-3lf4eE:hover button /* Regional Select Button Fixes */, .uploadModal-2ifh8j .button-primary /* Upload Modal Button Upload */, .botTagInvert-18-95s /* User Popout & User Modal Bot Tag */, .channelTextAreaUpload-3t7EIx .autocompleteRow-2OthDa .content-Qb0rXO > div:not(.flexChild-faoVW3) /* Color of Autocomplete Field Upload Modal */, .standardSidebarView-3F1I7i #editor-detached h3 /* BetterDiscord Custom CSS Editor Detached Text */, .noticeDanger-7u-yT9 .button-1MICoQ /* Help Button on "no mic" notice */{
+.button-38aScr /* Buttons */, #friends .tab-bar-item-primary.selected /* Top bar Action Button Select */, #help-query /* Input of F1 Menu */, #autocomplete-popout h3, #autocomplete-popout input /* Add Role Popout Header */, .animator-US5i9g input /* Create Guild Input */, .regionSelect-3lf4eE:hover button /* Regional Select Button Fixes */, .uploadModal-2ifh8j .button-primary /* Upload Modal Button Upload */, .botTagInvert-18-95s /* User Popout & User Modal Bot Tag */, .channelTextAreaUpload-3t7EIx .autocompleteRow-2OthDa .content-Qb0rXO > div:not(.flexChild-faoVW3) /* Color of Autocomplete Field Upload Modal */, .standardSidebarView-3F1I7i #editor-detached h3 /* BetterDiscord Custom CSS Editor Detached Text */, .noticeDanger-7u-yT9 .button-1MICoQ /* Help Button on "no mic" notice */{
     color: white!important;
 }
 
@@ -295,7 +312,7 @@ Color & Text - Align
     color: #F44336!important;
 }
 
-.item-1Yvehc.danger-2dXSTE:hover /* Red Item in Context Menues */, .create-guild-container .join .action-header, .create-guild-container .join-server h5 /* Second Header Create Guild Container */, .react-datepicker__day /* Datepicker - Out of month */{
+.item-1Yvehc.danger-2dXSTE:hover /* Red Item in Context Menues */, .animator-US5i9g .join-33Tr-7 .actionHeader-2CT5c7, .animator-US5i9g .title-2CFvp_ /* Second Header Create Guild Container */, .react-datepicker__day /* Datepicker - Out of month */{
     color: var(--ColTrue)!important;
 }
 
@@ -313,12 +330,16 @@ Display, Opacity & Visibility
 
 */
 
-.clickOverride-1J40_l /* makes pinned objects interactable */, .jumpToPresentBar-9P20AM button:nth-child(2) /* Second Button of the Jump To Present Bar */, .newMessagesBar-mujexs button:nth-child(2), .search-result::before, .search-result::after, .search-result-message.hit::after /* Removing the weirdest ever box shadows, all from the search results*/, .attachButtonDivider-3Glu60 /* Divider between Upload Button and Textarea */, .overflowRolesPopoutArrow-2O66oH /* Members Settings, too many roles overflow menu Arrow - I HAVE NO IDEA WHAT THIS IS FOR: https://imgur.com/a/eoQHEc1 */, .create-guild-container .form-actions .btn-default::before, .create-guild-container .action-icon, .create-guild-container .or /* Create Guild Container Objects */, #bd-customcss-attach-controls #bd-customcss-detach-controls-button span /* Changes will be lost span BetterDiscord Custom CSS Editor */, .auditLog-3jNbM6 .divider-1pnAR2 /* Audit Log Entry and Details Divider */, .ace_tooltip /* bd editor tooltip */{
+.clickOverride-1J40_l /* makes pinned objects interactable */, .jumpToPresentBar-9P20AM button:nth-child(2) /* Second Button of the Jump To Present Bar */, .newMessagesBar-mujexs button:nth-child(2), .search-result::before, .search-result::after, .search-result-message.hit::after /* Removing the weirdest ever box shadows, all from the search results*/, .attachButtonDivider-3Glu60 /* Divider between Upload Button and Textarea */, .overflowRolesPopoutArrow-2O66oH /* Members Settings, too many roles overflow menu Arrow - I HAVE NO IDEA WHAT THIS IS FOR: https://imgur.com/a/eoQHEc1 */, .animator-US5i9g .actionIcon-2IISM_, .animator-US5i9g .or-3THJsp /* Create Guild Container Objects */, #bd-customcss-attach-controls #bd-customcss-detach-controls-button span /* Changes will be lost span BetterDiscord Custom CSS Editor */, .auditLog-3jNbM6 .divider-1pnAR2 /* Audit Log Entry and Details Divider */, .ace_tooltip /* bd editor tooltip */, .pickerButtons-v-PPYK button:nth-last-child(3) /* Disable Nitro Gift Button in Textarea */{
     display: none;
 }
 
 .embedPill-1Zntps /* Display the Embed Pill or not */{
     display: var(--DisplayEmbedPill);
+}
+
+.messageGroupBlocked-3wrQQX, .messageGroupBlocked-3wrQQX + .divider-3gKybi{
+    display: var(--DisplayBlockedUserMessage);
 }
 
 .ace_gutter-cell.ace_info, .ace_gutter-cell.ace_warning, .ace_gutter-cell.ace_error /* bd editor errors/warnings */{
@@ -337,7 +358,6 @@ Display, Opacity & Visibility
     opacity: 1!important;
 }
 
-
 /*
 
 Margin & Padding
@@ -345,9 +365,23 @@ Width & Height
 
 */
 
-.channelTextArea-1LDbYG /* Main Channel Text Area - Main Chat Window */, .chat-3bRxxu form /* Main Form Element in the main chat window */, .create-guild-container .action /* Action Boxes Create Guild Container */{
+.channelTextArea-1LDbYG /* Main Channel Text Area - Main Chat Window */, .chat-3bRxxu form /* Main Form Element in the main chat window */{
     margin: 0;
     padding: 0!important;
+}
+
+.animator-US5i9g .actions-pBaxX6 .action-1lSjCi{
+    margin-top: 5%;
+}
+
+.animator-US5i9g .actions-pBaxX6 .action-1lSjCi:first-child{
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+.animator-US5i9g .actions-pBaxX6 .action-1lSjCi:nth-child(2){
+    margin-left: 20px;
+    margin-right: -20px;
 }
 
 #bd-customcss-attach-controls{
@@ -396,7 +430,7 @@ Width & Height
     padding: 14px 38px 10px 10px;
 }
 
-.emojiButton-3uL3Aw /* Emoji Button */{
+.pickerButtons-v-PPYK button /* Buttons in Textfield */{
     margin-top: 4px;
 }
 
@@ -471,7 +505,7 @@ Transitions
 
 */
 
-.tab-bar .tab-bar-item.selected, .item-1TLUig /* Tab bar (used in search for example) to change between states, hover effect thereof */, .menu-Sp6bN1 .item-1GzJrl:hover, .container-3ayLPN .option-96V44q.selected-rZcOL- span:nth-of-type(2), .container-3ayLPN .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc /* Menu hover effects */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Hover */, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Serverlist Home Button */, .lookLink-9FtZy-.colorBrand-3pXr91 .contents-18-Yxp /* Link Button */, .quickSelectPopoutOption-opKBx9 .regionSelectName-c5qL8O /* Region Select DM call text */{
+.tab-bar .tab-bar-item.selected, .item-1TLUig, .itemDefault-3Jdr52 /* Tab bar (used in search for example) to change between states, hover effect thereof */, .menu-Sp6bN1 .item-1GzJrl:hover, .container-3ayLPN .option-96V44q.selected-rZcOL- span:nth-of-type(2), .container-3ayLPN .option-96V44q.selected-rZcOL- strong, .container-3cGP6G .item-2J1YMK:hover, .item-1Yvehc /* Menu hover effects */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* No Image Server Hover */, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Serverlist Home Button */, .lookLink-9FtZy-.colorBrand-3pXr91 .contents-18-Yxp /* Link Button */, .quickSelectPopoutOption-opKBx9 .regionSelectName-c5qL8O /* Region Select DM call text */{
     transition: color 400ms;
 }
 
@@ -610,34 +644,19 @@ Fix for broken Create Guild Container Shit
 
 */
 
-.create-guild-container .form-actions .btn-default /* Create Guild Container Bottom Buttons */{
-    width: 80px;
-    padding: 4px;
-    border-radius: 3px;
-}
-
-.create-guild-container .create-or-join .action /* Action Blocks - Now Round */{
+.animator-US5i9g .action-1lSjCi /* Action Blocks - Now Round */{
     border-radius: 100%;
     height: 228px;
     margin-top: 5%;
 }
 
-.create-guild-container .action-body /* Seperate Buttons from Text because that shit broken as fuck - Create Guild Container */{
-    margin-top: 26%!important;
+.animator-US5i9g .actionBody-1qj65C /* Seperate Buttons from Text because that shit broken as fuck - Create Guild Container */{
+    margin-top: 20%!important;
 }
 
-.create-guild-container .action .btn /* Buttons in the Action Buttons */{
-    margin-top: 22%!important;
-}
-
-.create-guild-container #guild-name /* Guild Textbox */{
-    padding-left: 5%;
-    color: white;
-}
-
-.create-guild-container .form-actions .btn-default /* Empty Button Fix */{
-    font-size: 16px!important;
-    text-transform: unset!important;
+.animator-US5i9g .actionButton-2PeQbJ /* Buttons in the Action Buttons */{
+    margin-top: 20%!important;
+    height: 60px;
 }
 
 /*
@@ -812,7 +831,13 @@ Add bottom bar to get uniform look
 */
 
 .activityFeed-28jde9 > div > .scrollerWrap-2lJEkd, .gameLibrary-TTDw4Y > .scrollerWrap-2lJEkd, #friends, .noChannel-Z1DQK7, .applicationStore-1pNvnv{
-    padding-bottom: 52px;
+    padding-bottom: 52px!important;
+}
+
+.root-26DmKJ{
+    margin-bottom: 52px!important;
+    padding-bottom: 20px;
+    overflow: hidden;
 }
 
 .activityFeed-28jde9 > div > .scrollerWrap-2lJEkd::after, .gameLibrary-TTDw4Y > .scrollerWrap-2lJEkd::after, #friends::after, .noChannel-Z1DQK7::after, .applicationStore-1pNvnv::after{
@@ -833,4 +858,37 @@ Premium Banner
 
 .premium-39U29H::before{
     background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/BlogEntry.svg');
+}
+
+/*
+
+User Information - Long Name Fixes
+
+*/
+
+.container-2Thooq .username, .container-2Thooq .accountDetails-3k9g4n{
+    text-overflow: unset;
+    width: fit-content!important;
+    max-width: unset;
+    min-width: fit-content;
+    transition: 200ms width;
+}
+
+.container-2Thooq:hover .username, .container-2Thooq:hover .accountDetails-3k9g4n{
+    text-overflow: ellipsis;
+    width: 84px!important;
+    max-width: 84!important;
+    min-width: 0;
+}
+
+/*
+
+Add Guild Inner Font Fixes
+
+*/
+
+.guildsAddInner-1KMFy-{
+    top: -2px;
+    left: 1px;
+
 }
