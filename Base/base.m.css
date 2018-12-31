@@ -159,8 +159,6 @@ Backgrounds & SVG Fills
     fill: var(--ColAccent);
 }
 
-/* .audioControls-2HsaU6 svg polygon, .audioControls-2HsaU6 svg path Colored Media Icons */
-
 .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Serverlist Home Button */, .anchor-3Z-8Bb svg g path.fill /* Download Icon Embed */{
     fill: #fff;
 }
@@ -242,7 +240,7 @@ Borders, Box Shadows and Strokes
     border-bottom-right-radius: 15px;
 }
 
-.guildsWrapper-5TJh6A, .base-3dtUhz, .channelTextArea-rNsIhG .inner-zqa7da{
+.guildsWrapper-5TJh6A, .base-3dtUhz /* GuildsWrapper Base */, .channelTextArea-rNsIhG .inner-zqa7da /* ChannelTextArea Inner Selector */{
     border-radius: 0;
 }
 
@@ -250,7 +248,7 @@ Borders, Box Shadows and Strokes
     border-radius: 3px!important;
 }
 
-.container-2Thooq button {
+.container-2Thooq button /* Settings Buttons User Container */{
     border-radius: 50%;
 }
 
@@ -266,11 +264,11 @@ Borders, Box Shadows and Strokes
     box-shadow: inset 0 -4px 0 rgba(0,0,0,.4)!important;
 }
 
-.callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn{
+.callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn /* Selected Video when screensharing/videochatting */{
     box-shadow: inset 0 0 0 2px var(--ColFalse)!important;
 }
 
-.callAvatarBorder-1D_KaE.speaking-oCqYMI, .avatarSpeaking-1wJCNq{
+.callAvatarBorder-1D_KaE.speaking-oCqYMI, .avatarSpeaking-1wJCNq /* Color for voice activity */{
     box-shadow: inset 0 0 0 2px var(--ColAccent)!important;
 }
 
@@ -320,7 +318,7 @@ Color & Text - Align
     color: var(--ColFalse)!important;
 }
 
-#bd-customcss-attach-controls{
+#bd-customcss-attach-controls /* Button for detaching controls for BD Custom CSS section */{
     text-align: center;
 }
 
@@ -338,7 +336,7 @@ Display, Opacity & Visibility
     display: var(--DisplayEmbedPill);
 }
 
-.messageGroupBlocked-3wrQQX, .messageGroupBlocked-3wrQQX + .divider-3gKybi{
+.messageGroupBlocked-3wrQQX, .messageGroupBlocked-3wrQQX + .divider-3gKybi /* Hides Blocked User Messages */{
     display: var(--DisplayBlockedUserMessage);
 }
 
