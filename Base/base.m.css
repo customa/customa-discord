@@ -296,7 +296,7 @@ Color & Text - Align
     color: var(--ColAccent)!important;
 }
 
-.anchor-3Z-8Bb:not(.reviewCircle-1o-MOB):not(.revenueShareUpsellButton-1Y1wut):not(.iconWrapper-21idzA), .revenueShareUpsellButton-1Y1wut:hover, .anchor-3Z-8Bb.embedTitleLink-1Zla9e, #bd-settings-sidebar a, .filenameLinkWrapper-1-14c5, .genre-1Fi2SE /* <a> fixes */, .endText-3SrwuD a /* Go back to top - GIF Selector */, .error-link /* Error Link BetterDiscord Modal */ {
+.anchor-3Z-8Bb:not(.reviewCircle-1o-MOB):not(.revenueShareUpsellButton-1Y1wut):not(.iconWrapper-21idzA), .revenueShareUpsellButton-1Y1wut:hover, .anchor-3Z-8Bb.embedTitleLink-1Zla9e, #bd-settings-sidebar a, .filenameLinkWrapper-1-14c5, .genre-1Fi2SE /* <a> fixes */, .endText-3SrwuD a /* Go back to top - GIF Selector */, .error-link /* Error Link BetterDiscord Modal */, .bda-link /* Plugin Website/Source Link */ {
     color: var(--ColAnchor)!important;
 }
 
