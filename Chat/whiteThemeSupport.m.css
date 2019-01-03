@@ -211,3 +211,15 @@ span[style*='color: rgb(79, 84, 92);']{
 .guild-1EfMGQ.audio-3vVhBi::after {
   filter: invert(80%);
 }
+
+.note-3kmerW textarea::-webkit-input-placeholder{
+    color: var(--ColFont)!important;
+}
+
+.headerTagUsernameNoNickname-2_H881 {
+  color: var(--ColFont)!important;
+}
+
+.activityName-1IaRLn {
+  color: var(--ColAnchor)!important;
+}
