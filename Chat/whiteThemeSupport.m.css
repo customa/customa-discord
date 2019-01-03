@@ -207,3 +207,7 @@ span[style*='color: rgb(79, 84, 92);']{
 .edited-DL9ECl {
   filter: invert(80%);
 }
+
+.guild-1EfMGQ.audio-3vVhBi::after {
+  filter: invert(80%);
+}
