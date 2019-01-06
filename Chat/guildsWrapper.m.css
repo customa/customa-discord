@@ -91,3 +91,11 @@
 .guild-1EfMGQ.selected-ML3OIq a div[style*='background-image:'], .guild-1EfMGQ:hover a div[style*='background-image:'], .guild-1EfMGQ:hover a[style*='background-image:']{
     filter: var(--FilterHover)!important;
 }
+
+.guild-1EfMGQ.audio-3vVhBi:after, .guild-1EfMGQ.video-15yGu3:after /* in vc badge */ {
+    height: 15px !important;
+    width: 15px !important;
+    background-color: transparent !important;
+    left: -18px !important;
+    top: 0 !important;
+}
