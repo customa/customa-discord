@@ -27,7 +27,7 @@ code /* All Code Blocks */,code * /* All Elements in a Code Block */,code li * /
 
 @font-face{
     font-family: 'Noto Blobs';
-    src: url('https://raw.githack.com/Customa/Customa/master/Misc/Noto%20Color%20Emoji.ttf') format('ttf');
+    src: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/Noto%20Color%20Emoji.ttf') format('ttf');
     unicode-range: U+A9-1F9E6;
 }
 

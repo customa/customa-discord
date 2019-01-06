@@ -4,20 +4,20 @@
 
     /*
     <Reloader>
-    //Theme|Header|"Customa-Base"
-    //ColAppBG|Multiselect>Text,Color+Alpha|"App Background"|"Discord app background - Can be an image (with URL), or a color"|#161616
-    //ColAuthBG|Multiselect>Text,Color+Alpha|"Login Screen Background"|"The background of the login screen - Can be an image (with URL), or a color"|url('/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg')
-    //ColBackground1|Color+Alpha|"Primary Background"|"The primary main background color of the theme - Supports alpha level"|#161616
-    //ColBackground2|Color+Alpha|"Secondary Background"|"The secondary main background color of the theme - Supports alpha level"|#212121
-    //ColAccent|Color|"Accent Color"|"The accent color of the theme"|#D81B60
-    //ColAccentAlpha|Alpha|"Secondary Accent Color"|"Defines the alpha level of the secondary accent color"|0.1
-    //ColAnchor|Color|"Link Color"|"The color used for anchors in the theme"|#0096cf
-    //ColLastMessage|Select>Yes[rgab(0,0,0,0.1)];No[Transparent]|"Last Message Highlight"|"If the last message should be highlighted"|No
-    //ColFalse|Color|"False Color"|"The color used for marking wrong things"|#F44336
-    //ColTrue|Color|"True Color"|"The color used for marking correct things"|#8BC34A
-    //DisplayEmbedPill|Select>Yes[none];No[block]|"Hide Embed Pill"|"Hides the color indicator of embeds"|Yes
-    //DisplayBlockedUserMessage|Select>Yes[none];No[block]|"Hide Blocked Messages"|"Hides messages from people you blocked|No
-    //DisplayNoConnectionBackdraw>Select>Yes[none];No[flex]|"Hide Loading Screen"|"Hides the loading the screen, when your connection is slow"|No
+    //Theme|Header|Customa-Base
+    //ColAppBG|Multiselect>Text,Color+Alpha|App Background|Discord app background - Can be an image (with URL), or a color|#161616
+    //ColAuthBG|Multiselect>Text,Color+Alpha|Login Screen Background|The background of the login screen - Can be an image (with URL), or a color|url('/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg')
+    //ColBackground1|Color+Alpha|Primary Background|The primary main background color of the theme - Supports alpha level|#161616
+    //ColBackground2|Color+Alpha|Secondary Background|The secondary main background color of the theme - Supports alpha level|#212121
+    //ColAccent|Color|Accent Color|The accent color of the theme|#D81B60
+    //ColAccentAlpha|Alpha|Secondary Accent Color|Defines the alpha level of the secondary accent color|0.1
+    //ColAnchor|Color|Link Color|The color used for anchors in the theme|#0096cf
+    //ColLastMessage|Select>Yes[rgab(0,0,0,0.1)];No[Transparent]|Last Message Highlight|If the last message should be highlighted|No
+    //ColFalse|Color|False Color|The color used for marking wrong things|#F44336
+    //ColTrue|Color|True Color|The color used for marking correct things|#8BC34A
+    //DisplayEmbedPill|Select>Yes[none];No[block]|Hide Embed Pill|Hides the color indicator of embeds|Yes
+    //DisplayBlockedUserMessage|Select>Yes[none];No[block]|Hide Blocked Messages|Hides messages from people you blocked|No
+    //DisplayNoConnectionBackdraw|Select>Yes[none];No[flex]|Hide Loading Screen|Hides the loading the screen, when your connection is slow|No
     </Reloader>
     */
 
@@ -187,7 +187,7 @@ Backgrounds & SVG Fills
 }
 
 .channelNotices-41mJbj .close-relY5R /* Button to close Menues */{
-    background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/Close.svg')!important;
+    background-image: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/Close.svg')!important;
     opacity: 1!important;
 }
 
@@ -204,11 +204,11 @@ Backgrounds & SVG Fills
 }
 
 .footer-3oZnEF /* Footer Store */{
-    background: url(/assets/72e1fd085e240aecf005e642e655c0f4.svg) no-repeat bottom,url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/StoreBottomBackground.svg') no-repeat bottom/100%!important;
+    background: url(/assets/72e1fd085e240aecf005e642e655c0f4.svg) no-repeat bottom,url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/StoreBottomBackground.svg') no-repeat bottom/100%!important;
 }
 
 .notches-1sAcEM /* Notches new Mic Test */{
-    background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/NotchesMicTest')!important;
+    background-image: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/NotchesMicTest')!important;
 }
 
 /*
@@ -486,13 +486,13 @@ Masks
 */
 
 .maskProfile-1ObLFT{
-    -webkit-mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskUserModal.svg')!important;
-    mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskUserModal.svg')!important;
+    -webkit-mask: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/Masks/maskUserModal.svg')!important;
+    mask: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/Masks/maskUserModal.svg')!important;
 }
 
 .mask-3OgeRz{
-    -webkit-mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
-    mask: url('https://raw.githack.com/Customa/Customa/master/Misc/Masks/maskmemWrap.svg')!important;
+    -webkit-mask: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/Masks/maskmemWrap.svg')!important;
+    mask: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/Masks/maskmemWrap.svg')!important;
 }
 
 /*
@@ -620,7 +620,7 @@ Upload Button Tweeks
 
 .channelTextArea-1LDbYG .attachButtonInner-1iyZ9F svg /* Upload Button */{
     padding: 0;
-    background: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/upload.svg') 50% no-repeat;
+    background: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/upload.svg') 50% no-repeat;
 }
 
 .channelTextArea-1LDbYG .attachButtonInner-1iyZ9F svg path /* Reset old Upload Button */{
@@ -874,7 +874,7 @@ Premium Banner
 */
 
 .premium-39U29H::before{
-    background-image: url('https://raw.githack.com/Customa/Customa/master/Misc/SVGs/BlogEntry.svg');
+    background-image: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/BlogEntry.svg');
 }
 
 /*
