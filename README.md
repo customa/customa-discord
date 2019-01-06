@@ -112,7 +112,7 @@ I created a scoring system for myself in order to keep track of which modules ne
 
 Currently the project has **34 points**
 
-Possible are **34 points** (+1 if you count Dual Guilds)
+Possible are **34 points**
 
 Detailed listing of the project status:
 
@@ -142,7 +142,7 @@ Detailed listing of the project status:
 * The Old Channel Select Module is fully implemented (**1 point**)
 * The Typing Indicator on Right Module is fully implemented (**1 point**)
 * The White Theme Support Module is fully implemented (**1 point**)<br/>
-= 16/16 (+0/1)
+= 16/16
 
 ### Emoji Package
 * The Jumbo Moji Module is fully implemented (**1 point**)
