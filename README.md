@@ -101,19 +101,20 @@ All of this theme wouldn't have been possible without the help of all following 
     * Chinakomba - Who's been helping a lot during the rewrite!
     * anf - Who fixed the naughtiest bug ever and helped me fix the following ones myself
     * Eldog - Who's been supporting the theme since square 1 <3
+    * Mafu - For helping me figure out the right license 
 * BetterDiscord
 * Beard's Material Theme and obviously Beard Design himself [Github](https://github.com/BeardDesign1), [Website](http://www.beard-design.com/)
 * Twitch Icon: Icon made by [Pixel Perfect](https://icon54.com) from [flaticon](https://flaticon.com)
 
-## 5. Current Progress
+## 5. Roadmap
 
 I created a scoring system for myself in order to keep track of which modules need more care or need some redo all together. An old, buggy module gets a 0 (also modules which I haven't looked at yet, but might actually work), a module which I started working on but is not quite ready yet gets a 0.5, a finished module gets a 1.
 
-Currently the project has **27.5 points**
+Currently the project has **34 points**
 
-Possible are **29 points**
+Possible are **34 points** (+1 if you count Dual Guilds)
 
-Detailed listing of the project status (eg. where it falls short at the moment):
+Detailed listing of the project status:
 
 ### Base Package
 * The Base Module is fully implemented (**1 point**)
@@ -125,26 +126,30 @@ Detailed listing of the project status (eg. where it falls short at the moment):
 = 6/6
 
 ### Chat Package
+* The Better Blocked Messages Module is fully implemented (**1 point**)
+* The Better Compact Mode Module is fully implemented (**1 point**)
 * The Better Filetypes Module is fully implemented (**1 point**)
+* The Cake OS Titlebar Module is fully implemented (**1 point**)
 * The Channel Divider Module is fully implemented (**1 point**)
 * The Channels Wrapper Module is fully implemented (**1 point**)
-* The Code Block Languages Module is not yet implemented (**1 points**)
+* The Code Block Languages Module is not yet implemented (**1 point**)
 * The Display Channel Icons Module is fully implemented (**1 point**)
-* The Dual Guilds Module is not yet fully implemented (**0.5 points**)
 * The Guilds Wrapper Module is fully implemented (**1 point**)
 * The New Divider Red Module is fully implemented (**1 point**)
-* The New Edit Text Module is fully implemented (**1 point**)
 * The New Edit Icon Module is not yet implemented (**1 points**)
+* The New Edit Text Module is fully implemented (**1 point**)
+* The New Message Text Module is fully implemented (**1 point**)
+* The Old Channel Select Module is fully implemented (**1 point**)
+* The Typing Indicator on Right Module is fully implemented (**1 point**)
 * The White Theme Support Module is fully implemented (**1 point**)<br/>
-= 10.5/11
+= 16/16 (+0/1)
 
 ### Emoji Package
 * The Jumbo Moji Module is fully implemented (**1 point**)
-* The Blobs Replacement Module is not yet implemented (**0 points**)<br/>
-= 1/2
+= 1/1
 
 ### Sidebar Package
-* The New Playing MEssages Module is fully implemented (**1 point**)
+* The New Playing Messages Module is fully implemented (**1 point**)
 * The New User Modal Module is fully implemented (**1 point**)
 * The New User Popout Module is fully implemented (**1 point**)
 * The Sidebar Modifier Module is fully implemented (**1 point**)
@@ -159,8 +164,20 @@ Detailed listing of the project status (eg. where it falls short at the moment):
 ### Misc Package (Others)
 * All Modules Module is fully implemented (**1 point**)
 * iOS Toggles Module is fully implemented (**1 point**)
+* Rainbow Module is fully implemented (**1 point**)
 * Settings Module is fully implemented (**1 point**)<br/>
-= 3/3
+= 4/4
+
+### **Ideas for the future**
+* More Modern Popups - for Server Information and Setting your Online Status
+* The Blobs Replacement Module - Other plugins and themes currently do this
+* Mascot Module - Either with Turtles or the Customa Logo
+* Font Weight Module
+* Removing the New Message Text Module and moving it into a variable
+* Revive the Better Windows Topbar Module<br/>
+
+### Removed Modules
+* Dual Guilds Module
 
 ## 6. Support/Community Discord
 
