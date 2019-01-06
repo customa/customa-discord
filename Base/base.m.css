@@ -2,6 +2,25 @@
 
     /* DO NOT EDIT */
 
+    /*
+    <Reloader>
+    //Theme|Header|"Customa-Base"
+    //ColAppBG|Multiselect>Text,Color+Alpha|"App Background"|"Discord app background - Can be an image (with URL), or a color"|#161616
+    //ColAuthBG|Multiselect>Text,Color+Alpha|"Login Screen Background"|"The background of the login screen - Can be an image (with URL), or a color"|url('/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg')
+    //ColBackground1|Color+Alpha|"Primary Background"|"The primary main background color of the theme - Supports alpha level"|#161616
+    //ColBackground2|Color+Alpha|"Secondary Background"|"The secondary main background color of the theme - Supports alpha level"|#212121
+    //ColAccent|Color|"Accent Color"|"The accent color of the theme"|#D81B60
+    //ColAccentAlpha|Alpha|"Secondary Accent Color"|"Defines the alpha level of the secondary accent color"|0.1
+    //ColAnchor|Color|"Link Color"|"The color used for anchors in the theme"|#0096cf
+    //ColLastMessage|Select>Yes[rgab(0,0,0,0.1)];No[Transparent]|"Last Message Highlight"|"If the last message should be highlighted"|No
+    //ColFalse|Color|"False Color"|"The color used for marking wrong things"|#F44336
+    //ColTrue|Color|"True Color"|"The color used for marking correct things"|#8BC34A
+    //DisplayEmbedPill|Select>Yes[none];No[block]|"Hide Embed Pill"|"Hides the color indicator of embeds"|Yes
+    //DisplayBlockedUserMessage|Select>Yes[none];No[block]|"Hide Blocked Messages"|"Hides messages from people you blocked|No
+    //DisplayNoConnectionBackdraw>Select>Yes[none];No[flex]|"Hide Loading Screen"|"Hides the loading the screen, when your connection is slow"|No
+    </Reloader>
+    */
+
     --INTModBase: '    \2022  Base ~ Customa Devs (Base \2192  base.m.css)\A'!important;
     --INTVarBase: '\A\A Base - Module\A \2022  --ColAppBG \2192  Allowed Values: Image/Color\A \2022  --ColAuthBG \2192  Allowed Values: Image/Color\A \2022  --ColBackground1 \2192  Allowed Values: Color\A \2022  --ColBackground2 \2192  Allowed Values: Color\A \2022  --ColAccent \2192  Allowed Values: Color\A \2022  --ColAccentAlpha \2192  Allowed Values: Color (pref. rgba(x,x,x,0.1)\A \2022  --ColAnchor \2192   Allowed Values: Color\A \2022  --ColLastMessage \2192  Allowed Values: Transparent/Color (pref. rgba(0,0,0,0.1))\A \2022  --ColTrue \2192  Allowed Values: Color (pref. Green)\A \2022  --ColFalse \2192  Allowed Values: Color (pref. Red)\A \2022  --DisplayEmbedPill \2192  Allowed Values: None/Block\A \2022  --DisplayEmbedPill \2192  Allowed Values: None/Block\A \2022  --DisplayNoConnectionBackdraw \2192  Allowed Values: None/Flex'!important;
 
