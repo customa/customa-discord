@@ -2,7 +2,7 @@
     --INTModStatusCircles: '    \2022  Status Circles ~ Customa Devs (Sidebar \2192  statusCircles.m.css)\A'!important;
 }
 
-.member-3W1lQa .wrapper-2F3Zv8 .status-oxiHuE, .avatarOffline-3GF27z::after, .channel-2QD9_O .wrapper-2F3Zv8 .status-oxiHuE, .container-2Thooq .wrapper-2F3Zv8 .status-oxiHuE, .selector-2IcQBU .wrapper-2F3Zv8 .status-oxiHuE{
+.member-3W1lQa .wrapper-2F3Zv8 .status-oxiHuE, .avatarOffline-3GF27z::after, .channel-2QD9_O .wrapper-2F3Zv8 .status-oxiHuE, .container-2Thooq .wrapper-2F3Zv8 .status-oxiHuE, .selector-2IcQBU .wrapper-2F3Zv8 .status-oxiHuE, .friend-2PO6ke .wrapper-2F3Zv8 .status-oxiHuE{
     width: calc(100% + 4px) !important;
     height: calc(100% + 4px) !important;
     background: transparent !important;
