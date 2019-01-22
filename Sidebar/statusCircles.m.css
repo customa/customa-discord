@@ -15,6 +15,11 @@
     content: ' ';
 }
 
+/* Fix for Online State Popout */
+.container-2Thooq .wrapper-2F3Zv8 .inner-1W0Bkn{
+    z-index: 15!important;
+}
+
 .avatarOffline-3GF27z::after{
     width: 34px!important;
     height: 34px!important;
