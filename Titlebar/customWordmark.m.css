@@ -1,0 +1,23 @@
+:root{
+    --INTModCustomWordmark: '    \2022  Custom Wordmark ~ Customa Devs (Titlebar \2192  customWordmark.m.css)\A'!important;
+    --INTVarCustomWordmark: '\A\A Custom Wordmark - Module\A \2022  --DisplayDiscordLogo \2192  Allowed Values: visible/hidden\A \2022   --TextTitlebar \2192  Allowed Values: Text'!important;
+    --DisplayDiscordLogo: hidden;
+    --TextTitlebar: 'Customa';
+}
+
+.wordmark-2iDDfm::after{
+    content: var(--TextTitlebar);
+    color: white;
+    white-space: pre;
+    font-size: 14px;
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    padding-top: 1%;
+    visibility: visible!important;
+}
+
+.wordmark-2iDDfm{
+    visibility: var(--DisplayDiscordLogo)!important;
+}
