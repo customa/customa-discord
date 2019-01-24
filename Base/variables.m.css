@@ -22,6 +22,9 @@
 
     /* Sidebar */
     --INTVarSidebarMods: '';
+
+    /* Titlebar */
+    --INTVarCustomWordmark: '';
 }
 
 #bd-customcss-attach-controls /* BetterDiscord Custom CSS Editor */{
@@ -32,7 +35,7 @@
 #bd-customcss-attach-controls::after{
     white-space: pre-line;
     display: block;
-    content: 'Customa-Variables\A\A\A'
+    content: 'Customa-Variables\A\A'
     'BASE'
     var(--INTVarBase)
     var(--INTVarFont)
@@ -49,7 +52,9 @@
     'MISC'
     var(--INTVarSettingsModal)'\A\A\A'
     'SIDEBAR'
-    var(--INTVarSidebarMods);
+    var(--INTVarSidebarMods)'\A\A\A'
+    'TITLEBAR'
+    var(--INTVarCustomWordmark);
     margin: 1.5% -0.8%;
     border-radius: 0 0 15px 15px;
     padding: 3%;

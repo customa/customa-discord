@@ -45,6 +45,10 @@
     --INTModSidebarMods: '';
     --INTModStatusCircles: '';
 
+    /* Titlebar */
+    --INTModCustomWordmark: '';
+    --INTModRestoreOldTitlebar: '';
+
     /* Webkit */
     --INTModAdvancedScrollbar: '';
     --INTModPlaceholderRemover: '';
@@ -90,6 +94,9 @@
         var(--INTModNewUserPopout)
         var(--INTModSidebarMods)
         var(--INTModStatusCircles) '\A'
+    'Titlebar:\A'
+        var(--INTModCustomWordmark) 
+        var(--INTModRestoreOldTitlebar) '\A'
     'Webkit:\A'
         var(--INTModAdvancedScrollbar)
         var(--INTModPlaceholderRemover);
