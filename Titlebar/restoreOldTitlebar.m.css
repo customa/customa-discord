@@ -31,13 +31,12 @@
     right: 89px;
 }
 
-div[class*="titleBar-"]:before {
+.titleBar-AC4pGV:before {
     content: '';
     position: absolute;
     left: 0;
     right: 0;
-    top: 6px;
-    height: 14px;
-    z-index: 3002;
+    top: 0;
+    height: 20px;
     -webkit-app-region: drag;
 }
