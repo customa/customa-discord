@@ -223,3 +223,15 @@ span[style*='color: rgb(79, 84, 92);']{
 .activityName-1IaRLn {
   color: var(--ColAnchor)!important;
 }
+
+.white-2qwKC7, .subTitle-3TUjmF, .h5-18_1nd, .authBox-hW6HRx, .nameSelectedVoice-1qSph5 {
+	color: var(--ColFont)!important;
+}
+
+.lookLink-9FtZy-.colorBrand-3pXr91 {
+	color: var(--ColAnchor)!important;
+}
+
+.guild-1EfMGQ.video-15yGu3::after, .icon-1R19_H, .buttonInfo-3nkbOt {
+	filter: invert(80%);
+}
