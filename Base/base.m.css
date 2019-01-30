@@ -7,8 +7,8 @@
     //Theme|Header|Customa-Base
     //ColAppBG|Multiselect>Text,Color|App Background|Discord app background - Can be an image (with URL), or a color|Color[#161616]
     //ColAuthBG|Multiselect>Text,Color|Login Screen Background|The background of the login screen - Can be an image (with URL), or a color|Text[url('/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg')]
-    //ColBackground1|Color+Alpha|Primary Background|The primary main background color of the theme - Supports alpha level|#161616+0
-    //ColBackground2|Color+Alpha|Secondary Background|The secondary main background color of the theme - Supports alpha level|#212121+0
+    //ColBackground1|Color+Alpha|Primary Background|The primary main background color of the theme - Supports alpha level|#161616+1
+    //ColBackground2|Color+Alpha|Secondary Background|The secondary main background color of the theme - Supports alpha level|#212121+1
     //ColAccent|Color|Accent Color|The accent color of the theme|#D81B60
     //ColAccentAlpha|Color+Alpha|Secondary Accent Color|Defines the alpha level of the secondary accent color|#161616+0.1
     //ColDividerRed|Color|Divider Red Color|Change the color of the Divider of new Messages|#D81B60
