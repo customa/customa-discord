@@ -29,7 +29,7 @@
 }
 
 .channel-name /* Channel Name Private DMs */{
-   font-weight: 500!important;
+    font-weight: 500!important;
 }
 
 .wordmark-2iDDfm path, .titleBar-AC4pGV .winButtonClose-1HsbF- svg polygon,  .titleBar-AC4pGV svg[name='TitleBarMinimize'] rect /* Titlebar SVGs */, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Home Guild */, .close-18n9bP svg path.fill /* Close Buttons */, .channel-2QD9_O:not([style*='height']):not(.selected-1HYmZZ) svg path:first-child /* Icons for Activity and Friends Channel */, .containerDefault-3GGEv_ svg polygon, .containerDefault-1ZnADq svg path /* Container Selectors */{
@@ -114,7 +114,6 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
 .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child /* White Theme Button */{
     background-color: var(--ColFalse)!important;
     pointer-events: none!important;
-    
 }
 
 .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child .info-3LOr12::before /* New Info for White Theme Button */{
@@ -159,7 +158,7 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
 
 /* Fixes channel dividers from Chat/channelDivider.m.css being to bright */
 .channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6 *{
-  color: var(--ColFont)!important;
+    color: var(--ColFont)!important;
 }
 
 /* Fixes role name color being to bright when using Sidebar/sidebarModifier.m.css */
@@ -201,15 +200,15 @@ span[style*='color: rgb(79, 84, 92);']{
 
 /* Fixes white on white text and images */
 .activityName-1IaRLn, .headerTagUsernameNoNickname-2_H881 {
-  color: var(--ColFont)!important;
+    color: var(--ColFont)!important;
 }
 
 .edited-DL9ECl {
-  filter: invert(80%);
+    filter: invert(80%);
 }
 
 .guild-1EfMGQ.audio-3vVhBi::after {
-  filter: invert(80%);
+    filter: invert(80%);
 }
 
 .note-3kmerW textarea::-webkit-input-placeholder{
@@ -217,21 +216,21 @@ span[style*='color: rgb(79, 84, 92);']{
 }
 
 .headerTagUsernameNoNickname-2_H881 {
-  color: var(--ColFont)!important;
+    color: var(--ColFont)!important;
 }
 
 .activityName-1IaRLn {
-  color: var(--ColAnchor)!important;
+    color: var(--ColAnchor)!important;
 }
 
-.white-2qwKC7, .subTitle-3TUjmF, .h5-18_1nd, .authBox-hW6HRx, .nameSelectedVoice-1qSph5 {
-	color: var(--ColFont)!important;
+.white-2qwKC7, .subTitle-3TUjmF, .h5-18_1nd, .authBox-hW6HRx, .nameSelectedVoice-1qSph5, .headerName-fajvi9 {
+    color: var(--ColFont)!important;
 }
 
 .lookLink-9FtZy-.colorBrand-3pXr91 {
-	color: var(--ColAnchor)!important;
+    color: var(--ColAnchor)!important;
 }
 
 .guild-1EfMGQ.video-15yGu3::after, .icon-1R19_H, .buttonInfo-3nkbOt {
-	filter: invert(80%);
+    filter: invert(80%);
 }
