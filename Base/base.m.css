@@ -780,6 +780,25 @@ Light Theme Warning
 
 /*
 
+Fix Voice Activity Indicator Text
+
+*/
+
+.inputSensitivityToggle-2LKb8o > :last-child {
+    height: 0;
+    visibility: hidden;
+}
+
+.inputSensitivityToggle-2LKb8o > :last-child::after {
+    content: "If the indicator is solid customa then Discord is transmitting your beautiful voice.";
+    display: block;
+    position: relative;
+    top: -2em;
+    visibility: visible;
+}
+
+/*
+
 Emoji Combiner
 
 */
