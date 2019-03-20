@@ -961,6 +961,7 @@ Add Guild Inner Font Fixes
 Server Discovery 
 
 */
+
 .wrapper-39oAo3{
     margin-bottom: 12px;
     background-color: var(--ColBackground1)!important;
@@ -973,4 +974,17 @@ Server Discovery
 
 .pageWrapper-1PgVDX .bg-AYqtMd{
     display: none;
+}
+
+/*
+
+fix verified server custom banner image
+
+*/
+
+.bannerImage-1jOskm::after {
+    height: 100%;
+    background-color: transparent;
+    background: linear-gradient(transparent, var(--ColBackground2));
+    filter: none;
 }
