@@ -1,101 +1,99 @@
-:root{
-    --INTModGuildsWrapper: '    \2022  Guilds Wrapper 2.0 ~ Customa Devs (Chat \2192  guildsWrapper.m.css)\A'!important;
-    --INTVarGuildsWrapper: '\A\A Guilds Wrapper - Module \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%) \A \2022 --WidthMax \2192  Allowed Values: XYpx (pref. 80px)'!important;
-    --FilterNoHover: grayscale(100%);
-    --FilterHover: grayscale(0%);
-    --WidthGuildMax: 80px;
-    --DurationGuildsWrapper: 0.2s;
+:root {
+  --INTModGuildsWrapper: "    \2022  Guilds Wrapper 2.0 ~ Customa Devs (Chat \2192  guildsWrapper.m.css)\A" !important;
+  --INTVarGuildsWrapper: "\A\A Guilds Wrapper - Module \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%) \A \2022 --WidthMax \2192  Allowed Values: XYpx (pref. 80px)" !important;
+  --FilterNoHover: grayscale(100%);
+  --FilterHover: grayscale(0%);
+  --WidthGuildMax: 80px;
+  --DurationGuildsWrapper: 0.2s;
 }
 
-.guildsWrapper-5TJh6A /* GuildsWrapper */{
-    width: 20px;
-    transition: width var(--DurationGuildsWrapper);
+.wrapper-1Rf91z /* GuildsWrapper */ {
+  width: 16px;
+  transition: width var(--DurationGuildsWrapper);
 }
 
-.guildsWrapper-5TJh6A:hover /* GuildsWrapper Hover Effect */{
-    width: var(--WidthGuildMax);
+.wrapper-1Rf91z:hover /* GuildsWrapper Hover Effect */ {
+  width: var(--WidthGuildMax)!important;
 }
 
-.guilds-1q_RqH /* Scroller for GuildsWrapper */{
-    padding-left: 20px;
+.wrapper-1Rf91z .scroller-2FKFPG /* Move Scroller to left to move guilds out of view */{
+  padding-left: 16px;
 }
 
-.guilds-1q_RqH > .guild-1EfMGQ:first-child .guildInner-3DSoA4 a, .guilds-1q_RqH > .guild-1EfMGQ:first-child{
-    height: 15px!important;
+.wrapper-1Rf91z .wrapper-2lTRaf .icon-3o6xvg, .wrapper-1Rf91z .wrapper-2lTRaf .inner-1W0Bkn /* Disable Animation on Hover */{
+  border-radius: 25px!important;
 }
 
-.guilds-1q_RqH > .guild-1EfMGQ:first-child .guildInner-3DSoA4, .guilds-1q_RqH > .guild-1EfMGQ:first-child::before /* Remove Home Guild, Remove Home Guild Selected */{
-    visibility: hidden;
+.wrapper-1Rf91z .container-2td-dC .wrapper-2lTRaf /* Set Filter when server is not hovered */{
+  filter: var(--FilterNoHover);
+  transition: filter 200ms;
 }
 
-.guilds-1q_RqH > .guild-1EfMGQ:first-child .guildInner-3DSoA4 a::after /* Add own "Home" Select */{
-    content: 'Home';
-    display: inline;
-    position: absolute;
-    top: 0;
-    left: 7px;
-    font-size: 12px;
-    visibility: visible!important;
-    text-transform: uppercase;
-    font-weight: 600;
-    text-align: center;
-    line-height: 130%;
-    transition: color var(--DurationGuildsWrapper);
+.wrapper-1Rf91z .container-2td-dC .wrapper-2lTRaf:hover /* Set Filter when server is hovered */{
+  filter: var(--FilterHover);
 }
 
-.guilds-1q_RqH > .guild-1EfMGQ.selected-ML3OIq:first-child .guildInner-3DSoA4 a::after, .guilds-1q_RqH > .guild-1EfMGQ:hover:first-child .guildInner-3DSoA4 a::after /* Color on Home Select and Hover */{
-    color: var(--ColAccent)!important;
+.wrapper-1Rf91z .wrapper-232cHJ /* Ping Notification */{
+  background-color: transparent!important;
+  color: var(--ColAccent);
+  right: 50px;
+  bottom: 2px;
+  box-shadow: none;
 }
 
-.guildsWrapper-5TJh6A .friendsOnline-_wi_fM /* How many friends are online */, .guildsWrapper-5TJh6A .unreadMentionsIndicatorBottom-BXS58x, .guildsWrapper-5TJh6A .unreadMentionsIndicatorTop-gA6RCh /* Unread Mentions Indicator */{
-    opacity: 0;
-    transition: opacity var(--DurationGuildsWrapper);
+/* Unread Indicator */
+.wrapper-1Rf91z .container-2td-dC::before{
+  width: 5px;
+  left: -10px;
+}
+.wrapper-1Rf91z .container-2td-dC.unread-2OHH1w::before{
+  height: 5px;
+}
+.wrapper-1Rf91z .container-2td-dC.selected-nT-gM3::before{
+  height: 40px;
 }
 
-.guildsWrapper-5TJh6A:hover .friendsOnline-_wi_fM /* Hover Effect of above */, .guildsWrapper-5TJh6A:hover .unreadMentionsIndicatorBottom-BXS58x, .guildsWrapper-5TJh6A:hover .unreadMentionsIndicatorTop-gA6RCh /* Unread Mentions Indicator */{
-    opacity: 1;
+/* Hide Specific Elements when not in View */
+.wrapper-1Rf91z .friendsOnline-2JkivW, .wrapper-1Rf91z .bar-30k2ka{
+  opacity: 0;
+  transition: opacity 200ms;
+}
+.wrapper-1Rf91z:hover .friendsOnline-2JkivW, .wrapper-1Rf91z:hover .bar-30k2ka{
+  opacity: 1;
 }
 
-.guilds-1q_RqH > .guild-1EfMGQ.unread-qLkInr::before /* Unread Indicator */{
-    width: 5px;
-    height: 5px;
-    left: -13px;
-    top: 55%;
+/* 'Home'-Container */
+.wrapper-1Rf91z .container-1ETFDs, .wrapper-1Rf91z .container-1ETFDs a, .wrapper-1Rf91z .homeButton-2Cw51C{
+  height: 15px;
+  border-radius: 0;
+}
+.wrapper-1Rf91z .container-1ETFDs .wrapper-232cHJ{
+  bottom: -4px;
+}
+.wrapper-1Rf91z .container-1ETFDs a::before{
+  width: 50px;
+  top: 4px;
+  position: absolute;
+  font-size: 12px;
+  content: 'Home';
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+.wrapper-1Rf91z .container-1ETFDs svg{
+  display: none;
 }
 
-.guilds-1q_RqH > .guild-1EfMGQ.selected-ML3OIq::before, .guilds-1q_RqH > .guild-1EfMGQ.selected-ML3OIq.unread-1Dp-OI::before /* Selected Guild Indicator */{
-    width: 5px;
-    left: -13px;
-    height: 40px;
+.wrapper-1Rf91z .audio-2KA0-x::after, .wrapper-1Rf91z .video-2jNDI4:after /* Badge for when in voice and/or screensharing */ {
+  height: 15px !important;
+  width: 15px !important;
+  background-color: transparent !important;
+  left: -15px !important;
+  top: -5px !important;
+  transform: rotate(-90deg);
+  transition: transform 200ms;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .badge-1GsMF2 /* Mention Badge */{
-    left: -20px;
-    width: 5px;
-    background: none!important;
-    color: var(--ColAccent)!important;
-    font-weight: 300;
-    border: 0;
-    box-shadow: none;
-}
-
-.guild-1EfMGQ a div, .guild-1EfMGQ .guildInner-3DSoA4 a, .guild-1EfMGQ .guildInner-3DSoA4 /* Reset Border Radius */{
-    border-radius: 25px!important;
-}
-
-.guild-1EfMGQ a div[style*='background-image:'], .guild-1EfMGQ a[style*='background-image:'] {
-    filter: var(--FilterNoHover)!important;
-    transition: filter var(--DurationGuildsWrapper)!important;
-}
-
-.guild-1EfMGQ.selected-ML3OIq a div[style*='background-image:'], .guild-1EfMGQ:hover a div[style*='background-image:'], .guild-1EfMGQ:hover a[style*='background-image:']{
-    filter: var(--FilterHover)!important;
-}
-
-.guild-1EfMGQ.audio-3vVhBi:after, .guild-1EfMGQ.video-15yGu3:after /* in vc badge */ {
-    height: 15px !important;
-    width: 15px !important;
-    background-color: transparent !important;
-    left: -18px !important;
-    top: 0 !important;
+.wrapper-1Rf91z:hover .audio-2KA0-x::after, .wrapper-1Rf91z:hover .video-2jNDI4:after /* Badge for when in voice and/or screensharing on server hover */ {
+  transform: rotate(0);
 }
