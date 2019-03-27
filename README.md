@@ -28,31 +28,32 @@ Bold statement don't you think? Let me keep up with the statement from above...
 
 ## 1. The Backstory
 
-I started working on a theme in June 2017, it started off as some test how easy it would be to work with Discord's CSS/HTML. I quickly found a style I liked and showed the theme to others, after quite some time I had a few people beta testing my theme. After a few weeks I realized that a distribution over Discord, just passing the theme.css file was just way too tedious. I started uploading the entire theme onto GitHub and just sent out a file linking to my repo. After rewriting the theme for a couple of times I realized that not all features are wanted by everyone, so I seperated some functionality into seperate css files -> Modules.
+I ([Ghostly.](https://github.com/ghostlydot/)) started working on a theme in June 2017. It started off as some test how easy it would be to work with Discord's CSS/HTML. I quickly found a style I liked and showed the theme to others, which resulted in a few people beta testing my theme. As more time passed I realized that a distribution using Discord, just passing the theme.css file, was just way too tedious. With a newly created Github account I started uploading the entire theme onto GitHub and just sent out a file linking to my repo. After rewriting the theme for a couple of times I realized that not all features are wanted by everyone, so I seperated some functionality into seperate css files -> Modules.
 
-In about 1 year and 2 months I rewrote the entire theme 4 times.
+In about 1 year and 2 months I rewrote the entire theme 4 times until it has become the complete modular system it is today.
 
 ## 2. Versions
 
 ### Original - June 2017:
 
-The original version had little to no customizability and horrible, horrible code design. I wrote it mostly for myself but created a style a lot of people liked, the main parts of the theme still look the same, but have been tweaked to look even better. Back when I first created the theme, I overwrote every class with some color of mine, which resulted in a very poor support for background images, someone asked me to create support for images which lead to:
+The original version had little to no customizability and horrible, horrible code design. I wrote it mostly for my own use but apparently created a style a lot of people liked. Until this day the main parts of the theme still look pretty much the same, but have been tweaked and updated to look even better (and work with the newest Discord versions).
+Back when I first created the theme, I overwrote every class with fixed colors, which resulted in a very poor support for background images. As I was asked to add support for those (or even see-through to your desktop), I started to work on:
 
 ### The First Rewrite - August 2017:
 
-I had been playing with the thought of adding more variables and background support for quite a while, but my code was a complete mess. I recreated the theme in just about a week and finally also had support for background images. I also tried to reuse certain elements in a better way and ended up with a very clean and fast theme. As the new school year started, Discord kept adding more and more obfuscated selectors, which made the theme break more and more after time. Because of the now starting school year I had no chance of spending the time in working on a fix (let alone did my messy code allow for any of that).
+I had been playing with the thought of adding variables and background support for quite a while, but as I didn't pay much attention to clean code design I ended up rewriting the whole theme. I recreated the theme in just about a week and finally also had support for background images. Another major requirement for the rewrite was to make the theme faster. I tried to reuse certain elements and ended up with a much cleaner code and a way faster theme. As the new school year started, Discord kept adding more and more obfuscated selectors, which made work on the theme harder and harder. Because of the now starting school year I had no chance of spending the time in working on a fix (let alone did my messy code allow for any of that).
 
 ### The Second Rewrite ~ November 2017:
 
-Around that time I started writing Discord Plugins as well, so I tried to combine both plugin and theme development into one, this was also the first version which used modules. From this version on the theme hasn't changed dramatically from neither the inside nor outside. The newest rewrite in fact is very close to this one, more to this later. But some poor development, little time and more obfuscation lead to me dropping the project yet again.
+Around that time I started writing Discord Plugins as well, so I tried to combine both plugin and theme development into one. Starting with this version Customa also featured modules. Since this version the theme hasn't changed dramatically from neither the looks nor the code. The newest rewrite in fact is very close to this one, more to this later. But some poor development, little time and more obfuscation lead to me dropping the project yet again.
 
 ### The Third Rewrite / The [class*=]-Mess ~ January/February 2018:
 
-In the holiday season I rewrote the entire theme yet again, this time using [class*=]-Statements, making the theme 'future'-proof. What I didn't know: The selector is slow - very slow. My theme sometimes needed minutes to start, some modules didn't load at all, random buttons got selected and in the end I couldn't read anything anymore as [class*='container'] doesn't tell you that much. The theme still works for the most part and is the last one which is still on GitHub to this day (legacy branch).
+In the holiday season I rewrote the entire theme yet again, this time using [class*=]-Statements, making the theme 'future'-proof. What I didn't know: The selector is slow - very slow. My theme sometimes needed minutes to start, some modules didn't load at all, random buttons got selected and in the end I couldn't read anything anymore as [class*='container'] doesn't tell you that much. The theme still works for very basic parts and is the last one which is still publicly available on GitHub to this day (legacy branch).
 
 ### The Fourth Rewrite / The Current Version - August 2018:
 
-More than a year after the original version was released I had to fix all the problems of the last version. With the release of scripts that update the obfuscated classnames in your theme according to the newest Discord update, I sat down and started yet another rewrite. This time with better variable names and a much, much better structure. I finally got around creating a Discord Server where I can keep track of all the changes and I got myself to comment all of my code, despite slowing down development drastically, it made code much more readable and futureproof, even if I personally lose interest in creating themes.
+More than a year after the original version was released I had to fix all the problems of the last version. With the release of scripts that update the obfuscated classnames in your theme according to the newest Discord update, I sat down and started yet another rewrite. This time with better variable names and a much, much better structure. I finally got around creating a Discord Server where I can keep track of all the changes and I got myself to comment all of my code, despite slowing down development drastically, it made the code much more readable and futureproof, even if I personally lose interest in creating themes.
 
 ## 3. Info
 
@@ -87,7 +88,7 @@ Long Term Support/Legacy Branch: **Legacy**
 @import url('https://raw.githack.com/Customa/Customa/legacy/');
 ```
 
-After that just add the desidered folder name (Base/Canary/Chat/Emoji/Misc/Sidebar/Webkit). **Attention: The LTS-Version uses lowercase folder names!**
+After that just add the desidered folder name (Base/Canary/Chat/Emoji/Misc/Sidebar/Webkit). **Attention: The Legacy-Version uses lowercase folder names!**
 
 Search in the folder for your desired module and add the following to the statement: filename.m.css
 
@@ -99,7 +100,7 @@ In the end your link should look something like this:
 
 ### Which variables do exist?
 
-You either look up the README files in the seperate folders, use the variables module, or look in the #modules channel in the Discord server.
+You either use the variables module, or look in the #modules channel in the Discord server.
 
 ### Where does it run?
 
@@ -108,7 +109,7 @@ You either look up the README files in the seperate folders, use the variables m
 
 ## 4. Special Mentions
 
-All of this theme wouldn't have been possible without the help of all following people.
+The entire theme wouldn't have been possible without the help of all following people.
 
 - The entire Rainmeter Discord, especially the following people:
   - zvava - For making me laugh at your dumb pull request messages and a ton of help on the theme...4 eyes see more then 2! <3
