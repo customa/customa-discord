@@ -1,9 +1,3 @@
-/* Customa 2.0 */
-
-@import url('https://leo.immobilien/at/Salzburg/Salzburg/Schillergasse/22');
-@import url('https://leo.immobilien/at/Tirol/Innsbruck/Goetheplatz/50');
-@import url('https://leo.immobilien/de/Mecklenburg-Vorpommern/Schwerin/Leostrasse/49');
-
 :root{
 
   /* DO NOT EDIT */
@@ -48,13 +42,7 @@
     --ColTrue: #8BC34A;
     --DisplayEmbedPill: none;
     --DisplayBlockedUserMessage: block;
-    --DisplayNoConnectionBackdraw: flex;
-
-    /* Customa 2.0 */
-    --FontFamily: "Comic Sans MS";
-    --DurRainbow: 10s;
-    --TextTitlebar: "This is Customa 2.0! In case you want to roll back: --FontFamily: {Font} and animation: none. Reset the wordmark: .wordmark-2iDDfm{visibility: visible!important} and .wordmark-2iDDfm::after{visibility: hidden!important}";
-    
+    --DisplayNoConnectionBackdraw: flex;  
 
     /* PRIMARY LAYOUT */
 
@@ -75,16 +63,6 @@
     --DisplayButtonGift: none; /* Flex or none */
     --DisplayEmbedPill: none; /* Block or none */
     --DisplayNoConnectionBackdraw: flex; /* Flex or none */
-}
-
-/*
-
-Customa 2.0 Banner
-
-*/
-.wordmark-2iDDfm::after{
-  color: red;
-  font-weight: bold;
 }
 
 /* 
