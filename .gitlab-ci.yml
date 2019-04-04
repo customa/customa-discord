@@ -5,8 +5,9 @@ pages:
   script:
     - npm install
     - npm run minify
+    - mv dist public
   artifacts:
     paths:
-      - dist
+      - public
   only:
     - master
