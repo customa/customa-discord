@@ -1,71 +1,76 @@
 :root {
-    --INTModBetterBlock: '    \2022  Better Block ~ Customa Devs (Chat \2192  betterBlock.m.css)\A'!important;
+  --INTModBetterBlock: "    \2022  Better Block ~ Customa Devs (Chat \2192  betterBlock.m.css)\A" !important;
 }
 
 .messageGroupBlockedBtn-1PBBh- {
-    width: 100%;
-    height: 4em;
-    padding: 0 !important;
-    color: transparent !important;
-    display: flex;
-    align-items: center;
-    text-align: left !important;
-    overflow: hidden;
+  width: 101%;
+  height: 4em;
+  padding: 0 !important;
+  color: transparent !important;
+  display: flex;
+  align-items: center;
+  text-align: left !important;
+  overflow: hidden;
 }
 
 .messageGroupBlockedBtn-1PBBh-::before {
-    content: ">";
-    margin-left: 2em;
-    display: block;
-    color: #ddd !important;
-    vertical-align: center !important;
+  content: ">";
+  margin-left: 2em;
+  display: block;
+  color: #ddd !important;
+  vertical-align: center !important;
 }
 
 .messageGroupBlockedBtn-1PBBh-::after {
-    content: "Reveal Blocked Message(s)";
-    height: 1em;
-    width: 100vw;
-    margin-left: -4em;
-    display: block;
-    vertical-align: center !important;
-    overflow: hidden;
-    transition: color 0.2s;
+  content: "Reveal Blocked Message(s)";
+  height: 1em;
+  width: 100vw;
+  margin-left: -4em;
+  display: block;
+  vertical-align: center !important;
+  overflow: hidden;
+  transition: color 0.2s;
 }
 
 .messageGroupBlocked-3wrQQX {
-    width: 3em;
-    height: 3em;
-    margin: 0;
-    position: relative;
-    left: -1em;
-    z-index: 99;
-    overflow: hidden;
-    border: none;
-    border-radius: 0 3em 3em 0;
-    transition: width 0.2s, height 0.2s;
+  width: 3em;
+  height: 3em;
+  margin: 0;
+  position: relative;
+  left: -1em;
+  z-index: 99;
+  overflow: hidden;
+  border: none;
+  border-radius: 0 3em 3em 0;
+  transition: width 0.2s, height 0.2s;
 }
 
-.messageGroupBlocked-3wrQQX.revealed-1_RKsf .messageGroupBlockedBtn-1PBBh-::before {
-    content: "<";
-    margin-left: 0.75em;
+.messageGroupBlocked-3wrQQX.revealed-1_RKsf
+  .messageGroupBlockedBtn-1PBBh-::before {
+  content: "<";
+  margin-left: 0.75em;
 }
 
-.messageGroupBlocked-3wrQQX.revealed-1_RKsf .messageGroupBlockedBtn-1PBBh-::after {
-    content: "Hide Blocked Message(s)";
-    margin-left: -5em;
+.messageGroupBlocked-3wrQQX.revealed-1_RKsf
+  .messageGroupBlockedBtn-1PBBh-::after {
+  content: "Hide Blocked Message(s)";
+  margin-left: -5em;
 }
 
-.messageGroupBlocked-3wrQQX:hover .messageGroupBlockedBtn-1PBBh-::after, .messageGroupBlocked-3wrQQX.revealed-1_RKsf .messageGroupBlockedBtn-1PBBh-::after {
-    color: #ddd !important;
+.messageGroupBlocked-3wrQQX:hover .messageGroupBlockedBtn-1PBBh-::after,
+.messageGroupBlocked-3wrQQX.revealed-1_RKsf
+  .messageGroupBlockedBtn-1PBBh-::after {
+  color: #ddd !important;
 }
 
-.messageGroupBlocked-3wrQQX:hover, .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
-    width: 13vw;
+.messageGroupBlocked-3wrQQX:hover,
+.messageGroupBlocked-3wrQQX.revealed-1_RKsf {
+  width: 13vw;
 }
 
 .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
-    width: unset;
-    height: unset;
-    left: 0;
-    border-radius: 0 3px 3px 0;
+  width: unset;
+  height: unset;
+  left: 0;
+  border-radius: 0 3px 3px 0;
 }

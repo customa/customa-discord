@@ -1,3 +1,5 @@
 modulesCheatSheet.txt
 variablesCheatSheet.txt
 .idea/
+dist/
+node_modules/

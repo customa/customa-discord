@@ -1,0 +1,12 @@
+image: node:10.15.3-slim
+
+pages:
+  stage: deploy
+  script:
+    - npm install
+    - npm run minify
+  artifacts:
+    paths:
+      - dist
+  only:
+    - master

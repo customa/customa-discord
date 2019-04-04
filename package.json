@@ -1,0 +1,22 @@
+{
+  "name": "customa-discord",
+  "version": "0.0.1",
+  "description": "(Probably) the most customizable Discord theme.",
+  "main": "index.js",
+  "scripts": {
+    "minify": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Customa/Customa.git"
+  },
+  "license": "GPL3",
+  "bugs": {
+    "url": "https://github.com/Customa/Customa/issues"
+  },
+  "homepage": "https://github.com/Customa/Customa#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0"
+  }
+}
