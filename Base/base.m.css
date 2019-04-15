@@ -9,6 +9,7 @@
     //ColAuthBG|Multiselect>Text,Color|Login Screen Background|The background of the login screen - Can be an image (with URL), or a color|Text[url(/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg)]
     //ColBackground1|Color+Alpha|Primary Background|The primary main background color of the theme - Supports alpha level|#161616+1
     //ColBackground2|Color+Alpha|Secondary Background|The secondary main background color of the theme - Supports alpha level|#212121+1
+    //ColChannelList|Color+Alpha|Chanel List Color|The color of the channel list - Supports alpha level|var(--ColBackground2)
     //ColAccent|Color|Accent Color|The accent color of the theme|#D81B60
     //ColAccentAlpha|Color+Alpha|Secondary Accent Color|Defines the alpha level of the secondary accent color|#D81B60+0.1
     //ColDividerRed|Color|Divider Red Color|Change the color of the Divider of new Messages|#D81B60
@@ -34,6 +35,7 @@
   --ColAuthBG: url('/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg');
   --ColBackground1: rgba(0,0,0,0.2);
   --ColBackground2: rgba(0,0,0,0);
+  --ColChannelList: rgba(0,0,0,0);
   --ColAccent: #d81b60;
   --ColAccentAlpha: rgba(216, 27, 96, 0.1);
   --ColAnchor: #0096cf;
@@ -50,6 +52,7 @@
   --ColAuthBG: url('/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg');
   --ColBackground1: var(--ColAppBG); /* Color */
   --ColBackground2: #212121; /* Color */
+  --ColChannelList: var(--ColBackground2); /* Color */
   --ColAccent: #d81b60; /* Color */
   --ColAccentAlpha: rgba(216, 27, 96, 0.1); /* Color in RGBA Format, best when hex code of --ColAccent is converted to rgba and get's an opacity of 0.1 */
   --ColDividerRed: var(--ColAccent); /* Color */
@@ -120,7 +123,11 @@ Backgrounds & SVG Fills
   background-color: var(--ColBackground1)!important;
 }
 
-.channels-Ie2l6A /* Channels scroller for both DMs and Servers */, .privateChannels-1nO12o /* Channels scroller container for both DMs and Servers */, .messagesWrapper-3lZDfY /* The main chat window */, .contentRegion-3nDuYy /* Content Region - Settings Menu */, .activityFeed-28jde9, .container-3gCOGc, .activityFeed-1C0EmJ /* Activity Feed & Friends Menu*/, .keybindShortcut-1BD6Z1 span /* Keybind */, .body-1SVoBw /* Game Modal Content BG */, .gameLibrary-TTDw4Y /* Game Library */, .reactors-Blmlhw /* Reactions Right half, sidebar-1-SQro is left half */, .container-_CzRhL /* Body of 'no camera' modal */, .stickyHeader-1pqx0j /* Game Library Table Header */, .noChannel-Z1DQK7 /* When channel selections break */, .applicationStore-1pNvnv /* Store */, .ace_scroller, .ace_content /* bd editor */, .root-26DmKJ /* Nitro Games Library */,  .root-1BQpZw /* Gift Inventory Window */, .bd-modal-inner /* BetterDiscord Modal */{
+.channels-Ie2l6A /* Channels scroller for both DMs and Servers */{
+    background-color: var(--ColChannelList);
+}
+
+.privateChannels-1nO12o /* Channels scroller container for both DMs and Servers */, .messagesWrapper-3lZDfY /* The main chat window */, .contentRegion-3nDuYy /* Content Region - Settings Menu */, .activityFeed-28jde9, .container-3gCOGc, .activityFeed-1C0EmJ /* Activity Feed & Friends Menu*/, .keybindShortcut-1BD6Z1 span /* Keybind */, .body-1SVoBw /* Game Modal Content BG */, .gameLibrary-TTDw4Y /* Game Library */, .reactors-Blmlhw /* Reactions Right half, sidebar-1-SQro is left half */, .container-_CzRhL /* Body of 'no camera' modal */, .stickyHeader-1pqx0j /* Game Library Table Header */, .noChannel-Z1DQK7 /* When channel selections break */, .applicationStore-1pNvnv /* Store */, .ace_scroller, .ace_content /* bd editor */, .root-26DmKJ /* Nitro Games Library */,  .root-1BQpZw /* Gift Inventory Window */, .bd-modal-inner /* BetterDiscord Modal */{
   background-color: var(--ColBackground2)!important;
   background: var(--ColBackground2)!important;
 }
