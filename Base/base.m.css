@@ -663,16 +663,27 @@ Upload Button Tweeks
 
 /*
 
-Self-Promotion
+Settings Fixes + Self Promo
 
 */
 
-#bd-settings-sidebar span div[style*='font']:last-of-type::after /* Add Theme name after Settings Bar BD */{
-  margin-top: 3px;
-  display: block;
-  white-space: pre-wrap;
-  content: 'Customa with 💚 by\A The Customa Team';
-  line-height: 14px;
+.side-8zPYf6 .separator-gCa7yv {
+    height: 1.33px;
+}
+
+.socialLinks-3jqNFy::before {
+    content: '';
+    border: 4px solid #adadad;
+    border-radius: 50%;
+    border-top: 4px solid transparent;
+    white-space: pre;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    position: relative;
+    margin-left: 2px;
+    margin-right: 15px;
+    transform: rotate(45deg);
 }
 
 /*
@@ -785,12 +796,12 @@ Fix Voice Activity Indicator Text
 
 */
 
-.inputSensitivityToggle-2LKb8o > :last-child{
+.inputSensitivityToggle-2LKb8o:not(.manual-36Evg9) > :last-child{
   height: 0;
   visibility: hidden;
 }
 
-.inputSensitivityToggle-2LKb8o > :last-child::after{
+.inputSensitivityToggle-2LKb8o:not(.manual-36Evg9) > :last-child::after{
   content: 'If the indicator is solid customa then Discord is transmitting your beautiful voice.';
   display: block;
   position: relative;
