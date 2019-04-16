@@ -1,30 +1,25 @@
 ![Customa Logo](Customa.svg)
 
-**The most customizable Discord theme out there**<br/>
+**The most customizable Discord theme out there**
+
 Bold statement don't you think? Let me keep up with the statement from above...
 
 1. [The Backstory](#1-the-backstory)
 2. [Versions](#2-versions)
-   - [Original](#original---june-2017)
-   - [The First Rewrite](#the-first-rewrite---august-2017)
-   - [The Second Rewrite](#the-second-rewrite--november-2017)
-   - [The Third Rewrite / The \[class\*=\]-Mess](#the-third-rewrite--the-class-mess--januaryfebruary-2018)
-   - [The Fourth Rewrite / The Current Version](#the-fourth-rewrite--the-current-version---august-2018)
+    - [Original](#original---june-2017)
+    - [The First Rewrite](#the-first-rewrite---august-2017)
+    - [The Second Rewrite](#the-second-rewrite--november-2017)
+    - [The Third Rewrite / The \[class\*=\]-Mess](#the-third-rewrite--the-class-mess--januaryfebruary-2018)
+    - [The Fourth Rewrite / The Current Version](#the-fourth-rewrite--the-current-version---august-2018)
 3. [Info](#3-info)
-   - [Who is working on the theme?](#who-is-working-on-the-theme)
-   - [What do I need for it to run?](#what-do-i-need-for-it-to-run)
-   - [How does the module system work?](#how-does-the-module-system-work)
-   - [Installation](#installation)
-   - [Which variables do exist?](#which-variables-do-exist)
-   - [Where does it run?](#where-does-it-run)
+    - [Who is working on the theme?](#who-is-working-on-the-theme)
+    - [What do I need for it to run?](#what-do-i-need-for-it-to-run)
+    - [How does the module system work?](#how-does-the-module-system-work)
+    - [Installation](#installation)
+    - [Which variables do exist?](#which-variables-do-exist)
+    - [Where does it run?](#where-does-it-run)
 4. [Special Mentions](#4-special-mentions)
-5. [Current Progress](#5-current-progress)
-   - [Base Package](#base-package)
-   - [Chat Package](#chat-package)
-   - [Emoji Package](#emoji-package)
-   - [Sidebar Package](#sidebar-package)
-   - [Webkit Package](#webkit-package)
-6. [Support/Community Discord](#6-supportcommunity-discord)
+5. [Support/Community Discord](#6-supportcommunity-discord)
 
 ## 1. The Backstory
 
@@ -59,12 +54,12 @@ More than a year after the original version was released I had to fix all the pr
 
 ### Who is working on the theme?
 
-Customa is built by a team of 4-5 people, who all work their part on this theme!
+Customa is built by a small team of three people, who all work their part on this theme! Several other people have also put time into the theme, as it is open source, improving it every step of the way.
 
 ### What do I need for it to run?
 
-- Some Discord-CSS injection tool
-- The Custom CSS Section of BetterDiscord or the possibility to load CSS Code in any other injector
+- A Discord Injector tool that injects CSS
+- A config file (more info below)
 
 ### How does the module system work?
 
@@ -72,31 +67,32 @@ Despite a strict requirement for the Base Module on the old website, the theme c
 
 ### Installation
 
-- For the theme creation, I can recommend the **[Customa Theme Generator](https://ghostlydot.github.io/Discord-Tools/?gen=customaGenerator)**, which can be found on [Ghostly](https://github.com/ghostlydot/)'s website. There you find a list of all current modules.
-
-- The theme can be created by hand as well. For this just use one of the follow templates:
-
-Current Branch: **Master**
-
-```CSS
-@import url('https://raw.githack.com/Customa/Customa/master/');
+Instead of one theme file that you just install and leave, Customa uses an imports-and-variables approach, to add modules you put imports at the top of your config; (you can use the [#modules](https://discord.gg/uERAfbP) channel in the Discord server as a reference!)
+```css
+@import url("https://customa.gitlab.io/Customa-Discord/CATAGORY/MODULE");
 ```
 
-Long Term Support/Legacy Branch: **Legacy**
-
-```CSS
-@import url('https://raw.githack.com/Customa/Customa/legacy/');
+After you have your module 'installed', you can change it's corresponding settings;
+```css
+:root {
+    --option: "setting";
+    --anotherOption: #696969;
+}
 ```
 
-After that just add the desidered folder name (Base/Canary/Chat/Emoji/Misc/Sidebar/Webkit). **Attention: The Legacy-Version uses lowercase folder names!**
+Then you should have something like;
+```css
+@import url("https://customa.gitlab.io/Customa-Discord/Base/base.m.css");
 
-Search in the folder for your desired module and add the following to the statement: filename.m.css
-
-In the end your link should look something like this:
-
-```CSS
-@import url('https://raw.githack.com/Customa/Customa/master/Base/base.m.css');
+:root {
+    --ColAppBG: #161621;
+    --ColBackground1: #161621;
+    --ColBackground2: #212126;
+    ...
+}
 ```
+
+Then you can save your config as a CSS file and plug it into your CSS injector, powercord's theme location is `<install>/src/Powercord/plugins/pc-styleManager/themes/`, or put it into the custom CSS settings page in better discord. Now that you know how to make themes with Customa the possibilities are endless!
 
 ### Which variables do exist?
 
@@ -104,104 +100,24 @@ You either use the variables module, or look in the #modules channel in the Disc
 
 ### Where does it run?
 
-- Discord - Desktop App
-- (Apparently Also...) Discord - Web App
+On Discord's desktop app for pc, ie. windows/mac/linux/etc., currently there are no plans for mobile versions, 
 
 ## 4. Special Mentions
 
 The entire theme wouldn't have been possible without the help of all following people.
 
 - The entire Rainmeter Discord, especially the following people:
-  - zvava - For making me laugh at your dumb pull request messages and a ton of help on the theme...4 eyes see more then 2! <3
-  - Chinakomba - Who's been helping a lot during the rewrite!
-  - anf - Who fixed the naughtiest bug ever and helped me fix the following ones myself
-  - Eldog - Who's been supporting the theme since square 1 <3
-  - Mafu - For helping me figure out the right license
+    - zvava - For making me laugh at your dumb pull request messages and a ton of help on the theme...4 eyes see more then 2! <3
+    - Eldog - Who's been supporting the theme since square 1 <3
+    - Yemou - For working a lot on Customa's light theme support!
+    - Chinakomba - Who's been helping a lot during the rewrite!
+    - anf - Who fixed the naughtiest bug ever and helped me fix the following ones myself
+    - Mafu - For helping me figure out the right license
+- Powercord and its community
 - BetterDiscord
 - Beard's Material Theme and obviously Beard Design himself [Github](https://github.com/BeardDesign1), [Website](http://www.beard-design.com/)
 - Twitch Icon: Icon made by [Pixel Perfect](https://icon54.com) from [flaticon](https://flaticon.com)
 
-## 5. Roadmap
+## 5. Support/Community Discord
 
-I created a scoring system for myself in order to keep track of which modules need more care or need some redo all together. An old, buggy module gets a 0 (also modules which I haven't looked at yet, but might actually work), a module which I started working on but is not quite ready yet gets a 0.5, a finished module gets a 1.
-
-Currently the project has **34 points**
-
-Possible are **34 points**
-
-Detailed listing of the project status:
-
-### Base Package
-
-- The Base Module is fully implemented (**1 point**)
-- The Font Module is fully implemented (**1 point**)
-- The Selection Module is fully implemented (**1 point**)
-- The Settings Module is fully implemented (**1 point**)
-- The Tooltip Module is fully implemented (**1 point**)
-- The Variables Module is fully implemented (**1 point**)<br/>
-  = 6/6
-
-### Chat Package
-
-- The Better Blocked Messages Module is fully implemented (**1 point**)
-- The Better Compact Mode Module is fully implemented (**1 point**)
-- The Better Filetypes Module is fully implemented (**1 point**)
-- The Cake OS Titlebar Module is fully implemented (**1 point**)
-- The Channel Divider Module is fully implemented (**1 point**)
-- The Channels Wrapper Module is fully implemented (**1 point**)
-- The Code Block Languages Module is not yet implemented (**1 point**)
-- The Display Channel Icons Module is fully implemented (**1 point**)
-- The Guilds Wrapper Module is fully implemented (**1 point**)
-- The New Divider Red Module is fully implemented (**1 point**)
-- The New Edit Icon Module is not yet implemented (**1 points**)
-- The New Edit Text Module is fully implemented (**1 point**)
-- The New Message Text Module is fully implemented (**1 point**)
-- The Old Channel Select Module is fully implemented (**1 point**)
-- The Typing Indicator on Right Module is fully implemented (**1 point**)
-- The White Theme Support Module is fully implemented (**1 point**)<br/>
-  = 16/16
-
-### Emoji Package
-
-- The Jumbo Moji Module is fully implemented (**1 point**)
-  = 1/1
-
-### Sidebar Package
-
-- The New Playing Messages Module is fully implemented (**1 point**)
-- The New User Modal Module is fully implemented (**1 point**)
-- The New User Popout Module is fully implemented (**1 point**)
-- The Sidebar Modifier Module is fully implemented (**1 point**)
-- The Status Circles Module is fully implemented (**1 point**)<br/>
-  = 5/5
-
-### Webkit Package
-
-- The Advanced Scrollbar Module is fully implemented (**1 point**)
-- The Placeholdler Remover Module is fully implemented (**1 point**)<br/>
-  = 2/2
-
-### Misc Package (Others)
-
-- All Modules Module is fully implemented (**1 point**)
-- iOS Toggles Module is fully implemented (**1 point**)
-- Rainbow Module is fully implemented (**1 point**)
-- Settings Module is fully implemented (**1 point**)<br/>
-  = 4/4
-
-### **Ideas for the future**
-
-- More Modern Popups - for Server Information and Setting your Online Status
-- The Blobs Replacement Module - Other plugins and themes currently do this
-- Mascot Module - Either with Turtles or the Customa Logo
-- Font Weight Module
-- Removing the New Message Text Module and moving it into a variable
-- Revive the Better Windows Topbar Module<br/>
-
-### Removed Modules
-
-- Dual Guilds Module
-
-## 6. Support/Community Discord
-
-[Join here!](http://discord.io/Customa)
+[discord.io/Customa](http://discord.io/Customa)

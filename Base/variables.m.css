@@ -3,6 +3,7 @@
 
     /* Base */
     --INTVarBase: '';
+    --INTVarRound: '';
     --INTVarFont: '';
     --INTVarSelection:'';
     --INTVarTooltip: '';
@@ -38,6 +39,7 @@
     content: 'Customa-Variables\A\A'
     'BASE'
     var(--INTVarBase)
+    var(--INTVarRound)
     var(--INTVarFont)
     var(--INTVarSelection)
     var(--INTVarTooltip)'\A\A\A'

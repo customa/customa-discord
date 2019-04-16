@@ -1,0 +1,55 @@
+:root {
+    --INTModSelection: '    \2022  Round ~ Customa Devs (Base \2192  round.m.css)\A'!important;
+    --INTVarSelection: '\A\A Round - Module\A \2022  --SizeCornerRadius \2192  Allowed Values: Size (pref. 0.75em)'!important;
+	--SizeCornerRadius: 0.75em;
+}
+
+/* Top Left Corner */
+
+.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.scroller-2wx7Hm::before {
+	content: "";
+	width: calc(var(--SizeCornerRadius) * 2);
+	height: var(--SizeCornerRadius);
+	background: var(--ColChannelList);
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: var(--SizeCornerRadius) 0 0 0;
+	box-shadow: calc(0px - var(--SizeCornerRadius)) 0 0 var(--ColBackground1);
+}
+
+/* Bottom Left Corner */
+
+.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.scroller-2wx7Hm::after {
+	content: "";
+	width: calc(var(--SizeCornerRadius) * 2);
+	height: var(--SizeCornerRadius);
+	background: var(--ColChannelList);
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-radius: 0 0 0 var(--SizeCornerRadius);
+	box-shadow: calc(0px - var(--SizeCornerRadius)) 0 0 var(--ColBackground1);
+}
+
+/* Fix for TR+BR Corners */
+
+.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerWrap-2su1QI.scrollerThemed-2oenus.themedWithTrack-q8E3vB {
+	background-color: var(--ColBackground1);
+}
+
+/* Top Right Corner + Bottom Right Corner */
+
+.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.messages-3amgkR {
+	background-color: var(--ColBackground2);
+	border-top-right-radius: var(--SizeCornerRadius);
+	border-bottom-right-radius: var(--SizeCornerRadius);
+}
+
+/* Round Spotify Modal (Powercord) */
+
+.powercord-spotify {
+	border-top-right-radius: 26px;
+}

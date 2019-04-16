@@ -4,6 +4,7 @@
     
     /* Base */
     --INTModBase: '';
+    --INTModRound: '';
     --INTModFont: '';
     --INTModSelection: '';
     --INTModSettings: '    \2022  Settings - Customa Devs (Base \2192  settings.m.css)\A'!important;
@@ -58,6 +59,7 @@
 .userSettingsAccount-2eMFVR::after{
     content: 'Base:\A ' 
         var(--INTModBase)
+        var(--INTModRound)
         var(--INTModFont)
         var(--INTModSelection)
         var(--INTModSettings)
