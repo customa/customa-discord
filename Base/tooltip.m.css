@@ -4,22 +4,18 @@
     --INTVarTooltip: '\A\A Tooltip - Module\A \2022  --ColTooltip \2192  Allowed Values: Color (pref. #xxxxxx)'!important;
 }
 
-.tooltip.tooltip-black /* Tooltips */, .mediaBarWrapper-3D7r67 .bubble-3qRl2J /* Media Time Bubbles */{
+.tooltip-1OS-Ti.black-2bmmnj /* Tooltips */, .mediaBarWrapper-3D7r67 .bubble-3qRl2J /* Media Time Bubbles */{
     background-color: var(--ColTooltip)!important;
 }
 
-.tooltip.tooltip-black.tooltip-top:after, .mediaBarWrapper-3D7r67 .bubble-3qRl2J::before{
+.tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after, .mediaBarWrapper-3D7r67 .bubble-3qRl2J::before{
     border-top-color: var(--ColTooltip)!important;
 }
 
-.tooltip.tooltip-black.tooltip-right:after{
+.tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY:after{
     border-right-color: var(--ColTooltip)!important;
 }
 
-.tooltip.tooltip-black.tooltip-bottom:after{
+.tooltip-1OS-Ti.black-2bmmnj.bottom-19kp6S:after{
     border-bottom-color: var(--ColTooltip)!important;
-}
-
-.tooltip.tooltip-black.tooltip-left:after{
-    border-left-color: var(--ColTooltip)!important;
 }
