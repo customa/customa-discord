@@ -70,39 +70,39 @@
 
 .theme-light .channelTextArea-1LDbYG .attachButtonInner-1iyZ9F svg /* Upload Button */{
     padding: 0;
-    background: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/WhiteMode/uploadWhiteMode.svg') 50% no-repeat;
+    background: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/uploadWhiteMode.svg') 50% no-repeat;
 }
 
 /* Empty Game Icon (User Modal and User Popout) */
 
 .gameIcon-gg34Dz[style='background-image: url("/assets/a5eba102f5b5e413df2b65c73f288afa.svg");']{
-    background-image: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/WhiteMode/gameIconUserPop.svg')!important;
+    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/gameIconUserPop.svg')!important;
 }
 
 /* Buttons User Container */
 
 .container-2Thooq button[style='background-image: url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg");']{
-    background-image: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/WhiteMode/mic.svg')!important;
+    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/mic.svg')!important;
 }
 
 .container-2Thooq button[style='background-image: url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg");']{
-    background-image: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/WhiteMode/micMute.svg')!important;
+    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/micMute.svg')!important;
 }
 
 button[style='background-image: url("/assets/c7c47afdf35d5a3e06233319d3aa7674.svg");']{
-    background-image: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/WhiteMode/speaker.svg')!important;
+    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/speaker.svg')!important;
 }
 
 button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.svg");']{
-    background-image: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/WhiteMode/speakerMute.svg')!important;
+    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/speakerMute.svg')!important;
 }
 
 .buttonScreenShare-3zPiSA{
-    background-image: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/WhiteMode/screenshare.svg')!important;
+    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/screenshare.svg')!important;
 }
 
 .buttonDisconnect-3W_SJc:not(:hover){
-    background-image: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/SVGs/WhiteMode/hangup.svg')!important;
+    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/hangup.svg')!important;
 }
 
 /* Remove Dark Mode */
