@@ -1,7 +1,7 @@
 /* Current Font Config as of 30th of August 2018 */
 
 @import url('https://fonts.googleapis.com/css?family=Google+Sans:400,500,700,400i,500i,700i');
-@import url("https://raw.githack.com/Customa/Customa/master/Base/selection.m.css");
+@import url("https://customa.gitlab.io/Customa-Discord/Base/selection.m.css");
 
 :root{
     --INTModFont: '    \2022  Fonts (Emma Config) ~ Customa Devs (Misc \2192  font_emma.m.css)\A'!important;
@@ -11,7 +11,7 @@
 }
 
 /* Set all Fonts to the defined one */
-*{
+*:not(.fas){
     font-family: var(--FontFamily)!important;
     font-variant: normal!important;
     -webkit-font-smoothing: antialiased;
@@ -21,13 +21,13 @@
     font-size: 15px!important;
 }
 
-code /* All Code Blocks */,code * /* All Elements in a Code Block */,code li * /* All List Elements in a Code Block */, code.inline /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .message-1PNnaP textarea.textAreaEdit-bNLDk3 /* Edit Text Area */{
+code.inline /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .message-1PNnaP textarea.textAreaEdit-bNLDk3 /* Edit Text Area */, pre code.hljs div *, pre code.hljs div /* Codeblocks */{
     font-family: var(--FontMonoFamily)!important;
 }
 
 @font-face{
     font-family: 'Noto Blobs';
-    src: url('https://raw.githack.com/Customa/Customa-Misc/master/Discord/Noto%20Color%20Emoji.ttf') format('ttf');
+    src: url('https://customa.gitlab.io/Customa-Misc/Discord/Noto%20Color%20Emoji.ttf') format('ttf');
     unicode-range: U+A9-1F9E6;
 }
 

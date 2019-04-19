@@ -1,4 +1,4 @@
-@import url("https://raw.githack.com/Customa/Customa/master/Base/selection.m.css");
+@import url("https://customa.gitlab.io/Customa-Discord/Base/selection.m.css");
 
 :root{   
     --INTModFont: '    \2022  Fonts ~ Customa Devs (Base \2192  font.m.css)\A'!important;
@@ -8,7 +8,7 @@
 }
 
 /* Set all Fonts to the defined one */
-*{
+*:not(.fas):not(pre){
     font-family: var(--FontFamily)!important;
     font-variant: normal!important;
     -webkit-font-smoothing: antialiased;
@@ -23,6 +23,6 @@
     font-size: 15px!important;
 }
 
-code /* All Code Blocks */,code * /* All Elements in a Code Block */,code li * /* All List Elements in a Code Block */, code.inline /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .message-1PNnaP textarea.textAreaEdit-bNLDk3 /* Edit Text Area */{
+code.inline /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .message-1PNnaP textarea.textAreaEdit-bNLDk3 /* Edit Text Area */, pre code.hljs div *, pre code.hljs div /* Codeblocks */{
     font-family: var(--FontMonoFamily)!important;
 }
