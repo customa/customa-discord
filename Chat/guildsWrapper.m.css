@@ -29,16 +29,29 @@
   transition: filter 200ms;
 }
 
-.wrapper-1Rf91z .container-2td-dC .wrapper-2lTRaf:hover /* Set Filter when server is hovered */{
+.wrapper-1Rf91z .container-2td-dC .wrapper-2lTRaf:hover, .wrapper-1Rf91z .container-2td-dC.selected-nT-gM3 .wrapper-2lTRaf /* Set Filter when server is hovered */{
   filter: var(--FilterHover);
 }
 
-.wrapper-1Rf91z .wrapper-232cHJ /* Ping Notification */{
+.wrapper-1Rf91z .wrapper-232cHJ, .powercord-mentions-badge /* Ping Notification */{
   background-color: transparent!important;
-  color: var(--ColAccent);
+  color: var(--ColAccent)!important;
+  right: 50px!important;
+  bottom: 2px!important;
+  box-shadow: none!important;
+}
+
+/* Download Indicator Home Button */
+.wrapper-1Rf91z .downloadProgressCircle-yTgLNF{
   right: 50px;
-  bottom: 2px;
-  box-shadow: none;
+  top: 0;
+  z-index: 9999!important;
+  width: 16px;
+  height: 16px;
+}
+
+.wrapper-1Rf91z .hideGameUpdateProgressIndicator-2NBvWi{
+  opacity: 1!important;
 }
 
 /* Unread Indicator */
@@ -80,7 +93,7 @@
   font-weight: 600;
   text-align: center;
 }
-.wrapper-1Rf91z .container-1ETFDs svg{
+.wrapper-1Rf91z .container-1ETFDs svg:not(.circle-vWlbvd):not(.downloadIcon-3TWA3B){
   display: none;
 }
 
