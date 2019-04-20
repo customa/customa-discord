@@ -20,6 +20,7 @@
     --INTModChannelsWrapper: '';
     --INTModCodeBlockLanguages: '';
     --INTModDisplayChannelIcon: '';
+    --INTModDualWidthGuilds: '';
     --INTModEmbedsModernized: '';
     --INTModGuildsWrapper: '';
     --INTModNewDividerRed: '';
@@ -74,6 +75,7 @@
         var(--INTModChannelsWrapper)
         var(--INTModCodeBlockLanguages)
         var(--INTModDisplayChannelIcon)
+        var(--INTModDualWidthGuilds)
         var(--INTModEmbedsModernized)
         var(--INTModGuildsWrapper)
         var(--INTModNewDividerRed)

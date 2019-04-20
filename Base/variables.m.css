@@ -10,6 +10,7 @@
 
     /* Chat */
     --INTVarDisplayChannelIcon: '';
+    --INTVarDualWidthGuilds: '';
     --INTVarGuildsWrapper: '';
     --INTVarNewEditIcon: '';
     --INTVarNewEditText: '';
@@ -45,6 +46,7 @@
     var(--INTVarTooltip)'\A\A\A'
     'CHAT'
     var(--INTVarDisplayChannelIcon)
+    var(--INTVarDualWidthGuilds)
     var(--INTVarGuildsWrapper)
     var(--INTVarNewEditIcon)
     var(--INTVarNewEditText)
