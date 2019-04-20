@@ -21,7 +21,7 @@
 
 /* Bottom Left Corner + Fixes for when calling */
 
-.channels-Ie2l6A .container-PNkimc.firefoxFixScrollFlex-cnI2ix::after {
+.channels-Ie2l6A .firefoxFixScrollFlex-cnI2ix .firefoxFixScrollFlex-cnI2ix::after {
 	content: "";
 	width: calc(var(--SizeCornerRadius) * 2);
 	height: var(--SizeCornerRadius);
@@ -63,20 +63,48 @@
 
 /* Fix for Top Right + Bottom Right Corners */
 
-.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerWrap-2su1QI.scrollerThemed-2oenus.themedWithTrack-q8E3vB{
+.listeningAlong-2UPsxf.alignCenter-1dQNNs{
 	background-color: var(--ColBackground1)!important;
+}
+
+/* Fix for Listening Along Spotify - Puts it on the last spot */
+
+.listeningAlong-2UPsxf.alignCenter-1dQNNs{
+	order: 1;
+}
+
+.container-2Thooq:last-child{
+	order: 2;
 }
 
 /* Top Right Corner + Bottom Right Corner + Bottom Left Corner */
 
 .messagesWrapper-3lZDfY{
+	background-color: var(--ColBackground2);
 	border-top-right-radius: var(--SizeCornerRadius);
 	border-bottom-right-radius: var(--SizeCornerRadius);
-	border-bottom-left-radius: var(--SizeCornerRadius);
 }
 
-.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.messages-3amgkR {
-	background-color: var(--ColBackground2);
+.powercord-spotify::after{
+	content: "";
+	width: calc(var(--SizeCornerRadius) * 2);
+	height: var(--SizeCornerRadius);
+	background: var(--Background2);
+	display: block;
+	position: absolute;
+	right: calc(var(--SizeCornerRadius) * (-2));
+	bottom: 0;
+	border-radius: 0 0 0 var(--SizeCornerRadius);
+	box-shadow: calc(0px - var(--SizeCornerRadius)) 0 0 var(--ColBackground1);
+	z-index: 9999!important;
+}
+
+.listeningAlong-2UPsxf + .powercord-spotify::after{
+	bottom: -32px;
+}
+
+.powercord-spotify-seek-bar-progress{
+	z-index: 10000!important;
 }
 
 /* Round Spotify Modal (Powercord) */
