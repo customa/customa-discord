@@ -6,7 +6,7 @@
 
 /* Top Left Corner */
 
-.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.scroller-2wx7Hm::before {
+.channels-Ie2l6A .firefoxFixScrollFlex-cnI2ix .firefoxFixScrollFlex-cnI2ix::before {
 	content: "";
 	width: calc(var(--SizeCornerRadius) * 2);
 	height: var(--SizeCornerRadius);
@@ -19,9 +19,9 @@
 	box-shadow: calc(0px - var(--SizeCornerRadius)) 0 0 var(--ColBackground1);
 }
 
-/* Bottom Left Corner */
+/* Bottom Left Corner + Fixes for when calling */
 
-.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.scroller-2wx7Hm::after {
+.channels-Ie2l6A .container-PNkimc.firefoxFixScrollFlex-cnI2ix::after {
 	content: "";
 	width: calc(var(--SizeCornerRadius) * 2);
 	height: var(--SizeCornerRadius);
@@ -34,22 +34,53 @@
 	box-shadow: calc(0px - var(--SizeCornerRadius)) 0 0 var(--ColBackground1);
 }
 
-/* Fix for TR+BR Corners */
-
-.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerWrap-2su1QI.scrollerThemed-2oenus.themedWithTrack-q8E3vB {
-	background-color: var(--ColBackground1);
+.container-1UB9sr{
+	position: relative;
 }
 
-/* Top Right Corner + Bottom Right Corner */
+.container-1UB9sr::after{
+	content: "";
+	width: calc(var(--SizeCornerRadius) * 2);
+	height: var(--SizeCornerRadius);
+	background: var(--ColChannelList);
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-radius: 0 0 0 var(--SizeCornerRadius);
+	box-shadow: calc(0px - var(--SizeCornerRadius)) 0 0 var(--ColBackground1);
+}
+
+.container-1UB9sr::before{
+	content: "";
+	width: 240px!important;
+	height: var(--SizeCornerRadius);
+	position: absolute;
+	left: 0;
+	top: calc(var(--SizeCornerRadius) * -1);
+	background-color: var(--ColBackground2);
+}
+
+/* Fix for Top Right + Bottom Right Corners */
+
+.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerWrap-2su1QI.scrollerThemed-2oenus.themedWithTrack-q8E3vB{
+	background-color: var(--ColBackground1)!important;
+}
+
+/* Top Right Corner + Bottom Right Corner + Bottom Left Corner */
+
+.messagesWrapper-3lZDfY{
+	border-top-right-radius: var(--SizeCornerRadius);
+	border-bottom-right-radius: var(--SizeCornerRadius);
+	border-bottom-left-radius: var(--SizeCornerRadius);
+}
 
 .scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.messages-3amgkR {
 	background-color: var(--ColBackground2);
-	border-top-right-radius: var(--SizeCornerRadius);
-	border-bottom-right-radius: var(--SizeCornerRadius);
 }
 
 /* Round Spotify Modal (Powercord) */
 
 .powercord-spotify {
-	border-top-right-radius: 26px;
+	border-top-right-radius: var(--SizeCornerRadius);
 }
