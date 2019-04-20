@@ -21,14 +21,13 @@
 
 /* Bottom Left Corner + Fixes for when calling */
 
-.channels-Ie2l6A .firefoxFixScrollFlex-cnI2ix .firefoxFixScrollFlex-cnI2ix::after {
+.channels-Ie2l6A .firefoxFixScrollFlex-cnI2ix .firefoxFixScrollFlex-cnI2ix::after, .container-1UB9sr::after, .powercord-spotify::after {
 	content: "";
 	width: calc(var(--SizeCornerRadius) * 2);
 	height: var(--SizeCornerRadius);
 	background: var(--ColChannelList);
 	display: block;
 	position: absolute;
-	left: 0;
 	bottom: 0;
 	border-radius: 0 0 0 var(--SizeCornerRadius);
 	box-shadow: calc(0px - var(--SizeCornerRadius)) 0 0 var(--ColBackground1);
@@ -38,17 +37,8 @@
 	position: relative;
 }
 
-.container-1UB9sr::after{
-	content: "";
-	width: calc(var(--SizeCornerRadius) * 2);
-	height: var(--SizeCornerRadius);
-	background: var(--ColChannelList);
-	display: block;
-	position: absolute;
+.container-1UB9sr::after, .channels-Ie2l6A .firefoxFixScrollFlex-cnI2ix .firefoxFixScrollFlex-cnI2ix::after {
 	left: 0;
-	bottom: 0;
-	border-radius: 0 0 0 var(--SizeCornerRadius);
-	box-shadow: calc(0px - var(--SizeCornerRadius)) 0 0 var(--ColBackground1);
 }
 
 .container-1UB9sr::before{
@@ -86,16 +76,7 @@
 }
 
 .powercord-spotify::after{
-	content: "";
-	width: calc(var(--SizeCornerRadius) * 2);
-	height: var(--SizeCornerRadius);
-	background: var(--Background2);
-	display: block;
-	position: absolute;
 	right: calc(var(--SizeCornerRadius) * (-2));
-	bottom: 0;
-	border-radius: 0 0 0 var(--SizeCornerRadius);
-	box-shadow: calc(0px - var(--SizeCornerRadius)) 0 0 var(--ColBackground1);
 	z-index: 9999!important;
 }
 
@@ -103,7 +84,7 @@
 	bottom: -32px;
 }
 
-.powercord-spotify-seek-bar-progress{
+.powercord-spotify{
 	z-index: 10000!important;
 }
 
