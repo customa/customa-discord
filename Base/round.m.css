@@ -1,7 +1,8 @@
 :root {
     --INTModSelection: '    \2022  Round ~ Customa Devs (Base \2192  round.m.css)\A'!important;
-    --INTVarSelection: '\A\A Round - Module\A \2022  --SizeCornerRadius \2192  Allowed Values: Size (pref. 0.75em)'!important;
+    --INTVarSelection: '\A\A Round - Module\A \2022  --SizeCornerRadius \2192  Allowed Values: Size (pref. 0.75em) \A \2022  --SizeSpotifyRadius \2192  Allowed Values: Size (pref. 26px)'!important;
 	--SizeCornerRadius: 0.75em;
+	--SizeSpotifyRadius: 26px;
 }
 
 /* Top Left Corner */
@@ -91,5 +92,5 @@
 /* Round Spotify Modal (Powercord) */
 
 .powercord-spotify {
-	border-top-right-radius: var(--SizeCornerRadius);
+	border-top-right-radius: var(--SizeSpotifyRadius);
 }
