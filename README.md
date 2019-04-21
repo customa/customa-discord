@@ -1,4 +1,4 @@
-![Customa Logo](Customa.svg)
+![Customa Logo](https://gitlab.com/Customa/Customa-Discord/raw/master/Customa.svg)
 
 **The most customizable Discord theme out there**
 
