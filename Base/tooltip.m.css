@@ -1,21 +1,15 @@
 :root {
-    --ColTooltip: var(--ColAccent); /* Color */
+    --ColTooltip: #ffffff; /* Color */
+    --ColTextTooltip: var(--ColBackground1); /* Background-Color */
     --INTModTooltip: '    \2022  Tooltip ~ Customa Devs (Base \2192  tooltip.m.css)\A'!important;
-    --INTVarTooltip: '\A\A Tooltip - Module\A \2022  --ColTooltip \2192  Allowed Values: Color (pref. #xxxxxx)'!important;
+    --INTVarTooltip: '\A\A Tooltip - Module\A \2022  --ColTooltip \2192  Allowed Values: Color (pref. #xxxxxx) \2022  --ColTooltip \2192  Allowed Values: Color (pref. #xxxxxx)'!important;
 }
 
-.tooltip-1OS-Ti.black-2bmmnj /* Tooltips */, .mediaBarWrapper-3D7r67 .bubble-3qRl2J /* Media Time Bubbles */{
+.tooltipBlack-PPG47z /* Tooltips */, .mediaBarWrapper-3D7r67 .bubble-3qRl2J /* Media Time Bubbles */{
     background-color: var(--ColTooltip)!important;
+    color: var(--ColTextTooltip)!important;
 }
 
-.tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after, .mediaBarWrapper-3D7r67 .bubble-3qRl2J::before{
+.tooltipBlack-PPG47z .tooltipPointer-3ZfirK{
     border-top-color: var(--ColTooltip)!important;
-}
-
-.tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY:after{
-    border-right-color: var(--ColTooltip)!important;
-}
-
-.tooltip-1OS-Ti.black-2bmmnj.bottom-19kp6S:after{
-    border-bottom-color: var(--ColTooltip)!important;
 }
