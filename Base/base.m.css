@@ -1026,7 +1026,7 @@ fix verified server custom banner image
   padding: 0.7%;
 }
 
-body[data-guild-id='476844593896226816']{
+/* body[data-guild-id='476844593896226816']{
   --ColAppBG: url('https://cdn.discordapp.com/attachments/261950094096596992/477207573758607371/oneshotdesktop4.png');
   --ColAuthBG: url('/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg');
   --ColBackground1: rgba(0,0,0,0.2);
@@ -1041,4 +1041,4 @@ body[data-guild-id='476844593896226816']{
   --DisplayEmbedPill: none;
   --DisplayBlockedUserMessage: block;
   --DisplayNoConnectionBackdraw: flex;
-}
+} */
