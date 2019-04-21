@@ -2,7 +2,7 @@
     --INTModChannelDivider: '    \2022  Channel Divider ~ Customa Devs (Chat \2192  channelDivider.m.css)\A'!important;
 }
 
-.channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6 *{
+.channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .wrapper-CU3qI5 *{
   text-align: center;
   display: flex;
   justify-content: center;
@@ -13,11 +13,11 @@
   transition: .2s opacity ease-in-out!important;
 }
 
-.channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6:hover *{
+.channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .wrapper-CU3qI5:hover *{
   opacity: 0.8;
 }
 
-.channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6 [class*=name]::before, .channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6 [class*=name]::after{
+.channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .wrapper-CU3qI5 [class*=name]::before, .channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .wrapper-CU3qI5 [class*=name]::after{
   content: "";
   width: 100%;
   vertical-align: middle;
