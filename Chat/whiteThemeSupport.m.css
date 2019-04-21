@@ -1,11 +1,11 @@
 :root{
     --INTModWhiteThemeSupport: '    \2022  White Theme Support ~ Customa Devs (Chat \2192  whiteThemeSupport.m.css)\A'!important;
     --INTVarWhiteThemeSupport: '\A\A White Theme Support - Module \A \2022  --ColFont \2192  Allowed Values: Color (pref. #4f545c) \A \2022 --ColFontBright \2192  Allowed Values: Color (pref. #eeeeee)'!important;
-    --ColFont:  #72767d;
-    --ColFontBright: #EEEEEE;
-    --ColAppBG: #EEEEEE;
-    --ColBackground1: #EEEEEE;
-    --ColBackground2: #E0E0E0;
+    --ColFont:  #72767d!important;
+    --ColFontBright: #EEEEEE!important;
+    --ColAppBG: #EEEEEE!important;
+    --ColBackground1: #EEEEEE!important;
+    --ColBackground2: #E0E0E0!important;
 }
 
 .activityFeed-28jde9 div{
@@ -127,16 +127,16 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
 
 /* Restore White Mode Button */
 
-.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .checkboxWrapper-SkhIWG, .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12 /* Remove Checkbox and Text from white-theme button */{
-    visibility: visible;
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > .item-26Dhrx:first-child .checkboxWrapper-SkhIWG, .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12 /* Remove Checkbox and Text from white-theme button */{
+    visibility: visible!important;
 }
 
-.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child /* White Theme Button */{
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > .item-26Dhrx:first-child /* White Theme Button */{
     background-color: rgba(0,0,0,0.2)!important;
     pointer-events: all!important; 
 }
 
-.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12::before /* New Info for White Theme Button */{
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > .item-26Dhrx:first-child .info-3LOr12::before /* New Info for White Theme Button */{
     visibility: hidden!important;
 }
 
