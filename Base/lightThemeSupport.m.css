@@ -1,6 +1,6 @@
 :root{
-    --INTModWhiteThemeSupport: '    \2022  White Theme Support ~ Customa Devs (Chat \2192  whiteThemeSupport.m.css)\A'!important;
-    --INTVarWhiteThemeSupport: '\A\A White Theme Support - Module \A \2022  --ColFont \2192  Allowed Values: Color (pref. #4f545c) \A \2022 --ColFontBright \2192  Allowed Values: Color (pref. #eeeeee)'!important;
+    --INTModLightThemeSupport: '    \2022  Light Theme Support ~ Customa Devs (Base \2192  lightThemeSupport.m.css)\A'!important;
+    --INTVarLightThemeSupport: '\A\A Light Theme Support - Module \A \2022  --ColFont \2192  Allowed Values: Color (pref. #4f545c) \A \2022  --ColFontBright \2192  Allowed Values: Color (pref. #eeeeee)'!important;
     --ColFont:  #72767d!important;
     --ColFontBright: #EEEEEE!important;
     --ColAppBG: #EEEEEE!important;
@@ -53,11 +53,7 @@
 }
 
 .connection-1fbD7X .titleDefault-a8-ZSr /* Connection Button 'display on profile' */{
-    background-color: rgba(0,0,0,0.2);
-    padding: 1%;
-    border-radius: 3px;
     color: var(--ColFontBright);
-    font-weight: 400;
 }
 
 .notice-region .container-2VW0UT{
