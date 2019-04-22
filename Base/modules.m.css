@@ -1,0 +1,112 @@
+:root{
+    
+    /* DO NOT EDIT */
+    
+    /* Base */
+    --INTModBase: '';
+    --INTModFont: '';
+    --INTModLightThemeSupport: '';
+    --INTModModules: '    \2022  Modules - Customa Devs (Base \2192  modules.m.css)\A'!important;
+    --INTModRound: '';
+    --INTModSelection: '';
+    --INTModTooltips: '';
+    --INTModVariables: '';
+
+    /* Chat */
+    --INTModBetterBlockedMessages: '';
+    --INTModBetterCompactMode: '';
+    --INTModBetterFileTypes: '';
+    --INTModChannelDivider: '';
+    --INTModClassicChannelSelect: '';
+    --INTModCodeBlockLanguages: '';
+    --INTModColoredChannelIcon: '';
+    --INTModCustomEditIcon: '';
+    --INTModCustomEditText: '';
+    --INTModEmbedsModernized: '';
+    --INTModTwoRowGuilds: '';
+    --INTModTypingOnRight: '';
+    
+    /* Emoji */
+    --INTModJumboMoji: '';
+    
+    /* Misc */
+    --INTModAll: '';
+    --INTModCustomSettingsModal: '';
+    --INTModiOSToggles: '';
+    --INTModRainbow: '';
+
+    /* Sidebar */
+    --INTModCustomPlayingIcon: '';
+    --INTModCustomUserModal: '';
+    --INTModCustomUserPopout: '';
+    --INTModStatusCircles: '';
+    --INTModWrapperChannel: '';
+    --INTModWrapperGuild: '';
+    --INTModWrapperMember: '';
+
+    /* Titlebar */
+    --INTModCakeOSTitlebar: '';
+    --INTModCustomWordmark: '';
+    --INTModRestoreOldTitlebar: '';
+
+    /* Webkit */
+    --INTModAdvancedScrollbar: '';
+    --INTModPlaceholderRemover: '';
+    --INTModCustomPlaceholder: '';  
+}
+
+.userSettingsAccount-2eMFVR::after{
+    content: 'Base:\A ' 
+        var(--INTModBase)
+        var(--INTModFont)
+        var(--INTModLightThemeSupport) 
+        var(--INTModModules)
+        var(--INTModRound)
+        var(--INTModSelection)
+        var(--INTModTooltips)
+        var(--INTModVariables)'\A'
+    'Chat:\A'
+        var(--INTModBetterBlockedMessages)
+        var(--INTModBetterCompactMode)
+        var(--INTModBetterFileTypes)
+        var(--INTModChannelDivider)
+        var(--INTModClassicChannelSelect)
+        var(--INTModCodeBlockLanguages)
+        var(--INTModColoredChannelIcon)
+        var(--INTModCustomEditIcon)
+        var(--INTModCustomEditText)
+        var(--INTModEmbedsModernized)
+        var(--INTModTwoRowGuilds)
+        var(--INTModTypingOnRight) '\A'
+    'Emoji:\A'
+        var(--INTModJumboMoji) '\A'
+    'Misc:\A'
+        var(--INTModAll)
+        var(--INTModCustomSettingsModal)
+        var(--INTModiOSToggles)
+        var(--INTModRainbow) '\A'
+    'Sidebar:\A'
+        var(--INTModCustomPlayingIcon)
+        var(--INTModCustomUserModal)
+        var(--INTModCustomUserPopout)
+        var(--INTModStatusCircles)
+        var(--INTModWrapperChannel)
+        var(--INTModWrapperGuild)
+        var(--INTModWrapperMember) '\A'
+    'Titlebar:\A'
+        var(--INTModCakeOSTitlebar)
+        var(--INTModCustomWordmark) 
+        var(--INTModRestoreOldTitlebar) '\A'
+    'Webkit:\A'
+        var(--INTModAdvancedScrollbar)
+        var(--INTModCustomPlaceholder)
+        var(--INTModPlaceholderRemover);
+    padding: 3%;
+    margin-bottom: 2%;
+    background-color: var(--ColBackground1);
+    color: #ddd;
+    display: block;
+    white-space: pre;
+    line-height: 1.1;
+    border-radius: 0 0 3px 3px;
+}
