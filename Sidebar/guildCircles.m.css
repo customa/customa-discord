@@ -1,0 +1,87 @@
+:root {
+  --INTModGuildCircles: '    \2022  Guild Circles ~ Customa Devs (Sidebar \2192  guildCircles.m.css)\A' !important;
+
+  --ColGuildUnread: #fff8;
+  --ColGuildSelected: #fffc;
+  --ColGuildRTC: #43b581;
+  --ColGuildMentioned: var(--ColAccent);
+}
+
+/*
+  IMPORTANT:
+  Discord refactored some stuff,
+  so this badboy REQUIRES Powercord.
+*/
+
+.pc-listItem .pc-svg {
+  border-radius: 50%;
+  border-width: 4px;
+  border: 4px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.pc-listItem .pc-svg mask,
+.pc-listItem .pc-upperBadge,
+.pc-listItem .pc-pill {
+  display: none;
+}
+
+.pc-unread .pc-svg {
+  border-left-color: var(--ColGuildUnread) !important;
+  border-width: 2px;
+}
+
+.pc-selected .pc-svg {
+  border-color: var(--ColGuildSelected);
+  border-width: 5px;
+}
+
+.pc-guild-audio .pc-svg,
+.pc-guild-video .pc-svg {
+  border-color: var(--ColGuildRTC);
+  box-shadow: 0 0 8px var(--ColGuildRTC);
+}
+
+.pc-guild-video .pc-svg {
+  animation: videoGuildGlow 1.5s ease-in-out infinite alternate;
+}
+
+.pc-mentioned .pc-svg {
+  border-bottom-color: var(--ColGuildMentioned);
+  animation: mentionedGuildGlow 1.5s ease-in-out infinite alternate;
+}
+
+.pc-guild-audio.pc-mentioned .pc-svg,
+.pc-guild-video.pc-mentioned .pc-svg {
+  animation: bothGuildGlow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes videoGuildGlow {
+  from {
+    box-shadow: 0 0 6px var(--ColGuildRTC);
+  }
+
+  to {
+    box-shadow: 0 0 10px var(--ColGuildRTC);
+  }
+}
+
+@keyframes mentionedGuildGlow {
+  from {
+    box-shadow: 0 0 6px var(--ColGuildMentioned);
+  }
+
+  to {
+    box-shadow: 0 0 10px var(--ColGuildMentioned);
+  }
+}
+
+@keyframes bothGuildGlow {
+  from {
+    box-shadow: 0 0 8px var(--ColGuildRTC);
+  }
+
+  to {
+    box-shadow: 0 0 10px var(--ColGuildMentioned);
+  }
+}
