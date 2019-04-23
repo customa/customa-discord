@@ -2,10 +2,6 @@
     --INTModPlaceholderRemover: '    \2022  Placeholder Remover ~ Customa Devs (Webkit \2192  placeholderRemover.m.css)\A'!important;
 }
 
-::-webkit-input-placeholder {
-    color: transparent!important;
-}
-
-textarea::-webkit-input-placeholder {
+::-webkit-input-placeholder, textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
     color: transparent!important;
 }
