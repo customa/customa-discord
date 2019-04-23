@@ -1,15 +1,16 @@
 :root {
-  --INTModGuildsWrapper: "    \2022  Guilds Wrapper 2.0 ~ Customa Devs (Chat \2192  guildsWrapper.m.css)\A" !important;
-  --INTVarGuildsWrapper: "\A\A Guilds Wrapper - Module \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%) \A \2022 --WidthMax \2192  Allowed Values: XYpx (pref. 80px)" !important;
+  --INTModWrapperGuild: "    \2022  Guilds Wrapper ~ Customa Devs (Sidebar \2192  wrapperGuild.m.css)\A" !important;
+  --INTVarWrapperGuild: "\A\A Guilds Wrapper - Module \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%) \A \2022  --FilterHover \2192  Allowed Values: Filter Value (pref. grayscale(0%) \A \2022 --WidthGuildMax \2192  Allowed Values: XYpx (pref. 80px)\A \2022 --WidthGuildMin \2192  Allowed Values: XYpx (pref. 16px) \A \2022  --DurationWrapperGuild \2192  Allowed Values: Time [in s or ms] (pref. 200ms)" !important;
   --FilterNoHover: grayscale(100%);
   --FilterHover: grayscale(0%);
   --WidthGuildMax: 80px;
-  --DurationGuildsWrapper: 0.2s;
+  --WidthGuildMin: 16px;
+  --DurationWrapperGuild: 200ms;
 }
 
 .wrapper-1Rf91z /* GuildsWrapper */ {
-  width: 16px;
-  transition: width var(--DurationGuildsWrapper);
+  width: var(--WidthGuildMin);
+  transition: width var(--DurationWrapperGuild);
 }
 
 .wrapper-1Rf91z:hover /* GuildsWrapper Hover Effect */ {
