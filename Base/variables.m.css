@@ -3,30 +3,36 @@
 
     /* Base */
     --INTVarBase: '';
-    --INTVarRound: '';
     --INTVarFont: '';
+    --INTVarLightThemeSupport: '';
+    --INTVarRound: '';
     --INTVarSelection:'';
-    --INTVarTooltip: '';
+    --INTVarTooltips: '';
 
     /* Chat */
-    --INTVarDisplayChannelIcon: '';
-    --INTVarDualWidthGuilds: '';
-    --INTVarGuildsWrapper: '';
-    --INTVarNewEditIcon: '';
-    --INTVarNewEditText: '';
-    --INTVarWhiteThemeSupport: '';
+    --INTVarColoredChannelIcon: '';
+    --INTVarCustomEditIcon: '';
+    --INTVarCustomEditText: '';
+    --INTVarTwoRowGuilds: '';
     
     /* Emoji */
     --INTVarJumboMoji: '';
 
     /* Misc */
-    --INTVarSettingsModal: '';
+    --INTVarRainbow: '';
+    --INTVarCustomSettingsModal: '';
 
     /* Sidebar */
-    --INTVarSidebarMods: '';
+    --INTVarWrapperChannel: '';
+    --INTVarWrapperGuild: '';
+    --INTVarWrapperMember: '';
 
     /* Titlebar */
+    --INTVarCakeOSTitlebar: '';
     --INTVarCustomWordmark: '';
+
+    /* Webkit */
+    --INTVarCustomPlaceholder: '';
 }
 
 #bd-customcss-attach-controls /* BetterDiscord Custom CSS Editor */{
@@ -34,36 +40,38 @@
     border-bottom-right-radius: 0;
 }
 
-#bd-customcss-attach-controls::after{
+#bd-customcss-attach-controls::after, .powercord-account::after{
     white-space: pre-line;
     display: block;
     content: 'Customa-Variables\A\A'
     'BASE'
     var(--INTVarBase)
-    var(--INTVarRound)
     var(--INTVarFont)
+    var(--INTVarLightThemeSupport)
+    var(--INTVarRound)
     var(--INTVarSelection)
-    var(--INTVarTooltip)'\A\A\A'
+    var(--INTVarTooltips)'\A\A\A'
     'CHAT'
-    var(--INTVarDisplayChannelIcon)
-    var(--INTVarDualWidthGuilds)
-    var(--INTVarGuildsWrapper)
-    var(--INTVarNewEditIcon)
-    var(--INTVarNewEditText)
-    var(--INTVarWhiteThemeSupport)'\A\A\A'
+    var(--INTVarColoredChannelIcon)
+    var(--INTVarCustomEditIcon)
+    var(--INTVarCustomEditText)
+    var(--INTVarTwoRowGuilds)'\A\A\A'
     'EMOJI'
     var(--INTVarJumboMoji)'\A\A\A'
     'MISC'
-    var(--INTVarSettingsModal)'\A\A\A'
+    var(--INTVarCustomSettingsModal)
+    var(--INTVarRainbow)'\A\A\A'
     'SIDEBAR'
-    var(--INTVarSidebarMods)'\A\A\A'
+    var(--INTVarWrapperChannel)
+    var(--INTVarWrapperGuild)
+    var(--INTVarWrapperMember)'\A\A\A'
     'TITLEBAR'
-    var(--INTVarCustomWordmark);
-    margin: 1.5% -0.8%;
-    border-radius: 0 0 15px 15px;
+    var(--INTVarCakeOSTitlebar)
+    var(--INTVarCustomWordmark)'\A\A\A'
+    'WEBKIT'
+    var(--INTVarCustomPlaceholder);
+    margin: 1.5% -2.3% 0 -2.3%;
     padding: 3%;
-    text-align: center;
     line-height: 1.1;
     color: white;
-    background-color: var(--ColBackground1);
 }
