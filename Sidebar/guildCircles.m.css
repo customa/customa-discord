@@ -27,6 +27,14 @@
   display: none;
 }
 
+.pc-unread .pc-svg,
+.pc-selected .pc-svg,
+.pc-guild-audio .pc-svg,
+.pc-guild-video .pc-svg,
+.pc-mentioned .pc-svg {
+  padding: 2px;
+}
+
 .pc-unread .pc-svg {
   border-left-color: var(--ColGuildUnread) !important;
 }
@@ -47,7 +55,7 @@
 }
 
 .pc-mentioned .pc-svg {
-  border-bottom-color: var(--ColGuildMentioned);
+  border-right-color: var(--ColGuildMentioned);
   animation: mentionedGuildGlow 1.5s ease-in-out infinite alternate;
 }
 
