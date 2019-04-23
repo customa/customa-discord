@@ -16,14 +16,10 @@
     --INTModBetterBlockedMessages: '';
     --INTModBetterCompactMode: '';
     --INTModBetterFileTypes: '';
-    --INTModChannelDivider: '';
-    --INTModClassicChannelSelect: '';
     --INTModCodeBlockLanguages: '';
-    --INTModColoredChannelIcon: '';
     --INTModCustomEditIcon: '';
     --INTModCustomEditText: '';
     --INTModEmbedsModernized: '';
-    --INTModTwoRowGuilds: '';
     --INTModTypingOnRight: '';
     
     /* Emoji */
@@ -36,10 +32,14 @@
     --INTModRainbow: '';
 
     /* Sidebar */
+    --INTModChannelDivider: '';
+    --INTModClassicChannelSelect: '';
+    --INTModColoredChannelIcon: '';
     --INTModCustomPlayingIcon: '';
     --INTModCustomUserModal: '';
     --INTModCustomUserPopout: '';
     --INTModStatusCircles: '';
+    --INTModTwoRowGuilds: '';
     --INTModWrapperChannel: '';
     --INTModWrapperGuild: '';
     --INTModWrapperMember: '';
@@ -69,14 +69,10 @@
         var(--INTModBetterBlockedMessages)
         var(--INTModBetterCompactMode)
         var(--INTModBetterFileTypes)
-        var(--INTModChannelDivider)
-        var(--INTModClassicChannelSelect)
         var(--INTModCodeBlockLanguages)
-        var(--INTModColoredChannelIcon)
         var(--INTModCustomEditIcon)
         var(--INTModCustomEditText)
         var(--INTModEmbedsModernized)
-        var(--INTModTwoRowGuilds)
         var(--INTModTypingOnRight) '\A'
     'Emoji:\A'
         var(--INTModJumboMoji) '\A'
@@ -86,10 +82,14 @@
         var(--INTModiOSToggles)
         var(--INTModRainbow) '\A'
     'Sidebar:\A'
+        var(--INTModChannelDivider)
+        var(--INTModClassicChannelSelect)
+        var(--INTModColoredChannelIcon)
         var(--INTModCustomPlayingIcon)
         var(--INTModCustomUserModal)
         var(--INTModCustomUserPopout)
         var(--INTModStatusCircles)
+        var(--INTModTwoRowGuilds)
         var(--INTModWrapperChannel)
         var(--INTModWrapperGuild)
         var(--INTModWrapperMember) '\A'

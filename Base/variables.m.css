@@ -10,10 +10,8 @@
     --INTVarTooltips: '';
 
     /* Chat */
-    --INTVarColoredChannelIcon: '';
     --INTVarCustomEditIcon: '';
     --INTVarCustomEditText: '';
-    --INTVarTwoRowGuilds: '';
     
     /* Emoji */
     --INTVarJumboMoji: '';
@@ -23,6 +21,8 @@
     --INTVarCustomSettingsModal: '';
 
     /* Sidebar */
+    --INTVarColoredChannelIcon: '';
+    --INTVarTwoRowGuilds: '';
     --INTVarWrapperChannel: '';
     --INTVarWrapperGuild: '';
     --INTVarWrapperMember: '';
@@ -52,16 +52,16 @@
     var(--INTVarSelection)
     var(--INTVarTooltips)'\A\A\A'
     'CHAT'
-    var(--INTVarColoredChannelIcon)
     var(--INTVarCustomEditIcon)
-    var(--INTVarCustomEditText)
-    var(--INTVarTwoRowGuilds)'\A\A\A'
+    var(--INTVarCustomEditText)'\A\A\A'
     'EMOJI'
     var(--INTVarJumboMoji)'\A\A\A'
     'MISC'
     var(--INTVarCustomSettingsModal)
     var(--INTVarRainbow)'\A\A\A'
     'SIDEBAR'
+    var(--INTVarColoredChannelIcon)
+    var(--INTVarTwoRowGuilds)
     var(--INTVarWrapperChannel)
     var(--INTVarWrapperGuild)
     var(--INTVarWrapperMember)'\A\A\A'
