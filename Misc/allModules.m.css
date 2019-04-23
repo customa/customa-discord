@@ -2,38 +2,40 @@
 @import url('https://customa.gitlab.io/Customa-Discord/Base/variables.m.css'); /* Load VARIABLES - Needs all Modules to replace its presets */
 
 @import url('https://customa.gitlab.io/Customa-Discord/Base/base.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Base/font.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Base/modules.m.css');
 @import url('https://customa.gitlab.io/Customa-Discord/Base/round.m.css');
 @import url('https://customa.gitlab.io/Customa-Discord/Base/tooltip.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Base/selection.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Base/font.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Base/variables.m.css');
 
-@import url('https://customa.gitlab.io/Customa-Discord/Chat/betterBlock.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Chat/betterCompact.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Chat/betterBlockedMessages.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Chat/betterCompactMode.m.css');
 @import url('https://customa.gitlab.io/Customa-Discord/Chat/betterFileTypes.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Chat/cakeosTitlebar.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Chat/channelDivider.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Chat/channelsWrapper.m.css');
 @import url('https://customa.gitlab.io/Customa-Discord/Chat/codeBlockLanguages.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Chat/displayChannelIcon.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Chat/customEditIcon.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Chat/customEditText.m.css');
 @import url('https://customa.gitlab.io/Customa-Discord/Chat/embedsModernized.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Chat/guildsWrapper.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Chat/newDividerRed.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Chat/newEditIcon.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Chat/newEditText.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Chat/newMessageText.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Chat/oldChannelSelect.m.css');
 @import url('https://customa.gitlab.io/Customa-Discord/Chat/typingOnRight.m.css');
 
 @import url('https://customa.gitlab.io/Customa-Discord/Emoji/jumboMoji.m.css');
 
-@import url('https://customa.gitlab.io/Customa-Discord/Misc/settingsModal.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Misc/customSettingsModal.m.css');
 @import url('https://customa.gitlab.io/Customa-Discord/Misc/iOSToggles.m.css');
 
-@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/newPlaying.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/newUserModal.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/newUserPopout.m.css');
-@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/sidebarModifier.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/channelDivider.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/classicChannelSelect.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/coloredChannelIcon.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/customPlayingIcon.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/customUserModal.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/customUserPopout.m.css');
 @import url('https://customa.gitlab.io/Customa-Discord/Sidebar/statusCircles.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/twoRowGuilds.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/wrapperChannel.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/wrapperGuild.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Sidebar/wrapperMember.m.css');
+
+@import url('https://customa.gitlab.io/Customa-Discord/Titlebar/cakeOSTitlebar.m.css');
+@import url('https://customa.gitlab.io/Customa-Discord/Titlebar/customWordmark.m.css');
 
 @import url('https://customa.gitlab.io/Customa-Discord/Webkit/advancedScrollbar.m.css');
 @import url('https://customa.gitlab.io/Customa-Discord/Webkit/placeholderRemover.m.css');
