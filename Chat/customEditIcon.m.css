@@ -1,0 +1,17 @@
+:root{
+    --INTModCustomEditIcon: '    \2022  Custom Edit Icon ~ Customa Devs (Chat \2192  customEditIcon.m.css)\A'!important;
+    --INTVarCustomEditIcon: '\A\A Custom Edit Icon - Module \A \2022  --ContentEditIcon \2192  Allowed Values: url(TO_ICON)'!important;
+    --ContentEditIcon: url('https://customa.gitlab.io/Customa-Misc/Discord/Icons/EditIcon.svg');
+}
+
+.edited-DL9ECl{
+    font-size: 0;
+    width: 13px!important;
+    height: 13px!important;
+    display: inline-block;
+    background-image: var(--ContentEditIcon)!important;
+    background-size: 100%;
+    opacity: .5;
+    line-height: 23px;
+    margin-left: 5px;
+}
