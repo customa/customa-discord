@@ -1,11 +1,12 @@
 :root {
-    --INTModNewMessageText: '    \2022  New Message Text ~ Customa Devs (Chat \2192  newMessageText.m.css)\A'!important;
-    --TextNewMessage: "Toot!"; /* mastodon time */
+    --INTModCustomPlaceholder: '    \2022  Custom Placeholder ~ Customa Devs (Webkit \2192  customPlaceholder.m.css)\A'!important;
+    --INTVarCustomPlaceholder: '\A\A Custom Placeholer - Module \A \2022  --ContentCustomPlaceholder     \2192  Allowed Values: Text'!important;
+    --ContentCustomPlaceholder: "Toot!"; /* mastodon time */
 }
 
 /* add the "placeholder" */
 .inner-zqa7da::before {
-    content: var(--TextNewMessage);
+    content: var(--ContentCustomPlaceholder);
     color: rgba(255, 255, 255, 0.2);
     height: 100%;
     position: absolute;
