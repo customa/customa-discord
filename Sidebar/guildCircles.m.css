@@ -1,10 +1,12 @@
 :root {
   --INTModGuildCircles: '    \2022  Guild Circles ~ Customa Devs (Sidebar \2192  guildCircles.m.css)\A' !important;
 
-  --ColGuildUnread: #fff8;
+  --ColGuildUnread: #fff5;
   --ColGuildSelected: #fffc;
   --ColGuildRTC: #43b581;
   --ColGuildMentioned: var(--ColAccent);
+  --SizeGuildThin: 3px;
+  --SizeGuildThick: 5px;
 }
 
 /*
@@ -15,8 +17,7 @@
 
 .pc-listItem .pc-svg {
   border-radius: 50%;
-  border-width: 4px;
-  border: 4px solid transparent;
+  border: var(--SizeGuildThin) solid transparent;
   transition: all 0.3s ease;
 }
 
@@ -28,12 +29,11 @@
 
 .pc-unread .pc-svg {
   border-left-color: var(--ColGuildUnread) !important;
-  border-width: 2px;
 }
 
 .pc-selected .pc-svg {
   border-color: var(--ColGuildSelected);
-  border-width: 5px;
+  border-width: var(--SizeGuildThick);
 }
 
 .pc-guild-audio .pc-svg,
