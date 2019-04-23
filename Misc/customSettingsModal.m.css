@@ -1,16 +1,16 @@
 :root{
-    --INTModSettingsModal: '    \2022  Settings Modal ~ Customa Devs (Base \2192  settingsModal.m.css)\A'!important;
-    --INTVarSettingsModal: '\A\A Settings Modal - Module\A \2022  --DisplayNoDoubleBorderRadius \2192  Allowed Values: None/Block'!important;
+    --INTModCustomSettingsModal: '    \2022  Custom Settings Modal ~ Customa Devs (Misc \2192  customSettingsModal.m.css)\A'!important;
+    --INTVarCustomSettingsModal: '\A\A Custom Settings Modal - Module\A \2022  --DisplayNoDoubleBorderRadius \2192  Allowed Values: None/Block'!important;
     --DisplayNoDoubleBorderRadius: block;
 }
 
-.standardSidebarView-3F1I7i /* Settings Menu */{
+.layer-3QrUeG .standardSidebarView-3F1I7i /* Settings Menu */{
     animation: closeSettings 400ms cubic-bezier(.68,-0.55,.27,1.55);
-    width: 40%;
     height: 80%;
     margin: auto;
     opacity: 0;
-    min-width: 800px!important; 
+    max-width: 1000px!important;
+    z-index: 10!important;
     background-color: var(--ColBackground1)!important;
 }
 
@@ -34,12 +34,27 @@
     display: none;
 }
 
+.powercord-pc-icon svg{
+    width: 0!important;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+
+.powercord-pc-icon{
+    height: 20px!important;
+}
+
+.powercord-pc-icon::before{
+    height: 20px;
+}
+
 /* Padding Fixes for all major regions of the Settings Menu */
 .sidebarRegion-VFTUkN .sidebar-CFHs9e{
     padding-bottom: 15px!important;
     padding-top: 20px!important;
 }
-.layer-3QrUeG:not(#user-settings) .sidebarRegion-VFTUkN .sidebar-CFHs9e{
+.layer-3QrUeG:not([aria-label='USER_SETTINGS']) .sidebarRegion-VFTUkN .sidebar-CFHs9e{
     padding-left: 11px;
 }
 .contentRegion-3nDuYy .contentColumn-2hrIYH{
@@ -73,15 +88,11 @@
 
 /* Set Min and Max Width for content */
 .standardSidebarView-3F1I7i .contentColumn-2hrIYH, .standardSidebarView-3F1I7i .custom-column{
-    min-width: 690px;
-    max-width: 690px;
-}
-.standardSidebarView-3F1I7i .contentTransitionWrap-3hqOEW, .standardSidebarView-3F1I7i .contentRegion-3nDuYy, #bd-settingspane-container .contentRegionScrollerWrap-3YZXdm {
-    max-width: 740px;
+    min-width: 95%;
 }
 
 /* Separators */
-#user-settings .separator-gCa7yv, .ui-tab-bar-separator{
+[aria-label='USER_SETTINGS'] .separator-gCa7yv, .ui-tab-bar-separator{
     width: 30px;
     margin-left: 0!important;
     background-color: var(--ColAccent)!important;
@@ -93,10 +104,10 @@
 }
 
 /* User Settings Sidebar Settings */
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN{
     max-width: 56px!important;
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div:not(.separator-gCa7yv):not(.ui-tab-bar-separator){
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div:not(.separator-gCa7yv):not(.ui-tab-bar-separator){
     color: transparent!important;
     padding-left: 3px;
     padding-right: 3px;
@@ -104,96 +115,106 @@
     padding-top: 3px;
     width: 30px;
 }
-#user-settings .side-8zPYf6, #user-settings .sidebarRegion-VFTUkN .scrollerWrap-2lJEkd{
+[aria-label='USER_SETTINGS'] .side-8zPYf6, [aria-label='USER_SETTINGS'] .sidebarRegion-VFTUkN .scrollerWrap-2lJEkd{
     max-width: 56px;
     padding-right: 63px!important;
 }
-#user-settings .socialLinks-3jqNFy svg{
+[aria-label='USER_SETTINGS'] .socialLinks-3jqNFy a:not(.powercord-pc-icon) svg{
     width: 20px!important;
     height: 20px!important;
     margin-bottom: 5px;
 }
-#user-settings #bd-settings-sidebar > span > div{
+[aria-label='USER_SETTINGS'] #bd-settings-sidebar > span > div{
     width: 34px!important;
     padding-left: 0!important;
     margin-left: 0;
     margin-top: -8px!important;
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:not(.ui-tab-bar-header):not([style*='font-size'])::before{
 	-webkit-filter: invert(100%)!important;
-	filter: invert(100%)!important;
+    filter: invert(100%)!important;
+    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S0GenericGear.svg');
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(2):not(.ui-tab-bar-header):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(2):not(.ui-tab-bar-header):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S1Account.svg');
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(3):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(3):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S2Security.svg');
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(4):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(4):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S3Apps.svg');
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(5):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(5):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S4Connections.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(6):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(6):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S5Payment.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(8):not(.ui-tab-bar-item):not([style*='font-size']){
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(8):not(.ui-tab-bar-item):not([style*='font-size']){
     height: 30px!important;
     padding-top: 6px!important;
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(8):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(8):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S6Nitro.svg');
     display: block;
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(9):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(9):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S7Hypesquad.svg');
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(12):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(12):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S8Voice.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(13):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(13):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S9Overlay.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(14):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(14):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S10Notifications.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(15):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(15):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S11Keybinds.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(16):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(16):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S12Games.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(17):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(17):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S12_1ActivityFeed.svg');   
+}
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(18):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S12_2GamesLibrary.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(18):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(19):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S13TextImage.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(19):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(20):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S14Appearance.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(20):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(21):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S15Twitch.svg');
     width: 20px!important;
     height: 20px!important;
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(21):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(22):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S16Language.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(22):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(23):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S17OSSettings.svg');   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(24):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S18Changelog.svg');   
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(26):not(.ui-tab-bar-item):not([style*='font-size']){
+    width: 30px!important;
+    height: 32px!important;
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(25):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S19BDExperiments.svg');   
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(26):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+    /* content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S18Changelog.svg');    */
+    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/SPC1Core.svg')!important;   
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(26):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(27):not(.ui-tab-bar-item):not([style*='font-size'])::before{
+    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/SBD5Plugins.svg')!important;
+    /* content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S19BDExperiments.svg');    */
+}
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(28):not(.ui-tab-bar-item):not([style*='font-size'])::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S20BDDev.svg');
 }
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 > div:nth-last-child(3)::before{
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 > div:nth-last-child(3)::before{
     content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S21Logoff.svg')!important;
 }
 #bd-settings-sidebar > span > div .ui-tab-bar-item{
