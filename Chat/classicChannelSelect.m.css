@@ -1,0 +1,26 @@
+:root {
+    --INTModClassicChannelSelect: '    \2022  Classic Channel Select ~ Customa Devs (Chat \2192  classicChannelSelect.m.css)\A'!important;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ a[href*='/'], .privateChannels-1nO12o .channel-2QD9_O:hover a[href*='/']{
+    background: transparent!important;
+}
+
+.containerDefault-1ZnADq .iconVisibility-1bOqu7.wrapper-1ucjTd .content-3at_AU, .channel-2QD9_O{
+    margin-left: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), transparent) no-repeat;
+    background-color: transparent!important;
+    background-position: -240px;
+    border-radius: 0;
+    transition: background-position 0.2s;
+    border-left: 2.667px solid transparent;
+}
+
+.containerDefault-1ZnADq:hover .iconVisibility-1bOqu7.wrapper-1ucjTd .content-3at_AU, .containerDefault-1ZnADq.selected-37j_iU .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .channel-2QD9_O:hover, .channel-2QD9_O.selected-1HYmZZ{
+    background-position: 0;
+    border-left-color: rgba(0, 0, 0, 0.2);
+}
+
+.containerDefault-1ZnADq.selected-37j_iU .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .channel-2QD9_O.selected-1HYmZZ{
+    border-left-color: var(--ColAccent);
+}
