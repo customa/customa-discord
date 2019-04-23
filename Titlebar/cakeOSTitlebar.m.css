@@ -1,0 +1,76 @@
+:root {
+    --INTModCakeOSTitlebar: '    \2022  CakeOS Titlebar ~ Customa Devs (Titlebar \2192  cakeosTitlebar.m.css)\A'!important;
+    --INTVarCakeOSTitlebar: '\A\A CakeOS Titlebar - Module\A \2022  --ColCakeOSClose \2192  Allowed Values: Color (pref. #xxxxxx)\A \2022  --ColCakeOSCloseHover \2192  Allowed Values: Color (pref. #xxxxxx)\A \2022  --ColCakeOSMaximize \2192  Allowed Values: Color (pref. #xxxxxx)\A \2022  --ColCakeOSMaximizeHover \2192  Allowed Values: Color (pref. #xxxxxx)\A \2022  --ColCakeOSMinimize \2192  Allowed Values: Color (pref. #xxxxxx)\A \2022  --ColCakeOSMinimizeHover \2192  Allowed Values: Color (pref. #xxxxxx)'!important;
+    --ColCakeOSClose: #fac0f2;
+    --ColCakeOSCloseHover: #ff2851;
+    --ColCakeOSMaximize: #c8ffe0;
+    --ColCakeOSMaximizeHover: #3ecf8e;
+    --ColCakeOSMinimize: #fff7d3;
+    --ColCakeOSMinimizeHover: #f7a623;
+}
+
+.header-2o-2hj, .title-3qD0b-, .titleCall-_b9o8P {
+    height: 2.2em;
+}
+
+.titleBar-AC4pGV {
+    padding: 0.5em;
+}
+
+.wordmark-2iDDfm {
+    top: 7px;
+    left: 6px;
+}
+
+.wordmark-2iDDfm > svg {
+    width: 100%;
+    height: 100%;
+}
+
+.winButton-iRh8-Z {
+    padding: 0 1em;
+    background: transparent !important;
+    opacity: 1;
+}
+
+.winButton-iRh8-Z svg > * {
+    display: none;
+}
+
+.winButtonClose-1HsbF- svg {
+    background: var(--ColCakeOSClose) !important;
+    border: 1px solid var(--ColCakeOSCloseHover);
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+
+.winButtonClose-1HsbF-:hover svg {
+    background: var(--ColCakeOSCloseHover) !important;
+}
+
+
+.winButtonMinMax-PBQ2gm svg[name*="Maximize"] {
+    background: var(--ColCakeOSMaximize) !important;
+    border: 1px solid var(--ColCakeOSMaximizeHover);
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+
+.winButtonMinMax-PBQ2gm:hover svg[name*="Maximize"] {
+    background: var(--ColCakeOSMaximizeHover) !important;
+}
+
+
+.winButtonMinMax-PBQ2gm svg[name*="Minimize"] {
+    background: var(--ColCakeOSMinimize) !important;
+    border: 1px solid var(--ColCakeOSMinimizeHover);
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+
+.winButtonMinMax-PBQ2gm:hover svg[name*="Minimize"] {
+    background: var(--ColCakeOSMinimizeHover) !important;
+}
