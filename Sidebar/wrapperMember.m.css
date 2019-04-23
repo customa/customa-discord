@@ -1,24 +1,25 @@
 :root{
-    --INTModSidebarMods: '    \2022  SidebarMods ~ Customa Devs (Sidebar \2192  sidebarModifier.m.css)\A'!important;
-    --INTVarSidebarMods: '\A\A Sidebar Mods - Module\A \2022  --WidthSidebarMin \2192  Allowed Values: XYpx (pref. 20px)'!important;
+    --INTModWrapperMember: '    \2022  Member Wrapper ~ Customa Devs (Sidebar \2192  wrapperMember.m.css)\A'!important;
+    --INTVarWrapperMember: '\A\A Member Wrapper - Module\A \2022  --WidthSidebarMin \2192  Allowed Values: XYpx (pref. 65px)\A \2022  --WidthSidebarMax \2192  Allowed Values: XYpx (pref. 240px)\A \2022  --DurationWrapperMember \2192  Allowed Values: Time [in s or ms] (pref. 200ms)'!important;
     --WidthSidebarMin: 65px;
-    --DurationSidebarMod: 0.2s;
+    --WidthSidebarMax: 240px;
+    --DurationWrapperMember: 200ms;
 }
 
 .membersWrap-2h-GB4{
     width: var(--WidthSidebarMin) !important;
     min-width: var(--WidthSidebarMin);
-    transition: width var(--DurationSidebarMod);
+    transition: width var(--DurationWrapperMember);
 }
 
 .membersWrap-2h-GB4:hover {
-    width: 240px !important;
+    width: var(--WidthSidebarMax)!important;
 }
 
 /* hide elements */
 .membersGroup-v9BXpm, .username-1cB_5E, .activityText-sLG0UL {
     color: transparent !important;
-    transition: color var(--DurationSidebarMod);
+    transition: color var(--DurationWrapperMember);
 }
 
 /* show elements */
@@ -31,7 +32,7 @@
     height: 20px;
     padding-top: 0;
     overflow: hidden;
-    transition: height var(--DurationSidebarMod), padding-top var(--DurationSidebarMod);
+    transition: height var(--DurationWrapperMember), padding-top var(--DurationWrapperMember);
 }
 
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
