@@ -115,7 +115,7 @@ The entire theme wouldn't have been possible without the help of all following p
     - Mafu - For helping me figure out the right license
 - Powercord and its community
 - BetterDiscord
-- Beard's Material Theme and obviously Beard Design himself [Github](https://github.com/BeardDesign1), [Website](http://www.beard-design.com/)
+- Beard's Material Theme and obviously Beard Design himself [Github](https://github.com/BeardDesign1), [Website](http://www.beard-design.com/) - same goes for Nox
 - Twitch Icon: Icon made by [Pixel Perfect](https://icon54.com) from [flaticon](https://flaticon.com)
 
 ## 5. Support/Community Discord
