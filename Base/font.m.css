@@ -3,12 +3,12 @@
 :root{   
     --INTModFont: '    \2022  Fonts ~ Customa Devs (Base \2192  font.m.css)\A'!important;
     --INTVarFont: '\A\A Font - Module \A \2022  --FontFamily \2192  Allowed Values: Installed Fonts/Webfonts (pref. Sans-Serif)\A \2022  --FontMonoFamily \2192  Allowed Values: Installed Fonts/Webfonts (pref. Monospace)'!important;
-    --FontFamily: 'Lato', sans-serif /* Normal Font */;
+    --FontFamily: 'Lato', sans-serif /* Normal Font */!important;
     --FontMonoFamily: 'Fira Code', 'Fira Mono', monospace /* Monospace Font */;
 }
 
 /* Set all Fonts to the defined one */
-*:not(.fas):not(pre):not(code.hljs){
+*:not(.fas){
     font-family: var(--FontFamily)!important;
     font-variant: normal!important;
     -webkit-font-smoothing: antialiased;
