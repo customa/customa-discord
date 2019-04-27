@@ -3,6 +3,6 @@
     "description": "The most customizable Discord theme",
     "version": "1.0.0",
     "author": "The Customa Project",
-    "license": "GPL-3.0-or-later",
+    "license": "GPL-3.0-only",
     "theme": "./Base/base.m.css"
 }
