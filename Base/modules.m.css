@@ -30,6 +30,7 @@
     --INTModCustomSettingsModal: '';
     --INTModiOSToggles: '';
     --INTModRainbow: '';
+    --INTModEmailBlur: '';
 
     /* Sidebar */
     --INTModChannelDivider: '';
@@ -81,7 +82,8 @@
         var(--INTModAll)
         var(--INTModCustomSettingsModal)
         var(--INTModiOSToggles)
-        var(--INTModRainbow) '\A'
+        var(--INTModRainbow)
+        var(--INTModEmailBlur) '\A'
     'Sidebar:\A'
         var(--INTModChannelDivider)
         var(--INTModClassicChannelSelect)
