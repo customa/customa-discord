@@ -1,0 +1,17 @@
+:root{
+--INTModEmailBlur: "    \2022  Email Blur ~ Customa Devs (Misc \2192  emailblur.m.css)\A" !important;
+}
+
+.pc-userInfoViewing .pc-flexChild > div:nth-child(2) .pc-viewBody.pc-selectable,
+.pc-selectClosed .pc-paymentSourceLabel,
+.pc-paymentSourceRow .pc-subText {
+    filter: blur(4px);
+    transition: 150ms ease-in
+}
+
+.pc-userInfoViewing .pc-flexChild > div:nth-child(2) .pc-viewBody.pc-selectable:hover,
+.pc-selectClosed .pc-paymentSourceLabel:hover,
+.pc-paymentSourceRow .pc-subText:hover {
+    filter: none;
+    transition: 150ms ease-out
+}
