@@ -1,7 +1,7 @@
 :root{
-    
+
     /* DO NOT EDIT */
-    
+
     /* Base */
     --INTModBase: '';
     --INTModFont: '';
@@ -21,10 +21,10 @@
     --INTModCustomEditText: '';
     --INTModEmbedsModernized: '';
     --INTModTypingOnRight: '';
-    
+
     /* Emoji */
     --INTModJumboMoji: '';
-    
+
     /* Misc */
     --INTModAll: '';
     --INTModCustomSettingsModal: '';
@@ -38,6 +38,7 @@
     --INTModCustomPlayingIcon: '';
     --INTModCustomUserModal: '';
     --INTModCustomUserPopout: '';
+    --INTModGuildCircles: '';
     --INTModStatusCircles: '';
     --INTModTwoRowGuilds: '';
     --INTModWrapperChannel: '';
@@ -52,14 +53,14 @@
     /* Webkit */
     --INTModAdvancedScrollbar: '';
     --INTModPlaceholderRemover: '';
-    --INTModCustomPlaceholder: '';  
+    --INTModCustomPlaceholder: '';
 }
 
 .userSettingsAccount-2eMFVR::after{
-    content: 'Base:\A ' 
+    content: 'Base:\A '
         var(--INTModBase)
         var(--INTModFont)
-        var(--INTModLightThemeSupport) 
+        var(--INTModLightThemeSupport)
         var(--INTModModules)
         var(--INTModRound)
         var(--INTModSelection)
@@ -88,6 +89,7 @@
         var(--INTModCustomPlayingIcon)
         var(--INTModCustomUserModal)
         var(--INTModCustomUserPopout)
+        var(--INTModGuildCircles)
         var(--INTModStatusCircles)
         var(--INTModTwoRowGuilds)
         var(--INTModWrapperChannel)
@@ -95,7 +97,7 @@
         var(--INTModWrapperMember) '\A'
     'Titlebar:\A'
         var(--INTModCakeOSTitlebar)
-        var(--INTModCustomWordmark) 
+        var(--INTModCustomWordmark)
         var(--INTModRestoreOldTitlebar) '\A'
     'Webkit:\A'
         var(--INTModAdvancedScrollbar)
