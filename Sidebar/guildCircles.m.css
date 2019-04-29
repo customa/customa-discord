@@ -31,8 +31,14 @@
 .pc-selected .pc-svg,
 .pc-guild-audio .pc-svg,
 .pc-guild-video .pc-svg,
-.pc-mentioned .pc-svg {
+.pc-mentioned .pc-svg,
+.pc-listItem:only-child .pc-svg {
   padding: 2px;
+}
+
+.pc-listItem:only-child .pc-svg {
+  border-color: var(--ColGuildMentioned);
+  animation: mentionedGuildGlow 1.5s ease-in-out infinite alternate;
 }
 
 .pc-unread .pc-svg {
@@ -78,7 +84,6 @@
   from {
     box-shadow: 0 0 6px var(--ColGuildMentioned);
   }
-
   to {
     box-shadow: 0 0 10px var(--ColGuildMentioned);
   }
@@ -88,7 +93,6 @@
   from {
     box-shadow: 0 0 8px var(--ColGuildRTC);
   }
-
   to {
     box-shadow: 0 0 10px var(--ColGuildMentioned);
   }
