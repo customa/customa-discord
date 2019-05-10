@@ -13,12 +13,12 @@
   width: 76px;
 }
 
-.pc-listItem > svg /* Set Filter when server is not hovered */{
+.pc-listItem .pc-blobContainer /* Set Filter when server is not hovered */{
   filter: var(--FilterNoHover);
   transition: filter 200ms;
 }
 
-.pc-listItem.pc-selected > svg, .pc-listItem:hover > svg /* Set Filter when server is hovered */{
+.pc-listItem.pc-selected .pc-blobContainer, .pc-listItem:hover .pc-blobContainer /* Set Filter when server is hovered */{
   filter: var(--FilterHover); 
 }
 
