@@ -43,6 +43,37 @@
   transform: rotate(0);
 }
 
+.wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child .blob-1PX1Gp svg foreignObject a, .wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child .pill-2uzAFe /* Remove Home Guild, Remove Home Guild Selected */{
+  visibility: hidden;
+}
+
+.wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child /* Make first guild small */{
+  height: 18px!important;
+}
+
+.wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child .blob-1PX1Gp svg foreignObject a::after /* Add own "Home" Select */{
+  content: 'Home';
+  color: white;
+  position: absolute;
+  top: 3px;
+  left: 7px;
+  font-size: 12px;
+  visibility: visible!important;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  line-height: 130%;
+  transition: color var(--DurationGuildsWrapper);
+}
+
+.wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child:hover .blob-1PX1Gp svg foreignObject a::after{
+  color: var(--ColAccent);
+}
+
+.wrapper-1Rf91z > div > div > .listItem-2P_4kh:nth-child(2) /* Remove Seperator between Home and Guilds */{
+  display: none;
+}
+
 .wrapper-1Rf91z .listItem-2P_4kh div[class^="pill"] .item-2hkk8m {
   width: 5px;
   border-radius: 4px;
