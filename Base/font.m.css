@@ -11,7 +11,6 @@
 *:not(.fas){
     font-family: var(--FontFamily)!important;
     font-variant: normal!important;
-    -webkit-font-smoothing: antialiased;
 }
 
 /* set font for message box */
