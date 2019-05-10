@@ -1,113 +1,75 @@
 :root {
-  --INTModWrapperGuild: "    \2022  Guilds Wrapper ~ Customa Devs (Sidebar \2192  wrapperGuild.m.css)\A" !important;
-  --INTVarWrapperGuild: "\A\A Guilds Wrapper - Module \A \2022  --FilterNoHover \2192  Allowed Values: Filter Value (pref. grayscale(100%) \A \2022  --FilterHover \2192  Allowed Values: Filter Value (pref. grayscale(0%) \A \2022 --WidthGuildMax \2192  Allowed Values: XYpx (pref. 80px)\A \2022 --WidthGuildMin \2192  Allowed Values: XYpx (pref. 16px) \A \2022  --DurationWrapperGuild \2192  Allowed Values: Time [in s or ms] (pref. 200ms)" !important;
   --FilterNoHover: grayscale(100%);
   --FilterHover: grayscale(0%);
-  --WidthGuildMax: 80px;
-  --WidthGuildMin: 16px;
   --DurationWrapperGuild: 200ms;
 }
 
 .wrapper-1Rf91z /* GuildsWrapper */ {
-  width: var(--WidthGuildMin);
-  transition: width var(--DurationWrapperGuild);
+  width: 16px;
+  transition: width 200ms 200ms;
 }
 
-.wrapper-1Rf91z:hover /* GuildsWrapper Hover Effect */ {
-  width: var(--WidthGuildMax)!important;
+.wrapper-1Rf91z:hover{
+  width: 76px;
 }
 
-.wrapper-1Rf91z .scroller-2FKFPG /* Move Scroller to left to move guilds out of view */{
-  padding-left: 16px;
-}
-
-.wrapper-1Rf91z .wrapper-2lTRaf .icon-3o6xvg, .wrapper-1Rf91z .wrapper-2lTRaf .inner-1W0Bkn /* Disable Animation on Hover */{
-  border-radius: 25px!important;
-}
-
-.wrapper-1Rf91z .container-2td-dC .wrapper-2lTRaf /* Set Filter when server is not hovered */{
+.pc-listItem > svg /* Set Filter when server is not hovered */{
   filter: var(--FilterNoHover);
   transition: filter 200ms;
 }
 
-.wrapper-1Rf91z .container-2td-dC .wrapper-2lTRaf:hover, .wrapper-1Rf91z .container-2td-dC.selected-nT-gM3 .wrapper-2lTRaf /* Set Filter when server is hovered */{
-  filter: var(--FilterHover);
+.pc-listItem.pc-selected > svg, .pc-listItem:hover > svg /* Set Filter when server is hovered */{
+  filter: var(--FilterHover); 
 }
 
-.wrapper-1Rf91z .wrapper-232cHJ, .powercord-mentions-badge /* Ping Notification */{
-  background-color: transparent!important;
-  color: var(--ColAccent)!important;
-  right: 50px!important;
-  bottom: 2px!important;
-  box-shadow: none!important;
+.wrapper-1Rf91z .scroller-2FKFPG /* Move Scroller to left to move guilds out of view */{
+  padding-left: 5px;
 }
 
-/* Download Indicator Home Button */
-.wrapper-1Rf91z .downloadProgressCircle-yTgLNF{
-  right: 50px;
-  top: 0;
-  z-index: 9999!important;
-  width: 16px;
-  height: 16px;
+.wrapper-1Rf91z .listItem-2P_4kh img, .wrapper-1Rf91z .listItem-2P_4kh .acronym-2mOFsV, .wrapper-1Rf91z .listItem-2P_4kh .button-OhfaWu, .wrapper-1Rf91z .listItem-2P_4kh .circleIconButton-jET_ig /* Disable Animation on Hover/Select */{
+  border-radius: 25px!important;
 }
 
-.wrapper-1Rf91z .hideGameUpdateProgressIndicator-2NBvWi{
-  opacity: 1!important;
-}
-
-/* Unread Indicator */
-.wrapper-1Rf91z .container-2td-dC::before{
-  width: 5px;
-  left: -10px;
-}
-.wrapper-1Rf91z .container-2td-dC.unread-2OHH1w::before{
-  height: 5px;
-}
-.wrapper-1Rf91z .container-2td-dC.selected-nT-gM3::before{
-  height: 40px;
-}
-
-/* Hide Specific Elements when not in View */
-.wrapper-1Rf91z .friendsOnline-2JkivW, .wrapper-1Rf91z .bar-30k2ka{
-  opacity: 0;
-  transition: opacity 200ms;
-}
-.wrapper-1Rf91z:hover .friendsOnline-2JkivW, .wrapper-1Rf91z:hover .bar-30k2ka{
-  opacity: 1;
-}
-
-/* 'Home'-Container */
-.wrapper-1Rf91z .container-1ETFDs, .wrapper-1Rf91z .container-1ETFDs a, .wrapper-1Rf91z .homeButton-2Cw51C{
-  height: 15px;
-  border-radius: 0;
-}
-.wrapper-1Rf91z .container-1ETFDs .wrapper-232cHJ{
-  bottom: -4px;
-}
-.wrapper-1Rf91z .container-1ETFDs a::before{
-  width: 50px;
-  top: 4px;
-  position: absolute;
-  font-size: 12px;
-  content: 'Home';
-  text-transform: uppercase;
-  font-weight: 600;
-  text-align: center;
-}
-.wrapper-1Rf91z .container-1ETFDs svg:not(.circle-vWlbvd):not(.downloadIcon-3TWA3B){
+.wrapper-1Rf91z .listItem-2P_4kh mask /* Disable Animation on Hover/Select */{
   display: none;
 }
 
-.wrapper-1Rf91z .audio-2KA0-x::after, .wrapper-1Rf91z .video-2jNDI4:after /* Badge for when in voice and/or screensharing */ {
-  height: 15px !important;
-  width: 15px !important;
-  background-color: transparent !important;
-  left: -15px !important;
-  top: -5px !important;
+.wrapper-1Rf91z .listItem-2P_4kh .iconBadge-2NuvG9 /* Audio/Video connection */{
+  transition: transform 400ms;
   transform: rotate(-90deg);
-  transition: transform 200ms;
 }
 
-.wrapper-1Rf91z:hover .audio-2KA0-x::after, .wrapper-1Rf91z:hover .video-2jNDI4:after /* Badge for when in voice and/or screensharing on server hover */ {
+.wrapper-1Rf91z:hover .listItem-2P_4kh .iconBadge-2NuvG9 /* Audio/Video connection */{
   transform: rotate(0);
+}
+
+.wrapper-1Rf91z .listItem-2P_4kh div[class^="pill"] .item-2hkk8m {
+  width: 5px;
+  border-radius: 4px;
+  margin-left: 1px!important;
+  transform: none!important;
+  transition: opacity 200ms;
+}
+.wrapper-1Rf91z .listItem-2P_4kh div[class^="pill"] .item-2hkk8m[style*="height: 8"], .wrapper-1Rf91z .listItem-2P_4kh div[class^="pill"] .item-2hkk8m[style*="height: 7"] {
+  height: 5px !important;
+}
+
+.wrapper-1Rf91z .listItem-2P_4kh div[class^="pill"] .item-2hkk8m:not([style*="opacity: 0;"]) {
+  opacity: 1!important;
+}
+
+.wrapper-1Rf91z .listItem-2P_4kh .badgeWrapper-3e8pMZ .lowerBadge-29hYVK > * /* Ping Notification */{
+  background-color: transparent!important;
+  color: var(--ColAccent)!important;
+  position: absolute;
+  right: 49px!important;
+  bottom: -5px!important;
+  box-shadow: none!important;
+}
+
+.wrapper-1Rf91z .listItem-2P_4kh .badgeWrapper-3e8pMZ .upperBadge-2XnnGB > * /* Every other Notification */{
+  background-color: transparent!important;
+  right: 49px!important;
+  position: absolute;
+  top: -5px!important;
 }
