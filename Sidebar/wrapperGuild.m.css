@@ -79,7 +79,6 @@
   border-radius: 4px;
   margin-left: 1px!important;
   transform: none!important;
-  transition: opacity 200ms;
 }
 .wrapper-1Rf91z .listItem-2P_4kh div[class^="pill"] .item-2hkk8m[style*="height: 8"], .wrapper-1Rf91z .listItem-2P_4kh div[class^="pill"] .item-2hkk8m[style*="height: 7"] {
   height: 5px !important;
@@ -103,4 +102,35 @@
   right: 49px!important;
   position: absolute;
   top: -5px!important;
+}
+
+.wrapper-1Rf91z [class^='unreadMentionsIndicator']{
+  padding-left: 2px;
+  transition: padding 200ms 400ms;
+}
+
+.wrapper-1Rf91z:hover [class^='unreadMentionsIndicator']{
+  padding-left: 8px;
+}
+
+.wrapper-1Rf91z [class^='unreadMentionsIndicator'] .bar-30k2ka{
+  width: 12px;
+  height: 12px;
+  transition: width 200ms 200ms, height 200ms 400ms;
+}
+
+.wrapper-1Rf91z:hover [class^='unreadMentionsIndicator'] .bar-30k2ka{
+  width: 54px;
+  height: 24px;
+  transition: width 200ms 200ms, height 200ms;
+}
+
+.wrapper-1Rf91z [class^='unreadMentionsIndicator'] .bar-30k2ka span{
+  opacity: 0;
+  transition: opacity 200ms;
+}
+
+.wrapper-1Rf91z:hover [class^='unreadMentionsIndicator'] .bar-30k2ka span{
+  opacity: 1;
+  transition: opacity 200ms 400ms;
 }
