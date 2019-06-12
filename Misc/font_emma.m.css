@@ -6,8 +6,8 @@
 
 :root{
     --INTModFont: '    \2022  Fonts (Emma Config) ~ Customa Devs (Misc \2192  font_emma.m.css)\A'!important;
-    --FontFamily: 'Noto Bug Fix', 'Noto Blobs', 'Google Sans', sans-serif /* Normal Font */;
-    --FontMonoFamily: 'Noto Bug Fix Monospace', 'Noto Blobs', 'Fira Code', 'Fira Mono', monospace /* Monospace Font */;
+    --FontFamily: 'Noto Bug Fix', 'Noto Blobs', 'Google Sans', sans-serif /* Normal Font */!important;
+    --FontMonoFamily: 'Noto Bug Fix Monospace', 'Noto Blobs', 'Fira Code', 'Fira Mono', monospace /* Monospace Font */!important;
 }
 
 @font-face{
