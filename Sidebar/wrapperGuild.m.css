@@ -43,7 +43,7 @@
   transform: rotate(0);
 }
 
-.wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child .blob-1PX1Gp svg foreignObject a, .wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child .pill-2uzAFe /* Remove Home Guild, Remove Home Guild Selected */{
+.wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child svg foreignObject a, .wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child .pill-2uzAFe /* Remove Home Guild, Remove Home Guild Selected */{
   visibility: hidden;
 }
 
@@ -51,7 +51,7 @@
   height: 18px!important;
 }
 
-.wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child .blob-1PX1Gp svg foreignObject a::after /* Add own "Home" Select */{
+.wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child svg foreignObject a::after /* Add own "Home" Select */{
   content: 'Home';
   color: white;
   position: absolute;
@@ -66,7 +66,7 @@
   transition: color var(--DurationGuildsWrapper);
 }
 
-.wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child:hover .blob-1PX1Gp svg foreignObject a::after{
+.wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child:hover svg foreignObject a::after{
   color: var(--ColAccent);
 }
 
@@ -104,9 +104,15 @@
   top: -5px!important;
 }
 
+/* Hide non active bar */
+.wrapper-1Rf91z .unreadMentionsIndicatorBottom-BXS58x .bar-30k2ka:not(.mention-1f5kbO){
+  padding-top: 8px!important;
+}
+
+/* Unread Mentions Indicator */
 .wrapper-1Rf91z [class^='unreadMentionsIndicator']{
   padding-left: 2px;
-  transition: padding 200ms 400ms;
+  transition: padding 200ms 200ms;
 }
 
 .wrapper-1Rf91z:hover [class^='unreadMentionsIndicator']{
@@ -116,13 +122,13 @@
 .wrapper-1Rf91z [class^='unreadMentionsIndicator'] .bar-30k2ka{
   width: 12px;
   height: 12px;
-  transition: width 200ms 200ms, height 200ms 400ms;
+  transition: width 200ms, height 200ms 200ms;
 }
 
 .wrapper-1Rf91z:hover [class^='unreadMentionsIndicator'] .bar-30k2ka{
   width: 54px;
   height: 24px;
-  transition: width 200ms 200ms, height 200ms;
+  transition: width 200ms 400ms, height 200ms 200ms;
 }
 
 .wrapper-1Rf91z [class^='unreadMentionsIndicator'] .bar-30k2ka span{
