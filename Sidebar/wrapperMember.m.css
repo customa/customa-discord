@@ -40,3 +40,9 @@
 .membersWrap-2h-GB4:hover .memberInner-2CPc3V { 
     opacity: 1; 
 }
+
+/* Scrollbar Fixes */
+
+.messagesWrapper-3lZDfY:not(:hover) > div > div::-webkit-scrollbar-thumb{
+  background-color: rgba(0,0,0,0)!important;
+}
