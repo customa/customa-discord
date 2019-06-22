@@ -50,7 +50,100 @@ In the holiday season I rewrote the entire theme yet again, this time using [cla
 
 More than a year after the original version was released I had to fix all the problems of the last version. With the release of scripts that update the obfuscated classnames in your theme according to the newest Discord update, I sat down and started yet another rewrite. This time with better variable names and a much, much better structure. I finally got around creating a Discord Server where I can keep track of all the changes and I got myself to comment all of my code, despite slowing down development drastically, it made the code much more readable and futureproof, even if I personally lose interest in creating themes.
 
-## 3. Info
+## 3. Installation
+
+### Introduction
+
+This part will be split in preparations for two different Discord injectors: Powercord and BetterDiscord.
+
+**YOU DO NOT NEED THE CUSTOMA DEVELOPMENT INJECTOR FOR EITHER OF THEM**
+
+Instead of one theme file that you just install and leave, Customa gives you the ability to chose by picking your own modules and setting variables. Both will be shown below:
+
+* Picking Modules
+For this the Import Feature of CSS is used:
+
+```css
+@import url("https://customa.gitlab.io/Customa-Discord/CATEGORY/MODULE");
+```
+
+**`CATEGORY:`** Represented through folders in this Git Repo<br>
+**`MODULE:`** Represented through files in this Git Repo
+
+* Changing Variables
+For this the Root and Variable Feature of CSS is used:
+```css
+:root {
+    --option: "setting";
+    --colorOption: #123456;
+}
+```
+
+You should end up with something like this:
+```css
+@import url("https://customa.gitlab.io/Customa-Discord/Base/base.m.css");
+
+:root {
+    --ColAppBG: #161621;
+    --ColBackground1: #161621;
+    --ColBackground2: #212126;
+    ...
+}
+```
+
+At this point the ways part for both (supported) injectors
+
+### Powercord
+
+*This is the prefered method of using Customa due to a better integration with the ecosystem from Customa's side.*
+
+In this repository you can find a powercord_manifest.json file, which consists of a basic setup which executes the base module and nothing else. This also requires you to [clone](https://www.git-scm.com/docs/git-clone) the entire repo with git.
+
+Therefore it is recommended to (currently) do everything by hand.
+What you need:
+
+* A CSS file (named Customa.css in the following paragraph)
+* A powercord_manifest.json
+* A folder in the themes folder of Powercord
+
+You can ignore the .exists file:<br>
+![Folder Setup](https://i.imgur.com/TxHtoeH.png)
+![Folder Setup 2](https://i.imgur.com/UtGwXlP.png)
+
+The powercord_manifest.json file:
+
+```JSON
+{
+    "name": "Customa",
+    "description": "The most customizable Discord theme",
+    "version": "1.0.0",
+    "author": "The Customa Project",
+    "license": "GPL-3.0-only",
+    "theme": "./Customa.css"
+}
+```
+
+The Customa.css file:
+
+```CSS
+/* Your own Customa Setup here, Example below: */
+@import url("https://customa.gitlab.io/Customa-Discord/Base/base.m.css");
+
+:root {
+    --ColAppBG: #161621;
+    --ColBackground1: #161621;
+    --ColBackground2: #212126;
+    ...
+}
+```
+
+### BetterDiscordv1
+
+*Supported but legacy way of using Customa.*
+
+Go into the settings and navigate to the Custom CSS section. In there you place your Customa Configuration and Press Save and Apply.
+
+## 4. Further Info
 
 ### Who is working on the theme?
 
@@ -65,44 +158,15 @@ Customa is built by a small team of three people, who all work their part on thi
 
 Despite a strict requirement for the Base Module on the old website, the theme can also be used without these modules, it is heavily recommended though. ~~Modules like the Settings and Variables Module cannot be used without the Root Module.~~ **Fixed with the newest rewrite**; It is also not tested if all the modules work/look properly without the Base Module or even with a completely different theme.
 
-### Installation
-
-Instead of one theme file that you just install and leave, Customa uses an imports-and-variables approach, to add modules you put imports at the top of your config; (you can use the [#modules](https://discord.gg/uERAfbP) channel in the Discord server as a reference!)
-```css
-@import url("https://customa.gitlab.io/Customa-Discord/CATAGORY/MODULE");
-```
-
-After you have your module 'installed', you can change it's corresponding settings;
-```css
-:root {
-    --option: "setting";
-    --anotherOption: #696969;
-}
-```
-
-Then you should have something like;
-```css
-@import url("https://customa.gitlab.io/Customa-Discord/Base/base.m.css");
-
-:root {
-    --ColAppBG: #161621;
-    --ColBackground1: #161621;
-    --ColBackground2: #212126;
-    ...
-}
-```
-
-Then you can save your config as a CSS file and plug it into your CSS injector, powercord's theme location is `<install>/src/Powercord/plugins/pc-styleManager/themes/`, or put it into the custom CSS settings page in better discord. Now that you know how to make themes with Customa the possibilities are endless!
-
 ### Which variables do exist?
 
 You either use the variables module, or look in the #modules channel in the Discord server.
 
 ### Where does it run?
 
-On Discord's desktop app for pc, ie. windows/mac/linux/etc., currently there are no plans for mobile versions, 
+On Discord's desktop app for PC, ie. Windows/Mac/Linux/etc., currently there are no plans for mobile versions. 
 
-## 4. Special Mentions
+## 5. Special Mentions
 
 The entire theme wouldn't have been possible without the help of all following people.
 
@@ -114,8 +178,11 @@ The entire theme wouldn't have been possible without the help of all following p
     - anf - Who fixed the naughtiest bug ever and helped me fix the following ones myself
     - Mafu - For helping me figure out the right license
 - Powercord and its community
+    - MrLars - For helping me with the injector tool used to create Customa, and pointing out a lot of bugs
+    - Bowser65 - For helping me with getting the wrapperGuilds Module to work again
+    - Justin - For providing a splendid snippet for the channel search bar
 - BetterDiscord
-- Beard's Material Theme and obviously Beard Design himself [Github](https://github.com/BeardDesign1), [Website](http://www.beard-design.com/) - same goes for Nox
+- Beard's Material Theme and obviously Beard Design himself [Github](https://github.com/BeardDesign1), [Website](http://www.beard-design.com/) - same goes for [Nox](https://github.com/rauenzi/Nox)
 - Twitch Icon: Icon made by [Pixel Perfect](https://icon54.com) from [flaticon](https://flaticon.com)
 
 ## 5. Support/Community Discord
