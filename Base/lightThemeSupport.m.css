@@ -1,104 +1,61 @@
+@import url('https://customa.gitlab.io/Customa-Discord/Base/color.m.css');
+
 :root{
     --INTModLightThemeSupport: '    \2022  Light Theme Support ~ Customa Devs (Base \2192  lightThemeSupport.m.css)\A'!important;
     --INTVarLightThemeSupport: '\A\A Light Theme Support - Module \A \2022  --ColFont \2192  Allowed Values: Color (pref. #4f545c) \A \2022  --ColFontBright \2192  Allowed Values: Color (pref. #eeeeee)'!important;
+    
+    --ColChat: #72767d!important;
     --ColFont:  #72767d!important;
-    --ColFontBright: #EEEEEE!important;
+    --ColFontBright: #8e9297!important;
+    --ColFontPlaceholder: #72767d!important;
     --ColAppBG: #EEEEEE!important;
     --ColBackground1: #EEEEEE!important;
     --ColBackground2: #E0E0E0!important;
+    --ColTransparent1: rgba(0,0,0,0.03);
 }
 
-.activityFeed-28jde9 div{
-    border: none;
+.container-2VW0UT{
+    background-color: var(--ColBackground1)!important;
 }
 
-.card-3Qj_Yx .info-3LOr12 .desc-2Dttbk /* Selection Boxes Text On select */, .container-2Rl01u .name-3YKhmS /* Server Name */, .friendsOnline-_wi_fM /* Friends Online Indicator */, .guild-1EfMGQ .guildInner-3DSoA4 .guildIcon-CT-ZDq /* Empty Guild Icon */, .container-2Thooq /* Username Container Text */, .nameUnreadText-DfkrI4, .nameHoveredText-1uO31y /* Text in Channel Selection */, .activityText-OW8WYb /* Channel Activity Text */, .channel-2QD9_O:not(.selected-1HYmZZ) .name-2WpE7M /* DM Channels */, .privateChannels-1nO12o header /* Header Text of Private Channels */, .messagesPopoutWrap-1MQ1bW .tab-bar .tab-bar-item:not(.selected), .mentionFilter-1PQ6ey /* Message Wraper Header Text Fixes */, .keybind-KpFkfr /* ESC-Text when closing menu */, .markup-2BOw-j /* Normal typy text */, .headerText-2sdzFM div /* Userpopout Text */, .activityUserPopout-2yItg2 div /* Text for Current Game UserPopout */, ::-webkit-input-placeholder /* Placeholder Text Textboxes */, .nameTag-2IFDfL span, .headerFill-adLl4x .activityProfile-2bJRaP div /* Color Fixes User Modal */, textarea /* Textareas */, .uploadModal-2ifh8j .description-2ug5H_, .uploadModal-2ifh8j .comment-4IWttf, .uploadModal-2ifh8j .footer-3mqk7D button:not(.button-primary) /* Upload-Modal Text */, .nameConnectedVoice-MHUX5F /* Name of Voice Channel when hovered and connected */, .divider-3gKybi:not(.dividerRed-MKoLlr) span /* Divider Color */, .container-1UB9sr .inner-btChU7 a /* Voice Connection Channel Name */, .uploadModal-2ifh8j .autocompleteInner-zh20B_ .selector-2IcQBU .content-Qb0rXO > div:not([style*='color']) /* Autocomplete Upload Modal Inner Colors */, .titleText-3X-zRE .channelName-3stJzi /* Channel Name Voice Call */, .uploadArea-3QgLtW .inner-3nWsbo, .uploadArea-3QgLtW .inner-3nWsbo pre /* Upload Area */, .grabber-3mFHz2 .bubble-3we2di /* Audio Slider Grabber Bubble */, .jumpToPresentBar-9P20AM button /* Viewing older messages Button */, .unread-1s3J68 .bar-30k2ka /* Unread Bar, channels wrapper */, .container-3cGP6G .item-2J1YMK /* Chat Edit Menu */, .timestampCompact-MHgFLv /* Compact Mode Timestamp */, .guilds-1q_RqH > .guild-1EfMGQ:first-child .guildInner-3DSoA4 a::after /* "Home" Indicator Guilds Wrapper */, .personalizationNotice-2HTAH2 /* 'Your games tab could be better'-container */, .player-1kJMbj .info-1pMRIh span /* Activity Menu User */, .userSettingsAccount-2eMFVR .viewBody-2Qz-jg, .userSettingsAccount-2eMFVR::after /* Settings Container */{
-    color: var(--ColFont)!important;
+.divider-3gKybi /* Divider in Chat */, .autocompleteInner-zh20B_ /* Autocomplete Modal */{
+    background: transparent!important;
 }
 
-.nameSpeaking-3UhoEZ, .nameHovered-21k1eo /* Names in Voice Chat */, .nameHoveredVoice-YJ1Vfd /* Voice Channel on Hover */{
-    color: var(--ColAccent);
+.item-PXvHYJ.selected-3s45Ha /* Settings */, .acronym-2mOFsV /* Server Acronym if no image */{
+    color: white!important;
 }
 
-.contentHoveredVoice-3p_NEO svg path /* On Hover of Voice Channel */{
-    fill: var(--ColAccent)!important;
+.close-hhyjWJ, .powercord-toast .header, .powercord-toast .button, .powercord-toast .content{
+    color: var(--ColFont)!important
 }
 
-.actionButtons-1sUUug .text-3ewTZb, .search-results-wrap .action-buttons .jump-button /* Jump Button in Pins and Mentions + Search */{
-    color: #EEEEEE!important;
+.dividerEnabled-2TTlcf{
+    border-color: var(--ColTransparent1)!important;
 }
 
-.channel-name /* Channel Name Private DMs */{
-    font-weight: 500!important;
+.separator-2zcjq8{
+    border-color: var(--ColFontBright)!important;
 }
 
-.wordmark-2iDDfm path, .titleBar-AC4pGV .winButtonClose-1HsbF- svg polygon,  .titleBar-AC4pGV svg[name='TitleBarMinimize'] rect /* Titlebar SVGs */, .guilds-1q_RqH > .guild-1EfMGQ:nth-child(1) > .guildInner-3DSoA4 path /* Home Guild */, .close-18n9bP svg path.fill /* Close Buttons */, .channel-2QD9_O:not([style*='height']):not(.selected-1HYmZZ) svg path:first-child /* Icons for Activity and Friends Channel */, .containerDefault-3GGEv_ svg polygon, .containerDefault-1ZnADq svg path /* Container Selectors */{
-    fill: var(--ColFont);
+.status-1ibiUI, .status-2kJpnA{
+    border-color: white!important;
 }
 
-.connectedAccountVerifiedIcon-3aZz_K g path[fill='#747f8d'] /* Change the Color of the Verified Tick */{
-    fill: white;
-}
-
-.button-1w5pas path[stroke='#FFF'] /* Button to open Server Menu */,  .titleBar-AC4pGV svg[name='TitleBarMaximize'] rect /* Titlebar Icons */{
-    stroke: var(--ColFont);
-}
-
-.container-2Thooq svg path /* Icons in Username Container */, .unread-1s3J68 .bar-30k2ka polygon /* Unread Bar SVG */{
-    fill: #4f545c;
-}
-
-.wordmark-2iDDfm /* Discord Logo */, .search-header div /* Elements in Search Header */, .name-2WpE7M /* Channel Name Private DMs */{
+.privateChannels-1nO12o header /* Header for Private Channels */, .activity-525YDR /* User Activity */, .channel-SEolQq /* Voice Channel Name */{
     opacity: 1!important;
 }
 
-.connection-1fbD7X .titleDefault-a8-ZSr /* Connection Button 'display on profile' */{
-    color: var(--ColFontBright);
+.powercord-pc-icon{
+    filter: brightness(0.9);
 }
 
-.notice-region .container-2VW0UT{
-    background-color: rgba(255,255,255,0.8)!important;
+.socialLinks-3jqNFy:hover::before, .friendsAction-__WNE9{
+    filter: brightness(0.8)!important;
 }
 
-.theme-light .option-96V44q:after, .theme-light .autocompleteInner-zh20B_ /* Background Color Fixes for Option in Search and the Autocomplete Box */{
-    background: none!important;
-}
-
-.theme-light .channelTextArea-1LDbYG .attachButtonInner-1iyZ9F svg /* Upload Button */{
-    padding: 0;
-    background: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/uploadWhiteMode.svg') 50% no-repeat;
-}
-
-/* Empty Game Icon (User Modal and User Popout) */
-
-.gameIcon-gg34Dz[style='background-image: url("/assets/a5eba102f5b5e413df2b65c73f288afa.svg");']{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/gameIconUserPop.svg')!important;
-}
-
-/* Buttons User Container */
-
-.container-2Thooq button[style='background-image: url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg");']{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/mic.svg')!important;
-}
-
-.container-2Thooq button[style='background-image: url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg");']{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/micMute.svg')!important;
-}
-
-button[style='background-image: url("/assets/c7c47afdf35d5a3e06233319d3aa7674.svg");']{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/speaker.svg')!important;
-}
-
-button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.svg");']{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/speakerMute.svg')!important;
-}
-
-.buttonScreenShare-3zPiSA{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/screenshare.svg')!important;
-}
-
-.buttonDisconnect-3W_SJc:not(:hover){
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/hangup.svg')!important;
+.anchor-3Z-8Bb svg g path.fill{
+    fill: var(--ColFont);
 }
 
 /* Remove Dark Mode */
@@ -128,7 +85,7 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
 }
 
 .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > .item-26Dhrx:first-child /* White Theme Button */{
-    background-color: rgba(0,0,0,0.2)!important;
+    background-color: var(--ColAccent)!important;
     pointer-events: all!important; 
 }
 
@@ -136,97 +93,7 @@ button[style='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.sv
     visibility: hidden!important;
 }
 
-/* Better Discord Custom CSS Fix */
-
-#bd-customcss-attach-controls, #bd-customcss-attach-controls::after{
-    color: var(--ColFont)!important;
-}
-
-/* Settings Modal Fix */
-#user-settings .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div::before{
-    -webkit-filter: invert(100%) brightness(70%)!important;
-}
-
-/* Divider Background Color to match Background Color */
-.dividerContent-2L12VI{
-    background-color: var(--ColBackground2)!important;
-}
-
-/* Fixes channel dividers from Chat/channelDivider.m.css being to bright */
-.channels-Ie2l6A .scroller-2FKFPG [class*=container] .containerDefault-3GGEv_ .justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6 *{
-    color: var(--ColFont)!important;
-}
-
-/* Fixes role name color being to bright when using Sidebar/sidebarModifier.m.css */
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{
-    color: var(--ColFont)!important;
-}
-
-/* Fixes message placeholder being too bright when using Chat/newMessageText.m.css */
-.inner-zqa7da::before{
-    color: var(--ColFont)!important;
-}
-
-/* Fixes for 'Remove 2FA' 'Reset Voice Settings' and 'Change Phone Number?' buttons being to bright */
-.lookOutlined-3sRXeN.colorRed-1TFJan{
-    color: var(--ColFont)!important;
-}
-
-.lookLink-9FtZy-.colorPrimary-3b3xI6{
-    color: var(--ColFont)!important;
-}
-
-/* Fix for 'What Are You Playing?!' and 'Add it!' text*/
-.user-settings-games .not-detected .last-played{
-    color: var(--ColFontBright)!important;
-}
-
-.lookLink-9FtZy-.colorLink-35jkBc{
-    color: var(--ColFont)!important;
-}
-
-/* fixes confirmation text for roles being too bright */
-.message-c9-HCF{
-    color: var(--ColFontBright)!important;
-}
-
-span[style*='color: rgb(79, 84, 92);']{
-    color: var(--ColFontBright)!important;
-}
-
-/* Fixes white on white text and images */
-.activityName-1IaRLn, .headerTagUsernameNoNickname-2_H881 {
-    color: var(--ColFont)!important;
-}
-
-.edited-DL9ECl {
-    filter: invert(80%);
-}
-
-.guild-1EfMGQ.audio-3vVhBi::after {
-    filter: invert(80%);
-}
-
-.note-3kmerW textarea::-webkit-input-placeholder{
-    color: var(--ColFont)!important;
-}
-
-.headerTagUsernameNoNickname-2_H881 {
-    color: var(--ColFont)!important;
-}
-
-.activityName-1IaRLn {
-    color: var(--ColAnchor)!important;
-}
-
-.white-2qwKC7, .subTitle-3TUjmF, .h5-18_1nd, .authBox-hW6HRx, .nameSelectedVoice-1qSph5, .headerName-fajvi9 {
-    color: var(--ColFont)!important;
-}
-
-.lookLink-9FtZy-.colorBrand-3pXr91 {
-    color: var(--ColAnchor)!important;
-}
-
-.guild-1EfMGQ.video-15yGu3::after, .icon-1R19_H, .buttonInfo-3nkbOt {
-    filter: invert(80%);
+/* Upload Button */
+.channelTextArea-1LDbYG .attachButtonInner-1iyZ9F svg {
+  background: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/uploadWhiteMode.svg') 50% no-repeat;
 }
