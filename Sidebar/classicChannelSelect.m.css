@@ -24,3 +24,7 @@
 .containerDefault-1ZnADq.selected-37j_iU .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .channel-2QD9_O.selected-1HYmZZ{
     border-left-color: var(--ColAccent);
 }
+
+.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) {
+  width: calc(25% - 12px);
+}
