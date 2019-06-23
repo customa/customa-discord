@@ -4,22 +4,29 @@
 
 Bold statement don't you think? Let me keep up with the statement from above...
 
-1. [The Backstory](#1-the-backstory)
-2. [Versions](#2-versions)
-    - [Original](#original---june-2017)
-    - [The First Rewrite](#the-first-rewrite---august-2017)
-    - [The Second Rewrite](#the-second-rewrite--november-2017)
-    - [The Third Rewrite / The \[class\*=\]-Mess](#the-third-rewrite--the-class-mess--januaryfebruary-2018)
-    - [The Fourth Rewrite / The Current Version](#the-fourth-rewrite--the-current-version---august-2018)
-3. [Info](#3-info)
-    - [Who is working on the theme?](#who-is-working-on-the-theme)
-    - [What do I need for it to run?](#what-do-i-need-for-it-to-run)
-    - [How does the module system work?](#how-does-the-module-system-work)
-    - [Installation](#installation)
-    - [Which variables do exist?](#which-variables-do-exist)
-    - [Where does it run?](#where-does-it-run)
-4. [Special Mentions](#4-special-mentions)
-5. [Support/Community Discord](#6-supportcommunity-discord)
+* [1. The Backstory](#1-the-backstory)
+* [2. Versions](#2-versions)
+    * [Original - June 2017:](#original---june-2017)
+    * [The First Rewrite - August 2017:](#the-first-rewrite---august-2017)
+    * [The Second Rewrite ~ November 2017:](#the-second-rewrite--november-2017)
+    * [The Third Rewrite / The [class*=]-Mess ~ January/February 2018:](#the-third-rewrite--the-class-mess--januaryfebruary-2018)
+    * [The Fourth Rewrite / The Current Version - August 2018:](#the-fourth-rewrite--the-current-version---august-2018)
+* [3. Installation](#3-installation)
+    * [Introduction](#introduction)
+    * [Powercord](#powercord)
+    * [Manual](#manual)
+    * [Cloning](#cloning)
+    * [BetterDiscordv1](#betterdiscordv1)
+* [4. Further Info](#4-further-info)
+    * [Who is working on the theme?](#who-is-working-on-the-theme)
+    * [What do I need for it to run?](#what-do-i-need-for-it-to-run)
+    * [How does the module system work?](#how-does-the-module-system-work)
+    * [Which variables do exist?](#which-variables-do-exist)
+    * [Where does it run?](#where-does-it-run)
+* [5. Special Mentions](#5-special-mentions)
+* [6. Support/Community Discord](#6-supportcommunity-discord)
+
+![Discord](https://img.shields.io/discord/476844593896226816.svg?color=%23D81A60&label=Discord&logo=discord&logoColor=%23D81A60&style=for-the-badge)
 
 ## 1. The Backstory
 
@@ -97,14 +104,15 @@ At this point the ways part for both (supported) injectors
 
 *This is the prefered method of using Customa due to a better integration with the ecosystem from Customa's side.*
 
-In this repository you can find a powercord_manifest.json file, which consists of a basic setup which executes the base module and nothing else. This also requires you to [clone](https://www.git-scm.com/docs/git-clone) the entire repo with git.
-
-Therefore it is recommended to (currently) do everything by hand.
 What you need:
 
 * A CSS file (named Customa.css in the following paragraph)
 * A powercord_manifest.json
 * A folder in the themes folder of Powercord
+
+#### Manual
+
+Currently the recommended way of installing for Powercord:
 
 You can ignore the .exists file:<br>
 ![Folder Setup](https://i.imgur.com/TxHtoeH.png)
@@ -136,6 +144,10 @@ The Customa.css file:
     ...
 }
 ```
+
+#### Cloning
+
+In this repository you can find a powercord_manifest.json file, which consists of a basic setup which executes the base module and nothing else. This also requires you to [clone](https://www.git-scm.com/docs/git-clone) the entire repo with git. This is the best fit if you are planning to contribute to Customa with own modules or bugfixes, which is greatly appreciated!
 
 ### BetterDiscordv1
 
@@ -185,6 +197,6 @@ The entire theme wouldn't have been possible without the help of all following p
 - Beard's Material Theme and obviously Beard Design himself [Github](https://github.com/BeardDesign1), [Website](http://www.beard-design.com/) - same goes for [Nox](https://github.com/rauenzi/Nox)
 - Twitch Icon: Icon made by [Pixel Perfect](https://icon54.com) from [flaticon](https://flaticon.com)
 
-## 5. Support/Community Discord
+## 6. Support/Community Discord
 
 [discord.io/Customa](http://discord.io/Customa)
