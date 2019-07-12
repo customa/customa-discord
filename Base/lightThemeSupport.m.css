@@ -38,7 +38,7 @@
     border-color: var(--ColFontBright)!important;
 }
 
-.status-1ibiUI, .status-2kJpnA{
+.status-1ibiUI, .status-2kJpnA, .status-3DaTVG{
     border-color: white!important;
 }
 
@@ -52,6 +52,22 @@
 
 .socialLinks-3jqNFy:hover::before, .friendsAction-__WNE9{
     filter: brightness(0.8)!important;
+}
+
+.friendsRow-2yicud .friendsAction-__WNE9:not(.friendsActionRemove-qu8nnl:hover), .close-3hZ5Ni{
+    filter: brightness(0.5)!important;
+}
+
+.twitterLink-3NsWMp:before, .statusLink-gFXhrL:before{
+    filter: brightness(0.5)!important;
+}
+
+.friendsActionRemove-qu8nnl:hover{
+    filter: brightness(1)!important;
+}
+
+.contents-18-Yxp .editIcon-13gaox{
+    filter: brightness(10)!important;
 }
 
 .anchor-3Z-8Bb svg g path.fill{
@@ -75,7 +91,7 @@
     position: absolute!important;
     top: 15px;
     left: 12px;
-    color: var(--ColFontBright);
+    color: white;
 }
 
 /* Restore White Mode Button */
@@ -96,4 +112,14 @@
 /* Upload Button */
 .channelTextArea-1LDbYG .attachButtonInner-1iyZ9F svg {
   background: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/WhiteMode/uploadWhiteMode.svg') 50% no-repeat;
+}
+
+/* Top Bar */
+
+.wordmark-2iDDfm path, .winButton-iRh8-Z:not(:hover) svg[name='TitleBarClose'] polygon, .winButton-iRh8-Z svg[name='TitleBarMinimize'] rect{
+    fill: var(--ColFont);
+}
+
+.winButton-iRh8-Z svg[name='TitleBarMaximize'] rect{
+    stroke: var(--ColFont);
 }
