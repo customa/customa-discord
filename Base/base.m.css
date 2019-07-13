@@ -496,6 +496,10 @@ Width & Height
   margin: 0 20px 20px;
 }
 
+.powercord-spotify-seek-duration:nth-of-type(2){
+  margin-right: 5px;
+}
+
 .container-1YxwTf:last-of-type /* Last Message Group has bottom Margin */{
   margin-bottom: 25px;
 }
@@ -1315,13 +1319,6 @@ Space out Link Button in DMs
 
 .problems-3mgf6w > div > a:nth-child(2){
   margin-left: 5px;
-}
-
-.container-3baos1{
-  z-index: 4000!important;
-  position: absolute;
-  width: 220px!important;
-  bottom: 0;
 }
 
 /* Cache Images */
