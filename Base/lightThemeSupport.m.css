@@ -26,7 +26,7 @@
     color: white!important;
 }
 
-.close-hhyjWJ, .powercord-toast .header, .powercord-toast .button, .powercord-toast .content{
+.close-hhyjWJ, .powercord-toast .header, .powercord-toast .button, .powercord-toast .content, .fas::before, .far::before{
     color: var(--ColFont)!important
 }
 
