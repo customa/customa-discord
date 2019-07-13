@@ -36,7 +36,7 @@
     color: var(--ColFontPlaceholder)!important;
 }
 
-.markup-2BOw-j, .username-_4ZSMR:not([style]), .content-2M3n_H{
+.markup-2BOw-j:not(.isFailed-19WM0A), .username-_4ZSMR:not([style]), .content-2M3n_H{
     color: var(--ColChat)!important;
 }
 
