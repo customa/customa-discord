@@ -35,18 +35,27 @@
 }
 
 [class*='topSection']{
-    z-index: -2!important;
+    z-index: 0!important;
 }
 
-.modal-1UGdnR .inner-1JeGVc .root-SR8cQa, .modal-1UGdnR .inner-1JeGVc{
-    z-index: -3;
+.root-SR8cQa .body-3ND3kc{
+    z-index: 10!important;
+    background-color: var(--ColBackground1)!important;
 }
 
-.modal-1UGdnR .inner-1JeGVc .root-SR8cQa .tabBarContainer-1s1u-z{
+[class*='topSection'] *{
+    color: white!important;
+}
+
+.modal-1UGdnR .inner-2VEzy9 .root-SR8cQa, .modal-1UGdnR .inner-2VEzy9{
+    z-index: 1!important;
+}
+
+.modal-1UGdnR .inner-2VEzy9 .root-SR8cQa .tabBarContainer-1s1u-z{
     background-color: var(--ColBackground1)!important;
     border: none;
 }
 
-.modal-1UGdnR .inner-1JeGVc .root-SR8cQa header .actionButton-3W1xZa.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN{
+.modal-1UGdnR .inner-2VEzy9 .root-SR8cQa header .actionButton-3W1xZa.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN{
     background-color: rgba(0,0,0,0.2)!important;
 }
