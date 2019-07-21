@@ -1,0 +1,57 @@
+:root{
+  --INTModClassicStatusIndicator: '    \2022  Classic Status Indicator ~ Customa Devs (Sidebar \2192  classicStatusIndicator.m.css)\A'!important;
+}
+
+/* thanks bowser for the snippet I was allowed to copy basically uff */
+
+/* Smaller mobile presence indicator */
+rect[mask="url(#svg-mask-status-online-mobile)"] {
+  width: 8px;
+  height: 12px;
+  x: 24;
+  y: 19;
+}
+
+mask#svg-mask-avatar-status-mobile-32 rect {
+  width: 0.35px;
+  x: 0.67;
+  y: 0.5;
+}
+
+foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"] + rect {
+  fill: #43b581;
+  width: 16px;
+  height: 24px;
+  x: 60;
+  y: 52;
+}
+
+/* Old rounded status indicator */
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-online)"][fill^="#4"] {
+  fill: #43b581;
+  mask: url(#svg-mask-status-online);
+}
+
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-idle)"]{
+  fill: #faa61a;
+  mask: url(#svg-mask-status-online);
+}
+
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-dnd)"]{
+  fill: #f04747;
+  mask: url(#svg-mask-status-online);
+}
+
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-offline)"]{
+  mask: url(#svg-mask-status-online);
+}
+
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-streaming)"]{
+  mask: url(#svg-mask-status-online);
+}
+
+/* Old offline members */
+.memberOffline-2lN7gt .avatarOffline-3GF27z {
+  opacity: 1;
+  filter: grayscale(1);
+}
