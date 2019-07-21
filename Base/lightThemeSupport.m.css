@@ -22,11 +22,11 @@
     background: transparent!important;
 }
 
-.item-PXvHYJ.selected-3s45Ha /* Settings */, .acronym-2mOFsV /* Server Acronym if no image */{
+.item-PXvHYJ.selected-3s45Ha /* Settings */{
     color: white!important;
 }
 
-.close-hhyjWJ, .powercord-toast .header, .powercord-toast .button, .powercord-toast .content, .fas::before, .far::before{
+.close-hhyjWJ, .powercord-toast .header, .powercord-toast .button, .powercord-toast .content, .fas::before, .far::before, .button-OhfaWu.wrapper-1BJsBx:not(.selected-wSa2KV) .homeIcon-tEMBK1 path, .wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child:not(:hover) svg foreignObject a:not(.selected-wSa2KV)::after, .userSettingsAccount-2eMFVR::after{
     color: var(--ColFont)!important
 }
 
@@ -46,19 +46,11 @@
     opacity: 1!important;
 }
 
-.powercord-pc-icon{
-    filter: brightness(0.9);
-}
-
 .socialLinks-3jqNFy:hover::before, .friendsAction-__WNE9{
     filter: brightness(0.8)!important;
 }
 
-.friendsRow-2yicud .friendsAction-__WNE9:not(.friendsActionRemove-qu8nnl:hover), .close-3hZ5Ni{
-    filter: brightness(0.5)!important;
-}
-
-.twitterLink-3NsWMp:before, .statusLink-gFXhrL:before{
+.friendsRow-2yicud .friendsAction-__WNE9:not(:hover), .twitterLink-3NsWMp:before, .statusLink-gFXhrL:before, .close-3hZ5Ni, img[src="/assets/e8b66317ab0dc9ba3bf8d41a4f3ec914.png"], .powercord-pc-icon, .actions-2vadYq .iconButton-3V4WS5, .pagination-eQpqgk > div, .quickSelectArrow-1QublR, .powercord-account-list-account{
     filter: brightness(0.5)!important;
 }
 
@@ -122,4 +114,15 @@
 
 .winButton-iRh8-Z svg[name='TitleBarMaximize'] rect{
     stroke: var(--ColFont);
+}
+
+/* Custom Settings Modal Module Support */
+
+[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:not(.ui-tab-bar-header):not(.selected-3s45Ha):not([style='color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);']):not([style*='font-size'])::before, #bd-settings-sidebar > span > div div::before{
+    filter: invert(65%)!important;
+    -webkit-filter: invert(65%)!important;
+}
+
+.dividerRed-MKoLlr span::before, .dividerRed-MKoLlr span::after /* Divider Red */{
+    border: none!important;
 }
