@@ -66,7 +66,7 @@
   transition: color var(--DurationGuildsWrapper);
 }
 
-.wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child:hover svg foreignObject a::after{
+.wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child:hover svg foreignObject a::after, .wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child svg foreignObject a.selected-wSa2KV::after{
   color: var(--ColAccent);
 }
 
@@ -86,6 +86,10 @@
 
 .wrapper-1Rf91z .listItem-2P_4kh div[class^="pill"] .item-2hkk8m:not([style*="opacity: 0;"]) {
   opacity: 1!important;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN > .listItem-2P_4kh:first-child .badgeWrapper-3e8pMZ .lowerBadge-29hYVK > * /* Ping Notification */{
+  bottom: 29px!important;
 }
 
 .wrapper-1Rf91z .listItem-2P_4kh .badgeWrapper-3e8pMZ .lowerBadge-29hYVK > * /* Ping Notification */{
