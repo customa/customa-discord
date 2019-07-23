@@ -177,6 +177,10 @@ Backgrounds & SVG Fills
   background-color: var(--ColTrue)!important;
 }
 
+.divider-3gKybi:not(.dividerRed-MKoLlr) span::before, .divider-3gKybi:not(.dividerRed-MKoLlr) span::after /* Color Fixes of the Divider */{
+  background-color: rgba(255,255,255,0.2)!important;
+}
+
 .updateIconForeground-2jeItf /* Changes fill of the update Icon */, .connectedAccountVerifiedIcon-3aZz_K g path:not([fill='#ffffff']) /* Change the Color of the Verified Tick */, .selectorButton-21mL5E svg path /* Nitro Icon Screenshare Option */, .verified-3uJH7V path[fill='#4f545c'] /* verified server badge */, svg[name='LearnMore'] path /* SVG Question Mark Search */, .verified-3uJH7V .verifiedInner-DViLz0 /* Verified Server Icon Header */, .verifiedIcon-1vpk3S path[fill='#7289da'] /* Verified Server Discovery */, .verifiedIcon-3oz8wo path[fill='#7289da'] /* Verified Server Activity Feed Game Description */, .updateIconForeground-3tnNZn /* Download Update Icon */, .foreground-2EIns2 /* Foreground Nitro Boost */{
   fill: var(--ColAccent);
 }
