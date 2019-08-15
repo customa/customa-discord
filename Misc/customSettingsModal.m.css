@@ -47,15 +47,17 @@
 
 .powercord-pc-icon::before{
     height: 20px;
+    margin-right: -25px!important;
+}
+.socialLinks-3jqNFy::before{
+    left: 3px;
+    margin-bottom: 5px;
 }
 
 /* Padding Fixes for all major regions of the Settings Menu */
 .sidebarRegion-VFTUkN .sidebar-CFHs9e{
     padding-bottom: 15px!important;
     padding-top: 20px!important;
-}
-.layer-3QrUeG:not([aria-label='USER_SETTINGS']) .sidebarRegion-VFTUkN .sidebar-CFHs9e{
-    padding-left: 11px;
 }
 .contentRegion-3nDuYy .contentColumn-2hrIYH{
     padding-left: 15px!important;
@@ -269,4 +271,20 @@
     }100%{
         background: transparent;
     }
+}
+
+.tier1Banner-1B_WXY, .details-1YZMDP, .banner-3Kac2g{
+    max-width: 100%!important;
+}
+
+.banner-3Kac2g{
+   background: var(--ColBackground1)!important;
+}
+
+.contentTransitionWrap-3hqOEW, .sidebarRegion-VFTUkN{
+  padding-bottom: 0!important;
+}
+
+.planName-1SYoJ1 g, .periodInfo-2mik6K{
+  color: var(--ColAccent)!important;
 }
