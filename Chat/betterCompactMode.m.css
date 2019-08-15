@@ -14,7 +14,7 @@
     padding: 0;
 }
 
-.theme-dark .dividerEnabled-2TTlcf {
+.dividerEnabled-2TTlcf {
     border-bottom-color: hsla(0,0%,100%,.02);
 }
 
@@ -46,8 +46,8 @@
 .avatar-17mtNa, .avatar-17mtNa > div {
     margin: 0;
     margin-right: 0.5em;
-    width: 1.4em;
-    height: 1.4em;
+    width: 1.4em!important;
+    height: 1.4em!important;
 }
 
 .contentCozy-3XX413 {
