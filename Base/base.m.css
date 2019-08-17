@@ -195,7 +195,7 @@ Backgrounds & SVG Fills
   background-color: var(--ColLastMessage);
 }
 
-.buttonDisconnect-3W_SJc:hover /* Button to disconnect voice */{
+.container-1giJp5 > div > button:last-child:hover /* Button to disconnect voice */{
   background-color: var(--ColFalse)!important;
 }
 
@@ -406,7 +406,7 @@ Color & Text - Align
   color: #b9bbbe;
 }
 
-.button-38aScr /* Buttons */, .container-3gCOGc .item-PXvHYJ.primary-3j8BhM.selected-3s45Ha /* Top bar Action Button Select */, #help-query /* Input of F1 Menu */, .header-2bNvm4 h3, .header-2bNvm4 input /* Add Role Popout Header */, .animator-US5i9g input /* Create Guild Input */, .regionSelect-3lf4eE:hover button /* Regional Select Button Fixes */, .uploadModal-2ifh8j .button-primary /* Upload Modal Button Upload */, .botTagInvert-18-95s /* User Popout & User Modal Bot Tag */, .channelTextAreaUpload-3t7EIx .autocompleteRow-2OthDa .content-Qb0rXO > div:not(.flexChild-faoVW3) /* Color of Autocomplete Field Upload Modal */, .standardSidebarView-3F1I7i #editor-detached h3 /* BetterDiscord Custom CSS Editor Detached Text */, .noticeDanger-7u-yT9 .button-1MICoQ /* Help Button on 'no mic' notice */, .note-3kmerW textarea::-webkit-input-placeholder /* Note Popout Menu Focus */, #bda-qem button /* BD-Emoji Picker */, .formatSelectors-3aBz_F select /* Select GIF Picker */,.coloredBackground-37Z6Gv .button-38aScr .whiteButton-1lwF-y /* Button Colored Game Activity Feed */, .tierHeader---JJFb /* Tier Header Server Boosting */, .boostCount-UFqabz /* Boostcount */{
+.button-38aScr /* Buttons */, .container-3gCOGc .item-PXvHYJ.primary-3j8BhM.selected-3s45Ha /* Top bar Action Button Select */, #help-query /* Input of F1 Menu */, .header-2bNvm4 h3, .header-2bNvm4 input /* Add Role Popout Header */, .animator-US5i9g input /* Create Guild Input */, .regionSelect-3lf4eE:hover button /* Regional Select Button Fixes */, .uploadModal-2ifh8j .button-primary /* Upload Modal Button Upload */, .botTagInvert-18-95s /* User Popout & User Modal Bot Tag */, .channelTextAreaUpload-3t7EIx .autocompleteRow-2OthDa .content-Qb0rXO > div:not(.flexChild-faoVW3) /* Color of Autocomplete Field Upload Modal */, .standardSidebarView-3F1I7i #editor-detached h3 /* BetterDiscord Custom CSS Editor Detached Text */, .noticeDanger-7u-yT9 .button-1MICoQ /* Help Button on 'no mic' notice */, .note-3kmerW textarea::-webkit-input-placeholder /* Note Popout Menu Focus */, #bda-qem button /* BD-Emoji Picker */, .formatSelectors-3aBz_F select /* Select GIF Picker */,.coloredBackground-37Z6Gv .button-38aScr .whiteButton-1lwF-y /* Button Colored Game Activity Feed */, .tierHeader---JJFb /* Tier Header Server Boosting */, .boostCount-UFqabz /* Boostcount */, .container-1giJp5 > div > button:last-child:hover svg /* Button to disconnect voice */{
   color: white!important;
 }
 
@@ -657,7 +657,7 @@ Transitions
   transition: border-color 400ms;
 }
 
-.emoji-row .inputMini-2xQV9P /* Input Emoji Rename */, .buttonDisconnect-3W_SJc:hover /* Button to disconnect voice */, .buttonInfo-3nkbOt:hover /* Info Button when in voice */, .hasMore-sul95G button, .hasMore-3e72_v button /* Button when bottom of mention popout/top of chat is reached */, .container-35JN_A:hover /* Card Activity Feed */,.player-3zB-0D /* Player Game Menu Activity Feed */{
+.emoji-row .inputMini-2xQV9P /* Input Emoji Rename */, .container-1giJp5 > div > button:last-child:hover /* Button to disconnect voice */, .buttonInfo-3nkbOt:hover /* Info Button when in voice */, .hasMore-sul95G button, .hasMore-3e72_v button /* Button when bottom of mention popout/top of chat is reached */, .container-35JN_A:hover /* Card Activity Feed */,.player-3zB-0D /* Player Game Menu Activity Feed */{
   transition: background-color 200ms;
 }
 
