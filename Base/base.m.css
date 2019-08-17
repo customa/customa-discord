@@ -266,7 +266,7 @@ Borders, Shadows, Filters and Strokes
   border: none!important;
 }
 
-.accountBtnInner-sj5jLs /* Account Button (Connections Menu) */, .regionSelectModalOption-2DSIZ3 /* Option on Regional Select Modal */, .powercord-spotify-playlist /* Spotify Modal Powercord Playlist */, .item-26Dhrx .checkbox-1ix_J3.checked-3_4uQ9 /* Settings Multi-Select Checkbox */, .callAvatarStatus-3y6S04 {
+.accountBtnInner-sj5jLs /* Account Button (Connections Menu) */, .regionSelectModalOption-2DSIZ3 /* Option on Regional Select Modal */, .powercord-spotify-playlist /* Spotify Modal Powercord Playlist */, .item-26Dhrx .checkbox-1ix_J3.checked-3_4uQ9 /* Settings Multi-Select Checkbox */ {
   border-color: transparent!important;
 }
 
@@ -283,7 +283,7 @@ Borders, Shadows, Filters and Strokes
 }
 
 .avatarUploaderInner-3UNxY3 /* Avatar Uploader Create Guild Container */, .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .regionSelect-3lf4eE button /* Regional Select Border Fixes */{
-  border-color: rgba(0,0,0,0.2);
+  border-color: rgba(0,0,0,0.2)!important;
 }
 
 .userLimit-64AFxe .total-3tKGEB::after /* User Limit Voice Channel */{
@@ -346,6 +346,10 @@ Borders, Shadows, Filters and Strokes
 
 .result-3w1ZcL:hover:after /* GIF Selector Result Hover effect */{
   box-shadow: inset 0 0 0 2px var(--ColAccent), inset 0 0 0 3px #2f3136!important;
+}
+
+.callAvatarStatus-3y6S04 /* Border Color on Call for mute and deaf */{
+  border-color: var(--ColBackground1)!important;
 }
 
 .card-3Qj_Yx[style*='border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);'] .checkbox-1ix_J3 polyline /* Settings Checkboxes Color Override */, .checkbox-1ix_J3.round-2jCFai.checked-3_4uQ9 polyline /* Language Select */, .checkbox-1ix_J3.checked-3_4uQ9 polyline /* Add Friends Popout Checkmark */, .spinner-2enMB9 .path-92Hmty /* Spinner Element */, .filterAndSort-gLX1Ym > div .arrow-2KJjTM path /* Select Label Filter Arrow Store Page */, .wrapper-1u09nF[role='progressbar'] .foreground-2aE44H, .checkmarkIcon-2EnYwn polyline /* Checkmark Icon Store Page */, .planFeatureIcon-2IPRYs polyline /* Lightro Checkmark */, .circleProgress-1EBmVn /* Download Icon Library Progress */{
@@ -1436,13 +1440,13 @@ html::before{
 /* Blockquote Background */
 
 .blockquoteDivider-2hH8H6 /* Blockquote Bar (Side) */{
-  background-color: rgba(0,0,0,0.2);
-  border-radius: 3px 0 0 3px;
+  background-color: rgba(255,255,255,0.2)!important;
+  border-radius: 3px 0 0 3px!important;
   
 }
 
 .blockquoteContainer-U5TVEi blockquote /* Quoted Text */{
-  background-color: rgba(0,0,0,0.03);
+  background-color: rgba(255,255,255,0.03);
   border-radius: 0 3px 3px 0;
   padding: 4px 8px 4px 8px;
 }
