@@ -126,3 +126,13 @@
 .dividerRed-MKoLlr span::before, .dividerRed-MKoLlr span::after /* Divider Red */{
     border: none!important;
 }
+
+/* Blockquotes */
+
+.blockquoteDivider-2hH8H6 /* Blockquote Bar (Side) */{
+  background-color: rgba(0, 0, 0, 0.2)!important;
+}
+
+.blockquoteContainer-U5TVEi blockquote /* Quoted Text */{
+  background-color: rgba(0, 0, 0, 0.03)!important;
+}
