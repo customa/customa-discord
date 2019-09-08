@@ -25,3 +25,24 @@
 code.inline /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .message-1PNnaP textarea.textAreaEdit-bNLDk3 /* Edit Text Area */, pre code.hljs div *, pre code.hljs div, .content-3dzVd8 .markup-2BOw-j pre code.hljs *, .content-3dzVd8 .markup-2BOw-j pre code.hljs /* Codeblocks */{
     font-family: var(--FontMonoFamily)!important;
 }
+
+@font-face {
+    font-family: Whitney;
+    font-weight: 400;
+    src: url(/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff) format("woff")
+}
+@font-face {
+    font-family: Whitney;
+    font-weight: 500;
+    src: url(/assets/3bdef1251a424500c1b3a78dea9b7e57.woff) format("woff")
+}
+
+/* Restore message and channel message input font size */
+.markup-2BOw-j, .textArea-2Spzkt {
+    font-size: 0.9375rem;
+}
+
+/* Adjust boldness of username, channel names, channel title, member list names, and server name */
+.name-3YKhmS, .username-_4ZSMR, .name-3_Dsmg, .name-uJV0GL, .membersGroup-v9BXpm, .title-29uC1r {
+    font-weight: 500;
+}
