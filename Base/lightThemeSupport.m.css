@@ -4,7 +4,7 @@
     --INTModLightThemeSupport: '    \2022  Light Theme Support ~ Customa Devs (Base \2192  lightThemeSupport.m.css)\A'!important;
     --INTVarLightThemeSupport: '\A\A Light Theme Support - Module \A \2022  --ColFont \2192  Allowed Values: Color (pref. #4f545c) \A \2022  --ColFontBright \2192  Allowed Values: Color (pref. #eeeeee)'!important;
     
-    --ColChat: #72767d!important;
+    --ColChat: #8c8f92!important;
     --ColFont:  #72767d!important;
     --ColFontBright: #8e9297!important;
     --ColFontPlaceholder: #72767d!important;
@@ -26,7 +26,7 @@
     color: white!important;
 }
 
-.close-hhyjWJ, .powercord-toast .header, .powercord-toast .button, .powercord-toast .content, .fas::before, .far::before, .button-OhfaWu.wrapper-1BJsBx:not(.selected-wSa2KV) .homeIcon-tEMBK1 path, .wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child:not(:hover) svg foreignObject a:not(.selected-wSa2KV)::after, .userSettingsAccount-2eMFVR::after{
+.close-hhyjWJ, .powercord-toast .header, .powercord-toast .button, .powercord-toast .content, .fas::before, .far::before, .wrapper-1Rf91z > div > div > .listItem-2P_4kh:first-child:not(:hover) svg foreignObject a:not(.selected-wSa2KV)::after, .userSettingsAccount-2eMFVR::after{
     color: var(--ColFont)!important
 }
 
