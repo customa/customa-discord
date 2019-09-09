@@ -4,9 +4,22 @@
   --DurationWrapperGuild: 200ms;
 }
 
+.container-2lgZY8 {
+  display: flex;
+  contain: unset;
+  position: unset;
+}
+
 .wrapper-1Rf91z /* GuildsWrapper */ {
   width: 16px;
   transition: width 200ms 200ms;
+  position: unset;
+}
+
+.base-3dtUhz{
+  position: unset;
+  contain: unset;
+  width: 100%
 }
 
 .wrapper-1Rf91z:hover{
