@@ -2,7 +2,7 @@
   --INTModChannelDivider: '    \2022  Channel Divider ~ Customa Devs (Sidebar \2192  channelDivider.m.css)\A'!important;
 }
 
-.channels-Ie2l6A .scroller-2FKFPG .containerDefault-3GGEv_ .wrapper-CU3qI5 *{
+.container-PNkimc .scroller-2FKFPG .containerDefault-3GGEv_ .wrapper-CU3qI5 *{
   text-align: center;
   display: flex;
   justify-content: center;
@@ -13,11 +13,11 @@
   transition: .2s opacity ease-in-out!important;
 }
 
-.channels-Ie2l6A .scroller-2FKFPG .containerDefault-3GGEv_ .wrapper-CU3qI5:hover *{
+.container-PNkimc .scroller-2FKFPG .containerDefault-3GGEv_ .wrapper-CU3qI5:hover *{
   opacity: 0.8;
 }
 
-.channels-Ie2l6A .scroller-2FKFPG .containerDefault-3GGEv_ .wrapper-CU3qI5 [class*=name]::before, .channels-Ie2l6A .scroller-2FKFPG .containerDefault-3GGEv_ .wrapper-CU3qI5 [class*=name]::after{
+.container-PNkimc .scroller-2FKFPG .containerDefault-3GGEv_ .wrapper-CU3qI5 .name-IbjUBS::before, .container-PNkimc .scroller-2FKFPG .containerDefault-3GGEv_ .wrapper-CU3qI5 .name-IbjUBS::after{
   content: "";
   width: 100%;
   vertical-align: middle;
@@ -27,7 +27,7 @@
   margin: 0 5px;
 }
 
-.channels-Ie2l6A .scroller-2FKFPG .containerDefault-3GGEv_:first-child{
+.container-PNkimc .scroller-2FKFPG .containerDefault-3GGEv_:first-child{
   padding: 2%;
   padding-top: 8%;
 }
