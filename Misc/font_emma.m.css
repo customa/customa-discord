@@ -12,13 +12,13 @@
 
 @font-face{
     font-family: 'Noto Blobs';
-    src: url('https://customa.gitlab.io/Customa-Misc/Discord/Noto%20Color%20Emoji.ttf') format('ttf');
+    src: local('Blobmoji'), url('https://customa.gitlab.io/Customa-Misc/Discord/Noto%20Color%20Emoji.ttf') format('ttf');
     unicode-range: U+A9-1F9E6;
 }
 
 @font-face{
     font-family: 'Noto Bug Fix';
-    src: url('https://fonts.gstatic.com/s/googlesans/v6/4UaErENHsxJlGDuGo1OIlL3L8phULjtH.woff2') format('woff2');
+    src: local('Google Sans'), url('https://fonts.gstatic.com/s/googlesans/v6/4UaErENHsxJlGDuGo1OIlL3L8phULjtH.woff2') format('woff2');
     unicode-range: U+30-39, U+A9, U+AE, U+2122;
 }
 
