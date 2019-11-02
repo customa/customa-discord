@@ -68,16 +68,16 @@
 
 /* Remove Dark Mode */
 
-.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child .checkboxWrapper-SkhIWG, .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child .info-3LOr12 /* Remove Checkbox and Text from white-theme button */{
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .checkboxWrapper-SkhIWG, .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12 /* Remove Checkbox and Text from white-theme button */{
     visibility: hidden;
 }
 
-.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child /* White Theme Button */{
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child /* White Theme Button */{
     background-color: var(--ColFalse)!important;
     pointer-events: none!important;
 }
 
-.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child .info-3LOr12::before /* New Info for White Theme Button */{
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12::before /* New Info for White Theme Button */{
     visibility: visible!important;
     content: "Disable the White Theme Module for Dark Theme to work";
     position: absolute!important;
@@ -88,16 +88,16 @@
 
 /* Restore White Mode Button */
 
-.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > .item-26Dhrx:first-child .checkboxWrapper-SkhIWG, .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :first-child .info-3LOr12 /* Remove Checkbox and Text from white-theme button */{
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > .item-26Dhrx:last-child .checkboxWrapper-SkhIWG, .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child .info-3LOr12 /* Remove Checkbox and Text from white-theme button */{
     visibility: visible!important;
 }
 
-.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > .item-26Dhrx:first-child /* White Theme Button */{
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > .item-26Dhrx:last-child /* White Theme Button */{
     background-color: var(--ColAccent)!important;
     pointer-events: all!important; 
 }
 
-.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > .item-26Dhrx:first-child .info-3LOr12::before /* New Info for White Theme Button */{
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > .item-26Dhrx:last-child .info-3LOr12::before /* New Info for White Theme Button */{
     visibility: hidden!important;
 }
 
