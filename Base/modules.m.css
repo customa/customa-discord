@@ -25,6 +25,7 @@
 
     /* Emoji */
     --INTModJumboMoji: '';
+    --INTModEmoteZoom: '';
 
     /* Misc */
     --INTModAll: '';
@@ -40,6 +41,7 @@
     --INTModCustomPlayingIcon: '';
     --INTModCustomUserModal: '';
     --INTModCustomUserPopout: '';
+    --INTModFolderNames: '';
     --INTModGuildCircles: '';
     --INTModStatusCircles: '';
     --INTModTwoRowGuilds: '';
@@ -79,7 +81,8 @@
         var(--INTModEmbedsModernized)
         var(--INTModTypingOnRight) '\A'
     'Emoji:\A'
-        var(--INTModJumboMoji) '\A'
+        var(--INTModJumboMoji) 
+        var(--INTModEmoteZoom) '\A'
     'Misc:\A'
         var(--INTModAll)
         var(--INTModCustomSettingsModal)
@@ -93,6 +96,7 @@
         var(--INTModCustomPlayingIcon)
         var(--INTModCustomUserModal)
         var(--INTModCustomUserPopout)
+        var(--INTModFolderNames)
         var(--INTModGuildCircles)
         var(--INTModStatusCircles)
         var(--INTModTwoRowGuilds)
