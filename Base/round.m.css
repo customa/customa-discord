@@ -7,22 +7,27 @@
 
 /* Top Left Corner */
 
-.channels-Ie2l6A .firefoxFixScrollFlex-cnI2ix .firefoxFixScrollFlex-cnI2ix::before {
+.sidebar-2K8pFh > div > div.container-2Rl01u + div, .sidebar-2K8pFh > div > div.searchBar-6Kv8R2 + div{
+	position: relative;
+}
+
+.sidebar-2K8pFh > div > div.container-2Rl01u + div::before, .sidebar-2K8pFh > div > div.searchBar-6Kv8R2 + div::before{
 	content: "";
 	width: calc(var(--SizeCornerRadius) * 2);
 	height: var(--SizeCornerRadius);
-	background: transparent;
+	/* background: var(--ColBackground2); */
+	z-index: 100;
 	display: block;
-	position: absolute;
-	left: 0;
-	top: 0;
+	position: absolute!important;
+	left: 0!important;
+	top: 0!important;
 	border-radius: var(--SizeCornerRadius) 0 0 0;
 	box-shadow: calc(0px - var(--SizeCornerRadius)) 0 0 var(--ColBackground1);
 }
 
 /* Bottom Left Corner + Fixes for when calling */
 
-.channels-Ie2l6A .firefoxFixScrollFlex-cnI2ix .firefoxFixScrollFlex-cnI2ix::after, .container-1UB9sr::after, .powercord-spotify::after {
+.sidebar-2K8pFh .firefoxFixScrollFlex-cnI2ix .firefoxFixScrollFlex-cnI2ix::after, .container-1giJp5::after{
 	content: "";
 	width: calc(var(--SizeCornerRadius) * 2);
 	height: var(--SizeCornerRadius);
@@ -30,19 +35,16 @@
 	display: block;
 	position: absolute;
 	bottom: 0;
+	left: 0;
 	border-radius: 0 0 0 var(--SizeCornerRadius);
 	box-shadow: calc(0px - var(--SizeCornerRadius)) 0 0 var(--ColBackground1);
 }
 
-.container-1UB9sr{
+.container-1giJp5{
 	position: relative;
 }
 
-.container-1UB9sr::after, .channels-Ie2l6A .firefoxFixScrollFlex-cnI2ix .firefoxFixScrollFlex-cnI2ix::after {
-	left: 0;
-}
-
-.container-1UB9sr::before{
+.container-1giJp5::before{
 	content: "";
 	width: 240px!important;
 	height: var(--SizeCornerRadius);
@@ -50,43 +52,49 @@
 	left: 0;
 	top: calc(var(--SizeCornerRadius) * -1);
 	background-color: var(--ColBackground2);
+	z-index: 5;
 }
 
 /* Fix for Top Right + Bottom Right Corners */
 
-.listeningAlong-2UPsxf.alignCenter-1dQNNs{
+.panels-j1Uci_{
+	display: flex;
+    flex-direction: column;
+}
+
+.listeningAlong-30wH70{
 	background-color: var(--ColBackground1)!important;
 }
 
 /* Fix for Listening Along Spotify - Puts it on the last spot */
 
-.listeningAlong-2UPsxf.alignCenter-1dQNNs{
-	order: 1;
+.listeningAlong-30wH70{
+	order: 1!important;
 }
 
 .container-3baos1:last-child{
-	order: 2;
+	order: 2!important;
 }
 
 /* Top Right Corner + Bottom Right Corner + Bottom Left Corner */
 
-.messagesWrapper-3lZDfY{
-	background-color: var(--ColBackground2);
+.chatContent-a9vAAp{
+	background-color: var(--ColBackground1)!important;
+}
+
+.messagesWrapper-3lZDfY > .scrollerWrap-2lJEkd, .messagesWrapper-3lZDfY{
+	background-color: var(--ColBackground2)!important;
 	border-top-right-radius: var(--SizeCornerRadius);
 	border-bottom-right-radius: var(--SizeCornerRadius);
+	border-bottom-left-radius: var(--SizeCornerRadius);
 }
 
-.powercord-spotify::after{
-	right: calc(var(--SizeCornerRadius) * (-2));
-	z-index: 9999!important;
-}
-
-.listeningAlong-2UPsxf + .powercord-spotify::after{
-	bottom: -32px;
+.listeningAlong-30wH70 + .powercord-spotify{
+	padding-top: 8px;
 }
 
 .powercord-spotify{
-	z-index: 10000!important;
+	z-index: 1000!important;
 }
 
 /* Round Spotify Modal (Powercord) */
