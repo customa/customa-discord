@@ -1,0 +1,19 @@
+:root{
+  --ScaleEmojiHovered: 5;
+  --TransitionDuration: 200ms;
+  --TransitionDelay: 2000ms;
+  --INTModEmoteZoom: '    \2022  Emote Zoom ~ Customa Devs (Emoji \2192  emoteZoom.m.css)\A'!important;
+  --INTVarEmoteZoom: '\A\A Emote Zoom - Module\A \2022  --ScaleEmojiHovered \2192  Allowed Values: Int (pref. 5) \A \2022  --TransitionDuration \2192  Allowed Values: Time (pref. 200ms)\A \2022  --TransitionDelay \2192  Allowed Values: Time (pref. 2000ms)'!important;
+}
+
+.emoji{
+  transition: all var(--TransitionDuration) var(--TransitionDelay) ease-in-out;
+}
+
+.emoji:hover{
+  transform: scale(var(--ScaleEmojiHovered));
+}
+
+.container-1YxwTf{
+  overflow: visible;
+}
