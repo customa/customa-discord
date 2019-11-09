@@ -86,7 +86,28 @@
 	background-color: var(--ColBackground2)!important;
 	border-top-right-radius: var(--SizeCornerRadius);
 	border-bottom-right-radius: var(--SizeCornerRadius);
-	border-bottom-left-radius: var(--SizeCornerRadius);
+}
+
+.powercord-spotify::after{
+	content: "";
+	width: calc(var(--SizeCornerRadius) * 2);
+	height: var(--SizeCornerRadius);
+	background: transparent;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: calc((var(--SizeCornerRadius) * -2));
+	border-radius: 0 0 0 var(--SizeCornerRadius);
+	box-shadow: calc(0px - var(--SizeCornerRadius)) 0 0 var(--ColBackground1);
+	z-index: 99999!important;
+}
+
+.listeningAlong-30wH70 + .powercord-spotify::after{
+	bottom: -32px;
+}
+
+.sidebar-2K8pFh {
+	overflow: visible;
 }
 
 .listeningAlong-30wH70 + .powercord-spotify{
