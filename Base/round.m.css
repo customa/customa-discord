@@ -47,11 +47,11 @@
 .container-1giJp5::before{
 	content: "";
 	width: 240px!important;
-	height: var(--SizeCornerRadius);
+	height: calc(var(--SizeCornerRadius) + 1px);
 	position: absolute;
 	left: 0;
-	top: calc(var(--SizeCornerRadius) * -1);
-	background-color: var(--ColBackground2);
+	top: calc(var(--SizeCornerRadius) * -1 - 1px);
+	background: linear-gradient(45deg, var(--ColChannelList) var(--SizeCornerRadius), transparent 0) bottom left;
 	z-index: 5;
 }
 
