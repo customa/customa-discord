@@ -8,7 +8,7 @@
 }
 
 /* Set all Fonts to the defined one */
-*:not(.fas):not(.fal):not(.far){
+*:not(.fa):not(.fab):not(.fad):not(.fal):not(.far):not(.fas){
     font-family: var(--FontFamily)!important;
     font-variant: normal!important;
 }
