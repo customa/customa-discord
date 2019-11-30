@@ -8,6 +8,7 @@
 
 .emoji{
   transition: all var(--TransitionDuration) var(--TransitionDelay) ease-in-out;
+  cursor: zoom-in;
 }
 
 .emoji:hover{
