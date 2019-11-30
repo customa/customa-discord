@@ -1,0 +1,13 @@
+:root{
+	--INTModmorecompactcozychat: '    \2022  more compact cozy chat ~ rai (Chat \2192  morecompactcozychat.m.css)\A'!important;
+	--ColSeparator: #262A33;
+}
+
+/* lower padding, margin and add a 2px border on top to make it easier to differenciate messages */
+.containerCozyBounded-1rKFAn {
+	margin-bottom: 8px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	border-top: 2px solid var(--ColSeparator);
+}
+

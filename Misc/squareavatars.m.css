@@ -1,0 +1,21 @@
+:root{
+    --INTModsquareavatars: '    \2022  square avatars ~ rai (Misc \2192  squareavatars.m.css)\A'!important;
+}
+/* most avatars */
+[id^="svg-mask-avatar"] > circle[fill="white"] {
+	r: 0.8 !important;
+	cy: 0.45 !important;
+	cx: 0.45 !important;
+}
+/* profile avatar, spotify group listening popup */
+#mask-118v16 > circle[fill="white"] {
+	r: 0.8 !important;
+	cy: 0.45 !important;
+	cx: 0.45 !important;
+}
+/* vc avatars */
+.avatarSmall-2CW6I1, .avatar-3e1DyV, .avatarContainer-2inGBK {
+	border-radius: 0px !important;
+}
+
+/* greetz to tadeo for the css */
