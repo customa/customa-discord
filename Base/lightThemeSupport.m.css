@@ -12,6 +12,9 @@
     --ColBackground1: #EEEEEE!important;
     --ColBackground2: #E0E0E0!important;
     --ColTransparent1: rgba(0,0,0,0.03);
+
+    --ColBTNPrimary: 224, 224, 224!important;
+    --ColBTNContrastFix: black!important;
 }
 
 .container-2VW0UT{
