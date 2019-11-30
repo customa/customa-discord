@@ -1,0 +1,171 @@
+:root{
+
+  --INTModButtons: '    \2022  Buttons ~ Customa Devs (Base \2192  buttons.m.css)\A'!important;
+  --INTVarButtons: '\A\A Button - Module \A \2022  --ColBTNBlack \2192  Allowed Values: RGB Values (pref. x, y, z) \A \2022  --ColBTNBrand \2192  Allowed Values: RGB Values (pref. x, y, z)\A \2022  --ColBTNGreen \2192  Allowed Values: RGB Values (pref. x, y, z)\A \2022  --ColBTNGrey \2192  Allowed Values: RGB Values (pref. x, y, z)\A \2022  --ColBTNLink \2192  Allowed Values: RGB Values (pref. x, y, z)\A \2022  --ColBTNPrimary \2192  Allowed Values: RGB Values (pref. x, y, z)\A \2022  --ColBTNRed \2192  Allowed Values: RGB Values (pref. x, y, z)\A \2022  --ColBTNWhite \2192  Allowed Values: RGB Values (pref. x, y, z)\A \2022  --ColBTNYellow \2192  Allowed Values: RGB Values (pref. x, y, z)\A\A \2022  --ColBTNContrastFix \2192  Allowed Values: CSS Color Codes\A \2022  --ColBTNOwnContrastBright \2192  Allowed Values: CSS Color Codes\A \2022  --ColBTNOwnContrastDark \2192  Allowed Values: CSS Color Codes'!important;
+
+  --ColBTNBlack: 0, 0, 0;
+  --ColBTNBrand: 216, 27, 96;
+  --ColBTNGreen: 3, 165, 16;
+  --ColBTNGrey: 140, 143, 146;
+  --ColBTNLink: 0, 150, 207;
+  --ColBTNPrimary: 22, 22, 22;
+  --ColBTNRed: 244, 67, 54;
+  --ColBTNWhite: 255, 255, 255;
+  --ColBTNYellow: 253, 216, 53;
+
+  --ColBTNContrastFix: white;
+  --ColBTNOwnContrastBright: black;
+  --ColBTNOwnContrastDark: white;
+}
+
+.lookFilled-1Gx00P.colorYellow-2JqYwt{
+  background-color: rgb(var(--ColBTNYellow))!important;
+  color: var(--ColBTNOwnContrastBright)!important;
+}
+
+.lookFilled-1Gx00P.colorBlack-1jwPVL{
+  background-color: rgb(var(--ColBTNBlack));
+  color: var(--ColBTNOwnContrastDark)!important;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY{
+  background-color: rgb(var(--ColBTNGreen))!important;
+  color: var(--ColBTNOwnContrastDark)!important;
+}
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV{
+  background-color: rgb(var(--ColBTNGrey))!important;
+  color: var(--ColBTNOwnContrastDark)!important;
+}
+
+.lookFilled-1Gx00P.colorLink-35jkBc{
+  background-color: rgb(var(--ColBTNLink))!important;
+  color: var(--ColBTNOwnContrastDark)!important;
+}
+
+.lookFilled-1Gx00P.colorPrimary-3b3xI6{
+  background-color: rgb(var(--ColBTNPrimary))!important;
+  color: var(--ColBTNContrastFix)!important;
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan{
+  background-color: rgb(var(--ColBTNRed))!important;
+  color: var(--ColBTNOwnContrastDark)!important;
+}
+
+.lookFilled-1Gx00P.colorWhite-rEQuAQ{
+  background-color: rgb(var(--ColBTNWhite))!important;
+  color: var(--ColBTNOwnContrastBright)!important;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91{
+  background-color: rgb(var(--ColBTNBrand))!important;
+  color: var(--ColBTNOwnContrastDark)!important;
+}
+
+.lookOutlined-3sRXeN.colorYellow-2JqYwt{
+  border-color: rgb(var(--ColBTNYellow))!important;
+  color: var(--ColBTNContrastFix)!important;
+  background: rgba(var(--ColBTNYellow), 0.1);
+}
+
+.lookOutlined-3sRXeN.colorBlack-1jwPVL{
+  border-color: rgb(var(--ColBTNBlack))!important;
+  color: var(--ColBTNContrastFix)!important;
+  background: rgba(var(--ColBTNBlack), 0.1);
+}
+
+.lookOutlined-3sRXeN.colorGreen-29iAKY{
+  border-color: rgb(var(--ColBTNGreen))!important;
+  color: rgb(var(--ColBTNGreen))!important;
+  background: rgba(var(--ColBTNGreen), 0.1);
+}
+
+.lookOutlined-3sRXeN.colorGrey-2DXtkV{
+  border-color: rgb(var(--ColBTNGrey))!important;
+  color: rgb(var(--ColBTNGrey))!important;
+  background: rgba(var(--ColBTNGrey), 0.1);
+}
+
+.lookOutlined-3sRXeN.colorLink-35jkBc{
+  border-color: rgb(var(--ColBTNLink))!important;
+  color: rgb(var(--ColBTNLink))!important;
+  background: rgba(var(--ColBTNLink), 0.1);
+}
+
+.lookOutlined-3sRXeN.colorPrimary-3b3xI6{
+  border-color: var(--ColBTNContrastFix)!important;
+  color: var(--ColBTNContrastFix)!important;
+  background: rgba(var(--ColBTNPrimary), 0.1);
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan{
+  border-color: rgb(var(--ColBTNRed))!important;
+  color: rgb(var(--ColBTNRed))!important;
+  background: rgba(var(--ColBTNRed), 0.1);
+}
+
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ{
+  border-color: rgb(var(--ColBTNWhite))!important;
+  color: var(--ColBTNContrastFix)!important;
+  background: rgba(var(--ColBTNWhite), 0.1)!important;
+}
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91{
+  border-color: rgb(var(--ColBTNBrand))!important;
+  color: rgb(var(--ColBTNBrand))!important;
+  background: rgba(var(--ColBTNBrand), 0.1)!important;
+}
+
+.lookGhost-2Fn_0-.colorYellow-2JqYwt{
+  background-color: rgba(var(--ColBTNYellow), 0.1);
+  color: var(--ColBTNContrastFix)!important;
+}
+
+.lookGhost-2Fn_0-.colorBlack-1jwPVL{
+  background-color: rgba(var(--ColBTNBlack), 0.1)!important;
+  color: var(--ColBTNContrastFix)!important;
+}
+
+.lookGhost-2Fn_0-.colorGreen-29iAKY{
+  background-color: rgba(var(--ColBTNGreen), 0.1)!important;
+  color: rgb(var(--ColBTNGreen))!important;
+}
+
+.lookGhost-2Fn_0-.colorGrey-2DXtkV{
+  background-color: rgba(var(--ColBTNGrey), 0.1)!important;
+  color: rgb(var(--ColBTNGrey))!important;
+}
+
+.lookGhost-2Fn_0-.colorLink-35jkBc{
+  background-color: rgba(var(--ColBTNLink), 0.1)!important;
+  color: rgb(var(--ColBTNLink))!important;
+}
+
+.lookGhost-2Fn_0-.colorPrimary-3b3xI6{
+  background-color: rgba(var(--ColBTNPrimary), 0.1)!important;
+  color: var(--ColBTNContrastFix)!important;
+}
+
+.lookGhost-2Fn_0-.colorRed-1TFJan{
+  background-color: rgba(var(--ColBTNRed), 0.1)!important;
+  color: rgb(var(--ColBTNRed))!important;
+}
+
+.lookGhost-2Fn_0-.colorWhite-rEQuAQ{
+  background-color: rgba(var(--ColBTNWhite), 0.1)!important;
+  color: var(--ColBTNContrastFix)!important;
+}
+
+.lookGhost-2Fn_0-.colorBrand-3pXr91{
+  background-color: rgba(var(--ColBTNBrand), 0.1)!important;
+  color: rgb(var(--ColBTNBrand))!important;
+}
+
+.lookFilled-1Gx00P:hover, .lookGhost-2Fn_0-:hover, .lookOutlined-3sRXeN:hover{
+  filter: brightness(0.85);
+}
+
+.lookFilled-1Gx00P, .lookGhost-2Fn_0-, .lookOutlined-3sRXeN{
+  transition: filter 200ms;
+}
