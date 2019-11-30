@@ -8,9 +8,13 @@
 }
 
 /* Set all Fonts to the defined one */
-*:not(.fa):not(.fab):not(.fad):not(.fal):not(.far):not(.fas){
+*{
     font-family: var(--FontFamily)!important;
     font-variant: normal!important;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas{
+    font-family: "Font Awesome 5 Pro"!important;
 }
 
 /* set font for message box */
