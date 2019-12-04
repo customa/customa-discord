@@ -8,9 +8,13 @@
 }
 
 /* Set all Fonts to the defined one */
-*:not(.fa):not(.fab):not(.fad):not(.fal):not(.far):not(.fas){
+*{
     font-family: var(--FontFamily)!important;
     font-variant: normal!important;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas{
+    font-family: "Font Awesome 5 Pro"!important;
 }
 
 /* set font for message box */
@@ -22,7 +26,7 @@
     font-size: 15px!important;
 }
 
-code.inline /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .message-1PNnaP textarea.textAreaEdit-bNLDk3 /* Edit Text Area */, pre code.hljs div *, pre code.hljs div, .content-3dzVd8 .markup-2BOw-j pre code.hljs *, .content-3dzVd8 .markup-2BOw-j pre code.hljs /* Codeblocks */{
+code.inline, code.inline span /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .message-1PNnaP textarea.textAreaEdit-bNLDk3 /* Edit Text Area */, pre code.hljs div *, pre code.hljs div, .content-3dzVd8 .markup-2BOw-j pre code.hljs *, .content-3dzVd8 .markup-2BOw-j pre code.hljs /* Codeblocks */{
     font-family: var(--FontMonoFamily)!important;
 }
 

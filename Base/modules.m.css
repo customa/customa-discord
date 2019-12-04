@@ -4,6 +4,7 @@
 
     /* Base */
     --INTModBase: '';
+    --INTModButtons: '';
     --INTModColor: '';
     --INTModFont: '';
     --INTModLightThemeSupport: '';
@@ -63,6 +64,7 @@
 .userSettingsAccount-2eMFVR::after{
     content: 'Base:\A '
         var(--INTModBase)
+        var(--INTModButtons)
         var(--INTModColor)
         var(--INTModFont)
         var(--INTModLightThemeSupport)

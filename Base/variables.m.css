@@ -3,6 +3,7 @@
 
     /* Base */
     --INTVarBase: '';
+    --INTVarButtons: '';
     --INTVarColor: '';
     --INTVarFont: '';
     --INTVarLightThemeSupport: '';
@@ -48,6 +49,7 @@
     content: 'Customa-Variables\A\A'
     'BASE'
     var(--INTVarBase)
+    var(--INTVarButtons)
     var(--INTVarColor)
     var(--INTVarFont)
     var(--INTVarLightThemeSupport)
