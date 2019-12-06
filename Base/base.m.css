@@ -631,6 +631,10 @@ Width & Height
   width: 200px;
 }
 
+.hoverRoll-YK53gQ /* Limit custom status width so it doesn't push the status indicators off screen */{
+width: 10em;
+}
+
 /* 
 
 Masks
