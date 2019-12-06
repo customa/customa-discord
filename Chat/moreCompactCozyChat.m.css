@@ -1,7 +1,8 @@
 :root{
 	--INTModMoreCompactCozyChat: '    \2022  more compact cozy chat ~ rai (Chat \2192  morecompactcozychat.m.css)\A'!important;
-	--INTVarMoreCompactCozyChat: 
+	--INTVarMoreCompactCozyChat: '\A\A more compact cozy chat - Module\A \2022  --ColSeparator \2192  Allowed Values: Color\A \2022 --SizeDateDivider \2192 Allowed Values: Size (0px to disable, pref. 1px)'!important;
 	--ColSeparator: #262A33;
+	--SizeDateDivider: 0px;
 }
 
 /* lower padding, margin and add a 2px border on top to make it easier to differenciate messages */
@@ -12,3 +13,7 @@
 	border-top: 2px solid var(--ColSeparator);
 }
 
+/* disable/enable the dividing part of the date separator */
+.dividerContent-2L12VI::after, .dividerContent-2L12VI::before {
+	height: var(--SizeDateDivider);
+}
