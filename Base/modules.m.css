@@ -22,6 +22,7 @@
     --INTModCustomEditIcon: '';
     --INTModCustomEditText: '';
     --INTModEmbedsModernized: '';
+    --INTModMoreCompactCozyChat: '';
     --INTModTypingOnRight: '';
 
     /* Emoji */
@@ -30,9 +31,11 @@
 
     /* Misc */
     --INTModAll: '';
+    --INTModCustomStatusColors: '';
     --INTModCustomSettingsModal: '';
     --INTModiOSToggles: '';
     --INTModRainbow: '';
+    --INTModSquareAvatars: '';
 
     /* Sidebar */
     --INTModChannelDivider: '';
@@ -81,15 +84,18 @@
         var(--INTModCustomEditIcon)
         var(--INTModCustomEditText)
         var(--INTModEmbedsModernized)
-        var(--INTModTypingOnRight) '\A'
+        var(--INTModMoreCompactCozyChat)
+	var(--INTModTypingOnRight) '\A'
     'Emoji:\A'
         var(--INTModJumboMoji) 
         var(--INTModEmoteZoom) '\A'
     'Misc:\A'
         var(--INTModAll)
+	var(--INTModCustomStatusColors)
         var(--INTModCustomSettingsModal)
         var(--INTModiOSToggles)
-        var(--INTModRainbow) '\A'
+        var(--INTModRainbow)
+	var(--INTModSquareAvatars) '\A'
     'Sidebar:\A'
         var(--INTModChannelDivider)
         var(--INTModClassicChannelSelect)

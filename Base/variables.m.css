@@ -14,6 +14,7 @@
     /* Chat */
     --INTVarCustomEditIcon: '';
     --INTVarCustomEditText: '';
+    --INTVarMoreCompactCozyChat: '';
 
     /* Emoji */
     --INTVarJumboMoji: '';
@@ -21,6 +22,7 @@
     /* Misc */
     --INTVarRainbow: '';
     --INTVarCustomSettingsModal: '';
+    --INTVarCustomStatusColors: '';
 
     /* Sidebar */
     --INTVarColoredChannelIcon: '';
@@ -58,11 +60,13 @@
     var(--INTVarTooltips)'\A\A\A'
     'CHAT'
     var(--INTVarCustomEditIcon)
-    var(--INTVarCustomEditText)'\A\A\A'
+    var(--INTVarCustomEditText)
+    var(--INTVarMoreCompactCozyChat)'\A\A\A'
     'EMOJI'
     var(--INTVarJumboMoji)'\A\A\A'
     'MISC'
     var(--INTVarCustomSettingsModal)
+    var(--INTVarCustomStatusColors)
     var(--INTVarRainbow)'\A\A\A'
     'SIDEBAR'
     var(--INTVarColoredChannelIcon)

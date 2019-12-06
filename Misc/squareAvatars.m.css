@@ -1,5 +1,5 @@
 :root{
-    --INTModsquareavatars: '    \2022  square avatars ~ rai (Misc \2192  squareavatars.m.css)\A'!important;
+    --INTModSquareAvatars: '    \2022  square avatars ~ rai (Misc \2192  squareAvatars.m.css)\A'!important;
 }
 /* most avatars */
 [id^="svg-mask-avatar"] > circle[fill="white"] {
