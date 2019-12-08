@@ -348,7 +348,7 @@ Borders, Shadows, Filters and Strokes
   box-shadow: inset 0 0 0 2px var(--ColFalse)!important;
 }
 
-.callAvatarBorder-1D_KaE.speaking-oCqYMI, .avatarSpeaking-1wJCNq, .avatarSpeaking-3MqCHL /* Color for voice activity */{
+.callAvatarBorder-uWp8Ga.speaking-B2MXPi, .avatarSpeaking-1wJCNq, .avatarSpeaking-3MqCHL /* Color for voice activity */{
   box-shadow: inset 0 0 0 2px var(--ColAccent)!important;
 }
 
