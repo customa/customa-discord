@@ -3,6 +3,7 @@
 ![Discord](https://img.shields.io/discord/476844593896226816?color=d81a60&logo=discord&logoColor=ffffff&style=for-the-badge)
 ![Pull Requests](https://img.shields.io/github/issues-pr/customa/customa-discord?color=d81a60&logo=github&style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/Customa/Customa-Discord?color=D81A60&style=for-the-badge)
+![Pipeline](https://img.shields.io/gitlab/pipeline/Customa/Customa-Discord?color=D81A60&label=pipeline&style=for-the-badge)
 ![License](https://img.shields.io/github/license/Customa/Customa-Discord?color=D81A60&style=for-the-badge)
 
 **The most customizable Discord theme out there**
