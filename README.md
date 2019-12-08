@@ -1,5 +1,10 @@
 ![Customa Logo](https://customa.gitlab.io/Customa-Misc/Logo/ProjectsLogos/Inline/PNG/Customa-Discord.png)
 
+![Discord](https://img.shields.io/discord/476844593896226816?color=d81a60&logo=discord&logoColor=ffffff&style=for-the-badge)
+![Pull Requests](https://img.shields.io/github/issues-pr/customa/customa-discord?color=d81a60&logo=github&style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/Customa/Customa-Discord?color=D81A60&style=for-the-badge)
+![License](https://img.shields.io/github/license/Customa/Customa-Discord?color=D81A60&style=for-the-badge)
+
 **The most customizable Discord theme out there**
 
 Bold statement don't you think? Let me keep up with the statement from above...
@@ -25,8 +30,6 @@ Bold statement don't you think? Let me keep up with the statement from above...
     * [Where does it run?](#where-does-it-run)
 * [5. Special Mentions](#5-special-mentions)
 * [6. Support/Community Discord](#6-supportcommunity-discord)
-
-![Discord](https://img.shields.io/discord/476844593896226816.svg?color=%23D81A60&label=Discord&logo=discord&logoColor=%23D81A60&style=for-the-badge)
 
 ## 1. The Backstory
 
