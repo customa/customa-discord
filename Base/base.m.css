@@ -348,7 +348,7 @@ Borders, Shadows, Filters and Strokes
   box-shadow: inset 0 0 0 2px var(--ColFalse)!important;
 }
 
-.callAvatarBorder-1D_KaE.speaking-oCqYMI, .avatarSpeaking-1wJCNq, .avatarSpeaking-3MqCHL /* Color for voice activity */{
+.callAvatarBorder-uWp8Ga.speaking-B2MXPi, .avatarSpeaking-1wJCNq, .avatarSpeaking-3MqCHL /* Color for voice activity */{
   box-shadow: inset 0 0 0 2px var(--ColAccent)!important;
 }
 
@@ -629,6 +629,10 @@ Width & Height
 
 .search-2oPWTC:hover .searchBar-3dMhjb, .search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb, .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb /* Searchbar User Interaction Area */{
   width: 200px;
+}
+
+.hoverRoll-YK53gQ /* Limit custom status width so it doesn't push the status indicators off screen */{
+width: 10em;
 }
 
 /* 
