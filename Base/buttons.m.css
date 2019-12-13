@@ -162,6 +162,87 @@
   color: rgb(var(--ColBTNBrand))!important;
 }
 
+.lookInverted-2D7oAl.colorYellow-2JqYwt{
+  background-color: var(--ColBTNOwnContrastBright)!important;
+  color: rgb(var(--ColBTNYellow));
+}
+
+.lookInverted-2D7oAl.colorBlack-1jwPVL{
+  background-color: var(--ColBTNContrastFix)!important;
+  color: rgb(var(--ColBTNBlack))!important;
+}
+
+.lookInverted-2D7oAl.colorGreen-29iAKY{
+  background-color: var(--ColBTNContrastFix)!important;
+  color: rgb(var(--ColBTNGreen))!important;
+}
+
+.lookInverted-2D7oAl.colorGrey-2DXtkV{
+  background-color: var(--ColBTNContrastFix)!important;
+  color: rgb(var(--ColBTNGrey))!important;
+}
+
+.lookInverted-2D7oAl.colorLink-35jkBc{
+  background-color: var(--ColBTNContrastFix)!important;
+  color: rgb(var(--ColBTNLink))!important;
+}
+
+.lookInverted-2D7oAl.colorPrimary-3b3xI6{
+  background-color: var(--ColBTNContrastFix)!important;
+  color: rgb(var(--ColBTNPrimary))!important;
+}
+
+.lookInverted-2D7oAl.colorRed-1TFJan{
+  background-color: var(--ColBTNContrastFix)!important;
+  color: rgb(var(--ColBTNRed))!important;
+}
+
+.lookInverted-2D7oAl.colorWhite-rEQuAQ{
+  background-color: var(--ColBTNOwnContrastBright)!important;
+  color: rgb(var(--ColBTNWhite))!important;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91{
+  background-color: var(--ColBTNContrastFix)!important;
+  color: rgb(var(--ColBTNBrand))!important;
+}
+
+.lookLink-9FtZy-.colorYellow-2JqYwt{
+  color: rgb(var(--ColBTNYellow))!important;
+}
+
+.lookLink-9FtZy-.colorBlack-1jwPVL{
+  color: rgb(var(--ColBTNBlack))!important;
+}
+
+.lookLink-9FtZy-.colorGreen-29iAKY{
+  color: rgb(var(--ColBTNGreen))!important;
+}
+
+.lookLink-9FtZy-.colorGrey-2DXtkV{
+  color: rgb(var(--ColBTNGrey))!important;
+}
+
+.lookLink-9FtZy-.colorLink-35jkBc{
+  color: rgb(var(--ColBTNLink))!important;
+}
+
+.lookLink-9FtZy-.colorPrimary-3b3xI6{
+  color: rgb(var(--ColBTNPrimary))!important;
+}
+
+.lookLink-9FtZy-.colorRed-1TFJan{
+  color: rgb(var(--ColBTNRed))!important;
+}
+
+.lookLink-9FtZy-.colorWhite-rEQuAQ{
+  color: rgb(var(--ColBTNWhite))!important;
+}
+
+.lookLink-9FtZy-.colorBrand-3pXr91{
+  color: rgb(var(--ColBTNBrand))!important;
+}
+
 .lookFilled-1Gx00P:hover, .lookGhost-2Fn_0-:hover, .lookOutlined-3sRXeN:hover{
   filter: brightness(0.85);
 }
