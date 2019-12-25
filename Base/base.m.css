@@ -953,9 +953,9 @@ Light Theme Warning
 
 .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child .info-3LOr12::before /* New Info for White Theme Button */{
   visibility: visible!important;
-  content: 'Import the White Theme Module for Support';
+  content: 'Import the Light Theme Module for Support';
   position: absolute!important;
-  left: 12px;
+  left: 0;
 }
 
 /*
