@@ -4,12 +4,12 @@
     --ContentEditText: 'OwO, what was that';
 }
 
-.message-1PNnaP .container-206Blv .edited-DL9ECl {
+.container-1YxwTf .edited-DL9ECl {
     visibility: hidden;
     font-size: 0;
 }
 
-.message-1PNnaP .container-206Blv .edited-DL9ECl::after{
+.container-1YxwTf .edited-DL9ECl::after{
     visibility: visible!important;
     font-size: 0.625rem;
     width: fit-content!important;
