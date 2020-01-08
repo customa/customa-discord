@@ -488,7 +488,7 @@ Width & Height
 
 */
 
-button[aria-label="Select emoji"] /* padding to the right of the emoji button */ {
+button[aria-label="Select emoji"] /* margin to the right of the emoji button */ {
 	margin-right: 12px;
 }
 
