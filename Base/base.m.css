@@ -488,6 +488,10 @@ Width & Height
 
 */
 
+button[aria-label="Select emoji"] /* margin to the right of the emoji button */ {
+	margin-right: 12px;
+}
+
 .friendsTable-133bsv /* Friends Table */, .coloredBackground-37Z6Gv .button-38aScr /* Button Colored Game Activity Feed */, .matureListing-3tyHbV /* Mature Listing Store */{
   margin: 0;
   padding: 0!important;
