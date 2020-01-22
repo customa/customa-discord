@@ -203,4 +203,4 @@ The entire theme wouldn't have been possible without the help of all following p
 
 ## 6. Support/Community Discord
 
-[discord.io/Customa](http://discord.io/Customa)
+[Join the Support Server](http://invite.gg/Customa)
