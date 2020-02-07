@@ -1,0 +1,101 @@
+{
+    "rules": {
+        "color-no-invalid-hex": true,
+        "color-hex-length": "long",
+        "color-hex-case": "lower",
+        "font-family-no-duplicate-names": true,
+        "font-family-no-missing-generic-family-keyword": true,
+        "function-calc-no-invalid": true,
+        "function-calc-no-unspaced-operator": true,
+        "function-linear-gradient-no-nonstandard-direction": true,
+        "string-no-newline": true,
+        "unit-no-unknown": true,
+        "keyframe-declaration-no-important": true,
+        "declaration-block-no-duplicate-properties": true,
+        "block-no-empty": true,
+        "selector-pseudo-class-no-unknown": true,
+        "selector-pseudo-element-no-unknown": true,
+        "comment-no-empty": true,
+        "no-descending-specificity": [
+            true,
+            {
+                "ignore": "selectors-within-list"
+            }
+        ],
+        "no-invalid-double-slash-comments": true,
+        "color-named": "never",
+        "function-url-no-scheme-relative": true,
+        "shorthand-property-no-redundant-values": true,
+        "property-blacklist": [
+            "float",
+            "clear"
+        ],
+        "declaration-block-no-redundant-longhand-properties": true,
+        "no-unknown-animations": true,
+        "font-family-name-quotes": "always-where-recommended",
+        "font-weight-notation": "numeric",
+        "function-comma-space-before": "never",
+        "function-comma-space-after": "always",
+        "function-name-case": "lower",
+        "function-parentheses-newline-inside": "never-multi-line",
+        "function-parentheses-space-inside": "never",
+        "function-url-quotes": "always",
+        "function-whitespace-after": "always",
+        "number-leading-zero": "never",
+        "number-no-trailing-zeros": true,
+        "string-quotes": "double",
+        "length-zero-no-unit": true,
+        "unit-case": "lower",
+        "value-keyword-case": "lower",
+        "value-list-comma-newline-after": "never-multi-line",
+        "value-list-comma-newline-before": "never-multi-line",
+        "value-list-comma-space-after": "always",
+        "value-list-comma-space-before": "never",
+        "property-case": "lower",
+        "declaration-bang-space-after": "never",
+        "declaration-bang-space-before": "never",
+        "declaration-colon-newline-after": "always-multi-line",
+        "declaration-colon-space-after": "always",
+        "declaration-colon-space-before": "never",
+        "declaration-empty-line-before": "never",
+        "declaration-block-semicolon-newline-after": "always",
+        "declaration-block-semicolon-newline-before": "never-multi-line",
+        "declaration-block-semicolon-space-before": "never",
+        "declaration-block-trailing-semicolon": "always",
+        "block-closing-brace-empty-line-before": "never",
+        "block-closing-brace-newline-after": "always",
+        "block-closing-brace-newline-before": "always",
+        "block-opening-brace-newline-after": "always",
+        "block-opening-brace-space-before": "always",
+        "selector-attribute-brackets-space-inside": "never",
+        "selector-attribute-operator-space-after": "never",
+        "selector-attribute-operator-space-before": "never",
+        "selector-attribute-quotes": "always",
+        "selector-combinator-space-after": "always",
+        "selector-combinator-space-before": "always",
+        "selector-descendant-combinator-no-non-space": null,
+        "selector-pseudo-class-case": "lower",
+        "selector-pseudo-class-parentheses-space-inside": "never",
+        "selector-pseudo-element-case": "lower",
+        "selector-pseudo-element-colon-notation": "double",
+        "selector-type-case": "lower",
+        "rule-empty-line-before": [
+            "always",
+            {
+                "except": [
+                    "first-nested"
+                ],
+                "ignore": [
+                    "after-comment"
+                ]
+            }
+        ],
+        "selector-list-comma-space-after": "always-single-line",
+        "selector-list-comma-space-before": "never",
+        "comment-whitespace-inside": "always",
+        "indentation": 2,
+        "linebreaks": "unix",
+        "max-line-length": 180,
+        "no-missing-end-of-source-newline": true
+    }
+}
