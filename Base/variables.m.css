@@ -1,55 +1,57 @@
-:root{
-    --INTModVariables: '    \2022  Variables ~ Customa Devs (Base \2192  variables.m.css)\A'!important;
+:root {
+  --INTModVariables: "    \2022  Variables ~ Customa Devs (Base \2192  variables.m.css)\A"!important;
 
-    /* Base */
-    --INTVarBase: '';
-    --INTVarButtons: '';
-    --INTVarColor: '';
-    --INTVarFont: '';
-    --INTVarLightThemeSupport: '';
-    --INTVarRound: '';
-    --INTVarSelection:'';
-    --INTVarTooltips: '';
+  /* Base */
+  --INTVarBase: "";
+  --INTVarButtons: "";
+  --INTVarColor: "";
+  --INTVarFont: "";
+  --INTVarLightThemeSupport: "";
+  --INTVarRound: "";
+  --INTVarSelection: "";
+  --INTVarTooltips: "";
 
-    /* Chat */
-    --INTVarCustomEditIcon: '';
-    --INTVarCustomEditText: '';
-    --INTVarMoreCompactCozyChat: '';
+  /* Chat */
+  --INTVarCustomEditIcon: "";
+  --INTVarCustomEditText: "";
+  --INTVarMoreCompactCozyChat: "";
 
-    /* Emoji */
-    --INTVarJumboMoji: '';
+  /* Emoji */
+  --INTVarJumboMoji: "";
 
-    /* Misc */
-    --INTVarRainbow: '';
-    --INTVarCustomSettingsModal: '';
-    --INTVarCustomStatusColors: '';
+  /* Misc */
+  --INTVarRainbow: "";
+  --INTVarCustomSettingsModal: "";
+  --INTVarCustomStatusColors: "";
 
-    /* Sidebar */
-    --INTVarColoredChannelIcon: '';
-    --INTVarGuildCircles: '';
-    --INTVarTwoRowGuilds: '';
-    --INTVarWrapperChannel: '';
-    --INTVarWrapperGuild: '';
-    --INTVarWrapperMember: '';
+  /* Sidebar */
+  --INTVarColoredChannelIcon: "";
+  --INTVarGuildCircles: "";
+  --INTVarTwoRowGuilds: "";
+  --INTVarWrapperChannel: "";
+  --INTVarWrapperGuild: "";
+  --INTVarWrapperMember: "";
 
-    /* Titlebar */
-    --INTVarCakeOSTitlebar: '';
-    --INTVarCustomWordmark: '';
+  /* Titlebar */
+  --INTVarCakeOSTitlebar: "";
+  --INTVarCustomWordmark: "";
 
-    /* Webkit */
-    --INTVarCustomPlaceholder: '';
+  /* Webkit */
+  --INTVarCustomPlaceholder: "";
 }
 
-#bd-customcss-attach-controls /* BetterDiscord Custom CSS Editor */{
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+#bd-customcss-attach-controls {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
-#bd-customcss-attach-controls::after, .powercord-account::after{
-    white-space: pre-line;
-    display: block;
-    content: 'Customa-Variables\A\A'
-    'BASE'
+#bd-customcss-attach-controls::after, .powercord-account::after {
+  white-space: pre-line;
+  display: block;
+  /* stylelint-disable */
+  /* Has been done since multiline content is not according to spec but R E A D A B I L I T Y */
+  content: "Customa-Variables\A\A"
+    "BASE"
     var(--INTVarBase)
     var(--INTVarButtons)
     var(--INTVarColor)
@@ -57,31 +59,32 @@
     var(--INTVarLightThemeSupport)
     var(--INTVarRound)
     var(--INTVarSelection)
-    var(--INTVarTooltips)'\A\A\A'
-    'CHAT'
+    var(--INTVarTooltips) "\A\A\A"
+    "CHAT"
     var(--INTVarCustomEditIcon)
     var(--INTVarCustomEditText)
-    var(--INTVarMoreCompactCozyChat)'\A\A\A'
-    'EMOJI'
-    var(--INTVarJumboMoji)'\A\A\A'
-    'MISC'
+    var(--INTVarMoreCompactCozyChat) "\A\A\A"
+    "EMOJI"
+    var(--INTVarJumboMoji) "\A\A\A"
+    "MISC"
     var(--INTVarCustomSettingsModal)
     var(--INTVarCustomStatusColors)
-    var(--INTVarRainbow)'\A\A\A'
-    'SIDEBAR'
+    var(--INTVarRainbow) "\A\A\A"
+    "SIDEBAR"
     var(--INTVarColoredChannelIcon)
     var(--INTVarGuildCircles)
     var(--INTVarTwoRowGuilds)
     var(--INTVarWrapperChannel)
     var(--INTVarWrapperGuild)
-    var(--INTVarWrapperMember)'\A\A\A'
-    'TITLEBAR'
+    var(--INTVarWrapperMember) "\A\A\A"
+    "TITLEBAR"
     var(--INTVarCakeOSTitlebar)
-    var(--INTVarCustomWordmark)'\A\A\A'
-    'WEBKIT'
+    var(--INTVarCustomWordmark) "\A\A\A"
+    "WEBKIT"
     var(--INTVarCustomPlaceholder);
-    margin: 1.5% -2.3% 0 -2.3%;
-    padding: 3%;
-    line-height: 1.1;
-    color: white;
+  /* stylelint-enable */
+  margin: 1.5% -2.3% 0;
+  padding: 3%;
+  line-height: 1.1;
+  color: #ffffff;
 }
