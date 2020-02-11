@@ -255,7 +255,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .tier-12tKuZ .tierHeaderLocked-1s2JJz /* Locked Tier Headers Server Boost Modal */, .tier-12tKuZ /* Tier Box Server Boost Modal */, .dragInner-_SHftW /* Guild Drag Background */,
 .guildIconExpired-2Qcq05 /* Guild Icon Expired Invite */, .wrapperAudio-1jDe0Q .audioControls-2HsaU6 /* Audiocontrols Audio Embed */, .hasMoreButton-1MELpI:hover
 /* Has More Button Recent Mentions */, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y /* Inline Code, Textarea */, .spoilerText-3p6IlD.spoiler-2Iew8T 
-/* Spoiler Text, Textarea */, .modal-yWgWj- .channelTextArea-2VhZ6z /* Textarea Listen Along Invite */ {
+/* Spoiler Text, Textarea */, .modal-yWgWj- .channelTextArea-2VhZ6z /* Textarea Listen Along Invite */, .scroller-2FKFPG .message-2qRu38 /* Message Wrapper Delete Modal */ {
   background-color: var(--ColTransparent1);
 }
 
@@ -442,7 +442,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 .uploadModal-2ifh8j .footer-3mqk7D /* Upload Footer */, .button-2CgfFz.removeOverride-2sdvVX, .button-2CgfFz.removeOverride-2sdvVX:hover /* Remove Notification Override Button */, 
 .form-77IDep .footer-3rDWdC /* Footer Payment Modal */, .footer-3rDWdC.footer-2gL1pp /* Footer Hypesquad Modal */, .children-rWhLdy .item-3eFBNF /* Language Selector */, 
 .container-PNkimc .channelNotice-1-XFjC, .container-PNkimc .channelNotice-3DDmsB /* Channel Notice */, .children-rWhLdy .row-2okwlC /* Keybinds Row */, .game-1ipmAa.card-FDVird 
-/* Game Activity Saved Games */ {
+/* Game Activity Saved Games */, .scroller-2FKFPG .message-2qRu38 /* Message Wrapper Delete Modal */ {
   box-shadow: none;
 }
 
