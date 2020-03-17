@@ -1,23 +1,24 @@
-:root{
-    --INTModSquareAvatars: '    \2022  square avatars ~ rai (Misc \2192  squareAvatars.m.css)\A'!important;
+:root {
+  --INTModSquareAvatars: "    \2022  square avatars ~ rai (Misc \2192  squareAvatars.m.css)\A"!important;
 }
 /* most avatars */
 [id^="svg-mask-avatar"] > circle[fill="white"] {
-	r: 0.8 !important;
-	cy: 0.45 !important;
-	cx: 0.45 !important;
+  r: .8!important;
+  cy: .45!important;
+  cx: .45!important;
 }
 /* profile avatar, spotify group listening popup */
 #mask-118v16 > circle[fill="white"] {
-	r: 0.8 !important;
-	cy: 0.45 !important;
-	cx: 0.45 !important;
+  r: .8!important;
+  cy: .45!important;
+  cx: .45!important;
 }
 /* vc avatars */
 .avatarSmall-2CW6I1, .avatar-3e1DyV, .avatarContainer-2inGBK, .callAvatarVoice-29N_wG, .avatar-SmRMf2 {
-	border-radius: 0px !important;
+  border-radius: 0px!important;
 }
+
 .speaking-B2MXPi {
-	border-radius: 0px !important;
+  border-radius: 0px!important;
 }
 /* greetz to tadeo for the css */
