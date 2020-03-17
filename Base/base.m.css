@@ -83,7 +83,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .message-2qnXI6:not(.mentioned-xhSam7):not(.localBot-GrCgVt).selected-2P5D_Z, .mouse-mode .message-2qnXI6:not(.mentioned-xhSam7):not(.localBot-GrCgVt):hover 
 /* Remove new Message Hover */, .preview-2nSL_2 /* Appearance Preview */, .container-1sFeqf .closeButton-1tv5uR:hover /* Remove Hover Effect Settings Menu */, .wrapper-1prNyd 
 /* Crash Screen */, .nowPlayingColumn-2sl4cE /* Now Playing Column */, .wrapper-39oAo3 /* Warning Message Chat Area */, .streamPreview-2-WUWT .previewContainer-12UlHl 
-/* Background Streaming Window */, .tier-12tKuZ .tierBody-16Chc9 /* Tier Body Server Boost Modal */, .video-1FfuMD, .chat-3bRxxu .wrapper-29NfPK /* Call wrappers */ {
+/* Background Streaming Window */, .tier-12tKuZ .tierBody-16Chc9 /* Tier Body Server Boost Modal */, .video-1FfuMD, .chat-3bRxxu .wrapper-29NfPK /* Call wrappers */, 
+.sidebar-2K8pFh /* Channel Wrapper */{
   background-color: transparent;
 }
 
@@ -93,7 +94,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 /* Channel Sidebars */
-.sidebar-2K8pFh /* Channel Sidebar */, .container-PNkimc .scroller-2FKFPG > div /* "Overscroll" Banner Image */ {
+.container-PNkimc .scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y, .container-PNkimc .scroller-2FKFPG > div 
+/* "Overscroll" Banner Image */ {
   background-color: var(--ColChannelList);
 }
 
@@ -632,11 +634,11 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   background-size: 24px;
 }
 
+/* stylelint-disable max-line-length */
 .attachButtonPlay-3iJ0mf /* Attach Button Playing */ {
-  /* stylelint-disable max-line-length */
   d: path("M19.0532 14C20.3792 14 21.6512 14.5268 22.5887 15.4645C23.5264 16.4021 24.0532 17.6739 24.0532 19C24.0532 20.326 23.5264 21.598 22.5887 22.5355C21.651 23.4732 20.3793 24 19.0532 24C17.7272 24 16.4554 23.4732 15.5177 22.5355C14.58 21.598 14.0532 20.326 14.0532 19C14.0532 16.2386 16.2918 14 19.0532 14Z");
-  /* stylelint-enable */
 }
+/* stylelint-enable */
 
 /* Typing Indicator */
 .typing-2GQL18 {
