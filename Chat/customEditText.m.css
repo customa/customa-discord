@@ -1,18 +1,18 @@
-:root{
-    --INTModCustomEditText: '    \2022  Custom Edit Text ~ Customa Devs (Chat \2192  customEditText.m.css)\A'!important;
-    --INTVarCustomEditText: '\A\A Custom Edit Text - Module \A \2022  --ContentEditText \2192  Allowed Values: Text'!important;
-    --ContentEditText: 'OwO, what was that';
+:root {
+  --INTModCustomEditText: "    \2022  Custom Edit Text ~ Customa Devs (Chat \2192  customEditText.m.css)\A"!important;
+  --INTVarCustomEditText: "\A\A Custom Edit Text - Module \A \2022  --ContentEditText \2192  Allowed Values: Text"!important;
+  --ContentEditText: "OwO, what was that";
 }
 
-.container-1YxwTf .edited-DL9ECl {
-    visibility: hidden;
-    font-size: 0;
+.edited-DL9ECl {
+  visibility: hidden;
+  font-size: 0;
 }
 
-.container-1YxwTf .edited-DL9ECl::after{
-    visibility: visible!important;
-    font-size: 0.625rem;
-    width: fit-content!important;
-    content: var(--ContentEditText)!important;
-    margin-left: 5px;
+.edited-DL9ECl::after {
+  visibility: visible!important;
+  font-size: .625rem;
+  width: fit-content!important;
+  content: var(--ContentEditText)!important;
+  margin-left: 5px;
 }
