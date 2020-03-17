@@ -1,52 +1,49 @@
 @import url("https://customa.gitlab.io/Customa-Discord/Base/selection.m.css");
 
-:root{
-    --INTModFont: '    \2022  Fonts ~ Customa Devs (Base \2192  font.m.css)\A'!important;
-    --INTVarFont: '\A\A Font - Module \A \2022  --FontFamily \2192  Allowed Values: Installed Fonts/Webfonts (pref. Sans-Serif)\A \2022  --FontMonoFamily \2192  Allowed Values: Installed Fonts/Webfonts (pref. Monospace)'!important;
-    --FontFamily: 'Lato', sans-serif /* Normal Font */!important;
-    --FontMonoFamily: 'Fira Code', 'Fira Mono', monospace /* Monospace Font */;
+:root {
+  --INTModFont: "    \2022  Fonts ~ Customa Devs (Base \2192  font.m.css)\A"!important;
+  /* stylelint-disable */
+  /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
+  --INTVarFont: "\A\A Font - Module"
+    "\A \2022  --FontFamily \2192  Allowed Values: Installed Fonts/Webfonts (pref. Sans-Serif)"
+    "\A \2022  --FontMonoFamily \2192  Allowed Values: Installed Fonts/Webfonts (pref. Monospace)"!important;
+  /* stylelint-enable */
+  --FontFamily: "Lato", sans-serif!important;
+  --FontMonoFamily: "Fira Code", "Fira Mono", monospace;
 }
 
 /* Set all Fonts to the defined one */
-*{
-    font-family: var(--FontFamily)!important;
-    font-variant: normal!important;
+* {
+  font-family: var(--FontFamily)!important;
+  font-variant: normal!important;
 }
 
-.fa, .fab, .fad, .fal, .far, .fas{
-    font-family: "Font Awesome 5 Pro"!important;
+.fa, .fab, .fad, .fal, .far, .fas {
+  font-family: "Font Awesome 5 Pro", sans-serif!important;
 }
 
 /* set font for message box */
-::-webkit-input-placeholder{
-    font-family: var(--FontFamily);
+::-webkit-input-placeholder { /* stylelint-disable-line no-descending-specificity */
+  font-family: var(--FontFamily);
 }
 
-.fileNameLink-9GuxCo /* File name for File Uploads */{
-    font-size: 15px!important;
+.fileNameLink-9GuxCo /* File name for File Uploads */ {
+  font-size: 15px!important;
 }
 
-code.inline, code.inline span /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .textAreaEdit-bNLDk3 span /* Edit Text Area */, pre code.hljs div *, pre code.hljs div, .content-3dzVd8 .markup-2BOw-j pre code.hljs *, .content-3dzVd8 .markup-2BOw-j pre code.hljs /* Codeblocks */, .inlineCode-2ngu6Y span /* Inline Codeblock Textarea */, .codeLine-14BKbG span, .codeBlockText-11zCaP span /* Normal Codeblock Textarea */{
-    font-family: var(--FontMonoFamily)!important;
+code.inline, code.inline span /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .textAreaEdit-bNLDk3 span /* Edit Text Area */, pre code.hljs div *, 
+pre code.hljs div, .content-3dzVd8 .markup-2BOw-j pre code.hljs *, .content-3dzVd8 .markup-2BOw-j pre code.hljs /* Codeblocks */, .inlineCode-2ngu6Y span 
+/* Inline Codeblock Textarea */, .codeLine-14BKbG span, .codeBlockText-11zCaP span /* Normal Codeblock Textarea */ {
+  font-family: var(--FontMonoFamily)!important;
 }
 
 @font-face {
-    font-family: Whitney;
-    font-weight: 400;
-    src: url(/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff) format("woff")
+  font-family: Whitney;
+  font-weight: 400;
+  src: url("/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff") format("woff");
 }
 @font-face {
-    font-family: Whitney;
-    font-weight: 500;
-    src: url(/assets/3bdef1251a424500c1b3a78dea9b7e57.woff) format("woff")
-}
-
-/* Restore message and channel message input font size */
-.markup-2BOw-j, .textArea-2Spzkt {
-    font-size: 0.9375rem;
-}
-
-/* Adjust boldness of username, channel names, channel title, member list names, and server name */
-.name-3YKhmS, .username-_4ZSMR, .name-3_Dsmg, .name-uJV0GL, .membersGroup-v9BXpm, .title-29uC1r {
-    font-weight: 500;
+  font-family: Whitney;
+  font-weight: 500;
+  src: url("/assets/3bdef1251a424500c1b3a78dea9b7e57.woff") format("woff");
 }
