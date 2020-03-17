@@ -1,12 +1,16 @@
 :root {
-    --DurRainbow: 2s;
-    --INTModRainbow: '    \2022  Rainbow Background ~ Customa Devs (Misc \2192  rainbow.m.css)\A'!important;
-    --INTVarRainbow: '\A\A Rainbow - Module\A \2022  --DurRainbow \2192  Allowed Values: Time'!important;
-    
-    animation: rainbow var(--DurRainbow) infinite linear;
+  --DurRainbow: 2s;
+  --INTModRainbow: "    \2022  Rainbow Background ~ Customa Devs (Misc \2192  rainbow.m.css)\A"!important;
+  --INTVarRainbow: "\A\A Rainbow - Module\A \2022  --DurRainbow \2192  Allowed Values: Time"!important;
+  animation: rainbow var(--DurRainbow) infinite linear;
 }
 
 @keyframes rainbow {
-    from { filter: hue-rotate(0deg); }
-    to { filter: hue-rotate(360deg); }
+  from {
+    filter: hue-rotate(0deg);
+  }
+
+  to {
+    filter: hue-rotate(360deg);
+  }
 }
