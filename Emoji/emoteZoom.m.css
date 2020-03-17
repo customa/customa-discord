@@ -1,20 +1,26 @@
-:root{
+:root {
   --ScaleEmojiHovered: 5;
   --TransitionDuration: 200ms;
   --TransitionDelay: 2000ms;
-  --INTModEmoteZoom: '    \2022  Emote Zoom ~ Customa Devs (Emoji \2192  emoteZoom.m.css)\A'!important;
-  --INTVarEmoteZoom: '\A\A Emote Zoom - Module\A \2022  --ScaleEmojiHovered \2192  Allowed Values: Int (pref. 5) \A \2022  --TransitionDuration \2192  Allowed Values: Time (pref. 200ms)\A \2022  --TransitionDelay \2192  Allowed Values: Time (pref. 2000ms)'!important;
+  --INTModEmoteZoom: "    \2022  Emote Zoom ~ Customa Devs (Emoji \2192  emoteZoom.m.css)\A"!important;
+  /* stylelint-disable */
+  /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
+  --INTVarEmoteZoom: "\A\A Emote Zoom - Module"
+    "\A \2022  --ScaleEmojiHovered \2192  Allowed Values: Int (pref. 5)"
+    "\A \2022  --TransitionDuration \2192  Allowed Values: Time (pref. 200ms)"
+    "\A \2022  --TransitionDelay \2192  Allowed Values: Time (pref. 2000ms)"!important;
+  /* stylelint-enable */
 }
 
-.emoji{
+.emoji {
   transition: all var(--TransitionDuration) var(--TransitionDelay) ease-in-out;
   cursor: zoom-in;
 }
 
-.emoji:hover{
+.emoji:hover {
   transform: scale(var(--ScaleEmojiHovered));
 }
 
-.container-1YxwTf{
+.container-1YxwTf {
   overflow: visible;
 }
