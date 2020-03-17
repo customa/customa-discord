@@ -83,8 +83,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .message-2qnXI6:not(.mentioned-xhSam7):not(.localBot-GrCgVt).selected-2P5D_Z, .mouse-mode .message-2qnXI6:not(.mentioned-xhSam7):not(.localBot-GrCgVt):hover 
 /* Remove new Message Hover */, .preview-2nSL_2 /* Appearance Preview */, .container-1sFeqf .closeButton-1tv5uR:hover /* Remove Hover Effect Settings Menu */, .wrapper-1prNyd 
 /* Crash Screen */, .nowPlayingColumn-2sl4cE /* Now Playing Column */, .wrapper-39oAo3 /* Warning Message Chat Area */, .streamPreview-2-WUWT .previewContainer-12UlHl 
-/* Background Streaming Window */, .tier-12tKuZ .tierBody-16Chc9 /* Tier Body Server Boost Modal */, .video-1FfuMD, .chat-3bRxxu .wrapper-29NfPK /* Call wrappers */, 
-.sidebar-2K8pFh /* Channel Wrapper */{
+/* Background Streaming Window */, .tier-12tKuZ .tierBody-16Chc9 /* Tier Body Server Boost Modal */, .video-1FfuMD, .chat-3bRxxu .wrapper-29NfPK /* Call wrappers */ {
   background-color: transparent;
 }
 
@@ -94,7 +93,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 /* Channel Sidebars */
-.container-PNkimc .scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y, .container-PNkimc .scroller-2FKFPG > div 
+.sidebar-2K8pFh /* Channel Wrapper */, .container-PNkimc .scroller-2FKFPG > div 
 /* "Overscroll" Banner Image */ {
   background-color: var(--ColChannelList);
 }
