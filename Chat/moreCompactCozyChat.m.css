@@ -1,20 +1,23 @@
-:root{
-	--INTModMoreCompactCozyChat: '    \2022  more compact cozy chat ~ rai (Chat \2192  morecompactcozychat.m.css)\A'!important;
-	--INTVarMoreCompactCozyChat: '\A\A more compact cozy chat - Module\A \2022  --ColSeparator \2192  Allowed Values: Color\A \2022 --SizeSeparator \2192 Allowed Values: Size (pref. 1px)\A \2022 --SizeDateDivider \2192 Allowed Values: Size (0px to disable, pref. 1px)'!important;
-	--SizeSeparator: 1px;
-	--ColSeparator: #262A33;
-	--SizeDateDivider: 0px;
+:root {
+  --INTModMoreCompactCozyChat: "    \2022  more compact cozy chat ~ rai (Chat \2192  morecompactcozychat.m.css)\A"!important;
+  --INTVarMoreCompactCozyChat: "\A\A more compact cozy chat - Module\A \2022  --ColSeparator \2192  Allowed Values: Color\A \2022 --SizeSeparator \2192 Allowed Values: Size (pref. 1px)\A \2022 --SizeDateDivider \2192 Allowed Values: Size (0px to disable, pref. 1px)"!important;
+  --SizeSeparator: 1px;
+  --ColSeparator: #262a33;
+  --SizeDateDivider: 0;
 }
 
 /* lower padding, disable margin and add a 2px border on top to make it easier to differenciate messages */
-.containerCozyBounded-1rKFAn {
-	margin-bottom: 0px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	border-top: var(--SizeSeparator) solid var(--ColSeparator);
+.message-2qnXI6 + .cozyMessage-3V1Y8y.groupStart-23k01U {
+  margin-top: 2px;
+  border-top: var(--SizeSeparator) solid var(--ColSeparator);
+}
+
+.cozyMessage-3V1Y8y:not(.groupStart-23k01U) {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* disable/enable the dividing part of the date separator */
-.dividerContent-2L12VI::after, .dividerContent-2L12VI::before {
-	height: var(--SizeDateDivider);
+.divider-3_HH5L.hasContent-1_DUdQ.divider-JfaTT5.hasContent-1cNJDh {
+  border-width: var(--SizeDateDivider);
 }
