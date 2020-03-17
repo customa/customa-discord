@@ -1,6 +1,12 @@
 :root {
   --INTModMoreCompactCozyChat: "    \2022  more compact cozy chat ~ rai (Chat \2192  morecompactcozychat.m.css)\A"!important;
-  --INTVarMoreCompactCozyChat: "\A\A more compact cozy chat - Module\A \2022  --ColSeparator \2192  Allowed Values: Color\A \2022 --SizeSeparator \2192 Allowed Values: Size (pref. 1px)\A \2022 --SizeDateDivider \2192 Allowed Values: Size (0px to disable, pref. 1px)"!important;
+  /* stylelint-disable */
+  /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
+  --INTVarMoreCompactCozyChat: "\A\A more compact cozy chat - Module"
+    "\A \2022  --ColSeparator \2192  Allowed Values: Color"
+    "\A \2022 --SizeSeparator \2192 Allowed Values: Size (pref. 1px)"
+    "\A \2022 --SizeDateDivider \2192 Allowed Values: Size (0px to disable, pref. 1px)"!important;
+  /* stylelint-enable */
   --SizeSeparator: 1px;
   --ColSeparator: #262a33;
   --SizeDateDivider: 0;
