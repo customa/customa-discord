@@ -1,0 +1,33 @@
+:root {
+  --DisplayInBlockQuotes: inline;
+  --DisplayOutBlockQuotes: inline;
+}
+
+
+a[href*="discordapp.com/channels/"], blockquote a[href*="discordapp.com/channels/"] {
+  visibility: hidden;
+  font-size: 0;
+  text-decoration: none!important;
+}
+
+a[href*="discordapp.com/channels/"]::after, blockquote a[href*="discordapp.com/channels/"]::after {
+  visibility: visible!important;
+  font-size: .8rem;
+  border-radius: 4px;
+  line-height: 20px;
+  padding: 0 10px;
+  opacity: .8;
+  margin: 3px;
+  display: inline;
+  background: rgb(235, 235, 235);
+  transition: opacity 200ms;
+  color: rgb(115, 127, 141);
+}
+
+a[href*="discordapp.com/channels/"]::after, blockquote a[href*="discordapp.com/channels/"]::after {
+  content: "Jump to the message";
+}
+
+a:hover::after {
+  opacity: 1;
+}
