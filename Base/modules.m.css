@@ -1,130 +1,132 @@
-:root{
+:root {
 
-    /* DO NOT EDIT */
+  /* DO NOT EDIT */
 
-    /* Base */
-    --INTModBase: '';
-    --INTModButtons: '';
-    --INTModColor: '';
-    --INTModFont: '';
-    --INTModLightThemeSupport: '';
-    --INTModModules: '    \2022  Modules - Customa Devs (Base \2192  modules.m.css)\A'!important;
-    --INTModRound: '';
-    --INTModSelection: '';
-    --INTModTooltips: '';
-    --INTModVariables: '';
+  /* Base */
+  --INTModBase: "";
+  --INTModButtons: "";
+  --INTModColor: "";
+  --INTModFont: "";
+  --INTModLightThemeSupport: "";
+  --INTModModules: "    \2022  Modules - Customa Devs (Base \2192  modules.m.css)\A"!important;
+  --INTModRound: "";
+  --INTModSelection: "";
+  --INTModTooltips: "";
+  --INTModVariables: "";
 
-    /* Chat */
-    --INTModBetterBlockedMessages: '';
-    --INTModBetterCompactMode: '';
-    --INTModBetterFileTypes: '';
-    --INTModCodeBlockLanguages: '';
-    --INTModCustomEditIcon: '';
-    --INTModCustomEditText: '';
-    --INTModEmbedsModernized: '';
-    --INTModMoreCompactCozyChat: '';
-    --INTModTypingOnRight: '';
+  /* Chat */
+  --INTModBetterCompactMode: "";
+  --INTModBetterFileTypes: "";
+  --INTModCodeBlockLanguages: "";
+  --INTModCustomEditIcon: "";
+  --INTModCustomEditText: "";
+  --INTModEmbedsModernized: "";
+  --INTModMoreCompactCozyChat: "";
+  --INTModTypingOnRight: "";
 
-    /* Emoji */
-    --INTModJumboMoji: '';
-    --INTModEmoteZoom: '';
+  /* Emoji */
+  --INTModJumboMoji: "";
+  --INTModEmoteZoom: "";
 
-    /* Misc */
-    --INTModAll: '';
-    --INTModCustomStatusColors: '';
-    --INTModCustomSettingsModal: '';
-    --INTModiOSToggles: '';
-    --INTModRainbow: '';
-    --INTModSquareAvatars: '';
+  /* Misc */
+  --INTModAll: "";
+  --INTModCustomStatusColors: "";
+  --INTModCustomSettingsModal: "";
+  --INTModiOSToggles: "";
+  --INTModRainbow: "";
+  --INTModSquareAvatars: "";
 
-    /* Sidebar */
-    --INTModChannelDivider: '';
-    --INTModClassicChannelSelect: '';
-    --INTModClassicStatusIndicator: '';
-    --INTModColoredChannelIcon: '';
-    --INTModCustomPlayingIcon: '';
-    --INTModCustomUserModal: '';
-    --INTModCustomUserPopout: '';
-    --INTModFolderNames: '';
-    --INTModGuildCircles: '';
-    --INTModStatusCircles: '';
-    --INTModTwoRowGuilds: '';
-    --INTModWrapperChannel: '';
-    --INTModWrapperGuild: '';
-    --INTModWrapperMember: '';
+  /* Sidebar */
+  --INTModChannelDivider: "";
+  --INTModClassicChannelSelect: "";
+  --INTModClassicStatusIndicator: "";
+  --INTModColoredChannelIcon: "";
+  --INTModCustomPlayingIcon: "";
+  --INTModCustomUserModal: "";
+  --INTModCustomUserPopout: "";
+  --INTModFolderNames: "";
+  --INTModGuildCircles: "";
+  --INTModStatusCircles: "";
+  --INTModTwoRowGuilds: "";
+  --INTModWrapperChannel: "";
+  --INTModWrapperGuild: "";
+  --INTModWrapperMember: "";
 
-    /* Titlebar */
-    --INTModCakeOSTitlebar: '';
-    --INTModCustomWordmark: '';
-    --INTModRestoreOldTitlebar: '';
+  /* Titlebar */
+  --INTModCakeOSTitlebar: "";
+  --INTModCustomWordmark: "";
+  --INTModRestoreOldTitlebar: "";
 
-    /* Webkit */
-    --INTModAdvancedScrollbar: '';
-    --INTModPlaceholderRemover: '';
-    --INTModCustomPlaceholder: '';
+  /* Webkit */
+  --INTModAdvancedScrollbar: "";
+  --INTModPlaceholderRemover: "";
+  --INTModCustomPlaceholder: "";
 }
 
-.userSettingsAccount-2eMFVR::after{
-    content: 'Base:\A '
-        var(--INTModBase)
-        var(--INTModButtons)
-        var(--INTModColor)
-        var(--INTModFont)
-        var(--INTModLightThemeSupport)
-        var(--INTModModules)
-        var(--INTModRound)
-        var(--INTModSelection)
-        var(--INTModTooltips)
-        var(--INTModVariables)'\A'
-    'Chat:\A'
-        var(--INTModBetterBlockedMessages)
-        var(--INTModBetterCompactMode)
-        var(--INTModBetterFileTypes)
-        var(--INTModCodeBlockLanguages)
-        var(--INTModCustomEditIcon)
-        var(--INTModCustomEditText)
-        var(--INTModEmbedsModernized)
-        var(--INTModMoreCompactCozyChat)
-	var(--INTModTypingOnRight) '\A'
-    'Emoji:\A'
-        var(--INTModJumboMoji) 
-        var(--INTModEmoteZoom) '\A'
-    'Misc:\A'
-        var(--INTModAll)
-	var(--INTModCustomStatusColors)
-        var(--INTModCustomSettingsModal)
-        var(--INTModiOSToggles)
-        var(--INTModRainbow)
-	var(--INTModSquareAvatars) '\A'
-    'Sidebar:\A'
-        var(--INTModChannelDivider)
-        var(--INTModClassicChannelSelect)
-        var(--INTModClassicStatusIndicator)
-        var(--INTModColoredChannelIcon)
-        var(--INTModCustomPlayingIcon)
-        var(--INTModCustomUserModal)
-        var(--INTModCustomUserPopout)
-        var(--INTModFolderNames)
-        var(--INTModGuildCircles)
-        var(--INTModStatusCircles)
-        var(--INTModTwoRowGuilds)
-        var(--INTModWrapperChannel)
-        var(--INTModWrapperGuild)
-        var(--INTModWrapperMember) '\A'
-    'Titlebar:\A'
-        var(--INTModCakeOSTitlebar)
-        var(--INTModCustomWordmark)
-        var(--INTModRestoreOldTitlebar) '\A'
-    'Webkit:\A'
-        var(--INTModAdvancedScrollbar)
-        var(--INTModCustomPlaceholder)
-        var(--INTModPlaceholderRemover);
-    padding: 3%;
-    margin-bottom: 2%;
-    background-color: var(--ColBackground1);
-    color: #ddd;
-    display: block;
-    white-space: pre;
-    line-height: 1.1;
-    border-radius: 0 0 3px 3px;
+.userSettingsAccount-2eMFVR::after {
+  /* stylelint-disable */
+  /* Has been done since multiline content is not according to spec but R E A D A B I L I T Y */
+  content: "Base:\A "
+    var(--INTModBase)
+    var(--INTModButtons)
+    var(--INTModColor)
+    var(--INTModFont)
+    var(--INTModLightThemeSupport)
+    var(--INTModModules)
+    var(--INTModRound)
+    var(--INTModSelection)
+    var(--INTModTooltips)
+    var(--INTModVariables) "\A"
+    "Chat:\A"
+    var(--INTModBetterBlockedMessages)
+    var(--INTModBetterCompactMode)
+    var(--INTModBetterFileTypes)
+    var(--INTModCodeBlockLanguages)
+    var(--INTModCustomEditIcon)
+    var(--INTModCustomEditText)
+    var(--INTModEmbedsModernized)
+    var(--INTModMoreCompactCozyChat)
+    var(--INTModTypingOnRight) "\A"
+    "Emoji:\A"
+    var(--INTModJumboMoji) 
+    var(--INTModEmoteZoom) "\A"
+    "Misc:\A"
+    var(--INTModAll)
+    var(--INTModCustomStatusColors)
+    var(--INTModCustomSettingsModal)
+    var(--INTModiOSToggles)
+    var(--INTModRainbow)
+    var(--INTModSquareAvatars) "\A"
+    "Sidebar:\A"
+    var(--INTModChannelDivider)
+    var(--INTModClassicChannelSelect)
+    var(--INTModClassicStatusIndicator)
+    var(--INTModColoredChannelIcon)
+    var(--INTModCustomPlayingIcon)
+    var(--INTModCustomUserModal)
+    var(--INTModCustomUserPopout)
+    var(--INTModFolderNames)
+    var(--INTModGuildCircles)
+    var(--INTModStatusCircles)
+    var(--INTModTwoRowGuilds)
+    var(--INTModWrapperChannel)
+    var(--INTModWrapperGuild)
+    var(--INTModWrapperMember) "\A"
+    "Titlebar:\A"
+    var(--INTModCakeOSTitlebar)
+    var(--INTModCustomWordmark)
+    var(--INTModRestoreOldTitlebar) "\A"
+    "Webkit:\A"
+    var(--INTModAdvancedScrollbar)
+    var(--INTModCustomPlaceholder)
+    var(--INTModPlaceholderRemover);
+  /* stylelint-enable */
+  padding: 3%;
+  margin-bottom: 2%;
+  background-color: var(--ColBackground1);
+  color: #dddddd;
+  display: block;
+  white-space: pre;
+  line-height: 1.1;
+  border-radius: 0 0 3px 3px;
 }
