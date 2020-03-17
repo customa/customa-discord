@@ -8,7 +8,8 @@ var modules = [
   "Misc",
   "Sidebar",
   "Titlebar",
-  "Webkit"
+  "Webkit",
+  "WIP"
 ];
 var paths = {
   src: modules.map(dir => dir + "/**/*.m.css"),
