@@ -1,0 +1,16 @@
+/* Bring Back Chat Dividers */
+
+.message-2qnXI6 + .groupStart-23k01U {
+  padding-top: 6px;
+}
+
+.message-2qnXI6 + .groupStart-23k01U::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 95%;
+  left: 2.5%;
+  background: var(--background-modifier-accent);
+  top: -.5px;
+}
