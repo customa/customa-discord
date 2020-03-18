@@ -800,7 +800,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 }
 
 /* Better Message Editor */
-.message-2qnXI6.wrapper-2a6GCs .contents-2mQqc9 > div:nth-child(2):not(.markup-2BOw-j) {
+.message-2qnXI6.wrapper-2a6GCs .contents-2mQqc9 > div:last-child:not(.markup-2BOw-j) {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
