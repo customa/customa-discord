@@ -15,12 +15,14 @@
 .emoji {
   transition: all var(--TransitionDuration) var(--TransitionDelay) ease-in-out;
   cursor: zoom-in;
+  z-index: 2;
 }
 
 .emoji:hover {
   transform: scale(var(--ScaleEmojiHovered));
+  z-index: 99;
 }
 
-.container-1YxwTf {
+.zalgo-jN1Ica.compact-T3H92H .contents-2mQqc9 {
   overflow: visible;
 }
