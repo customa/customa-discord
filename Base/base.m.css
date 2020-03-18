@@ -379,8 +379,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Notification Override Settings Card */, .overrideHighlight-YPcBxt.card-3Qj_Yx /* Highlight for new Override Cards */, .overrideList-Xc_VCf .overridePlaceholder-14_rPI 
 /* Override Placeholder Notification Settings */, .authedApp-mj2Hmd /* Authorized Apps Settings */, .payment-xT17Mq.paymentRow-2e7VM6 /* Payment History Row */, 
 .userSettingsVoice-iwdUCU .previewContainer-37c2Si .previewOverlay-2O7_KC /* Webcam Preview Overlay */, .container-1sFeqf .closeButton-1tv5uR /* Settings Menu Close Button */, 
-.invite-18yqGF.container-o3RxSG, .invite-18yqGF.preview-yX6Nx7 /* Spotify Container */, .listeningAlong-30wH70 /* Listening Along */, .message-2qnXI6 .embedWrapper-lXpS3L, 
-.wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-2VxO12 .embedWrapper-lXpS3L /* Chat Attachments */, .keybindGroup-JQs9x_.card-FDVird::before /* Keybinds */, 
+.invite-18yqGF.container-o3RxSG, .invite-18yqGF.preview-yX6Nx7 /* Spotify Container */, .listeningAlong-30wH70 /* Listening Along */, .wrapper-2a6GCs .attachment-33OFj0, 
+.searchResultMessage-2VxO12 .embedWrapper-lXpS3L, .message-2qnXI6 .wrapperAudio-1jDe0Q /* Chat Attachments */, .keybindGroup-JQs9x_.card-FDVird::before /* Keybinds */, 
 .game-1ipmAa.card-FDVird::before /* Game Activity Saved Games */, .gameNameLastPlayed-3LJo8n .gameNameInput-385LoS /* Game Name Input */, .css-1rckt42-menu 
 /* Selection Menu Guild Discovery */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */, .activityPanel-28dQGo /* Go Live Panel */ {
   border: none;
