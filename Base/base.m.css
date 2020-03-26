@@ -200,7 +200,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .actionButton-uPB8Fs.highlight-Lf97TE /* Friends Table Popout Element Hover Effect */, .guildCard-2arfcG .card-3DjzTQ /* Guild Cards Guild Discovery */, .css-1gnr91b-option 
 /* Selection Hovered Language Selection Guild Discovery */, .pageControl-1aUwvK .button-38aScr.pageButton-MknE-_ /* Page Controls Guild Discovery */, .message-2qnXI6 
 .embedWrapper-lXpS3L, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-2VxO12 .embedWrapper-lXpS3L /* Chat Attachments */, .mediaBarWrapper-3D7r67, 
-.mediaBarWrapper-3D7r67::after, .mediaBarWrapper-3D7r67::before /* Media Player Bar Background */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */ {
+.mediaBarWrapper-3D7r67::after, .mediaBarWrapper-3D7r67::before /* Media Player Bar Background */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */, .button-1I8KM5
+/* Emoji Reaction */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -260,7 +261,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Has More Button Recent Mentions */, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y /* Inline Code, Textarea */, .spoilerText-3p6IlD.spoiler-2Iew8T 
 /* Spoiler Text, Textarea */, .modal-yWgWj- .channelTextArea-2VhZ6z /* Textarea Listen Along Invite */, .scroller-2FKFPG .message-2qRu38 /* Message Wrapper Delete Modal */,
 .guildIconImage-3qTk45.guildIcon-lQ0uiM /* Guild Icon (for Invites) background */, .from-mPWN2E + .to-2819fF /* To User - Server Ownership */, .popout-2iWAc- 
-.quickSelectPopoutOption-opKBx9:hover /* Select Option DM Call */, .horizontalAutocomplete-L5KnTN .selectorSelected-1_M1WV /* Giphy Autocomplete Selected GIF */ {
+.quickSelectPopoutOption-opKBx9:hover /* Select Option DM Call */, .horizontalAutocomplete-L5KnTN .selectorSelected-1_M1WV /* Giphy Autocomplete Selected GIF */, 
+.button-1I8KM5:hover /* Emoji Reaction Hovered */ {
   background-color: var(--ColTransparent1);
 }
 
