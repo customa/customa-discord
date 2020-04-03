@@ -592,7 +592,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   padding: 0;
 }
 
-.form-2fGMdU > div /* Discord why do you keep breaking my stuff */ {
+.form-2fGMdU > div:not(.typing-2GQL18) /* Discord why do you keep breaking my stuff */ {
   width: 100%;
 }
 
