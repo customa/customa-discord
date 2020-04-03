@@ -62,6 +62,11 @@
   --FilterAccountSecurity: blur(4px); /* Filter */
 }
 
+:root {
+  /* --ColAppBG: transparent;
+  --ColBackground2: transparent; */
+}
+
 /* App Background */
 body /* Discord Application Body */ {
   background: var(--ColAppBG);
@@ -149,7 +154,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .css-1wqqa50-container /* Language Selection Guild Discovery */, .css-1rckt42-menu /* Selection Menu Language Selection Guild Discovery */, .incomingCallInner-2VmFiR 
 /* Incoming Call */, .authBox-hW6HRx /* Login Box */, .tierMarkerContainer-2BmgqV .tierMarkerBackground-3q29am /* Tier Markers Server Boost Modal */, .uploadModalIn-1z07Bv 
 .uploadDropModal-2kTwbc .bgScale-1otPtc /* Upload Modal */, .liveBadge-yuNuMC /* Video Icon Active Go Live */, .unavailableBadge-3k7iq_ /* Guild Unavailable */, .popout-2iWAc- 
-.quickSelectPopout-X1hvgV /* Region Selector DM Calls */ {
+.quickSelectPopout-X1hvgV /* Region Selector DM Calls */, .container-2Yth53 .contentWrapper-3WC1ID /* Join Guild Menu */ {
   background-color: var(--ColBackground1);
 }
 
@@ -262,7 +267,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Spoiler Text, Textarea */, .modal-yWgWj- .channelTextArea-2VhZ6z /* Textarea Listen Along Invite */, .scroller-2FKFPG .message-2qRu38 /* Message Wrapper Delete Modal */,
 .guildIconImage-3qTk45.guildIcon-lQ0uiM /* Guild Icon (for Invites) background */, .from-mPWN2E + .to-2819fF /* To User - Server Ownership */, .popout-2iWAc- 
 .quickSelectPopoutOption-opKBx9:hover /* Select Option DM Call */, .horizontalAutocomplete-L5KnTN .selectorSelected-1_M1WV /* Giphy Autocomplete Selected GIF */, 
-.button-1I8KM5:hover /* Emoji Reaction Hovered */ {
+.button-1I8KM5:hover /* Emoji Reaction Hovered */, .pill-1dHPfk /* Online/Members Pills Join Guild Wrapper */ {
   background-color: var(--ColTransparent1);
 }
 
@@ -585,6 +590,10 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 .form-2fGMdU, .channelTextArea-rNsIhG /* Remove Margins */ {
   margin: 0;
   padding: 0;
+}
+
+.form-2fGMdU > div /* Discord why do you keep breaking my stuff */ {
+  width: 100%;
 }
 
 .scrollableContainer-2NUZem .slateContainer-3Qkn2x, .scrollableContainer-2NUZem .buttons-3JBrkn, .form-2fGMdU /* Adjust Size of the Message Area */ {
@@ -1601,4 +1610,18 @@ html::before {
 /* Filled bar when Discord is having an outage (or takes longer to load) */
 .noChannel-Z1DQK7::before {
   background-color: var(--ColBackground1);
+}
+
+/* Join Icons */
+.icon-2Po-VO[style*="b8029fe196b8f1382e90bbe81dab50dc.svg"] {
+  background: none!important;
+  display: flex;
+  align-items: center;
+}
+
+.icon-2Po-VO[style*="b8029fe196b8f1382e90bbe81dab50dc.svg"]::before {
+  content: "\f178";
+  font-family: "Font Awesome 5 Pro", sans-serif!important;
+  color: var(--ColAccent);
+  font-size: 18px;
 }
