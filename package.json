@@ -4,7 +4,8 @@
     "description": "The most customizable Discord theme out there.",
     "main": "index.js",
     "scripts": {
-        "minify": "gulp"
+        "minify": "gulp",
+        "copy": "gulp"
     },
     "repository": {
         "type": "git",

@@ -13,14 +13,22 @@ var modules = [
 ];
 var paths = {
   src: modules.map(dir => dir + "/**/*.m.css"),
-  dest: "dist"
+  destMin: "dist",
+  destSrc: "src"
 };
+
+function copy() {
+  return gulp
+    .src(paths.src, { base: "." })
+    .pipe(gulp.dest(paths.destSrc))
+}
 
 function minify() {
   return gulp
     .src(paths.src, { base: "." })
     .pipe(cleanCss())
-    .pipe(gulp.dest(paths.dest));
+    .pipe(gulp.dest(paths.destMin));
 }
 
 exports.default = minify;
+exports.default = copy;
