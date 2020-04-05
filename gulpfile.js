@@ -25,4 +25,3 @@ function minify() {
 }
 
 exports.default = minify;
-exports.default = copy;
