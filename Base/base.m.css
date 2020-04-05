@@ -773,7 +773,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 }
 
 /* User Account Security */
-.userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(1) .viewBody-2Qz-jg.selectable-x8iAUj,
+.userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj,
 .selectClosed-2un0PJ .paymentSourceLabel-1lo4Ca,
 .paymentSourceRow-3FbcL_ .descriptionWrapper-1YBY_J {
   filter: var(--FilterAccountSecurity);
