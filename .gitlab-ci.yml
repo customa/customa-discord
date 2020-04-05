@@ -6,7 +6,6 @@ pages:
     - npm install
     - npm run minify
     - mv dist public
-    - mv src public/src
   artifacts:
     paths:
       - public
