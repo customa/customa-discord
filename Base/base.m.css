@@ -10,6 +10,7 @@
     "\A \2022  --ColBackground1 \2192  Allowed Values: Color (pref. #161616)"
     "\A \2022  --ColBackground2 \2192  Allowed Values: Color (pref. #212121)"
     "\A \2022  --ColChannelList \2192  Allowed Values: Color (pref. #212121)"
+    "\A \2022  --ColUserList \2192  Allowed Values: Color (pref. #161616)"
     "\A \2022  --ColPopout \2192  Allowed Values: Color (pref. #161616)"
     "\A \2022  --ColUserPopout \2192  Allowed Values: Color (pref. #161616)"
     "\A \2022  --ColModal \2192  Allowed Values: Color (pref. #161616)"
@@ -20,6 +21,7 @@
     "\A \2022  --ColTransparent1 \2192  Allowed Values: Color (pref. rgba(0, 0, 0, .2))"
     "\A \2022  --ColTransparent2 \2192  Allowed Values: Color (pref. rgba(0, 0, 0, .15))"
     "\A \2022  --ColLink \2192  Allowed Values: Color (pref. #d81b60)"
+    "\A \2022  --ColWindowBar \2192  Allowed Values: Color (pref. #000000)"
     "\A \2022  --DisplayButtonEmoji \2192  Allowed Values: flex or none (pref. flex)"
     "\A \2022  --DisplayButtonGIF \2192  Allowed Values: flex or none (pref. none)"
     "\A \2022  --DisplayButtonGift \2192  Allowed Values: flex or none (pref. none)"
@@ -39,6 +41,7 @@
   --ColBackground1: var(--ColAppBG); /* Color */
   --ColBackground2: #212121; /* Color */
   --ColChannelList: var(--ColBackground2); /* Color */
+  --ColUserList: var(--ColBackground1); /* Color */
   --ColPopout: var(--ColBackground1); /* Color */
   --ColUserPopout: var(--ColPopout); /* Color */
   --ColModal: var(--ColBackground1); /* Color */
@@ -62,11 +65,6 @@
   --FilterAccountSecurity: blur(4px); /* Filter */
 }
 
-:root {
-  /* --ColAppBG: transparent;
-  --ColBackground2: transparent; */
-}
-
 /* App Background */
 body /* Discord Application Body */ {
   background: var(--ColAppBG);
@@ -88,7 +86,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .message-2qnXI6:not(.mentioned-xhSam7):not(.localBot-GrCgVt).selected-2P5D_Z, .mouse-mode .message-2qnXI6:not(.mentioned-xhSam7):not(.localBot-GrCgVt):hover 
 /* Remove new Message Hover */, .preview-2nSL_2 /* Appearance Preview */, .container-1sFeqf .closeButton-1tv5uR:hover /* Remove Hover Effect Settings Menu */, .wrapper-1prNyd 
 /* Crash Screen */, .nowPlayingColumn-2sl4cE /* Now Playing Column */, .wrapper-39oAo3 /* Warning Message Chat Area */, .streamPreview-2-WUWT .previewContainer-12UlHl 
-/* Background Streaming Window */, .tier-12tKuZ .tierBody-16Chc9 /* Tier Body Server Boost Modal */, .video-1FfuMD, .chat-3bRxxu .wrapper-29NfPK /* Call wrappers */ {
+/* Background Streaming Window */, .tier-12tKuZ .tierBody-16Chc9 /* Tier Body Server Boost Modal */, .video-1FfuMD, .chat-3bRxxu .wrapper-29NfPK /* Call wrappers */, 
+.ctaSection-izWwhs /* Server Template Modal Left side */ {
   background-color: transparent;
 }
 
@@ -103,7 +102,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
   background-color: var(--ColChannelList);
 }
 
-.popout-2iWAc- .container-3ayLPN /* Search Popup */, .popout-2iWAc- .popoutList-T9CKZQ /* Popout List Audit Log */, .layer-v9HyYc .modal-yWgWj- /* Invite to DMs Popup */,
+.layer-v9HyYc .container-3ayLPN /* Search Popup */, .layer-v9HyYc .popoutList-T9CKZQ /* Popout List Audit Log */, .layer-v9HyYc .modal-yWgWj- /* Invite to DMs Popup */,
 .layer-v9HyYc .messagesPopoutWrap-1MQ1bW /* Pin/Mentions Popout */, .layer-v9HyYc .popout-13LQ_3 /* Popout Friends Table */, .emojiPicker-3m1S-j /* Emoji Picker */, 
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU /* Server Header Emoji Picker */ {
   background-color: var(--ColPopout);
@@ -129,11 +128,15 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
   background-color: var(--ColSpoilerUncovered);
 }
 
+.membersWrap-2h-GB4 /* Members Wrap Guilds */ {
+  background-color: var(--ColUserList);
+}
+
 /* Dark Background */
 .wrapper-1Rf91z.guilds-1SWlCJ /* Guilds Wrapper */, .searchBar-6Kv8R2 /* Search Bar Box DMs */, .panels-j1Uci_ /* Panels User Menu */, 
 .container-1r6BKw.themed-ANHk51 /* Titlebar */, .header-2o-2hj, .hasBanner-14PPlG .header-2o-2hj, 
 .animatedContainer-1pJv5C, .clickable-2ap7je .header-2o-2hj:hover, .header-2o-2hj::before /* Server Header */, .form-2fGMdU /* Main Textarea */, 
-.typing-2GQL18 /* Typing Indicator */, .membersWrap-2h-GB4 /* Members Wrap Guilds */, .menu-Sp6bN1 /* Popup Menu Server and Status */, .unread-1xRYoj 
+.typing-2GQL18 /* Typing Indicator */, .menu-Sp6bN1 /* Popup Menu Server and Status */, .unread-1xRYoj 
 /* Unread Bar Channel List */, .root-3R2ngo .perksModal-fSYqOq /* Perks Modal */, .layers-3iHuyZ > .layer-3QrUeG /* Settings Background */, .quickswitcher-3JagVE 
 /* Quickswitcher */, .attachPopout-36hjtN /* Popout Upload/Send Invite */, .focusLock-Ns3yie .root-1gCeng 
 /* Modal (e.g.: Channel Title) */, .regionSelectModal-12e-57 /* Region Select Modal */, .diversitySelector-tmmMv0 .popout-2nUePc /* Diversity Selector Emoji Picker */, 
@@ -153,7 +156,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .game-1ipmAa .removeGame-2JFGPn, .game-1ipmAa:hover .removeGame-2JFGPn /* Remove Game Button */, .searchBox-26HYGw .searchBox-3Y2Vi7 /* Guild Discovery Search Bar */, 
 .css-1wqqa50-container /* Language Selection Guild Discovery */, .css-1rckt42-menu /* Selection Menu Language Selection Guild Discovery */, .incomingCallInner-2VmFiR 
 /* Incoming Call */, .authBox-hW6HRx /* Login Box */, .tierMarkerContainer-2BmgqV .tierMarkerBackground-3q29am /* Tier Markers Server Boost Modal */, .uploadModalIn-1z07Bv 
-.uploadDropModal-2kTwbc .bgScale-1otPtc /* Upload Modal */, .liveBadge-yuNuMC /* Video Icon Active Go Live */, .unavailableBadge-3k7iq_ /* Guild Unavailable */, .popout-2iWAc- 
+.uploadDropModal-2kTwbc .bgScale-1otPtc /* Upload Modal */, .liveBadge-yuNuMC /* Video Icon Active Go Live */, .unavailableBadge-3k7iq_ /* Guild Unavailable */, .layer-v9HyYc 
 .quickSelectPopout-X1hvgV /* Region Selector DM Calls */, .container-2Yth53 .contentWrapper-3WC1ID /* Join Guild Menu */ {
   background-color: var(--ColBackground1);
 }
@@ -170,7 +173,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .chat-3bRxxu /* Chat Area */, .toolbar-2bjZV7 /* Toolbar Chat Area */, .gameLibrary-TTDw4Y /* Game Library Table */, .applicationStore-1pNvnv /* Nitro Tab DMs */, 
 .contentRegion-3nDuYy /* Settings Box Right */, .container-2kwSDr /* Discover Area */, .content-MLh4nU /* Server with Connection Issues */, .content-98HsJk .container-1D34oG
 /* New Friends Table */, .container-3Mxszk /* Games Library */, .wrapper-pZmgj4 .total-3tKGEB /* Wrapper Indicator User in Voice Channel */, .base-3dtUhz .pageWrapper-1PgVDX 
-/* Discovery Area */, .noChannel-Z1DQK7 /* Loading or outage */ {
+/* Discovery Area */, .noChannel-Z1DQK7 /* Loading or outage */, .formSection-1NFAGI /* Server Template Modal Right side */ {
   background-color: var(--ColBackground2);
 }
 
@@ -196,17 +199,17 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Friendstable Friendsrow Hover */, .actionButton-uPB8Fs /* Friends Action */, .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover /* Top Pills Selected */, .hasMore-3e72_v
 /* Load More Messages Button */, .autocompleteRowVertical-q1K4ky .selectorSelected-1_M1WV /* Selected Row Autocomplete */, .css-1gnr91b-option /* Hover Option Select Menu */, 
 .override-2YgiXd.card-3Qj_Yx:hover /* Hover Notification Override Settings Card */, .clickable-11uBi-:hover, .selected-BYpGTS /* Message Options Popup Hover */, .menu-Sp6bN1 
-.itemBase-1Qj4z6:not(.itemActive-2V2HNc):hover /* Popup Menu Hover */, .container-2Pjhx-:hover .layout-2DM8Md /* Member List Hover */, .wrapper-pZmgj4 
-/* Wrapper Indicator User in Voice Channel */, .authedApp-mj2Hmd /* Authorized Apps Settings */, .accountBtn-2Nozo3 .accountBtnInner-sj5jLs /* Account Add Buttons Settings */, 
-.payment-xT17Mq.paymentRow-2e7VM6:hover /* Payment History Row */, .paymentPane-3bwJ6A .paginator-166-09 /* Payment History Billing Screen */, .cardWrapper-2Min21 
-/* Server Boost Suggestions Server Boost Settings */, .button-1ZiXG9:hover /* Button Chat Actions Hover Effect */, .item-3eFBNF:hover /* Hover Language Selector */, 
-.localBot-GrCgVt, .message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z, .mouse-mode .message-2qnXI6.localBot-GrCgVt:hover /* Local Bot Message Background */, .outer-1AjyKL 
-/* Outer Box Friends Table */, .outer-1AjyKL .inset-3sAvek /* Inner Box Friends Table */, .rowWrapperActive-2L7i9f /* Library Element Hover Effect */, 
-.actionButton-uPB8Fs.highlight-Lf97TE /* Friends Table Popout Element Hover Effect */, .guildCard-2arfcG .card-3DjzTQ /* Guild Cards Guild Discovery */, .css-1gnr91b-option 
-/* Selection Hovered Language Selection Guild Discovery */, .pageControl-1aUwvK .button-38aScr.pageButton-MknE-_ /* Page Controls Guild Discovery */, .message-2qnXI6 
-.embedWrapper-lXpS3L, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-2VxO12 .embedWrapper-lXpS3L /* Chat Attachments */, .mediaBarWrapper-3D7r67, 
-.mediaBarWrapper-3D7r67::after, .mediaBarWrapper-3D7r67::before /* Media Player Bar Background */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */, .button-1I8KM5
-/* Emoji Reaction */ {
+.itemBase-1Qj4z6:not(.itemActive-2V2HNc):hover, .itemBase-1Qj4z6:not(.itemActive-2V2HNc):active /* Popup Menu Hover */, .container-2Pjhx-:hover .layout-2DM8Md 
+/* Member List Hover */, .wrapper-pZmgj4 /* Wrapper Indicator User in Voice Channel */, .authedApp-mj2Hmd /* Authorized Apps Settings */, .accountBtn-2Nozo3 
+.accountBtnInner-sj5jLs /* Account Add Buttons Settings */, .payment-xT17Mq.paymentRow-2e7VM6:hover /* Payment History Row */, .paymentPane-3bwJ6A .paginator-166-09 
+/* Payment History Billing Screen */, .cardWrapper-2Min21 /* Server Boost Suggestions Server Boost Settings */, .button-1ZiXG9:hover /* Button Chat Actions Hover Effect */, 
+.item-3eFBNF:hover /* Hover Language Selector */, .localBot-GrCgVt, .message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z, .mouse-mode .message-2qnXI6.localBot-GrCgVt:hover 
+/* Local Bot Message Background */, .outer-1AjyKL /* Outer Box Friends Table */, .outer-1AjyKL .inset-3sAvek /* Inner Box Friends Table */, .rowWrapperActive-2L7i9f 
+/* Library Element Hover Effect */, .actionButton-uPB8Fs.highlight-Lf97TE /* Friends Table Popout Element Hover Effect */, .guildCard-2arfcG .card-3DjzTQ 
+/* Guild Cards Guild Discovery */, .css-1gnr91b-option /* Selection Hovered Language Selection Guild Discovery */, .pageControl-1aUwvK .button-38aScr.pageButton-MknE-_ 
+/* Page Controls Guild Discovery */, .message-2qnXI6 .embedWrapper-lXpS3L, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-2VxO12 .embedWrapper-lXpS3L 
+/* Chat Attachments */, .mediaBarWrapper-3D7r67, .mediaBarWrapper-3D7r67::after, .mediaBarWrapper-3D7r67::before /* Media Player Bar Background */, .hasMoreButton-1MELpI 
+/* Has More Button Recent Mentions */, .button-1I8KM5 /* Emoji Reaction */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -265,9 +268,11 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .guildIconExpired-2Qcq05 /* Guild Icon Expired Invite */, .wrapperAudio-1jDe0Q .audioControls-2HsaU6 /* Audiocontrols Audio Embed */, .hasMoreButton-1MELpI:hover
 /* Has More Button Recent Mentions */, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y /* Inline Code, Textarea */, .spoilerText-3p6IlD.spoiler-2Iew8T 
 /* Spoiler Text, Textarea */, .modal-yWgWj- .channelTextArea-2VhZ6z /* Textarea Listen Along Invite */, .scroller-2FKFPG .message-2qRu38 /* Message Wrapper Delete Modal */,
-.guildIconImage-3qTk45.guildIcon-lQ0uiM /* Guild Icon (for Invites) background */, .from-mPWN2E + .to-2819fF /* To User - Server Ownership */, .popout-2iWAc- 
+.guildIconImage-3qTk45.guildIcon-lQ0uiM /* Guild Icon (for Invites) background */, .from-mPWN2E + .to-2819fF /* To User - Server Ownership */, .layer-v9HyYc 
 .quickSelectPopoutOption-opKBx9:hover /* Select Option DM Call */, .horizontalAutocomplete-L5KnTN .selectorSelected-1_M1WV /* Giphy Autocomplete Selected GIF */, 
-.button-1I8KM5:hover /* Emoji Reaction Hovered */, .pill-1dHPfk /* Online/Members Pills Join Guild Wrapper */ {
+.button-1I8KM5:hover /* Emoji Reaction Hovered */, .pill-1dHPfk /* Online/Members Pills Join Guild Wrapper */, .modal-yWgWj- .footer-2VgWkh /* Modal Footer Webcam Unavailable */,
+.usagePill-_nSrnP /* Server Template Modal - Template by Pill */, .channelsWrapper-2HhUER, .rolesWrapper-2yOx9S /* Channels/Roles Wrapper Server Template Modal */, 
+.descriptionBox-1EKQKL /* Description Box Server Template Menu */ {
   background-color: var(--ColTransparent1);
 }
 
@@ -476,7 +481,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 
 .avatarSpeaking-3MqCHL /* Avatar Speaking Guild Voicechat */, .content-ySCtCx .focused-1En8bG::after, .content-ySCtCx .result-3w1ZcL:hover::after 
 /* Hovered/Focused Element GIF Picker */, .tile-2silOL:hover .sourceThumbnail-14Iubx /* Go Live Hover Effect Program */, .callAvatarBorder-uWp8Ga.voice-3bPYC-.speaking-B2MXPi
-/* Private Call */ {
+/* Private Call */, .border-Jn5IOt.video-3SrWSI.speaking-B2MXPi, .border-Jn5IOt.voice-3bPYC-.speaking-B2MXPi /* Sound T */ {
   box-shadow: inset 0 0 0 2px var(--ColAccent), inset 0 0 0 3px var(--ColBackground1);
 }
 
