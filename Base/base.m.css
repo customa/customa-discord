@@ -87,7 +87,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Remove new Message Hover */, .preview-2nSL_2 /* Appearance Preview */, .container-1sFeqf .closeButton-1tv5uR:hover /* Remove Hover Effect Settings Menu */, .wrapper-1prNyd 
 /* Crash Screen */, .nowPlayingColumn-2sl4cE /* Now Playing Column */, .wrapper-39oAo3 /* Warning Message Chat Area */, .streamPreview-2-WUWT .previewContainer-12UlHl 
 /* Background Streaming Window */, .tier-12tKuZ .tierBody-16Chc9 /* Tier Body Server Boost Modal */, .video-1FfuMD, .chat-3bRxxu .wrapper-29NfPK /* Call wrappers */, 
-.ctaSection-izWwhs /* Server Template Modal Left side */ {
+.ctaSection-izWwhs /* Server Template Modal Left side */, .video-1kutKI, .tile-2gi3tr /* Background Screen Sharing */ {
   background-color: transparent;
 }
 
@@ -157,7 +157,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .css-1wqqa50-container /* Language Selection Guild Discovery */, .css-1rckt42-menu /* Selection Menu Language Selection Guild Discovery */, .incomingCallInner-2VmFiR 
 /* Incoming Call */, .authBox-hW6HRx /* Login Box */, .tierMarkerContainer-2BmgqV .tierMarkerBackground-3q29am /* Tier Markers Server Boost Modal */, .uploadModalIn-1z07Bv 
 .uploadDropModal-2kTwbc .bgScale-1otPtc /* Upload Modal */, .liveBadge-yuNuMC /* Video Icon Active Go Live */, .unavailableBadge-3k7iq_ /* Guild Unavailable */, .layer-v9HyYc 
-.quickSelectPopout-X1hvgV /* Region Selector DM Calls */, .container-2Yth53 .contentWrapper-3WC1ID /* Join Guild Menu */ {
+.quickSelectPopout-X1hvgV /* Region Selector DM Calls */, .container-2Yth53 .contentWrapper-3WC1ID /* Join Guild Menu */, .chat-3bRxxu .wrapper-2qzCYF /* Call Background */ {
   background-color: var(--ColBackground1);
 }
 
@@ -195,21 +195,21 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .userPopout-3XzG_A .bodyInner-245q0L /* Body Inner User Popout */, .activityProfile-2bJRaP, .tabBarContainer-1s1u-z /* Activity User Modal */, 
 .activity-11LB_k /* Activity User Popout */, .connectedAccount-36nQx7 /* Connected Accounts User Modal */, .listRow-hutiT_:hover /* Shared Servers/Friends User Modal */,
 .bannedUser-1IalTM.card-FDVird::before /* Banned User Card */, .footer-1fjuF6 .quickMessage-1yeL4E /* QuickMessage Textarea User Popout */, .note-3kmerW textarea:focus 
-/* Note User Popout */, .markup-2BOw-j code /* Inline Code */, .botTagRegular-2HEhHi, .botTagInvert-18-95s /* Bot Tag */, .peopleListItem-2nzedh:hover 
-/* Friendstable Friendsrow Hover */, .actionButton-uPB8Fs /* Friends Action */, .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover /* Top Pills Selected */, .hasMore-3e72_v
-/* Load More Messages Button */, .autocompleteRowVertical-q1K4ky .selectorSelected-1_M1WV /* Selected Row Autocomplete */, .css-1gnr91b-option /* Hover Option Select Menu */, 
-.override-2YgiXd.card-3Qj_Yx:hover /* Hover Notification Override Settings Card */, .clickable-11uBi-:hover, .selected-BYpGTS /* Message Options Popup Hover */, .menu-Sp6bN1 
-.itemBase-1Qj4z6:not(.itemActive-2V2HNc):hover, .itemBase-1Qj4z6:not(.itemActive-2V2HNc):active /* Popup Menu Hover */, .container-2Pjhx-:hover .layout-2DM8Md 
-/* Member List Hover */, .wrapper-pZmgj4 /* Wrapper Indicator User in Voice Channel */, .authedApp-mj2Hmd /* Authorized Apps Settings */, .accountBtn-2Nozo3 
-.accountBtnInner-sj5jLs /* Account Add Buttons Settings */, .payment-xT17Mq.paymentRow-2e7VM6:hover /* Payment History Row */, .paymentPane-3bwJ6A .paginator-166-09 
-/* Payment History Billing Screen */, .cardWrapper-2Min21 /* Server Boost Suggestions Server Boost Settings */, .button-1ZiXG9:hover /* Button Chat Actions Hover Effect */, 
-.item-3eFBNF:hover /* Hover Language Selector */, .localBot-GrCgVt, .message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z, .mouse-mode .message-2qnXI6.localBot-GrCgVt:hover 
-/* Local Bot Message Background */, .outer-1AjyKL /* Outer Box Friends Table */, .outer-1AjyKL .inset-3sAvek /* Inner Box Friends Table */, .rowWrapperActive-2L7i9f 
-/* Library Element Hover Effect */, .actionButton-uPB8Fs.highlight-Lf97TE /* Friends Table Popout Element Hover Effect */, .guildCard-2arfcG .card-3DjzTQ 
+/* Note User Popout */, .markup-2BOw-j code /* Inline Code */, .botTagRegular-2HEhHi, .botTagInvert-18-95s /* Bot Tag */, .peopleListItem-2nzedh:hover, 
+.peopleListItem-2nzedh.active-rhSpJJ /* Friendstable Friendsrow Hover */, .actionButton-uPB8Fs /* Friends Action */, .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover 
+/* Top Pills Selected */, .hasMore-3e72_v /* Load More Messages Button */, .autocompleteRowVertical-q1K4ky .selectorSelected-1_M1WV /* Selected Row Autocomplete */, 
+.css-1gnr91b-option /* Hover Option Select Menu */, .override-2YgiXd.card-3Qj_Yx:hover /* Hover Notification Override Settings Card */, .clickable-11uBi-:hover, .selected-BYpGTS 
+/* Message Options Popup Hover */, .menu-Sp6bN1 .itemBase-1Qj4z6:not(.itemActive-2V2HNc):hover, .itemBase-1Qj4z6:not(.itemActive-2V2HNc):active /* Popup Menu Hover */, 
+.container-2Pjhx-:hover .layout-2DM8Md /* Member List Hover */, .wrapper-pZmgj4 /* Wrapper Indicator User in Voice Channel */, .authedApp-mj2Hmd /* Authorized Apps Settings */, 
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs /* Account Add Buttons Settings */, .payment-xT17Mq.paymentRow-2e7VM6:hover /* Payment History Row */, .paymentPane-3bwJ6A 
+.paginator-166-09 /* Payment History Billing Screen */, .cardWrapper-2Min21 /* Server Boost Suggestions Server Boost Settings */, .button-1ZiXG9:hover 
+/* Button Chat Actions Hover Effect */, .item-3eFBNF:hover /* Hover Language Selector */, .localBot-GrCgVt, .message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z, .mouse-mode 
+.message-2qnXI6.localBot-GrCgVt:hover /* Local Bot Message Background */, .outer-1AjyKL /* Outer Box Friends Table */, .outer-1AjyKL .inset-3sAvek /* Inner Box Friends Table */, 
+.rowWrapperActive-2L7i9f /* Library Element Hover Effect */, .actionButton-uPB8Fs.highlight-Lf97TE /* Friends Table Popout Element Hover Effect */, .guildCard-2arfcG .card-3DjzTQ 
 /* Guild Cards Guild Discovery */, .css-1gnr91b-option /* Selection Hovered Language Selection Guild Discovery */, .pageControl-1aUwvK .button-38aScr.pageButton-MknE-_ 
 /* Page Controls Guild Discovery */, .message-2qnXI6 .embedWrapper-lXpS3L, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-2VxO12 .embedWrapper-lXpS3L 
 /* Chat Attachments */, .mediaBarWrapper-3D7r67, .mediaBarWrapper-3D7r67::after, .mediaBarWrapper-3D7r67::before /* Media Player Bar Background */, .hasMoreButton-1MELpI 
-/* Has More Button Recent Mentions */, .button-1I8KM5 /* Emoji Reaction */ {
+/* Has More Button Recent Mentions */, .button-1I8KM5 /* Emoji Reaction */, .centerButton-3CaNcJ /* Call Buttons */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -329,6 +329,10 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Wrapper Mention/Chat */, .mediaBarPreview-1jfyFs, .mediaBarPreview-1jfyFs::after, .mediaBarPreview-1jfyFs::before, .buffer-26XPkd, .buffer-26XPkd::after, 
 .buffer-26XPkd::before /* Media Player Bar Preview/Buffered */ {
   background-color: var(--ColAccentAlpha);
+}
+
+.centerButton-3CaNcJ:not(.joinButton-1-UsTC):not(.leaveButton-2YnTyt):hover /* Call Buttons */ {
+  background-color: rgba(255, 255, 255, .1);
 }
 
 .checkbox-1ix_J3[style*="rgba(67, 181, 129, 0.15)"] /* Selected Checkmark Notification Settings */, 
@@ -481,7 +485,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 
 .avatarSpeaking-3MqCHL /* Avatar Speaking Guild Voicechat */, .content-ySCtCx .focused-1En8bG::after, .content-ySCtCx .result-3w1ZcL:hover::after 
 /* Hovered/Focused Element GIF Picker */, .tile-2silOL:hover .sourceThumbnail-14Iubx /* Go Live Hover Effect Program */, .callAvatarBorder-uWp8Ga.voice-3bPYC-.speaking-B2MXPi
-/* Private Call */, .border-Jn5IOt.video-3SrWSI.speaking-B2MXPi, .border-Jn5IOt.voice-3bPYC-.speaking-B2MXPi /* Sound T */ {
+/* Private Call */, .border-Jn5IOt.video-3SrWSI.speaking-B2MXPi, .border-Jn5IOt.voice-3bPYC-.speaking-B2MXPi /* Sound T */, .border-3dQmSY.speaking-WDn8Wm /* DM Call */ {
   box-shadow: inset 0 0 0 2px var(--ColAccent), inset 0 0 0 3px var(--ColBackground1);
 }
 
@@ -544,7 +548,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 
 /* -- Opacity -- */
 .unread-1xRYoj /* Unread Bar Channels */, .mention-1f5kbO /* Mention Bar Guilds */, .mediaBarPreview-1jfyFs, .mediaBarPreview-1jfyFs::after, .mediaBarPreview-1jfyFs::before, 
-.buffer-26XPkd, .buffer-26XPkd::after, .buffer-26XPkd::before /* Media Player Bar Preview/Buffered */ {
+.buffer-26XPkd, .buffer-26XPkd::after, .buffer-26XPkd::before /* Media Player Bar Preview/Buffered */, .centerButton-3CaNcJ /* Call Buttons */ {
   opacity: 1;
 }
 
@@ -1629,4 +1633,13 @@ html::before {
   font-family: "Font Awesome 5 Pro", sans-serif!important;
   color: var(--ColAccent);
   font-size: 18px;
+}
+
+/* Move Call UI buttons a little away from the rest */
+.wrapper-2qzCYF.minimum-28Z35l {
+  height: 310px;
+}
+
+.videoGridWrapper-2BDlMX.minLayout-tDGzv- {
+  margin-bottom: 10px;
 }
