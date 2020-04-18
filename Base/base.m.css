@@ -49,8 +49,8 @@
   --ColSpoilerCovered: var(--ColBackground1); /* Color */
   --ColSpoilerUncovered: transparent; /* Color */
   --ColFont: #ffffff; /* Color */
-  --ColTransparent1: rgba(0, 0, 0, .2); /* Transparent Color */
-  --ColTransparent2: rgba(0, 0, 0, .15); /* Transparent Color */
+  --ColTransparent1: rgba(0, 0, 0, .4); /* Transparent Color */
+  --ColTransparent2: rgba(0, 0, 0, .2); /* Transparent Color */
   --ColLink: var(--ColAccent); /* Color */
   --ColWindowBar: #000000; /* Color */
   --DisplayButtonEmoji: flex; /* Flex or none */
@@ -104,7 +104,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 
 .layer-v9HyYc .container-3ayLPN /* Search Popup */, .layer-v9HyYc .popoutList-T9CKZQ /* Popout List Audit Log */, .layer-v9HyYc .modal-yWgWj- /* Invite to DMs Popup */,
 .layer-v9HyYc .messagesPopoutWrap-1MQ1bW /* Pin/Mentions Popout */, .layer-v9HyYc .popout-13LQ_3 /* Popout Friends Table */, .emojiPicker-3m1S-j /* Emoji Picker */, 
-.emojiPicker-3m1S-j .stickyHeader-1SS0JU /* Server Header Emoji Picker */ {
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU /* Server Header Emoji Picker */, .layer-v9HyYc .colorPickerCustom-2CWBn2 /* Color Picker Roles */, .layer-v9HyYc .popout-38lTFE 
+/* Popout Friends Activity */ {
   background-color: var(--ColPopout);
 }
 
@@ -209,7 +210,9 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Guild Cards Guild Discovery */, .css-1gnr91b-option /* Selection Hovered Language Selection Guild Discovery */, .pageControl-1aUwvK .button-38aScr.pageButton-MknE-_ 
 /* Page Controls Guild Discovery */, .message-2qnXI6 .embedWrapper-lXpS3L, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-2VxO12 .embedWrapper-lXpS3L 
 /* Chat Attachments */, .mediaBarWrapper-3D7r67, .mediaBarWrapper-3D7r67::after, .mediaBarWrapper-3D7r67::before /* Media Player Bar Background */, .hasMoreButton-1MELpI 
-/* Has More Button Recent Mentions */, .button-1I8KM5 /* Emoji Reaction */, .centerButton-3CaNcJ /* Call Buttons */ {
+/* Has More Button Recent Mentions */, .button-1I8KM5 /* Emoji Reaction */, .centerButton-3CaNcJ /* Call Buttons */, .header-1RC2Wb, .body-SKIE6r /* Gift Inventory */,
+.header-2-Imhb.header-ykumBX .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa /* Mentions Popup Mentions Tag */, .secondary-dIudih /* Filter Button Mentions Popup */, 
+.messageContainer-gbhlwo /* Message Container Recent Mentions */, .tertiary-aMXF0g /* Tertiary Color - used in Jump Button Recent Mentions */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -272,7 +275,9 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .quickSelectPopoutOption-opKBx9:hover /* Select Option DM Call */, .horizontalAutocomplete-L5KnTN .selectorSelected-1_M1WV /* Giphy Autocomplete Selected GIF */, 
 .button-1I8KM5:hover /* Emoji Reaction Hovered */, .pill-1dHPfk /* Online/Members Pills Join Guild Wrapper */, .modal-yWgWj- .footer-2VgWkh /* Modal Footer Webcam Unavailable */,
 .usagePill-_nSrnP /* Server Template Modal - Template by Pill */, .channelsWrapper-2HhUER, .rolesWrapper-2yOx9S /* Channels/Roles Wrapper Server Template Modal */, 
-.descriptionBox-1EKQKL /* Description Box Server Template Menu */ {
+.descriptionBox-1EKQKL /* Description Box Server Template Menu */, .header-1RC2Wb:hover /* Gift Inventory */, .secondary-dIudih:hover /* Filter Button Mentions Popup */,
+.channelHeader-3Gd2xq /* Channel Header Recent Mentions */, .itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL.active-1xchHY, .itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL:hover 
+/* Friends Menu Active Now Row Hover and Active */, .tertiary-aMXF0g:hover /* Tertiary Color - used in Jump Button Recent Mentions */ {
   background-color: var(--ColTransparent1);
 }
 
@@ -1134,11 +1139,11 @@ path.fill {
 
 /* Download other Apps Modal */
 .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 {
-  border-color: #ffffff;
+  border-color: var(--ColBackground1);
 }
 
 .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .downloadButton-1bWXpg, .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 {
-  background-color: #ffffff;
+  background-color: var(--ColBackground1);
   color: #99aab5;
 }
 
@@ -1157,6 +1162,10 @@ path.fill {
 }
 
 .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ .downloadButton-1bWXpg {
+  background-color: var(--ColTransparent2);
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ .downloadButton-1bWXpg:hover {
   background-color: var(--ColTransparent1);
 }
 
@@ -1164,7 +1173,7 @@ path.fill {
   color: var(--ColAccent);
 }
 
-.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ .icon-2Pk7pb.active-iLSdWQ {
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.active-iLSdWQ {
   filter: brightness(200%);
 }
 
@@ -1642,4 +1651,19 @@ html::before {
 
 .videoGridWrapper-2BDlMX.minLayout-tDGzv- {
   margin-bottom: 10px;
+}
+
+/* Recent Mentions */
+.channelHeader-3Gd2xq {
+  padding-right: 16px;
+  border-radius: 8px 8px 0 0;
+}
+
+.container-3iAQ-0 .messageContainer-gbhlwo {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.recentMentionsPopout-3rCiI6 .scroller-3-yaBL {
+  padding-top: 12px;
 }
