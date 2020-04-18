@@ -1,22 +1,25 @@
 :root {
-    --INTModClassicChannelSelect: '    \2022  Classic Channel Select ~ Customa Devs (Sidebar \2192  classicChannelSelect.m.css)\A'!important;
+  --INTModClassicChannelSelect: "    \2022  Classic Channel Select ~ Customa Devs (Sidebar \2192  classicChannelSelect.m.css)\A"!important;
 }
 
-.containerDefault-1ZnADq .iconVisibility-1bOqu7.wrapper-1ucjTd .content-3at_AU /* Server Channel */, .channel-2QD9_O[href*='/channels/@me/'] .layout-2DM8Md /* Private Channel */{
-    margin-left: 0;
-    background: linear-gradient(to right, var(--ColTransparent1), transparent) no-repeat;
-    background-color: transparent!important;
-    background-position: -240px;
-    border-radius: 0;
-    transition: background-position 0.2s;
-    border-left: 2.667px solid transparent;
+.containerDefault-1ZnADq .iconVisibility-1bOqu7.wrapper-1ucjTd .content-3at_AU /* Server Channel */, .channel-2QD9_O[href*="/channels/@me/"] .layout-2DM8Md /* Private Channel */ {
+  margin-left: 0;
+  background: linear-gradient(to right, var(--ColTransparent1), transparent) no-repeat;
+  background-color: transparent!important;
+  background-position: -240px;
+  border-radius: 0;
+  transition: background-position .2s;
+  border-left: 2.667px solid transparent;
 }
 
-.containerDefault-1ZnADq:hover .iconVisibility-1bOqu7.wrapper-1ucjTd .content-3at_AU /* Server Channel Hover Effect */, .containerDefault-1ZnADq.selected-37j_iU .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU /* Server Channel Select Effect */, .channel-2QD9_O:hover .layout-2DM8Md /* Private Channel Hover Effect */, .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md /* Private Channel Select Effect */{
-    background-position: 0;
-    border-left-color: var(--ColTransparent1);
+.containerDefault-1ZnADq:hover .iconVisibility-1bOqu7.wrapper-1ucjTd .content-3at_AU /* Server Channel Hover Effect */, 
+.containerDefault-1ZnADq.selected-37j_iU .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU /* Server Channel Select Effect */, 
+.channel-2QD9_O:hover .layout-2DM8Md /* Private Channel Hover Effect */, .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md /* Private Channel Select Effect */ {
+  background-position: 0;
+  border-left-color: var(--ColTransparent1);
 }
 
-.containerDefault-1ZnADq.selected-37j_iU .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU /* Server Channel Select Effect */, .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md /* Private Channel Select Effect */{
-    border-left-color: var(--ColAccent)!important;
+.containerDefault-1ZnADq.selected-37j_iU .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU /* Server Channel Select Effect */, 
+.channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md /* Private Channel Select Effect */ {
+  border-left-color: var(--ColAccent)!important;
 }
