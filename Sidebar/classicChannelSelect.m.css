@@ -12,10 +12,14 @@
   border-left: 2.667px solid transparent;
 }
 
+.unread-3zKkbm {
+  z-index: 999;
+}
+
 .containerDefault-1ZnADq:hover .iconVisibility-1bOqu7.wrapper-1ucjTd .content-3at_AU /* Server Channel Hover Effect */, 
 .containerDefault-1ZnADq.selected-37j_iU .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU /* Server Channel Select Effect */, 
 .channel-2QD9_O:hover .layout-2DM8Md /* Private Channel Hover Effect */, .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md /* Private Channel Select Effect */ {
-  background-position: 0;
+  background-position: -4px;
   border-left-color: var(--ColTransparent1);
 }
 
