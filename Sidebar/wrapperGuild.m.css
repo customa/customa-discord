@@ -4,26 +4,18 @@
   --DurationWrapperGuild: 200ms;
 }
 
-.container-2lgZY8 {
-  display: flex;
-  contain: unset;
-  position: unset;
-}
-
 .wrapper-1Rf91z /* GuildsWrapper */ {
-  width: 16px;
-  transition: width 200ms 200ms;
-  position: unset;
+  width: 76px;
 }
 
 .base-3dtUhz {
-  position: unset;
-  contain: unset;
-  width: 100%;
+  transform: translateX(0);
+  left: 16px;
+  transition: all 400ms;
 }
 
-.wrapper-1Rf91z:hover {
-  width: 76px;
+.wrapper-1Rf91z:hover + .base-3dtUhz {
+  transform: translateX(60px);
 }
 
 .powercord .listItem-2P_4kh svg:not(.icon-3s6X1M) /* Set Filter when server is not hovered */ {
@@ -32,7 +24,8 @@
 }
 
 .powercord .listItem-2P_4kh.selected svg, .powercord .listItem-2P_4kh:hover svg, .powercord .listItem-2P_4kh a.selected-bZ3Lue, 
-.powercord .guilds-1SWlCJ .scroller-2FKFPG > div:not([data-ref-id="guildsnav"]) > .listItem-2P_4kh svg /* Set Filter when server is hovered */ {
+.powercord .guilds-1SWlCJ .scroller-2FKFPG > div:not([data-ref-id="guildsnav"]) > .listItem-2P_4kh svg,
+.powercord div[data-ref-id="guildsnav"] ~ .listItem-2P_4kh svg /* Set Filter when server is hovered */ {
   filter: var(--FilterHover);
 }
 
