@@ -136,7 +136,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Dark Background */
 .wrapper-1Rf91z.guilds-1SWlCJ /* Guilds Wrapper */, .searchBar-6Kv8R2 /* Search Bar Box DMs */, .panels-j1Uci_ /* Panels User Menu */, 
 .container-1r6BKw.themed-ANHk51 /* Titlebar */, .header-2o-2hj, .hasBanner-14PPlG .header-2o-2hj, 
-.animatedContainer-1pJv5C, .clickable-2ap7je .header-2o-2hj:hover, .header-2o-2hj::before /* Server Header */, .form-2fGMdU /* Main Textarea */, 
+.clickable-2ap7je .header-2o-2hj:hover, .header-2o-2hj::before /* Server Header */, .form-2fGMdU /* Main Textarea */, 
 .typing-2GQL18 /* Typing Indicator */, .menu-Sp6bN1 /* Popup Menu Server and Status */, .unread-1xRYoj 
 /* Unread Bar Channel List */, .root-3R2ngo .perksModal-fSYqOq /* Perks Modal */, .layers-3iHuyZ > .layer-3QrUeG /* Settings Background */, .quickswitcher-3JagVE 
 /* Quickswitcher */, .attachPopout-36hjtN /* Popout Upload/Send Invite */, .focusLock-Ns3yie .root-1gCeng 
@@ -306,7 +306,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Server Boosting Progress Foreground Boost Modal */, .mediaBarGrabber-1FqnbN, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl::after, .mediaBarProgress-1xaPtl::before, 
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN, .mediaBarInteractionDragging-2QurIZ .mediaBarGrabber-1FqnbN /* Media Player Bar Progress */, 
 .questionMark-CWEQZn.flexCenter-3_1bcw, .questionMark-CWEQZn.flexCenter-3_1bcw:hover /* Question Mark Button ID Change Non Nitro */, .tooltip-2QfLtc.tooltipBrand-g03Nz8 
-/* Brand Color Tooltip */ {
+/* Brand Color Tooltip */, .badge-2qGa_k::after /* Badge Input */, .content-3O0wBS /* Video Chat Message */ {
   background-color: var(--ColAccent);
 }
 
@@ -432,7 +432,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   border: 1.5px solid var(--ColAccent)!important;
 }
 
-.tooltip-2QfLtc.tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK /* Brand Color Tooltip */ {
+.tooltip-2QfLtc.tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK, .pointer-3ClhC2 /* Brand Color Tooltip */ {
   border-top-color: var(--ColAccent);
 }
 
@@ -574,21 +574,23 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 
 /* Move Banner Image out of Server Header */
 .animatedContainer-1pJv5C {
-  top: 48px;
   opacity: 1!important;
   width: 232px;
+  z-index: 100;
 }
 
 .bannerImage-1jOskm /* Reallign Banner Image */ {
   width: 232px;
-}
-
-/* Move Channel Wrapper Out of the Server Header */
-.container-PNkimc > .scrollerWrap-2lJEkd > .scroller-2FKFPG > div[style*="height: 84px"] {
-  height: 138px!important;
+  margin-top: 48px;
 }
 
 /* Header Hover Effect Fixes - When scrolled down the Header becomes Opaque */
+/* stylelint-disable no-descending-specificity */
+.header-2o-2hj {
+  z-index: 101;
+}
+/* stylelint-enable no-descending-specificity */
+
 .header-2o-2hj::before {
   content: " ";
   display: block;
@@ -1294,7 +1296,7 @@ path.fill {
 }
 
 /* Stop Call/Stream Button and Deny Call */ 
-.container-1giJp5 > div > button:last-child:hover, .activityPanel-28dQGo button:hover, .incomingCallInner-2VmFiR .actionButtons-3P85gM button:last-child {
+.container-1giJp5 > div > div > button:last-child:hover, .activityPanel-28dQGo button:hover, .incomingCallInner-2VmFiR .actionButtons-3P85gM button:last-child {
   background-color: #f44336!important;
 }
 
@@ -1666,4 +1668,9 @@ html::before {
 
 .recentMentionsPopout-3rCiI6 .scroller-3-yaBL {
   padding-top: 12px;
+}
+
+/* Fix lazy loading DMs */
+.container-2Pjhx- {
+  padding: 2.75px 0;
 }
