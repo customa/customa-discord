@@ -1,44 +1,36 @@
-:root{
-    --INTModWrapperMember: '    \2022  Member Wrapper ~ Customa Devs (Sidebar \2192  wrapperMember.m.css)\A'!important;
-    --INTVarWrapperMember: '\A\A Member Wrapper - Module\A \2022  --WidthSidebarMin \2192  Allowed Values: XYpx (pref. 65px)\A \2022  --WidthSidebarMax \2192  Allowed Values: XYpx (pref. 240px)\A \2022  --DurationWrapperMember \2192  Allowed Values: Time [in s or ms] (pref. 200ms)'!important;
-    --WidthSidebarMin: 65px;
-    --WidthSidebarMax: 240px;
-    --DurationWrapperMember: 200ms;
+:root {
+  --INTModWrapperMember: "    \2022  Member Wrapper ~ Customa Devs (Sidebar \2192  wrapperMember.m.css)\A"!important;
+  /* stylelint-disable */
+  /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
+  --INTVarWrapperMember: "\A\A Member Wrapper - Module"
+    "\A \2022  --WidthSidebarMin \2192  Allowed Values: XYpx (pref. 65px)"
+    "\A \2022  --WidthSidebarMax \2192  Allowed Values: XYpx (pref. 240px)"
+    "\A \2022  --DurationWrapperMember \2192  Allowed Values: Time [in s or ms] (pref. 200ms)"!important;
+  /* stylelint-enable */
+  --WidthSidebarMin: 60px;
+  --WidthSidebarMax: 240px;
+  --DurationWrapperMember: 200ms;
 }
 
-.membersWrap-2h-GB4{
-    min-width: var(--WidthSidebarMin);
-    width: var(--WidthSidebarMin);
-    transition: width 200ms;
-    height: calc(100% - 48px);
-    /* Smoothen Transition */
-    position: absolute;
-    right: 0;
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
+.membersWrap-2h-GB4 {
+  transition: transform var(--DurationWrapperMember);
+  right: 0;
+  z-index: 999;
+}
+
+.chatContent-a9vAAp {
+  min-width: calc(100% - var(--WidthSidebarMin));
 }
 
 .membersWrap-2h-GB4:hover {
-    width: var(--WidthSidebarMax)!important;
-    margin-left: var(--WidthSidebarMax)!important;
+  transform: translateX(calc((var(--WidthSidebarMax) * -1) + var(--WidthSidebarMin)));
+  min-width: var(--WidthSidebarMax);
 }
 
-/* hide elements */
-.memberInner-2CPc3V{ 
-    opacity: 0; 
-    transition: opacity var(--DurationWrapperMember); 
+.members-1998pB {
+  width: var(--WidthSidebarMax);
 }
 
-/* show elements */
-.membersWrap-2h-GB4:hover .memberInner-2CPc3V { 
-    opacity: 1; 
-}
-
-/* Move Edit/Emoji out of the way */
-
-.messagesWrapper-3lZDfY .container-1YxwTf, .buttons-205you{
-    margin-right: var(--WidthSidebarMin);
+.member-3-YXUe {
+  max-width: calc(var(--WidthSidebarMax) - 16px);
 }
