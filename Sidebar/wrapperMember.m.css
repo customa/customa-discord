@@ -34,3 +34,20 @@
 .member-3-YXUe {
   max-width: calc(var(--WidthSidebarMax) - 16px);
 }
+
+.searchResultsWrap-2DKFzt {
+  transform: translateX(-350px);
+  height: calc(100% - 52px);
+  overflow: visible;
+}
+
+.searchResultsWrap-2DKFzt::after {
+  content: "";
+  background-color: var(--ColBackground1);
+  right: 0;
+  position: absolute;
+  display: block;
+  bottom: -52px;
+  height: 52px;
+  width: 68px;
+}
