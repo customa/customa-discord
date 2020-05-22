@@ -65,6 +65,11 @@
   --FilterAccountSecurity: blur(4px); /* Filter */
 }
 
+@font-face {
+  font-family: Customa-Misc;
+  src: url("https://customa.gitlab.io/Customa-Misc/Discord/Customa-Misc.woff") format("woff");
+}
+
 /* App Background */
 body /* Discord Application Body */ {
   background: var(--ColAppBG);
@@ -682,14 +687,14 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 }
 
 .channelTextArea-2VhZ6z .attachButtonInner-PQjIyk::before /* Replace with new Upload Button */ {
-  content: " ";
+  content: "\e900";
+  font-family: Customa-Misc, sans-serif;
+  font-size: 24px;
+  bottom: 16px;
+  color: var(--ColFont);
   display: block;
   position: absolute;
   z-index: -1;
-  height: 24px;
-  width: 24px;
-  background: url("https://customa.gitlab.io/Customa-Misc/Discord/Assets/Dark/ApplicationIcons/Upload.svg") no-repeat;
-  background-size: 24px;
 }
 
 .attachButtonPlay-3iJ0mf /* Attach Button Playing */ {
