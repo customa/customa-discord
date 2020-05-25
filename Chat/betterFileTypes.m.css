@@ -1,134 +1,168 @@
-:root{
-    --INTModBetterFileTypes: '    \2022  Better File Types ~ Customa Devs (Chat \2192  betterFileTypes.m.css)\A'!important;
+:root {
+  --INTModBetterFileTypes: "    \2022  Better File Types ~ Customa Devs (Chat \2192  betterFileTypes.m.css)\A"!important;
 }
 
 /* General */
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr{
-    background-size: 90%;
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr {
+  background-size: 80%;
 }
 
-/* Video */
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.video-27RLEH{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/video.png');
+.icon-1kp3fr {
+  display: none;
 }
 
-/* PDF */
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.acrobat-3K1PC6{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/pdf.png');
+.attachmentInner-3vEpKt {
+  margin: 4px 0 4px 38px;
+  position: relative;
+  overflow: visible;
 }
 
-[src='/assets/f167b4196f02faf2dc2e7eb266a24275.svg']{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/pdf.png');
+.icon-1kp3fr + .attachmentInner-3vEpKt::before, .audioMetadata-3zOuGv::before {
+  font-family: Customa-Misc, sans-serif;
+  font-size: 32px;
+  color: var(--ColFont);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  left: -38px;
+  width: 30px;
+  height: 40px;
 }
 
-/* After Effects */
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.ae-1Y5Jq3{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/ae.png');
+/* Upload Area */
+.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapOne-14G98n .icon-kyxXVr::before {
+  content: "\e931";
 }
 
-[src='/assets/982bd8aedd89b0607f492d1175b3b3a5.svg']{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/ae.png');
+.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapTwo-mQGI3R .icon-kyxXVr::before {
+  content: "\e928";
 }
 
-/* Sketch */
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.sketch-ZMuo7D{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/sketch.png');
+.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapThree-1CNQ42 .icon-kyxXVr::before {
+  content: "\e92c";
 }
 
-[src='/assets/f812168e543235a62b9f6deb2b094948.svg']{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/sketch.png');
+.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d [class*="wrap"] .icon-kyxXVr {
+  font-family: Customa-Misc, sans-serif!important;
+  font-size: 100px;
+  padding: 20px;
+  color: var(--ColFont);
+  opacity: 1;
+  display: block;
+  background-image: none;
 }
 
-/* Illustrator */
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.ai-11KAaB{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/ai.png');
+.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d [class*="wrap"] .icon-kyxXVr::after {
+  content: "";
+  background-color: var(--ColBackground1);
+  width: 77px;
+  height: 94px;
+  display: block;
+  position: absolute;
+  top: 25px;
+  z-index: -1;
+  border-radius: 10px;
+  border-top-right-radius: 40px 50px;
 }
 
-[src='/assets/03ad68e1f4d47f2671d629cfeac048ef.svg']{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/ai.png')
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr:not(.image-2yrs5j) {
+  font-family: Customa-Misc, sans-serif!important;
+  background-image: none!important;
+  color: var(--ColFont);
+  font-size: 90px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-/* Archive */
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.archive-2hqXug{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/archive.png');
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr:not(.image-2yrs5j)::before {
+  z-index: 1;
 }
 
-[src='/assets/73d212e3701483c36a4660b28ac15b62.svg']{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/archive.png');
-}
-
-/* Code */
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.code-aoB-kL{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/code.png');
-}
-
-[src='/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg']{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/code.png');
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr:not(.image-2yrs5j)::after {
+  content: "";
+  background-color: var(--ColBackground1);
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 27px;
+  top: 34px;
+  z-index: 0;
+  transform: rotate(-45deg);
 }
 
 /* Document */
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/word.png');
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u::before, [src="/assets/9f358f466473586417baee7bacfba5ca.svg"] + .attachmentInner-3vEpKt::before {
+  content: "\e92e";
 }
 
-[src='/assets/9f358f466473586417baee7bacfba5ca.svg']{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/word.png');
+/* Video */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.video-27RLEH::before {
+  content: "\e930";
+}
+
+/* Audio */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.audio-14DQXq::before {
+  content: "\e927";
+}
+
+.metadataContent-3c_ZXw {
+  margin-left: 30px;
+}
+
+.audioMetadata-3zOuGv::before {
+  left: 0;
+  font-size: 26px;
+  content: "\e927";
+  background: none;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+/* PDF */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.acrobat-3K1PC6::before, [src="/assets/f167b4196f02faf2dc2e7eb266a24275.svg"] + .attachmentInner-3vEpKt::before {
+  content: "\e92a";
+}
+
+/* After Effects */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.ae-1Y5Jq3::before, [src="/assets/982bd8aedd89b0607f492d1175b3b3a5.svg"] + .attachmentInner-3vEpKt::before {
+  content: "\e925";
+}
+
+/* Sketch */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.sketch-ZMuo7D::before, [src="/assets/f812168e543235a62b9f6deb2b094948.svg"] + .attachmentInner-3vEpKt::before {
+  content: "\e92c";
+}
+
+/* Illustrator */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.ai-11KAaB::before, [src="/assets/03ad68e1f4d47f2671d629cfeac048ef.svg"] + .attachmentInner-3vEpKt::before {
+  content: "\e929";
+}
+
+/* Archive */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.archive-2hqXug::before, [src="/assets/73d212e3701483c36a4660b28ac15b62.svg"] + .attachmentInner-3vEpKt::before {
+  content: "\e926";
+}
+
+/* Code */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.code-aoB-kL::before, [src="/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg"] + .attachmentInner-3vEpKt::before {
+  content: "\e928";
 }
 
 /* Spreadsheet */
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.spreadsheet-1QuSej{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/excel.png');
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.spreadsheet-1QuSej::before, [src="/assets/85f7a4063578f6e0e2c73f60bca0fcce.svg"] + .attachmentInner-3vEpKt::before {
+  content: "\e92d";
 }
-
-[src='/assets/85f7a4063578f6e0e2c73f60bca0fcce.svg']{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/excel.png');
-}
-
+ 
 /* Webcode */
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/html.png');
-}
-
-[src='/assets/a11e895b46cde503a094dd31641060a6.svg']{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/html.png');
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX::before, [src="/assets/a11e895b46cde503a094dd31641060a6.svg"] + .attachmentInner-3vEpKt::before {
+  content: "\e931";
 }
 
 /* Unknown */
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr{
-    background-image: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/unknown.png');
-}
-
-[src='/assets/985ea67d2edab4424c62009886f12e44.svg']{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/unknown.png');
-}
-
-.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .icon-kyxXVr{
-    background-size: 80%!important; 
-}
-
-.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapOne-14G98n .icon-kyxXVr{
-    background: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/Modal/htmlModal.png')!important;
-}
-
-.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapTwo-mQGI3R .icon-kyxXVr{
-    background: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/Modal/codeModal.png')!important;
-}
-
-.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapThree-1CNQ42 .icon-kyxXVr{
-    background: url('https://customa.gitlab.io/Customa-Misc/Discord/Files/Modal/sketchModal.png')!important;
-}
-
-.uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapOne-14G98n .icon-kyxXVr, .uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapThree-1CNQ42 .icon-kyxXVr, .uploadArea-3QgLtW .inner-3nWsbo .icons-1w691d .wrapTwo-mQGI3R .icon-kyxXVr{
-    background-size: 100%!important;
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr::before, [src="/assets/985ea67d2edab4424c62009886f12e44.svg"] + .attachmentInner-3vEpKt::before {
+  content: "\e92f";
 }
