@@ -164,7 +164,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .tierMarkerContainer-2BmgqV .tierMarkerBackground-3q29am /* Tier Markers Server Boost Modal */, .uploadModalIn-1z07Bv 
 .uploadDropModal-2kTwbc .bgScale-1otPtc /* Upload Modal */, .liveBadge-yuNuMC /* Video Icon Active Go Live */, .unavailableBadge-3k7iq_ /* Guild Unavailable */, .layer-v9HyYc 
 .quickSelectPopout-X1hvgV /* Region Selector DM Calls */, .container-2Yth53 .contentWrapper-3WC1ID /* Join Guild Menu */, .chat-3bRxxu .wrapper-2qzCYF /* Call Background */,
-.unicodeShortcut-15J8Ck /* Unicode Shortcut Emoji Picker */ {
+.unicodeShortcut-15J8Ck /* Unicode Shortcut Emoji Picker */, .channelHeader-3Gd2xq /* Channel Header Recent Mentions */ {
   background-color: var(--ColBackground1);
 }
 
@@ -224,7 +224,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Reactors Reaction Modal */, .sidebar-1-SQro .reactionDefault-GBA58K:hover /* Sidebar Reactions Modal Reaction Hovered */, .powercord .powercord-entities-manage-tabs 
 /* Powercord Entities Tab Theme */, .guildList-3cJX3d .card-3DjzTQ /* Discover Cards */, .optionContainer-15srkc /* Option Container Join Rules */, .searchPage-3GKAdT 
 .search-1iTphC .searchBox-2_mAlO /* Search Box Discover */, .css-1o55ng5-control, .css-1b86x2o-control, .css-9wh895-control /* Language Select Discover */, 
-.categoryPill-34fszg:hover:not(.selected-1dONk0) /* Category Pill Hover Discover */, .emojiContainer-1u-_sQ /* Emoji Preview Discover */ {
+.categoryPill-34fszg:hover:not(.selected-1dONk0) /* Category Pill Hover Discover */, .emojiContainer-1u-_sQ /* Emoji Preview Discover */, .wrapper-35wsBm /* Guild Invite Chat */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -266,7 +266,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Message Options Popup Click */, .button-1ZiXG9:active, .button-1ZiXG9.selected-LCBEAU /* Button Chat Actions Click Effect */, .giftCodeContainer-1fbmAS .tile-2OwFgW 
 /* Discord Gift Container Chat */, .container-PNkimc .channelNotice-1-XFjC, .container-PNkimc .channelNotice-3DDmsB /* Channel Notice */, .footer-3rDWdC.footer-2gL1pp 
 /* Footer Hypesquad Modal */, .invite-18yqGF.container-o3RxSG, .invite-18yqGF.preview-yX6Nx7 /* Spotify Container */, .circleIconButton-jET_ig 
-/* Server Discovery Button and Add Server Button */, .localBot-GrCgVt::before /* Local Bot Message Background */, .wrapper-35wsBm /* Guild Invite Chat */, 
+/* Server Discovery Button and Add Server Button */, .localBot-GrCgVt::before /* Local Bot Message Background */, 
 .activeGame-14JI7o.notDetected-33MY4s /* Non detected game Game Activity Settings */, .actionButton-uPB8Fs:hover /* Friends Action Hover */, .wrapper-3Rixsz.enabled-1t_Gxm:hover, 
 .memberListContainer-13tNU9 .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover, .actionButton-uPB8Fs.highlight-Lf97TE:hover /* Friends Table Popout Element Hover Effect */,
 .keybindGroup-JQs9x_.card-FDVird::before /* Keybinds */, .game-1ipmAa.card-FDVird::before /* Game Activity Saved Games */, .gameNameLastPlayed-3LJo8n .gameNameInput-385LoS:focus, 
@@ -286,7 +286,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .button-F9qN4n.focused-3ZzkKr /* Emoji Reaction Hovered */, .pill-1dHPfk /* Online/Members Pills Join Guild Wrapper */, .modal-yWgWj- .footer-2VgWkh 
 /* Modal Footer Webcam Unavailable */, .usagePill-_nSrnP /* Server Template Modal - Template by Pill */, .channelsWrapper-2HhUER, .rolesWrapper-2yOx9S 
 /* Channels/Roles Wrapper Server Template Modal */, .descriptionBox-1EKQKL /* Description Box Server Template Menu */, .header-1RC2Wb:hover /* Gift Inventory */, 
-.secondary-dIudih:hover /* Filter Button Mentions Popup */, .channelHeader-3Gd2xq /* Channel Header Recent Mentions */, .itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL.active-1xchHY, 
+.secondary-dIudih:hover /* Filter Button Mentions Popup */, .itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL.active-1xchHY, 
 .itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL:hover /* Friends Menu Active Now Row Hover and Active */, .tertiary-aMXF0g:hover 
 /* Tertiary Color - used in Jump Button Recent Mentions */, .categoryItemDefaultCategorySelected-_HCKoz /* Category Selected Emoji Picker */, .navButtonActive-3RPAJy 
 /* Nav Button Emoji Picker */, .sidebar-1-SQro .reactionSelected-1pqISm /* Sidebar Reactions Modal Reaction Selected */, .guildList-3cJX3d .card-3DjzTQ:hover 
@@ -1687,4 +1687,15 @@ html::before {
 .autocomplete-Z9HwQh {
   bottom: 100%;
   box-shadow: none;
+}
+
+.channelHeader-3Gd2xq::before {
+  content: "";
+  background-color: var(--ColTransparent1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
 }
