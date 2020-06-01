@@ -1,290 +1,342 @@
-:root{
-    --INTModCustomSettingsModal: '    \2022  Custom Settings Modal ~ Customa Devs (Misc \2192  customSettingsModal.m.css)\A'!important;
-    --INTVarCustomSettingsModal: '\A\A Custom Settings Modal - Module\A \2022  --DisplayNoDoubleBorderRadius \2192  Allowed Values: None/Block'!important;
-    --DisplayNoDoubleBorderRadius: block;
+:root {
+  --INTModCustomSettingsModal: "    \2022  Custom Settings Modal ~ Customa Devs (Misc \2192  customSettingsModal.m.css)\A"!important;
+  --INTVarCustomSettingsModal: "\A\A Custom Settings Modal - Module\A \2022  --DisplayNoDoubleBorderRadius \2192  Allowed Values: None/Block"!important;
+  --DisplayNoDoubleBorderRadius: none;
+  --WidthSettingsSidebarMin: 44px;
+  --WidthSettingsSidebarMax: 218px;
 }
 
-.layer-3QrUeG .standardSidebarView-3F1I7i /* Settings Menu */{
-    animation: closeSettings 400ms cubic-bezier(.68,-0.55,.27,1.55);
-    height: 80%;
-    margin: auto;
-    opacity: 0;
-    max-width: 1000px!important;
-    z-index: 10!important;
-    background-color: var(--ColBackground1)!important;
+.layers-3iHuyZ > .layer-3QrUeG.animating-rRxada {
+  background-color: transparent;
 }
 
-.layer-3QrUeG.stop-animations + .layer-3QrUeG .standardSidebarView-3F1I7i /* Settings Menu Fix for Closing */{
-    animation: openSettings 400ms cubic-bezier(.68,-0.55,.27,1.55);
-    opacity: 1;
+.layer-3QrUeG .standardSidebarView-3F1I7i {
+  animation: closeSettings 400ms cubic-bezier(.68, -.55, .27, 1.55);
+  height: 80%;
+  margin: auto;
+  opacity: 0;
+  max-width: 1200px!important;
+  z-index: 10!important;
+  background-color: var(--ColBackground1)!important;
 }
 
-.layer-3QrUeG /* Background of Settings Menu */{
-    background: transparent;
-    opacity: 1!important;
-    transform: scale(1)!important;
-    animation: closeBackdraw 400ms;
-}
-.layer-3QrUeG.stop-animations + .layer-3QrUeG /* Animate in Background of layer */{
-    background: rgba(0,0,0,0.85)!important;
-    animation: openBackdraw 400ms;
+.layer-3QrUeG.stop-animations + .layer-3QrUeG .standardSidebarView-3F1I7i {
+  animation: openSettings 400ms cubic-bezier(.68, -.55, .27, 1.55);
+  opacity: 1;
 }
 
-.standardSidebarView-3F1I7i .header-2RyJ0Y, .ui-tab-bar-header /* Remove Headers */, #bd-settings-sidebar > span > div:nth-child(2), #bd-settings-sidebar > span > div:nth-child(3) /* Remove Links for BD and BBD */{
-    display: none;
+.layer-3QrUeG {
+  background: transparent;
+  opacity: 1!important;
+  transform: scale(1)!important;
+  animation: closeBackdraw 400ms;
 }
 
-.powercord-pc-icon svg{
-    width: 0!important;
-    margin: 0;
-    padding: 0;
-    visibility: hidden;
+.layer-3QrUeG.stop-animations + .layer-3QrUeG {
+  background: rgba(0, 0, 0, .85)!important;
+  animation: openBackdraw 400ms;
 }
 
-.powercord-pc-icon{
-    height: 20px!important;
+.standardSidebarView-3F1I7i .header-2RyJ0Y, .ui-tab-bar-header /* Remove Headers */, .info-1VyQPT /* Version Info */ {
+  display: none;
 }
 
-.powercord-pc-icon::before{
-    height: 20px;
-    margin-right: -25px!important;
-}
-.socialLinks-3jqNFy::before{
-    left: 3px;
-    margin-bottom: 5px;
+.sidebar-CFHs9e {
+  padding: 15px 6px 15px 4px;
+  position: absolute;
+  left: 0;
 }
 
-/* Padding Fixes for all major regions of the Settings Menu */
-.sidebarRegion-VFTUkN .sidebar-CFHs9e{
-    padding-bottom: 15px!important;
-    padding-top: 20px!important;
-}
-.contentRegion-3nDuYy .contentColumn-2hrIYH{
-    padding-left: 15px!important;
-    padding-right: 15px!important;
-    padding-top: 20px!important;
-}
-.toolsContainer-1edPuj{
-    padding-top: 8px!important;
-}
-
-/* Border Radius Fixes */
-.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN, .standardSidebarView-3F1I7i, .standardSidebarView-3F1I7i .contentRegion-3nDuYy{
-    border-radius: 15px!important;
-}
-
-/* Hide the double border Radius */
-.standardSidebarView-3F1I7i .contentRegion-3nDuYy::before, .standardSidebarView-3F1I7i .contentRegion-3nDuYy::after{
-    content: 'e';
-    color: transparent;
-    display: var(--DisplayNoDoubleBorderRadius)!important;
-    width: 15px!important;
-    height: 15px;
-    background-color: var(--ColBackground2);
-    left: 0;
-    position: absolute;
-}
-.standardSidebarView-3F1I7i .contentRegion-3nDuYy::after{
-    bottom: 0;
-}
-
-/* Set Min and Max Width for content */
-.standardSidebarView-3F1I7i .contentColumn-2hrIYH, .standardSidebarView-3F1I7i .custom-column{
-    min-width: 95%;
-}
-
-/* Separators */
-[aria-label='USER_SETTINGS'] .separator-gCa7yv, .ui-tab-bar-separator{
-    width: 30px;
-    margin-left: 0!important;
-    background-color: var(--ColAccent)!important;
-    height: 2px!important;
-}
-.separator-gCa7yv{
-    background-color: var(--ColAccent)!important;
-    height: 2px!important;
-}
-
-/* User Settings Sidebar Settings */
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN{
-    max-width: 56px!important;
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div:not(.separator-gCa7yv):not(.ui-tab-bar-separator){
-    color: transparent!important;
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-bottom: 0;
-    padding-top: 3px;
-    width: 30px;
-}
-[aria-label='USER_SETTINGS'] .side-8zPYf6, [aria-label='USER_SETTINGS'] .sidebarRegion-VFTUkN .scrollerWrap-2lJEkd{
-    max-width: 56px;
-    padding-right: 63px!important;
-}
-[aria-label='USER_SETTINGS'] .socialLinks-3jqNFy a:not(.powercord-pc-icon) svg{
-    width: 20px!important;
-    height: 20px!important;
-    margin-bottom: 5px;
-}
-[aria-label='USER_SETTINGS'] #bd-settings-sidebar > span > div{
-    width: 34px!important;
-    padding-left: 0!important;
-    margin-left: 0;
-    margin-top: -8px!important;
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:not(.ui-tab-bar-header):not([style*='font-size'])::before{
-	-webkit-filter: invert(100%)!important;
-    filter: invert(100%)!important;
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S0GenericGear.svg');
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(2):not(.ui-tab-bar-header):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S1Account.svg');
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(3):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S2Security.svg');
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(4):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S3Apps.svg');
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(5):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S4Connections.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(6):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S5Payment.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(8):not(.ui-tab-bar-item):not([style*='font-size']){
-    height: 30px!important;
-    padding-top: 6px!important;
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(8):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S6Nitro.svg');
-    display: block;
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(9):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S7Hypesquad.svg');
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(12):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S8Voice.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(13):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S9Overlay.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(14):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S10Notifications.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(15):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S11Keybinds.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(16):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S12Games.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(17):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S12_1ActivityFeed.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(18):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S12_2GamesLibrary.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(19):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S13TextImage.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(20):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S14Appearance.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(21):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S15Twitch.svg');
-    width: 20px!important;
-    height: 20px!important;
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(22):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S16Language.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(23):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S17OSSettings.svg');   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(26):not(.ui-tab-bar-item):not([style*='font-size']){
-    width: 30px!important;
-    height: 32px!important;
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(26):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    /* content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S18Changelog.svg');    */
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/SPC1Core.svg')!important;   
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(27):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/SBD5Plugins.svg')!important;
-    /* content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S19BDExperiments.svg');    */
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 div.item-PXvHYJ:nth-child(28):not(.ui-tab-bar-item):not([style*='font-size'])::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S20BDDev.svg');
-}
-[aria-label='USER_SETTINGS'] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 > div:nth-last-child(3)::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/S21Logoff.svg')!important;
-}
-#bd-settings-sidebar > span > div .ui-tab-bar-item{
-    padding: 3px 3px 0 3px;
-}
-#bd-settings-sidebar > span > div div:nth-of-type(3)::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/SBD1Core.svg');
-}
-#bd-settings-sidebar > span > div div:nth-of-type(4)::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/SBD2Fork.svg');
-}
-#bd-settings-sidebar > span > div div:nth-of-type(5)::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/SBD3Emote.svg');
-}
-#bd-settings-sidebar > span > div div:nth-of-type(6)::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/SBD4CustomCSS.svg');
-}
-#bd-settings-sidebar > span > div div:nth-of-type(7)::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/SBD5Plugins.svg');
-}
-#bd-settings-sidebar > span > div div:nth-of-type(8)::before{
-    content: url('https://customa.gitlab.io/Customa-Misc/Discord/SVGs/Settings/SBD6Themes.svg');
-}
-@keyframes openSettings{
-    0%{
-        transform: scale(0.6);
-        opacity: 0;
-    }100%{
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-@keyframes closeSettings{
-    0%{
-        transform: scale(1);
-        opacity: 1;
-    }100%{
-        transform: scale(0.6);
-        opacity: 0;
-    }
-}
-@keyframes openBackdraw{
-    0%{
-        background: transparent;
-    }100%{
-        background: rgba(0,0,0,0.85);
-    }
-}
-@keyframes closeBackdraw{
-    0%{
-        background: rgba(0,0,0,0.85);
-    }100%{
-        background: transparent;
-    }
-}
-
-.tier1Banner-1B_WXY, .details-1YZMDP, .banner-3Kac2g{
-    max-width: 100%!important;
-}
-
-.banner-3Kac2g{
-   background: var(--ColBackground1)!important;
-}
-
-.contentTransitionWrap-3hqOEW, .sidebarRegion-VFTUkN{
+.sidebarRegion-VFTUkN, .contentTransitionWrap-3hqOEW {
   padding-bottom: 0!important;
 }
 
-.planName-1SYoJ1 g, .periodInfo-2mik6K{
-  color: var(--ColAccent)!important;
+.side-8zPYf6 .item-PXvHYJ::before {
+  content: "\e91b";
+  font-size: 24px;
+  font-family: Customa-Misc, sans-serif;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 6px;
+  border-radius: 3px;
+  color: currentColor;
+  text-align: center;
+  width: 24px;
+}
+
+.side-8zPYf6 .selected-3s45Ha.item-PXvHYJ::before {
+  background-color: var(--ColAccent);
+}
+
+.sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ {
+  background-color: transparent;
+}
+
+.sidebar-CFHs9e .item-PXvHYJ {
+  padding-left: 42px;
+  overflow: visible;
+}
+
+.contentRegion-3nDuYy {
+  width: calc(100% - var(--WidthSettingsSidebarMin));
+  position: absolute;
+  transform: translateX(var(--WidthSettingsSidebarMin));
+  height: 100%;
+  transition: transform 200ms;
+}
+
+.sidebarRegion-VFTUkN:hover + .contentRegion-3nDuYy {
+  transform: translateX(var(--WidthSettingsSidebarMax));
+}
+
+.sidebarRegion-VFTUkN:hover .sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ {
+  background-color: var(--ColAccent);
+}
+
+.contentColumn-2hrIYH {
+  max-width: unset;
+}
+
+/* Border Radius Fixes */
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN, .standardSidebarView-3F1I7i, .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
+  border-radius: 15px!important;
+}
+
+/* Hide the double border Radius */
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy::before, .standardSidebarView-3F1I7i .contentRegion-3nDuYy::after {
+  content: "";
+  color: transparent;
+  display: var(--DisplayNoDoubleBorderRadius)!important;
+  width: 15px!important;
+  height: 15px;
+  background-color: var(--ColBackground2);
+  left: 0;
+  position: absolute;
+}
+
+.toolsContainer-1edPuj {
+  padding-top: 50px;
+}
+
+.socialLinks-3jqNFy {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+  position: relative;
+}
+
+.link-1IoFq- {
+  margin-top: 8px;
+  display: flex;
+}
+
+.link-1IoFq-::after {
+  font-size: 16px;
+  margin-left: 14px;
+}
+
+.powercord-pc-icon::before {
+  position: static;
+  width: 20px;
+  display: block;
+  height: 16px;
+  margin-left: 2px;
+  margin-bottom: 6px;
+}
+
+.powercord-pc-icon svg {
+  display: none;
+}
+
+.link-1IoFq-[href*="twitter"]::after {
+  content: "Twitter";
+  margin-left: 10px;
+}
+
+.link-1IoFq-[href*="facebook"]::after {
+  content: "Facebook";
+}
+
+.link-1IoFq-[href*="instagram"]::after {
+  content: "Instagram";
+}
+
+.link-1IoFq-[href*="powercord"]::after {
+  content: "Powercord";
+  margin-left: 8px;
+}
+
+.socialLinks-3jqNFy::after {
+  content: "Customa - running on";
+  color: #adadad;
+  font-size: 16px;
+  position: absolute;
+  top: 8px;
+  left: 40px;
+}
+
+@keyframes openSettings {
+  0% {
+    transform: scale(.6);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes closeSettings {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(.6);
+    opacity: 0;
+  }
+}
+@keyframes openBackdraw {
+  0% {
+    background: transparent;
+  }
+
+  100% {
+    background: rgba(0, 0, 0, .85);
+  }
+}
+@keyframes closeBackdraw {
+  0% {
+    background: rgba(0, 0, 0, .85);
+  }
+
+  100% {
+    background: transparent;
+  }
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="MyAccount"]::before {
+  content: "\e90d";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="PrivacynSafety"]::before {
+  content: "\e912";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="AuthorizedApps"]::before {
+  content: "\e913";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="Connections"]::before {
+  content: "\e914";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="Billing"]::before {
+  content: "\e915";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="DiscordNitro"]::before {
+  content: "\e916";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="LibraryInventory"]::before {
+  content: "\e917";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="NitroServerBoost"]::before {
+  content: "\e918";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="HypesquadOnline"]::before {
+  content: "\e919";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="VoicenVideo"]::before {
+  content: "\e903";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="Notifications"]::before {
+  content: "\e905";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="Keybinds"]::before {
+  content: "\e906";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="GameActivity"]::before {
+  content: "\e907";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="TextnImages"]::before {
+  content: "\e908";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="Appearance"]::before {
+  content: "\e909";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="StreamerMode"]::before {
+  content: "\e90a";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="Language"]::before {
+  content: "\e90b";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="Linux"]::before {
+  content: "\e932";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="Windows"]::before {
+  content: "\e939";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="pc-general"]::before {
+  content: "\e91c";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="pc-moduleManager-plugins"]::before {
+  content: "\e91b";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="pc-moduleManager-themes"]::before {
+  content: "\e91e";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="pc-updater"]::before {
+  content: "\e920";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="devInjector"]::before {
+  content: "\e91a";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="changelog"]::before {
+  content: "\e90e";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="pc-spotify"]::before {
+  content: "\e91d";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="pc-documentation"]::before {
+  content: "\e92f";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="pc-labs"]::before {
+  content: "\e90f";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="Experiments"]::before {
+  content: "\e90f";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="DeveloperOptions"]::before {
+  content: "\e910";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="logout"]::before {
+  content: "\e911";
 }
