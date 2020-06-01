@@ -112,7 +112,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .layer-v9HyYc .container-3ayLPN /* Search Popup */, .popout-2iWAc- .popoutList-T9CKZQ /* Member Filter Popout */, .layer-v9HyYc .modal-yWgWj- /* Invite to DMs Popup */,
 .layer-v9HyYc .messagesPopoutWrap-1MQ1bW /* Pin/Mentions Popout */, .layer-v9HyYc .popout-13LQ_3 /* Popout Friends Table */, .contentWrapper-2txmjs, .emojiPicker-3PwZFl 
 /* Emoji Picker */, .categoryWrapper-UZ5YNj /* Server Header Emoji Picker */, .layer-v9HyYc .colorPickerCustom-2CWBn2 /* Color Picker Roles */, .layer-v9HyYc .popout-38lTFE 
-/* Popout Friends Activity */, .layer-v9HyYc .guildPopout-3CgKqR /* Guild Popout "Server" Hook */, .css-123uooi-menu /* Language Selector Discover */ {
+/* Popout Friends Activity */, .layer-v9HyYc .guildPopout-3CgKqR /* Guild Popout "Server" Hook */, .css-123uooi-menu /* Language Selector Discover */, .popout-2iWAc- 
+.everyonePopout-nEbJY3 /* @everyone Ping Warning */ {
   background-color: var(--ColPopout);
 }
 
@@ -228,7 +229,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Powercord Entities Tab Theme */, .guildList-3cJX3d .card-3DjzTQ /* Discover Cards */, .optionContainer-15srkc /* Option Container Join Rules */, .searchPage-3GKAdT 
 .search-1iTphC .searchBox-2_mAlO /* Search Box Discover */, .css-1o55ng5-control, .css-1b86x2o-control, .css-9wh895-control /* Language Select Discover */, 
 .categoryPill-34fszg:hover:not(.selected-1dONk0) /* Category Pill Hover Discover */, .emojiContainer-1u-_sQ /* Emoji Preview Discover */, .wrapper-35wsBm /* Guild Invite Chat */, 
-.powercord-quickcss:not(.popped-out), .powercord-quickcss .CodeMirror-gutters /* Powercord QuickCSS Not Popped Out */ {
+.powercord-quickcss:not(.popped-out), .powercord-quickcss .CodeMirror-gutters /* Powercord QuickCSS Not Popped Out */, .everyonePopout-nEbJY3 .footer-2aTx0s 
+/* @everyone Popout Footer */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -537,7 +539,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   box-shadow: var(--elevation-medium);
 }
 
-.wrapper-2aW0bm:hover /* Message Reaction Box */ {
+.wrapper-2aW0bm:hover /* Message Reaction Box */, .popout-2iWAc- .everyonePopout-nEbJY3 {
   box-shadow: var(--elevation-high);
 }
 
@@ -1388,7 +1390,7 @@ path.fill {
   left: 0!important;
   content: "";
   height: 52px;
-  width: 72px;
+  width: 160px;
   background: url("https://customa.gitlab.io/Customa-Misc/Logo/ParentLogo/GIF/Logo60FPS.gif") no-repeat center var(--ColAppBG)!important;
   background-size: 46px 46px!important;
   display: block!important;
@@ -1455,15 +1457,21 @@ path.fill {
 .problems-3mgf6w::before {
   content: "Your client is disconnected! Check your internet connection";
   position: absolute;
-  left: 10px;
+  background-color: var(--ColAppBG);
+  left: -50px;
   bottom: 0;
   color: var(--text-normal);
   height: 100%;
   white-space: pre-line;
   display: flex;
   width: 40%;
-  justify-content: center!important;
+  padding-left: 15px;
+  justify-content: start!important;
   align-items: center;
+}
+
+.text-3c9Zq1 {
+  top: 0;
 }
 
 .problems-3mgf6w > div > a.anchor-3Z-8Bb.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.links-3Ldd4A {
@@ -1472,13 +1480,13 @@ path.fill {
   display: inline-flex;
   box-sizing: content-box;
   padding: 11.5px 16px;
-  color: #ffffff!important;
+  color: var(--ColFont)!important;
   border-radius: 3px;
   justify-content: center;
 }
 
 .problems-3mgf6w > div > a.anchor-3Z-8Bb.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.links-3Ldd4A svg {
-  color: #ffffff;
+  color: var(--ColFont);
 }
 
 .problems-3mgf6w > div > a.anchor-3Z-8Bb.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.links-3Ldd4A {
