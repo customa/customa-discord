@@ -93,7 +93,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Crash Screen */, .nowPlayingColumn-2sl4cE /* Now Playing Column */, .wrapper-39oAo3 /* Warning Message Chat Area */, .streamPreview-2-WUWT .previewContainer-12UlHl 
 /* Background Streaming Window */, .tier-12tKuZ .tierBody-16Chc9 /* Tier Body Server Boost Modal */, .video-1FfuMD, .chat-3bRxxu .wrapper-29NfPK /* Call wrappers */, 
 .ctaSection-izWwhs /* Server Template Modal Left side */, .video-1kutKI, .tile-2gi3tr /* Background Screen Sharing */, .modal-yWgWj- .reactors-Blmlhw 
-/* Reactors Reactions Modal */, .reactorDefault-1IUqMZ .remove-3V-yj8:hover /* Reactors Reaction Modal */, .emptyContainer-1_gwCl /* Empty Container Guild Discovery */ {
+/* Reactors Reactions Modal */, .reactorDefault-1IUqMZ .remove-3V-yj8:hover /* Reactors Reaction Modal */, .emptyContainer-1_gwCl /* Empty Container Guild Discovery */,
+.purchaseUnit-2lxci3 .bodySection-jqkkIP /* Purchase Unit Store - Individual Boxes */ {
   background-color: transparent;
 }
 
@@ -108,7 +109,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
   background-color: var(--ColChannelList);
 }
 
-.layer-v9HyYc .container-3ayLPN /* Search Popup */, .layer-v9HyYc .popoutList-T9CKZQ /* Popout List Audit Log */, .layer-v9HyYc .modal-yWgWj- /* Invite to DMs Popup */,
+.layer-v9HyYc .container-3ayLPN /* Search Popup */, .popout-2iWAc- .popoutList-T9CKZQ /* Member Filter Popout */, .layer-v9HyYc .modal-yWgWj- /* Invite to DMs Popup */,
 .layer-v9HyYc .messagesPopoutWrap-1MQ1bW /* Pin/Mentions Popout */, .layer-v9HyYc .popout-13LQ_3 /* Popout Friends Table */, .contentWrapper-2txmjs, .emojiPicker-3PwZFl 
 /* Emoji Picker */, .categoryWrapper-UZ5YNj /* Server Header Emoji Picker */, .layer-v9HyYc .colorPickerCustom-2CWBn2 /* Color Picker Roles */, .layer-v9HyYc .popout-38lTFE 
 /* Popout Friends Activity */, .layer-v9HyYc .guildPopout-3CgKqR /* Guild Popout "Server" Hook */, .css-123uooi-menu /* Language Selector Discover */ {
@@ -164,7 +165,9 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .tierMarkerContainer-2BmgqV .tierMarkerBackground-3q29am /* Tier Markers Server Boost Modal */, .uploadModalIn-1z07Bv 
 .uploadDropModal-2kTwbc .bgScale-1otPtc /* Upload Modal */, .liveBadge-yuNuMC /* Video Icon Active Go Live */, .unavailableBadge-3k7iq_ /* Guild Unavailable */, .layer-v9HyYc 
 .quickSelectPopout-X1hvgV /* Region Selector DM Calls */, .container-2Yth53 .contentWrapper-3WC1ID /* Join Guild Menu */, .chat-3bRxxu .wrapper-2qzCYF /* Call Background */,
-.unicodeShortcut-15J8Ck /* Unicode Shortcut Emoji Picker */, .channelHeader-3Gd2xq /* Channel Header Recent Mentions */ {
+.unicodeShortcut-15J8Ck /* Unicode Shortcut Emoji Picker */, .channelHeader-3Gd2xq /* Channel Header Recent Mentions */, .root-1bFE0x.whyYouMightLikeIt-2zZIIj 
+/* Store why you might like it */, .purchaseUnit-2lxci3 /* Store Purchase Info */, .features-_IOqVv .row-1bU71H /* Game Features Store */, .powercord-quickcss-editor-settings 
+/* Powercord QuickCSS Not Popped Out */ {
   background-color: var(--ColBackground1);
 }
 
@@ -224,7 +227,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Reactors Reaction Modal */, .sidebar-1-SQro .reactionDefault-GBA58K:hover /* Sidebar Reactions Modal Reaction Hovered */, .powercord .powercord-entities-manage-tabs 
 /* Powercord Entities Tab Theme */, .guildList-3cJX3d .card-3DjzTQ /* Discover Cards */, .optionContainer-15srkc /* Option Container Join Rules */, .searchPage-3GKAdT 
 .search-1iTphC .searchBox-2_mAlO /* Search Box Discover */, .css-1o55ng5-control, .css-1b86x2o-control, .css-9wh895-control /* Language Select Discover */, 
-.categoryPill-34fszg:hover:not(.selected-1dONk0) /* Category Pill Hover Discover */, .emojiContainer-1u-_sQ /* Emoji Preview Discover */, .wrapper-35wsBm /* Guild Invite Chat */ {
+.categoryPill-34fszg:hover:not(.selected-1dONk0) /* Category Pill Hover Discover */, .emojiContainer-1u-_sQ /* Emoji Preview Discover */, .wrapper-35wsBm /* Guild Invite Chat */, 
+.powercord-quickcss:not(.popped-out), .powercord-quickcss .CodeMirror-gutters /* Powercord QuickCSS Not Popped Out */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -373,7 +377,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Load More Messages Button */, .flowerStar-1GeTsn /* Verified Flowerstars */, .unreadPill-2HyYtt .unreadPillCapStroke-7rkHbg /* Unread Pill Fill Color Chat Divider */,
 .wrapper-3WhCwL /* Mentions/Channel */, .circleIconButton-jET_ig /* Add Server/Discovery Buttons */, .tier-12tKuZ .tierUnlocked-25K6Kv /* Unlocked Tier Server Boost Modal */,
 .tierHeaderContent-2-YfvN .tierUnlocked-27DwHo /* Unlocked Tier Server Boost Settings */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */, 
-.colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS /* Selected Radio and Checkbox color */, .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
+.colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS /* Selected Radio and Checkbox color */, .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN 
+/* Checkmarks Message Menu */, .operations-36ENbA > a /* Edit Operations */ {
   color: var(--ColAccent);
 }
 
@@ -423,7 +428,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .invite-18yqGF.container-o3RxSG, .invite-18yqGF.preview-yX6Nx7 /* Spotify Container */, .listeningAlong-30wH70 /* Listening Along */, .wrapper-2a6GCs .attachment-33OFj0, 
 .searchResultMessage-30QnSN .embedWrapper-lXpS3L, .message-2qnXI6 .wrapperAudio-1jDe0Q /* Chat Attachments */, .keybindGroup-JQs9x_.card-FDVird::before /* Keybinds */, 
 .game-1ipmAa.card-FDVird::before /* Game Activity Saved Games */, .gameNameLastPlayed-3LJo8n .gameNameInput-385LoS /* Game Name Input */, .css-1rckt42-menu 
-/* Selection Menu Guild Discovery */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */, .activityPanel-28dQGo /* Go Live Panel */ {
+/* Selection Menu Guild Discovery */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */, .activityPanel-28dQGo /* Go Live Panel */, .powercord-quickcss 
+.CodeMirror-gutters /* Powercord QuickCSS Not Popped Out */ {
   border: none;
 }
 
@@ -564,7 +570,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   max-height: 53px;
 }
 
-.channel-2QD9_O[href="/store"] {
+.channel-2QD9_O[href*="/store"] {
   display: var(--DisplayNitroMenu);
 }
 
@@ -1192,7 +1198,8 @@ path.fill {
 }
 
 .downloadApps-wbBFdZ .header-nJMe-Q /* Get Discord Apps Header */, .downloadApps-wbBFdZ .platforms-28Rb-3 
-.platform-iik236.active-iLSdWQ .downloadButton-1bWXpg, .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ p {
+.platform-iik236.active-iLSdWQ .downloadButton-1bWXpg, .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ p, 
+.selected-3s45Ha.item-PXvHYJ, .selected-3s45Ha.item-PXvHYJ:hover /* Selected Menu Item */ {
   color: #ffffff;
 }
 
@@ -1243,19 +1250,21 @@ path.fill {
 
 /* Self Promo */
 .socialLinks-3jqNFy::before {
-  content: "";
-  border: 4px solid #adadad;
-  border-radius: 50%;
-  border-top: 4px solid transparent;
+  content: "\e91a";
+  font-family: Customa-Misc, sans-serif;
+  font-size: 18px;
+  color: #adadad;
   white-space: pre;
-  width: 8px;
-  height: 8px;
-  display: inline-block;
+  width: 16px;
+  height: 16px;
   position: relative;
-  margin-left: 2px;
-  margin-right: 15px;
-  transform: rotate(45deg);
+  margin-left: 3px;
+  margin-right: 10px;
   transition: filter 200ms;
+}
+
+.socialLinks-3jqNFy:hover::before {
+  filter: brightness(2);
 }
 
 /* Fix for broken Create Guild Container */
@@ -1320,8 +1329,7 @@ path.fill {
 }
 
 /* Light Theme Warning */
-.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child .checkboxWrapper-SkhIWG, .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child 
-.info-3LOr12 /* Remove Checkbox and Text from white-theme button */ {
+.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr > :last-child .checkboxWrapper-SkhIWG /* Remove Checkbox and Text from white-theme button */ {
   visibility: hidden;
 }
 
@@ -1689,6 +1697,7 @@ html::before {
   box-shadow: none;
 }
 
+/* Give Channel Header (recently mentioned) a background color */
 .channelHeader-3Gd2xq::before {
   content: "";
   background-color: var(--ColTransparent1);
@@ -1698,4 +1707,9 @@ html::before {
   top: 0;
   left: 0;
   z-index: -2;
+}
+
+/* Realign Emoji Button - Again  */
+.emojiButton-3uL3Aw {
+  max-height: 53px;
 }
