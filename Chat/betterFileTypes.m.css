@@ -1,5 +1,14 @@
 :root {
   --INTModBetterFileTypes: "    \2022  Better File Types ~ Customa Devs (Chat \2192  betterFileTypes.m.css)\A"!important;
+  --ColFileVideo: #672168;
+  --ColFileAudio: #672168;
+  --ColFilePDF: #ff0000;
+  --ColFileAfterEffects: #d392ff;
+  --ColFileSketch: #fdaf00;
+  --ColFileIllustrator: #f47318;
+  --ColFileArchive: #ffe48b;
+  --ColFileDocument: #2a5496;
+  --ColFileSpreadsheet: #107941;
 }
 
 /* General */
@@ -97,16 +106,19 @@
 /* Document */
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u::before, [src="/assets/9f358f466473586417baee7bacfba5ca.svg"] + .attachmentInner-3vEpKt::before {
   content: "\e92e";
+  color: var(--ColFileDocument);
 }
 
 /* Video */
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.video-27RLEH::before {
   content: "\e930";
+  color: var(--ColFileVideo);
 }
 
 /* Audio */
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.audio-14DQXq::before {
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.audio-14DQXq::before, .audioMetadata-3zOuGv::before {
   content: "\e927";
+  color: var(--ColFileAudio);
 }
 
 .metadataContent-3c_ZXw {
@@ -116,7 +128,6 @@
 .audioMetadata-3zOuGv::before {
   left: 0;
   font-size: 26px;
-  content: "\e927";
   background: none;
   margin-left: 10px;
   margin-top: 6px;
@@ -125,26 +136,31 @@
 /* PDF */
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.acrobat-3K1PC6::before, [src="/assets/f167b4196f02faf2dc2e7eb266a24275.svg"] + .attachmentInner-3vEpKt::before {
   content: "\e92a";
+  color: var(--ColFilePDF);
 }
 
 /* After Effects */
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.ae-1Y5Jq3::before, [src="/assets/982bd8aedd89b0607f492d1175b3b3a5.svg"] + .attachmentInner-3vEpKt::before {
   content: "\e925";
+  color: var(--ColFileAfterEffects);
 }
 
 /* Sketch */
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.sketch-ZMuo7D::before, [src="/assets/f812168e543235a62b9f6deb2b094948.svg"] + .attachmentInner-3vEpKt::before {
   content: "\e92c";
+  color: var(--ColFileSketch);
 }
 
 /* Illustrator */
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.ai-11KAaB::before, [src="/assets/03ad68e1f4d47f2671d629cfeac048ef.svg"] + .attachmentInner-3vEpKt::before {
   content: "\e929";
+  color: var(--ColFileIllustrator);
 }
 
 /* Archive */
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.archive-2hqXug::before, [src="/assets/73d212e3701483c36a4660b28ac15b62.svg"] + .attachmentInner-3vEpKt::before {
   content: "\e926";
+  color: var(--ColFileArchive);
 }
 
 /* Code */
@@ -155,6 +171,7 @@
 /* Spreadsheet */
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.spreadsheet-1QuSej::before, [src="/assets/85f7a4063578f6e0e2c73f60bca0fcce.svg"] + .attachmentInner-3vEpKt::before {
   content: "\e92d";
+  color: var(--ColFileSpreadsheet);
 }
  
 /* Webcode */
