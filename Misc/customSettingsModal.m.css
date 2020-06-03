@@ -1,6 +1,12 @@
 :root {
   --INTModCustomSettingsModal: "    \2022  Custom Settings Modal ~ Customa Devs (Misc \2192  customSettingsModal.m.css)\A"!important;
-  --INTVarCustomSettingsModal: "\A\A Custom Settings Modal - Module\A \2022  --DisplayNoDoubleBorderRadius \2192  Allowed Values: None/Block"!important;
+  /* stylelint-disable */
+  /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
+  --INTVarCustomSettingsModal: "\A\A Custom Settings Modal - Module"
+    "\A \2022  --DisplayNoDoubleBorderRadius \2192  Allowed Values: None/Block"
+    "\A \2022  --WidthSettingsSidebarMin \2192  Allowed Values: XYpx (pref. 44px)"
+    "\A \2022  --WidthSettingsSidebarMax \2192  Allowed Values: XYpx (pref. 218px)"!important;
+  /* stylelint-enable */
   --DisplayNoDoubleBorderRadius: none;
   --WidthSettingsSidebarMin: 44px;
   --WidthSettingsSidebarMax: 218px;
@@ -37,7 +43,7 @@
   animation: openBackdraw 400ms;
 }
 
-.standardSidebarView-3F1I7i .header-2RyJ0Y, .ui-tab-bar-header /* Remove Headers */, .info-1VyQPT /* Version Info */ {
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .header-2RyJ0Y, .ui-tab-bar-header /* Remove Headers */, .info-1VyQPT /* Version Info */ {
   display: none;
 }
 
@@ -51,7 +57,7 @@
   padding-bottom: 0!important;
 }
 
-.side-8zPYf6 .item-PXvHYJ::before {
+.sidebarRegion-VFTUkN .side-8zPYf6 .item-PXvHYJ::before {
   content: "\e91b";
   font-size: 24px;
   font-family: Customa-Misc, sans-serif;
@@ -65,12 +71,16 @@
   width: 24px;
 }
 
+.powercord-documentation .sidebarRegion-VFTUkN .side-8zPYf6 .item-PXvHYJ::before {
+  content: "\e92f";
+}
+
 .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ::before {
   background-color: var(--ColAccent);
 }
 
 .sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ {
-  background-color: transparent;
+  background-color: transparent!important;
 }
 
 .sidebar-CFHs9e .item-PXvHYJ {
@@ -91,16 +101,21 @@
 }
 
 .sidebarRegion-VFTUkN:hover .sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ {
-  background-color: var(--ColAccent);
+  background-color: var(--ColAccent)!important;
 }
 
-.contentColumn-2hrIYH {
-  max-width: unset;
+.contentColumn-2hrIYH, .sidebarScrollable-1qPI87 + .content-1rPSz4, .customScroller-26gWhv > div {
+  max-width: calc(100% - 40px);
+}
+
+.noticeRegion-1YviSH {
+  min-width: calc(100%);
 }
 
 /* Border Radius Fixes */
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN, .standardSidebarView-3F1I7i, .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
   border-radius: 15px!important;
+  padding-bottom: 0!important;
 }
 
 /* Hide the double border Radius */
@@ -116,7 +131,19 @@
 }
 
 .toolsContainer-1edPuj {
-  padding-top: 50px;
+  position: absolute;
+  right: -20px;
+  margin-right: 0;
+  padding-top: 0;
+  top: 30px;
+}
+
+.contentRegion-3nDuYy > .toolsContainer-1edPuj {
+  right: 13px;
+}
+
+.customHeader-f9DEJ_, .contentColumnDefault-1VQkGM {
+  padding-top: 40px;
 }
 
 .socialLinks-3jqNFy {
@@ -142,7 +169,7 @@
   display: block;
   height: 16px;
   margin-left: 2px;
-  margin-bottom: 6px;
+  margin-bottom: 16px;
 }
 
 .powercord-pc-icon svg {
@@ -339,4 +366,60 @@
 
 .side-8zPYf6 .item-PXvHYJ[data-item-id="logout"]::before {
   content: "\e911";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="OVERVIEW"]::before {
+  content: "\e93a";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="ROLES"]::before {
+  content: "\e938";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="EMOJI"]::before {
+  content: "\e937";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="MODERATION"]::before {
+  content: "\e93c";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="AUDIT_LOG"]::before {
+  content: "\e936";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="INTEGRATIONS"]::before {
+  content: "\e914";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="WEBHOOKS"]::before {
+  content: "\e940";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="EMBED"]::before {
+  content: "\e93b";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="GUILD_TEMPLATES"]::before {
+  content: "\e93f";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="GUILD_PREMIUM"]::before {
+  content: "\e935";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="MEMBERS"]::before {
+  content: "\e934";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="INSTANT_INVITES"]::before {
+  content: "\e93d";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="BANS"]::before {
+  content: "\e93e";
+}
+
+.side-8zPYf6 .item-PXvHYJ[data-item-id="DELETE"]::before {
+  content: "\e933";
 }
