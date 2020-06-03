@@ -1,8 +1,1065 @@
 {
     "name": "Customa",
     "description": "The most customizable Discord theme",
-    "version": "1.0.0",
+    "version": "2.2.12",
     "author": "The Customa Project",
     "license": "GPL-3.0-only",
-    "theme": "./Base/base.m.css"
+    "theme": "./Base/base.m.css",
+    "preview": [
+        "https://customa.gitlab.io/Customa-Misc/Discord/Dark%20Theme.png"
+    ],
+    "consent": [
+        "ext_listing"
+    ],
+    "discord": "GsPuw88",
+    "splashTheme": "./Misc/splash.m.css",
+    "settings": {
+        "format": "css",
+        "options": [
+            {
+                "name": "Accent Color",
+                "variable": "ColAccent",
+                "description": "Main Accent Color, which will be used for selected element, etc.",
+                "type": "color"
+            },
+            {
+                "name": "Accent Color - Alpha",
+                "variable": "ColAccentAlpha",
+                "description": "Main Accent Color alpha subvalue - Should be the same as Accent Color but with opacity",
+                "type": "color_alpha"
+            },
+            {
+                "name": "App Background",
+                "variable": "ColAppBG",
+                "description": "Main App Background",
+                "type": "background"
+            },
+            {
+                "name": "Background Color 1",
+                "variable": "ColBackground1",
+                "description": "First background color of the theme. Defaults to the App Background - Can also be transparent",
+                "type": "background"
+            },
+            {
+                "name": "Background Color 2",
+                "variable": "ColBackground2",
+                "description": "Second background color of the theme",
+                "type": "background"
+            },
+            {
+                "name": "Channel List Color",
+                "variable": "ColChannelList",
+                "type": "background"
+            },
+            {
+                "name": "User List Color",
+                "variable": "ColUserList",
+                "type": "background"
+            },
+            {
+                "name": "Popout Color",
+                "variable": "ColPopout",
+                "type": "background"
+            },
+            {
+                "name": "User Popout Color",
+                "variable": "ColUserPopout",
+                "type": "background"
+            },
+            {
+                "name": "Modal Color",
+                "variable": "ColModal",
+                "type": "background"
+            },
+            {
+                "name": "User Modal Color",
+                "variable": "ColUserModal",
+                "type": "background"
+            },
+            {
+                "name": "Covered Spoiler Color",
+                "variable": "ColSpoilerCovered",
+                "type": "color_alpha"
+            },
+            {
+                "name": "Uncovered Spoiler Color",
+                "variable": "ColSpoilerUncovered",
+                "type": "color_alpha"
+            },
+            {
+                "name": "Main Font Color",
+                "variable": "ColFont",
+                "type": "color"
+            },
+            {
+                "name": "Transparent Color 1",
+                "variable": "ColTransparent1",
+                "type": "color_alpha"
+            },
+            {
+                "name": "Transparent Color 2",
+                "variable": "ColTransparent2",
+                "type": "color_alpha"
+            },
+            {
+                "name": "Link Color",
+                "variable": "ColLink",
+                "type": "color"
+            },
+            {
+                "name": "Windows Window Bar Color",
+                "variable": "ColWindowBar",
+                "type": "color"
+            },
+            {
+                "name": "Display Emoji Button",
+                "variable": "DisplayButtonEmoji",
+                "type": "select",
+                "options": [
+                    {
+                        "name": "True",
+                        "value": "flex"
+                    },
+                    {
+                        "name": "False",
+                        "value": "none"
+                    }
+                ]
+            },
+            {
+                "name": "Display GIF Button",
+                "variable": "DisplayButtonGIF",
+                "type": "select",
+                "options": [
+                    {
+                        "name": "True",
+                        "value": "flex"
+                    },
+                    {
+                        "name": "False",
+                        "value": "none"
+                    }
+                ]
+            },
+            {
+                "name": "Display Gift Button",
+                "variable": "DisplayButtonGift",
+                "type": "select",
+                "options": [
+                    {
+                        "name": "True",
+                        "value": "flex"
+                    },
+                    {
+                        "name": "False",
+                        "value": "none"
+                    }
+                ]
+            },
+            {
+                "name": "Display Embed Pill",
+                "variable": "DisplayEmbedPill",
+                "type": "select",
+                "options": [
+                    {
+                        "name": "True",
+                        "value": "solid"
+                    },
+                    {
+                        "name": "False",
+                        "value": "none"
+                    }
+                ]
+            },
+            {
+                "name": "Display Toolbar",
+                "variable": "DisplayToolbar",
+                "type": "select",
+                "options": [
+                    {
+                        "name": "True",
+                        "value": "flex"
+                    },
+                    {
+                        "name": "False",
+                        "value": "none"
+                    }
+                ]
+            },
+            {
+                "name": "Display Emoji Quick Reaction",
+                "variable": "DisplayEmojiQuickReaction",
+                "type": "select",
+                "options": [
+                    {
+                        "name": "True",
+                        "value": "flex"
+                    },
+                    {
+                        "name": "False",
+                        "value": "none"
+                    }
+                ]
+            },
+            {
+                "name": "Display Blocked Messages",
+                "variable": "DisplayBlockedMessages",
+                "type": "select",
+                "options": [
+                    {
+                        "name": "True",
+                        "value": "flex"
+                    },
+                    {
+                        "name": "False",
+                        "value": "none"
+                    }
+                ]
+            },
+            {
+                "name": "Display Nitro Menu",
+                "variable": "DisplayNitroMenu",
+                "type": "select",
+                "options": [
+                    {
+                        "name": "True",
+                        "value": "block"
+                    },
+                    {
+                        "name": "False",
+                        "value": "none"
+                    }
+                ]
+            },
+            {
+                "name": "Display Library Menu",
+                "variable": "DisplayLibraryMenu",
+                "type": "select",
+                "options": [
+                    {
+                        "name": "True",
+                        "value": "block"
+                    },
+                    {
+                        "name": "False",
+                        "value": "none"
+                    }
+                ]
+            },
+            {
+                "name": "Account Security Filter",
+                "variable": "FilterAccountSecurity",
+                "type": "string"
+            }
+        ]
+    },
+    "plugins": [
+        {
+            "name": "Buttons",
+            "description": "Adds coloring options for buttons",
+            "file": "./Base/buttons.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Black Button Color",
+                        "variable": "ColBTNBlack",
+                        "description": "The variable has to follow the format: `x, y, z` x, y, z being numbers from 0 to 255",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Brand Button Color",
+                        "variable": "ColBTNBrand",
+                        "description": "The variable has to follow the format: `x, y, z` x, y, z being numbers from 0 to 255",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Green Button Color",
+                        "variable": "ColBTNGreen",
+                        "description": "The variable has to follow the format: `x, y, z` x, y, z being numbers from 0 to 255",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Grey Button Color",
+                        "variable": "ColBTNGrey",
+                        "description": "The variable has to follow the format: `x, y, z` x, y, z being numbers from 0 to 255",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Link Button Color",
+                        "variable": "ColBTNLink",
+                        "description": "The variable has to follow the format: `x, y, z` x, y, z being numbers from 0 to 255",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Primary Button Color",
+                        "variable": "ColBTNPrimary",
+                        "description": "The variable has to follow the format: `x, y, z` x, y, z being numbers from 0 to 255",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Red Button Color",
+                        "variable": "ColBTNRed",
+                        "description": "The variable has to follow the format: `x, y, z` x, y, z being numbers from 0 to 255",
+                        "type": "string"
+                    },
+                    {
+                        "name": "White Button Color",
+                        "variable": "ColBTNWhite",
+                        "description": "The variable has to follow the format: `x, y, z` x, y, z being numbers from 0 to 255",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Yellow Button Color",
+                        "variable": "ColBTNYellow",
+                        "description": "The variable has to follow the format: `x, y, z` x, y, z being numbers from 0 to 255",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Contrast Fix Color",
+                        "variable": "ColBTNContrastFix",
+                        "description": "Fix contrast depending on if you use dark or light theme",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Contrast Fix for Bright Colors",
+                        "variable": "ColBTNOwnContrastBright",
+                        "description": "Certain buttons are too bright to use white text, therefore they fallback to this color",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Contrast Fix for Dark Colors",
+                        "variable": "ColBTNOwnContrastDark",
+                        "description": "Certain buttons are too dark to use black text, therefore they fallback to this color",
+                        "type": "color"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Color",
+            "description": "A module to replace the default coloring of Discord elements",
+            "file": "./Base/color.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Chat Color",
+                        "variable": "ColChat",
+                        "description": "Text color which is used in the chat area",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Font Color",
+                        "variable": "ColFont",
+                        "description": "Fallback font color",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Bright Font Color",
+                        "variable": "ColFontBright",
+                        "description": "Second Font Color, a bit brighter than Font Color",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Placeholder Color",
+                        "variable": "ColFontPlaceholder",
+                        "description": "Text color which is used for placeholders",
+                        "type": "color"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Font",
+            "description": "Changes your font",
+            "file": "./Base/font.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Main Font Family",
+                        "variable": "FontFamily",
+                        "description": "Font used for most of the chat client",
+                        "type": "font"
+                    },
+                    {
+                        "name": "Mono Font Family",
+                        "variable": "FontMonoFamily",
+                        "description": "Monospace font used in codeblocks, etc.",
+                        "type": "font"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Light Theme Support",
+            "description": "Adds support for light themes. This is not restricted to just white colors.",
+            "file": "./Base/lightThemeSupport.m.css"
+        },
+        {
+            "name": "Modules",
+            "description": "Displays all currently loaded modules",
+            "file": "./Base/modules.m.css"
+        },
+        {
+            "name": "Round",
+            "description": "Rounds the Discord chat area",
+            "file": "./Base/round.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Corner Radius Chat Area",
+                        "variable": "SizeCornerRadius",
+                        "description": "Size of the Corner Radius applied to the insides of the chat area",
+                        "type": "number",
+                        "unit": [
+                            "$scale"
+                        ]
+                    },
+                    {
+                        "name": "Corner Radius of Powercords Spotify Container",
+                        "variable": "SizeSpotifyRadius",
+                        "description": "Size of the Corner Radius applied to Powercords Spotify Container",
+                        "type": "number",
+                        "unit": [
+                            "$scale"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Selection",
+            "description": "Allows for custom highlight colors",
+            "file": "./Base/selection.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Text Selection Color",
+                        "variable": "ColTextSelection",
+                        "description": "Custom text selection/highlight color",
+                        "type": "color_alpha"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Tooltips",
+            "description": "Change the color of tooltips (both background and font)",
+            "file": "./Base/tooltips.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Tooltip Background Color",
+                        "variable": "ColBackgroundTooltip",
+                        "type": "background"
+                    },
+                    {
+                        "name": "Tooltip Text Color",
+                        "variable": "ColTextTooltip",
+                        "type": "color"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Variables",
+            "description": "Displays the currently available variables (depending on your loaded modules)",
+            "file": "./Base/variables.m.css"
+        },
+        {
+            "name": "Better File Type icons",
+            "description": "Changes the look of the default filetypes and adds custom coloring options",
+            "file": "./Chat/betterFileTypes.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Icon Color for Video Files",
+                        "variable": "ColFileVideo",
+                        "type": "color_alpha"
+                    },
+                    {
+                        "name": "Icon Color for Audio Files",
+                        "variable": "ColFileAudio",
+                        "type": "color_alpha"
+                    },
+                    {
+                        "name": "Icon Color for PDF Files",
+                        "variable": "ColFilePDF",
+                        "type": "color_alpha"
+                    },
+                    {
+                        "name": "Icon Color for After Effects Files",
+                        "variable": "ColFileAfterEffects",
+                        "type": "color_alpha"
+                    },
+                    {
+                        "name": "Icon Color for Sketch Files",
+                        "variable": "ColFileSketch",
+                        "type": "color_alpha"
+                    },
+                    {
+                        "name": "Icon Color for Illustrator Files",
+                        "variable": "ColFileIllustrator",
+                        "type": "color_alpha"
+                    },
+                    {
+                        "name": "Icon Color for Archive Files",
+                        "variable": "ColFileArchive",
+                        "type": "color_alpha"
+                    },
+                    {
+                        "name": "Icon Color for Document Files",
+                        "variable": "ColFileDocument",
+                        "type": "color_alpha"
+                    },
+                    {
+                        "name": "Icon Color for Spreadsheet Files",
+                        "variable": "ColFileSpreadsheet",
+                        "type": "color_alpha"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Custom Edit Icon",
+            "description": "Replaces the (edited) text with a custom icon",
+            "file": "./Chat/customEditIcon.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Edit Icon",
+                        "variable": "ContentEditIcon",
+                        "type": "url"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Custom Edit Text",
+            "description": "Replaces the (edited) text with custom text",
+            "file": "./Chat/customEditText.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Edit Text",
+                        "variable": "ContentEditText",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "More Compact Cozy Chat",
+            "description": "Compacts the cozy chat appearance",
+            "file": "./Chat/moreCompactCozyChat.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Width Message Divider",
+                        "variable": "SizeSeparator",
+                        "type": "number",
+                        "unit": [
+                            "$scale"
+                        ]
+                    },
+                    {
+                        "name": "Color Message Divider",
+                        "variable": "ColSeparator",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Width Date Divider",
+                        "variable": "SizeDateDivider",
+                        "type": "number",
+                        "unit": [
+                            "$scale"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Typing on Right",
+            "description": "Moves the typing indicator to the right",
+            "file": "./Chat/typingOnRight.m.css"
+        },
+        {
+            "name": "Emote Zoom",
+            "description": "Adds Zoom on Hover for Emojis",
+            "file": "./Emoji/emoteZoom.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Scale Factor Emoji",
+                        "variable": "ScaleEmojiHovered",
+                        "description": "Scale factor hovered emojis scale to",
+                        "type": "number",
+                        "unit": false
+                    },
+                    {
+                        "name": "Scale Transition Duration",
+                        "variable": "TransitionDuration",
+                        "type": "number",
+                        "unit": [
+                            "$time"
+                        ]
+                    },
+                    {
+                        "name": "Scale Transition Delay",
+                        "variable": "TransitionDelay",
+                        "type": "number",
+                        "unit": [
+                            "$time"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Jumbo Moji",
+            "description": "Displays Jumbo Emojis (without text next to them) bigger",
+            "file": "./Emoji/jumboMoji.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Emote Size",
+                        "variable": "SizeEmote",
+                        "type": "number",
+                        "unit": [
+                            "$scale"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Custom Settings Modal",
+            "description": "Custom/Old Settings Modal with Icons corresponding to the right menu item",
+            "file": "./Misc/customSettings.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Remove Double Border Radius",
+                        "variable": "DisplayNoDoubleBorderRadius",
+                        "description": "Remove the border radius between Sidebar and Content",
+                        "type": "select",
+                        "options": [
+                            {
+                                "name": "True",
+                                "value": "block"
+                            },
+                            {
+                                "name": "False",
+                                "value": "none"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Size Settings Width Unhovered",
+                        "variable": "WidthSettingsSidebarMin",
+                        "type": "number",
+                        "unit": [
+                            "$scale"
+                        ]
+                    },
+                    {
+                        "name": "Size Settings Width Hovered",
+                        "variable": "WidthSettingsSidebarMax",
+                        "type": "number",
+                        "unit": [
+                            "$scale"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Custom Status Color",
+            "description": "Custom colors for the voice chat status",
+            "file": "./Misc/customStatusColors.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Color Server Muted",
+                        "variable": "ColServerStatus",
+                        "type": "color_alpha"
+                    },
+                    {
+                        "name": "Color Client Muted",
+                        "variable": "ColClientStatus",
+                        "type": "color_alpha"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "iOS Toggles",
+            "description": "Toggles that follow the design of iOS ones",
+            "file": "./Misc/iOSToggles.m.css"
+        },
+        {
+            "name": "Rainbow",
+            "description": "Joke Module! Applies a rotating hue filter over the entire application",
+            "file": "./Misc/rainbow.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Duration Rainbow Animation",
+                        "variable": "DurRainbow",
+                        "type": "number",
+                        "unit": [
+                            "$scale"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Square Avatars",
+            "description": "Changes the avatar mask to be square instead of round",
+            "file": "./Misc/squareAvatars.m.css"
+        },
+        {
+            "name": "Channel Divider",
+            "description": "Centers the channel divider name and adds lines to either side",
+            "file": "./Sidebar/channelDivider.m.css"
+        },
+        {
+            "name": "Classic Channel Select",
+            "description": "Reverts the channel selection highlight to the original Discord one, used a few years ago",
+            "file": "./Sidebar/classicChannelSelect.m.css"
+        },
+        {
+            "name": "Classic Status Indicator",
+            "description": "Reverts the status indicators to colors only",
+            "file": "./Sidebar/classicStatusIndicator.m.css"
+        },
+        {
+            "name": "Colored Channel Icons",
+            "description": "Change the color channel icons",
+            "file": "./Sidebar/coloredChannelIcons.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Color NSFW Warning Icon",
+                        "variable": "ColNSFWWarning",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Color No Permission Warning Icon",
+                        "variable": "ColNoPermissionNotice",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Color Guild Owner Icon",
+                        "variable": "ColGuildCrown",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Color Voice Channel Icon",
+                        "variable": "ColVoiceChannel",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Color Private Channel Icon",
+                        "variable": "ColPrivateChannel",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Color Text Channel Icon",
+                        "variable": "ColTextChannel",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Color Store Channel Icon",
+                        "variable": "ColStoreChannel",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Color Announcement Channel Icon",
+                        "variable": "ColAnnouncementChannel",
+                        "type": "color"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Folder Names",
+            "description": "Displays the folder name over a guild folder",
+            "file": "./Sidebar/folderNames.m.css"
+        },
+        {
+            "name": "Status Circles",
+            "description": "Changes the Discord status dot to a circle around the profile picture",
+            "file": "./Sidebar/statusCircles.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Online Color",
+                        "variable": "ColOnline",
+                        "type": "color"
+                    },
+                    {
+                        "name": "DnD Color",
+                        "variable": "ColDnD",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Offline Color",
+                        "variable": "ColOffline",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Idle Color",
+                        "variable": "ColIdle",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Streaming Color",
+                        "variable": "ColStreaming",
+                        "type": "color"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Channel Wrapper",
+            "description": "Compacts the channel wrapper until hovered",
+            "file": "./Sidebar/wrapperChannel.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Maximum Channel Wrapper Width",
+                        "variable": "WidthChannelMax",
+                        "type": "number",
+                        "unit": [
+                            "$scale"
+                        ]
+                    },
+                    {
+                        "name": "Minimum Channel Wrapper Width",
+                        "variable": "WidthChannelMin",
+                        "type": "number",
+                        "unit": [
+                            "$scale"
+                        ]
+                    },
+                    {
+                        "name": "Duration Channel Wrapper Animation",
+                        "variable": "DurationWrapperChannel",
+                        "type": "number",
+                        "unit": [
+                            "$time"
+                        ]
+                    },
+                    {
+                        "name": "Wrapper Open Delay",
+                        "variable": "DelayWrapperOpen",
+                        "description": "Delay before triggering the wrapper open animation",
+                        "type": "number",
+                        "unit": [
+                            "$time"
+                        ]
+                    },
+                    {
+                        "name": "Wrapper Close Delay",
+                        "variable": "DelayWrapperClose",
+                        "description": "Delay before triggering the wrapper close animation",
+                        "type": "number",
+                        "unit": [
+                            "$time"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Guilds Wrapper",
+            "description": "Compacts the guilds wrapper until hovered",
+            "file": "./Sidebar/wrapperGuild.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Duration Guild Wrapper Animation",
+                        "variable": "DurationWrapperGuild",
+                        "type": "number",
+                        "unit": [
+                            "$time"
+                        ]
+                    },
+                    {
+                        "name": "Filter No Hover",
+                        "variable": "FilterNoHover",
+                        "description": "Filter which is applied when the guild icon is not hovered",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Filter Hover",
+                        "variable": "FilterHover",
+                        "description": "Filter which is applied when the guild icon is hovered",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Members Wrapper",
+            "description": "Compacts the members wrapper until hovered",
+            "file": "./Sidebar/wrapperMember.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Duration Member Wrapper Animation",
+                        "variable": "DurationWrapperMember",
+                        "type": "number",
+                        "unit": [
+                            "$time"
+                        ]
+                    },
+                    {
+                        "name": "Maximum Members Wrapper Width",
+                        "variable": "WidthSidebarMax",
+                        "type": "number",
+                        "unit": [
+                            "$scale"
+                        ]
+                    },
+                    {
+                        "name": "Minimum Members Wrapper Width",
+                        "variable": "WidthSidebarMin",
+                        "type": "number",
+                        "unit": [
+                            "$scale"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Cake OS Titlebar",
+            "description": "Changes the windows titlebar to reflect CakeOS",
+            "file": "./Titlebar/cakeOSTitlebar.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Close Button Color",
+                        "variable": "ColCakeOSClose",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Close Button Hover Color",
+                        "variable": "ColCakeOSCloseHover",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Maximize Button Color",
+                        "variable": "ColCakeOSMaximize",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Maximize Button Hover Color",
+                        "variable": "ColCakeOSMaximizeHover",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Minimize Button Color",
+                        "variable": "ColCakeOSMinimize",
+                        "type": "color"
+                    },
+                    {
+                        "name": "Minimize Button Hover Color",
+                        "variable": "ColCakeOSMinimizeHover",
+                        "type": "color"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Custom Wordmark",
+            "description": "Allows you to create custom wordmarks in the Windows titlebar",
+            "file": "./Titlebar/customWordmark.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Display Original Wordmark",
+                        "variable": "DisplayDiscordLogo",
+                        "type": "select",
+                        "options": [
+                            {
+                                "name": "True",
+                                "value": "visible"
+                            },
+                            {
+                                "name": "False",
+                                "value": "hidden"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wordmark Appendage",
+                        "variable": "TextTitlebarAfter",
+                        "description": "Text that will be displayed after the actual Wordmark",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Wordmark Prependage",
+                        "variable": "TextTitlebarBefore",
+                        "description": "Text that will be displayed before the actual Wordmark",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Classic Titlebar",
+            "description": "Restores the old Discord Windows titlebar",
+            "file": "./Titlebar/restoreOldTitlebar.m.css"
+        },
+        {
+            "name": "Advanced Scrollbar",
+            "description": "Tints the scrollbar into your accent color and adds a few different usability improvements",
+            "file": "./Webkit/advancedScrollbar.m.css"
+        },
+        {
+            "name": "Custom Placeholders",
+            "description": "Changes the placeholder text for the chat area",
+            "file": "./Webkit/customPlaceholder.m.css",
+            "settings": {
+                "format": "css",
+                "options": [
+                    {
+                        "name": "Placeholder Text",
+                        "variable": "ContentCustomPlaceholder",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Placeholder Remover",
+            "description": "Removes placeholder text in text components",
+            "file": "./Webkit/placeholderRemover.m.css"
+        }
+    ]
 }
