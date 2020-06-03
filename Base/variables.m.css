@@ -12,22 +12,23 @@
   --INTVarTooltips: "";
 
   /* Chat */
+  --INTVarBetterFileTypes: "";
   --INTVarCustomEditIcon: "";
   --INTVarCustomEditText: "";
   --INTVarMoreCompactCozyChat: "";
 
   /* Emoji */
+  --INTVarEmoteZoom: "";
   --INTVarJumboMoji: "";
 
   /* Misc */
-  --INTVarRainbow: "";
   --INTVarCustomSettingsModal: "";
   --INTVarCustomStatusColors: "";
+  --INTVarRainbow: "";
 
   /* Sidebar */
   --INTVarColoredChannelIcon: "";
-  --INTVarGuildCircles: "";
-  --INTVarTwoRowGuilds: "";
+  --INTVarStatusCircles: "";
   --INTVarWrapperChannel: "";
   --INTVarWrapperGuild: "";
   --INTVarWrapperMember: "";

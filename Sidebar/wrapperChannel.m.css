@@ -5,7 +5,9 @@
   --INTVarWrapperChannel: "\A\A Channel Wrapper - Module"
     "\A \2022  --WidthChannelMin \2192  Allowed Values: XYpx (pref. 46px)"
     "\A \2022  --WidthChannelMax \2192  Allowed Values: XYpx (pref. 240px)"
-    "\A \2022  --DurationWrapperChannel \2192  Allowed Values: Time [in s or ms] (pref. 200ms)"!important;
+    "\A \2022  --DurationWrapperChannel \2192  Allowed Values: Time [in s or ms] (pref. 200ms)"
+    "\A \2022  --DelayWrapperOpen \2192  Allowed Values: Time [in s or ms] (pref. 200ms)"
+    "\A \2022  --DelayWrapperClose \2192  Allowed Values: Time [in s or ms] (pref. 200ms)"!important;
   /* stylelint-enable */
   --WidthChannelMax: 240px;
   --WidthChannelMin: 48px;

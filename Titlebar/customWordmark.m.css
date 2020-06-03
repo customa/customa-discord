@@ -1,32 +1,38 @@
-:root{
-    --INTModCustomWordmark: '    \2022  Custom Wordmark ~ Customa Devs (Titlebar \2192  customWordmark.m.css)\A'!important;
-    --INTVarCustomWordmark: '\A\A Custom Wordmark - Module\A \2022  --DisplayDiscordLogo \2192  Allowed Values: visible/hidden\A \2022   --TextTitlebarBefore \2192  Allowed Values: Text\A \2022   --TextTitlebarAfter \2192  Allowed Values: Text'!important;
-    --DisplayDiscordLogo: block;
-    --TextTitlebarAfter: ' - Customa';
-    --TextTitlebarBefore: 'Canary: ';
+:root {
+  --INTModCustomWordmark: "    \2022  Custom Wordmark ~ Customa Devs (Titlebar \2192  customWordmark.m.css)\A"!important;
+  /* stylelint-disable */
+  /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
+  --INTVarCustomWordmark: "\A\A Custom Wordmark - Module"
+    "\A \2022  --DisplayDiscordLogo \2192  Allowed Values: visible/hidden"
+    "\A \2022   --TextTitlebarBefore \2192  Allowed Values: Text"
+    "\A \2022   --TextTitlebarAfter \2192  Allowed Values: Text"!important;
+  /* stylelint-enable */
+  --DisplayDiscordLogo: visible;
+  --TextTitlebarAfter: " - Customa";
+  --TextTitlebarBefore: "Canary: ";
 }
 
-.wordmark-2iDDfm::after, .wordmark-2iDDfm::before{
-    color: white;
-    white-space: pre;
-    font-size: 14px;
-    display: block;
-    position: unset;
-    top: 4px;
-    left: 8px;
-    padding-top: 1%;
-    visibility: visible!important;
+.wordmark-2iDDfm::after, .wordmark-2iDDfm::before {
+  color: var(--text-muted);
+  white-space: pre;
+  font-size: 12px;
+  display: block;
+  position: unset;
+  top: 0;
+  left: 8px;
+  padding-top: 1%;
+  visibility: visible!important;
 }
 
-.wordmark-2iDDfm::before{
-    content: var(--TextTitlebarBefore)!important;
+.wordmark-2iDDfm::before {
+  content: var(--TextTitlebarBefore)!important;
 }
 
-.wordmark-2iDDfm::after{
-    content: var(--TextTitlebarAfter)!important;
+.wordmark-2iDDfm::after {
+  content: var(--TextTitlebarAfter)!important;
 }
 
-.wordmark-2iDDfm{
-    display: flex;
-    visibility: var(--DisplayDiscordLogo)!important;
+.wordmark-2iDDfm {
+  display: flex;
+  visibility: var(--DisplayDiscordLogo)!important;
 }

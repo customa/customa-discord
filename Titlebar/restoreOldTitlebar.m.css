@@ -1,42 +1,42 @@
-:root{
-    --INTModRestoreOldTitlebar: '    \2022  Restore Old Titlebar ~ Customa Devs (Titlebar \2192  restoreOldTitlebar.m.css)\A'!important;
+:root {
+  --INTModRestoreOldTitlebar: "    \2022  Restore Old Titlebar ~ Customa Devs (Titlebar \2192  restoreOldTitlebar.m.css)\A"!important;
 }
 
-.wordmark-2iDDfm{
-    display: none;
+.wordmark-2iDDfm {
+  display: none;
 }
 
-.titleBar-AC4pGV{
-    height: 0;
-    margin-top: 0;
+.titleBar-AC4pGV {
+  height: 0;
+  margin-top: 0;
 }
 
-.toolbar-1t6TWx{
-    margin-right: 130px!important;
+.toolbar-1t6TWx {
+  margin-right: 130px!important;
 }
 
-[class*='winButton']{
-    position: absolute;
-    top: .25%;
-    width: 42px;
-    height: 42px;
-    right: 5px;
+[class*="winButton"] {
+  position: absolute;
+  top: .25%;
+  width: 42px;
+  height: 42px;
+  right: 5px;
 }
 
-.titleBar-AC4pGV div:nth-child(3){
-    right: 47px;
+.titleBar-AC4pGV div:nth-child(3) {
+  right: 47px;
 }
 
-.titleBar-AC4pGV div:nth-child(4){
-    right: 89px;
+.titleBar-AC4pGV div:nth-child(4) {
+  right: 89px;
 }
 
-.titleBar-AC4pGV:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 20px;
-    -webkit-app-region: drag;
+.titleBar-AC4pGV::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 20px;
+  -webkit-app-region: drag;
 }

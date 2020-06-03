@@ -15,9 +15,7 @@
   --INTModVariables: "";
 
   /* Chat */
-  --INTModBetterCompactMode: "";
   --INTModBetterFileTypes: "";
-  --INTModCodeBlockLanguages: "";
   --INTModCustomEditIcon: "";
   --INTModCustomEditText: "";
   --INTModEmbedsModernized: "";
@@ -30,8 +28,8 @@
 
   /* Misc */
   --INTModAll: "";
-  --INTModCustomStatusColors: "";
   --INTModCustomSettingsModal: "";
+  --INTModCustomStatusColors: "";
   --INTModiOSToggles: "";
   --INTModRainbow: "";
   --INTModSquareAvatars: "";
@@ -41,13 +39,8 @@
   --INTModClassicChannelSelect: "";
   --INTModClassicStatusIndicator: "";
   --INTModColoredChannelIcon: "";
-  --INTModCustomPlayingIcon: "";
-  --INTModCustomUserModal: "";
-  --INTModCustomUserPopout: "";
   --INTModFolderNames: "";
-  --INTModGuildCircles: "";
   --INTModStatusCircles: "";
-  --INTModTwoRowGuilds: "";
   --INTModWrapperChannel: "";
   --INTModWrapperGuild: "";
   --INTModWrapperMember: "";
@@ -124,7 +117,7 @@
   padding: 3%;
   margin-bottom: 2%;
   background-color: var(--ColBackground1);
-  color: #dddddd;
+  color: var(--text-normal);
   display: block;
   white-space: pre;
   line-height: 1.1;

@@ -21,7 +21,7 @@
   --ColTextChannel: var(--DefDiscordIconColor);
   --ColStoreChannel: var(--DefDiscordIconColor);
   --ColAnnouncementChannel: var(--DefDiscordIconColor);
-  --DefDiscordIconColor: #72767d /* DO NOT CHANGE THIS VARIABLE DIRECTLY */
+  --DefDiscordIconColor: var(--text-muted); /* DO NOT CHANGE THIS VARIABLE DIRECTLY */
 }
 
 /* stylelint-disable max-line-length */
