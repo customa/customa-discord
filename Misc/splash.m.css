@@ -1,0 +1,68 @@
+:root {
+  --ColBackground2: #212121;
+  --ColTransparent2: rgba(0, 0, 0, .2); /* Transparent Color */
+  --ColAccent: #d81b60; /* Color */
+
+  /* TODO: Remove */
+}
+
+#splash, #splash .splash-inner-dl .dl-select-frame .Select-menu-outer {
+  background-color: var(--ColBackground2);
+}
+
+.splash-status::before {
+  content: "Loading Powercord + Customa";
+  font-style: normal;
+  display: block;
+  text-transform: none;
+  margin-bottom: 15px;
+}
+
+.splash-inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.splash-inner::before {
+  background: url("https://customa.gitlab.io/Customa-Misc/Logo/ParentLogo/GIF/Logo60FPS.gif");
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#splash {
+  /* border: 20px solid #161616; */
+}
+
+video {
+  display: none;
+}
+
+#splash .splash-inner-dl .dl-select-frame .Select-control, #splash .splash-inner-dl .dl-select-frame .Select-menu-outer {
+  border: none;
+}
+
+.progress .progress-bar, #splash .splash-inner-dl .dl-select-frame .Select-control, #splash .splash-inner-dl .dl-select-frame .Select-option {
+  background-color: var(--ColTransparent2);
+}
+
+.progress .progress-bar .complete, #splash .splash-inner-dl .dl-select-frame .dl-button, #splash .splash-inner-dl .dl-select-frame .dl-button:hover, #splash .splash-inner-dl 
+.dl-select-frame .Select-option.is-focused {
+  background-color: var(--ColAccent);
+}
+
+#splash .splash-inner-dl .dl-select-frame .dl-button {
+  cursor: pointer;
+}
+
+.is-focused:not(.is-open) > .Select-control {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1), 0 0 5px -1px var(--ColAccent);
+}
