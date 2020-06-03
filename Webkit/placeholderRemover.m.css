@@ -1,7 +1,8 @@
-:root{
-    --INTModPlaceholderRemover: '    \2022  Placeholder Remover ~ Customa Devs (Webkit \2192  placeholderRemover.m.css)\A'!important;
+:root {
+  --INTModPlaceholderRemover: "    \2022  Placeholder Remover ~ Customa Devs (Webkit \2192  placeholderRemover.m.css)\A"!important;
 }
 
-::-webkit-input-placeholder, textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
-    color: transparent!important;
+::-webkit-input-placeholder, textarea::-webkit-input-placeholder, input::-webkit-input-placeholder, .searchBarComponent-32dTOx, .public-DraftEditorPlaceholder-inner, 
+.placeholder-37qJjk {
+  color: transparent!important;
 }
