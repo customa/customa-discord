@@ -117,11 +117,11 @@
                 "type": "select",
                 "options": [
                     {
-                        "name": "True",
+                        "label": "True",
                         "value": "flex"
                     },
                     {
-                        "name": "False",
+                        "label": "False",
                         "value": "none"
                     }
                 ]
@@ -132,11 +132,11 @@
                 "type": "select",
                 "options": [
                     {
-                        "name": "True",
+                        "label": "True",
                         "value": "flex"
                     },
                     {
-                        "name": "False",
+                        "label": "False",
                         "value": "none"
                     }
                 ]
@@ -147,11 +147,11 @@
                 "type": "select",
                 "options": [
                     {
-                        "name": "True",
+                        "label": "True",
                         "value": "flex"
                     },
                     {
-                        "name": "False",
+                        "label": "False",
                         "value": "none"
                     }
                 ]
@@ -162,11 +162,11 @@
                 "type": "select",
                 "options": [
                     {
-                        "name": "True",
+                        "label": "True",
                         "value": "solid"
                     },
                     {
-                        "name": "False",
+                        "label": "False",
                         "value": "none"
                     }
                 ]
@@ -177,11 +177,11 @@
                 "type": "select",
                 "options": [
                     {
-                        "name": "True",
+                        "label": "True",
                         "value": "flex"
                     },
                     {
-                        "name": "False",
+                        "label": "False",
                         "value": "none"
                     }
                 ]
@@ -192,11 +192,11 @@
                 "type": "select",
                 "options": [
                     {
-                        "name": "True",
+                        "label": "True",
                         "value": "flex"
                     },
                     {
-                        "name": "False",
+                        "label": "False",
                         "value": "none"
                     }
                 ]
@@ -207,11 +207,11 @@
                 "type": "select",
                 "options": [
                     {
-                        "name": "True",
+                        "label": "True",
                         "value": "flex"
                     },
                     {
-                        "name": "False",
+                        "label": "False",
                         "value": "none"
                     }
                 ]
@@ -222,11 +222,11 @@
                 "type": "select",
                 "options": [
                     {
-                        "name": "True",
+                        "label": "True",
                         "value": "block"
                     },
                     {
-                        "name": "False",
+                        "label": "False",
                         "value": "none"
                     }
                 ]
@@ -237,11 +237,11 @@
                 "type": "select",
                 "options": [
                     {
-                        "name": "True",
+                        "label": "True",
                         "value": "block"
                     },
                     {
-                        "name": "False",
+                        "label": "False",
                         "value": "none"
                     }
                 ]
@@ -657,11 +657,11 @@
                         "type": "select",
                         "options": [
                             {
-                                "name": "True",
+                                "label": "True",
                                 "value": "block"
                             },
                             {
-                                "name": "False",
+                                "label": "False",
                                 "value": "none"
                             }
                         ]
@@ -1007,11 +1007,11 @@
                         "type": "select",
                         "options": [
                             {
-                                "name": "True",
+                                "label": "True",
                                 "value": "visible"
                             },
                             {
-                                "name": "False",
+                                "label": "False",
                                 "value": "hidden"
                             }
                         ]
