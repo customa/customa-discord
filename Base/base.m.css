@@ -297,7 +297,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Tertiary Color - used in Jump Button Recent Mentions */, .categoryItemDefaultCategorySelected-_HCKoz /* Category Selected Emoji Picker */, .navButtonActive-3RPAJy 
 /* Nav Button Emoji Picker */, .sidebar-1-SQro .reactionSelected-1pqISm /* Sidebar Reactions Modal Reaction Selected */, .guildList-3cJX3d .card-3DjzTQ:hover 
 /* Discover Cards */, .optionContainer-15srkc:hover /* Option Container Join Rules */, .css-12o7ek3-option /* Selected Language Language Selector Discover */, 
-.expandedFolderIconWrapper-1xLaU- /* Opened Folder Background */ {
+.expandedFolderIconWrapper-1xLaU- /* Opened Folder Background */, .item-3eFBNF.selected-2DeaDa /* Selected Language Selector */ {
   background-color: var(--ColTransparent1);
 }
 
@@ -319,7 +319,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Hint Value React Datepicker */, .containerDragAfter-1F4fgZ::after, .containerDragBefore-31UGCO::before, .containerDragAfter-3TEhpe::before, .containerDragBefore-3Dzc5x::before 
 /* Container Channel Drag */, .userSettingsVoice-iwdUCU .sliderBar-3DezvM.speaking-2bFhO4 /* Slider Bar Speaker Test Voice Settings */, .barFill-23-gu- /* Sliderbar Bar Fills */, 
 .unreadPill-2HyYtt /* Unread Pill Chat Divider */, .mentioned-xhSam7::before /* Mentioned Message */, .isUnread-3Ef-o9 .content-1o0f9g /* New Day Unread Chat Divider */, 
-.wrapper-3WhCwL:hover /* Wrapper Mention/Chat */, .item-3eFBNF.selected-2DeaDa /* Selected Language Selector */, .children-rWhLdy .nowPlaying-284llR 
+.wrapper-3WhCwL:hover /* Wrapper Mention/Chat */, .children-rWhLdy .nowPlaying-284llR 
 /* Now Playing Game Game Activity */, .circleIconButton-jET_ig.selected-ugP_am /* Selected Server Discovery Button and Add Server Button */, .result-3w1ZcL 
 .categoryFadeBlurple-1j72_A, .result-3w1ZcL .categoryFadeBlurple-1j72_A:hover /* GIF Button Favorite */, .iconBadge-2wi9r4.participating-NBGDkr 
 /* Icon Badge Voice/Streaming Participating */, .selectorButtonSelected-1j4DmC /* Selected Resolution Screensharing */, .progressBar-2Hd4f8 .barForeground-3KglC8 
@@ -1389,10 +1389,10 @@ path.fill {
   pointer-events: all!important;
   position: absolute!important;
   top: 0!important;
-  left: 0!important;
+  left: 6px!important;
   content: "";
   height: 52px;
-  width: 160px;
+  width: 72px;
   background: url("https://customa.gitlab.io/Customa-Misc/Logo/ParentLogo/GIF/Logo60FPS.gif") no-repeat center var(--ColAppBG)!important;
   background-size: 46px 46px!important;
   display: block!important;
@@ -1404,22 +1404,24 @@ path.fill {
 }
 
 .container-16j22k {
-  width: 100%;
+  width: calc(100% - 72px - 240px);
+  left: calc(72px + 240px);
   pointer-events: none!important;
-  background-color: transparent!important;
   position: absolute!important;
-  bottom: 0!important;
-  top: auto!important;
-  left: auto!important;
+  background-color: var(--ColBackground1);
+  top: auto;
+  bottom: 0;
+  /* left: auto!important; */
   padding: 0!important;
   right: 0!important;
-  z-index: 3!important;
+  z-index: 1000!important;
   animation: noconnectionslide;
   animation-iteration-count: 1;
   animation-direction: reverse;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
   animation-duration: 400ms;
+  border-radius: 20px 0 0;
 }
 
 @keyframes noconnectionslide {
@@ -1449,24 +1451,23 @@ path.fill {
 
 .problems-3mgf6w {
   pointer-events: all!important;
-  background-color: var(--ColAppBG);
-  width: calc(100% - 72px - 240px);
+  background-color: var(--ColBackground1);
+  width: calc(100% - 72px);
   height: 52px;
   position: absolute;
-  left: calc(72px + 240px);
+  left: calc(72px);
 }
 
 .problems-3mgf6w::before {
   content: "Your client is disconnected! Check your internet connection";
   position: absolute;
-  background-color: var(--ColAppBG);
-  left: -50px;
+  left: 10px;
   bottom: 0;
   color: var(--text-normal);
   height: 100%;
   white-space: pre-line;
   display: flex;
-  width: 40%;
+  width: calc(100% - 310px);
   padding-left: 15px;
   justify-content: start!important;
   align-items: center;
@@ -1494,10 +1495,6 @@ path.fill {
 .problems-3mgf6w > div > a.anchor-3Z-8Bb.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.links-3Ldd4A {
   text-decoration: none;
   opacity: 1;
-}
-
-.contentTransitionWrap-3hqOEW, .sidebarRegion-VFTUkN {
-  padding-bottom: 52px!important;
 }
 
 .problems-3mgf6w > div > a:nth-child(2) {
