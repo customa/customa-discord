@@ -1,0 +1,127 @@
+:root {
+  --INTModStatusQuarters: "    \2022  Status Quarters ~ Customa Devs (Sidebar \2192  statusQuarters.m.css)\A"!important;
+  /* stylelint-disable */
+  /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
+  --INTVarStatusQuarters: "\A\A Status Quarters - Module"
+    "\A \2022  --ColOnline \2192  Allowed Values: Color"
+    "\A \2022  --ColDnD \2192  Allowed Values: Color"
+    "\A \2022  --ColOffline \2192  Allowed Values: Color"
+    "\A \2022  --ColIdle \2192  Allowed Values: Color"
+    "\A \2022  --ColStreaming \2192  Allowed Values: Color"!important;
+  /* stylelint-enable */
+  --ColOnline: #43b581;
+  --ColDnD: #f04747;
+  --ColOffline: #747f8d;
+  --ColIdle: #faa61a;
+  --ColStreaming: #643da7;
+}
+
+/* stylelint-disable selector-type-case */
+.wrapper-3t9DeA::before {
+  border: 2px solid transparent;
+  content: " ";
+  width: 120%;
+  height: 120%;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%!important;
+  position: absolute;
+  left: -6px;
+  top: -10%;
+}
+
+.wrapper-3t9DeA foreignObject {
+  mask: none;
+  y: -4;
+  width: 100%;
+  height: 40px;
+}
+
+.avatarHint-1qgaV3 foreignObject {
+  mask: none;
+}
+
+.userInfoViewing-16kqK3 foreignObject {
+  height: 100px;
+}
+
+.selector-2IcQBU .wrapper-3t9DeA foreignObject {
+  height: 30px;
+}
+
+.avatarWrapper-3H_478 foreignObject, .header-QKLPzZ foreignObject {
+  height: 92px;
+  y: -6;
+}
+
+.listAvatar-1NlAhb.wrapper-3t9DeA foreignObject {
+  height: 49px;
+}
+
+.wrapper-3t9DeA svg, .avatarHint-1qgaV3 {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100%;
+}
+
+.avatarHintInner-Dco91E {
+  height: 90px;
+}
+
+.avatar-3W3CeO {
+  overflow: visible;
+  margin-left: 6px;
+}
+
+.wrapper-3t9DeA .pointerEvents-2zdfdO {
+  display: none;
+}
+
+.wrapper-3t9DeA[aria-label*="Online"]::before {
+  border-left-color: var(--ColOnline);
+}
+
+.wrapper-3t9DeA[aria-label*="Disturb"]::before {
+  border-left-color: var(--ColDnD);
+}
+
+.wrapper-3t9DeA[aria-label*="Offline"]::before {
+  border-left-color: var(--ColOffline);
+}
+
+.wrapper-3t9DeA[aria-label*="Idle"]::before {
+  border-left-color: var(--ColIdle);
+}
+
+.wrapper-3t9DeA[aria-label*="Streaming"]::before {
+  border-left-color: var(--ColStreaming);
+}
+
+foreignObject[mask*="typing"]::before {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  display: block;
+  content: "";
+  animation-name: typing-animation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  top: 0;
+}
+
+.dots-3Bkt3k {
+  display: none;
+}
+
+@keyframes typing-animation {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  to {
+    background-color: rgba(0, 0, 0, .7);
+  }
+}
+/* stylelint-enable selector-type-case */
