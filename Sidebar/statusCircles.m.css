@@ -20,13 +20,13 @@
 .wrapper-3t9DeA::before {
   border: 2px solid transparent;
   content: " ";
-  width: 120%;
+  width: 117%;
   height: 120%;
   display: block;
   box-sizing: border-box;
   border-radius: 50%!important;
   position: absolute;
-  left: -6px;
+  left: -3px;
   top: -10%;
 }
 
@@ -49,9 +49,19 @@
   height: 30px;
 }
 
+.avatarWrapper-3H_478 .wrapper-3t9DeA::before, .header-QKLPzZ .wrapper-3t9DeA::before {
+  width: 107%;
+  height: 107%;
+  top: -4%;
+}
+
 .avatarWrapper-3H_478 foreignObject, .header-QKLPzZ foreignObject {
   height: 92px;
   y: -6;
+}
+
+.listAvatar-1NlAhb.wrapper-3t9DeA foreignObject {
+  height: 49px;
 }
 
 .wrapper-3t9DeA svg, .avatarHint-1qgaV3 {
@@ -64,28 +74,35 @@
   height: 90px;
 }
 
+.avatar-3W3CeO {
+  overflow: visible;
+  margin-left: 6px;
+  margin-top: 3px;
+  height: 31px!important;
+}
+
 .wrapper-3t9DeA .pointerEvents-2zdfdO {
   display: none;
 }
 
 .wrapper-3t9DeA[aria-label*="Online"]::before {
-  border-left-color: var(--ColOnline);
+  border-color: var(--ColOnline);
 }
 
 .wrapper-3t9DeA[aria-label*="Disturb"]::before {
-  border-left-color: var(--ColDnD);
+  border-color: var(--ColDnD);
 }
 
 .wrapper-3t9DeA[aria-label*="Offline"]::before {
-  border-left-color: var(--ColOffline);
+  border-color: var(--ColOffline);
 }
 
 .wrapper-3t9DeA[aria-label*="Idle"]::before {
-  border-left-color: var(--ColIdle);
+  border-color: var(--ColIdle);
 }
 
 .wrapper-3t9DeA[aria-label*="Streaming"]::before {
-  border-left-color: var(--ColStreaming);
+  border-color: var(--ColStreaming);
 }
 
 foreignObject[mask*="typing"]::before {
