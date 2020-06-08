@@ -715,11 +715,15 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 }
 
 /* Typing Indicator */
+.panels-j1Uci_ {
+  border-top-right-radius: 10px;
+}
+
 .typing-2GQL18 {
   top: -28px;
   left: 0;
   right: unset;
-  padding-left: 5px;
+  padding-left: 2px;
   min-width: 0;
   padding-right: 10px;
   padding-top: 4px;
@@ -740,14 +744,15 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 
 .typing-2GQL18::before {
   content: "";
-  width: 5px;
+  width: 50px;
   display: block;
   position: absolute;
-  left: -5px;
+  left: -8px;
   height: 28px;
   bottom: 0;
   background-color: var(--ColBackground1);
   border-top-left-radius: 10px;
+  z-index: -1;
 }
 
 .autocomplete-1vrmpx {
