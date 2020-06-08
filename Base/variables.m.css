@@ -29,6 +29,7 @@
   /* Sidebar */
   --INTVarColoredChannelIcon: "";
   --INTVarStatusCircles: "";
+  --INTVarStatusQuarters: "";
   --INTVarWrapperChannel: "";
   --INTVarWrapperGuild: "";
   --INTVarWrapperMember: "";
@@ -73,8 +74,8 @@
     var(--INTVarRainbow) "\A\A\A"
     "SIDEBAR"
     var(--INTVarColoredChannelIcon)
-    var(--INTVarGuildCircles)
-    var(--INTVarTwoRowGuilds)
+    var(--INTVarStatusCircles)
+    var(--INTVarStatusQuarters)
     var(--INTVarWrapperChannel)
     var(--INTVarWrapperGuild)
     var(--INTVarWrapperMember) "\A\A\A"

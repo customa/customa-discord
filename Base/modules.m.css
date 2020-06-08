@@ -28,8 +28,8 @@
 
   /* Misc */
   --INTModAll: "";
-  --INTModCustomSettingsModal: "";
   --INTModCustomStatusColors: "";
+  --INTModCustomSettingsModal: "";
   --INTModiOSToggles: "";
   --INTModRainbow: "";
   --INTModSquareAvatars: "";
@@ -41,6 +41,7 @@
   --INTModColoredChannelIcon: "";
   --INTModFolderNames: "";
   --INTModStatusCircles: "";
+  --INTModStatusQuarters: "";
   --INTModWrapperChannel: "";
   --INTModWrapperGuild: "";
   --INTModWrapperMember: "";
@@ -71,10 +72,7 @@
     var(--INTModTooltips)
     var(--INTModVariables) "\A"
     "Chat:\A"
-    var(--INTModBetterBlockedMessages)
-    var(--INTModBetterCompactMode)
     var(--INTModBetterFileTypes)
-    var(--INTModCodeBlockLanguages)
     var(--INTModCustomEditIcon)
     var(--INTModCustomEditText)
     var(--INTModEmbedsModernized)
@@ -95,13 +93,9 @@
     var(--INTModClassicChannelSelect)
     var(--INTModClassicStatusIndicator)
     var(--INTModColoredChannelIcon)
-    var(--INTModCustomPlayingIcon)
-    var(--INTModCustomUserModal)
-    var(--INTModCustomUserPopout)
     var(--INTModFolderNames)
-    var(--INTModGuildCircles)
     var(--INTModStatusCircles)
-    var(--INTModTwoRowGuilds)
+    var(--INTModStatusQuarters)
     var(--INTModWrapperChannel)
     var(--INTModWrapperGuild)
     var(--INTModWrapperMember) "\A"
