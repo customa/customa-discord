@@ -32,7 +32,9 @@
 
 .wrapper-3t9DeA foreignObject {
   mask: none;
+  /* clean-css ignore:start */
   y: -4;
+  /* clean-css ignore:end */
   width: 100%;
   height: 40px;
 }
@@ -57,7 +59,9 @@
 
 .avatarWrapper-3H_478 foreignObject, .header-QKLPzZ foreignObject {
   height: 92px;
+  /* clean-css ignore:start */
   y: -6;
+  /* clean-css ignore:end */
 }
 
 .listAvatar-1NlAhb.wrapper-3t9DeA foreignObject {
