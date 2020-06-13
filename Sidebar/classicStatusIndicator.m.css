@@ -8,22 +8,28 @@
 rect[mask="url(#svg-mask-status-online-mobile)"] {
   width: 8px;
   height: 12px;
+  /* clean-css ignore:start */
   x: 24;
   y: 19;
+  /* clean-css ignore:end */
 }
 
 foreignobject[mask="url(#svg-mask-avatar-status-mobile-80)"] + rect {
   fill: #43b581;
   width: 16px;
   height: 24px;
+  /* clean-css ignore:start */
   x: 60;
   y: 52;
+  /* clean-css ignore:end */
 }
 
 mask#svg-mask-avatar-status-mobile-32 rect {
   width: .35px;
+  /* clean-css ignore:start */
   x: .67;
   y: .5;
+  /* clean-css ignore:end */
 }
 
 /* Old rounded status indicator */
