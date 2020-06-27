@@ -8,7 +8,7 @@
     "\A \2022  --FontFamily \2192  Allowed Values: Installed Fonts/Webfonts (pref. Sans-Serif)"
     "\A \2022  --FontMonoFamily \2192  Allowed Values: Installed Fonts/Webfonts (pref. Monospace)"!important;
   /* stylelint-enable */
-  --FontFamily: "Lato", sans-serif!important;
+  --FontFamily: "Lato", sans-serif;
   --FontMonoFamily: "Fira Code", "Fira Mono", monospace;
 }
 
