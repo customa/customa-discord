@@ -1,18 +1,18 @@
-:root{
-    --INTModFolderNames: '    \2022  Folder Names ~ Customa Devs (Sidebar \2192  folderNames.m.css) - Powercord only\A'!important;
+:root {
+  --INTModFolderNames: "    \2022  Folder Names ~ Customa Devs (Sidebar \2192  folderNames.m.css) - Powercord only (CURRENTLY BROKEN)\A"!important;
 }
 
-.wrapper-21YSNc::before{
-    content: attr(data-folder-name);
-    color: var(--text-normal);
-    text-align: center;
-    white-space: pre-line;
-    display: block;
-    margin-bottom: 5px;
-    position: relative;
-    z-index: 1000;
+.wrapper-21YSNc::before {
+  content: attr(data-folder-name);
+  color: var(--text-normal);
+  text-align: center;
+  white-space: pre-line;
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+  z-index: 1000;
 }
 
-.expandedFolderBackground-2sPsd-{
-    top: 20px;
+.expandedFolderBackground-2sPsd- {
+  top: 20px;
 }
