@@ -94,7 +94,9 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Background Streaming Window */, .tier-12tKuZ .tierBody-16Chc9 /* Tier Body Server Boost Modal */, .video-1FfuMD, .chat-3bRxxu .wrapper-29NfPK /* Call wrappers */, 
 .ctaSection-izWwhs /* Server Template Modal Left side */, .video-1kutKI, .tile-2gi3tr /* Background Screen Sharing */, .modal-yWgWj- .reactors-Blmlhw 
 /* Reactors Reactions Modal */, .reactorDefault-1IUqMZ .remove-3V-yj8:hover /* Reactors Reaction Modal */, .emptyContainer-1_gwCl /* Empty Container Guild Discovery */,
-.purchaseUnit-2lxci3 .bodySection-jqkkIP /* Purchase Unit Store - Individual Boxes */, .folder-21wGz3.hover-2ji_A7 /* Open Folder Hover Animation */ {
+.purchaseUnit-2lxci3 .bodySection-jqkkIP /* Purchase Unit Store - Individual Boxes */, .folder-21wGz3.hover-2ji_A7 /* Open Folder Hover Animation */, .scroller-1JbKMe 
+/* Scroller DM Chats */, .members-1998pB, .members-1998pB > div /* Members Wrap Inner */, .scroller-2TZvBN /* Guild Wrapper */, .contentRegionScroller-26nc1e 
+/* Content Region Settings */, .sidebarRegionScroller-3MXcoP /* Sidebar Region Settings */ {
   background-color: transparent;
 }
 
@@ -717,6 +719,18 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 /* Typing Indicator */
 .panels-j1Uci_ {
   border-top-right-radius: 10px;
+  position: relative;
+}
+
+.panels-j1Uci_::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 43px;
+  height: 10px;
+  width: 10px;
+  background-color: var(--ColBackground1);
+  right: 0;
 }
 
 .typing-2GQL18 {
