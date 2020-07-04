@@ -96,7 +96,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Reactors Reactions Modal */, .reactorDefault-1IUqMZ .remove-3V-yj8:hover /* Reactors Reaction Modal */, .emptyContainer-1_gwCl /* Empty Container Guild Discovery */,
 .purchaseUnit-2lxci3 .bodySection-jqkkIP /* Purchase Unit Store - Individual Boxes */, .folder-21wGz3.hover-2ji_A7 /* Open Folder Hover Animation */, .scroller-1JbKMe 
 /* Scroller DM Chats */, .members-1998pB, .members-1998pB > div /* Members Wrap Inner */, .scroller-2TZvBN /* Guild Wrapper */, .contentRegionScroller-26nc1e 
-/* Content Region Settings */, .sidebarRegionScroller-3MXcoP /* Sidebar Region Settings */ {
+/* Content Region Settings */, .sidebarRegionScroller-3MXcoP /* Sidebar Region Settings */, .layer-v9HyYc .body-3iLsc4 /* User Popout Body */ {
   background-color: transparent;
 }
 
@@ -299,7 +299,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Tertiary Color - used in Jump Button Recent Mentions */, .categoryItemDefaultCategorySelected-_HCKoz /* Category Selected Emoji Picker */, .navButtonActive-3RPAJy 
 /* Nav Button Emoji Picker */, .sidebar-1-SQro .reactionSelected-1pqISm /* Sidebar Reactions Modal Reaction Selected */, .guildList-3cJX3d .card-3DjzTQ:hover 
 /* Discover Cards */, .optionContainer-15srkc:hover /* Option Container Join Rules */, .css-12o7ek3-option /* Selected Language Language Selector Discover */, 
-.expandedFolderIconWrapper-1xLaU- /* Opened Folder Background */, .item-3eFBNF.selected-2DeaDa /* Selected Language Selector */ {
+.expandedFolderIconWrapper-1xLaU- /* Opened Folder Background */, .item-3eFBNF.selected-2DeaDa /* Selected Language Selector */, .modal-yWgWj- .footer-2gL1pp 
+/* New Audio Device Modal Footer */ {
   background-color: var(--ColTransparent1);
 }
 
@@ -520,7 +521,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 .form-77IDep .footer-3rDWdC /* Footer Payment Modal */, .footer-3rDWdC.footer-2gL1pp /* Footer Hypesquad Modal */, .children-rWhLdy .item-3eFBNF /* Language Selector */, 
 .container-PNkimc .channelNotice-1-XFjC, .container-PNkimc .channelNotice-3DDmsB /* Channel Notice */, .children-rWhLdy .row-2okwlC /* Keybinds Row */, .game-1ipmAa.card-FDVird 
 /* Game Activity Saved Games */, .scroller-2FKFPG .message-2qRu38 /* Message Wrapper Delete Modal */, .from-mPWN2E + .to-2819fF /* To User - Server Ownership */, .modal-yWgWj- 
-.reactors-Blmlhw .reactorDefault-1IUqMZ /* Reactors Reaction Modal */ {
+.reactors-Blmlhw .reactorDefault-1IUqMZ /* Reactors Reaction Modal */, .modal-yWgWj- .footer-2gL1pp /* New Audio Device Modal Footer */ {
   box-shadow: none;
 }
 
@@ -889,6 +890,14 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 #app-mount .scrollerThemed-2oenus.scrollerTrack-1ZIpsv > .scroller-2FKFPG::-webkit-scrollbar-track, 
 #app-mount .scrollerThemed-2oenus.scrollerTrack-1ZIpsv > .scrollerStore-390omS::-webkit-scrollbar-track /* Several themed scrollbars */ {
   background-color: rgba(0, 0, 0, .6)!important;
+}
+
+.guilds-1SWlCJ > .scroller-2TZvBN::-webkit-scrollbar {
+  display: none!important;
+}
+
+.guilds-1SWlCJ:hover > .scroller-2TZvBN::-webkit-scrollbar {
+  display: block!important;
 }
 
 /* Better Message Editor */
