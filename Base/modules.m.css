@@ -18,6 +18,7 @@
   --INTModBetterFileTypes: "";
   --INTModCustomEditIcon: "";
   --INTModCustomEditText: "";
+  --INTModMessageDividers: "";
   --INTModEmbedsModernized: "";
   --INTModMoreCompactCozyChat: "";
   --INTModTypingOnRight: "";
@@ -75,6 +76,7 @@
     var(--INTModBetterFileTypes)
     var(--INTModCustomEditIcon)
     var(--INTModCustomEditText)
+    var(--INTModMessageDividers)
     var(--INTModEmbedsModernized)
     var(--INTModMoreCompactCozyChat)
     var(--INTModTypingOnRight) "\A"

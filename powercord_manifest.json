@@ -557,6 +557,11 @@
             }
         },
         {
+            "name": "Message Dividers",
+            "description": "Bring back chat dividers",
+            "file": "./Chat/messageDividers.m.css"
+        },
+        {
             "name": "More Compact Cozy Chat",
             "description": "Compacts the cozy chat appearance",
             "file": "./Chat/moreCompactCozyChat.m.css",

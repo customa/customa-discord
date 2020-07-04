@@ -1,4 +1,7 @@
-/* Bring Back Chat Dividers */
+:root {
+  /* Do not change anything here unless you know what you are doing */
+  --INTModMessageDividers: "    \2022  Message Dividers ~ Customa Devs (Chat \2192  messageDividers.m.css)\A"!important;
+}
 
 .message-2qnXI6 + .groupStart-23k01U {
   padding-top: 6px;
