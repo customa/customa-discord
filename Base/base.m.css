@@ -79,7 +79,7 @@ body /* Discord Application Body */ {
 #app-mount /* App Mount */, .app-2rEoOp /* App Body */, .bg-h5JY_x /* Background Color Appliers */, .scroller-2FKFPG /* Guilds Wrapper Scroller */, 
 .privateChannels-1nO12o /* DM Channels Wrapper */, .container-PNkimc /* Guild Channels Wrapper */, .scrollableContainer-2NUZem /* Main Text Area */, 
 .folder-21wGz3, .folderIconWrapper-226oVY, .expandedFolderBackground-2sPsd-.collapsed-1GMuSb /* Folder Background */, .table-1tDS6w .header-39GIC8 /* Header Game Library Table */, 
-.standardSidebarView-3F1I7i /* Main Settings Background */, .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi /* Pin/Mentions Popout Body */, .messagesPopout-24nkyi 
+.standardSidebarView-3F1I7i /* Main Settings Background */, .recentMentionsPopout-3rCiI6 .messagesPopout-24nkyi /* Pin/Mentions Popout Body */, .messagesPopout-24nkyi 
 .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug /* Action Buttons Pin/Mentions Popout */, .divider-3573oO /* Divider Audit Log Popout */, .layer-v9HyYc .container-2x5lvQ 
 section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier Server Settings */, .searchBar-3dMhjb .searchAnswer-3Dz2-q, .searchBar-3dMhjb .searchFilter-2ESiM3 
 /* Filter Searchbar Guild Search */, .layer-v9HyYc .container-VSDcQc .sectionTag-pXyto9 /* Role Area Add Roles */, .userPopout-3XzG_A .headerNormal-T_seeN 
@@ -96,7 +96,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Reactors Reactions Modal */, .reactorDefault-1IUqMZ .remove-3V-yj8:hover /* Reactors Reaction Modal */, .emptyContainer-1_gwCl /* Empty Container Guild Discovery */,
 .purchaseUnit-2lxci3 .bodySection-jqkkIP /* Purchase Unit Store - Individual Boxes */, .folder-21wGz3.hover-2ji_A7 /* Open Folder Hover Animation */, .scroller-1JbKMe 
 /* Scroller DM Chats */, .members-1998pB, .members-1998pB > div /* Members Wrap Inner */, .scroller-2TZvBN /* Guild Wrapper */, .contentRegionScroller-26nc1e 
-/* Content Region Settings */, .sidebarRegionScroller-3MXcoP /* Sidebar Region Settings */, .layer-v9HyYc .body-3iLsc4 /* User Popout Body */ {
+/* Content Region Settings */, .sidebarRegionScroller-3MXcoP /* Sidebar Region Settings */, .userPopout-3XzG_A .body-3iLsc4 /* User Popout Body */, .scroller-zPkAnE 
+/* Quickswitcher Scroller */ {
   background-color: transparent;
 }
 
@@ -112,10 +113,10 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 .layer-v9HyYc .container-3ayLPN /* Search Popup */, .popout-2iWAc- .popoutList-T9CKZQ /* Member Filter Popout */, .layer-v9HyYc .modal-yWgWj- /* Invite to DMs Popup */,
-.layer-v9HyYc .messagesPopoutWrap-1MQ1bW /* Pin/Mentions Popout */, .layer-v9HyYc .popout-13LQ_3 /* Popout Friends Table */, .contentWrapper-2txmjs, .emojiPicker-3PwZFl 
-/* Emoji Picker */, .categoryWrapper-UZ5YNj /* Server Header Emoji Picker */, .layer-v9HyYc .colorPickerCustom-2CWBn2 /* Color Picker Roles */, .layer-v9HyYc .popout-38lTFE 
-/* Popout Friends Activity */, .layer-v9HyYc .guildPopout-3CgKqR /* Guild Popout "Server" Hook */, .css-123uooi-menu /* Language Selector Discover */, .popout-2iWAc- 
-.everyonePopout-nEbJY3 /* @everyone Ping Warning */ {
+.layer-v9HyYc .messagesPopoutWrap-1MQ1bW, .layer-v9HyYc .recentMentionsPopout-3rCiI6 /* Pin/Mentions Popout */, .layer-v9HyYc .popout-13LQ_3 /* Popout Friends Table */, 
+.contentWrapper-SvZHNd, .emojiPicker-3PwZFl /* Emoji Picker */, .wrapper-1-Fsb8 /* Server Header Emoji Picker */, .layer-v9HyYc .colorPickerCustom-2CWBn2 
+/* Color Picker Roles */, .layer-v9HyYc .popout-38lTFE /* Popout Friends Activity */, .layer-v9HyYc .guildPopout-3CgKqR /* Guild Popout "Server" Hook */, .css-123uooi-menu 
+/* Language Selector Discover */, .popout-2iWAc- .everyonePopout-nEbJY3 /* @everyone Ping Warning */ {
   background-color: var(--ColPopout);
 }
 
@@ -197,7 +198,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Active Channel Guild (Moving+Hovered) */, .searchBar-3dMhjb /* Channel Search Searchbar */,
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover /* Settings Tab Hover */, .modal-yWgWj- .inviteRow-2L02ae:hover /* Invite Friends Modal Row */, 
 .modal-yWgWj- .friendSelected-1sa4bG /* Invite Friends to DM Modal Row */, .quickswitcher-3JagVE .resultFocused-3aIoYe /* Quickswitcher Selected Channel */, 
-.attachPopoutRow-3iqqu1:hover /* Popout Upload/Send Invite Row */, .inspector-sdLnLS, .wrapper-2N7X54 /* Info & Guild List Emoji Picker */, .emojiPicker-3PwZFl .scroller-2FKFPG
+.attachPopoutRow-3iqqu1:hover /* Popout Upload/Send Invite Row */, .inspector-sdLnLS, .wrapper-2Gsate /* Info & Guild List Emoji Picker */, .emojiPicker-3PwZFl .scroller-2FKFPG
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV /* Emoji Picker Selected Emoji */, .diversitySelectorPopout-3FiGaM .diversityEmojiItem-L6_IXw:hover /* Hover Diversity Picker Row */, 
 .auditLog-3jNbM6 .changeDetails-bk98pu /* Audit Log Entry */, .scroller-2FKFPG .selectableItem-1MP3MQ:hover /* Selectable Item Selected (e.g. Audit Log Popout) */, 
 .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh /* Voice Channel User Hover Effect */, .emojiRow-zIc7ZX.card-FDVird::before /* Emoji Row Server Settings */,
@@ -226,13 +227,13 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .header-2-Imhb.header-ykumBX .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa /* Mentions Popup Mentions Tag */, .secondary-dIudih /* Filter Button Mentions Popup */, 
 .messageContainer-gbhlwo /* Message Container Recent Mentions */, .tertiary-aMXF0g /* Tertiary Color - used in Jump Button Recent Mentions */, 
 .categoryItemDefaultCategorySelected-_HCKoz:hover, .categoryItemDefaultCategory-aBZ6nJ:hover /* Category Hover Emoji Picker */, .guildIcon-3h-1IH /* Guild Icons Emoji Picker */,
-.navButton-3Mnpqt:hover /* Nav Button Emoji Picker */, .modal-yWgWj- .sidebar-1-SQro /* Sidebar Reactions Modal */, .modal-yWgWj- .reactors-Blmlhw .reactorDefault-1IUqMZ:hover
+.navButton-2gQCx-:hover /* Nav Button Emoji Picker */, .modal-yWgWj- .sidebar-1-SQro /* Sidebar Reactions Modal */, .modal-yWgWj- .reactors-Blmlhw .reactorDefault-1IUqMZ:hover
 /* Reactors Reaction Modal */, .sidebar-1-SQro .reactionDefault-GBA58K:hover /* Sidebar Reactions Modal Reaction Hovered */, .powercord .powercord-entities-manage-tabs 
 /* Powercord Entities Tab Theme */, .guildList-3cJX3d .card-3DjzTQ /* Discover Cards */, .optionContainer-15srkc /* Option Container Join Rules */, .searchPage-3GKAdT 
 .search-1iTphC .searchBox-2_mAlO /* Search Box Discover */, .css-1o55ng5-control, .css-1b86x2o-control, .css-9wh895-control /* Language Select Discover */, 
 .categoryPill-34fszg:hover:not(.selected-1dONk0) /* Category Pill Hover Discover */, .emojiContainer-1u-_sQ /* Emoji Preview Discover */, .wrapper-35wsBm /* Guild Invite Chat */, 
 .powercord-quickcss:not(.popped-out), .powercord-quickcss .CodeMirror-gutters /* Powercord QuickCSS Not Popped Out */, .everyonePopout-nEbJY3 .footer-2aTx0s 
-/* @everyone Popout Footer */, .powercord-sdk .title-3qD0b- /* Powercord SDK Titlebar */ {
+/* @everyone Popout Footer */, .powercord-sdk .title-3qD0b- /* Powercord SDK Titlebar */, .messages-3G3erD /* Background Unreads Popout */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -246,10 +247,10 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .acronym-2mOFsV, .childWrapper-anI2G9 /* Server without Icon & Home Icon */, .expandedFolderBackground-2sPsd-, .closedFolderIconWrapper-15K9MK /* Guild Folder */, 
 .iconSizeSmol-2Dw61G.iconInactive-98JN5i.noIcon-1a_FrS /* Closed Guild Folder Uniconed Guild */, .wrapper-2a6GCs .channelTextArea-2VhZ6z /* Message Editor */, 
 .menu-Sp6bN1 .itemActive-2V2HNc /* Selected Status */, .container-2Pjhx-.selected-aXhQR6 .layout-2DM8Md /* Member List Selected (User Popup open) */,
-.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g /* Primary Card (User Viewing/Editing) */, .messagesPopoutWrap-1MQ1bW .header-ykumBX /* Header Pin/Mentions Popout */,
-.modal-yWgWj- .footer-1FPmkC /* Invite Friends Modal Footer */, .container-2XeR5Z /* Invite Friends Modal Search Bar */, .input-2VB9rf /* Quickswitcher Search Bar */,
-.messagesPopoutWrap-1MQ1bW .footer-1kmXd4 /* Footer Pin/Mentions Popout */, .modal-yWgWj- .footer-1eyGBa /* Invite to DMs Popup Footer */, .tag-2gHSR7 
-/* Invite Friends to DM Modal Tag Search Bar */, .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G /* Message Group Wrapper Pin/Mention Popup */, .emojiPicker-3m1S-j 
+.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g /* Primary Card (User Viewing/Editing) */, .messagesPopoutWrap-1MQ1bW .header-ykumBX, 
+.recentMentionsPopout-3rCiI6 .header-ykumBX /* Header Pin/Mentions Popout */, .modal-yWgWj- .footer-1FPmkC /* Invite Friends Modal Footer */, .container-2XeR5Z 
+/* Invite Friends Modal Search Bar */, .input-2VB9rf /* Quickswitcher Search Bar */, .messagesPopoutWrap-1MQ1bW .footer-1kmXd4, .recentMentionsPopout-3rCiI6 .footer-1kmXd4
+/* Footer Pin/Mentions Popout */, .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G /* Message Group Wrapper Pin/Mention Popup */, .emojiPicker-3m1S-j 
 .categories-1feg4n /* Categories Emoji Picker */, .modal-yWgWj- .footer-3rDWdC /* Footer Modal (e.g.: Nickname Change) */, .input-cIJ7To /* Text Input Boxes */,
 .container-1s4HBn.container-1nZlH6 /* Button + Text Input Boxes (e.g.: Server Region) */, .css-15ejc46-control /* Selection Input Boxes */, .switch-3wwwcV /* Default Switch */,
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 /* Region Select Modal Option */, .auditLog-3jNbM6 .header-GwIGlr /* Header Audit Log Entry */, .container-cMG81i 
@@ -296,11 +297,12 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Channels/Roles Wrapper Server Template Modal */, .descriptionBox-1EKQKL /* Description Box Server Template Menu */, .header-1RC2Wb:hover /* Gift Inventory */, 
 .secondary-dIudih:hover /* Filter Button Mentions Popup */, .itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL.active-1xchHY, 
 .itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL:hover /* Friends Menu Active Now Row Hover and Active */, .tertiary-aMXF0g:hover 
-/* Tertiary Color - used in Jump Button Recent Mentions */, .categoryItemDefaultCategorySelected-_HCKoz /* Category Selected Emoji Picker */, .navButtonActive-3RPAJy 
+/* Tertiary Color - used in Jump Button Recent Mentions */, .categoryItemDefaultCategorySelected-_HCKoz /* Category Selected Emoji Picker */, .navButtonActive-1MkytQ 
 /* Nav Button Emoji Picker */, .sidebar-1-SQro .reactionSelected-1pqISm /* Sidebar Reactions Modal Reaction Selected */, .guildList-3cJX3d .card-3DjzTQ:hover 
 /* Discover Cards */, .optionContainer-15srkc:hover /* Option Container Join Rules */, .css-12o7ek3-option /* Selected Language Language Selector Discover */, 
 .expandedFolderIconWrapper-1xLaU- /* Opened Folder Background */, .item-3eFBNF.selected-2DeaDa /* Selected Language Selector */, .modal-yWgWj- .footer-2gL1pp 
-/* New Audio Device Modal Footer */ {
+/* New Audio Device Modal Footer */, .modal-yWgWj- .footer-1eyGBa /* Invite to DMs Popup Footer */, .tag-2gHSR7 /* Invite Friends to DM Modal Tag Search Bar */, .tutorial-3w5I9h
+/* Tutorial Unreads */ {
   background-color: var(--ColTransparent1);
 }
 
@@ -953,11 +955,11 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 }
 
 /* Messages Popout Wrap */
-.messagesPopoutWrap-1MQ1bW /* Mentions and Pin Popout */ {
+.messagesPopoutWrap-1MQ1bW, .recentMentionsPopout-3rCiI6 /* Mentions and Pin Popout */ {
   width: 550px;
 }
 
-.messagesPopoutWrap-1MQ1bW .mention {
+.messagesPopoutWrap-1MQ1bW .mention, .recentMentionsPopout-3rCiI6 .mention {
   pointer-events: all;
 }
 
@@ -1697,11 +1699,15 @@ html::before {
 
 /* Recent Mentions */
 .channelHeader-3Gd2xq {
-  padding-right: 16px;
+  padding-right: 10px;
   border-radius: 8px 8px 0 0;
 }
 
-.container-3iAQ-0 .messageContainer-gbhlwo {
+.collapseButton-2ZsEjz {
+  left: -18px;
+}
+
+.container-3iAQ-0 .messageContainer-gbhlwo, .messages-3G3erD {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -1720,7 +1726,7 @@ html::before {
   height: 56px;
 }
 
-.emojiItem-14v6tW .emojiItemImageLoading-1yEIxx /* Fix Loading Emojis */ {
+.emojiItem-14v6tW .imageLoading-bpSr0M /* Fix Loading Emojis */ {
   background-image: none;
   background-color: var(--ColTransparent2);
   border-radius: 30%;
