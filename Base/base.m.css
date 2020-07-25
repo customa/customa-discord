@@ -97,7 +97,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .purchaseUnit-2lxci3 .bodySection-jqkkIP /* Purchase Unit Store - Individual Boxes */, .folder-21wGz3.hover-2ji_A7 /* Open Folder Hover Animation */, .scroller-1JbKMe 
 /* Scroller DM Chats */, .members-1998pB, .members-1998pB > div /* Members Wrap Inner */, .scroller-2TZvBN /* Guild Wrapper */, .contentRegionScroller-26nc1e 
 /* Content Region Settings */, .sidebarRegionScroller-3MXcoP /* Sidebar Region Settings */, .userPopout-3XzG_A .body-3iLsc4 /* User Popout Body */, .scroller-zPkAnE 
-/* Quickswitcher Scroller */ {
+/* Quickswitcher Scroller */, .scroller-305q3I /* Role Scroller Settings */ {
   background-color: transparent;
 }
 
@@ -197,8 +197,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .wrapper-1ucjTd:active .content-3at_AU /* Active Channel Guild (Moving) */, .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU
 /* Active Channel Guild (Moving+Hovered) */, .searchBar-3dMhjb /* Channel Search Searchbar */,
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover /* Settings Tab Hover */, .modal-yWgWj- .inviteRow-2L02ae:hover /* Invite Friends Modal Row */, 
-.modal-yWgWj- .friendSelected-1sa4bG /* Invite Friends to DM Modal Row */, .quickswitcher-3JagVE .resultFocused-3aIoYe /* Quickswitcher Selected Channel */, 
-.attachPopoutRow-3iqqu1:hover /* Popout Upload/Send Invite Row */, .inspector-sdLnLS, .wrapper-2Gsate /* Info & Guild List Emoji Picker */, .emojiPicker-3PwZFl .scroller-2FKFPG
+.friendWrapper-2SrUFF .friendSelected-1sa4bG /* Invite Friends to DM Modal Row */, .quickswitcher-3JagVE .resultFocused-3aIoYe /* Quickswitcher Selected Channel */, 
+.attachPopoutRow-3iqqu1:hover /* Popout Upload/Send Invite Row */, .inspector-sdLnLS, .wrapper-2Gsate /* Info & Guild List Emoji Picker */,
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV /* Emoji Picker Selected Emoji */, .diversitySelectorPopout-3FiGaM .diversityEmojiItem-L6_IXw:hover /* Hover Diversity Picker Row */, 
 .auditLog-3jNbM6 .changeDetails-bk98pu /* Audit Log Entry */, .scroller-2FKFPG .selectableItem-1MP3MQ:hover /* Selectable Item Selected (e.g. Audit Log Popout) */, 
 .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh /* Voice Channel User Hover Effect */, .emojiRow-zIc7ZX.card-FDVird::before /* Emoji Row Server Settings */,
@@ -334,7 +334,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .questionMark-CWEQZn.flexCenter-3_1bcw, .questionMark-CWEQZn.flexCenter-3_1bcw:hover /* Question Mark Button ID Change Non Nitro */, .tooltip-2QfLtc.tooltipBrand-g03Nz8 
 /* Brand Color Tooltip */, .badge-2qGa_k::after /* Badge Input */, .content-3O0wBS /* Video Chat Message */, 
 .colorDefault-2K3EoJ.focused-3afm-j:not(.colorDanger-2qLCe1):not(.colorBrand-ROmMP1) /* Rightclick menu hover effect */, .categoryPill-34fszg.selected-1dONk0 
-/* Category Pill Server Discovery */ {
+/* Category Pill Server Discovery */, .paymentSourceRow-3FbcL_ .premiumIndicator-1XvbfM /* Premium Indicator Payment Methods */ {
   background-color: var(--ColAccent);
 }
 
@@ -649,77 +649,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   z-index: -1;
 }
 
-/* Custom Message Area */
-.form-2fGMdU, .channelTextArea-rNsIhG /* Remove Margins */ {
-  margin: 0;
-  padding: 0;
-}
-
-.form-2fGMdU > div:not(.typing-2GQL18) /* Discord why do you keep breaking my stuff */ {
-  width: 100%;
-}
-
-.scrollableContainer-2NUZem .slateContainer-3Qkn2x, .scrollableContainer-2NUZem .buttons-3JBrkn, .form-2fGMdU /* Adjust Size of the Message Area */ {
-  min-height: 53px;
-}
-
-.buttons-3JBrkn {
-  transform: translateX(200px);
-  transition: transform 200ms 400ms;
-}
-
-.form-2fGMdU:hover .buttons-3JBrkn, .comment-4IWttf:hover .buttons-3JBrkn {
-  transform: translateX(0);
-  transition: transform 200ms;
-}
-
-.attachButton-2WznTc /* Adjust Upload Button Height */ {
-  padding: 16px 0 12px 6px;
-  height: 52px;
-}
-
-.comment-4IWttf .emojiButtonNormal-TdumYh /* Emoji Button Upload */ {
-  padding-top: 7px;
-  padding-right: 7px;
-}
-
-.attachWrapper-2TRKBi /* Attach Wrapper no hover */ {
-  width: 0;
-  overflow: hidden;
-  transition: width 200ms 400ms;
-}
-
-.form-2fGMdU:hover .attachWrapper-2TRKBi /* Attach Wrapper when the textarea gets hovered */ {
-  width: 30px;
-  transition: width 200ms;
-}
-
-.scrollableContainer-2NUZem .placeholder-37qJjk, .scrollableContainer-2NUZem .markup-2BOw-j /* Text Block Height */ {
-  padding-top: 17px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-  min-height: 24px;
-}
-
-.channelTextArea-2VhZ6z .attachButtonInner-PQjIyk::before /* Replace with new Upload Button */ {
-  content: "\e900";
-  font-family: Customa-Misc, sans-serif;
-  font-size: 24px;
-  bottom: 16px;
-  color: var(--ColFont);
-  display: block;
-  position: absolute;
-  z-index: -1;
-}
-
-.attachButtonPlay-3iJ0mf /* Attach Button Playing */ {
-  /* stylelint-disable max-line-length */
-  /* clean-css ignore:start */
-  d: path("M19.0532 14C20.3792 14 21.6512 14.5268 22.5887 15.4645C23.5264 16.4021 24.0532 17.6739 24.0532 19C24.0532 20.326 23.5264 21.598 22.5887 22.5355C21.651 23.4732 20.3793 24 19.0532 24C17.7272 24 16.4554 23.4732 15.5177 22.5355C14.58 21.598 14.0532 20.326 14.0532 19C14.0532 16.2386 16.2918 14 19.0532 14Z");
-  /* clean-css ignore:end */
-  /* stylelint-enable */
-}
-
 /* Typing Indicator */
 .panels-j1Uci_ {
   border-top-right-radius: 10px;
@@ -780,6 +709,17 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 .form-2fGMdU {
   display: flex;
   justify-content: left;
+}
+
+.chatContent-a9vAAp .form-2fGMdU::before {
+  content: "";
+  display: block;
+  width: 8px;
+  background: var(--ColBackground1);
+  position: absolute;
+  z-index: 200;
+  left: -8px;
+  height: calc(100% - 53px);
 }
 
 /* Join to game Bar Textarea */
@@ -903,6 +843,145 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   display: block!important;
 }
 
+/* Custom Message Area */
+.form-2fGMdU, .channelTextArea-rNsIhG /* Remove Margins */ {
+  margin: 0;
+  padding: 0;
+}
+
+.form-2fGMdU > div:not(.typing-2GQL18) /* Discord why do you keep breaking my stuff */ {
+  width: 100%;
+}
+
+.scrollableContainer-2NUZem .slateContainer-3Qkn2x, .scrollableContainer-2NUZem .buttons-3JBrkn, .form-2fGMdU /* Adjust Size of the Message Area */ {
+  min-height: 53px;
+}
+
+.buttons-3JBrkn {
+  transform: translateX(200px);
+  transition: transform 200ms 400ms;
+}
+
+.form-2fGMdU:hover .buttons-3JBrkn, .comment-4IWttf:hover .buttons-3JBrkn {
+  transform: translateX(0);
+  transition: transform 200ms;
+}
+
+.attachButton-2WznTc /* Adjust Upload Button Height */ {
+  padding: 16px 0 12px 6px;
+  height: 52px;
+}
+
+.comment-4IWttf .emojiButtonNormal-TdumYh /* Emoji Button Upload */ {
+  padding-top: 7px;
+  padding-right: 7px;
+}
+
+.attachWrapper-2TRKBi /* Attach Wrapper no hover */ {
+  width: 0;
+  overflow: hidden;
+  transition: width 200ms 400ms;
+}
+
+.form-2fGMdU:hover .attachWrapper-2TRKBi /* Attach Wrapper when the textarea gets hovered */ {
+  width: 30px;
+  transition: width 200ms;
+}
+
+.scrollableContainer-2NUZem .placeholder-37qJjk, .scrollableContainer-2NUZem .markup-2BOw-j /* Text Block Height */ {
+  padding-top: 17px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  min-height: 24px;
+}
+
+.channelTextArea-2VhZ6z .attachButtonInner-PQjIyk::before /* Replace with new Upload Button */ {
+  content: "\e900";
+  font-family: Customa-Misc, sans-serif;
+  font-size: 24px;
+  bottom: 16px;
+  color: var(--ColFont);
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+
+.attachButtonPlay-3iJ0mf /* Attach Button Playing */ {
+  /* stylelint-disable max-line-length */
+  /* clean-css ignore:start */
+  d: path("M19.0532 14C20.3792 14 21.6512 14.5268 22.5887 15.4645C23.5264 16.4021 24.0532 17.6739 24.0532 19C24.0532 20.326 23.5264 21.598 22.5887 22.5355C21.651 23.4732 20.3793 24 19.0532 24C17.7272 24 16.4554 23.4732 15.5177 22.5355C14.58 21.598 14.0532 20.326 14.0532 19C14.0532 16.2386 16.2918 14 19.0532 14Z");
+  /* clean-css ignore:end */
+  /* stylelint-enable */
+}
+
+
+/* Upload Modal Fixes */
+.uploadModal-2ifh8j .file-34mY5K .image-2yrs5j {
+  width: 200px!important;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: transparent;
+  z-index: 1;
+  position: relative;
+}
+
+.uploadModal-2ifh8j .file-34mY5K .image-2yrs5j::before {
+  content: "";
+  background-image: inherit;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 2px;
+  left: 2px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  z-index: 0;
+  filter: blur(5px) brightness(50%);
+  transform: scale(1.2);
+}
+
+.uploadModal-2ifh8j .file-34mY5K .image-2yrs5j::after {
+  content: "";
+  background-image: inherit;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  border-radius: 6px;
+  z-index: 5;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+  border: 2px solid var(--ColAccent);
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo, .uploadModal-2ifh8j .inner-3nWsbo {
+  border: 3px dashed var(--ColAccent);
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo {
+  border-radius: 10px;
+  margin: 1.5% 2% 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.uploadModal-2ifh8j .buttons-3JBrkn {
+  transform: unset;
+}
+
+.uploadModal-2ifh8j .inner-MADQqc {
+  max-height: 670px;
+  transform: translateX(0);
+}
+
 /* Better Message Editor */
 .message-2qnXI6.wrapper-2a6GCs .contents-2mQqc9 > div:last-child:not(.markup-2BOw-j) {
   display: flex;
@@ -976,72 +1055,11 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   color: var(--ColAccent)!important;
 }
 
-/* Upload Modal Fixes */
-.uploadModal-2ifh8j .file-34mY5K .image-2yrs5j {
-  width: 200px!important;
-  background-size: contain;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  background-color: transparent;
-  z-index: 1;
-  position: relative;
-}
-
-.uploadModal-2ifh8j .file-34mY5K .image-2yrs5j::before {
-  content: "";
-  background-image: inherit;
-  position: absolute;
-  width: 200px;
-  height: 100px;
-  top: 2px;
-  left: 2px;
-  border-radius: 8px;
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  z-index: 0;
-  filter: blur(5px) brightness(50%);
-  transform: scale(1.2);
-}
-
-.uploadModal-2ifh8j .file-34mY5K .image-2yrs5j::after {
-  content: "";
-  background-image: inherit;
-  position: absolute;
-  width: 200px;
-  height: 100px;
-  border-radius: 6px;
-  z-index: 5;
-  background-size: contain;
-  background-position: 50%;
-  background-repeat: no-repeat;
-}
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
-  border: 2px solid var(--ColAccent);
-}
-
-.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo, .uploadModal-2ifh8j .inner-3nWsbo {
-  border: 3px dashed var(--ColAccent);
-}
-
-.uploadModal-2ifh8j .inner-3nWsbo {
-  border-radius: 10px;
-  margin: 1.5% 2% 3%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.uploadModal-2ifh8j .inner-MADQqc {
-  max-height: 670px;
-}
-
 /* Powercord specifics */
 .powercord-toast-container .powercord-toast {
   background-color: var(--ColBackground1);
   border: none;
+  z-index: 10001;
 }
 
 .powercord-toast-container .powercord-toast .header /* Powercord Updater Popup Header */, .powercord-updater .update .summary a /* Powercord Update Commit Hashes */ {
@@ -1110,6 +1128,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   bottom: 52px;
   right: 0;
   width: 40vw;
+  z-index: 10000;
 }
 
 .notice-2FJMB4 + .content-98HsJk .membersWrap-2h-GB4 {
@@ -1269,7 +1288,7 @@ path.fill {
 }
 
 /* Fix Search Pagination */ 
-.pagination-1m6Ll- {
+.pagination-2KMrRB {
   position: fixed;
   bottom: 0;
   width: 418px;
@@ -1763,4 +1782,25 @@ html::before {
 
 .powercord-documentation table tr:not(:nth-child(even)), .powercord-documentation h6 {
   background-color: var(--ColTransparent1)!important;
+}
+
+/* BetterQuoter Fix */
+.form-2fGMdU > .quoteContainer {
+  width: unset!important;
+  position: absolute;
+  bottom: 100%;
+  background-color: var(--ColBackground1);
+}
+
+.modifiedQuote {
+  background-color: transparent;
+}
+
+.quoteContainer .button-2CgfFz, .quoteContainer .button-2CgfFz:hover {
+  background-color: var(--ColBackground1);
+}
+
+.css-n57xjs-menu {
+  z-index: 2;
+  background-color: var(--ColBackground1);
 }
