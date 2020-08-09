@@ -1701,7 +1701,7 @@ html::before {
   align-items: center;
 }
 
-.icon-2Po-VO[style*="b8029fe196b8f1382e90bbe81dab50dc.svg"]::before {
+.powercord .icon-2Po-VO[style*="b8029fe196b8f1382e90bbe81dab50dc.svg"]::before {
   content: "\f178";
   font-family: "Font Awesome 5 Pro", sans-serif!important;
   color: var(--ColAccent);
