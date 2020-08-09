@@ -29,7 +29,7 @@ async function main() {
   }
   let css = [];
   let advanced = [];
-  let t = await convertPlugin(porkord);
+  let t = await convertPlugin(porkord, true);
   css.push(t.css);
   advanced.push(t.advanced);
   for (const plug of porkord.plugins) {
@@ -96,9 +96,9 @@ async function fetchImports(css) {
           if (rgx.test(url)) {
             localFile = el.isLocalFile || false;
             url = url.replace(rgx, el.to);
-						if (localFile) {
-							url = path.resolve(__dirname, url);
-						}
+            if (localFile) {
+              url = path.resolve(__dirname, url);
+            }
             break;
           }
         }
@@ -151,7 +151,7 @@ function getFirstGroup(regex, flags, str) {
 /**
  * Creates dropdown to toggle plugin and calls convertOption for each plugin option.
  */
-async function convertPlugin(plugin) {
+async function convertPlugin(plugin, enableByDefault) {
   console.log(`Converting plugin ${plugin.name}...`);
   let content = await fetchImports(
     await fs.readFile(path.resolve(__dirname, plugin.theme || plugin.file), {
@@ -166,12 +166,21 @@ async function convertPlugin(plugin) {
       content = res.css;
       advanced += `${res.advanced}\r\n`;
     }
-  advanced = `@advanced dropdown enable-${name} "Enable ${plugin.name}" {
+  if (enableByDefault) {
+    advanced = `@advanced dropdown enable-${name} "Enable ${plugin.name}" {
 	enable-${name}-yes "Yes" <<<EOT ${content} EOT;
 	enable-${name}-no "No" <<<EOT /*${name} disabled*/ EOT;
 }
 ${advanced}
 `;
+  } else {
+    advanced = `@advanced dropdown enable-${name} "Enable ${plugin.name}" {
+	enable-${name}-no "No" <<<EOT /*${name} disabled*/ EOT;
+	enable-${name}-yes "Yes" <<<EOT ${content} EOT;
+}
+${advanced}
+`;
+  }
   console.log(`Converted plugin ${plugin.name}.`);
   return { css: `/*[[enable-${name}]]*/`, advanced: escCss(advanced) };
 }
@@ -218,9 +227,16 @@ async function convertOption(option, css) {
       let i = 0;
       for (const sel of option.options) {
         i++;
-        atmp += `	${option.variable}-${i} "${sel.label}${
-          sel.value === defVal ? "*" : ""
-        }" <<<EOT ${sel.value} EOT;\r\n`;
+        if (sel.value === defVal) {
+          atmp =
+            `	${option.variable}-${i} "${sel.label}${
+              sel.value === defVal ? "*" : ""
+            }" <<<EOT ${sel.value} EOT;\r\n` + atmp;
+        } else {
+          atmp += `	${option.variable}-${i} "${sel.label}${
+            sel.value === defVal ? "*" : ""
+          }" <<<EOT ${sel.value} EOT;\r\n`;
+        }
       }
       console.log(
         `Converted option ${option.name}. Type: dropdown, Variable: ${option.variable}, Default value: ${defVal}`
