@@ -153,6 +153,11 @@ The Customa.css file:
 
 In this repository you can find a powercord_manifest.json file, which consists of a basic setup which executes the base module and nothing else. This also requires you to [clone](https://www.git-scm.com/docs/git-clone) the entire repo with git. This is the best fit if you are planning to contribute to Customa with own modules or bugfixes, which is greatly appreciated!
 
+### Web browsers
+
+- Install "Stylus" extension (xStyle also works, but all colors are reset to black).
+- [Install UserCSS](https://customa.gitlab.io/Customa-Discord/customa.user.css)
+
 ### BetterDiscordv1
 
 *Supported but legacy way of using Customa.*
