@@ -1,0 +1,9 @@
+{
+  "importReplaces": [
+    {
+      "regex": "https:\\/\\/customa\\.gitlab\\.io\\/Customa-Discord\\/",
+      "to": "./",
+      "isLocalFile": true
+    }
+  ]
+}
