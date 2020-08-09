@@ -16,7 +16,8 @@
     },
     "homepage": "https://github.com/Customa/Customa#readme",
     "devDependencies": {
-        "gulp": "^4.0.0",
-        "gulp-clean-css": "^4.0.0"
+        "gulp": "^4.0.2",
+        "gulp-clean-css": "^4.3.0",
+        "node-fetch": "^2.6.0"
     }
 }
