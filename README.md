@@ -22,6 +22,7 @@ Bold statement don't you think? Let me keep up with the statement from above...
     * [Powercord](#powercord)
     * [Manual](#manual)
     * [Cloning](#cloning)
+    * [Web browsers](#web-browsers)
     * [BetterDiscordv1](#betterdiscordv1)
 * [4. Further Info](#4-further-info)
     * [Who is working on the theme?](#who-is-working-on-the-theme)
@@ -155,8 +156,10 @@ In this repository you can find a powercord_manifest.json file, which consists o
 
 ### Web browsers
 
-- Install "Stylus" extension (xStyle also works, but all colors are reset to black).
-- [Install UserCSS](https://customa.gitlab.io/Customa-Discord/customa.user.css)
+*There are some issues due to Content Security Policy*
+
+* Install "Stylus" extension (xStyle also works, but all colors are reset to black).
+* [Install UserCSS](https://customa.gitlab.io/Customa-Discord/customa.user.css)
 
 ### BetterDiscordv1
 
