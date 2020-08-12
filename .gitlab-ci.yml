@@ -6,6 +6,8 @@ pages:
     - npm install
     - npm run minify
     - mv dist public
+    - node powercord-to-usercss.js
+    - mv customa.user.css public
   artifacts:
     paths:
       - public

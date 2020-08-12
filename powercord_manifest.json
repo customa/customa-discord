@@ -651,7 +651,7 @@
         {
             "name": "Custom Settings Modal",
             "description": "Custom/Old Settings Modal with Icons corresponding to the right menu item",
-            "file": "./Misc/customSettings.m.css",
+            "file": "./Misc/customSettingsModal.m.css",
             "settings": {
                 "format": "css",
                 "options": [

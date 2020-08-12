@@ -22,6 +22,7 @@ Bold statement don't you think? Let me keep up with the statement from above...
     * [Powercord](#powercord)
     * [Manual](#manual)
     * [Cloning](#cloning)
+    * [Web browsers](#web-browsers)
     * [BetterDiscordv1](#betterdiscordv1)
 * [4. Further Info](#4-further-info)
     * [Who is working on the theme?](#who-is-working-on-the-theme)
@@ -152,6 +153,13 @@ The Customa.css file:
 #### Cloning
 
 In this repository you can find a powercord_manifest.json file, which consists of a basic setup which executes the base module and nothing else. This also requires you to [clone](https://www.git-scm.com/docs/git-clone) the entire repo with git. This is the best fit if you are planning to contribute to Customa with own modules or bugfixes, which is greatly appreciated!
+
+### Web browsers
+
+*There are some issues due to Content Security Policy*
+
+* Install "Stylus" extension (xStyle also works, but all colors are reset to black).
+* [Install UserCSS](https://customa.gitlab.io/Customa-Discord/customa.user.css)
 
 ### BetterDiscordv1
 
