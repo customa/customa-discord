@@ -97,7 +97,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .purchaseUnit-2lxci3 .bodySection-jqkkIP /* Purchase Unit Store - Individual Boxes */, .folder-21wGz3.hover-2ji_A7 /* Open Folder Hover Animation */, .scroller-1JbKMe 
 /* Scroller DM Chats */, .members-1998pB, .members-1998pB > div /* Members Wrap Inner */, .scroller-2TZvBN /* Guild Wrapper */, .contentRegionScroller-26nc1e 
 /* Content Region Settings */, .sidebarRegionScroller-3MXcoP /* Sidebar Region Settings */, .userPopout-3XzG_A .body-3iLsc4 /* User Popout Body */, .scroller-zPkAnE 
-/* Quickswitcher Scroller */, .scroller-305q3I /* Role Scroller Settings */, .wrapper-3vR61M, .wrapper-1F5TKx /* New Loading Screen Chat Content */ {
+/* Quickswitcher Scroller */, .scroller-305q3I /* Role Scroller Settings */, .wrapper-3vR61M, .wrapper-1F5TKx /* New Loading Screen Chat Content */, .container-9gOVw0 
+/* Quoting*/ {
   background-color: transparent;
 }
 
@@ -334,7 +335,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .questionMark-CWEQZn.flexCenter-3_1bcw, .questionMark-CWEQZn.flexCenter-3_1bcw:hover /* Question Mark Button ID Change Non Nitro */, .tooltip-2QfLtc.tooltipBrand-g03Nz8 
 /* Brand Color Tooltip */, .badge-2qGa_k::after /* Badge Input */, .content-3O0wBS /* Video Chat Message */, 
 .colorDefault-2K3EoJ.focused-3afm-j:not(.colorDanger-2qLCe1):not(.colorBrand-ROmMP1) /* Rightclick menu hover effect */, .categoryPill-34fszg.selected-1dONk0 
-/* Category Pill Server Discovery */, .paymentSourceRow-3FbcL_ .premiumIndicator-1XvbfM /* Premium Indicator Payment Methods */ {
+/* Category Pill Server Discovery */, .paymentSourceRow-3FbcL_ .premiumIndicator-1XvbfM /* Premium Indicator Payment Methods */, .localBot-GrCgVt:before, 
+.replying-1x3H0T:before  /* Local Bot message and replying Side block */ {
   background-color: var(--ColAccent);
 }
 
@@ -360,7 +362,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .reaction-1hd86g.reactionMe-wv5HKu /* Reaction I reacted to */, .content-3dzVd8.isMentioned-N-h9aa /* Mentioned Messages background */, .mentioned-xhSam7 /* Mentioned Message */,
 .mouse-mode .message-2qnXI6.mentioned-xhSam7:hover, .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z /* Hovered Message also Mentioned */, .wrapper-3WhCwL 
 /* Wrapper Mention/Chat */, .mediaBarPreview-1jfyFs, .mediaBarPreview-1jfyFs::after, .mediaBarPreview-1jfyFs::before, .buffer-26XPkd, .buffer-26XPkd::after, 
-.buffer-26XPkd::before /* Media Player Bar Preview/Buffered */ {
+.buffer-26XPkd::before /* Media Player Bar Preview/Buffered */, .localBot-GrCgVt, .replying-1x3H0T /* Local Bot message and replying */ {
   background-color: var(--ColAccentAlpha);
 }
 
