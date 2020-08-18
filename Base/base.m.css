@@ -159,7 +159,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .popoutWrapper-eJpzc1 .popout-1k352f /* Stream Viewer Popout */, .container-2x5lvQ /* RTC Container Call */, .progress-LWvunf 
 .tierInProgress-3mBoXq /* Progress Bar Server Boost Tier Dot */, .content-yTz4x3 .searchResultsWrap-3-pOjs /* Search Results Wrapper */, .searchResultsWrap-3-pOjs 
 .searchResult-9tQ1uo .searchResultMessage-1fxgXh.hit-1fVM9e /* Search Results Message Box Guild Search Wrapper */, .container-VSDcQc /* Container Add Roles */, 
-.jumpToPresentBar-9P20AM /* Jump to Present Bar */, .inner-1ilYF7 .uploadModal-2ifh8j /* Upload Modal */, 
+.jumpToPresentBar-G1R9s6 /* Jump to Present Bar */, .inner-1ilYF7 .uploadModal-2ifh8j /* Upload Modal */, 
 .autocomplete-1vrmpx.autocomplete-Z9HwQh /* Autocomplete */, .css-181m2lf-menu /* Select Menu Background */, .button-2CgfFz.removeOverride-2sdvVX, 
 .button-2CgfFz.removeOverride-2sdvVX:hover /* Remove Notification Override Button */, .popouts-2bnG9Z .popout-2sKjHu /* Pay with popout Subscriptions Settings */, 
 .container-3PXSwK[style*="linear-gradient(to right, rgb(251, 184, 72), rgb(67, 181, 129))"] .progress-1IcQ3A /* Progress Bar Mic Test */, .wrapper-2aW0bm 
@@ -239,7 +239,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Feature Cards enable community */, .upsellContainer-L9xv7w, .upsellFooter-ZYsio_ /* Upsell Screen Community Overview Settings */, .optionContainer-1FtykV 
 /* Option Card Example Welcome Modal */, .root-1gCeng .footer-2gL1pp /* Footer Root Modal (Add recommended channel etc) */, .previewContainer-1SS3uO, .enableContainer-6E-puu 
 /* Preview Container Welcome Screen */, .welcomeChannel-1rFrIO /* Welcome Channel preview box */, .backgroundAccent-349kuI, .developerPortalCtaWrapper-2XNafh 
-/* Info Box Server Insights */, .card-3_CqkU.splashLoaded-2qGdo9 /* Server Cards Discovery Settings */, .container-2w0lh0, .header-2Y0-A- /* Discovery Checklist */ {
+/* Info Box Server Insights */, .card-3_CqkU.splashLoaded-2qGdo9 /* Server Cards Discovery Settings */, .container-2w0lh0, .header-2Y0-A- /* Discovery Checklist */, 
+.card-3RzMcx /* Empty Channel Hints */, .content-3YMskv .inviteRow-2L02ae:hover /* Invite Friends Row */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -304,7 +305,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Discover Cards */, .optionContainer-15srkc:hover /* Option Container Join Rules */, .css-12o7ek3-option /* Selected Language Language Selector Discover */, 
 .expandedFolderIconWrapper-1xLaU- /* Opened Folder Background */, .item-3eFBNF.selected-2DeaDa /* Selected Language Selector */, .modal-yWgWj- .footer-2gL1pp 
 /* New Audio Device Modal Footer */, .modal-yWgWj- .footer-1eyGBa /* Invite to DMs Popup Footer */, .tag-2gHSR7 /* Invite Friends to DM Modal Tag Search Bar */, .tutorial-3w5I9h
-/* Tutorial Unreads */, .modal-1O3czN .footer-2gL1pp /* Footer Enable Community */ {
+/* Tutorial Unreads */, .modal-1O3czN .footer-2gL1pp /* Footer Enable Community */, .card-3RzMcx:hover /* Empty Channel Hints */ {
   background-color: var(--ColTransparent1);
 }
 
@@ -313,7 +314,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 /* Accent Background */
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 /* Hover and Selected Home Button */, .newMessagesBar-mujexs 
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 /* Hover and Selected Home Button */, .newMessagesBar-265mhP 
 /* New Messages Bar */, .sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ /* Settings Tab Selected */, .wrapper-232cHJ /* Ping Wrapper */, .iconBadge-qZ4Ksk 
 /* New Pins Badge */, .switch-3wwwcV.valueChecked-m-4IJZ /* Enabled Switch */, .side-8zPYf6 .role-3wi9Tf.selected-3s45Ha.item-PXvHYJ /* Role Selection Selected Item */,
 .selectorButtonSelected-336oUc /* Stream Quality Buttons */, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span /* Checkbox Right */, .item-2hkk8m, 
@@ -783,7 +784,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 }
 
 /* Bars */
-.jumpToPresentBar-9P20AM {
+.jumpToPresentBar-G1R9s6 {
   width: fit-content!important;
   position: absolute!important;
   border-radius: 20px!important;
@@ -794,7 +795,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   padding: 0;
 }
 
-.newMessagesBar-mujexs {
+.newMessagesBar-265mhP {
   width: fit-content!important;
   border-radius: 20px!important;
   position: absolute!important;
@@ -802,7 +803,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   bottom: auto!important;
 }
 
-.jumpToPresentBar-9P20AM button:nth-child(2) /* Second Button of the Jump To Present Bar */, .newMessagesBar-mujexs button:nth-child(2) {
+.jumpToPresentBar-G1R9s6 button:nth-child(2) /* Second Button of the Jump To Present Bar */, .newMessagesBar-265mhP button:nth-child(2) {
   display: none;
 }
 
