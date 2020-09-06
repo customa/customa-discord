@@ -32,12 +32,12 @@
 }
 
 .powercord .listItem-2P_4kh.selected svg, .powercord .listItem-2P_4kh:hover svg, .powercord .listItem-2P_4kh a.selected-bZ3Lue, 
-.powercord .guilds-1SWlCJ .scroller-2FKFPG > div:not([data-ref-id="guildsnav"]) > .listItem-2P_4kh svg,
+.powercord .guilds-1SWlCJ .scroller-2TZvBN > div:not([data-ref-id="guildsnav"]) > .listItem-2P_4kh svg,
 .powercord div[data-ref-id="guildsnav"] ~ .listItem-2P_4kh svg /* Set Filter when server is hovered */ {
   filter: var(--FilterHover);
 }
 
-.wrapper-1Rf91z .scroller-2FKFPG /* Move Scroller to left to move guilds out of view */ {
+.wrapper-1Rf91z .scroller-2TZvBN /* Move Scroller to left to move guilds out of view */ {
   padding-left: 5px;
 }
 
