@@ -51,3 +51,18 @@
   height: 52px;
   width: 70px;
 }
+
+.membersGroup-v9BXpm {
+  transform: translateX(calc(var(--WidthSidebarMin) + 10px));
+  transition: transform var(--DurationWrapperMember);
+  padding: 4px 8px 4px 16px;
+  height: unset;
+}
+
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+  transform: translateX(0);
+}
+
+.content-yTz4x3 .scroller-11cdZM /* Fix for NSFW Channel */ {
+  min-width: 100%;
+}
