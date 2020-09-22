@@ -158,3 +158,12 @@
   opacity: 1;
   transition: opacity 200ms 400ms;
 }
+
+.wrapper-21YSNc::before {
+  transform: translateX(5px);
+  transition: transform 200ms;
+}
+
+.wrapper-1Rf91z:hover .wrapper-21YSNc::before {
+  transform: translateX(0);
+}
