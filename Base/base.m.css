@@ -117,7 +117,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .layer-v9HyYc .messagesPopoutWrap-1MQ1bW, .layer-v9HyYc .recentMentionsPopout-3rCiI6 /* Pin/Mentions Popout */, .layer-v9HyYc .popout-13LQ_3 /* Popout Friends Table */, 
 .contentWrapper-SvZHNd, .emojiPicker-3PwZFl /* Emoji Picker */, .wrapper-1-Fsb8.header-ywPcAE /* Server Header Emoji Picker */, .layer-v9HyYc .colorPickerCustom-2CWBn2 
 /* Color Picker Roles */, .layer-v9HyYc .popout-38lTFE /* Popout Friends Activity */, .layer-v9HyYc .guildPopout-3CgKqR /* Guild Popout "Server" Hook */, .css-123uooi-menu 
-/* Language Selector Discover */, .popout-2iWAc- .everyonePopout-nEbJY3 /* @everyone Ping Warning */, .container-ZRw2kD /* New Emoji Server Help */, .container-3LUQwT 
+/* Language Selector Discover */, .popout-2iWAc- .everyonePopout-nEbJY3 /* @everyone Ping Warning */, .popoutContainer-1MXdqN /* New Emoji Server Help */, .container-3LUQwT 
 /* Popout View as Role */ {
   background-color: var(--ColPopout);
 }
@@ -242,7 +242,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Preview Container Welcome Screen */, .welcomeChannel-1rFrIO /* Welcome Channel preview box */, .backgroundAccent-349kuI, .developerPortalCtaWrapper-2XNafh 
 /* Info Box Server Insights */, .card-3_CqkU.splashLoaded-2qGdo9 /* Server Cards Discovery Settings */, .container-2w0lh0, .header-2Y0-A- /* Discovery Checklist */, 
 .card-3RzMcx /* Empty Channel Hints */, .content-3YMskv .inviteRow-2L02ae:hover /* Invite Friends Row */, .emptyChannelIcon-cc932w /* Icon shown when a channel is empty */,
-.guildSection-1EoFKd /* Emoji Details Server Details */, .role-3ulsK-:hover /* View as Role Selected Role Rolelist */ {
+.guildSection-1EoFKd /* Emoji Details Server Details */, .role-3ulsK-:hover /* View as Role Selected Role Rolelist */, .tutorialIcon-3f1miQ /* Hint Icon Unread Popout */,
+.content-1LAB8Z .message-2qRu38 /* Message deletion */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -525,7 +526,8 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 }
 
 /* -- Box Shadows -- */
-.bannerVisible-14J9lQ .header-2o-2hj /* Replace Overdone Filter on Server Header with Banner */, .diversitySelectorPopout-3FiGaM /* Diversity Selector Emoji Picker */ {
+.bannerVisible-14J9lQ .header-2o-2hj /* Replace Overdone Filter on Server Header with Banner */, .diversitySelectorPopout-3FiGaM /* Diversity Selector Emoji Picker */,
+.content-1LAB8Z .message-2qRu38 /* Message deletion */ {
   box-shadow: var(--elevation-low);
 }
 
@@ -1842,7 +1844,7 @@ html::before {
 }
 
 /* Pinned messages fixes */
-.avatar-1BDn8e {
+.messagesPopoutWrap-1MQ1bW .avatar-1BDn8e {
   top: 14px;
   left: 10px;
 }
