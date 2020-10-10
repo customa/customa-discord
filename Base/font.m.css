@@ -31,9 +31,8 @@
   font-size: 15px!important;
 }
 
-code.inline, code.inline span /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .textAreaEdit-bNLDk3 span /* Edit Text Area */, pre code.hljs div *, 
-pre code.hljs div, .content-3dzVd8 .markup-2BOw-j pre code.hljs *, .content-3dzVd8 .markup-2BOw-j pre code.hljs /* Codeblocks */, .inlineCode-2ngu6Y span 
-/* Inline Codeblock Textarea */, .codeLine-14BKbG span, .codeBlockText-11zCaP span /* Normal Codeblock Textarea */ {
+code.inline, code.inline span /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .inlineCode-2ngu6Y span /* Inline Codeblock Textarea */, 
+.codeLine-14BKbG span, .codeBlockText-11zCaP span /* Normal Codeblock Textarea */, .message-2qnXI6 .messageContent-2qWWxC pre code.hljs * /* Codeblocks */ {
   font-family: var(--FontMonoFamily)!important;
 }
 
