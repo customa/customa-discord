@@ -83,7 +83,7 @@
   color: var(--ColAccent);
 }
 
-.wrapper-1Rf91z > div > div > .listItem-2P_4kh:nth-child(2) /* Remove Seperator between Home and Guilds */ {
+.guildSeparator-3s64Iy /* Remove Seperator between Home and Guilds */ {
   display: none;
 }
 
