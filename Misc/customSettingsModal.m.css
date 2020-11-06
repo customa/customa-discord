@@ -53,6 +53,10 @@
   left: 0;
 }
 
+.sidebarRegion-VFTUkN {
+  z-index: -1;
+}
+
 .sidebarRegion-VFTUkN, .contentTransitionWrap-3hqOEW {
   padding-bottom: 0!important;
 }
