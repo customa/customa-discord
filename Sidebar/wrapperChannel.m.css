@@ -29,7 +29,7 @@
   z-index: 1;
 }
 
-.sidebar-2K8pFh:hover + .chat-3bRxxu /* Move Chat away on Hover */, .sidebar-2K8pFh:hover + .container-1D34oG /* Friend */, .sidebar-2K8pFh:hover + .container-3Mxszk 
+.sidebar-2K8pFh:hover + .chat-3bRxxu /* Move Chat away on Hover */, .sidebar-2K8pFh:hover + .container-1D34oG /* Friend */, .sidebar-2K8pFh:hover + .container-3Mxszk
 /* Game Library */, .sidebar-2K8pFh:hover + .applicationStore-1pNvnv /* Nitro Store */ {
   transform: translateX(0);
   transition: all var(--DurationWrapperChannel) var(--DelayWrapperOpen);
@@ -114,13 +114,13 @@
 .container-3baos1 {
   padding-left: 6px;
   transition: padding var(--DurationWrapperChannel);
-  transition-delay: 0;
+  transition-delay: 0ms;
 }
 
 .container-3baos1 .avatarWrapper-2yR4wp {
   margin-right: 12px;
   transition: margin var(--DurationWrapperChannel);
-  transition-delay: 0;
+  transition-delay: 0ms;
 }
 
 .actionButtons-14eAc_ {
@@ -230,12 +230,28 @@
 }
 
 /* Other effects */
-.powercord-spotify-seek /* Move Spotify Progress down so it isn't blocked by the typing indicator */ {
-  bottom: -10px;
+.spotify-seek-bar /* Move Spotify Progress down so it isn't blocked by the typing indicator */ {
   width: var(--WidthChannelMin);
-  transition: width var(--DurationWrapperChannel);
+  transition: all var(--DurationWrapperChannel)!important;
 }
 
-.sidebar-2K8pFh:hover .powercord-spotify-seek {
+.sidebar-2K8pFh:hover .spotify-seek-bar {
   width: var(--WidthChannelMax);
+}
+
+.listeningAlong-30wH70 .party-2cIOyb {
+  order: 1;
+  flex-grow: 0;
+  margin-left: -6px;
+  margin-right: 10px;
+}
+
+.listeningAlong-30wH70 > div:first-child {
+  order: 2;
+  flex-grow: 40;
+}
+
+.listeningAlong-30wH70 .icons-2uekgw {
+  order: 3;
+  flex-grow: 0;
 }
