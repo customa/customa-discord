@@ -31,7 +31,7 @@
   transition: filter 200ms;
 }
 
-.powercord .listItem-2P_4kh.selected svg, .powercord .listItem-2P_4kh:hover svg, .powercord .listItem-2P_4kh a.selected-bZ3Lue, 
+.powercord .listItem-2P_4kh.selected svg, .powercord .listItem-2P_4kh:hover svg, .powercord .listItem-2P_4kh a.selected-bZ3Lue,
 .powercord .guilds-1SWlCJ .scroller-2TZvBN > div:not([data-ref-id="guildsnav"]) > .listItem-2P_4kh svg,
 .powercord div[data-ref-id="guildsnav"] ~ .listItem-2P_4kh svg /* Set Filter when server is hovered */ {
   filter: var(--FilterHover);
@@ -41,7 +41,7 @@
   padding-left: 5px;
 }
 
-.wrapper-1Rf91z .listItem-2P_4kh img, .wrapper-1Rf91z .listItem-2P_4kh .acronym-2mOFsV, .wrapper-1Rf91z .listItem-2P_4kh .button-OhfaWu, .wrapper-1Rf91z .listItem-2P_4kh 
+.wrapper-1Rf91z .listItem-2P_4kh img, .wrapper-1Rf91z .listItem-2P_4kh .acronym-2mOFsV, .wrapper-1Rf91z .listItem-2P_4kh .button-OhfaWu, .wrapper-1Rf91z .listItem-2P_4kh
 .circleIconButton-jET_ig /* Disable Animation on Hover/Select */ {
   border-radius: 25px!important;
 }
@@ -54,16 +54,17 @@
   color: var(--ColAccent);
 }
 
-.wrapper-1Rf91z .tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc svg a .childWrapper-anI2G9, 
-.wrapper-1Rf91z .tutorialContainer-1v44GL .listItem-2P_4kh .pill-2uzAFe /* Remove Home Guild, Remove Home Guild Selected */ {
+.tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc svg .wrapper-1BJsBx .childWrapper-anI2G9,
+.tutorialContainer-1v44GL .listItem-2P_4kh .pill-2uzAFe /* Remove Home Guild, Remove Home Guild Selected */ {
   visibility: hidden;
 }
 
-.wrapper-1Rf91z .tutorialContainer-1v44GL .listItem-2P_4kh /* Make first guild small */ {
+.tutorialContainer-1v44GL .listItem-2P_4kh /* Make first guild small */ {
   height: 18px;
+  margin: 0;
 }
 
-.wrapper-1Rf91z .tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc svg a::after /* Add own "Home" Select */ {
+.tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc svg .wrapper-1BJsBx::after /* Add own "Home" Select */ {
   content: "Home";
   color: var(--ColFont);
   position: absolute;
@@ -78,8 +79,8 @@
   transition: color var(--DurationGuildsWrapper);
 }
 
-.wrapper-1Rf91z .tutorialContainer-1v44GL .listItem-2P_4kh:hover .listItemWrapper-3X98Pc svg a::after,
-.wrapper-1Rf91z .tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc svg a.selected-bZ3Lue::after {
+.tutorialContainer-1v44GL .listItem-2P_4kh:hover .listItemWrapper-3X98Pc svg .wrapper-1BJsBx::after,
+.tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc svg .wrapper-1BJsBx.selected-bZ3Lue::after {
   color: var(--ColAccent);
 }
 
