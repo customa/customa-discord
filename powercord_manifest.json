@@ -1,7 +1,7 @@
 {
     "name": "Customa",
     "description": "The most customizable Discord theme",
-    "version": "2.2.12",
+    "version": "1.0.0",
     "author": "The Customa Project",
     "license": "GPL-3.0-only",
     "theme": "./Base/base.m.css",
@@ -337,40 +337,6 @@
             }
         },
         {
-            "name": "Color",
-            "description": "A module to replace the default coloring of Discord elements",
-            "file": "./Base/color.m.css",
-            "settings": {
-                "format": "css",
-                "options": [
-                    {
-                        "name": "Chat Color",
-                        "variable": "ColChat",
-                        "description": "Text color which is used in the chat area",
-                        "type": "color"
-                    },
-                    {
-                        "name": "Font Color",
-                        "variable": "ColFont",
-                        "description": "Fallback font color",
-                        "type": "color"
-                    },
-                    {
-                        "name": "Bright Font Color",
-                        "variable": "ColFontBright",
-                        "description": "Second Font Color, a bit brighter than Font Color",
-                        "type": "color"
-                    },
-                    {
-                        "name": "Placeholder Color",
-                        "variable": "ColFontPlaceholder",
-                        "description": "Text color which is used for placeholders",
-                        "type": "color"
-                    }
-                ]
-            }
-        },
-        {
             "name": "Font",
             "description": "Changes your font",
             "file": "./Base/font.m.css",
@@ -391,11 +357,6 @@
                     }
                 ]
             }
-        },
-        {
-            "name": "Light Theme Support",
-            "description": "Adds support for light themes. This is not restricted to just white colors.",
-            "file": "./Base/lightThemeSupport.m.css"
         },
         {
             "name": "Modules",
