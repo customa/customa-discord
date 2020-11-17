@@ -174,7 +174,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .channelHeader-3Gd2xq /* Channel Header Recent Mentions */, .root-1bFE0x.whyYouMightLikeIt-2zZIIj /* Store why you might like it */, .unicodeShortcut-15J8Ck
 /* Unicode Shortcut Emoji Picker */, .purchaseUnit-2lxci3 /* Store Purchase Info */, .features-_IOqVv .row-1bU71H /* Game Features Store */, .powercord-quickcss-editor-settings
 /* Powercord QuickCSS Not Popped Out */, .exampleModal-2X2Vf8 /* Welcome Modal */, .premiumPromo-fVlLu- /* Premium Promo Emoji Picker */, .stickerCategoryShopWrapper-3EnJdQ
-/* Sticker Category Shop Wrapper */ {
+/* Sticker Category Shop Wrapper */, .container-2fRDfG /* Inline Reply Container */ {
   background-color: var(--ColBackground1);
 }
 
@@ -409,7 +409,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .wrapper-3WhCwL /* Mentions/Channel */, .circleIconButton-jET_ig /* Add Server/Discovery Buttons */, .tier-12tKuZ .tierUnlocked-25K6Kv /* Unlocked Tier Server Boost Modal */,
 .tierHeaderContent-2-YfvN .tierUnlocked-27DwHo /* Unlocked Tier Server Boost Settings */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */,
 .colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS /* Selected Radio and Checkbox color */, .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN
-/* Checkmarks Message Menu */, .operations-36ENbA > a /* Edit Operations */, .sampleLink-2NLvZg /* Sample Links Join Server */ {
+/* Checkmarks Message Menu */, .operations-36ENbA > a /* Edit Operations */, .sampleLink-2NLvZg /* Sample Links Join Server */, .colorBrand-2tjs5J
+/* Enable Ping Inline Replies */ {
   color: var(--ColAccent);
 }
 
@@ -611,11 +612,12 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   display: var(--DisplayButtonGIF);
 }
 
-.chatContent-a9vAAp .buttons-3JBrkn > :nth-child(3) /* Hide Sticker Button Channel Area */ {
-  display: var(--DisplayButtonSticker);
-}
+/* TODO Implement this once Stickers are out */
+/* .chatContent-a9vAAp .buttons-3JBrkn > :nth-child(3) !* Hide Sticker Button Channel Area *! { */
+/*  display: var(--DisplayButtonSticker); */
+/* } */
 
-.chatContent-a9vAAp .buttons-3JBrkn > :nth-child(4) /* Hide Emoji Button Channel Area */, .uploadModal-2ifh8j .buttons-3JBrkn > :nth-child(1) /* Hide Emoji Button Upload Area */ {
+.chatContent-a9vAAp .buttons-3JBrkn > :nth-child(3) /* Hide Emoji Button Channel Area */, .uploadModal-2ifh8j .buttons-3JBrkn > :nth-child(1) /* Hide Emoji Button Upload Area */ {
   display: var(--DisplayButtonEmoji);
 }
 
@@ -646,7 +648,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 }
 
 /* -- Z-Index -- */
-.membersWrap-2h-GB4 /* Shift Members Wrap "over" Box Shadow of the Channel Title */ {
+.membersWrap-2h-GB4 /* Shift Members Wrap "over" Box Shadow of the Channel Title */, .searchResultsWrap-3-pOjs /* Search Wrap */ {
   z-index: 3;
 }
 
@@ -1862,4 +1864,27 @@ html::before {
 
 .messagesErrorBar-nyJGU7 .barButtonAlt-mYL1lj {
   display: none;
+}
+
+/* Inline Reply Container */
+.container-2fRDfG {
+  width: unset;
+  max-width: 500px;
+  position: absolute;
+  top: -34px;
+  display: inline-flex;
+  height: 34px;
+}
+
+.container-2fRDfG .text-15b_0l {
+  display: inline;
+}
+
+.container-2fRDfG .actions-NlfMQc {
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+.actions-NlfMQc .mentionButton-3710-W, .actions-NlfMQc .closeButton-37O8QC {
+  padding: 0 12px;
 }
