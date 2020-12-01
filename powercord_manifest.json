@@ -672,11 +672,6 @@
             }
         },
         {
-            "name": "iOS Toggles",
-            "description": "Toggles that follow the design of iOS ones",
-            "file": "./Misc/iOSToggles.m.css"
-        },
-        {
             "name": "Rainbow",
             "description": "Joke Module! Applies a rotating hue filter over the entire application",
             "file": "./Misc/rainbow.m.css",
@@ -768,41 +763,6 @@
             "name": "Folder Names",
             "description": "Displays the folder name over a guild folder",
             "file": "./Sidebar/folderNames.m.css"
-        },
-        {
-            "name": "Status Circles",
-            "description": "Changes the Discord status dot to a circle around the profile picture",
-            "file": "./Sidebar/statusCircles.m.css",
-            "settings": {
-                "format": "css",
-                "options": [
-                    {
-                        "name": "Online Color",
-                        "variable": "ColOnline",
-                        "type": "color"
-                    },
-                    {
-                        "name": "DnD Color",
-                        "variable": "ColDnD",
-                        "type": "color"
-                    },
-                    {
-                        "name": "Offline Color",
-                        "variable": "ColOffline",
-                        "type": "color"
-                    },
-                    {
-                        "name": "Idle Color",
-                        "variable": "ColIdle",
-                        "type": "color"
-                    },
-                    {
-                        "name": "Streaming Color",
-                        "variable": "ColStreaming",
-                        "type": "color"
-                    }
-                ]
-            }
         },
         {
             "name": "Channel Wrapper",
