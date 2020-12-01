@@ -249,7 +249,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Nitro Features */, .banner-WELp4M /* Promotion Banner Xbox Game Pass */, .input--jS-j2 /* Input Join Server */, .stickerCategory-3Yz7vN:hover /* Hovered Sticker Category */,
 .stickerCategoryShopWrapper-3EnJdQ:hover .stickerCategoryShop-d5zC3B /* Hovered Sticker Category Shop */, .viewAllBackground-3Bn1vh /* View All Sticker Shop */, .feature-3kpTdS
 /* Time limitation Sticker Store */, .imageWrapper-2p5ogY .wrapper-2TxpI8 /* Image/Video Wrapper */, .listDefault-3ir5aS .clickable-1lCRLF:hover .content-1Wq3SX
-/* Voice User hovered */, .tile-2naSqK, .button-3HqqDX /* Default Tile Voice Channel */, .category-2SZJwK, .channelName-3y9uE0, .channelIcon-CCo35e /* Loading Channel */ {
+/* Voice User hovered */, .tile-2naSqK, .button-3HqqDX /* Default Tile Voice Channel */, .category-2SZJwK, .channelName-3y9uE0, .channelIcon-CCo35e /* Loading Channel */,
+.item-26Dhrx /* Radio Button Settings */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -264,7 +265,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Invite Friends Modal Search Bar */, .input-2VB9rf /* Quickswitcher Search Bar */, .messagesPopoutWrap-1MQ1bW .footer-1kmXd4, .recentMentionsPopout-3rCiI6 .footer-1kmXd4
 /* Footer Pin/Mentions Popout */, .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G /* Message Group Wrapper Pin/Mention Popup */, .emojiPicker-3m1S-j
 .categories-1feg4n /* Categories Emoji Picker */, .modal-yWgWj- .footer-3rDWdC /* Footer Modal (e.g.: Nickname Change) */, .input-cIJ7To /* Text Input Boxes */,
-.container-1s4HBn.container-1nZlH6 /* Button + Text Input Boxes (e.g.: Server Region) */, .css-15ejc46-control /* Selection Input Boxes */, .switch-3wwwcV /* Default Switch */,
+.container-1s4HBn.container-1nZlH6 /* Button + Text Input Boxes (e.g.: Server Region) */, .css-15ejc46-control /* Selection Input Boxes */,
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 /* Region Select Modal Option */, .auditLog-3jNbM6 .header-GwIGlr /* Header Audit Log Entry */, .container-cMG81i
 /* Search Box Audit Log Popout */, .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh /* Voice Channel User Popout Open */,
 .layer-v9HyYc .container-2x5lvQ .header-2C89wJ /* Header RTC Container */,
@@ -319,7 +320,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Hovered Sticker - Sticker Selector */, .stickerCategorySelected-2uaMAG, .stickerCategorySelected-2uaMAG:hover /* Selected Sticker Category */,
 .stickerCategoryShopWrapperSelected-5VcHEr .stickerCategoryShop-d5zC3B, .stickerCategoryShopWrapperSelected-5VcHEr:hover .stickerCategoryShop-d5zC3B
 /* Selected Shop Category Stickers */, .viewAll-2RLt-n:hover .viewAllBackground-3Bn1vh, .viewAllInspected-FsmJHj .viewAllBackground-3Bn1vh /* View All Sticker Store */,
-.listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX /* Selected Voice User */ {
+.listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX /* Selected Voice User */, .item-26Dhrx:hover:not([aria-checked="true"]) /* Radio Button Settings */ {
   background-color: var(--ColTransparent1);
 }
 
@@ -330,7 +331,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Accent Background */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 /* Hover and Selected Home Button */, .newMessagesBar-265mhP
 /* New Messages Bar */, .sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ /* Settings Tab Selected */, .wrapper-232cHJ /* Ping Wrapper */, .iconBadge-qZ4Ksk
-/* New Pins Badge */, .switch-3wwwcV.valueChecked-m-4IJZ /* Enabled Switch */, .side-8zPYf6 .role-3wi9Tf.selected-3s45Ha.item-PXvHYJ /* Role Selection Selected Item */,
+/* New Pins Badge */, .side-8zPYf6 .role-3wi9Tf.selected-3s45Ha.item-PXvHYJ /* Role Selection Selected Item */,
 .selectorButtonSelected-336oUc /* Stream Quality Buttons */, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span /* Checkbox Right */, .item-2hkk8m,
 .unread-2lAfLh /* Unread Message Dots */, .mention-1f5kbO, .mention-1f5kbO:active /* Mention Bar Guilds */, .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerXbox-3G-4PF,
 .headerSpotify-zpWxgT /* User Popout Header Streaming/Playing/Xbox/Spotify */, .wanderingCubesItem-WPXqao /* Wandering Cubes/Loading */, .topSectionXbox-3fWLjS,
@@ -352,12 +353,12 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .colorDefault-2K3EoJ.focused-3afm-j:not(.colorDanger-2qLCe1):not(.colorBrand-ROmMP1) /* Rightclick menu hover effect */, .categoryPill-34fszg.selected-1dONk0
 /* Category Pill Server Discovery */, .paymentSourceRow-3FbcL_ .premiumIndicator-1XvbfM /* Premium Indicator Payment Methods */, .localBot-GrCgVt::before,
 .replying-1x3H0T::before  /* Local Bot message and replying Side block */, .iconContainer-1zobSR.checked-1Fij_T /* View as Role Selected Server */, .newTag-38ErDv
-/* New Tag Sticker Store */ {
+/* New Tag Sticker Store */, .item-26Dhrx[aria-checked="true"] /* Settings Radio Button */ {
   background-color: var(--ColAccent);
 }
 
 .item-26Dhrx[style*="rgb(114, 137, 218)"] /* Overwrite Default Item Color */, .selectableItem-1MP3MQ.selected-31soGA /* Selectable Item Selected (e.g. Audit Log Popout) */,
-.switch-3wwwcV.valueChecked-m-4IJZ[style*="rgb(67, 181, 129)"] /* Enabled Switch Green */, .numberBadge-2s8kKX /* Number Badge Guild Wrapper */, .tabBar-ZmDY9v
+.numberBadge-2s8kKX /* Number Badge Guild Wrapper */, .tabBar-ZmDY9v
 .item-3HknzM[style*="background-color: rgb(67, 181, 129);"], .checkbox-1ix_J3[style*="rgb(67, 181, 129)"] /* Selected Checkmark Notification Settings */, .progress-3Rbvu0
 .progressBar-3u8FBM /* Progress Bar Upload Progress */, .checkboxWrapper-SkhIWG .checkbox-1ix_J3.checked-3_4uQ9:not(.round-2jCFai) /* Checkmarks */, .languageCheckbox
 .checkbox-1ix_J3.checked-3_4uQ9 /* Language Checkboxes Powercord */, .result-3w1ZcL[style*="background-color"] /* Loading GIFS Gif Picker */, .pageControl-1aUwvK
@@ -599,7 +600,8 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 .container-3ayLPN .resultsGroup-r_nuzN::before /* Wrapper before Search Filters */, .searchResultsWrap-3-pOjs .channelSeparator-1X1FuH::before
 /* Channel Separator Search Wrapper */, .searchResult-9tQ1uo::before, .searchResult-9tQ1uo::after
 /* Gradient Search Results */, .form-2fGMdU::before /* Smol Gradient at the end of Channel Input Area */, .base-3dtUhz .pageWrapper-1PgVDX .bg-AYqtMd /* Discovery Area */,
-.videoHeight-Qp_9vC + .content-yTz4x3::before /* Remove the Border under calls */, .stickerCategoryShopWrapper-3EnJdQ::after /* Sticker Category Shop Wrapper Separator */ {
+.videoHeight-Qp_9vC + .content-yTz4x3::before /* Remove the Border under calls */, .stickerCategoryShopWrapper-3EnJdQ::after /* Sticker Category Shop Wrapper Separator */,
+.radioBar-bMNUI- svg /* Radio Selector Settings */ {
   display: none;
 }
 
@@ -1179,6 +1181,15 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 
 .sliderContainer-2Nrll8 .grabber-3mFHz2 {
   margin-top: 2px;
+}
+
+/* New Radio Buttons Settings */
+.radioBar-bMNUI- {
+  min-height: 44px;
+}
+
+.item-26Dhrx[aria-checked="true"] .radioBar-bMNUI- {
+  background-color: var(--radio-bar-accent-color);
 }
 
 /* Discords weird Margin Update Fixes */
