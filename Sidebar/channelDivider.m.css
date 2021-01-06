@@ -2,7 +2,7 @@
   --INTModChannelDivider: "    \2022  Channel Divider ~ Customa Devs (Sidebar \2192  channelDivider.m.css)\A"!important;
 }
 
-.container-PNkimc .scroller-2FKFPG .containerDefault-3GGEv_ .wrapper-CU3qI5 * {
+.container-3w7J-x .scroller-RmtA4e .containerDefault-3tr_sE .wrapper-PY0fhH * {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -13,12 +13,12 @@
   transition: .2s opacity ease-in-out!important;
 }
 
-.container-PNkimc .scroller-2FKFPG .containerDefault-3GGEv_ .wrapper-CU3qI5:hover * {
+.container-3w7J-x .scroller-RmtA4e .containerDefault-3tr_sE .wrapper-PY0fhH:hover * {
   opacity: .8;
 }
 
-.container-PNkimc .scroller-2FKFPG .containerDefault-3GGEv_ .wrapper-CU3qI5 .name-IbjUBS::before, 
-.container-PNkimc .scroller-2FKFPG .containerDefault-3GGEv_ .wrapper-CU3qI5 .name-IbjUBS::after {
+.container-3w7J-x .scroller-RmtA4e .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl::before,
+.container-3w7J-x .scroller-RmtA4e .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl::after {
   content: "";
   width: 100%;
   vertical-align: middle;
@@ -26,9 +26,4 @@
   background: var(--ColFont);
   display: inline-block;
   margin: 0 5px;
-}
-
-.container-PNkimc .scroller-2FKFPG .containerDefault-3GGEv_:first-child {
-  padding: 2%;
-  padding-top: 8%;
 }
