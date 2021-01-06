@@ -2,9 +2,9 @@
   --INTModClassicChannelSelect: "    \2022  Classic Channel Select ~ Customa Devs (Sidebar \2192  classicChannelSelect.m.css)\A"!important;
 }
 
-.containerDefault-1ZnADq .iconVisibility-1bOqu7.wrapper-1ucjTd .content-3at_AU /* Server Channel */, .channel-2QD9_O /* Private Channel */ {
+.containerDefault--pIXnN .iconVisibility-sTNpHs.wrapper-2jXpOf .content-1x5b-n /* Server Channel */, .channel-2QD9_O /* Private Channel */ {
   margin-left: 0;
-  background: linear-gradient(to right, var(--ColTransparent1), transparent) no-repeat;
+  background: linear-gradient(to right, var(--ColTransparent2), transparent) no-repeat;
   background-color: transparent!important;
   background-position: -240px;
   border-radius: 0;
@@ -13,18 +13,22 @@
   max-width: unset;
 }
 
-.unread-3zKkbm {
+.channel-2QD9_O .layout-2DM8Md {
+  background-color: transparent!important;
+}
+
+.unread-2lAfLh {
   z-index: 999;
 }
 
-.containerDefault-1ZnADq:hover .iconVisibility-1bOqu7.wrapper-1ucjTd .content-3at_AU /* Server Channel Hover Effect */, 
-.containerDefault-1ZnADq.selected-37j_iU .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU /* Server Channel Select Effect */, 
-.channel-2QD9_O:hover .layout-2DM8Md /* Private Channel Hover Effect */, .channel-2QD9_O:hover /* Private Channel Select Effect */ {
+.containerDefault--pIXnN:hover .iconVisibility-sTNpHs.wrapper-2jXpOf .content-1x5b-n /* Server Channel Hover Effect */,
+.containerDefault--pIXnN.selected-3LIHYU .iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n /* Server Channel Select Effect */,
+.channel-2QD9_O:hover /* Private Channel Hover Effect */, .channel-2QD9_O.selected-aXhQR6 /* Private Channel Select Effect */ {
   background-position: -2px;
   border-left-color: var(--ColTransparent1);
 }
 
-.containerDefault-1ZnADq.selected-37j_iU .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU /* Server Channel Select Effect */, 
+.containerDefault--pIXnN.selected-3LIHYU .iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n /* Server Channel Select Effect */,
 .channel-2QD9_O.selected-aXhQR6 /* Private Channel Select Effect */ {
   border-left-color: var(--ColAccent)!important;
 }
