@@ -15,7 +15,6 @@ rect[mask="url(#svg-mask-status-online-mobile)"] {
 }
 
 foreignobject[mask="url(#svg-mask-avatar-status-mobile-80)"] + rect {
-  fill: #43b581;
   width: 16px;
   height: 24px;
   /* clean-css ignore:start */
