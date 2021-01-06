@@ -99,7 +99,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Scroller DM Chats */, .members-1998pB, .members-1998pB > div /* Members Wrap Inner */, .scroller-2TZvBN /* Guild Wrapper */, .contentRegionScroller-26nc1e
 /* Content Region Settings */, .sidebarRegionScroller-3MXcoP /* Sidebar Region Settings */, .userPopout-3XzG_A .body-3iLsc4 /* User Popout Body */, .scroller-zPkAnE
 /* Quickswitcher Scroller */, .scroller-305q3I /* Role Scroller Settings */, .wrapper-3vR61M, .wrapper-1F5TKx /* New Loading Screen Chat Content */, .container-9gOVw0
-/* Quoting*/, .emojiSection-3Fb9ix /* New Emoji Server Help Inner */, .phoneField-38N1bJ .inputField-aNPXsv /* Phone Number Text Field */ {
+/* Quoting*/, .emojiSection-3Fb9ix /* New Emoji Server Help Inner */, .phoneField-38N1bJ .inputField-aNPXsv /* Phone Number Text Field */, .wrapper-uf3cnO 
+/* Wrapper New Command Handler Bot List */ {
   background-color: transparent;
 }
 
@@ -174,7 +175,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .channelHeader-3Gd2xq /* Channel Header Recent Mentions */, .root-1bFE0x.whyYouMightLikeIt-2zZIIj /* Store why you might like it */, .unicodeShortcut-15J8Ck
 /* Unicode Shortcut Emoji Picker */, .purchaseUnit-2lxci3 /* Store Purchase Info */, .features-_IOqVv .row-1bU71H /* Game Features Store */, .powercord-quickcss-editor-settings
 /* Powercord QuickCSS Not Popped Out */, .exampleModal-2X2Vf8 /* Welcome Modal */, .premiumPromo-fVlLu- /* Premium Promo Emoji Picker */, .stickerCategoryShopWrapper-3EnJdQ
-/* Sticker Category Shop Wrapper */, .container-2fRDfG /* Inline Reply Container */ {
+/* Sticker Category Shop Wrapper */, .container-2fRDfG /* Inline Reply Container */, .autocomplete-1vrmpx.outerWrapper-3-llkA /* New Command handler */, .categoryHeader-O1zU94 
+/* Category Header Command Handler */ {
   background-color: var(--ColBackground1);
 }
 
@@ -250,7 +252,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .stickerCategoryShopWrapper-3EnJdQ:hover .stickerCategoryShop-d5zC3B /* Hovered Sticker Category Shop */, .viewAllBackground-3Bn1vh /* View All Sticker Shop */, .feature-3kpTdS
 /* Time limitation Sticker Store */, .imageWrapper-2p5ogY .wrapper-2TxpI8 /* Image/Video Wrapper */, .listDefault-3ir5aS .clickable-1lCRLF:hover .content-1Wq3SX
 /* Voice User hovered */, .tile-2naSqK, .button-3HqqDX /* Default Tile Voice Channel */, .category-2SZJwK, .channelName-3y9uE0, .channelIcon-CCo35e /* Loading Channel */,
-.item-26Dhrx /* Radio Button Settings */ {
+.item-26Dhrx /* Radio Button Settings */, .selected-3xBBKs, .selected-3xBBKs:hover /* Selected Bot New Command Handler */, .option-1B5ZV8 /* Option new command handler */, 
+.card-2Mz_4z /* Cards Screen Share (Channel and Window) */, .selectorButton-EEUWed /* Resolution Select Screen Share */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -320,7 +323,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Hovered Sticker - Sticker Selector */, .stickerCategorySelected-2uaMAG, .stickerCategorySelected-2uaMAG:hover /* Selected Sticker Category */,
 .stickerCategoryShopWrapperSelected-5VcHEr .stickerCategoryShop-d5zC3B, .stickerCategoryShopWrapperSelected-5VcHEr:hover .stickerCategoryShop-d5zC3B
 /* Selected Shop Category Stickers */, .viewAll-2RLt-n:hover .viewAllBackground-3Bn1vh, .viewAllInspected-FsmJHj .viewAllBackground-3Bn1vh /* View All Sticker Store */,
-.listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX /* Selected Voice User */, .item-26Dhrx:hover:not([aria-checked="true"]) /* Radio Button Settings */ {
+.listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX /* Selected Voice User */, .item-26Dhrx:hover:not([aria-checked="true"]) /* Radio Button Settings */,
+.selectorButtonPremiumRequired-mKMbIu /* Locked Selector Button Screen Share */ {
   background-color: var(--ColTransparent1);
 }
 
@@ -353,7 +357,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .colorDefault-2K3EoJ.focused-3afm-j:not(.colorDanger-2qLCe1):not(.colorBrand-ROmMP1) /* Rightclick menu hover effect */, .categoryPill-34fszg.selected-1dONk0
 /* Category Pill Server Discovery */, .paymentSourceRow-3FbcL_ .premiumIndicator-1XvbfM /* Premium Indicator Payment Methods */, .localBot-GrCgVt::before,
 .replying-1x3H0T::before  /* Local Bot message and replying Side block */, .iconContainer-1zobSR.checked-1Fij_T /* View as Role Selected Server */, .newTag-38ErDv
-/* New Tag Sticker Store */, .item-26Dhrx[aria-checked="true"] /* Settings Radio Button */ {
+/* New Tag Sticker Store */, .item-26Dhrx[aria-checked="true"] /* Settings Radio Button */, .selectorButtonSelected-t5V9On /* Selected Resolution Select Screen Share */ {
   background-color: var(--ColAccent);
 }
 
@@ -426,7 +430,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .iconWrapper-2OrFZ1 svg /* Title Bar Icon Wrapper */, .botTagInvert-18-95s /* Bot Tag */, .checkboxWrapper-SkhIWG .checkbox-1ix_J3 svg
 /* Upload Modal Spoiler Checkmark */, .bannerVisible-14J9lQ .iconTierOne-BHC2T8, .bannerVisible-14J9lQ .iconTierTwo-_1edeM /* Premium Guild Icon Gem Tier 1 & 2 */,
 .iconBackgroundTierThree-3qw3JX .flowerStar-1GeTsn /* Tier 3 Flowerstar */, .content-1o0f9g /* Chat Divider New Day */, .isUnread-3Ef-o9 .content-1o0f9g
-/* New Day Unread Chat Divider */, .message-2qnXI6.mentioned-xhSam7 .mention.interactive:hover /* Hovered Mention/Channel Mentioned Message */ {
+/* New Day Unread Chat Divider */, .message-2qnXI6.mentioned-xhSam7 .mention.interactive:hover /* Hovered Mention/Channel Mentioned Message */, .wrapper-3WhCwL:hover 
+/* Wrapper Mention/Chat */ {
   color: #ffffff;
 }
 
@@ -462,7 +467,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .message-2qnXI6 .wrapperAudio-1jDe0Q /* Chat Attachments */, .keybindGroup-JQs9x_.card-FDVird::before /* Keybinds */,
 .game-1ipmAa.card-FDVird::before /* Game Activity Saved Games */, .gameNameLastPlayed-3LJo8n .gameNameInput-385LoS /* Game Name Input */, .css-1rckt42-menu
 /* Selection Menu Guild Discovery */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */, .activityPanel-28dQGo /* Go Live Panel */, .powercord-quickcss
-.CodeMirror-gutters /* Powercord QuickCSS Not Popped Out */, .copyInput-1T2hfb input:hover, .copyInput-1T2hfb input:focus, .copyInput-1T2hfb input /* Copyinput Server Invite*/ {
+.CodeMirror-gutters /* Powercord QuickCSS Not Popped Out */, .copyInput-1T2hfb input:hover, .copyInput-1T2hfb input:focus, .copyInput-1T2hfb input /* Copyinput Server Invite */,
+.card-2Mz_4z /* Cards Screen Share (Channel and Window) */ {
   border: none;
 }
 
@@ -572,7 +578,8 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   box-shadow: inset 0 0 0 2px var(--ColAccent), inset 0 0 0 3px var(--ColBackground1);
 }
 
-.button-F9qN4n.focused-3ZzkKr /* Emoji Reaction */, .slider-1PF9SW:focus .grabber-3mFHz2 /* Grabber Voice volume */ {
+.button-F9qN4n.focused-3ZzkKr /* Emoji Reaction */, .slider-1PF9SW:focus .grabber-3mFHz2 /* Grabber Voice volume */, .sourceThumbnail-27dolk.selected-1nOkyc, 
+.tile-2w4k5N:hover .sourceThumbnail-27dolk /* Screen share selected window */ {
   box-shadow: 0 0 0 2px var(--ColAccent);
 }
 
@@ -1856,16 +1863,6 @@ html::before {
   background-image: linear-gradient(90deg, var(--ColTransparent1), var(--ColTransparent2), var(--ColTransparent1));
 }
 
-/* Pinned messages fixes */
-.messagesPopoutWrap-1MQ1bW .avatar-1BDn8e {
-  top: 14px;
-  left: 10px;
-}
-
-.messagesPopout-24nkyi .cozy-3raOZG.wrapper-2a6GCs {
-  padding-left: 60px;
-}
-
 /* Message Loading Error */
 .messagesErrorBar-nyJGU7 {
   padding: 0;
@@ -1899,4 +1896,12 @@ html::before {
 
 .actions-NlfMQc .mentionButton-3710-W, .actions-NlfMQc .closeButton-37O8QC {
   padding: 0 12px;
+}
+
+/* New command handler */ 
+.autocomplete-1vrmpx.outerWrapper-3-llkA /* New Command handler */ {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  bottom: 52px;
+  box-shadow: none;
 }
