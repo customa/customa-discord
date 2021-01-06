@@ -99,8 +99,8 @@
   background-color: var(--ColAccent);
 }
 
-.containerDefault--pIXnN .unread-2lAfLh + .content-1x5b-n svg /* Fix contrast for unread channels */ {
-  color: var(--ColFont);
+.containerDefault--pIXnN .unread-2lAfLh + .content-1x5b-n svg, .containerDefault--pIXnN .unread-2lAfLh + .content-1x5b-n svg path /* Fix contrast for unread channels */ {
+  color: var(--ColFont)!important;
 }
 
 .unread-2lAfLh /* Remove unread dot */ {
