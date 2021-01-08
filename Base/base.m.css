@@ -45,7 +45,7 @@
   --ColPopout: var(--ColBackground1); /* color */
   --ColUserPopout: var(--ColPopout); /* color */
   --ColModal: var(--ColBackground1); /* color */
-  --ColUserModal: var(--ColPopout); /* color */
+  --ColUserModal: var(--ColModal); /* color */
   --ColSpoilerCovered: var(--ColBackground1); /* color */
   --ColSpoilerUncovered: transparent; /* color */
   --ColFont: #ffffff; /* color */
@@ -80,7 +80,7 @@ body /* Discord Application Body */ {
 #app-mount /* App Mount */, .app-2rEoOp /* App Body */, .bg-h5JY_x /* Background Color Appliers */, .scroller-2FKFPG /* Guilds Wrapper Scroller */,
 .privateChannels-1nO12o /* DM Channels Wrapper */, .container-3w7J-x /* Guild Channels Wrapper */, .scrollableContainer-2NUZem /* Main Text Area */,
 .folder-21wGz3, .folderIconWrapper-226oVY, .expandedFolderBackground-2sPsd-.collapsed-1GMuSb /* Folder Background */, .table-1tDS6w .header-39GIC8 /* Header Game Library Table */,
-.standardSidebarView-3F1I7i /* Main Settings Background */, .recentMentionsPopout-3rCiI6 .messagesPopout-24nkyi /* Pin/Mentions Popout Body */, .messagesPopout-24nkyi
+.recentMentionsPopout-3rCiI6 .messagesPopout-24nkyi /* Pin/Mentions Popout Body */, .messagesPopout-24nkyi
 .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug /* Action Buttons Pin/Mentions Popout */, .divider-3573oO /* Divider Audit Log Popout */, .layer-v9HyYc .container-2x5lvQ
 section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier Server Settings */, .searchBar-3dMhjb .searchAnswer-3Dz2-q, .searchBar-3dMhjb .searchFilter-2ESiM3
 /* Filter Searchbar Guild Search */, .layer-v9HyYc .container-VSDcQc .sectionTag-pXyto9 /* Role Area Add Roles */, .userPopout-3XzG_A .headerNormal-T_seeN
@@ -119,11 +119,13 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .contentWrapper-SvZHNd, .emojiPicker-3PwZFl /* Emoji Picker */, .wrapper-1-Fsb8.header-ywPcAE /* Server Header Emoji Picker */, .layer-v9HyYc .colorPickerCustom-2CWBn2
 /* Color Picker Roles */, .layer-v9HyYc .popout-38lTFE /* Popout Friends Activity */, .layer-v9HyYc .guildPopout-3CgKqR /* Guild Popout "Server" Hook */, .css-123uooi-menu
 /* Language Selector Discover */, .popout-2iWAc- .everyonePopout-nEbJY3 /* @everyone Ping Warning */, .popoutContainer-1MXdqN /* New Emoji Server Help */, .container-3LUQwT
-/* Popout View as Role */, .popoutList-T9CKZQ.phoneFieldPopout-h7c9mt /* Phone Field Popout */, .wrapper-1-Fsb8.packHeader-NLJ7S5  /* Server Header Sticker Picker */ {
+/* Popout View as Role */, .popoutList-T9CKZQ.phoneFieldPopout-h7c9mt /* Phone Field Popout */, .wrapper-1-Fsb8.packHeader-NLJ7S5  /* Server Header Sticker Picker */,
+.menu-3sdvDG.menu-3sdvDG /* Right Click Menu */, .submenu-2-ysNh /* Sub Menu Right Click Menu */ {
   background-color: var(--ColPopout);
 }
 
-.inner-1ilYF7 .modal-yWgWj- /* Modal (e.g.: Nickname Change) */, .modal-3c3bKg .keyboardShortcutsModal-3piNz7 /* Keyboard Shortcut Modal */ {
+.inner-1ilYF7 .modal-yWgWj- /* Modal (e.g.: Nickname Change) */, .modal-3c3bKg .keyboardShortcutsModal-3piNz7 /* Keyboard Shortcut Modal */, 
+.standardSidebarView-3F1I7i /* Main Settings Background */ {
   background-color: var(--ColModal);
 }
 
@@ -155,7 +157,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Unread Bar Channel List */, .root-3R2ngo .perksModal-fSYqOq /* Perks Modal */, .layers-3iHuyZ > .layer-3QrUeG /* Settings Background */, .quickswitcher-3JagVE
 /* Quickswitcher */, .attachPopout-36hjtN /* Popout Upload/Send Invite */, .focusLock-Ns3yie .root-1gCeng
 /* Modal (e.g.: Channel Title) */, .regionSelectModal-12e-57 /* Region Select Modal */, .diversitySelectorPopout-3FiGaM /* Diversity Selector Emoji Picker */,
-.container-3cGP6G /* Message Options Popup */, .submenu-2-ysNh /* Sub Menu Right Click Menu */, .menu-3sdvDG.menu-3sdvDG /* Right Click Menu */,
+.container-3cGP6G /* Message Options Popup */,
 .emojiRow-zIc7ZX.card-FDVird .emojiRemove-1k6MlJ /* Emoji Row Server Settings Remove */, .webhookRow-20TsIQ.card-3Qj_Yx .removeWebhook-3PNViU
 /* Webhook Row Server Settings Remove */, .button-2CgfFz.revokeInvite-28N8uj, .button-2CgfFz.revokeInvite-28N8uj:hover /* Revoke Invite Server Settings Remove */,
 .popoutWrapper-eJpzc1 .popout-1k352f /* Stream Viewer Popout */, .container-2x5lvQ /* RTC Container Call */, .progress-LWvunf
