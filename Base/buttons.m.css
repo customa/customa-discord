@@ -1,6 +1,6 @@
 :root {
   --INTModButtons: "    \2022  Buttons ~ Customa Devs (Base \2192  buttons.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarButtons: "\A\A Button - Module"
     "\A \2022  --ColBTNBlack \2192  Allowed Values: RGB Values (pref. x, y, z)"

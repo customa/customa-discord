@@ -59,7 +59,7 @@
 }
 
 .userSettingsAccount-2eMFVR::after {
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline content is not according to spec but R E A D A B I L I T Y */
   content: "Base:\A "
     var(--INTModBase)

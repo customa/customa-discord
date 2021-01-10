@@ -1,6 +1,6 @@
 :root {
   --INTModColoredChannelIcon: "    \2022  Colored Channel Icons ~ Customa Devs (Sidebar \2192  coloredChannelIcons.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarColoredChannelIcon: "\A\A Colored Channel Icons - Module"
     "\A \2022  --ColNSFWWarning \2192  Allowed Values: Color (pref. #F44336)"

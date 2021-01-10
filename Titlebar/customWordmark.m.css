@@ -1,6 +1,6 @@
 :root {
   --INTModCustomWordmark: "    \2022  Custom Wordmark ~ Customa Devs (Titlebar \2192  customWordmark.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarCustomWordmark: "\A\A Custom Wordmark - Module"
     "\A \2022  --DisplayDiscordLogo \2192  Allowed Values: visible/hidden"

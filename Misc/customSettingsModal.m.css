@@ -1,6 +1,6 @@
 :root {
   --INTModCustomSettingsModal: "    \2022  Custom Settings Modal ~ Customa Devs (Misc \2192  customSettingsModal.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarCustomSettingsModal: "\A\A Custom Settings Modal - Module"
     "\A \2022  --DisplayNoDoubleBorderRadius \2192  Allowed Values: None/Block"

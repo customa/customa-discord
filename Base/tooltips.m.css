@@ -2,7 +2,7 @@
   --ColBackgroundTooltip: #ffffff; /* Color */
   --ColTextTooltip: var(--ColBackground1); /* Background-Color */
   --INTModTooltips: "    \2022  Tooltips ~ Customa Devs (Base \2192  tooltips.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarTooltips: "\A\A Tooltips - Module"
     "\A \2022  --ColBackgroundTooltip \2192  Allowed Values: Color (pref. #xxxxxx)"

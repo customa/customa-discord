@@ -50,7 +50,7 @@
 #bd-customcss-attach-controls::after, .powercord-account::after {
   white-space: pre-line;
   display: block;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline content is not according to spec but R E A D A B I L I T Y */
   content: "Customa-Variables\A\A"
     "BASE"

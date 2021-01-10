@@ -1,6 +1,6 @@
 :root {
   --INTModBetterFileTypes: "    \2022  Better File Types ~ Customa Devs (Chat \2192  betterFileTypes.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarBetterFileTypes: "\A\A Better File Types - Module"
     "\A \2022  --ColFileVideo \2192  Allowed Values: Color"

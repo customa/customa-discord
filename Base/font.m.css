@@ -2,7 +2,7 @@
 
 :root {
   --INTModFont: "    \2022  Fonts ~ Customa Devs (Base \2192  font.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarFont: "\A\A Font - Module"
     "\A \2022  --FontFamily \2192  Allowed Values: Installed Fonts/Webfonts (pref. Sans-Serif)"

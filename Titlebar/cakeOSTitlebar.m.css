@@ -1,6 +1,6 @@
 :root {
   --INTModCakeOSTitlebar: "    \2022  CakeOS Titlebar ~ Customa Devs (Titlebar \2192  cakeosTitlebar.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarCakeOSTitlebar: "\A\A CakeOS Titlebar - Module"
     "\A \2022  --ColCakeOSClose \2192  Allowed Values: Color (pref. #xxxxxx)"

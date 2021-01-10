@@ -1,6 +1,6 @@
 :root {
   --INTModCustomStatusColors: "    \2022  custom status colors ~ rai (Misc \2192  customStatusColors.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarCustomStatusColors: "\A\A custom status colors - Module"
     "\A \2022  --ColServerStatus \2192  Allowed Values: Color"

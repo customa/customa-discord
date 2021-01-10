@@ -1,7 +1,7 @@
 :root {
   /* Do not change anything here unless you know what you are doing */
   --INTModBase: "    \2022  Base ~ Customa Devs (Base \2192  base.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarBase: "\A\A Base - Module"
     "\A \2022  --ColAccent \2192  Allowed Values: Color (pref. #d81b60)"
@@ -838,7 +838,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 }
 
 /* Scrollbars */
-/* stylelint-disable */
+/* stylelint-disable no-descending-specificity */
 ::-webkit-scrollbar {
   /* stylelint-enable */
   width: 5px!important;
@@ -846,7 +846,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   display: block;
 }
 
-/* stylelint-disable */
+/* stylelint-disable no-descending-specificity */
 ::-webkit-scrollbar-track-piece,
 .scroller-2LSbBU.scrollerBase-289Jih::-webkit-scrollbar-track,
 .quickswitcher-3JagVE .scroller-zPkAnE.scrollerBase-289Jih::-webkit-scrollbar-track,

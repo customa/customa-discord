@@ -1,6 +1,6 @@
 :root {
   --INTModWrapperChannel: "    \2022  Channel Wrapper ~ Customa Devs (Sidebar \2192  wrapperChannel.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarWrapperChannel: "\A\A Channel Wrapper - Module"
     "\A \2022  --WidthChannelMin \2192  Allowed Values: XYpx (pref. 46px)"

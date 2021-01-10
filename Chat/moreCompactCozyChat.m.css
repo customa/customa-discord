@@ -1,6 +1,6 @@
 :root {
   --INTModMoreCompactCozyChat: "    \2022  more compact cozy chat ~ rai (Chat \2192  morecompactcozychat.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarMoreCompactCozyChat: "\A\A more compact cozy chat - Module"
     "\A \2022 --ColSeparator \2192  Allowed Values: Color"

@@ -1,6 +1,6 @@
 :root {
   --INTModWrapperMember: "    \2022  Member Wrapper ~ Customa Devs (Sidebar \2192  wrapperMember.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarWrapperMember: "\A\A Member Wrapper - Module"
     "\A \2022  --WidthSidebarMin \2192  Allowed Values: XYpx (pref. 65px)"

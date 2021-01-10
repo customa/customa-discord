@@ -3,7 +3,7 @@
   --TransitionDuration: 200ms;
   --TransitionDelay: 2000ms;
   --INTModEmoteZoom: "    \2022  Emote Zoom ~ Customa Devs (Emoji \2192  emoteZoom.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarEmoteZoom: "\A\A Emote Zoom - Module"
     "\A \2022  --ScaleEmojiHovered \2192  Allowed Values: Int (pref. 5)"

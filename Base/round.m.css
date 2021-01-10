@@ -1,6 +1,6 @@
 :root {
   --INTModRound: "    \2022  Round ~ Customa Devs (Base \2192  round.m.css)\A"!important;
-  /* stylelint-disable */
+  /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
   --INTVarRound: "\A\A Round - Module"
     "\A \2022  --SizeCornerRadius \2192  Allowed Values: Size (pref. 0.75em)"
