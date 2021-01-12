@@ -120,7 +120,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Color Picker Roles */, .layer-v9HyYc .popout-38lTFE /* Popout Friends Activity */, .layer-v9HyYc .guildPopout-3CgKqR /* Guild Popout "Server" Hook */, .css-123uooi-menu
 /* Language Selector Discover */, .popout-2iWAc- .everyonePopout-nEbJY3 /* @everyone Ping Warning */, .popoutContainer-1MXdqN /* New Emoji Server Help */, .container-3LUQwT
 /* Popout View as Role */, .popoutList-T9CKZQ.phoneFieldPopout-h7c9mt /* Phone Field Popout */, .wrapper-1-Fsb8.packHeader-NLJ7S5  /* Server Header Sticker Picker */,
-.menu-3sdvDG.menu-3sdvDG /* Right Click Menu */, .submenu-2-ysNh /* Sub Menu Right Click Menu */, .container-3XJ8ns /* Add roles popout */ {
+.menu-3sdvDG.menu-3sdvDG /* Right Click Menu */, .submenu-2-ysNh /* Sub Menu Right Click Menu */, .container-3XJ8ns /* Add roles popout */, .container-VSDcQc 
+/* Add Roles Menu */ {
   background-color: var(--ColPopout);
 }
 
@@ -161,8 +162,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .emojiRow-zIc7ZX.card-FDVird .emojiRemove-1k6MlJ /* Emoji Row Server Settings Remove */, .webhookRow-20TsIQ.card-3Qj_Yx .removeWebhook-3PNViU
 /* Webhook Row Server Settings Remove */, .button-2CgfFz.revokeInvite-28N8uj, .button-2CgfFz.revokeInvite-28N8uj:hover /* Revoke Invite Server Settings Remove */,
 .popoutWrapper-eJpzc1 .popout-1k352f /* Stream Viewer Popout */, .container-2x5lvQ /* RTC Container Call */, .progress-LWvunf
-.tierInProgress-3mBoXq /* Progress Bar Server Boost Tier Dot */, .content-yTz4x3 .searchResultsWrap-3-pOjs /* Search Results Wrapper */, .searchResultsWrap-3-pOjs
-.searchResult-9tQ1uo .searchResultMessage-1fxgXh.hit-1fVM9e /* Search Results Message Box Guild Search Wrapper */,
+.tierInProgress-3mBoXq /* Progress Bar Server Boost Tier Dot */, .content-yTz4x3 .searchResultsWrap-3-pOjs /* Search Results Wrapper */,
 .jumpToPresentBar-G1R9s6 /* Jump to Present Bar */, .inner-1ilYF7 .uploadModal-2ifh8j /* Upload Modal */,
 .autocomplete-1vrmpx.autocomplete-3l_oCd /* Autocomplete */, .css-181m2lf-menu /* Select Menu Background */, .button-2CgfFz.removeOverride-2sdvVX,
 .button-2CgfFz.removeOverride-2sdvVX:hover /* Remove Notification Override Button */, .popouts-2bnG9Z .popout-2sKjHu /* Pay with popout Subscriptions Settings */,
@@ -256,7 +256,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Voice User hovered */, .tile-2naSqK, .button-3HqqDX /* Default Tile Voice Channel */, .category-2SZJwK, .channelName-3y9uE0, .channelIcon-CCo35e /* Loading Channel */,
 .item-26Dhrx /* Radio Button Settings */, .selected-3xBBKs, .selected-3xBBKs:hover /* Selected Bot New Command Handler */, .option-1B5ZV8 /* Option new command handler */, 
 .card-2Mz_4z /* Cards Screen Share (Channel and Window) */, .selectorButton-EEUWed /* Resolution Select Screen Share */, .focused-dKLoQt, .item-2J2GlB:hover 
-/* Add role popout hovered item */ {
+/* Add role popout hovered item */, .tab-2j5AEF:hover /* Hovered Tab Search */, .searchResult-9tQ1uo /* Search Result */, .pageButton-2ruNwd:hover /* Hover Paginator Search */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -277,7 +277,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .layer-v9HyYc .container-2x5lvQ .header-2C89wJ /* Header RTC Container */,
 .tier-3H4BXk /* Tier Server Settings */, .tier-3H4BXk .tierHeaderLocked-1a2opw /* Header Tier Server Settings */, .embedFull-2tM8-- /* Embed */,
 .tierHeaderUnlocked-2RhWqn.tierHeader-rlkkJd /* Tier Background Server Boosting before Header animates in */, .reaction-1hd86g /* Reaction Box */, .akaBadge-1M-1Gw
-/* Aka Badge DM Titlebar */, .queryContainer-RKFJW-.focused-2bY0OD /* Query Container Focused Search Bar Channel */, .searchResultsWrap-3-pOjs .searchHeader-1l-wpR
+/* Aka Badge DM Titlebar */, .queryContainer-RKFJW-.focused-2bY0OD /* Query Container Focused Search Bar Channel */, .searchHeader-2XoQg7
 /* Search Results Header Guild Search Wrapper */, .actionButtons-1sUUug .jumpButton-3DTcS_, .actionButtons-14P9IC .jumpButton-Ia2hRJ, .jumpButton-1ol35X /* Jump Buttons */,
 .container-VSDcQc .header-2bNvm4 /* Header Role */, .userPopout-3XzG_A .footer-1fjuF6 /* User Popout Footer */, .body-3ND3kc /* User Modal Body */,
 .connectedAccount-36nQx7:hover /* Connected Account Hovered User Modal */, .container-3ayLPN .datePicker--XZbmJ .datePickerHint-3Q1Udw /* Date Picker Hint */, .datePicker--XZbmJ
@@ -327,7 +327,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .stickerCategoryShopWrapperSelected-5VcHEr .stickerCategoryShop-d5zC3B, .stickerCategoryShopWrapperSelected-5VcHEr:hover .stickerCategoryShop-d5zC3B
 /* Selected Shop Category Stickers */, .viewAll-2RLt-n:hover .viewAllBackground-3Bn1vh, .viewAllInspected-FsmJHj .viewAllBackground-3Bn1vh /* View All Sticker Store */,
 .listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX /* Selected Voice User */, .item-26Dhrx:hover:not([aria-checked="true"]) /* Radio Button Settings */,
-.selectorButtonPremiumRequired-mKMbIu /* Locked Selector Button Screen Share */ {
+.selectorButtonPremiumRequired-mKMbIu /* Locked Selector Button Screen Share */, .searchHeader-2XoQg7 .tab-2j5AEF.selected-2LAck8 /* Selected tab Search */, .button-11zvza 
+/* Search Buttons */ {
   background-color: var(--ColTransparent1);
 }
 
@@ -360,7 +361,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .colorDefault-2K3EoJ.focused-3afm-j:not(.colorDanger-2qLCe1):not(.colorBrand-ROmMP1) /* Rightclick menu hover effect */, .categoryPill-34fszg.selected-1dONk0
 /* Category Pill Server Discovery */, .paymentSourceRow-3FbcL_ .premiumIndicator-1XvbfM /* Premium Indicator Payment Methods */, .localBot-GrCgVt::before,
 .replying-1x3H0T::before  /* Local Bot message and replying Side block */, .iconContainer-1zobSR.checked-1Fij_T /* View as Role Selected Server */, .newTag-38ErDv
-/* New Tag Sticker Store */, .item-26Dhrx[aria-checked="true"] /* Settings Radio Button */, .selectorButtonSelected-t5V9On /* Selected Resolution Select Screen Share */ {
+/* New Tag Sticker Store */, .item-26Dhrx[aria-checked="true"] /* Settings Radio Button */, .selectorButtonSelected-t5V9On /* Selected Resolution Select Screen Share */, 
+.pageControl-xGOf_S .activeButton-rvKcqq, .pageControl-xGOf_S .activeButton-rvKcqq:hover /* Active Button Search Paginator */ {
   background-color: var(--ColAccent);
 }
 
@@ -454,8 +456,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .layer-v9HyYc .messagesPopoutWrap-1MQ1bW /* Pin/Mentions Popout */, .checkboxWrapper-SkhIWG .checkbox-1ix_J3 /* Checkbox Invite Friends to DM Modal */,
 .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G /* Message Group Wrapper Pin/Mention Popup */, .diversitySelectorPopout-3FiGaM /* Diversity Selector Emoji Picker */,
 .auditLog-3jNbM6.flex-1xMQg5 /* Audit Log Entry */, .emojiRow-zIc7ZX.card-FDVird::before /* Emoji Row Server Settings */, .group-2dAfBy .item-3T2z1R /* Item Stream Quality */,
-.container-1giJp5 /* Call Container */, .member-1q7VfX.card-FDVird::before /* Member List Server Settings */, .searchResultsWrap-3-pOjs .searchResult-9tQ1uo
-.searchResultMessage-1fxgXh.hit-1fVM9e /* Search Results Message Box Guild Search Wrapper */, .inviteSettingsInviteRow-3p2O-N.card-FDVird::before
+.container-1giJp5 /* Call Container */, .member-1q7VfX.card-FDVird::before /* Member List Server Settings */, .inviteSettingsInviteRow-3p2O-N.card-FDVird::before
 /* Invite Settings Row Background */, .userPopout-3XzG_A .footer-1fjuF6 /* User Popout Footer */, .tabBarContainer-1s1u-z /* Tab Bar Container User Modal */,
 .userInfoSection-2acyCx + .userInfoSection-2acyCx /* User Info Section */, .connectedAccount-36nQx7 /* Connected Accounts */, .bannedUser-1IalTM.card-FDVird::before
 /* Banned User Card */, .container-3ayLPN .datePicker--XZbmJ .datePickerHint-3Q1Udw /* Date Picker Hint */, .datePicker--XZbmJ .calendarPicker-2yf6Ci
@@ -586,10 +587,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   box-shadow: 0 0 0 2px var(--ColAccent);
 }
 
-.searchResultsWrap-3-pOjs .searchResult-9tQ1uo .searchResultMessage-1fxgXh.hit-1fVM9e /* Search Results Message Box Guild Search Wrapper */ {
-  box-shadow: 0 0 10px 6px var(--ColBackground1);
-}
-
 .wrapper-2aW0bm /* Message Reaction Box */ {
   box-shadow: var(--elevation-medium);
 }
@@ -607,11 +604,9 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 .children-19S4PO::after, .divider-3FBTu8 /* Dividers Title Bar */, .attachButtonPlus-jWVFah /* Remove Old Upload Button */, .backgroundFill-22nw_b /* Background Fill */,
 .content-3CCvMx::before /* "Border" Footer Invite Friends Modal */, .footerSeparator-M9dQY1 /* "Border" Footer Invite DMs Modal */, .clickOverride-1J40_l
 /* Click Override Pins/Mentions Popup */, .item-26Dhrx .checkbox-1ix_J3 /* Hide Checkmark on Settings Selection Boxes */, .divider-1pnAR2 /* Divider Audit Log */,
-.container-3ayLPN .resultsGroup-r_nuzN::before /* Wrapper before Search Filters */, .searchResultsWrap-3-pOjs .channelSeparator-1X1FuH::before
-/* Channel Separator Search Wrapper */, .searchResult-9tQ1uo::before, .searchResult-9tQ1uo::after
-/* Gradient Search Results */, .form-2fGMdU::before /* Smol Gradient at the end of Channel Input Area */, .base-3dtUhz .pageWrapper-1PgVDX .bg-AYqtMd /* Discovery Area */,
-.videoHeight-Qp_9vC + .content-yTz4x3::before /* Remove the Border under calls */, .stickerCategoryShopWrapper-3EnJdQ::after /* Sticker Category Shop Wrapper Separator */,
-.radioBar-bMNUI- svg /* Radio Selector Settings */ {
+.container-3ayLPN .resultsGroup-r_nuzN::before /* Wrapper before Search Filters */, .form-2fGMdU::before /* Smol Gradient at the end of Channel Input Area */, 
+.base-3dtUhz .pageWrapper-1PgVDX .bg-AYqtMd /* Discovery Area */, .videoHeight-Qp_9vC + .content-yTz4x3::before /* Remove the Border under calls */, 
+.stickerCategoryShopWrapper-3EnJdQ::after /* Sticker Category Shop Wrapper Separator */, .radioBar-bMNUI- svg /* Radio Selector Settings */ {
   display: none;
 }
 
@@ -1319,9 +1314,10 @@ path.fill {
 }
 
 /* Fix Search Pagination */
-.pagination-2KMrRB {
+.container-NdaZbY {
   position: fixed;
   bottom: 0;
+  right: 0;
   width: 418px;
   background-color: var(--ColBackground1);
   height: 52px;
@@ -1329,7 +1325,11 @@ path.fill {
   z-index: 100;
 }
 
-.searchResultsWrap-3-pOjs > .scrollerWrap-2lJEkd {
+.pageControlContainer-eP-SVd {
+  margin: 0;
+}
+
+.searchResultsWrap-3-pOjs > .scroller-3GIiMh {
   padding-bottom: 52px;
 }
 
@@ -1907,4 +1907,15 @@ html::before {
   border-bottom-right-radius: 0;
   bottom: 52px;
   box-shadow: none;
+}
+
+/* Color Picker */
+/* stylelint-disable no-descending-specificity */
+.container-3sNMIc > div {
+  margin-bottom: 20px;
+}
+/* stylelint-enable no-descending-specificity */
+
+.colorPickerRow-1LgLnl {
+  margin-left: -10px;
 }
