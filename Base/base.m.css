@@ -126,7 +126,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 .inner-1ilYF7 .modal-yWgWj- /* Modal (e.g.: Nickname Change) */, .modal-3c3bKg .keyboardShortcutsModal-3piNz7 /* Keyboard Shortcut Modal */, 
-.standardSidebarView-3F1I7i /* Main Settings Background */ {
+.standardSidebarView-3F1I7i /* Main Settings Background */, .oauth2Wrapper-mHbF5q /* OAuth Wrapper Discord */ {
   background-color: var(--ColModal);
 }
 
@@ -256,7 +256,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Voice User hovered */, .tile-2naSqK, .button-3HqqDX /* Default Tile Voice Channel */, .category-2SZJwK, .channelName-3y9uE0, .channelIcon-CCo35e /* Loading Channel */,
 .item-26Dhrx /* Radio Button Settings */, .selected-3xBBKs, .selected-3xBBKs:hover /* Selected Bot New Command Handler */, .option-1B5ZV8 /* Option new command handler */, 
 .card-2Mz_4z /* Cards Screen Share (Channel and Window) */, .selectorButton-EEUWed /* Resolution Select Screen Share */, .focused-dKLoQt, .item-2J2GlB:hover 
-/* Add role popout hovered item */, .tab-2j5AEF:hover /* Hovered Tab Search */, .searchResult-9tQ1uo /* Search Result */, .pageButton-2ruNwd:hover /* Hover Paginator Search */ {
+/* Add role popout hovered item */, .tab-2j5AEF:hover /* Hovered Tab Search */, .searchResult-9tQ1uo /* Search Result */, .pageButton-2ruNwd:hover /* Hover Paginator Search */,
+.footer-3ZalXG /* OAuth Wrapper Footer */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -1038,12 +1039,12 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   margin-top: 30px;
 }
 
-.side-8zPYf6 > .role-3wi9Tf.item-PXvHYJ ~ .role-3wi9Tf.item-PXvHYJ {
+.side-8zPYf6 > .role-3wi9Tf.item-PXvHYJ ~ .role-3wi9Tf.item-PXvHYJ, .draggable-1EOU8o ~ .role-3wi9Tf.item-PXvHYJ {
   margin-top: 0;
 }
 
 .contentRegion-3nDuYy .side-8zPYf6 .header-2RyJ0Y + .draggable-1EOU8o {
-  margin-top: 28px;
+  margin-top: 32px;
 }
 
 .addRoleIcon-3YjErH {
