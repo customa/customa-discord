@@ -207,6 +207,14 @@
   left: 40px;
 }
 
+.hero-EvfTTA, .banner-3Kac2g, .dropdown-2fxkrS, .contentWidth-xLB44s {
+  max-width: unset;
+}
+
+.video-2aTfcg {
+  width: 100%;
+}
+
 @keyframes openSettings {
   0% {
     transform: scale(.6);
