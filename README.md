@@ -163,7 +163,7 @@ In this repository you can find a powercord_manifest.json file, which consists o
 
 ### BetterDiscord
 
-1. Download the theme file from the `/BetterDiscord` folder in this repository.
+1. Download the [theme file](https://github.com/Customa/Customa-Discord/tree/main/BetterDiscord/Customa.theme.css) from the `/BetterDiscord` folder in this repository.
 2. Open your BetterDiscord themes folder.
 3. Drag the file you downloaded into the folder. Ensure there isn't a copy identifier (eg `Name.theme(1).css`) at the end of the filename.
 
