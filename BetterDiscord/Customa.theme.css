@@ -1,0 +1,31 @@
+/**
+ * @name Customa
+ * @version 1.0.0
+ * @description The most customizable Discord theme
+ * @author The Customa Project
+ * @invite GsPuw88
+ * @website https://customa.github.io/
+ */
+
+@import url('https://customa.gitlab.io/Customa-Discord/Base/base.m.css');
+
+/* ------------------------------------------------------------------- */
+
+/* Imports go here. */
+
+/*
+@import url("https://customa.gitlab.io/Customa-Discord/CATEGORY/MODULE");
+*/
+
+/* ------------------------------------------------------------------- */
+
+/* Change variables here. */
+
+:root {
+  /* 
+    --option: "setting";
+    --colorOption: #123456;
+  */
+}
+
+/* ------------------------------------------------------------------- */
