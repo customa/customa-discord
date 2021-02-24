@@ -23,7 +23,7 @@ Bold statement don't you think? Let me keep up with the statement from above...
     * [Manual](#manual)
     * [Cloning](#cloning)
     * [Web browsers](#web-browsers)
-    * [BetterDiscordv1](#betterdiscordv1)
+    * [BetterDiscord](#betterdiscord)
 * [4. Further Info](#4-further-info)
     * [Who is working on the theme?](#who-is-working-on-the-theme)
     * [What do I need for it to run?](#what-do-i-need-for-it-to-run)
@@ -161,11 +161,11 @@ In this repository you can find a powercord_manifest.json file, which consists o
 * Install "Stylus" extension (xStyle also works, but all colors are reset to black).
 * [Install UserCSS](https://customa.gitlab.io/Customa-Discord/customa.user.css)
 
-### BetterDiscordv1
+### BetterDiscord
 
-*Supported but legacy way of using Customa.*
-
-Go into the settings and navigate to the Custom CSS section. In there you place your Customa Configuration and Press Save and Apply.
+1. Download the theme file from the `/BetterDiscord` folder in this repository.
+2. Open your BetterDiscord themes folder.
+3. Drag the file you downloaded into the folder. Ensure there isn't a copy identifier (eg `Name.theme(1).css`) at the end of the filename.
 
 ## 4. Further Info
 
