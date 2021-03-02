@@ -391,7 +391,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .checkbox-1ix_J3.checked-3_4uQ9 /* Language Checkboxes Powercord */, .result-3w1ZcL[style*="background-color"] /* Loading GIFS Gif Picker */, .pageControl-1aUwvK
 .activeButton-1BJAiN, .powercord-documentation ol li::before, .powercord-documentation ul li::before /* Powercord Docs Lists */, 
 .bar-2Qqk5Z[style*="rgb(105, 196, 154)"] /* Manual Voice Activation Bar Background */,  .selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover 
-/* Stream Quality Buttons */ {
+/* Stream Quality Buttons */, .colorPickerSwatch-5GX3Ve.default-cS_caM /* Default Color Folder Color Picker */ {
   background-color: var(--ColAccent)!important;
 }
 
