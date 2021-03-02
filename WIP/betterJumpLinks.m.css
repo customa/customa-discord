@@ -4,13 +4,15 @@
 }
 
 
-a[href*="discordapp.com/channels/"], blockquote a[href*="discordapp.com/channels/"] {
+a[href*="discordapp.com/channels/"], blockquote a[href*="discordapp.com/channels/"], 
+a[href*="discord.com/channels/"], blockquote a[href*="discord.com/channels/"] {
   visibility: hidden;
   font-size: 0;
   text-decoration: none!important;
 }
 
-a[href*="discordapp.com/channels/"]::after, blockquote a[href*="discordapp.com/channels/"]::after {
+a[href*="discordapp.com/channels/"]::after, blockquote a[href*="discordapp.com/channels/"]::after,
+a[href*="discord.com/channels/"]::after, blockquote a[href*="discord.com/channels/"]::after {
   visibility: visible!important;
   font-size: .8rem;
   border-radius: 4px;
@@ -24,7 +26,8 @@ a[href*="discordapp.com/channels/"]::after, blockquote a[href*="discordapp.com/c
   color: rgb(115, 127, 141);
 }
 
-a[href*="discordapp.com/channels/"]::after, blockquote a[href*="discordapp.com/channels/"]::after {
+a[href*="discordapp.com/channels/"]::after, blockquote a[href*="discordapp.com/channels/"]::after,
+a[href*="discord.com/channels/"]::after, blockquote a[href*="discord.com/channels/"]::after {
   content: "Jump to the message";
 }
 
