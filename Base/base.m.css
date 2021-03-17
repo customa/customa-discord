@@ -199,7 +199,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* New Friends Table */, .container-3Mxszk /* Games Library */, .wrapper-2tAnRe .total-i6us2n /* Wrapper Indicator User in Voice Channel */, .base-3dtUhz .pageWrapper-1PgVDX
 /* Discovery Area */, .noChannel-Z1DQK7 /* Loading or outage */, .formSection-1NFAGI /* Server Template Modal Right side */, .guildList-3cJX3d .iconMask-3b8GzQ
 /* Server Icon Discover */, .guildList-3cJX3d .card-3DjzTQ:hover .iconMask-3b8GzQ  /* Server Icon Discovery Hover */, .powercord-text.powercord-sdk /* Powercord SDK Background */, 
-.stickyHeader-hH_ZLl, .header-21q_Ro, .titleContainer-2CXtJo /* Sticky Header new Role Menu */ {
+.stickyHeader-hH_ZLl, .header-2mZ9Ov, .titleContainer-2CXtJo /* Sticky Header new Role Menu */ {
   background-color: var(--ColBackground2);
 }
 
@@ -1072,30 +1072,27 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 }
 
 /* New Role Menu Floating Role Menu */
-.easyModeContainer-2jU1yo .sidebarScrollable-1qPI87 {
+.container-SDBvD6 .sidebarScrollable-1qPI87 {
   position: sticky;
   top: 0;
   width: 232px;
-}
-
-.easyModeContainer-2jU1yo .sidebarScrollable-1qPI87 .easyModeLayoutStyle-11J5S7 {
-  width: 232px;
+  min-width: 232px;
 }
 
 .sidebarScrollable-1qPI87 + .content-1rPSz4 {
   margin-left: 0;
 }
 
-.sidebarScrollable-1qPI87 .easyModeLayoutStyle-11J5S7 .side-8zPYf6::before {
+.sidebarScrollable-1qPI87 .side-8zPYf6::before {
   display: none;
 }
 
-.sidebarScrollable-1qPI87 .easyModeLayoutStyle-11J5S7 .side-8zPYf6 .header-2RyJ0Y {
-  width: 226px;
+.sidebarScrollable-1qPI87 .side-8zPYf6 .header-2RyJ0Y {
+  width: 224px;
   position: unset;
 }
 
-.sidebarScrollable-1qPI87 .easyModeLayoutStyle-11J5S7 .side-8zPYf6 > .role-3wi9Tf.item-PXvHYJ {
+.sidebarScrollable-1qPI87 .side-8zPYf6 > .role-3wi9Tf.item-PXvHYJ {
   margin: 0;
 }
 
