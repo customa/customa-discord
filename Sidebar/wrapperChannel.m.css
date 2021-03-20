@@ -14,6 +14,8 @@
   --DurationWrapperChannel: 200ms;
   --DelayWrapperOpen: 0ms;
   --DelayWrapperClose: 0ms;
+  --width-channel-closed: var(--WidthChannelMin);
+  --width-channel-open: var(--WidthChannelMax);
 }
 
 /* Basic movement */
@@ -272,4 +274,9 @@
 .sidebar-2K8pFh:hover .rtcConnectionStatus-2-jIsi /* Voice Container Ping Container */ {
   margin-bottom: 0;
 }
+
+.sidebar-2K8pFh:hover + .chat-3bRxxu .slateTextArea-1Mkdgw {
+  max-width: calc(100% - var(--width-channel-open));
+}
+
 /* #endregion Misc */
