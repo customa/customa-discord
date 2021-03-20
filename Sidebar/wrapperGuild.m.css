@@ -10,10 +10,12 @@
   --FilterNoHover: grayscale(100%);
   --FilterHover: grayscale(0%);
   --DurationWrapperGuild: 200ms;
+
+  --width-guild-open: 76px;
 }
 
 .wrapper-1Rf91z /* GuildsWrapper */ {
-  width: 76px;
+  width: var(--width-guild-open);
 }
 
 .base-3dtUhz {
@@ -167,4 +169,8 @@
 
 .wrapper-1Rf91z:hover .wrapper-21YSNc::before {
   transform: translateX(0);
+}
+
+.guilds-1swlcj:hover + .base-3dtUhz .slateTextArea-1Mkdgw {
+  max-width: calc(100% - var(--width-channel-closed) - var(--width-guild-open));
 }
