@@ -81,7 +81,7 @@ body /* Discord Application Body */ {
 /* Background Transparent */
 #app-mount /* App Mount */, .app-2rEoOp /* App Body */, .bg-h5JY_x /* Background Color Appliers */, .scroller-2FKFPG /* Guilds Wrapper Scroller */,
 .privateChannels-1nO12o /* DM Channels Wrapper */, .container-3w7J-x /* Guild Channels Wrapper */, .scrollableContainer-2NUZem /* Main Text Area */,
-.folder-21wGz3, .folderIconWrapper-226oVY, .expandedFolderBackground-2sPsd-.collapsed-1GMuSb /* Folder Background */, .table-1tDS6w .header-39GIC8 /* Header Game Library Table */,
+.folder-1hbNCn, .folderIconWrapper-1_bOZe, .closedFolderIconWrapper-2sTcE6 /* Folder Background */, .table-1tDS6w .header-39GIC8 /* Header Game Library Table */,
 .recentMentionsPopout-3rCiI6 .messagesPopout-24nkyi /* Pin/Mentions Popout Body */, .messagesPopout-24nkyi
 .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug /* Action Buttons Pin/Mentions Popout */, .divider-3573oO /* Divider Audit Log Popout */, .layer-v9HyYc .container-2x5lvQ
 section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier Server Settings */, .searchBar-3dMhjb .searchAnswer-3Dz2-q, .searchBar-3dMhjb .searchFilter-2ESiM3
@@ -97,8 +97,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Background Streaming Window */, .tier-12tKuZ .tierBody-16Chc9 /* Tier Body Server Boost Modal */, .video-1FfuMD, .chat-3bRxxu .wrapper-29NfPK /* Call wrappers */,
 .ctaSection-izWwhs /* Server Template Modal Left side */, .video-1kutKI, .tile-2gi3tr /* Background Screen Sharing */, .container-1If-HZ .reactors-Blmlhw
 /* Reactors Reactions Modal */, .reactorDefault-1IUqMZ .remove-3V-yj8:hover /* Reactors Reaction Modal */, .emptyContainer-1_gwCl /* Empty Container Guild Discovery */,
-.purchaseUnit-2lxci3 .bodySection-jqkkIP /* Purchase Unit Store - Individual Boxes */, .folder-21wGz3.hover-2ji_A7 /* Open Folder Hover Animation */, .scroller-1JbKMe
-/* Scroller DM Chats */, .members-1998pB, .members-1998pB > div /* Members Wrap Inner */, .scroller-2TZvBN /* Guild Wrapper */, .contentRegionScroller-26nc1e
+.purchaseUnit-2lxci3 .bodySection-jqkkIP /* Purchase Unit Store - Individual Boxes */, .folder-1hbNCn.hover-qTxTR_ /* Open Folder Hover Animation */, .scroller-1JbKMe
+/* Scroller DM Chats */, .members-1998pB, .members-1998pB > div /* Members Wrap Inner */, .scroller-1Bvpku /* Guild Wrapper */, .contentRegionScroller-26nc1e
 /* Content Region Settings */, .sidebarRegionScroller-3MXcoP /* Sidebar Region Settings */, .userPopout-3XzG_A .body-3iLsc4 /* User Popout Body */, .scroller-zPkAnE
 /* Quickswitcher Scroller */, .scroller-305q3I /* Role Scroller Settings */, .wrapper-3vR61M, .wrapper-1F5TKx /* New Loading Screen Chat Content */, .container-9gOVw0
 /* Quoting*/, .emojiSection-3Fb9ix /* New Emoji Server Help Inner */, .phoneField-38N1bJ .inputField-aNPXsv /* Phone Number Text Field */, .wrapper-uf3cnO 
@@ -156,7 +156,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 /* Dark Background */
-.wrapper-1Rf91z.guilds-1SWlCJ /* Guilds Wrapper */, .searchBar-6Kv8R2 /* Search Bar Box DMs */, .panels-j1Uci_ /* Panels User Menu */,
+.wrapper-3NnKdC.guilds-1SWlCJ /* Guilds Wrapper */, .searchBar-6Kv8R2 /* Search Bar Box DMs */, .panels-j1Uci_ /* Panels User Menu */,
 .container-1r6BKw.themed-ANHk51 /* Titlebar */, .header-2V-4Sw, .hasBanner-2SrLR3 .header-2V-4Sw, .clickable-25tGDB .header-2V-4Sw:hover, .header-2V-4Sw::before,
 .selected-31Nl7x .header-2V-4Sw /* Server Header */, .form-2fGMdU /* Main Textarea */,
 .typing-2GQL18 /* Typing Indicator */, .menu-Sp6bN1 /* Popup Menu Server and Status */, .unread-1xRYoj
@@ -274,14 +274,15 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* New Role Overview */, .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i /* New Role Overview Buttons */, .container-_phMUq, .icon-3_8HGa 
 /* Default Roles Button New Role Overview + Icon */, .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb) /* New Role Menu Top Bar */, 
 .row-3GRgeK:hover:not(.rowSelected-1AHq2T) /* Selected Row New Role Menu */, .cardFolder-28dwxo /* Private Channel Settings Body */, .addMemberRow-3-w-9X.selectedRow-1QP7qb
-/* Private Channel Add Role/User */, .item-1yAxl1 /* Permission Button */, .phoneVerificationModal-OzcDc3 .input-3yHnCz /* Telephone Verification Modal Input Field */ {
+/* Private Channel Add Role/User */, .item-1yAxl1 /* Permission Button */, .phoneVerificationModal-OzcDc3 .input-3yHnCz /* Telephone Verification Modal Input Field */, 
+.expandedFolderBackground-1cujaW /* Open Folder Background */ {
   background-color: var(--ColTransparent2);
 }
 
 /* Dark Transparency Effect */
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx /* Search Bar DMs */, .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md /* Selected Channel DMs */,
 .containerDefault-1ZnADq.selected-37j_iU .content-1x5b-n /* Selected Channel Guild */, .clickable-25tGDB .header-2V-4Sw:hover::before /* Server Header Fix Hover Effect */,
-.acronym-2mOFsV, .childWrapper-anI2G9 /* Server without Icon & Home Icon */, .expandedFolderBackground-2sPsd-, .closedFolderIconWrapper-15K9MK /* Guild Folder */,
+.acronym-2mOFsV, .childWrapper-anI2G9 /* Server without Icon & Home Icon */, .expandedFolderIconWrapper-Huv7rA, .closedFolderIconWrapper-15K9MK /* Guild Folder */,
 .iconSizeSmol-2Dw61G.iconInactive-98JN5i.noIcon-1a_FrS /* Closed Guild Folder Uniconed Guild */, .wrapper-2a6GCs .channelTextArea-2VhZ6z /* Message Editor */,
 .menu-Sp6bN1 .itemActive-2V2HNc /* Selected Status */, .container-2Pjhx-.selected-aXhQR6 .layout-2DM8Md /* Member List Selected (User Popup open) */,
 .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g /* Primary Card (User Viewing/Editing) */, .messagesPopoutWrap-1MQ1bW .header-ykumBX,
@@ -311,7 +312,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .container-3PXSwK:not([style*="linear-gradient(to right, rgb(251, 184, 72), rgb(67, 181, 129))"]) .progress-1IcQ3A /* Progress Bar Mic Test */, .clickable-11uBi-:active
 /* Message Options Popup Click */, .button-1ZiXG9:active, .button-1ZiXG9.selected-LCBEAU /* Button Chat Actions Click Effect */, .giftCodeContainer-1fbmAS .tile-2OwFgW
 /* Discord Gift Container Chat */, .container-3w7J-x .channelNotice-1-XFjC, .container-3w7J-x .channelNotice-3DDmsB /* Channel Notice */, .footer-3rDWdC.footer-2gL1pp
-/* Footer Hypesquad Modal */, .invite-18yqGF.container-o3RxSG, .invite-18yqGF.preview-yX6Nx7 /* Spotify Container */, .circleIconButton-jET_ig
+/* Footer Hypesquad Modal */, .invite-18yqGF.container-o3RxSG, .invite-18yqGF.preview-yX6Nx7 /* Spotify Container */, .circleIconButton-1QV--U
 /* Server Discovery Button and Add Server Button */, .localBot-GrCgVt::before /* Local Bot Message Background */,
 .activeGame-14JI7o.notDetected-33MY4s /* Non detected game Game Activity Settings */, .actionButton-uPB8Fs:hover /* Friends Action Hover */, .wrapper-3Rixsz.enabled-1t_Gxm:hover,
 .memberListContainer-13tNU9 .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover, .actionButton-uPB8Fs.highlight-Lf97TE:hover /* Friends Table Popout Element Hover Effect */,
@@ -370,8 +371,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Container Channel Drag */, .userSettingsVoice-iwdUCU .sliderBar-3DezvM.speaking-2bFhO4 /* Slider Bar Speaker Test Voice Settings */, .barFill-23-gu- /* Sliderbar Bar Fills */,
 .unreadPill-2HyYtt /* Unread Pill Chat Divider */, .mentioned-xhSam7::before /* Mentioned Message */, .isUnread-3Ef-o9 .content-1o0f9g /* New Day Unread Chat Divider */,
 .wrapper-3WhCwL:hover /* Wrapper Mention/Chat */, .children-rWhLdy .nowPlaying-284llR
-/* Now Playing Game Game Activity */, .circleIconButton-jET_ig.selected-ugP_am /* Selected Server Discovery Button and Add Server Button */, .result-3w1ZcL
-.categoryFadeBlurple-1j72_A, .result-3w1ZcL .categoryFadeBlurple-1j72_A:hover /* GIF Button Favorite */, .iconBadge-2wi9r4.participating-NBGDkr
+/* Now Playing Game Game Activity */, .circleIconButton-1QV--U.selected-1JjBPm /* Selected Server Discovery Button and Add Server Button */, .result-3w1ZcL
+.categoryFadeBlurple-1j72_A, .result-3w1ZcL .categoryFadeBlurple-1j72_A:hover /* GIF Button Favorite */, .iconBadge-3qSJIw.participating-1NvRVd
 /* Icon Badge Voice/Streaming Participating */, .selectorButtonSelected-1j4DmC /* Selected Resolution Screensharing */, .progressBar-2Hd4f8 .barForeground-3KglC8
 /* Server Boosting Progress Foreground Boost Modal */, .mediaBarGrabber-1FqnbN, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl::after, .mediaBarProgress-1xaPtl::before,
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN, .mediaBarInteractionDragging-2QurIZ .mediaBarGrabber-1FqnbN /* Media Player Bar Progress */,
@@ -419,7 +420,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 .checkbox-1ix_J3[style*="rgba(67, 181, 129, 0.15)"] /* Selected Checkmark Notification Settings */,
-.folderIconWrapper-226oVY[style="background-color: rgba(114, 137, 218, 0.4);"] /* Default Color Closed Folder */ {
+.folderIconWrapper-1_bOZe[style="background-color: rgba(114, 137, 218, 0.4);"] /* Default Color Closed Folder */ {
   background: var(--ColAccentAlpha)!important;
 }
 
@@ -438,7 +439,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Progress Bar Server Boost Foreground */, .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV /* Reaction I reacted to */, .updateIconForeground-3tnNZn /* Update Icon */,
 .searchBar-3dMhjb .searchAnswer-3Dz2-q /* Filter Searchbar Guild Search */, .statusGreen-168O6Q /* Status Text Green User Popout */, .hasMore-3e72_v
 /* Load More Messages Button */, .flowerStar-1GeTsn /* Verified Flowerstars */, .unreadPill-2HyYtt .unreadPillCapStroke-7rkHbg /* Unread Pill Fill Color Chat Divider */,
-.wrapper-3WhCwL /* Mentions/Channel */, .circleIconButton-jET_ig /* Add Server/Discovery Buttons */, .tier-12tKuZ .tierUnlocked-25K6Kv /* Unlocked Tier Server Boost Modal */,
+.wrapper-3WhCwL /* Mentions/Channel */, .circleIconButton-1QV--U /* Add Server/Discovery Buttons */, .tier-12tKuZ .tierUnlocked-25K6Kv /* Unlocked Tier Server Boost Modal */,
 .tierHeaderContent-2-YfvN .tierUnlocked-27DwHo /* Unlocked Tier Server Boost Settings */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */,
 .colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS /* Selected Radio and Checkbox color */, .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN
 /* Checkmarks Message Menu */, .operations-36ENbA > a /* Edit Operations */, .sampleLink-2NLvZg /* Sample Links Join Server */, .colorBrand-2tjs5J
@@ -884,11 +885,11 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   background-color: rgba(0, 0, 0, .6)!important;
 }
 
-.guilds-1SWlCJ > .scroller-2TZvBN::-webkit-scrollbar {
+.guilds-1SWlCJ .scroller-1Bvpku::-webkit-scrollbar {
   display: none!important;
 }
 
-.guilds-1SWlCJ:hover > .scroller-2TZvBN::-webkit-scrollbar {
+.guilds-1SWlCJ:hover .scroller-1Bvpku::-webkit-scrollbar {
   display: block!important;
 }
 
@@ -1214,7 +1215,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   background-image: none!important;
 }
 
-.wrapper-3Z-vWm .container-3PXSwK, .wrapper-1Rf91z .progress-1IcQ3A, .wrapper-3Z-vWm {
+.wrapper-3Z-vWm .container-3PXSwK, .wrapper-3NnKdC .progress-1IcQ3A, .wrapper-3Z-vWm {
   border-radius: 20px;
   overflow: hidden;
   height: 8px;
