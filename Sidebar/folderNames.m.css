@@ -2,7 +2,7 @@
   --INTModFolderNames: "    \2022  Folder Names ~ Customa Devs (Sidebar \2192  folderNames.m.css) - Powercord only\A"!important;
 }
 
-.wrapper-21YSNc::before {
+.wrapper-3Njo_c::before {
   content: attr(data-folder-name);
   color: var(--text-normal);
   text-align: center;
@@ -12,6 +12,6 @@
   position: relative;
 }
 
-.expandedFolderBackground-2sPsd- {
+.expandedFolderIconWrapper-Huv7rA {
   top: 20px;
 }
