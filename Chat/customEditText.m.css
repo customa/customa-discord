@@ -4,12 +4,12 @@
   --ContentEditText: "OwO, what was that";
 }
 
-.edited-DL9ECl {
+.edited-3sfAzf {
   visibility: hidden;
   font-size: 0;
 }
 
-.edited-DL9ECl::after {
+.edited-3sfAzf::after {
   visibility: visible!important;
   font-size: .625rem;
   width: fit-content!important;
