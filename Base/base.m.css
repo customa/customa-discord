@@ -1082,20 +1082,20 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   min-width: 232px;
 }
 
-.sidebarScrollable-1qPI87 + .content-1rPSz4 {
+.container-SDBvD6 .sidebarScrollable-1qPI87 + .content-1rPSz4 {
   margin-left: 0;
 }
 
-.sidebarScrollable-1qPI87 .side-8zPYf6::before {
+.container-SDBvD6 .sidebarScrollable-1qPI87 .side-8zPYf6::before {
   display: none;
 }
 
-.sidebarScrollable-1qPI87 .side-8zPYf6 .header-2RyJ0Y {
+.container-SDBvD6 .sidebarScrollable-1qPI87 .side-8zPYf6 .header-2RyJ0Y {
   width: 224px;
   position: unset;
 }
 
-.sidebarScrollable-1qPI87 .side-8zPYf6 > .role-3wi9Tf.item-PXvHYJ {
+.container-SDBvD6 .sidebarScrollable-1qPI87 .side-8zPYf6 > .role-3wi9Tf.item-PXvHYJ {
   margin: 0;
 }
 
@@ -1141,41 +1141,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   border-color: #ffffff;
 }
 
-.powercord-toast-container > div { /* stylelint-disable-line no-descending-specificity */
-  background-color: var(--ColAccent)!important;
-  border-radius: 100%;
-  width: 50px;
-  overflow: hidden;
-  min-width: 50px;
-  max-height: 50px;
-  transition: max-height 1200ms, width 400ms 800ms, border-radius 400ms 1000ms, background-color 400ms 1000ms;
-}
-
-.powercord-toast-container:hover > div { /* stylelint-disable-line no-descending-specificity */
-  background-color: var(--ColBackground1)!important;
-  border-radius: 5px;
-  width: 320px;
-  height: auto;
-  max-height: 3000px;
-  transition: max-height 1200ms 350ms, width 400ms 200ms, border-radius 400ms, background-color 400ms;
-}
-
-.powercord-toast-container:not(:hover) > div .header .icon {
-  font-size: 20px;
-  margin-left: -8px;
-  margin-right: 22px;
-  margin-top: 3px;
-  color: #ffffff;
-  transition: all 400ms 600ms;
-}
-
-.powercord-toast-container:hover > div .header .icon {
-  font-size: 20px;
-  color: #ffffff;
-  transition: all 400ms 400ms;
-  margin-right: 16px;
-}
-
 .powercord-spotify-playlist /* Powercord Spotify Modal Playlists */ {
   background-color: var(--ColTransparent2)!important;
   border: 1px solid transparent!important;
@@ -1185,7 +1150,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   background-color: var(--ColTransparent1)!important;
   border-color: var(--ColAccent)!important;
 }
-
 
 /* Notice */
 .notice-2FJMB4 {
