@@ -5,11 +5,8 @@
   /* Base */
   --INTModBase: "";
   --INTModButtons: "";
-  --INTModColor: "";
   --INTModFont: "";
-  --INTModLightThemeSupport: "";
   --INTModModules: "    \2022  Modules - Customa Devs (Base \2192  modules.m.css)\A"!important;
-  --INTModRound: "";
   --INTModSelection: "";
   --INTModTooltips: "";
   --INTModVariables: "";
@@ -19,19 +16,16 @@
   --INTModCustomEditIcon: "";
   --INTModCustomEditText: "";
   --INTModMessageDividers: "";
-  --INTModEmbedsModernized: "";
   --INTModMoreCompactCozyChat: "";
   --INTModTypingOnRight: "";
 
   /* Emoji */
-  --INTModJumboMoji: "";
   --INTModEmoteZoom: "";
+  --INTModJumboMoji: "";
 
   /* Misc */
-  --INTModAll: "";
-  --INTModCustomStatusColors: "";
   --INTModCustomSettingsModal: "";
-  --INTModiOSToggles: "";
+  --INTModCustomMuteDeafenIcon: "";
   --INTModRainbow: "";
   --INTModSquareAvatars: "";
 
@@ -41,8 +35,6 @@
   --INTModClassicStatusIndicator: "";
   --INTModColoredChannelIcon: "";
   --INTModFolderNames: "";
-  --INTModStatusCircles: "";
-  --INTModStatusQuarters: "";
   --INTModWrapperChannel: "";
   --INTModWrapperGuild: "";
   --INTModWrapperMember: "";
@@ -50,7 +42,6 @@
   /* Titlebar */
   --INTModCakeOSTitlebar: "";
   --INTModCustomWordmark: "";
-  --INTModRestoreOldTitlebar: "";
 
   /* Webkit */
   --INTModAdvancedScrollbar: "";
@@ -58,17 +49,14 @@
   --INTModCustomPlaceholder: "";
 }
 
-.userSettingsAccount-2eMFVR::after {
+.background-1QDuV2::after {
   /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline content is not according to spec but R E A D A B I L I T Y */
   content: "Base:\A "
     var(--INTModBase)
     var(--INTModButtons)
-    var(--INTModColor)
     var(--INTModFont)
-    var(--INTModLightThemeSupport)
     var(--INTModModules)
-    var(--INTModRound)
     var(--INTModSelection)
     var(--INTModTooltips)
     var(--INTModVariables) "\A"
@@ -77,17 +65,14 @@
     var(--INTModCustomEditIcon)
     var(--INTModCustomEditText)
     var(--INTModMessageDividers)
-    var(--INTModEmbedsModernized)
     var(--INTModMoreCompactCozyChat)
     var(--INTModTypingOnRight) "\A"
     "Emoji:\A"
     var(--INTModJumboMoji) 
     var(--INTModEmoteZoom) "\A"
     "Misc:\A"
-    var(--INTModAll)
-    var(--INTModCustomStatusColors)
     var(--INTModCustomSettingsModal)
-    var(--INTModiOSToggles)
+    var(--INTModCustomMuteDeafenIcon)
     var(--INTModRainbow)
     var(--INTModSquareAvatars) "\A"
     "Sidebar:\A"
@@ -96,15 +81,12 @@
     var(--INTModClassicStatusIndicator)
     var(--INTModColoredChannelIcon)
     var(--INTModFolderNames)
-    var(--INTModStatusCircles)
-    var(--INTModStatusQuarters)
     var(--INTModWrapperChannel)
     var(--INTModWrapperGuild)
     var(--INTModWrapperMember) "\A"
     "Titlebar:\A"
     var(--INTModCakeOSTitlebar)
-    var(--INTModCustomWordmark)
-    var(--INTModRestoreOldTitlebar) "\A"
+    var(--INTModCustomWordmark) "\A"
     "Webkit:\A"
     var(--INTModAdvancedScrollbar)
     var(--INTModCustomPlaceholder)

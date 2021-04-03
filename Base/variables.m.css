@@ -4,10 +4,7 @@
   /* Base */
   --INTVarBase: "";
   --INTVarButtons: "";
-  --INTVarColor: "";
   --INTVarFont: "";
-  --INTVarLightThemeSupport: "";
-  --INTVarRound: "";
   --INTVarSelection: "";
   --INTVarTooltips: "";
 
@@ -23,13 +20,11 @@
 
   /* Misc */
   --INTVarCustomSettingsModal: "";
-  --INTVarCustomStatusColors: "";
+  --INTVarCustomMuteDeafenIcon: "";
   --INTVarRainbow: "";
 
   /* Sidebar */
   --INTVarColoredChannelIcon: "";
-  --INTVarStatusCircles: "";
-  --INTVarStatusQuarters: "";
   --INTVarWrapperChannel: "";
   --INTVarWrapperGuild: "";
   --INTVarWrapperMember: "";
@@ -56,26 +51,23 @@
     "BASE"
     var(--INTVarBase)
     var(--INTVarButtons)
-    var(--INTVarColor)
     var(--INTVarFont)
-    var(--INTVarLightThemeSupport)
-    var(--INTVarRound)
     var(--INTVarSelection)
     var(--INTVarTooltips) "\A\A\A"
     "CHAT"
+    var(--INTVarBetterFileTypes)
     var(--INTVarCustomEditIcon)
     var(--INTVarCustomEditText)
     var(--INTVarMoreCompactCozyChat) "\A\A\A"
     "EMOJI"
+    var(--INTVarEmoteZoom)
     var(--INTVarJumboMoji) "\A\A\A"
     "MISC"
     var(--INTVarCustomSettingsModal)
-    var(--INTVarCustomStatusColors)
+    var(--INTVarCustomMuteDeafenIcon)
     var(--INTVarRainbow) "\A\A\A"
     "SIDEBAR"
     var(--INTVarColoredChannelIcon)
-    var(--INTVarStatusCircles)
-    var(--INTVarStatusQuarters)
     var(--INTVarWrapperChannel)
     var(--INTVarWrapperGuild)
     var(--INTVarWrapperMember) "\A\A\A"
