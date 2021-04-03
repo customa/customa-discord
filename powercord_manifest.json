@@ -624,26 +624,6 @@
             }
         },
         {
-            "name": "Custom Status Color",
-            "description": "Custom colors for the voice chat status",
-            "file": "./Misc/customStatusColors.m.css",
-            "settings": {
-                "format": "css",
-                "options": [
-                    {
-                        "name": "Color Server Muted",
-                        "variable": "ColServerStatus",
-                        "type": "color_alpha"
-                    },
-                    {
-                        "name": "Color Client Muted",
-                        "variable": "ColClientStatus",
-                        "type": "color_alpha"
-                    }
-                ]
-            }
-        },
-        {
             "name": "Rainbow",
             "description": "Joke Module! Applies a rotating hue filter over the entire application",
             "file": "./Misc/rainbow.m.css",
