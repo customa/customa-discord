@@ -10,11 +10,15 @@
   /* stylelint-enable */
 }
 
-.tooltipBlack-PPG47z /* Tooltips */, .mediaBarWrapper-3D7r67 .bubble-3qRl2J /* Media Time Bubbles */ {
+.tooltipPrimary-1d1ph4 /* Tooltips */, .mediaBarWrapper-3D7r67 .bubble-3qRl2J /* Media Time Bubbles */ {
   background-color: var(--ColBackgroundTooltip)!important;
   color: var(--ColTextTooltip)!important;
 }
 
-.tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+.tooltipPrimary-1d1ph4 .tooltipContent-bqVLWK .row-1c01mR * {
+  color: var(--ColTextTooltip)!important;
+}
+
+.tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {
   border-top-color: var(--ColBackgroundTooltip)!important;
 }
