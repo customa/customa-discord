@@ -35,7 +35,7 @@ Bold statement don't you think? Let me keep up with the statement from above...
 
 ## 1. The Backstory
 
-I ([Ghostly.](https://github.com/ghostlydot/)) started working on a theme in June 2017. It started off as some test how easy it would be to work with Discord's CSS/HTML. I quickly found a style I liked and showed the theme to others, which resulted in a few people beta testing my theme. As more time passed I realized that a distribution using Discord, just passing the theme.css file, was just way too tedious. With a newly created Github account I started uploading the entire theme onto GitHub and just sent out a file linking to my repo. After rewriting the theme for a couple of times I realized that not all features are wanted by everyone, so I seperated some functionality into seperate css files -> Modules.
+I ([ghostlydilemma](https://github.com/GhostlyDilemma/)) started working on a theme in June 2017. It started off as some test how easy it would be to work with Discord's CSS/HTML. I quickly found a style I liked and showed the theme to others, which resulted in a few people beta testing my theme. As more time passed I realized that a distribution using Discord, just passing the theme.css file, was just way too tedious. With a newly created Github account I started uploading the entire theme onto GitHub and just sent out a file linking to my repo. After rewriting the theme for a couple of times I realized that not all features are wanted by everyone, so I seperated some functionality into seperate css files -> Modules.
 
 In about 1 year and 2 months I rewrote the entire theme 4 times until it has become the complete modular system it is today.
 
@@ -86,8 +86,8 @@ For this the Import Feature of CSS is used:
 For this the Root and Variable Feature of CSS is used:
 ```css
 :root {
-    --option: "setting";
-    --colorOption: #123456;
+  --option: "setting";
+  --colorOption: #123456;
 }
 ```
 
@@ -96,9 +96,9 @@ You should end up with something like this:
 @import url("https://customa.gitlab.io/Customa-Discord/Base/base.m.css");
 
 :root {
-    --ColAppBG: #161621;
-    --ColBackground1: #161621;
-    --ColBackground2: #212126;
+  --ColAppBG: #161621;
+  --ColBackground1: #161621;
+  --ColBackground2: #212126;
     ...
 }
 ```
@@ -143,9 +143,9 @@ The Customa.css file:
 @import url("https://customa.gitlab.io/Customa-Discord/Base/base.m.css");
 
 :root {
-    --ColAppBG: #161621;
-    --ColBackground1: #161621;
-    --ColBackground2: #212126;
+  --ColAppBG: #161621;
+  --ColBackground1: #161621;
+  --ColBackground2: #212126;
     ...
 }
 ```
