@@ -32,7 +32,8 @@
 }
 
 code.inline, code.inline span /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .inlineCode-2ngu6Y span /* Inline Codeblock Textarea */, 
-.codeLine-14BKbG span, .codeBlockText-11zCaP span /* Normal Codeblock Textarea */, .message-2qnXI6 .messageContent-2qWWxC pre code.hljs * /* Codeblocks */ {
+.codeLine-14BKbG span, .codeBlockText-11zCaP span /* Normal Codeblock Textarea */, .message-2qnXI6 .messageContent-2qWWxC pre code.hljs * /* Codeblocks */, 
+code.codeView-1JPDeA /* Inline Files Preview */, .CodeMirror-code * /* Powercord CustomCSS Code Editor */ {
   font-family: var(--FontMonoFamily)!important;
 }
 
