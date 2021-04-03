@@ -364,34 +364,6 @@
             "file": "./Base/modules.m.css"
         },
         {
-            "name": "Round",
-            "description": "Rounds the Discord chat area",
-            "file": "./Base/round.m.css",
-            "settings": {
-                "format": "css",
-                "options": [
-                    {
-                        "name": "Corner Radius Chat Area",
-                        "variable": "SizeCornerRadius",
-                        "description": "Size of the Corner Radius applied to the insides of the chat area",
-                        "type": "number",
-                        "unit": [
-                            "$scale"
-                        ]
-                    },
-                    {
-                        "name": "Corner Radius of Powercords Spotify Container",
-                        "variable": "SizeSpotifyRadius",
-                        "description": "Size of the Corner Radius applied to Powercords Spotify Container",
-                        "type": "number",
-                        "unit": [
-                            "$scale"
-                        ]
-                    }
-                ]
-            }
-        },
-        {
             "name": "Selection",
             "description": "Allows for custom highlight colors",
             "file": "./Base/selection.m.css",
@@ -956,11 +928,6 @@
                     }
                 ]
             }
-        },
-        {
-            "name": "Classic Titlebar",
-            "description": "Restores the old Discord Windows titlebar",
-            "file": "./Titlebar/restoreOldTitlebar.m.css"
         },
         {
             "name": "Advanced Scrollbar",
