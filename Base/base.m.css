@@ -105,7 +105,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Wrapper New Command Handler Bot List */, .bar-AokMp3 /* Command usage */, .guildIcon-3Co6k- /* Transparent Guild Icon "Inbox" */, .theme-dark > .messageContainer-1DiFnQ
 /* New Role Menu Message Preview Dark Theme */, .settingCard-3w2mVL.active-1ytUzX /* Private Channel Settings Card Backround */, .settingCard-3w2mVL 
 /* Settings Card Private Channel Unopened */, .image-tools-modal-footer.footer-1fjuF6, .image-tools-modal-footer.footer-1fjuF6 .content .buttons div > div 
-/* Image Tools Plugin Support */ {
+/* Image Tools Plugin Support */, .textContainer-C0szpm /* Inline File Preview Body */, .modalTextContainer-ITvzbi /* Modal Preview Text File */ {
   background-color: transparent;
 }
 
@@ -275,7 +275,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Default Roles Button New Role Overview + Icon */, .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb) /* New Role Menu Top Bar */, 
 .row-3GRgeK:hover:not(.rowSelected-1AHq2T) /* Selected Row New Role Menu */, .cardFolder-28dwxo /* Private Channel Settings Body */, .addMemberRow-3-w-9X.selectedRow-1QP7qb
 /* Private Channel Add Role/User */, .item-1yAxl1 /* Permission Button */, .phoneVerificationModal-OzcDc3 .input-3yHnCz /* Telephone Verification Modal Input Field */, 
-.expandedFolderBackground-1cujaW /* Open Folder Background */ {
+.expandedFolderBackground-1cujaW /* Open Folder Background */, .container-1pMiXm /* Inline File Preview */, .footer-2yA7Ep /* Inline File Preview Footer */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -495,7 +495,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .game-1ipmAa.card-FDVird::before /* Game Activity Saved Games */, .gameNameLastPlayed-3LJo8n .gameNameInput-385LoS /* Game Name Input */, .css-1rckt42-menu
 /* Selection Menu Guild Discovery */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */, .activityPanel-28dQGo /* Go Live Panel */, .powercord-quickcss
 .CodeMirror-gutters /* Powercord QuickCSS Not Popped Out */, .copyInput-1T2hfb input:hover, .copyInput-1T2hfb input:focus, .copyInput-1T2hfb input /* Copyinput Server Invite */,
-.card-2Mz_4z /* Cards Screen Share (Channel and Window) */, .lookFilled-22uAsw.select-2fjwPw /* Payment method container */ {
+.card-2Mz_4z /* Cards Screen Share (Channel and Window) */, .lookFilled-22uAsw.select-2fjwPw /* Payment method container */, .textContainer-C0szpm /* Inline File Preview Body */, 
+.footer-2yA7Ep /* Inline File Preview Footer */, .modalTextContainer-ITvzbi /* Modal Preview Text File */ {
   border: none;
 }
 
@@ -1523,7 +1524,6 @@ path.fill {
   background-color: var(--ColBackground1);
   top: auto;
   bottom: 0;
-  /* left: auto!important; */
   padding: 0!important;
   right: 0!important;
   z-index: 1000!important;
