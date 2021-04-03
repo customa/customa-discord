@@ -1,8 +1,8 @@
 :root {
-  --INTModCustomStatusColors: "    \2022  custom status colors ~ rai (Misc \2192  customStatusColors.m.css)\A"!important;
+  --INTModCustomMuteDeafenIcon: "    \2022  custom status colors ~ rai (Misc \2192  customStatusColors.m.css)\A"!important;
   /* stylelint-disable declaration-colon-newline-after */
   /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
-  --INTVarCustomStatusColors: "\A\A custom status colors - Module"
+  --INTVarCustomMuteDeafenIcon: "\A\A custom status colors - Module"
     "\A \2022  --ColServerStatus \2192  Allowed Values: Color"
     "\A \2022  --ColClientStatus \2192  Allowed Values: Color"!important;
   /* stylelint-enable */
@@ -11,11 +11,11 @@
 }
 
 /* client status */
-[aria-label="Muted"] > .icon-3BcwQu, [aria-label="Deafened"] > .icon-3BcwQu {
+[aria-label="Muted"] > .icon-2IuuZd, [aria-label="Deafened"] > .icon-2IuuZd {
   color: var(--ColClientStatus);
 }
 
 /* server status */
-[aria-label="Server Muted"] > .icon-3BcwQu, [aria-label="Server Deafened"] > .icon-3BcwQu {
+[aria-label="Server Muted"] > .icon-2IuuZd, [aria-label="Server Deafened"] > .icon-2IuuZd {
   color: var(--ColServerStatus);
 }
