@@ -19,8 +19,10 @@
 }
 
 .base-3dtUhz {
-  transform: translateX(0);
+  position: absolute;
   left: 16px;
+  width: calc(100% - 16px);
+  transform: translateX(0);
   transition: all 400ms;
 }
 
