@@ -1,3 +1,12 @@
+---
+name: Feature request
+about: Suggest an idea for this project
+title: ''
+labels: ''
+assignees: ghostlydilemma
+
+---
+
 **Feature Request for**: *Feature*
 
 Description: *Description here*
