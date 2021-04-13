@@ -1915,7 +1915,7 @@ html::before {
 }
 
 /* New command handler */ 
-.autocomplete-1vrmpx.outerWrapper-3-llkA /* New Command handler */ {
+.autocomplete-1vrmpx.outerWrapper-3-llkA {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   bottom: 52px;
@@ -1929,4 +1929,9 @@ html::before {
 
 .image-tools-modal-footer .downloadLink-1ywL9o, .image-tools-modal-footer div[role="button"], .image-tools-modal-footer .buttons > div > div {
   pointer-events: all;
+}
+
+/* User Popout/Modal Note */
+textarea.textarea-2r0oV8.input-cIJ7To {
+  padding: 8px;
 }
