@@ -10,7 +10,12 @@ Please note that we have a code of conduct, please follow it in all your interac
 1. Ensure that you follow our code styling standards. We use [Stylelint](https://stylelint.io/) with pretty strict settings. Make sure that your development environment supports stylelint, otherwise your Pull Request will be denied.
 2. Since Customa consists of a few small themes we decided to have a versioning system for each of them which can be seen on every commit message.
    Most of the time consulting a team member will clear up a bit of confusion regarding versioning.<br><br>We use a version numbering system somewhat similar to [SemVer](https://semver.org/) but slightly adjusted to fit our needs a bit better:
-   <br><br>REWRITE.MAJOR.MINOR.PATCH 1. REWRITE: Complete rewrite of the module 2. MAJOR: Since compatibility is no concern, this mostly refers to commit size (Major commit rewriting/adding a substantial part of a module) 3. MINOR: Since compatibility is no concern, this mostly refers to commit size (Minor commit rewriting/adding a small part of a module) 4. PATCH: For very small changes
+   <br><br>REWRITE.MAJOR.MINOR.PATCH 
+   
+   1. REWRITE: Complete rewrite of the module 
+   2. MAJOR: Since compatibility is no concern, this mostly refers to commit size (Major commit rewriting/adding a substantial part of a module) 
+   3. MINOR: Since compatibility is no concern, this mostly refers to commit size (Minor commit rewriting/adding a small part of a module) 
+   4. PATCH: For very small changes
 
 ## Code of Conduct
 
