@@ -602,7 +602,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 
 .avatarSpeaking-2IGMRN /* Avatar Speaking Guild Voicechat */, .content-ySCtCx .focused-1En8bG::after, .content-ySCtCx .result-3w1ZcL:hover::after
 /* Hovered/Focused Element GIF Picker */, .tile-2silOL:hover .sourceThumbnail-14Iubx /* Go Live Hover Effect Program */, .border-Jn5IOt.speaking-B2MXPi,
-.border-3dQmSY.speaking-WDn8Wm /* DM Call Speaking */ {
+.border-3dQmSY.speaking-WDn8Wm /* DM Call Speaking */, .avatarSpeaking-2c8-9i /* Small Avatar Speaking */ {
   box-shadow: inset 0 0 0 2px var(--ColAccent), inset 0 0 0 3px var(--ColBackground1);
 }
 
