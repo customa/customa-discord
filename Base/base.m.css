@@ -105,7 +105,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Wrapper New Command Handler Bot List */, .bar-AokMp3 /* Command usage */, .guildIcon-3Co6k- /* Transparent Guild Icon "Inbox" */, .theme-dark > .messageContainer-1DiFnQ
 /* New Role Menu Message Preview Dark Theme */, .settingCard-3w2mVL.active-1ytUzX /* Private Channel Settings Card Backround */, .settingCard-3w2mVL
 /* Settings Card Private Channel Unopened */, .image-tools-modal-footer.footer-1fjuF6, .image-tools-modal-footer.footer-1fjuF6 .content .buttons div > div
-/* Image Tools Plugin Support */, .textContainer-C0szpm /* Inline File Preview Body */, .modalTextContainer-ITvzbi /* Modal Preview Text File */ {
+/* Image Tools Plugin Support */, .textContainer-C0szpm /* Inline File Preview Body */, .modalTextContainer-ITvzbi /* Modal Preview Text File */, .replyBar-1YLQ2F
+/* Replybar */, .headerTop-2y3V6H, .headerNormal-1l1Znk /* User Popout New */ {
   background-color: transparent;
 }
 
@@ -202,7 +203,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* New Friends Table */, .container-3Mxszk /* Games Library */, .wrapper-2tAnRe .total-i6us2n /* Wrapper Indicator User in Voice Channel */, .base-3dtUhz .pageWrapper-1PgVDX
 /* Discovery Area */, .noChannel-Z1DQK7 /* Loading or outage */, .formSection-1NFAGI /* Server Template Modal Right side */, .guildList-3cJX3d .iconMask-3b8GzQ
 /* Server Icon Discover */, .guildList-3cJX3d .card-3DjzTQ:hover .iconMask-3b8GzQ  /* Server Icon Discovery Hover */, .powercord-text.powercord-sdk /* Powercord SDK Background */,
-.stickyHeader-hH_ZLl, .header-2mZ9Ov, .titleContainer-2CXtJo /* Sticky Header new Role Menu */ {
+.stickyHeader-hH_ZLl, .header-2mZ9Ov, .titleContainer-2CXtJo /* Sticky Header new Role Menu */, .stageSection-3mAD8V /* Stage Discovery Background */ {
   background-color: var(--ColBackground2);
 }
 
@@ -276,7 +277,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Default Roles Button New Role Overview + Icon */, .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb) /* New Role Menu Top Bar */,
 .row-3GRgeK:hover:not(.rowSelected-1AHq2T) /* Selected Row New Role Menu */, .cardFolder-28dwxo /* Private Channel Settings Body */, .addMemberRow-3-w-9X.selectedRow-1QP7qb
 /* Private Channel Add Role/User */, .item-1yAxl1 /* Permission Button */, .phoneVerificationModal-OzcDc3 .input-3yHnCz /* Telephone Verification Modal Input Field */,
-.expandedFolderBackground-1cujaW /* Open Folder Background */, .container-1pMiXm /* Inline File Preview */, .footer-2yA7Ep /* Inline File Preview Footer */ {
+.expandedFolderBackground-1cujaW /* Open Folder Background */, .container-1pMiXm /* Inline File Preview */, .footer-2yA7Ep /* Inline File Preview Footer */, .stageSection-3mAD8V
+.container-S9SaVf /* Stage Discovery Join Box */, .container-7Unqij /* Stage Discovery Listener */ {
   background-color: var(--ColTransparent2);
 }
 
@@ -349,7 +351,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX /* Selected Voice User */, .item-26Dhrx:hover:not([aria-checked="true"]) /* Radio Button Settings */,
 .selectorButtonPremiumRequired-mKMbIu /* Locked Selector Button Screen Share */, .searchHeader-2XoQg7 .tab-2j5AEF.selected-2LAck8 /* Selected tab Search */, .button-11zvza
 /* Search Buttons */, .option-3KoAJB[aria-selected="true"] /* Selected Payment method */, .cardContent-qqqwo8 /* Private Channel Settings Header */, .item-1yAxl1:hover
-/* Permission Button */, .section-2gLsgF /* Sidebar Friends List Activity */ {
+/* Permission Button */, .section-2gLsgF /* Sidebar Friends List Activity */, .stageSection-3mAD8V .container-S9SaVf:hover /* Stage Discovery Join Box */  {
   background-color: var(--ColTransparent1);
 }
 
@@ -1895,7 +1897,9 @@ html::before {
   position: absolute;
   top: -34px;
   display: inline-flex;
-  height: 34px;
+  padding-top: 8px;
+  height: 26px;
+  border-radius: 8px 8px 0 0;
 }
 
 .container-2fRDfG .text-15b_0l {
