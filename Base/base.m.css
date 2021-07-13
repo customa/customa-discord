@@ -185,7 +185,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Powercord QuickCSS Not Popped Out */, .exampleModal-2X2Vf8 /* Welcome Modal */, .premiumPromo-fVlLu- /* Premium Promo Emoji Picker */, .stickerCategoryShopWrapper-3EnJdQ
 /* Sticker Category Shop Wrapper */, .container-2fRDfG /* Inline Reply Container */, .autocomplete-1vrmpx.outerWrapper-3-llkA /* New Command handler */, .categoryHeader-O1zU94
 /* Category Header Command Handler */, .popout-VcNcHB /* Select Popout Payment method */, .contentColumn-2hrIYH .smartTypers-preview  /* Smart Typers Preview */,
-.container-lRFx4q /* Active Now Playing Sidebar Friends */ {
+.container-lRFx4q /* Active Now Playing Sidebar Friends */, .autocomplete-1vrmpx.autocomplete-OOX59Q {
   background-color: var(--ColBackground1);
 }
 
