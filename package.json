@@ -20,7 +20,7 @@
     "devDependencies": {
         "gulp": "^4.0.2",
         "gulp-clean-css": "^4.3.0",
-        "node-fetch": "^2.6.1",
+        "node-fetch": "^2.6.7",
         "stylelint": "^13.7.2"
     }
 }
